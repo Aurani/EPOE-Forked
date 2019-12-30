@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallNaturalEye.label>Пересадить глаз</InstallNaturalEye.label>
+	<InstallNaturalEye.description>Пересадить глаз.</InstallNaturalEye.description>
+    <InstallNaturalEye.jobString>Пересаживает глаз.</InstallNaturalEye.jobString>
+
+	<InstallNaturalNose.label>Пересадить нос</InstallNaturalNose.label>
+	<InstallNaturalNose.description>Пересадить нос.</InstallNaturalNose.description>
+    <InstallNaturalNose.jobString>Пересаживает нос.</InstallNaturalNose.jobString>
+
+	<InstallNaturalEar.label>Пересадить ухо</InstallNaturalEar.label>
+	<InstallNaturalEar.description>Пересадить ухо.</InstallNaturalEar.description>
+    <InstallNaturalEar.jobString>Пересаживает ухо</InstallNaturalEar.jobString>
+
+	<InstallNaturalJaw.label>Пересадить челюсть</InstallNaturalJaw.label>
+	<InstallNaturalJaw.description>Пересадить челюсть.</InstallNaturalJaw.description>
+    <InstallNaturalJaw.jobString>Пересаживает челюсть</InstallNaturalJaw.jobString>
+
+	<InstallNaturalArm.label>Пересадить руку</InstallNaturalArm.label>
+	<InstallNaturalArm.description>Пересадить руку.</InstallNaturalArm.description>
+    <InstallNaturalArm.jobString>Пересаживает руку</InstallNaturalArm.jobString>
+
+	<InstallNaturalLeg.label>Пересадить ногу</InstallNaturalLeg.label>
+	<InstallNaturalLeg.description>Пересадить ногу.</InstallNaturalLeg.description>
+    <InstallNaturalLeg.jobString>Пересаживает ногу</InstallNaturalLeg.jobString>
+
+	<InstallNaturalStomach.label>Пересадить желудок</InstallNaturalStomach.label>
+	<InstallNaturalStomach.description>Пересадить желудок.</InstallNaturalStomach.description>
+    <InstallNaturalStomach.jobString>Пересаживает желудок</InstallNaturalStomach.jobString>
+
+</LanguageData>

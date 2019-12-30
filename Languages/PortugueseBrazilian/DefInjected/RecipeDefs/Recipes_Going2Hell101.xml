@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<LanguageData>
+      <MinceOrgans.label>Picar Orgãos</MinceOrgans.label>
+      <MinceOrgans.description>Picar orgãos, da uma ótima carne comestivel. Uma otima refeição para os Prisioneiros...</MinceOrgans.description>
+      <MinceOrgans.jobString>Picando orgãos</MinceOrgans.jobString>
+
+      <MinceLimbs.label>Picar Membros</MinceLimbs.label>
+      <MinceLimbs.description>Picar membros pode transformar em carne comestivel. Cuidado com Prego nos Pés.</MinceLimbs.description>
+      <MinceLimbs.jobString>Picando membros humanos</MinceLimbs.jobString>
+	  
+ </LanguageData>

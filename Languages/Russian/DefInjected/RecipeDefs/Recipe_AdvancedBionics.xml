@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallAdvancedPowerArm.label>Установить улучшенную силовую руку</InstallAdvancedPowerArm.label>
+	<InstallAdvancedPowerArm.description>Установить улучшенную силовую руку.</InstallAdvancedPowerArm.description>
+	<InstallAdvancedPowerArm.jobString>Устанавливает улучшенную силовую руку.</InstallAdvancedPowerArm.jobString>
+	
+	<InstallAdvancedBionicArm.label>Вживить улучшенную бионическую руку</InstallAdvancedBionicArm.label>
+	<InstallAdvancedBionicArm.description>Вживить улучшенную бионическую руку.</InstallAdvancedBionicArm.description>
+	<InstallAdvancedBionicArm.jobString>Вживляет улучшенную бионическую руку.</InstallAdvancedBionicArm.jobString>
+
+	
+	<InstallAdvancedBionicLeg.label>Вживить улучшенную бионическую ногу</InstallAdvancedBionicLeg.label>
+	<InstallAdvancedBionicLeg.description>живить улучшенную бионическую ногу.</InstallAdvancedBionicLeg.description>
+	<InstallAdvancedBionicLeg.jobString>Вживляет улучшенную бионическую ногу.</InstallAdvancedBionicLeg.jobString>
+
+	
+	<InstallAdvancedBionicHand.label>Вживить улучшенную бионическую кисть</InstallAdvancedBionicHand.label>
+	<InstallAdvancedBionicHand.description>Вживить улучшенную бионическую кисть.</InstallAdvancedBionicHand.description>
+	<InstallAdvancedBionicHand.jobString>Вживляет улучшенную бионическую кисть.</InstallAdvancedBionicHand.jobString>
+
+	
+	<InstallAdvancedBionicFoot.label>Вживить улучшенную бионическую ступню</InstallAdvancedBionicFoot.label>
+	<InstallAdvancedBionicFoot.description>Вживить улучшенную бионическую ступню.</InstallAdvancedBionicFoot.description>
+	<InstallAdvancedBionicFoot.jobString>Вживляет улучшенную бионическую ступню.</InstallAdvancedBionicFoot.jobString>
+
+	
+	<InstallAdvancedBionicEye.label>Вживить улучшенный бионический глаз</InstallAdvancedBionicEye.label>
+	<InstallAdvancedBionicEye.description>Вживить улучшенный бионический глаз.</InstallAdvancedBionicEye.description>
+	<InstallAdvancedBionicEye.jobString>Вживляет улучшенный бионический глаз.</InstallAdvancedBionicEye.jobString>
+
+	
+	<InstallAdvancedBionicEar.label>Вживить улучшенное бионическое ухо</InstallAdvancedBionicEar.label>
+	<InstallAdvancedBionicEar.description>Вживить улучшенное бионическое ухо.</InstallAdvancedBionicEar.description>
+	<InstallAdvancedBionicEar.jobString>Вживляет улучшенное бионическое ухо.</InstallAdvancedBionicEar.jobString>
+
+	
+	<InstallAdvancedBionicJaw.label>Вживить улучшенную бионическую челюсть</InstallAdvancedBionicJaw.label>
+	<InstallAdvancedBionicJaw.description>Вживить улучшенную бионическую челюсть.</InstallAdvancedBionicJaw.description>
+	<InstallAdvancedBionicJaw.jobString>Вживляет улучшенную бионическую челюсть.</InstallAdvancedBionicJaw.jobString>
+
+	
+	<InstallAdvancedBionicSpine.label>Вживить улучшенный бионический позвоночник</InstallAdvancedBionicSpine.label>
+	<InstallAdvancedBionicSpine.description>Вживить улучшенный бионический позвоночник.</InstallAdvancedBionicSpine.description>
+	<InstallAdvancedBionicSpine.jobString>Вживляет улучшенный бионический позвоночник.</InstallAdvancedBionicSpine.jobString>
+	
+	<InstallExoskeletonSuit.label>Установить экзоскелет</InstallExoskeletonSuit.label>
+	<InstallExoskeletonSuit.description>Установить экзоскелет.</InstallExoskeletonSuit.description>
+	<InstallExoskeletonSuit.jobstring>Устанавливает экзоскелет.</InstallExoskeletonSuit.jobstring>
+	
+</LanguageData>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateBionicEye.label>Смастерить бионический глаз</CreateBionicEye.label>
+	<CreateBionicEye.description>Создание бионического глаза из пластали.</CreateBionicEye.description>
+	<CreateBionicEye.jobString>Создаёт бионический протез.</CreateBionicEye.jobString>
+	
+	<CreatePowerArm.label>Смастерить силовую руку</CreatePowerArm.label>
+	<CreatePowerArm.description>Установить силовой коготь на бионическую руку не то просто как кажется, но блин, это круто!</CreatePowerArm.description>
+	<CreatePowerArm.jobString>Создаёт бионический протез.</CreatePowerArm.jobString>
+	
+	<CreateBionicArm.label>Смастерить бионическую руку</CreateBionicArm.label>
+	<CreateBionicArm.description>Улучшение простого протеза руки с помощью пластали и компонентов.</CreateBionicArm.description>
+	<CreateBionicArm.jobString>Создаёт бионический протез.</CreateBionicArm.jobString>
+
+	<CreateBionicHand.label>Смастерить бионическую кисть</CreateBionicHand.label>
+	<CreateBionicHand.description>Улучшение простого протеза кисти с помощью пластали и компонентов.</CreateBionicHand.description>
+	<CreateBionicHand.jobString>Создаёт бионический протез.</CreateBionicHand.jobString>
+
+	<CreateBionicFoot.label>Смастерить бионическую ступню</CreateBionicFoot.label>
+	<CreateBionicFoot.description>Улучшение простого протеза ступни с помощью пластали и компонентов.</CreateBionicFoot.description>
+	<CreateBionicFoot.jobString>Создаёт бионический протез.</CreateBionicFoot.jobString>
+
+	<CreateBionicLeg.label>Смастерить бионическую ногу</CreateBionicLeg.label>
+	<CreateBionicLeg.description>Улучшение простого протеза ноги с помощью пластали и компонентов.</CreateBionicLeg.description>
+	<CreateBionicLeg.jobString>Создаёт бионический протез.</CreateBionicLeg.jobString>
+
+	<CreateBionicEar.label>Смастерить бионическое ухо</CreateBionicEar.label>
+	<CreateBionicEar.description>Создание бионического уха из пластали.</CreateBionicEar.description>
+	<CreateBionicEar.jobString>Создаёт бионический протез.</CreateBionicEar.jobString>
+
+	<CreateBionicJaw.label>Смастерить бионическую челюсть</CreateBionicJaw.label>
+	<CreateBionicJaw.description>Создание бионической челюсти из стали и пластали. </CreateBionicJaw.description>
+	<CreateBionicJaw.jobString>Создаёт бионический протез.</CreateBionicJaw.jobString>
+
+	<CreateSilentJaw.label>Смастерить "молчаливую" челюсть</CreateSilentJaw.label>
+	<CreateSilentJaw.description>Создание бионической "молчаливой" челюсти из стали и пластали.</CreateSilentJaw.description>
+	<CreateSilentJaw.jobString>Создаёт бионический протез.</CreateSilentJaw.jobString>
+
+	<CreateBionicSpine.label>Смастерить бионический позвоночник</CreateBionicSpine.label>
+	<CreateBionicSpine.description>Создание бионического позвоночника из стали и пластали.</CreateBionicSpine.description>
+	<CreateBionicSpine.jobString>Создаёт бионический протез.</CreateBionicSpine.jobString>
+
+	<CreateMedicalRib.label>Смастерить медицинское ребро</CreateMedicalRib.label>
+	<CreateMedicalRib.description>Создание медицинского ребра из пластали и передовых медикаментов.</CreateMedicalRib.description>
+	<CreateMedicalRib.jobString>Создаёт бионический протез.</CreateMedicalRib.jobString>
+
+	<CreateDruggedRib.label>Смастерить стимулирующее ребро</CreateDruggedRib.label>
+	<CreateDruggedRib.description>Создание стимулирующего ребра из пластали и пива.</CreateDruggedRib.description>
+	<CreateDruggedRib.jobString>Создаёт бионический протез.</CreateDruggedRib.jobString>
+	
+	<CreateAdrenalineRib.label>Смастерить адреналиновое ребро</CreateAdrenalineRib.label>
+	<CreateAdrenalineRib.description>Создание адреналинового ребра из пластали и психина(порошок)</CreateAdrenalineRib.description>
+	<CreateAdrenalineRib.jobstring>Создаёт бионический протез.</CreateAdrenalineRib.jobstring>
+	
+	<CreatePainkillerRib.label>Смастерить обезболивающее ребро</CreatePainkillerRib.label>
+	<CreatePainkillerRib.description>Создание обезболивающего ребра из пластали и Go-сока.</CreatePainkillerRib.description>
+	<CreatePainkillerRib.jobstring>Создаёт бионический протез.</CreatePainkillerRib.jobstring>
+	
+</LanguageData>

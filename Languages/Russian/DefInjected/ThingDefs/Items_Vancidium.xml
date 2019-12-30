@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Vancidium.label>Вансидиум</Vancidium.label>
+	<Vancidium.description>Дорогой и качественный материал сделанный по последнему слову техники. Ярко блестит.</Vancidium.description>
+	
+	<AdvancedComponents.label>продвинутые компоненты</AdvancedComponents.label>
+	<AdvancedComponents.description>Как обычные компоненты, только лучше и синие.</AdvancedComponents.description>
+
+</LanguageData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateBrainStimulator.label>Criar Simulador cérébral</CreateBrainStimulator.label>
+	<CreateBrainStimulator.description>Cria Simulador cérébral.</CreateBrainStimulator.description>
+    <CreateBrainStimulator.jobString>Criando um Simulador cérébral</CreateBrainStimulator.jobString>
+	
+	<CreateSurrogateLung.label>Criar Pulmão Artificial</CreateSurrogateLung.label>
+	<CreateSurrogateLung.description>Cria Pulmão Artificial.</CreateSurrogateLung.description>
+    <CreateSurrogateLung.jobString>Criando um Pulmão Artificial</CreateSurrogateLung.jobString>
+	
+	<CreateSurrogateStomach.label>Criar Estomago Artificial</CreateSurrogateStomach.label>
+	<CreateSurrogateStomach.description>Cria Estomago Artificial.</CreateSurrogateStomach.description>
+    <CreateSurrogateStomach.jobString>Criando um Estomago Artificial</CreateSurrogateStomach.jobString>
+	
+	<CreateSurrogateLiver.label>Criar Figado Artificial</CreateSurrogateLiver.label>
+	<CreateSurrogateLiver.description>Cria Figado Artificial.</CreateSurrogateLiver.description>
+    <CreateSurrogateLiver.jobString>Criando um Figado Artificial</CreateSurrogateLiver.jobString>
+
+	<CreateSurrogateKidney.label>Criar Rim Artificial</CreateSurrogateKidney.label>
+	<CreateSurrogateKidney.description>Cria Rim Artificial.</CreateSurrogateKidney.description>
+    <CreateSurrogateKidney.jobString>Criando um Rim Artificial</CreateSurrogateKidney.jobString>
+	
+	<CreateSurrogateHeart.label>Criar Coração Artificial</CreateSurrogateHeart.label>
+	<CreateSurrogateHeart.description>Cria Coração Artificial.</CreateSurrogateHeart.description>
+    <CreateSurrogateHeart.jobString>Criando um Coração Artificial</CreateSurrogateHeart.jobString>
+	
+</LanguageData>

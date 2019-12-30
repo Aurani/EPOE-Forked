@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateBrainStimulator.label>Смастерить стимулятор мозга</CreateBrainStimulator.label>
+	<CreateBrainStimulator.description>Создание простого стимулятора мозга из компонентов, пластали и ткани.</CreateBrainStimulator.description>
+    <CreateBrainStimulator.jobString>Создает заменитель органа.</CreateBrainStimulator.jobString>
+	
+	<CreateSurrogateLung.label>Смастерить заменитель легкого</CreateSurrogateLung.label>
+	<CreateSurrogateLung.description>Создание заменителя легкого из компонентов, пластали и ткани.</CreateSurrogateLung.description>
+    <CreateSurrogateLung.jobString>Создает заменитель органа.</CreateSurrogateLung.jobString>
+	
+	<CreateSurrogateStomach.label>Смастерить заменитель желудка</CreateSurrogateStomach.label>
+	<CreateSurrogateStomach.description>Создание заменителя желудка из компонентов, пластали и ткани.</CreateSurrogateStomach.description>
+    <CreateSurrogateStomach.jobString>Создает заменитель органа.</CreateSurrogateStomach.jobString>
+	
+	<CreateSurrogateLiver.label>Смастерить заменитель печени</CreateSurrogateLiver.label>
+	<CreateSurrogateLiver.description>Создание заменителя печени из компонентов, пластали и ткани.</CreateSurrogateLiver.description>
+    <CreateSurrogateLiver.jobString>Создает заменитель органа.</CreateSurrogateLiver.jobString>
+
+	<CreateSurrogateKidney.label>Смастерить заменитель почки</CreateSurrogateKidney.label>
+	<CreateSurrogateKidney.description>Создание заменителя почки из компонентов, пластали и ткани.</CreateSurrogateKidney.description>
+    <CreateSurrogateKidney.jobString>Создает заменитель органа.</CreateSurrogateKidney.jobString>
+	
+	<CreateSurrogateHeart.label>Смастерить заменитель сердца</CreateSurrogateHeart.label>
+	<CreateSurrogateHeart.description>Создание заменителя сердца из компонентов, пластали и ткани.</CreateSurrogateHeart.description>
+    <CreateSurrogateHeart.jobString>Создает заменитель органа.</CreateSurrogateHeart.jobString>
+	
+</LanguageData>

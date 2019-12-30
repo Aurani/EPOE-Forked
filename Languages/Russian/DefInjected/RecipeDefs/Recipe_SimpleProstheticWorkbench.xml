@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateSimpleProstheticLeg.label>Смастерить простой протез ноги</CreateSimpleProstheticLeg.label>
+	<CreateSimpleProstheticLeg.description>Создание простого протеза ноги из стали, пластали и компонентов.</CreateSimpleProstheticLeg.description>
+    <CreateSimpleProstheticLeg.jobString>Создаёт протез.</CreateSimpleProstheticLeg.jobString>
+	
+	<CreateSimpleProstheticArm.label>Смастерить простой протез руки</CreateSimpleProstheticArm.label>
+	<CreateSimpleProstheticArm.description>Создание простого протеза руки из стали и пластали.</CreateSimpleProstheticArm.description>
+    <CreateSimpleProstheticArm.jobString>Создаёт протез.</CreateSimpleProstheticArm.jobString>
+	
+	<CreateSimpleProstheticHand.label>Смастерить простой протез кисти</CreateSimpleProstheticHand.label>
+	<CreateSimpleProstheticHand.description>Создание простого протеза кисти из стали, пластали и компонентов.</CreateSimpleProstheticHand.description>
+    <CreateSimpleProstheticHand.jobString>Создаёт протез.</CreateSimpleProstheticHand.jobString>
+	
+	<CreateSimpleProstheticFoot.label>Смастерить простой протез ступни</CreateSimpleProstheticFoot.label>
+	<CreateSimpleProstheticFoot.description>Создание простого протеза ступни из стали, пластали и компонентов.</CreateSimpleProstheticFoot.description>
+    <CreateSimpleProstheticFoot.jobString>Создаёт протез.</CreateSimpleProstheticFoot.jobString>
+	
+	<CreateArtificialNose.label>Смастерить искусственный нос</CreateArtificialNose.label>
+	<CreateArtificialNose.description>Создание искусственного носа из пластали.</CreateArtificialNose.description>
+    <CreateArtificialNose.jobString>Создаёт протез.</CreateArtificialNose.jobString>
+	
+	<CreateArtificialPelvis.label>Создать искусственный таз</CreateArtificialPelvis.label>
+	<CreateArtificialPelvis.description>Создать искусственный таз из стали и пластали.</CreateArtificialPelvis.description>
+    <CreateArtificialPelvis.jobString>Создаёт протез.</CreateArtificialPelvis.jobString>
+	
+	<CreateHydraulicJaw.label>Смастерить гидравлическую челюсть</CreateHydraulicJaw.label>
+	<CreateHydraulicJaw.description>Создание гидравлической челюсти из стали и компонентов.</CreateHydraulicJaw.description>
+    <CreateHydraulicJaw.jobString>Создаёт протез.</CreateHydraulicJaw.jobString>
+	
+	<CreateGoldenEye.label>Смастерить золотой глаз</CreateGoldenEye.label>
+	<CreateGoldenEye.description>Слиток золота + молоток = золотой глаз.</CreateGoldenEye.description>
+    <CreateGoldenEye.jobString>Создаёт протез.</CreateGoldenEye.jobString>
+
+</LanguageData>

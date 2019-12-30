@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+<Leg.label>Perna</Leg.label>
+  <Leg.description>A vara longa carnuda para mover.</Leg.description>
+  
+  <Arm.label>Braço</Arm.label>
+  <Arm.description>Uma vara carnuda muito tempo para carregar coisas.</Arm.description>
+  
+  <Stomach.label>Estômago</Stomach.label>
+  <Stomach.description>Digere alimentos e converte em energia e nutrientes.</Stomach.description>
+  
+  <Eye.label>Olho</Eye.label>
+  <Eye.description>Absorve luzes, ou seja, permitindo que o usuário o que está ao seu redor.</Eye.description>
+  
+  <Nose.label>Nariz</Nose.label>
+  <Nose.description>Um dispositivo prático para distinguir odores, aplicando-se no propósito de um rosto.</Nose.description>
+  
+  <Ear.label>Ouvido</Ear.label>
+  <Ear.description>Capta as vibrações no ar, permitindo ao usuário ouvir sons.</Ear.description>
+  
+  <Jaw.label>Mandibula</Jaw.label>
+  <Jaw.description>Dentes para mastigar pastilha elástica e conversar.</Jaw.description>
+  
+</LanguageData>

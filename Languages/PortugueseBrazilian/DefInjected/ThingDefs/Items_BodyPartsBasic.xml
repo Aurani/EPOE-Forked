@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<SteelArm.label>Braço de Ferro</SteelArm.label>
+	<SteelArm.description>Um pobre substituto Braço. Esta não é uma impressão ou sentimento: é realmente pobre.</SteelArm.description>
+
+	<EyePatch.label>Tapa Olho</EyePatch.label>
+	<EyePatch.description>Tampas cavidade ocular. Intimidante.</EyePatch.description>
+
+	<HookHand.label>Mão Gancho</HookHand.label>
+	<HookHand.description>Substitui uma mão desaparecida. Um pouco assustador. Yarrr!</HookHand.description>
+
+	<Denture.label>Dentadura</denture.label>
+	<Denture.description>Substitui uma mandíbula com dentes em falta de madeira. Cheira um pouco.</Denture.description>
+	
+	<PegLeg.label>Perna-de-Pau</PegLeg.label>
+	<PegLeg.description>Substitui uma perna ausente com uma perna de madeira. Rudimentar, mas eficaz.</PegLeg.description>
+
+	<WoodenFoot.label>Pé de Madeira</WoodenFoot.label>
+	<WoodenFoot.description>Substitui um pé ausente por um pé de madeira. Pelo menos é mais confortável do que viajar no sino pé.</WoodenFoot.description>
+
+</LanguageData>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallAdvancedPowerArm.label>Instalar Braço Energizado Avançado</InstallAdvancedPowerArm.label>
+	<InstallAdvancedPowerArm.description>Instalado Braço Energizado Avançado.</InstallAdvancedPowerArm.description>
+	<InstallAdvancedPowerArm.jobString>Atualmente instalando Braço Energizado Avançado</InstallAdvancedPowerArm.jobString>
+
+	<InstallAdvancedBionicArm.label>Instalar Braço Bionico Avançado</InstallAdvancedBionicArm.label>
+	<InstallAdvancedBionicArm.description>Instalado Braço Bionico Avançado.</InstallAdvancedBionicArm.description>
+	<InstallAdvancedBionicArm.jobString>Atualmente instalando Braço Bionico Avançado</InstallAdvancedBionicArm.jobString>
+
+	<InstallAdvancedBionicLeg.label>Instalar Perna Bionica Avançada</InstallAdvancedBionicLeg.label>
+	<InstallAdvancedBionicLeg.description>Instalado Perna Bionica Avançada.</InstallAdvancedBionicLeg.description>
+	<InstallAdvancedBionicLeg.jobString>Atualmente instalando Perna Bionica Avançado</InstallAdvancedBionicLeg.jobString>
+
+	<InstallAdvancedBionicHand.label>Instalar Mão Bionica Avançada</InstallAdvancedBionicHand.label>
+	<InstallAdvancedBionicHand.description>Instalado Mão Bionica Avançada.</InstallAdvancedBionicHand.description>
+	<InstallAdvancedBionicHand.jobString>Atualmente instalando Mão Bionica Avançada</InstallAdvancedBionicHand.jobString>
+
+	<InstallAdvancedBionicFoot.label>Instalar Pé Bionico Avançado</InstallAdvancedBionicFoot.label>
+	<InstallAdvancedBionicFoot.description>Instalado Pé Bionico Avançado.</InstallAdvancedBionicFoot.description>
+	<InstallAdvancedBionicFoot.jobString>Atualmente instalando Pé Bionico Avançado</InstallAdvancedBionicFoot.jobString>
+
+	<InstallAdvancedBionicEye.label>Instalar Olho Bionico Avançado</InstallAdvancedBionicEye.label>
+	<InstallAdvancedBionicEye.description>Instalado Olho Bionico Avançado.</InstallAdvancedBionicEye.description>
+	<InstallAdvancedBionicEye.jobString>Atualmente instalando Olho Bionico Avançado</InstallAdvancedBionicEye.jobString>
+
+	<InstallAdvancedBionicEar.label>Instalar Orelha Bionica Avançada</InstallAdvancedBionicEar.label>
+	<InstallAdvancedBionicEar.description>Instalado Orelha Bionica Avançada.</InstallAdvancedBionicEar.description>
+	<InstallAdvancedBionicEar.jobString>Atualmente instalando Orelha Bionica Avançada</InstallAdvancedBionicEar.jobString>
+
+	<InstallAdvancedBionicJaw.label>Instalar Mandibula Bionica Avançada</InstallAdvancedBionicJaw.label>
+	<InstallAdvancedBionicJaw.description>Instalado Mandibula Bionica Avançada.</InstallAdvancedBionicJaw.description>
+	<InstallAdvancedBionicJaw.jobString>Atualmente instalando Mandibula Bionica Avançada</InstallAdvancedBionicJaw.jobString>
+
+	<InstallAdvancedBionicSpine.label>Instalar Coluna Vertebral Bionica Avançada</InstallAdvancedBionicSpine.label>
+	<InstallAdvancedBionicSpine.description>Instalado Coluna Vertebral Bionica Avançada.</InstallAdvancedBionicSpine.description>
+	<InstallAdvancedBionicSpine.jobString>Atualmente instalando Coluna Vertebral Bionica Avançada</InstallAdvancedBionicSpine.jobString>
+
+	<InstallExoskeletonSuit.label>Instalar combinação de Exoesqueleto</InstallExoskeletonSuit.label>
+	<InstallExoskeletonSuit.description>Instalado combinação de Exoesqueleto.</InstallExoskeletonSuit.description>
+	<InstallExoskeletonSuit.jobString>Atualmente instalando combinação de Exoesqueleto</InstallExoskeletonSuit.jobString>
+
+</LanguageData>

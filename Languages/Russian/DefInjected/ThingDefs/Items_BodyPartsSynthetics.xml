@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<AIChip.label>ИИ - Чип</AIChip.label>
+	<AIChip.description>С помощью особых химикатов и электроимпульсов этот маленький чип способен полностью восстановить сознание и мобильность пользователя. Необходимо открыть технологию "Операции на мозге".</AIChip.description>
+
+	<SyntheticLung.label>Синтетическое легкое</SyntheticLung.label>
+	<SyntheticLung.description>Высокотехнологичная замена легкому. Издаёт тихий, жужащий звук.</SyntheticLung.description>
+
+	<SyntheticStomach.label>Синтетический желудок</SyntheticStomach.label>
+	<SyntheticStomach.description>Желудок усиленный синтетическими волокнами чтобы снизить шанс отторжения.</SyntheticStomach.description>
+
+	<SyntheticLiver.label>Синтетическая печень</SyntheticLiver.label>
+	<SyntheticLiver.description>Печень усиленная синтетическими волокнами чтобы снизить шанс отторжения.</SyntheticLiver.description>
+
+	<SyntheticKidney.label>Синтетическая почка</SyntheticKidney.label>
+	<SyntheticKidney.description>Почка усиленная синтетическими волокнами чтобы снизить шанс отторжения.</SyntheticKidney.description>
+
+	<SyntheticHeart.label>Синтетическое сердце</SyntheticHeart.label>
+	<SyntheticHeart.description>Высокотехнологичная замена сердца. Может работать до 30 лет на одном заряде!</SyntheticHeart.description>
+
+	<SyntheticSkin.label>Синтетическая кожа</SyntheticSkin.label>
+	<SyntheticSkin.description>Небольшой кусочек синтетической кожи. На ощупь как настоящая кожа.</SyntheticSkin.description>
+	
+	<Joywire.label>Чип счастья</Joywire.label>
+	<Joywire.description>Этот мозговой имплант позволит вам почувствовать себя счастливым и расслабленным. Необходимо открыть технологию "Операции на мозге".</Joywire.description>
+	
+	<Painstopper.label>Чип обезболивания</Painstopper.label>
+	<Painstopper.description>При установке это мозгового импланта поселенец не булет чувствовать боли. Необходимо открыть технологию "Операции на мозге".</Painstopper.description>
+
+</LanguageData>

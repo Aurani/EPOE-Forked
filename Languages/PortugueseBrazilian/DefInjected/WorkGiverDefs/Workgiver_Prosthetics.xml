@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsTableSurrogates.verb>criar</DoBillsTableSurrogates.verb>
+  <DoBillsTableSurrogates.gerund>criando</DoBillsTableSurrogates.gerund>
+
+  <DoBillsTableSynthetics.verb>criar</DoBillsTableSynthetics.verb>
+  <DoBillsTableSynthetics.gerund>criando</DoBillsTableSynthetics.gerund>
+
+  <DoBillsUpgradingStation.verb>melhorar</DoBillsUpgradingStation.verb>
+  <DoBillsUpgradingStation.gerund>melhorando</DoBillsUpgradingStation.gerund>
+
+  <DoBillsSimpleProstheticWorkbench.verb>montar</DoBillsSimpleProstheticWorkbench.verb>
+  <DoBillsSimpleProstheticWorkbench.gerund>montando</DoBillsSimpleProstheticWorkbench.gerund>
+
+  <DoBillsBasicProstheticWorkbench.verb>montar</DoBillsBasicProstheticWorkbench.verb>
+  <DoBillsBasicProstheticWorkbench.gerund>montando</DoBillsBasicProstheticWorkbench.gerund>
+
+  <DoBillsBionicWorkbench.verb>montar</DoBillsBionicWorkbench.verb>
+  <DoBillsBionicWorkbench.gerund>montando</DoBillsBionicWorkbench.gerund>
+
+</LanguageData>

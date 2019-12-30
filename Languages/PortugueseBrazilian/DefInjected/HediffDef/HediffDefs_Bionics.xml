@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+		
+    <PowerArm.label>Braço Energizado</PowerArm.label>
+   <BionicHand.label>Mão Bionica</BionicHand.label>
+   <BionicFoot.label>Pé Bionico</BionicFoot.label>
+   <BionicEar.label>Orelha Bionica</BionicEar.label>
+   <BionicJaw.label>Mandibula Bionica</BionicJaw.label>
+   <SilentJaw.label>Mandibula Silenciosa</SilentJaw.label>
+   <BionicSpine.label>Coluna Vertebral Bionica</BionicSpine.label>
+   <MedicalRib.label>Medula Medica</MedicalRib.label>
+   <DruggedRib.label>Medula Droga</DruggedRib.label>
+   <AdrenalineRib.label>Medula Adrenalina</AdrenalineRib.label>
+</LanguageData>

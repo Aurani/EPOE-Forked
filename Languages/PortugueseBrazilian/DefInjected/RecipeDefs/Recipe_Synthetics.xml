@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallAIChip.label>Instalar Chip IA</InstallAIChip.label>
+	<InstallAIChip.description>Instala um  Chip IA.</InstallAIChip.description>
+    <InstallAIChip.jobString>Instalando Chip IA</InstallAIChip.jobString>
+	
+	<InstallSyntheticLung.label>Instalar Pulmão Sintetico</InstallSyntheticLung.label>
+	<InstallSyntheticLung.description>Instala um Pulmão Sintetico.</InstallSyntheticLung.description>
+    <InstallSyntheticLung.jobString>Instalando Pulmão Sintetico</InstallSyntheticLung.jobString>
+	
+	<InstallSyntheticStomach.label>Instalar Estomago Sintetico</InstallSyntheticStomach.label>
+	<InstallSyntheticStomach.description>Instala um Estomago Sintetico.</InstallSyntheticStomach.description>
+    <InstallSyntheticStomach.jobString>Instalando Estomago Sintetico</InstallSyntheticStomach.jobString>
+	
+	<InstallSyntheticLiver.label>Instalar Figado Sintetico</InstallSyntheticLiver.label>
+	<InstallSyntheticLiver.description>Instala um Figado Sintetico.</InstallSyntheticLiver.description>
+    <InstallSyntheticLiver.jobString>Instalando Figado Sintetico</InstallSyntheticLiver.jobString>
+	 
+	<InstallSyntheticKidney.label>Instalar Rim Sintetico</InstallSyntheticKidney.label>
+	<InstallSyntheticKidney.description>Instala um Rim Sintetico.</InstallSyntheticKidney.description>
+    <InstallSyntheticKidney.jobString>Instalando Rim Sintetico</InstallSyntheticKidney.jobString>
+	 
+	<InstallSyntheticHeart.label>Instalar Coração Sintetico</InstallSyntheticHeart.label>
+	<InstallSyntheticHeart.description>Instala um Coração Sintetico.</InstallSyntheticHeart.description>
+    <InstallSyntheticHeart.jobString>Instalando Coração Sintetico</InstallSyntheticHeart.jobString>
+	
+</LanguageData>

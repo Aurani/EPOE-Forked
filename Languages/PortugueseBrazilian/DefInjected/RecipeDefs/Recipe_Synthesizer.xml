@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateAIChip.label>Criar Chip IA</CreateAIChip.label>
+	<CreateAIChip.description>Cria Chip IA. Necessita de Ouro e Componente Avançado</CreateAIChip.description>
+    <CreateAIChip.jobString>Criando um Chip IA</CreateAIChip.jobString>
+	
+	<CreateSyntheticLung.label>Criar Pulmão Sintetico</CreateSyntheticLung.label>
+	<CreateSyntheticLung.description>Cria Pulmão Sintetico à partir de Hiper Fibra e Componente Avançado.</CreateSyntheticLung.description>
+    <CreateSyntheticLung.jobString>Criando um Pulmão Sintetico</CreateSyntheticLung.jobString>
+	
+	<CreateSyntheticStomach.label>Criar Estomago Sintetico</CreateSyntheticStomach.label>
+	<CreateSyntheticStomach.description>Cria Estomago Sintetico à partir de Hiper Fibra e Componente Avançado.</CreateSyntheticStomach.description>
+    <CreateSyntheticStomach.jobString>Criando um Estomago Sintetico</CreateSyntheticStomach.jobString>
+   
+	<CreateSyntheticLiver.label>Criar Figado Sintetico</CreateSyntheticLiver.label>
+	<CreateSyntheticLiver.description>Cria Figado Sintetico à partir de Hiper Fibra e Componente Avançado.</CreateSyntheticLiver.description>
+    <CreateSyntheticLiver.jobString>Criando um Figado Sintetico</CreateSyntheticLiver.jobString>
+   
+	<CreateSyntheticKidney.label>Criar Rim Sintetico</CreateSyntheticKidney.label>
+	<CreateSyntheticKidney.description>Cria Rim Sintetico à partir de Hiper Fibra e Componente Avançado.</CreateSyntheticKidney.description>
+    <CreateSyntheticKidney.jobString>Criando um Rim Sintetico</CreateSyntheticKidney.jobString>
+	
+	<CreateSyntheticHeart.label>Criar Coração Sintetico</CreateSyntheticHeart.label>
+	<CreateSyntheticHeart.description>Cria Coração Sintetico à partir de Hiper Fibra e Componente Avançado.</CreateSyntheticHeart.description>
+	<CreateSyntheticHeart.jobString>Criando um Coração Sintetico</CreateSyntheticHeart.jobString>
+   
+	<CreateSyntheticSkin.label>Criar uma Pele Sintetico</CreateSyntheticSkin.label>
+	<CreateSyntheticSkin.description>Cria Pele Sintetico à partir de Hiper Fibra e Couro Humano.</CreateSyntheticSkin.description>
+	<CreateSyntheticSkin.jobString>Criando um Pele Sintetico</CreateSyntheticSkin.jobString>
+	
+	<CreateJoywire.label>Criar Arame-da-Alegria</CreateJoywire.label>
+	<CreateJoywire.description>Cria Arame-da-Alegria.</CreateJoywire.description>
+	<CreateJoywire.jobString>Criando Arame-da-Alegria</CreateJoywire.jobString>
+	
+	<CreatePainstopper.label>Criar Para-Dor</CreatePainstopper.label>
+	<CreatePainstopper.description>Cria Para-Dor.</CreatePainstopper.description>
+	<CreatePainstopper.jobString>Criando Para-Dor</CreatePainstopper.jobString>
+	
+</LanguageData>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateAIChip.label>Смастерить ИИ-Чип</CreateAIChip.label>
+	<CreateAIChip.description>Создание ИИ-Чипа. Требует золото и продвинутые компоненты для высококачественной микросхемы.</CreateAIChip.description>
+    <CreateAIChip.jobString>Создаёт синтетический орган.</CreateAIChip.jobString>
+	
+	<CreateJoywire.label>Смастерить Чип счастья</CreateJoywire.label>
+	<CreateJoywire.description>Создать Чип счастья. Требует золото и продвинутые компоненты для высококачественной микросхемы.</CreateJoywire.description>
+	<CreateJoywire.jobstring>Создаёт синтетический орган.</CreateJoywire.jobstring>
+	
+	<CreatePainstopper.label>Смастерить Чип обезболивания</CreatePainstopper.label>
+	<CreatePainstopper.description>Создать Чип обезболивания. Требует золото и продвинутые компоненты для высококачественной микросхемы.</CreatePainstopper.description>
+	<CreatePainstopper.jobstring>Создаёт синтетический орган.</CreatePainstopper.jobstring>
+	
+	<CreateSyntheticLung.label>Смастерить синтетическое лёгкое</CreateSyntheticLung.label>
+	<CreateSyntheticLung.description>Создает синтетический лёгкое из гиперткни, продвинутых компонентов и заменителя лёгкого.</CreateSyntheticLung.description>
+    <CreateSyntheticLung.jobString>Создаёт синтетический орган.</CreateSyntheticLung.jobString>
+	
+	<CreateSyntheticStomach.label>Смастерить синтетический желудок</CreateSyntheticStomach.label>
+	<CreateSyntheticStomach.description>Создание синтетического желудка из гиперткни, продвинутых компонентов и заменителя желудка.</CreateSyntheticStomach.description>
+    <CreateSyntheticStomach.jobString>Создаёт синтетический орган.</CreateSyntheticStomach.jobString>
+   
+	<CreateSyntheticLiver.label>Создать синтетическую печень</CreateSyntheticLiver.label>
+	<CreateSyntheticLiver.description>Создание синтетической печени из гиперткни, продвинутых компонентов и заменителя печени.</CreateSyntheticLiver.description>
+    <CreateSyntheticLiver.jobString>Создаёт синтетический орган.</CreateSyntheticLiver.jobString>
+   
+	<CreateSyntheticKidney.label>Смастерить синтетическую почку</CreateSyntheticKidney.label>
+	<CreateSyntheticKidney.description>Создание синтетической почки из гиперткани, продвинутых компонентов и заменителя почки.</CreateSyntheticKidney.description>
+    <CreateSyntheticKidney.jobString>Создаёт синтетический орган.</CreateSyntheticKidney.jobString>
+	
+	<CreateSyntheticHeart.label>Смастерить синтетическое сердце</CreateSyntheticHeart.label>
+	<CreateSyntheticHeart.description>Создание синтетического сердца из гиперткани, продвинутых компонентов и заменителя сердца.</CreateSyntheticHeart.description>
+	<CreateSyntheticHeart.jobString>Создаёт синтетический орган.</CreateSyntheticHeart.jobString>
+   
+	<CreateSyntheticSkin.label>Смастерить синтетическую кожу</CreateSyntheticSkin.label>
+	<CreateSyntheticSkin.description>Создание синтетической кожи из гиперткани и человеческой кожи.</CreateSyntheticSkin.description>
+	<CreateSyntheticSkin.jobString>Создаёт синтетический орган.</CreateSyntheticSkin.jobString>
+	
+</LanguageData>

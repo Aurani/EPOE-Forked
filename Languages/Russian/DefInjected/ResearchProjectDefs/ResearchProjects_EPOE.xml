@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!--=============================== Tier 0 ===================================-->
+	
+	<BasicProsthetics.label>Базовое протезирование</BasicProsthetics.label>
+	<BasicProsthetics.description>Понимая форму ноги и комбинируя это знание с базовой деревообработкой, вы можете создавать деревянные ноги и другие базовые протезы.</BasicProsthetics.description>
+	
+	<!--=============================== Tier 1 ===================================-->	
+
+	<SimpleProsthetics.label>Простое протезирование</SimpleProsthetics.label>
+	<SimpleProsthetics.description>Расширенное исследование анатомии и эксперименты с металом дают вам возможность создавать простые протезы.</SimpleProsthetics.description>
+	
+	<!--=============================== Tier 2 ===================================-->
+	
+	<Bionics.label>Бионика</Bionics.label>
+	<Bionics.description>Исследование мелкой моторики и схем открывает возможность сделать более продвинутые протезы.</Bionics.description>
+	
+	<SurrogateOrgans.label>Заменители органов</SurrogateOrgans.label>
+    <SurrogateOrgans.description>Изучая медицину мы разобрались как создавать простые заменители органов для замены недостающих.</SurrogateOrgans.description>
+	
+	<RibReplacements.label>Замена ребер</RibReplacements.label>
+	<RibReplacements.description>С открытием чрезвычайно маленьких устройств для введения лекарств, вы подумываете о расположении их в ребрах. Вы можете создавать и вставлять импланты рёбер.</RibReplacements.description>
+	
+	<VancidiumRefineryTech.label>Очистка вансидиума</VancidiumRefineryTech.label>
+	<VancidiumRefineryTech.description>Во время объединения различных материалов, вы случайным образом создали очень легкий, но прочный материал, который можно использовать для создания улучшенных протезов. Вы можете создавать вансидиум в электроплавильне, а также производить продвинутые компоненты на верстаке для сборки компонентов!</VancidiumRefineryTech.description>	
+	
+	<!--=============================== Tier 2.5 ===================================-->
+	
+	<AdvancedBionics.label>Продвинутая бионика</AdvancedBionics.label>
+	<AdvancedBionics.description>Улучшение бионики с помощью вансидиума для лучшего результата.</AdvancedBionics.description>	
+
+	<SyntheticOrgans.label>Синтетические органы</SyntheticOrgans.label>
+    <SyntheticOrgans.description>Дальнейшие исследования в нанотехнологии позволяют создавать невероятно хорошо спроектированные искусственные органы.</SyntheticOrgans.description>
+	
+	<BrainSurgery.label>Хирургия мозга</BrainSurgery.label>
+	<BrainSurgery.description>Позволяет вам проводить операции на мозге.</BrainSurgery.description>
+
+</LanguageData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<GlassEye.label>Olho de Vidro</GlassEye.label>
+   <GlassEye.description>Substitui um olho faltando. Mais bonito do que um tapa olho.</GlassEye.description>
+
+   <CrystalEye.label>Olho de Cristal</CrystalEye.label>
+   <CrystalEye.description>Substitui um olho faltando. Ele é tão bonito que seria uma pena que você não pode ver a si mesmo em um espelho.</CrystalEye.description>
+
+   <ArtificialNose.label>Nariz Artificial</ArtificialNose.label>
+   <ArtificialNose.description>Substitui um nariz ausente. Cobre o orifício na cara.</ArtificialNose.description>
+
+   <HydraulicJaw.label>Mandibula Hidraulica</HydraulicJaw.label>
+   <HydraulicJaw.description>Substitui uma mandíbula em falta. Tenha cuidado, estes dentes são extremamente eficazes!</HydraulicJaw.description>
+
+   <SimpleProstheticHand.label>Prótese de Mão Simples</SimpleProstheticHand.label>
+   <SimpleProstheticHand.description>Substitui uma mão desaparecida. Muito mais confortável e menos assustador do que a mão gancho.</SimpleProstheticHand.description>
+
+   <SimpleProstheticFoot.label>Prótese de Pé Simples</SimpleProstheticFoot.label>
+   <SimpleProstheticFoot.description>Substitui um pé em falta. Não é pior do que um pé de madeira.</SimpleProstheticFoot.description>
+
+   <ArtificialPelvis.label>Bacia Artificial</ArtificialPelvis.label>
+   <ArtificialPelvis.description>Substitui uma bacia. Bastante útil se o rastreamento não é o seu meio de transporte preferido.</ArtificialPelvis.description>
+
+   <GoldenEye.label>Olho de Ouro</GoldenEye.label>
+   <GoldenEye.description>Substitui um olho faltando. Ele é tão bonito que seria uma pena que você não pode ver a si mesmo em um espelho.</GoldenEye.description>
+
+</LanguageData>

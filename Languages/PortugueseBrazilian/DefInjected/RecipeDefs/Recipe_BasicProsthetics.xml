@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallSteelArm.label>Instalar Braço de Ferro</InstallSteelArm.label>
+	<InstallSteelArm.description>Instalar Braço de Ferro.</InstallSteelArm.description>
+	<InstallSteelArm.jobString>Instalando Braço de Ferro</InstallSteelArm.jobString>
+
+	<InstallEyePatch.label>Instalar Tapa Olho</InstallEyePatch.label>
+	<InstallEyePatch.description>Instalar Tapa Olho.</InstallEyePatch.description>
+	<InstallEyePatch.jobString>Instalando Tapa Olho</InstallEyePatch.jobString>
+
+	<InstallHookHand.label>Instalar Mão Gancho</InstallHookHand.label>
+	<InstallHookHand.description>Instalar Mão Gancho.</InstallHookHand.description>
+	<InstallHookHand.jobString>Instalando Mão Gancho</InstallHookHand.jobString>
+
+	<InstallDenture.label>Instalar Dentadura</InstallDenture.label>
+	<InstallDenture.description>Instalar Dentadura.</InstallDenture.description>
+	<InstallDenture.jobString>Instalando Dentadura</InstallDenture.jobString>
+
+	<InstallWoodenFoot.label>Instalar Pé de Madeira</InstallWoodenFoot.label>
+	<InstallWoodenFoot.description>Instalar Pé de Madeira.</InstallWoodenFoot.description>
+	<InstallWoodenFoot.jobString>Instalando Pé de Madeira</InstallWoodenFoot.jobString>
+
+	<InstallPegLeg.label>Instalar Perna-de-Pau</InstallPegLeg.label>
+	<InstallPegLeg.description>Instalar Perna-de-Pau.</InstallPegLeg.description>
+	<InstallPegLeg.jobString>Instalando Perna-de-Pau</InstallPegLeg.jobString>
+
+
+</LanguageData>

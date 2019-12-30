@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <AdvancedPowerArm.label>Braço Energizado Avançado</AdvancedPowerArm.label>
+  <AdvancedPowerArm.description>Um braço de uma força e uma destreza sem precedentes, com afiadas garras retráteis. Esta é a evolução final!</AdvancedPowerArm.description>
+
+  <AdvancedBionicHand.label>Mão Bionica Avançada</AdvancedBionicHand.label>
+  <AdvancedBionicHand.Description>Algumas pessoas podem cortar as mãos deles, apenas para colocar esta peça esplêndida da tecnologia.</AdvancedBionicHand.Description>
+
+  <AdvancedBionicArm.label>Braço Bionico Avançado</AdvancedBionicArm.label>
+  <AdvancedBionicArm.Description>Lembra quando você se esforça para abrir potes? Agora você vai ter problemas para não quebrá-las diretamente.</AdvancedBionicArm.Description>
+
+  <AdvancedBionicLeg.label>Perna Bionica Avançada</AdvancedBionicLeg.label>
+  <AdvancedBionicLeg.Description>Impressionante tecnologia que permite aos usuários mover mais rápido do que nunca.</AdvancedBionicLeg.Description>
+
+  <AdvancedBionicFoot.label>Pé Bionico Avançado</AdvancedBionicFoot.label>
+  <AdvancedBionicFoot.Description>Impulsionadores de dezenas, um rápido movimento e conforto inigualável.</AdvancedBionicFoot.Description>
+
+  <AdvancedBionicEar.label>Orelha Bionica Avançada</AdvancedBionicEar.label>
+  <AdvancedBionicEar.Description>Este dispositivo permite ao usuário ouvir melhor do que um morcego.</AdvancedBionicEar.Description>
+
+  <AdvancedBionicJaw.label>Mandibula Bionica Avançada</AdvancedBionicJaw.label>
+  <AdvancedBionicJaw.Description>A voz que sai desta mandíbula é tão bonito que mesmo mechanoids param para ouvir.</AdvancedBionicJaw.Description>
+
+  <AdvancedBionicEye.label>Olho Bionico Avançado</AdvancedBionicEye.label>
+  <AdvancedBionicEye.Description>Esta peça de tecnologia avançada permite ao usuário ver perfeitamente, tanto no escuro e através de uma parede.</AdvancedBionicEye.Description>
+
+  <AdvancedBionicSpine.label>Espinha Bionica Avançada</AdvancedBionicSpine.label>
+  <AdvancedBionicSpine.Description>Este dispositivo durável suporta a parte de trás e faz o trabalho e andar muito mais fácil.</AdvancedBionicSpine.Description>
+
+  <ExoskeletonSuit.label>Exoesqueleto</ExoskeletonSuit.label>
+  <ExoskeletonSuit.description>Um dispositivo de alta tecnologia feita de dois componentes: a estrutura do esqueleto leve para aliviar para trás, e atuadores para tornar o usuário mais forte</ExoskeletonSuit.description>.
+</LanguageData>

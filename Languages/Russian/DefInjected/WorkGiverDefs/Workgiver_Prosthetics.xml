@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<!--
+		label - действие по пункту во вкладке "работа". Должно быть в несов. виде
+		gerund - приказы вида "Спасти Райана".
+		verb - невозможно заколоть Рози
+	-->
+
+
+	<DoBillsTableSurrogates.label>Создавать заменители органов</DoBillsTableSurrogates.label>
+	<DoBillsTableSurrogates.verb>создать органы на</DoBillsTableSurrogates.verb>
+	<DoBillsTableSurrogates.gerund>создать органы на</DoBillsTableSurrogates.gerund>
+		
+	<DoBillsUpgradingStation.label>Модернизировать бионические протезы и заменители органов</DoBillsUpgradingStation.label>
+	<DoBillsUpgradingStation.verb>улучшить орган или протез на</DoBillsUpgradingStation.verb>
+	<DoBillsUpgradingStation.gerund>улучшить орган или протез на</DoBillsUpgradingStation.gerund>
+	
+	<DoBillsSimpleProstheticWorkbench.label>Создавать простые протезы</DoBillsSimpleProstheticWorkbench.label>
+	<DoBillsSimpleProstheticWorkbench.verb>создать простой протез на</DoBillsSimpleProstheticWorkbench.verb>
+	<DoBillsSimpleProstheticWorkbench.gerund>создать простой протез на</DoBillsSimpleProstheticWorkbench.gerund>
+	
+	<DoBillsBionicWorkbench.label>Создавать бионические протезы</DoBillsBionicWorkbench.label>
+	<DoBillsBionicWorkbench.verb>создать бионический протез на</DoBillsBionicWorkbench.verb>
+	<DoBillsBionicWorkbench.gerund>создать бионический протез на</DoBillsBionicWorkbench.gerund>
+	
+	<DoBillsBasicProstheticWorkbench.label>Создавать базовые протезы</DoBillsBasicProstheticWorkbench.label>
+	<DoBillsBasicProstheticWorkbench.verb>создать базовый протез на</DoBillsBasicProstheticWorkbench.verb>
+	<DoBillsBasicProstheticWorkbench.gerund>создать базовый протез на</DoBillsBasicProstheticWorkbench.gerund>
+
+</LanguageData>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallPowerArm.label>Instalar Braço Energizado</InstallPowerArm.label>
+	<InstallPowerArm.description>Instala Braço Energizado.</InstallPowerArm.description>
+	<InstallPowerArm.jobString>Instalando Braço Energizado</InstallPowerArm.jobString>
+
+	<InstallBionicHand.label>Instalar Mão Bionica</InstallBionicHand.label>
+	<InstallBionicHand.description>Instala Mão Bionica.</InstallBionicHand.description>
+	<InstallBionicHand.jobString>Instalandoe Mão Bionica</InstallBionicHand.jobString>
+
+	<InstallBionicFoot.label>Instalar Pé Bionico</InstallBionicFoot.label>
+	<InstallBionicFoot.description>Instala Pé Bionico.</InstallBionicFoot.description>
+	<InstallBionicFoot.jobString>Instalando Pé Bionico</InstallBionicFoot.jobString>
+
+	<InstallBionicEar.label>Instalar Orelha Bionica</InstallBionicEar.label>
+	<InstallBionicEar.description>Instala Orelha Bionica.</InstallBionicEar.description>
+	<InstallBionicEar.jobString>Instalandoe Orelha Bionica</InstallBionicEar.jobString>
+
+	<InstallBionicJaw.label>Instalar Mandibula Bionica</InstallBionicJaw.label>
+	<InstallBionicJaw.description>Instala Mandibula Bionica.</InstallBionicJaw.description>
+	<InstallBionicJaw.jobString>Instalandoe Mandibula Bionica</InstallBionicJaw.jobString>
+
+	<InstallSilentJaw.label>Instalar Mandibula Silenciosa</InstallSilentJaw.label>
+	<InstallSilentJaw.description>Instala Mandibula Silenciosa.</InstallSilentJaw.description>
+	<InstallSilentJaw.jobString>Instalandoe Mandibula Silenciosa</InstallSilentJaw.jobString>
+
+	<InstallBionicSpine.label>Instalar Coluna Vertebral Bionica</InstallBionicSpine.label>
+	<InstallBionicSpine.description>Instala Coluna Vertebral Bionica.</InstallBionicSpine.description>
+	<InstallBionicSpine.jobString>Instalandoe Coluna Vertebral Bionica</InstallBionicSpine.jobString>
+
+	<InstallMedicalRib.label>Instalar Medula Medica</InstallMedicalRib.label>
+	<InstallMedicalRib.description>Instala Medula Medica.</InstallMedicalRib.description>
+	<InstallMedicalRib.jobString>Instalando Medula Medica</InstallMedicalRib.jobString>
+
+	<InstallDruggedRib.label>Instalar Medula Drogas</InstallDruggedRib.label>
+	<InstallDruggedRib.description>Instala Medula Drogas.</InstallDruggedRib.description>
+	<InstallDruggedRib.jobString>Instalandoe Medula Drogas</InstallDruggedRib.jobString>
+	
+</LanguageData>

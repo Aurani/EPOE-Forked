@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallBrainStimulator.label>Имплантировать стимулятор мозга</InstallBrainStimulator.label>
+	<InstallBrainStimulator.description>Имплантировать стимулятор мозга.</InstallBrainStimulator.description>
+    <InstallBrainStimulator.jobString>Имплантирует стимулятор мозг.</InstallBrainStimulator.jobString>
+	
+	<InstallSurrogateLung.label>Имплантировать заменитель легкого</InstallSurrogateLung.label>
+	<InstallSurrogateLung.description>Имплантировать заменитель легкого.</InstallSurrogateLung.description>
+    <InstallSurrogateLung.jobString>Имплантирует заменитель легкого.</InstallSurrogateLung.jobString>
+	
+	<InstallSurrogateStomach.label>Имплантировать заменитель желудка</InstallSurrogateStomach.label>
+	<InstallSurrogateStomach.description>Имплантировать заменитель желудка.</InstallSurrogateStomach.description>
+    <InstallSurrogateStomach.jobString>Имплантирует заменитель желудка.</InstallSurrogateStomach.jobString>
+	
+	<InstallSurrogateLiver.label>Имплантировать заменитель печени</InstallSurrogateLiver.label>
+	<InstallSurrogateLiver.description>Имплантировать заменитель ппечени.</InstallSurrogateLiver.description>
+    <InstallSurrogateLiver.jobString>Имплантирует заменитель ппечени.</InstallSurrogateLiver.jobString>
+	
+	<InstallSurrogateKidney.label>Имплантировать заменитель почки</InstallSurrogateKidney.label>
+	<InstallSurrogateKidney.description>Имплантировать заменитель почки.</InstallSurrogateKidney.description>
+    <InstallSurrogateKidney.jobString>Имплантирует заменитель почки.</InstallSurrogateKidney.jobString>
+	
+	<InstallSurrogateHeart.label>Имплантировать заменитель сердца</InstallSurrogateHeart.label>
+	<InstallSurrogateHeart.description>Имплантировать заменитель сердца.</InstallSurrogateHeart.description>
+    <InstallSurrogateHeart.jobString>Имплантирует заменитель сердца.</InstallSurrogateHeart.jobString>
+	
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<SimpleProsthetics.label>Proteses Simples</SimpleProsthetics.label>
+	<SimpleProsthetics.description>Amplos estudos da anatomia e testando diferentes materiais permitem agora para fazer proteses simples.</SimpleProsthetics.description>
+
+	<Bionics.label>Bionica</Bionics.label>
+	<Bionics.description>Ao descobrir o conceito de motores e circuitos miniaturizados, novas possibilidades para melhorias protéticos disponíveis para você.</Bionics.description>
+
+	<AdvancedBionics.label>Bionico Avançado</AdvancedBionics.label>
+	<AdvancedBionics.description>Melhorar próteses biônicas regulares com vancidium, para torná-los ainda melhor.</AdvancedBionics.description>
+
+	<SurrogateOrgans.label>Orgãos Artificiais</SurrogateOrgans.label>
+	<SurrogateOrgans.description>Ao aumentar o seu conhecimento médico, a criação de órgãos artificiais se torna possível substituir os órgãos destruídos ou desaparecidos.</SurrogateOrgans.description>
+
+	<SyntheticOrgans.label>Orgãos Sinteticos</SyntheticOrgans.label>
+	<SyntheticOrgans.description>pesquisa em nanotecnologia avançada permitem criar órgãos artificiais incrivelmente bem concebidos.</SyntheticOrgans.description>
+
+	<VancidiumRefineryTech.label>Vancidium e Componentes Avançados</VancidiumRefineryTech.label>
+	<VancidiumRefineryTech.description>Enquanto você combinar diferentes materiais, você aprenderá a criar uma leve, porém robusto, o que poderia ser usado para fazer dentaduras melhores qualidades. Agora você pode fabricar a profundidade vancidium elétrica, mas também montar componentes avançados para a montagem estabelecida!</VancidiumRefineryTech.description>
+
+	<RibReplacements.label>Substituindo Costelas</RibReplacements.label>
+	<RibReplacements.description>Ao descobrir o conceito de máquinas miniaturizadas, você pode querer implementá-las nas costelas.</RibReplacements.description>
+
+    <BrainSurgery.label>Cirurgia no Cérebro</BrainSurgery.label>
+    <BrainSurgery.description>Permite executar operações cirúrgicas no cérebro.</BrainSurgery.description>
+</LanguageData>

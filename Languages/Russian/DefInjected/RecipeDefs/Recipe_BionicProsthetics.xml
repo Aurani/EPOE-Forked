@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallPowerArm.label>Установить силовую руку</InstallPowerArm.label>
+	<InstallPowerArm.description>Установка силовой руки.</InstallPowerArm.description>
+	<InstallPowerArm.jobString>Устанавливает силовую руку.</InstallPowerArm.jobString>
+
+	<InstallBionicHand.label>Вживить бионическую кисть</InstallBionicHand.label>
+	<InstallBionicHand.description>Вживление бионической кисти.</InstallBionicHand.description>
+	<InstallBionicHand.jobString>Вживляет бионическую кисть.</InstallBionicHand.jobString>
+
+	<InstallBionicFoot.label>Вживить бионическую ступню</InstallBionicFoot.label>
+	<InstallBionicFoot.description>Вживление бионической ступни.</InstallBionicFoot.description>
+	<InstallBionicFoot.jobString>Вживляет бионическую ступню.</InstallBionicFoot.jobString>
+
+	<InstallBionicEar.label>Вживить бионический ушной имплантат</InstallBionicEar.label>
+	<InstallBionicEar.description>Вживление бионического имплантата уха.</InstallBionicEar.description>
+	<InstallBionicEar.jobString>Вживляет бионический ушной имплантат.</InstallBionicEar.jobString>
+
+	<InstallBionicJaw.label>Вживить бионический челюстной имплантат</InstallBionicJaw.label>
+	<InstallBionicJaw.description>Вживление бионического челюстного имплантата.</InstallBionicJaw.description>
+	<InstallBionicJaw.jobString>Вживляет бионический челюстной имплантат.</InstallBionicJaw.jobString>
+
+	<InstallSilentJaw.label>Вживить "молчаливый" челюстной имплантат</InstallSilentJaw.label>
+	<InstallSilentJaw.description>Вживление "молчаливого" челюстного имплантата.</InstallSilentJaw.description>
+	<InstallSilentJaw.jobString>Вживляет "молчаливый" челюстной имплантат.</InstallSilentJaw.jobString>
+
+	<InstallBionicSpine.label>Вживить бионический позвоночник</InstallBionicSpine.label>
+	<InstallBionicSpine.description>Вживление бионического позвоночника.</InstallBionicSpine.description>
+	<InstallBionicSpine.jobString>Вживляет бионический позвоночник.</InstallBionicSpine.jobString>
+
+	<InstallMedicalRib.label>Установить медицинское ребро</InstallMedicalRib.label>
+	<InstallMedicalRib.description>Установка медицинского ребра.</InstallMedicalRib.description>
+	<InstallMedicalRib.jobString>Устанавливает медицинское ребро.</InstallMedicalRib.jobString>
+
+	<InstallDruggedRib.label>Установить стимулирующее ребро</InstallDruggedRib.label>
+	<InstallDruggedRib.description>Установка стимулирующего ребра.</InstallDruggedRib.description>
+	<InstallDruggedRib.jobString>Устанавливает стимулирующее ребро</InstallDruggedRib.jobString>
+	
+	<InstallAdrenalineRib.label>Установить адреналиноые ребро</InstallAdrenalineRib.label>
+	<InstallAdrenalineRib.description>Установить адреналиноые ребро.</InstallAdrenalineRib.description>
+	<InstallAdrenalineRib.jobstring>Устанавливает адреналиноые ребро.</InstallAdrenalineRib.jobstring>
+	
+	<InstallPainkillerRib.label>Установить обезболивающее ребро</InstallPainkillerRib.label>
+	<InstallPainkillerRib.description>Установить обезболивающее ребро.</InstallPainkillerRib.description>
+	<InstallPainkillerRib.jobstring>Устанавливает обезболивающее ребро.</InstallPainkillerRib.jobstring>
+	
+</LanguageData>

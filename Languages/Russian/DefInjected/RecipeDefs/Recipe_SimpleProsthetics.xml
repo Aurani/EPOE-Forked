@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallSimpleProstheticLeg.label>Установить простой протез ноги</InstallSimpleProstheticLeg.label>
+	<InstallSimpleProstheticLeg.description>Установить простой протез ноги.</InstallSimpleProstheticLeg.description>
+    <InstallSimpleProstheticLeg.jobString>Устанавливает простой протез ноги.</InstallSimpleProstheticLeg.jobString>
+
+	<InstallSimpleProstheticArm.label>Установить простой протез руки</InstallSimpleProstheticArm.label>
+	<InstallSimpleProstheticArm.description>Установить простой протез руки.</InstallSimpleProstheticArm.description>
+    <InstallSimpleProstheticArm.jobString>Устанавливает простой протез руки</InstallSimpleProstheticArm.jobString>
+
+	<InstallGoldenEye.label>Имплантировать золотой глаз</InstallGoldenEye.label>
+	<InstallGoldenEye.description>Имплантировать золотой глаз.</InstallGoldenEye.description>
+    <InstallGoldenEye.jobString>Имплантирует золотой глаз.</InstallGoldenEye.jobString>
+	
+	<InstallSimpleProstheticHand.label>Установить простой протез кисти</InstallSimpleProstheticHand.label>
+	<InstallSimpleProstheticHand.description>Установить простой протез кисти.</InstallSimpleProstheticHand.description>
+    <InstallSimpleProstheticHand.jobString>Устанавливает простой протез кисти.</InstallSimpleProstheticHand.jobString>
+	
+	<InstallSimpleProstheticFoot.label>Установить простой протез ступни</InstallSimpleProstheticFoot.label>
+	<InstallSimpleProstheticFoot.description>Установить простой протез ступни.</InstallSimpleProstheticFoot.description>
+    <InstallSimpleProstheticFoot.jobString>Устанавливает простой протез ступни</InstallSimpleProstheticFoot.jobString>
+	
+	<InstallArtificialNose.label>Имплантировать искусственный нос</InstallArtificialNose.label>
+	<InstallArtificialNose.description>Имплантировать искусственный нос.</InstallArtificialNose.description>
+    <InstallArtificialNose.jobString>Имплантирует искусственный нос.</InstallArtificialNose.jobString>
+		
+	<InstallHydraulicJaw.label>Установить гидравлическую челюсть</InstallHydraulicJaw.label>
+	<InstallHydraulicJaw.description>Установить гидравлическую челюсть.</InstallHydraulicJaw.description>
+    <InstallHydraulicJaw.jobString>Устанавливает гидравлическую челюсть.</InstallHydraulicJaw.jobString>
+
+	<InstallArtificialPelvis.label>Установить искусственный таз</InstallArtificialPelvis.label>
+	<InstallArtificialPelvis.description>Установить искусственный таз.</InstallArtificialPelvis.description>
+    <InstallArtificialPelvis.jobString>Устанавливает искусственный таз.</InstallArtificialPelvis.jobString>
+	
+</LanguageData>

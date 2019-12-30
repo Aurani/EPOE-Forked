@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallBrainStimulator.label>Instalar Simulador cérébral</InstallBrainStimulator.label>
+	<InstallBrainStimulator.description>Instala um Simulador cérébral.</InstallBrainStimulator.description>
+    <InstallBrainStimulator.jobString>Instalando Simulador cérébral</InstallBrainStimulator.jobString>
+	
+	<InstallSurrogateLung.label>Instalar Pulmão Artificial</InstallSurrogateLung.label>
+	<InstallSurrogateLung.description>Instala um Pulmão Artificial</InstallSurrogateLung.description>
+    <InstallSurrogateLung.jobString>Instalando Pulmão Artificial</InstallSurrogateLung.jobString>
+	
+	<InstallSurrogatEstomagoh.label>Instalar Estomago Artificial</InstallSurrogatEstomagoh.label>
+	<InstallSurrogatEstomagoh.description>Instala um Estomago Artificial.</InstallSurrogatEstomagoh.description>
+    <InstallSurrogatEstomagoh.jobString>Instalando Estomago Artificial</InstallSurrogatEstomagoh.jobString>
+	
+	<InstallSurrogateLiver.label>Instalar Figado Artificial</InstallSurrogateLiver.label>
+	<InstallSurrogateLiver.description>Instala um Figado Artificial.</InstallSurrogateLiver.description>
+    <InstallSurrogateLiver.jobString>Instalando Figado Artificial</InstallSurrogateLiver.jobString>
+	
+	<InstallSurrogateKidney.label>Instalar Rim Artificial</InstallSurrogateKidney.label>
+	<InstallSurrogateKidney.description>Instala um Rim Artificial.</InstallSurrogateKidney.description>
+    <InstallSurrogateKidney.jobString>Instalando Rim Artificial</InstallSurrogateKidney.jobString>
+	
+	<InstallSurrogateHeart.label>Instalar Coração Artificial</InstallSurrogateHeart.label>
+	<InstallSurrogateHeart.description>Instala um Coração Artificial.</InstallSurrogateHeart.description>
+    <InstallSurrogateHeart.jobString>Instalando Coração Artificial</InstallSurrogateHeart.jobString>
+	
+</LanguageData>

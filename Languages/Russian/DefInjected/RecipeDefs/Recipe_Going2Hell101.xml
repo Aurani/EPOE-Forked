@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+	<MinceOrgans.label>перемолоть органы</MinceOrgans.label>
+	<MinceOrgans.description>Пропустить через мясорубку человеческие органы, чтобы получить съедобное мясо. Отличная еда для заключённых.</MinceOrgans.description>
+	<MinceOrgans.jobstring>Перемалывает органы.</MinceOrgans.jobstring>
+	
+	<MinceLimbs.label>перемолоть конечности</MinceLimbs.label>
+	<MinceLimbs.description>Пропустить через мясорубку человеческие конечности, чтобы получить съедобное мясо. Остерегайтесь ногтей.</MinceLimbs.description>
+	<MinceLimbs.jobstring>Перемалывает конечности.</MinceLimbs.jobstring>
+	
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!--Prostheses-->
+	<BasicProstheses.label>Базовые протезы</BasicProstheses.label>
+	<SimpleProstheses.label>Простые протезы</SimpleProstheses.label>
+	<BionicProstheses.label>Бионические протезы</BionicProstheses.label>
+	<AdvancedProstheses.label>Улучшенные бионические протезы</AdvancedProstheses.label>
+	<!--Organs-->
+	<SurrogateOrgans.label>Заменители органов</SurrogateOrgans.label>
+	<SyntheticOrgans.label>Синтетические органы</SyntheticOrgans.label>
+
+</LanguageData>
