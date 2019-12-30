@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Added body parts -->
+
+  <PowerArm.label>動力臂</PowerArm.label>
+  <PowerArm.description>更加無與倫比的力量與敏捷，並且帶有鋒利、可伸縮的利爪。目前手臂的終極升級方案！</PowerArm.description>
+
+  <BionicHand.label>仿生手</BionicHand.label>
+  <BionicHand.description>比起普通的手，能讓使用者更快地完成任務。</BionicHand.description>
+
+  <BionicFoot.label>仿生足</BionicFoot.label>
+  <BionicFoot.description>這種假體能給你更快的行走速度，而且任何時候都不會被絆倒。</BionicFoot.description>
+
+  <BionicEar.label>仿生耳</BionicEar.label>
+  <BionicEar.description>這個先進設備能擴展耳鼓的基本功能。</BionicEar.description>
+
+  <BionicJaw.label>仿生頜</BionicJaw.label>
+  <BionicJaw.description>除了一套更強勁的牙齒，還附帶一個聲音調節器。</BionicJaw.description>
+
+  <SilentJaw.label>靜音頜</SilentJaw.label>
+  <SilentJaw.description>這是去除了聲音調節器的仿生頜版本，對說話粗魯的人很有用。</SilentJaw.description>
+
+  <BionicSpine.label>仿生脊椎</BionicSpine.label>
+  <BionicSpine.description>這種輕便且引人注意的設備可以替代受損的脊椎。</BionicSpine.description>
+
+  <!-- [Core] <BionicEye.label>仿生眼</BionicEye.label>-->
+  <!-- [Core] <BionicEye.description>高端科技的產物，仿生眼不僅能完全替代自然眼睛的功能，還能賦予使用者超常的視力。</BionicEye.description>-->
+
+  <!-- [Core] <BionicArm.label>仿生臂</BionicArm.label>-->
+  <!-- [Core] <BionicArm.description>最精密的手臂替代品之一，賦予使用者爆發出無與倫比的力量。</BionicArm.description>-->
+
+  <!-- [Core] <BionicLeg.label>仿生腿</BionicLeg.label>-->
+  <!-- [Core] <BionicLeg.description>尖端科技製成的仿生腿，可以給使用者帶來極端的步行舒適度和力量。</BionicLeg.description>-->
+
+  <!-- [Core] <PowerClaw.label>動力爪</PowerClaw.label>-->
+  <!-- [Core] <PowerClaw.description>一種由三個致命利爪組成的強大的手部替代品。</PowerClaw.description>-->
+
+  <!-- [Core] <ScytherBlade.label>鐮刀機械鎧</ScytherBlade.label>-->
+  <!-- [Core] <ScytherBlade.description>嵌有鐮刃的手部替代品。從機械飛螳上拆下來的。不是很舒服但確實是非常致命的近戰武器。</ScytherBlade.description>-->
+
+  <MedicalRib.label>醫療肋骨</MedicalRib.label>
+  <MedicalRib.description>一根人造肋骨，內置小型的血液過濾器和抗生素釋放器，讓使用者的保持健康。</MedicalRib.description>
+
+  <DruggedRib.label>迷幻肋骨</DruggedRib.label>
+  <DruggedRib.description>一根人造肋骨，內置小型的酒精釋放器，讓使用者的保持愉悅。</DruggedRib.description>
+
+  <AdrenalineRib.label>腎上腺素肋骨</AdrenalineRib.label>
+  <AdrenalineRib.description>一根人造肋骨，內置小型的腎上腺素釋放器，讓使用者的保持活力和清醒。</AdrenalineRib.description>
+
+  <PainkillerRib.label>止痛肋骨</PainkillerRib.label>
+  <PainkillerRib.description>一根人造肋骨，內置小型的嗎啡釋放器，麻痺使用者的痛覺。副作用是呼吸道疾病。</PainkillerRib.description>
+
+
+</LanguageData>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EPOE -->
+
+  <InstallAdvancedPowerArm.label>安装先进动力臂</InstallAdvancedPowerArm.label>
+  <InstallAdvancedPowerArm.description>安装先进动力臂。</InstallAdvancedPowerArm.description>
+  <InstallAdvancedPowerArm.jobString>正在安装先进动力臂。</InstallAdvancedPowerArm.jobString>
+
+  <InstallAdvancedBionicArm.label>安装先进仿生臂</InstallAdvancedBionicArm.label>
+  <InstallAdvancedBionicArm.description>安装先进仿生臂。</InstallAdvancedBionicArm.description>
+  <InstallAdvancedBionicArm.jobString>正在安装先进仿生臂。</InstallAdvancedBionicArm.jobString>
+
+  <InstallAdvancedBionicLeg.label>安装先进仿生腿</InstallAdvancedBionicLeg.label>
+  <InstallAdvancedBionicLeg.description>安装先进仿生腿。</InstallAdvancedBionicLeg.description>
+  <InstallAdvancedBionicLeg.jobString>正在安装先进仿生腿。</InstallAdvancedBionicLeg.jobString>
+
+  <InstallAdvancedBionicHand.label>安装先进仿生手</InstallAdvancedBionicHand.label>
+  <InstallAdvancedBionicHand.description>安装先进仿生手。</InstallAdvancedBionicHand.description>
+  <InstallAdvancedBionicHand.jobString>正在安装先进仿生手。</InstallAdvancedBionicHand.jobString>
+
+  <InstallAdvancedBionicFoot.label>安装先进仿生足</InstallAdvancedBionicFoot.label>
+  <InstallAdvancedBionicFoot.description>安装先进仿生足。</InstallAdvancedBionicFoot.description>
+  <InstallAdvancedBionicFoot.jobString>正在安装先进仿生足。</InstallAdvancedBionicFoot.jobString>
+
+  <InstallAdvancedBionicEye.label>安装先进仿生眼</InstallAdvancedBionicEye.label>
+  <InstallAdvancedBionicEye.description>安装先进仿生眼。</InstallAdvancedBionicEye.description>
+  <InstallAdvancedBionicEye.jobString>正在安装先进仿生眼。</InstallAdvancedBionicEye.jobString>
+
+  <InstallAdvancedBionicEar.label>安装先进仿生耳</InstallAdvancedBionicEar.label>
+  <InstallAdvancedBionicEar.description>安装先进仿生耳。</InstallAdvancedBionicEar.description>
+  <InstallAdvancedBionicEar.jobString>正在安装先进仿生耳。</InstallAdvancedBionicEar.jobString>
+
+  <InstallAdvancedBionicJaw.label>安装先进仿生颌</InstallAdvancedBionicJaw.label>
+  <InstallAdvancedBionicJaw.description>安装先进仿生颌。</InstallAdvancedBionicJaw.description>
+  <InstallAdvancedBionicJaw.jobString>正在安装先进仿生颌。</InstallAdvancedBionicJaw.jobString>
+
+  <InstallAdvancedBionicSpine.label>安装先进仿生脊椎</InstallAdvancedBionicSpine.label>
+  <InstallAdvancedBionicSpine.description>安装先进仿生脊椎。</InstallAdvancedBionicSpine.description>
+  <InstallAdvancedBionicSpine.jobString>正在安装先进仿生脊椎。</InstallAdvancedBionicSpine.jobString>
+
+  <InstallExoskeletonSuit.label>安装外骨骼</InstallExoskeletonSuit.label>
+  <InstallExoskeletonSuit.description>安装外骨骼。</InstallExoskeletonSuit.description>
+  <InstallExoskeletonSuit.jobString>正在安装外骨骼。</InstallExoskeletonSuit.jobString>
+
+
+</LanguageData>

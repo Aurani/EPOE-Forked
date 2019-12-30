@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bionics Below -->
+
+  <InstallPowerArm.label>安装动力臂</InstallPowerArm.label>
+  <InstallPowerArm.description>安装动力臂。</InstallPowerArm.description>
+  <InstallPowerArm.jobString>正在安装动力臂。</InstallPowerArm.jobString>
+
+  <InstallBionicHand.label>安装仿生手</InstallBionicHand.label>
+  <InstallBionicHand.description>安装仿生手。</InstallBionicHand.description>
+  <InstallBionicHand.jobString>正在安装仿生手。</InstallBionicHand.jobString>
+
+  <InstallBionicFoot.label>安装仿生足</InstallBionicFoot.label>
+  <InstallBionicFoot.description>安装仿生足。</InstallBionicFoot.description>
+  <InstallBionicFoot.jobString>正在安装仿生足。</InstallBionicFoot.jobString>
+
+  <InstallBionicEar.label>安装仿生耳</InstallBionicEar.label>
+  <InstallBionicEar.description>安装仿生耳。</InstallBionicEar.description>
+  <InstallBionicEar.jobString>正在安装仿生耳。</InstallBionicEar.jobString>
+
+  <InstallBionicJaw.label>安装仿生颌</InstallBionicJaw.label>
+  <InstallBionicJaw.description>安装仿生颌。</InstallBionicJaw.description>
+  <InstallBionicJaw.jobString>正在安装仿生颌。</InstallBionicJaw.jobString>
+
+  <InstallSilentJaw.label>安装静音颌</InstallSilentJaw.label>
+  <InstallSilentJaw.description>安装静音颌。</InstallSilentJaw.description>
+  <InstallSilentJaw.jobString>正在安装静音颌。</InstallSilentJaw.jobString>
+
+  <InstallBionicSpine.label>安装仿生脊椎</InstallBionicSpine.label>
+  <InstallBionicSpine.description>安装仿生脊椎。</InstallBionicSpine.description>
+  <InstallBionicSpine.jobString>正在安装仿生脊椎。</InstallBionicSpine.jobString>
+
+  <InstallMedicalRib.label>安装医疗肋骨</InstallMedicalRib.label>
+  <InstallMedicalRib.description>安装医疗肋骨。</InstallMedicalRib.description>
+  <InstallMedicalRib.jobString>正在安装医疗肋骨。</InstallMedicalRib.jobString>
+
+  <InstallDruggedRib.label>安装迷幻肋骨</InstallDruggedRib.label>
+  <InstallDruggedRib.description>安装迷幻肋骨。</InstallDruggedRib.description>
+  <InstallDruggedRib.jobString>正在安装迷幻肋骨。</InstallDruggedRib.jobString>
+
+  <InstallAdrenalineRib.label>安装肾上腺素肋骨</InstallAdrenalineRib.label>
+  <InstallAdrenalineRib.description>安装肾上腺素肋骨。</InstallAdrenalineRib.description>
+  <InstallAdrenalineRib.jobString>正在安装肾上腺素肋骨。</InstallAdrenalineRib.jobString>
+
+  <InstallPainkillerRib.label>安装止痛肋骨</InstallPainkillerRib.label>
+  <InstallPainkillerRib.description>安装止痛肋骨。</InstallPainkillerRib.description>
+  <InstallPainkillerRib.jobString>正在安装止痛肋骨。</InstallPainkillerRib.jobString>
+
+
+</LanguageData>

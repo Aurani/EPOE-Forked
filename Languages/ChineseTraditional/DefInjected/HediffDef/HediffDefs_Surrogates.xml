@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Added body parts -->
+
+  <BrainStimulator.label>腦激勵器</BrainStimulator.label>
+  <SurrogateLung.label>替代體肺</SurrogateLung.label>
+  <SurrogateStomach.label>替代體胃</SurrogateStomach.label>
+  <SurrogateLiver.label>替代體肝</SurrogateLiver.label>
+  <SurrogateKidney.label>替代體腎</SurrogateKidney.label>
+  <SurrogateHeart.label>替代體心</SurrogateHeart.label>
+
+
+</LanguageData>

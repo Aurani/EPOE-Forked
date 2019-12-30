@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <InstallBrainStimulator.label>安裝腦激勵器</InstallBrainStimulator.label>
+  <InstallBrainStimulator.description>安裝腦激勵器。</InstallBrainStimulator.description>
+  <InstallBrainStimulator.jobString>正在安裝腦激勵器。</InstallBrainStimulator.jobString>
+
+  <InstallSurrogateLung.label>安裝替代體肺</InstallSurrogateLung.label>
+  <InstallSurrogateLung.description>安裝替代體肺。</InstallSurrogateLung.description>
+  <InstallSurrogateLung.jobString>正在安裝替代體肺。</InstallSurrogateLung.jobString>
+
+  <InstallSurrogateStomach.label>安裝替代體胃</InstallSurrogateStomach.label>
+  <InstallSurrogateStomach.description>安裝替代體胃。</InstallSurrogateStomach.description>
+  <InstallSurrogateStomach.jobString>正在安裝替代體胃。</InstallSurrogateStomach.jobString>
+
+  <InstallSurrogateLiver.label>安裝替代體肝</InstallSurrogateLiver.label>
+  <InstallSurrogateLiver.description>安裝替代體肝。</InstallSurrogateLiver.description>
+  <InstallSurrogateLiver.jobString>正在安裝替代體肝。</InstallSurrogateLiver.jobString>
+
+  <InstallSurrogateKidney.label>安裝替代體腎</InstallSurrogateKidney.label>
+  <InstallSurrogateKidney.description>安裝替代體腎。</InstallSurrogateKidney.description>
+  <InstallSurrogateKidney.jobString>正在安裝替代體腎。</InstallSurrogateKidney.jobString>
+
+  <InstallSurrogateHeart.label>安裝替代體心</InstallSurrogateHeart.label>
+  <InstallSurrogateHeart.description>安裝替代體心。</InstallSurrogateHeart.description>
+  <InstallSurrogateHeart.jobString>正在安裝替代體心。</InstallSurrogateHeart.jobString>
+
+
+</LanguageData>

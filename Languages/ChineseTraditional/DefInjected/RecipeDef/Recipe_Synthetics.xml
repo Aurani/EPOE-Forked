@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <InstallAIChip.label>安裝AI芯片</InstallAIChip.label>
+  <InstallAIChip.description>安裝AI芯片。</InstallAIChip.description>
+  <InstallAIChip.jobString>正在安裝AI芯片。</InstallAIChip.jobString>
+
+  <!-- [Core] <InstallJoywire.label>安裝樂絲晶片</InstallJoywire.label>-->
+  <!-- [Core] <InstallJoywire.description>安裝樂絲晶片。</InstallJoywire.description>-->
+  <!-- [Core] <InstallJoywire.jobString>正在安裝樂絲晶片。</InstallJoywire.jobString>-->
+
+  <!-- [Core] <InstallPainstopper.label>安裝痛覺阻斷晶片</InstallPainstopper.label>-->
+  <!-- [Core] <InstallPainstopper.description>安裝痛覺阻斷晶片。</InstallPainstopper.description>-->
+  <!-- [Core] <InstallPainstopper.jobString>正在安裝痛覺阻斷晶片。</InstallPainstopper.jobString>-->
+
+  <InstallSyntheticLung.label>安裝合成肺</InstallSyntheticLung.label>
+  <InstallSyntheticLung.description>安裝合成肺。</InstallSyntheticLung.description>
+  <InstallSyntheticLung.jobString>正在安裝合成肺。</InstallSyntheticLung.jobString>
+
+  <InstallSyntheticStomach.label>安裝合成胃</InstallSyntheticStomach.label>
+  <InstallSyntheticStomach.description>安裝合成胃。</InstallSyntheticStomach.description>
+  <InstallSyntheticStomach.jobString>正在安裝合成胃。</InstallSyntheticStomach.jobString>
+
+  <InstallSyntheticLiver.label>安裝合成肝</InstallSyntheticLiver.label>
+  <InstallSyntheticLiver.description>安裝合成肝。</InstallSyntheticLiver.description>
+  <InstallSyntheticLiver.jobString>正在安裝合成肝。</InstallSyntheticLiver.jobString>
+
+  <InstallSyntheticKidney.label>安裝合成腎</InstallSyntheticKidney.label>
+  <InstallSyntheticKidney.description>安裝合成腎。</InstallSyntheticKidney.description>
+  <InstallSyntheticKidney.jobString>正在安裝合成腎。</InstallSyntheticKidney.jobString>
+
+  <InstallSyntheticHeart.label>安裝合成心</InstallSyntheticHeart.label>
+  <InstallSyntheticHeart.description>安裝合成心</InstallSyntheticHeart.description>
+  <InstallSyntheticHeart.jobString>正在安裝合成心。</InstallSyntheticHeart.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CreateBrainStimulator.label>製作腦激勵器</CreateBrainStimulator.label>
+  <CreateBrainStimulator.description>使用零部件、塑鋼和布製作腦激勵器。</CreateBrainStimulator.description>
+  <CreateBrainStimulator.jobString>正在製作腦激勵器。</CreateBrainStimulator.jobString>
+
+  <CreateSurrogateLung.label>製作替代體肺</CreateSurrogateLung.label>
+  <CreateSurrogateLung.description>使用零部件、塑鋼和布製作替代體肺。</CreateSurrogateLung.description>
+  <CreateSurrogateLung.jobString>正在製作替代體肺。</CreateSurrogateLung.jobString>
+
+  <CreateSurrogateStomach.label>製作替代體胃</CreateSurrogateStomach.label>
+  <CreateSurrogateStomach.description>使用零部件、塑鋼和布製作替代體胃。</CreateSurrogateStomach.description>
+  <CreateSurrogateStomach.jobString>正在製作替代體胃。</CreateSurrogateStomach.jobString>
+
+  <CreateSurrogateLiver.label>製作替代體肝</CreateSurrogateLiver.label>
+  <CreateSurrogateLiver.description>使用零部件、塑鋼和布製作替代體肝。</CreateSurrogateLiver.description>
+  <CreateSurrogateLiver.jobString>正在製作替代體肝。</CreateSurrogateLiver.jobString>
+
+  <CreateSurrogateKidney.label>製作替代體腎</CreateSurrogateKidney.label>
+  <CreateSurrogateKidney.description>使用零部件、塑鋼和布製作替代體腎。</CreateSurrogateKidney.description>
+  <CreateSurrogateKidney.jobString>正在製作替代體腎。</CreateSurrogateKidney.jobString>
+
+  <CreateSurrogateHeart.label>製作替代體心</CreateSurrogateHeart.label>
+  <CreateSurrogateHeart.description>使用零部件、塑鋼和布製作替代體心。</CreateSurrogateHeart.description>
+  <CreateSurrogateHeart.jobString>正在製作替代體心。</CreateSurrogateHeart.jobString>
+
+
+</LanguageData>

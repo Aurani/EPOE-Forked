@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <HediffDef ParentName="addedPartBionics">
+    <defName>AICore</defName>
+    <label>AI Core</label>
+    <addedPartProps>
+      <isSolid>true</isSolid>
+      <partEfficiency>1.2</partEfficiency>
+	<spawnThingOnRemoved>AIPersonaCore</spawnThingOnRemoved>
+    </addedPartProps>
+  </HediffDef> -->
+
+  <PowerArm.label>动力臂</PowerArm.label>
+  <BionicHand.label>仿生手</BionicHand.label>
+  <BionicFoot.label>仿生足</BionicFoot.label>
+  <BionicEar.label>仿生耳</BionicEar.label>
+  <BionicJaw.label>仿生颌</BionicJaw.label>
+  <SilentJaw.label>静音颌</SilentJaw.label>
+  <BionicSpine.label>仿生脊椎</BionicSpine.label>
+
+
+  <!-- Ribs -->
+
+  <MedicalRib.label>医疗肋骨替代体</MedicalRib.label>
+  <DruggedRib.label>迷幻肋骨</DruggedRib.label>
+  <AdrenalineRib.label>肾上腺素肋骨</AdrenalineRib.label>
+  <PainkillerRib.label>止痛肋骨</PainkillerRib.label>
+
+
+</LanguageData>

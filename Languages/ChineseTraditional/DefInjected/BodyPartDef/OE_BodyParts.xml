@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- [Core] <LeftEye.label>左眼</LeftEye.label>-->
+  <!-- [Core] <RightEye.label>右眼</RightEye.label>-->
+  <!-- [Core] <LeftEar.label>左耳</LeftEar.label>-->
+  <!-- [Core] <RightEar.label>右耳</RightEar.label>-->
+  <!-- [Core] <Nose.label>鼻</Nose.label>-->
+  <!-- [Core] <Jaw.label>下頜</Jaw.label>-->
+  <!-- [Core] <Stomach.label>胃</Stomach.label>-->
+  <Rib1.label>第一節肋骨</Rib1.label>
+  <Rib2.label>第二節肋骨</Rib2.label>
+  <Rib3.label>第三節肋骨</Rib3.label>
+  <Rib4.label>第四節肋骨</Rib4.label>
+  <Rib5.label>第五節肋骨</Rib5.label>
+  <Rib6.label>第六節肋骨</Rib6.label>
+  <Rib7.label>第七節肋骨</Rib7.label>
+  <Rib8.label>第八節肋骨</Rib8.label>
+  <Rib9.label>第九節肋骨</Rib9.label>
+  <Rib10.label>第十節肋骨</Rib10.label>
+  <Rib11.label>第十一節肋骨</Rib11.label>
+  <Rib12.label>第十二節肋骨</Rib12.label>
+
+
+</LanguageData>

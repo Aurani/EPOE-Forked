@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Added body parts -->
+
+  <SteelArm.label>铁臂</SteelArm.label>
+  <SteelArm.description>非常糟糕的手臂替代品。看起来很糟糕，感觉也很糟糕，真的很糟糕。</SteelArm.description>
+
+  <EyePatch.label>眼罩</EyePatch.label>
+  <EyePatch.description>把眼窝罩住。挺吓人的。</EyePatch.description>
+
+  <HookHand.label>勾手</HookHand.label>
+  <HookHand.description>代替确实的手。哦呀，挺吓人的。</HookHand.description>
+
+  <denture.label>义齿</denture.label>
+  <denture.description>用木制的牙齿代替确实的下巴。有点臭。</denture.description>
+
+  <PegLeg.label>木腿</PegLeg.label>
+  <PegLeg.description>用木头代替缺失的腿。过时了，但还是挺好用的。</PegLeg.description>
+
+  <WoodenFoot.label>木足</WoodenFoot.label>
+  <WoodenFoot.description>用木头代替确实的脚。至少比跳来跳去要舒服。</WoodenFoot.description>
+
+  <EarBandage.label>耳绷带</EarBandage.label>
+  <EarBandage.description>包住缺失的耳朵。看起来像是一个彻底失败的十九世纪艺术家！</EarBandage.description>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CreateVancidium.label>精煉超釩</CreateVancidium.label>
+  <CreateVancidium.description>用強熱和電磁鐵融合黃金、鋼鐵和塑鋼。</CreateVancidium.description>
+  <CreateVancidium.jobString>正在精煉超釩。</CreateVancidium.jobString>
+
+  <MakeAdvancedComponent.label>製作先進零部件</MakeAdvancedComponent.label>
+  <MakeAdvancedComponent.description>製作先進零部件。</MakeAdvancedComponent.description>
+  <MakeAdvancedComponent.jobString>正在製作先進零部件。</MakeAdvancedComponent.jobString>
+
+
+</LanguageData>

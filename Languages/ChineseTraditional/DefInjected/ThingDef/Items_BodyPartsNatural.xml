@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Leg.label>腿</Leg.label>
+  <Leg.description>能讓你到處走來走去的、漂亮的、長長的肉棍子。</Leg.description>
+
+  <Arm.label>臂</Arm.label>
+  <Arm.description>臂和腿差不多，除了能讓你拿起東西。</Arm.description>
+
+  <Stomach.label>胃</Stomach.label>
+  <Stomach.description>消化食物並轉化成能量和營養。</Stomach.description>
+
+  <!-- [Core] <Heart.label>心臟</Heart.label>-->
+  <!-- [Core] <Heart.description>負責將血液和氧氣供給到身體的各個位置。待候新的主人。</Heart.description>-->
+
+  <!-- [Core] <Liver.label>肝</Liver.label>-->
+  <!-- [Core] <Liver.description>在新陳代謝扮演重要的角色。</Liver.description>-->
+
+  <!-- [Core] <Lung.label>肺</Lung.label>-->
+  <!-- [Core] <Lung.description>呼吸系統的重要組成部分。</Lung.description>-->
+
+  <!-- [Core] <Kidney.label>腎</Kidney.label>-->
+  <!-- [Core] <Kidney.description>過濾並移除血液中的廢物。</Kidney.description>-->
+
+  <Eye.label>眼球</Eye.label>
+  <Eye.description>感受到光線，讓人們知道他們周圍有什麼。</Eye.description>
+
+  <Nose.label>鼻子</Nose.label>
+  <Nose.description>分辨氣味的非常有用的器官，一張臉的點睛之筆。</Nose.description>
+
+  <Ear.label>耳朵</Ear.label>
+  <Ear.description>採集空氣中的震動，讓人們聽到聲音。</Ear.description>
+
+  <Jaw.label>下頜</Jaw.label>
+  <Jaw.description>用於咀嚼食物和交談的一組漂亮牙齒。</Jaw.description>
+
+
+</LanguageData>

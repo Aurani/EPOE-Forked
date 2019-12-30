@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Added body parts -->
+
+  <AIChip.label>AI芯片</AIChip.label>
+  <AIChip.description>通过特殊的化学物质和电脉冲，这种小小的芯片可以完全恢复使用者的意识和行动能力。需要完成脑部手术研究才能安装。</AIChip.description>
+
+  <SyntheticLung.label>合成肺</SyntheticLung.label>
+  <SyntheticLung.description>高科技的呼吸替代体。轻柔的呼吸声。</SyntheticLung.description>
+
+  <SyntheticStomach.label>合成胃</SyntheticStomach.label>
+  <SyntheticStomach.description>增强型胃，通过使用更优良的合成织物来降低废品率。</SyntheticStomach.description>
+
+  <SyntheticLiver.label>合成肝</SyntheticLiver.label>
+  <SyntheticLiver.description>增强型肝，通过使用更优良的合成织物来降低废品率。</SyntheticLiver.description>
+
+  <SyntheticKidney.label>合成肾</SyntheticKidney.label>
+  <SyntheticKidney.description>增强型肾，通过使用更优良的合成织物来降低废品率。</SyntheticKidney.description>
+
+  <SyntheticHeart.label>合成心</SyntheticHeart.label>
+  <SyntheticHeart.description>顶级的心脏替代体。单次充电最少能维持30年的运行。</SyntheticHeart.description>
+
+  <SyntheticSkin.label>合成皮肤</SyntheticSkin.label>
+  <SyntheticSkin.description>一小片看起来很有趣的类皮肤材料。感觉就像真的皮肤一样。</SyntheticSkin.description>
+
+  <!-- [Core] <Joywire.label>乐丝芯片</Joywire.label>-->
+  <!-- [Core] <Joywire.description>这个小小的大脑植入体会让你感到愉悦和放松。</Joywire.description>-->
+
+  <!-- [Core] <Painstopper.label>止痛芯片</Painstopper.label>-->
+  <!-- [Core] <Painstopper.description>这种大脑植入体会让你感觉不到疼痛。</Painstopper.description>-->
+
+
+</LanguageData>

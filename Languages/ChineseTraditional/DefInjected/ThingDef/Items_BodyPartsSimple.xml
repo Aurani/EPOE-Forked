@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Added body parts -->
+
+  <GoldenEye.label>黃金眼</GoldenEye.label>
+  <GoldenEye.description>用來代替缺失的眼睛。非常非常漂亮，但遺憾的是你還是無法從鏡子中看到自己。</GoldenEye.description>
+
+  <ArtificialNose.label>人造鼻</ArtificialNose.label>
+  <ArtificialNose.description>用來代替缺失的鼻子。填補臉中央的空洞。</ArtificialNose.description>
+
+  <HydraulicJaw.label>液壓頜</HydraulicJaw.label>
+  <HydraulicJaw.description>用來代替缺失的下頜。要小心極高效率的牙齒！</HydraulicJaw.description>
+
+  <SimpleProstheticHand.label>簡易的假手</SimpleProstheticHand.label>
+  <SimpleProstheticHand.description>用來代替缺失的手，不是很舒服但是相當有效。</SimpleProstheticHand.description>
+
+  <SimpleProstheticFoot.label>簡易的假足</SimpleProstheticFoot.label>
+  <SimpleProstheticFoot.description>用來代替缺失的腳，不是很舒服但是相當有效。</SimpleProstheticFoot.description>
+
+  <!-- [Core] <SimpleProstheticLeg.label>簡易的假腿</SimpleProstheticLeg.label>-->
+  <!-- [Core] <SimpleProstheticLeg.description>用來替換缺失的腿的假肢，不是很舒服但是相當有效。</SimpleProstheticLeg.description>-->
+
+  <!-- [Core] <SimpleProstheticArm.label>簡易的假臂</SimpleProstheticArm.label>-->
+  <!-- [Core] <SimpleProstheticArm.description>簡易但耐用的假臂。</SimpleProstheticArm.description>-->
+
+  <ArtificialPelvis.label>人造骨盆</ArtificialPelvis.label>
+  <ArtificialPelvis.description>用來代替缺失的骨盆。如果你不想在地上到處爬的話，還是非常有用的。</ArtificialPelvis.description>
+
+
+</LanguageData>

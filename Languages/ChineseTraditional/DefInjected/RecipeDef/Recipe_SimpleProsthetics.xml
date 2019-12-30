@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Vanilla -->
+
+  <!-- [Core] <InstallSimpleProstheticLeg.label>安裝簡易的假腿</InstallSimpleProstheticLeg.label>-->
+  <!-- [Core] <InstallSimpleProstheticLeg.description>安裝簡易的假腿。</InstallSimpleProstheticLeg.description>-->
+  <!-- [Core] <InstallSimpleProstheticLeg.jobString>正在安裝簡易的假腿。</InstallSimpleProstheticLeg.jobString>-->
+
+  <!-- [Core] <InstallSimpleProstheticArm.label>安裝簡易的假臂</InstallSimpleProstheticArm.label>-->
+  <!-- [Core] <InstallSimpleProstheticArm.description>安裝簡易的假臂。</InstallSimpleProstheticArm.description>-->
+  <!-- [Core] <InstallSimpleProstheticArm.jobString>正在安裝簡易的假臂。</InstallSimpleProstheticArm.jobString>-->
+
+
+  <!-- Mod -->
+
+  <InstallGoldenEye.label>安裝黃金眼</InstallGoldenEye.label>
+  <InstallGoldenEye.description>安裝黃金眼。</InstallGoldenEye.description>
+  <InstallGoldenEye.jobString>正在安裝黃金眼。</InstallGoldenEye.jobString>
+
+  <InstallSimpleProstheticHand.label>安裝簡易的假手</InstallSimpleProstheticHand.label>
+  <InstallSimpleProstheticHand.description>安裝a 簡易的假手。</InstallSimpleProstheticHand.description>
+  <InstallSimpleProstheticHand.jobString>正在安裝簡易的假手。</InstallSimpleProstheticHand.jobString>
+
+  <InstallSimpleProstheticFoot.label>安裝簡易的假足</InstallSimpleProstheticFoot.label>
+  <InstallSimpleProstheticFoot.description>安裝簡易的假足。</InstallSimpleProstheticFoot.description>
+  <InstallSimpleProstheticFoot.jobString>正在安裝簡易的假足。</InstallSimpleProstheticFoot.jobString>
+
+  <InstallArtificialNose.label>安裝人造鼻</InstallArtificialNose.label>
+  <InstallArtificialNose.description>安裝人造鼻。</InstallArtificialNose.description>
+  <InstallArtificialNose.jobString>正在安裝人造鼻。</InstallArtificialNose.jobString>
+
+  <InstallHydraulicJaw.label>安裝液壓頜</InstallHydraulicJaw.label>
+  <InstallHydraulicJaw.description>安裝液壓頜。</InstallHydraulicJaw.description>
+  <InstallHydraulicJaw.jobString>正在安裝液壓頜。</InstallHydraulicJaw.jobString>
+
+  <InstallArtificialPelvis.label>安裝人造骨盆</InstallArtificialPelvis.label>
+  <InstallArtificialPelvis.description>安裝人造骨盆。</InstallArtificialPelvis.description>
+  <InstallArtificialPelvis.jobString>正在安裝人造骨盆。</InstallArtificialPelvis.jobString>
+
+
+</LanguageData>

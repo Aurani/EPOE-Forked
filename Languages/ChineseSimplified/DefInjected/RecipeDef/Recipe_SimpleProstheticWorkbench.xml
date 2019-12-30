@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CreateSimpleProstheticLeg.label>制作简易的假腿</CreateSimpleProstheticLeg.label>
+  <CreateSimpleProstheticLeg.description>使用钢铁、玻璃钢和零部件制作简易的假腿。</CreateSimpleProstheticLeg.description>
+  <CreateSimpleProstheticLeg.jobString>正在制作假体</CreateSimpleProstheticLeg.jobString>
+
+  <CreateSimpleProstheticArm.label>制作简易的假臂</CreateSimpleProstheticArm.label>
+  <CreateSimpleProstheticArm.description>使用钢铁、玻璃钢和零部件制作简易的假臂。</CreateSimpleProstheticArm.description>
+  <CreateSimpleProstheticArm.jobString>正在制作假体</CreateSimpleProstheticArm.jobString>
+
+  <CreateSimpleProstheticHand.label>制作简易的假手</CreateSimpleProstheticHand.label>
+  <CreateSimpleProstheticHand.description>使用钢铁、玻璃钢和零部件制作简易的假手。</CreateSimpleProstheticHand.description>
+  <CreateSimpleProstheticHand.jobString>正在制作假体</CreateSimpleProstheticHand.jobString>
+
+  <CreateSimpleProstheticFoot.label>制作简易的假足</CreateSimpleProstheticFoot.label>
+  <CreateSimpleProstheticFoot.description>使用钢铁、玻璃钢和零部件制作简易的假足。</CreateSimpleProstheticFoot.description>
+  <CreateSimpleProstheticFoot.jobString>正在制作假体</CreateSimpleProstheticFoot.jobString>
+
+  <CreateArtificialNose.label>制作人造鼻</CreateArtificialNose.label>
+  <CreateArtificialNose.description>使用玻璃钢制作人造鼻。</CreateArtificialNose.description>
+  <CreateArtificialNose.jobString>正在制作假体</CreateArtificialNose.jobString>
+
+  <CreateHydraulicJaw.label>制作液压颌</CreateHydraulicJaw.label>
+  <CreateHydraulicJaw.description>使用钢铁和零部件制作液压颌。</CreateHydraulicJaw.description>
+  <CreateHydraulicJaw.jobString>正在制作假体</CreateHydraulicJaw.jobString>
+
+  <CreateGoldenEye.label>制作黄金眼</CreateGoldenEye.label>
+  <CreateGoldenEye.description>金条 + 锤子 = 黄金眼。</CreateGoldenEye.description>
+  <CreateGoldenEye.jobString>正在制作假体</CreateGoldenEye.jobString>
+
+  <CreateArtificialPelvis.label>制作人造骨盆</CreateArtificialPelvis.label>
+  <CreateArtificialPelvis.description>使用钢铁和玻璃钢制作人造骨盆。</CreateArtificialPelvis.description>
+  <CreateArtificialPelvis.jobString>正在制作假体</CreateArtificialPelvis.jobString>
+
+
+</LanguageData>

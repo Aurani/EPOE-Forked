@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EPOE -->
+
+  <Vancidium.label>超釩</Vancidium.label>
+  <Vancidium.description>一種高科技手段製造的昂貴、高品質材料。閃閃發光。</Vancidium.description>
+  <Vancidium.stuffProps.stuffAdjective>超釩</Vancidium.stuffProps.stuffAdjective>
+
+  <AdvancedComponents.label>先進零部件</AdvancedComponents.label>
+  <AdvancedComponents.description>看起來像普通的零部件，但更優良，而且是藍色的。</AdvancedComponents.description>
+
+
+</LanguageData>

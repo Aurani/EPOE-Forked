@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TableBasicProsthetic.label>基本假体工作台</TableBasicProsthetic.label>
+  <TableBasicProsthetic.description>用于生产非常简易的假体的工作台。</TableBasicProsthetic.description>
+  <TableBasicProsthetic_Blueprint.label>基本假体工作台（蓝图）</TableBasicProsthetic_Blueprint.label>
+  <TableBasicProsthetic_Frame.label>基本假体工作台（建造中）</TableBasicProsthetic_Frame.label>
+
+
+</LanguageData>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 0 -->
+
+  <BasicProsthetics.label>EPOE：基本假体</BasicProsthetics.label>
+  <BasicProsthetics.description>理解腿的形状并将知识融入基本木工，你现在可以制造木腿和其他基本假体了。</BasicProsthetics.description>
+
+
+  <!-- Tier 1 -->
+
+  <SimpleProsthetics.label>EPOE：简易假体</SimpleProsthetics.label>
+  <SimpleProsthetics.description>先进的解剖学和材料测试，让你能制作简易假体。</SimpleProsthetics.description>
+
+
+  <!-- Tier 2 -->
+
+  <Bionics.label>EPOE：仿生体</Bionics.label>
+  <Bionics.description>探索微型马达和电路的概念，更优秀的假体前景向你敞开。</Bionics.description>
+
+  <SurrogateOrgans.label>EPOE：替代体器官</SurrogateOrgans.label>
+  <SurrogateOrgans.description>获取更高级的医疗只是，制作简易替代体器官替换缺失的部件成为可能。</SurrogateOrgans.description>
+
+  <RibReplacements.label>EPOE：肋骨替换</RibReplacements.label>
+  <RibReplacements.description>探索微型药物释放器的概念，探讨将之内置于肋骨的方法。你现在可以制作和安装肋骨植入物了。</RibReplacements.description>
+
+  <VancidiumRefineryTech.label>EPOE：超钒与先进零部件</VancidiumRefineryTech.label>
+  <VancidiumRefineryTech.description>随机融合金属时，你发现了制作非常轻盈但坚硬的金属的方法，这可以用于制作更先进的假体。你现在可以在电熔炼器制作超钒，以及在零部件装配台制作先进零部件了！</VancidiumRefineryTech.description>
+
+
+  <!-- Tier 2.5 -->
+
+  <AdvancedBionics.label>EPOE：先进仿生体</AdvancedBionics.label>
+  <AdvancedBionics.description>使用超钒升级普通的仿生体，使之更为优秀。</AdvancedBionics.description>
+
+  <SyntheticOrgans.label>EPOE：合成器官</SyntheticOrgans.label>
+  <SyntheticOrgans.description>进一步研究纳米技术，让你能够在升级工作站制作难以置信的精良人造器官。</SyntheticOrgans.description>
+
+  <BrainSurgery.label>EPOE：脑部手术</BrainSurgery.label>
+  <BrainSurgery.description>让你能够对脑部施行手术。</BrainSurgery.description>
+
+
+</LanguageData>

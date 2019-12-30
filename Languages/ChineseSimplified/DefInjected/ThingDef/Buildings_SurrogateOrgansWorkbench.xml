@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TableSurrogates.label>替代体器官工作台</TableSurrogates.label>
+  <TableSurrogates.description>一个简易的工作站，用于生成简易的替代体器官。</TableSurrogates.description>
+  <TableSurrogates_Blueprint.label>替代体器官工作台（蓝图）</TableSurrogates_Blueprint.label>
+  <TableSurrogates_Frame.label>替代体器官工作台（建造中）</TableSurrogates_Frame.label>
+
+
+</LanguageData>

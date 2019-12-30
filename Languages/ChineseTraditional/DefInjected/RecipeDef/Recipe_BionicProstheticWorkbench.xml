@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CreateBionicEye.label>製作仿生眼</CreateBionicEye.label>
+  <CreateBionicEye.description>使用塑鋼製作仿生眼。</CreateBionicEye.description>
+  <CreateBionicEye.jobString>正在製作仿生體。</CreateBionicEye.jobString>
+
+  <CreatePowerArm.label>製作動力臂</CreatePowerArm.label>
+  <CreatePowerArm.description>將動力爪附加到仿生臂上並不像聽起來那麼簡單。但真他媽的令人驚嘆！</CreatePowerArm.description>
+  <CreatePowerArm.jobString>正在製作仿生體。</CreatePowerArm.jobString>
+
+  <CreateBionicArm.label>製作仿生臂</CreateBionicArm.label>
+  <CreateBionicArm.description>使用塑鋼和零部件將簡易的假臂升級成仿生臂。</CreateBionicArm.description>
+  <CreateBionicArm.jobString>正在製作仿生體。</CreateBionicArm.jobString>
+
+  <CreateBionicHand.label>製作仿生手</CreateBionicHand.label>
+  <CreateBionicHand.description>使用塑鋼和零部件將簡易的假手升級成仿生手。</CreateBionicHand.description>
+  <CreateBionicHand.jobString>正在製作仿生體。</CreateBionicHand.jobString>
+
+  <CreateBionicFoot.label>製作仿生足</CreateBionicFoot.label>
+  <CreateBionicFoot.description>使用塑鋼和零部件將簡易的假足升級成仿生足。</CreateBionicFoot.description>
+  <CreateBionicFoot.jobString>正在製作仿生體。</CreateBionicFoot.jobString>
+
+  <CreateBionicLeg.label>製作仿生腿</CreateBionicLeg.label>
+  <CreateBionicLeg.description>使用塑鋼和零部件將簡易的假腿升級成仿生腿。</CreateBionicLeg.description>
+  <CreateBionicLeg.jobString>正在製作仿生體。</CreateBionicLeg.jobString>
+
+  <CreateBionicEar.label>製作仿生耳</CreateBionicEar.label>
+  <CreateBionicEar.description>使用塑鋼製作仿生耳。</CreateBionicEar.description>
+  <CreateBionicEar.jobString>正在製作仿生體。</CreateBionicEar.jobString>
+
+  <CreateBionicJaw.label>製作仿生頜</CreateBionicJaw.label>
+  <CreateBionicJaw.description>使用鋼鐵和塑鋼製作仿生頜。</CreateBionicJaw.description>
+  <CreateBionicJaw.jobString>正在製作仿生體。</CreateBionicJaw.jobString>
+
+  <CreateSilentJaw.label>製作靜音頜</CreateSilentJaw.label>
+  <CreateSilentJaw.description>使用鋼鐵和塑鋼製作靜音頜</CreateSilentJaw.description>
+  <CreateSilentJaw.jobString>正在製作仿生體。</CreateSilentJaw.jobString>
+
+  <CreateBionicSpine.label>製作仿生脊椎</CreateBionicSpine.label>
+  <CreateBionicSpine.description>使用鋼鐵和塑鋼製作仿生脊椎。</CreateBionicSpine.description>
+  <CreateBionicSpine.jobString>正在製作仿生體。</CreateBionicSpine.jobString>
+
+  <CreateMedicalRib.label>製作醫療肋骨</CreateMedicalRib.label>
+  <CreateMedicalRib.description>使用塑鋼和閃耀世界藥物製作醫療肋骨。</CreateMedicalRib.description>
+  <CreateMedicalRib.jobString>正在製作仿生體。</CreateMedicalRib.jobString>
+
+  <CreateDruggedRib.label>製作迷幻肋骨</CreateDruggedRib.label>
+  <CreateDruggedRib.description>使用塑鋼和啤酒製作迷幻肋骨。</CreateDruggedRib.description>
+  <CreateDruggedRib.jobString>正在製作仿生體。</CreateDruggedRib.jobString>
+
+  <CreateAdrenalineRib.label>製作腎上腺素肋骨</CreateAdrenalineRib.label>
+  <CreateAdrenalineRib.description>使用塑鋼和呀呦粉製作腎上腺素肋骨。</CreateAdrenalineRib.description>
+  <CreateAdrenalineRib.jobString>正在製作仿生體。</CreateAdrenalineRib.jobString>
+
+  <CreatePainkillerRib.label>製作止痛肋骨</CreatePainkillerRib.label>
+  <CreatePainkillerRib.description>使用塑鋼和活力水製作止痛肋骨。</CreatePainkillerRib.description>
+  <CreatePainkillerRib.jobString>正在製作仿生體。</CreatePainkillerRib.jobString>
+
+
+</LanguageData>

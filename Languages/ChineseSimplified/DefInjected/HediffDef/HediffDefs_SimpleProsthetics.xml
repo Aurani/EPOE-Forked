@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Added body parts -->
+
+  <GoldenEye.label>黄金眼</GoldenEye.label>
+  <SimpleProstheticHand.label>简易的假手</SimpleProstheticHand.label>
+  <SimpleProstheticFoot.label>简易的假足</SimpleProstheticFoot.label>
+  <!-- [Core] <SimpleProstheticArm.label>简易的假臂</SimpleProstheticArm.label>-->
+  <!-- [Core] <SimpleProstheticLeg.label>简易的假腿</SimpleProstheticLeg.label>-->
+  <ArtificialNose.label>人造鼻</ArtificialNose.label>
+  <HydraulicJaw.label>液压颌</HydraulicJaw.label>
+  <ArtificialPelvis.label>人造骨盆</ArtificialPelvis.label>
+
+
+</LanguageData>

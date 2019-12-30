@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <UpgradingStation.label>升级工作站</UpgradingStation.label>
+  <UpgradingStation.description>用于生产先进仿生体和合成器官的工作台。</UpgradingStation.description>
+  <UpgradingStation_Blueprint.label>升级工作站（蓝图）</UpgradingStation_Blueprint.label>
+  <UpgradingStation_Frame.label>升级工作站（建造中）</UpgradingStation_Frame.label>
+
+
+</LanguageData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Prostheses -->
+
+  <BasicProstheses.label>基本假體</BasicProstheses.label>
+  <SimpleProstheses.label>簡易假體</SimpleProstheses.label>
+  <BionicProstheses.label>仿生體</BionicProstheses.label>
+  <AdvancedProstheses.label>先進仿生體</AdvancedProstheses.label>
+
+
+  <!-- Organs -->
+
+  <SurrogateOrgans.label>替代體器官</SurrogateOrgans.label>
+  <SyntheticOrgans.label>合成器官</SyntheticOrgans.label>
+
+
+</LanguageData>

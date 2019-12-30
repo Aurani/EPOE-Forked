@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CreateSimpleProstheticLeg.label>製作簡易的假腿</CreateSimpleProstheticLeg.label>
+  <CreateSimpleProstheticLeg.description>使用鋼鐵、塑鋼和零部件製作簡易的假腿。</CreateSimpleProstheticLeg.description>
+  <CreateSimpleProstheticLeg.jobString>正在製作假體</CreateSimpleProstheticLeg.jobString>
+
+  <CreateSimpleProstheticArm.label>製作簡易的假臂</CreateSimpleProstheticArm.label>
+  <CreateSimpleProstheticArm.description>使用鋼鐵、塑鋼和零部件製作簡易的假臂。</CreateSimpleProstheticArm.description>
+  <CreateSimpleProstheticArm.jobString>正在製作假體</CreateSimpleProstheticArm.jobString>
+
+  <CreateSimpleProstheticHand.label>製作簡易的假手</CreateSimpleProstheticHand.label>
+  <CreateSimpleProstheticHand.description>使用鋼鐵、塑鋼和零部件製作簡易的假手。</CreateSimpleProstheticHand.description>
+  <CreateSimpleProstheticHand.jobString>正在製作假體</CreateSimpleProstheticHand.jobString>
+
+  <CreateSimpleProstheticFoot.label>製作簡易的假足</CreateSimpleProstheticFoot.label>
+  <CreateSimpleProstheticFoot.description>使用鋼鐵、塑鋼和零部件製作簡易的假足。</CreateSimpleProstheticFoot.description>
+  <CreateSimpleProstheticFoot.jobString>正在製作假體</CreateSimpleProstheticFoot.jobString>
+
+  <CreateArtificialNose.label>製作人造鼻</CreateArtificialNose.label>
+  <CreateArtificialNose.description>使用塑鋼製作人造鼻。</CreateArtificialNose.description>
+  <CreateArtificialNose.jobString>正在製作假體</CreateArtificialNose.jobString>
+
+  <CreateHydraulicJaw.label>製作液壓頜</CreateHydraulicJaw.label>
+  <CreateHydraulicJaw.description>使用鋼鐵和零部件製作液壓頜。</CreateHydraulicJaw.description>
+  <CreateHydraulicJaw.jobString>正在製作假體</CreateHydraulicJaw.jobString>
+
+  <CreateGoldenEye.label>製作黃金眼</CreateGoldenEye.label>
+  <CreateGoldenEye.description>金條 + 錘子 = 黃金眼。</CreateGoldenEye.description>
+  <CreateGoldenEye.jobString>正在製作假體</CreateGoldenEye.jobString>
+
+  <CreateArtificialPelvis.label>製作人造骨盆</CreateArtificialPelvis.label>
+  <CreateArtificialPelvis.description>使用鋼鐵和塑鋼製作人造骨盆。</CreateArtificialPelvis.description>
+  <CreateArtificialPelvis.jobString>正在製作假體</CreateArtificialPelvis.jobString>
+
+
+</LanguageData>

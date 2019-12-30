@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsTableSurrogates.label>制作替代体器官</DoBillsTableSurrogates.label>
+  <DoBillsTableSurrogates.verb>制作</DoBillsTableSurrogates.verb>
+  <DoBillsTableSurrogates.gerund>制作</DoBillsTableSurrogates.gerund>
+
+  <DoBillsUpgradingStation.label>升级假体</DoBillsUpgradingStation.label>
+  <DoBillsUpgradingStation.verb>升级</DoBillsUpgradingStation.verb>
+  <DoBillsUpgradingStation.gerund>升级</DoBillsUpgradingStation.gerund>
+
+  <DoBillsSimpleProstheticWorkbench.label>制作简单假体</DoBillsSimpleProstheticWorkbench.label>
+  <DoBillsSimpleProstheticWorkbench.verb>组装</DoBillsSimpleProstheticWorkbench.verb>
+  <DoBillsSimpleProstheticWorkbench.gerund>组装</DoBillsSimpleProstheticWorkbench.gerund>
+
+  <DoBillsBasicProstheticWorkbench.label>制作基本假体</DoBillsBasicProstheticWorkbench.label>
+  <DoBillsBasicProstheticWorkbench.verb>组装</DoBillsBasicProstheticWorkbench.verb>
+  <DoBillsBasicProstheticWorkbench.gerund>组装</DoBillsBasicProstheticWorkbench.gerund>
+
+  <DoBillsBionicWorkbench.label>制作仿生假体</DoBillsBionicWorkbench.label>
+  <DoBillsBionicWorkbench.verb>组装</DoBillsBionicWorkbench.verb>
+  <DoBillsBionicWorkbench.gerund>组装</DoBillsBionicWorkbench.gerund>
+
+
+</LanguageData>
