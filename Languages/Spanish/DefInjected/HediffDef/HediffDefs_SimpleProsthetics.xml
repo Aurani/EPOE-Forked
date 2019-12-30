@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+		
+	<GoldenEye.label>Ojo de oro</GoldenEye.label>
+	<SimpleProstheticHand.label>Mano prostética sencilla</SimpleProstheticHand.label>
+	<SimpleProstheticFoot.label>Pie protético sencillo</SimpleProstheticFoot.label>
+	<ArtificialPelvis.label>Pelvis artificial</ArtificialPelvis.label>
+	<ArtificialNose.label>Nariz artificial</ArtificialNose.label>
+	<HydraulicJaw.label>Mandíbula Hidráulica</HydraulicJaw.label>
+
+</LanguageData>

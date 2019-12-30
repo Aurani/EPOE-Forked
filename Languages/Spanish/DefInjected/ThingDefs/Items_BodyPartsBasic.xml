@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	
+	<EyePatch.label>Parche para ojo</EyePatch.label>
+	<EyePatch.description>Cubre la cavidad ocular. Intimidante.</EyePatch.description>
+	
+	<HookHand.label>Gancho de mano</HookHand.label>
+	<HookHand.description>Reemplaza las manos que faltan. Muy escalofriante. Yaar.</HookHand.description>
+	
+	<denture.label>Dentadura</denture.label>
+	<denture.description>Reemplaza una mandíbula que falta con dientes de madera. Huele un poco mal.</denture.description>
+	
+	<PegLeg.label>Pata de palo</PegLeg.label>
+	<PegLeg.description>Reemplaza una pierna que falta con una de madera. Fuera de moda pero hace su trabajo bastante bien.</PegLeg.description>
+	
+	<WoodenFoot.label>Pie de madera</WoodenFoot.label>
+	<WoodenFoot.description>Reemplaza los pies que faltan con un tronco de madera. Al menos es mas cómodo que saltar por ahí.</WoodenFoot.description>
+
+    <SteelArm.label>Brazo de acero</SteelArm.label>
+	<SteelArm.description>Un reemplazo de brazo muy pobre. Se ve mal, se siente mal, es malo.</SteelArm.description>
+	
+	<EarBandage.label>Venda para oído</EarBandage.label>
+	<EarBandage.description>Cubre una oreja que falta. ¡Parecido a un cierto artista fracasado del siglo XIX!</EarBandage.description>
+
+</LanguageData>

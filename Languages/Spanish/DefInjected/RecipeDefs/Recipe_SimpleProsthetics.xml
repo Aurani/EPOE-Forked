@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallGoldenEye.label>Implantar ojo de oro</InstallGoldenEye.label>
+	<InstallGoldenEye.description>Implanta ojo de oro.</InstallGoldenEye.description>
+
+	<InstallSimpleProstheticHand.label>Implantar mano prostética sencilla</InstallSimpleProstheticHand.label>
+	<InstallSimpleProstheticHand.description>Implanta mano prostética sencilla.</InstallSimpleProstheticHand.description>
+
+	<InstallSimpleProstheticFoot.label>Implantar pie prostético sencillo</InstallSimpleProstheticFoot.label>
+	<InstallSimpleProstheticFoot.description>Implanta pie prostético sencillo.</InstallSimpleProstheticFoot.description>
+
+	<InstallArtificialPelvis.label>Implantar pelvis artificial</InstallArtificialPelvis.label>
+	<InstallArtificialPelvis.description>Implanta pelvis artificial.</InstallArtificialPelvis.description>
+
+	<InstallArtificialNose.label>Implantar nariz artificial</InstallArtificialNose.label>
+	<InstallArtificialNose.description>Implanta nariz artificial.</InstallArtificialNose.description>
+
+	<InstallHydraulicJaw.label>Implantar mandíbula hidráulica</InstallHydraulicJaw.label>
+	<InstallHydraulicJaw.description>Implanta mandíbula hidráulica.</InstallHydraulicJaw.description>
+
+</LanguageData>

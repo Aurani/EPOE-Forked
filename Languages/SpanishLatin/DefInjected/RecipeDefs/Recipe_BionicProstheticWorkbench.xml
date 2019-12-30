@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateBionicEye.label>Crear ojo biónico</CreateBionicEye.label>
+	<CreateBionicEye.description>Fabrica de un ojo biónico de plastiacero.</CreateBionicEye.description>
+
+	<CreatePowerArm.label>Crear Brazo de poder</CreatePowerArm.label>
+	<CreatePowerArm.description>Fijar una garra de energía a un brazo biónico no es tan fácil como suena. ¡Pero es increíble!</CreatePowerArm.description>
+
+	<CreateBionicArm.label>Crear brazo biónico</CreateBionicArm.label>
+	<CreateBionicArm.description>Actualiza un brazo protésico simple utilizando plastiacero y componentes.</CreateBionicArm.description>
+
+	<CreateBionicHand.label>Crear mano biónica</CreateBionicHand.label>
+	<CreateBionicHand.description>Actualiza una mano protésica simple usando plastiacero y componentes.</CreateBionicHand.description>
+
+	<CreateBionicFoot.label>Crear pie biónico</CreateBionicFoot.label>
+	<CreateBionicFoot.description>Actualiza un pie protésico simple usando plastiacero y componentes.</CreateBionicFoot.description>
+
+	<CreateBionicLeg.label>Crear pierna biónica</CreateBionicLeg.label>
+	<CreateBionicLeg.description>Actualiza una pierna protésica simple usando plastiacero y componentes.</CreateBionicLeg.description>
+
+	<CreateBionicEar.label>Crear oído biónico</CreateBionicEar.label>
+	<CreateBionicEar.description>Crea un oído biónico de plastiacero.</CreateBionicEar.description>
+
+	<CreateBionicJaw.label>Crear mandíbula biónica</CreateBionicJaw.label>
+	<CreateBionicJaw.description>Crea una mandíbula biónica de acero y plastiacero.</CreateBionicJaw.description>
+
+	<CreateSilentJaw.label>Crear mandíbula muda</CreateSilentJaw.label>
+	<CreateSilentJaw.description>Crea una mandíbula muda de acero y plastiacero.</CreateSilentJaw.description>
+
+	<CreateBionicSpine.label>Crear columna vertebral biónica</CreateBionicSpine.label>
+	<CreateBionicSpine.description>Crea una columna vertebral de acero y plastiacero.</CreateBionicSpine.description>
+
+	<CreateMedicalRib.label>Crear reemplazo médico de costilla</CreateMedicalRib.label>
+	<CreateMedicalRib.description>Crea una costilla médica de plastiacero y medicina de mundobrillante.</CreateMedicalRib.description>
+
+	<CreateDruggedRib.label>Crear costilla alcoholizada</CreateDruggedRib.label>
+	<CreateDruggedRib.description>Crea una costilla con una fuerte cantidad de alcohol.</CreateDruggedRib.description>
+
+	<CreateAdrenalineRib.label>Crear costilla con adrenalina</CreateAdrenalineRib.label>
+	<CreateAdrenalineRib.description>Crea una costilla con adrenalina de plastiacero y yayo.</CreateAdrenalineRib.description>
+
+	<CreatePainkillerRib.label>Crear costilla analgésica</CreatePainkillerRib.label>
+	<CreatePainkillerRib.description>Crea una costilla con analgésico de plastiacero y zumo-go.</CreatePainkillerRib.description>
+	
+</LanguageData>

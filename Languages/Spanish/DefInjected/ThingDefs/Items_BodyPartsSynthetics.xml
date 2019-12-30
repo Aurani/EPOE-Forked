@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<AIChip.label>Chip-IA</AIChip.label>
+	<AIChip.description>A través de químicos especiales y descargas eléctricas este pequeño chip es capaz de restaurar completamente la conciencia de los usuarios y la movilidad. Requiere la investigación de la cirugía de cerebro antes de instalar.</AIChip.description>
+
+	<SyntheticLung.label>Pulmón sintético</SyntheticLung.label>
+	<SyntheticLung.description>Un reemplazo de pulmón de alta tecnologia. Hace un suave zumbido.</SyntheticLung.description>
+
+	<SyntheticStomach.label>Estómago sintético</SyntheticStomach.label>
+	<SyntheticStomach.description>Un estómago mejorado aumentado con fibras sintéticas para disminuir la tasa de rechazo.</SyntheticStomach.description>
+
+	<SyntheticLiver.label>Hígado sintético</SyntheticLiver.label>
+	<SyntheticLiver.description>Un hígado mejorado aumentado con fibras sintéticas para disminuir la tasa de rechazo.</SyntheticLiver.description>
+
+	<SyntheticKidney.label>Riñón sintético</SyntheticKidney.label>
+	<SyntheticKidney.description>Un riñón mejorado aumentado con fibras sintéticas para disminuir la tasa de rechazo.</SyntheticKidney.description>
+
+	<SyntheticHeart.label>Corazón sintético</SyntheticHeart.label>
+	<SyntheticHeart.description>Un reemplazo de corazón de primera línea. Puede durar mas de 30 años con una sola carga.</SyntheticHeart.description>
+
+	<SyntheticSkin.label>Piel sintética</SyntheticSkin.label>
+	<SyntheticSkin.description>Una pequeña pieza de material con un interesante aspecto de piel. Similar a la piel real al tacto.</SyntheticSkin.description>
+
+</LanguageData>

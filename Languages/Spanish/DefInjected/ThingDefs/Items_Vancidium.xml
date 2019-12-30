@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Vancidium.label>Vancidium</Vancidium.label>
+	<Vancidium.description>Un material costoso y de alta calidad hecho en un procedimiento de alta tecnología. Muy brillante.</Vancidium.description>
+
+	<AdvancedComponents.label>Componentes avanzados</AdvancedComponents.label>
+	<AdvancedComponents.description>Son iguales que los componentes normales, solo que mejor y más azul.</AdvancedComponents.description>
+
+</LanguageData>

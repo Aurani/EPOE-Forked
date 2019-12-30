@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+		
+	<BionicHand.label>Mano biónica</BionicHand.label>
+	<BionicFoot.label>Pie biónico</BionicFoot.label>
+	<BionicSpine.label>Columna vertebral artificial</BionicSpine.label>
+	<MedicalRib.label>Implante médico de costilla</MedicalRib.label>
+	<BionicJaw.label>Mandíbula biónica</BionicJaw.label>
+	<SilentJaw.label>Implante mandibular mudo</SilentJaw.label>
+	<BionicEar.label>Oído biónico</BionicEar.label>
+	<PowerArm.label>Brazo de poder</PowerArm.label>
+	<DruggedRib.label>Implante de costilla alcoholizada</DruggedRib.label>
+	<AdrenalineRib.label>Implante de costilla con adrenalina</AdrenalineRib.label>
+	
+</LanguageData>

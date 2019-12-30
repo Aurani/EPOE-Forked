@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallBrainStimulator.label>Implantar estimulador Cerebral</InstallBrainStimulator.label>
+	<InstallBrainStimulator.description>Implanta estimulador Cerebral.</InstallBrainStimulator.description>
+
+	<InstallSurrogateLung.label>Implantar pulmón sustituto</InstallSurrogateLung.label>
+	<InstallSurrogateLung.description>Implanta pulmón sustituto.</InstallSurrogateLung.description>
+
+	<InstallSurrogateStomach.label>Implantar estomago sustituto</InstallSurrogateStomach.label>
+	<InstallSurrogateStomach.description>Implanta estomago sustituto.</InstallSurrogateStomach.description>
+
+	<InstallSurrogateLiver.label>Implantar higado sustituto</InstallSurrogateLiver.label>
+	<InstallSurrogateLiver.description>Implantar higado sustituto.</InstallSurrogateLiver.description>
+
+	<InstallSurrogateKidney.label>Implantar un riñón sustituto</InstallSurrogateKidney.label>
+	<InstallSurrogateKidney.description>Implantar un riñón sustituto.</InstallSurrogateKidney.description>
+
+	<InstallSurrogateHeart.label>Implantar corazón sustituto</InstallSurrogateHeart.label>
+	<InstallSurrogateHeart.description>Implantar corazón sustituto.</InstallSurrogateHeart.description>
+
+</LanguageData>

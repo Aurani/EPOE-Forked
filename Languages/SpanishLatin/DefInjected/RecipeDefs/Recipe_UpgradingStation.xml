@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateAdvancedBionicEye.label>Actualizar ojo biónico</CreateAdvancedBionicEye.label>
+	<CreateAdvancedBionicEye.description>Mejora un ojo biónico con vancidium.</CreateAdvancedBionicEye.description>
+
+	<CreateAdvancedPowerArm.label>Actualizar brazo de poder</CreateAdvancedPowerArm.label>
+	<CreateAdvancedPowerArm.description>Actualiza un brazo de poder con vancidium.</CreateAdvancedPowerArm.description>
+
+	<CreateAdvancedBionicArm.label>Actualizar brazo biónico</CreateAdvancedBionicArm.label>
+	<CreateAdvancedBionicArm.description>Mejora un brazo biónico con vancidium.</CreateAdvancedBionicArm.description>
+
+	<CreateAdvancedBionicHand.label>Actualizar mano biónica</CreateAdvancedBionicHand.label>
+	<CreateAdvancedBionicHand.description>Mejora una mano biónica con vancidium.</CreateAdvancedBionicHand.description>
+
+	<CreateAdvancedBionicFoot.label>Actualizar pie biónico</CreateAdvancedBionicFoot.label>
+	<CreateAdvancedBionicFoot.description>Mejora un pie biónico con vancidium.</CreateAdvancedBionicFoot.description>
+
+	<CreateAdvancedBionicLeg.label>Actualizar pierna biónica</CreateAdvancedBionicLeg.label>
+	<CreateAdvancedBionicLeg.description>Mejora una pierna biónica con vancidium.</CreateAdvancedBionicLeg.description>
+
+	<CreateAdvancedBionicEar.label>Actualizar oído biónico</CreateAdvancedBionicEar.label>
+	<CreateAdvancedBionicEar.description>Mejora un oído biónico con vancidium.</CreateAdvancedBionicEar.description>
+
+	<CreateAdvancedBionicJaw.label>Actualizar mandibula biónica</CreateAdvancedBionicJaw.label>
+	<CreateAdvancedBionicJaw.description>Mejora una mandibula biónica con vancidium.</CreateAdvancedBionicJaw.description>
+
+	<CreateAdvancedBionicSpine.label>Actualizar columna vertebral biónica</CreateAdvancedBionicSpine.label>
+	<CreateAdvancedBionicSpine.description>Mejora una columna vertebral biónica con vancidium.</CreateAdvancedBionicSpine.description>
+	
+	<CreatePowerClaw.label>Actualizar la hoja de scyther</CreatePowerClaw.label>
+	<CreatePowerClaw.description>Mejora una cuchilla de scyther a una garra de poder usando acero y vancidium.</CreatePowerClaw.description>
+
+</LanguageData>

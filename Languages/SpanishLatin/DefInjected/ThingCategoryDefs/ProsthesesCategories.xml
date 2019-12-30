@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<BasicProstheses.label>Prótesis básica</BasicProstheses.label>
+	<SimpleProstheses.label>Prótesis Simple</SimpleProstheses.label>
+	<BionicProstheses.label>Prótesis Biónica</BionicProstheses.label>
+	<AdvancedProstheses.label>Biónica avanzada</AdvancedProstheses.label>
+	<SurrogateOrgans.label>Órganos sustitutos</SurrogateOrgans.label>
+	<SyntheticOrgans.label>Órganos sintéticos</SyntheticOrgans.label>
+
+</LanguageData>

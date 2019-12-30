@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+		
+	<AIChip.label>Chip-IA</AIChip.label>
+	<SyntheticStomach.label>Estómago sintético</SyntheticStomach.label>
+	<SyntheticLung.label>Pulmón sintético</SyntheticLung.label>
+	<SyntheticLiver.label>Hígado sintético</SyntheticLiver.label>
+	<SyntheticKidney.label>Riñón sintético</SyntheticKidney.label>
+	<SyntheticHeart.label>Corazón sintético</SyntheticHeart.label>
+	
+</LanguageData>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<SurrogateLung.label>Pulmón sustituto</SurrogateLung.label>
+	<SurrogateLung.description>Un reemplazo pulmonar rudimentario. Hace un profundo ruido al respirar.</SurrogateLung.description>
+
+	<BrainStimulator.label>Estimulador cerebral</BrainStimulator.label>
+	<BrainStimulator.description>Un pequeño dispositivo que hace todo lo posible para estimular las áreas restantes del cerebro. Recomendado solamente para daño cerebral severo. Requiere la investigación de la cirugía de cerebro antes de instalar.</BrainStimulator.description>
+
+	<SurrogateStomach.label>Estómago sustituto</SurrogateStomach.label>
+	<SurrogateStomach.description>Un reemplazo de estómago rudimentario.</SurrogateStomach.description>
+
+	<SurrogateLiver.label>Hígado sustituto</SurrogateLiver.label>
+	<SurrogateLiver.description>Un filtro de sangre rudimentario. Tiene problemas constantemente para mantener el nivel de azúcar en la sangre.</SurrogateLiver.description>
+
+	<SurrogateKidney.label>Riñón sustituto</SurrogateKidney.label>
+	<SurrogateKidney.description>Un reemplazo rudimentario de riñón. Uno de sus posibles efectos secundarios es que puede ponerse pálido.</SurrogateKidney.description>
+
+	<SurrogateHeart.label>Corazón sustituto</SurrogateHeart.label>
+	<SurrogateHeart.description>Una bomba más o menos potente para mantener el torrente sanguíneo.</SurrogateHeart.description>
+
+</LanguageData>

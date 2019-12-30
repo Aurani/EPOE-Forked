@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	
+	<BionicHand.label>Mano biónica</BionicHand.label>
+	<BionicHand.description>Permite al usuario realizar tareas incluso mas rápido que con las manos normales.</BionicHand.description>
+	
+	<BionicFoot.label>Pie biónico</BionicFoot.label>
+	<BionicFoot.description>Esta prótesis garantiza caminar mas rápido sin tropezar todo el tiempo.</BionicFoot.description>
+	
+	<BionicEar.label>Oído biónico</BionicEar.label>
+	<BionicEar.description>Un dispositivo avanzado que expande las funciones básicas del tímpano.</BionicEar.description>
+	
+	<BionicJaw.label>Mandíbula biónica</BionicJaw.label>
+	<BionicJaw.description>Aparte de un fuerte conjunto de dientes, esto también tiene un modulador de voz.</BionicJaw.description>
+	
+	<SilentJaw.label>Mandíbula muda</SilentJaw.label>
+	<SilentJaw.description>Esta versión de la mandíbula biónica viene sin un modulador de voz, útil para pacientes abusivos.</SilentJaw.description>
+
+	<BionicSpine.label>Columna vertebral biónica</BionicSpine.label>
+	<BionicSpine.description>Este dispositivo ligero e impactante puede reemplazar una columna vertebral dañada.</BionicSpine.description>
+
+	<MedicalRib.label>Implante médico de costilla</MedicalRib.label>
+	<MedicalRib.description>Una costilla artificial, equipada con pequeños filtros de sangre y antibióticos-dispensadores para mantener al usuario saludable.</MedicalRib.description>
+
+	<PowerArm.label>Brazo de poder</PowerArm.label>
+	<PowerArm.description>Fuerza y destreza sin precedentes, y con garras retráctiles. ¡Esta es la última actualización de brazo!</PowerArm.description>
+
+	<DruggedRib.label>Implante de costilla alcoholizada</DruggedRib.label>
+	<DruggedRib.description>Una costilla artificial, equipada con dispensadores de alcohol para mantener al usuario feliz.</DruggedRib.description>
+
+	<AdrenalineRib.label>Implante de costilla con adrenalina</AdrenalineRib.label>
+	<AdrenalineRib.description>Una costilla artificial, equipada con pequeños dispensadores de adrenalina para mantener al usuario en forma y despierto.</AdrenalineRib.description>
+	
+	<PainkillerRib.label>Implante de costilla con analgésico</PainkillerRib.label>
+	<PainkillerRib.description>Una costilla artificial, equipada con pequeños dispensadores de morfina para adormecer el dolor del usuario. Los efectos secundarios son dolencias respiratorias.</PainkillerRib.description>
+
+</LanguageData>

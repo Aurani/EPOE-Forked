@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateVancidium.label>Refinar vancidium</CreateVancidium.label>
+	<CreateVancidium.description>Utiliza el calor y fuertes electroimanes para combinar el oro, el acero y el plastiacero.</CreateVancidium.description>
+	
+	<MakeAdvancedComponent.label>Hacer componente avanzado</MakeAdvancedComponent.label>
+	<MakeAdvancedComponent.description>Crea un componente avanzado.</MakeAdvancedComponent.description>
+
+</LanguageData>
