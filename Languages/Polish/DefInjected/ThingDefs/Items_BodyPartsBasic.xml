@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<SteelArm.label>Stalowe ramię</SteelArm.label>
+	<SteelArm.Description>Podły substytut ramienia. Wykląda źle, pachnie źle ogólnie jest zły..</SteelArm.Description>
+
+	<EyePatch.label>Przepaska na oko</EyePatch.label>
+	<EyePatch.description>Zakrywa oczodół. Wygląda strasznie</EyePatch.description>
+
+	<HookHand.label>Ręka hak</HookHand.label>
+	<HookHand.description>Poczuj się jak pirat. Yarrr!</HookHand.description>
+
+	<denture.label>Proteza</denture.label>
+	<denture.description>Zastąp brakującą szczękę drewnianymi zębami. Trochę śmierdzi.</denture.description>
+
+	<PegLeg.label>Drewniana noga</PegLeg.label>
+	<PegLeg.description>Zastąp brakującą nogę drewnianą. Staromodne, ale spełnia swoje zadanie.</PegLeg.description>
+
+	<WoodenFoot.label>Drewniana stopa</WoodenFoot.label>
+	<WoodenFoot.description>Zastąp brakującą stopę klocem z drewna. Koniec końców jest bardziej wygodna niżby mogło się wydawać.</WoodenFoot.description>
+	
+	<EarBandage.label>Bandaż ucha</EarBandage.label>
+	<EarBandage.description>Zakrywa brakujące ucho. Wygląda jak pewny nieudany XIX wieczny artysta.</EarBandage.description>
+
+</LanguageData>

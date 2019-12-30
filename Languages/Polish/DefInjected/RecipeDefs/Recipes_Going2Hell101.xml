@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<LanguageData>
+      <MinceOrgans.label>Sieczka organiczna</MinceOrgans.label>
+      <MinceOrgans.description>Posiekaj organy na jadalne kawałki mięsa. Idealny posiłek dla twoich więźniów.</MinceOrgans.description>
+      <MinceOrgans.jobString>Siecze organy/MinceOrgans.jobString>
+
+      <MinceLimbs.label>Sieczka kończyn</MinceLimbs.label>
+      <MinceLimbs.description>Posiekaj kończyny na jadalne kawałki mięsa. Uważaj na paznokcie.</MinceLimbs.description>
+      <MinceLimbs.jobString>Siecze kończyny</MinceLimbs.jobString>
+	  
+ </LanguageData>

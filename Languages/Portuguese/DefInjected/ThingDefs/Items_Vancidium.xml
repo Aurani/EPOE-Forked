@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <Vancidium.label>Vancidium</Vancidium.label>
+  <Vancidium.description>Um material rico, de alta qualidade projetada usando um processo de alta tecnologia. Ela brilha.</Vancidium.description>
+  <Vancidium.stuffProps.stuffAdjective>vancidium</Vancidium.stuffProps.stuffAdjective>
+  
+  
+    <AdvancedComponents.label>Componente Avançado</AdvancedComponents.label>
+    <AdvancedComponents.description>Como componentes normais, eles são apenas melhor ... e azul.</AdvancedComponents.description>
+</LanguageData>

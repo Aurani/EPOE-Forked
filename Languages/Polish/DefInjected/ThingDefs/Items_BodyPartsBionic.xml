@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PowerArm.label>Ramię mocy</PowerArm.label>
+  <PowerArm.description>Niezrównana siła i zręczność, a do tego zabójcze pazury!</PowerArm.description>
+
+  <BionicHand.label>Bioniczna dłoń</BionicHand.label>
+  <BionicHand.description>Pozwala wykonywać zadania szybciej niż ze zwykła dłonią.</BionicHand.description>
+
+  <BionicFoot.label>Bioniczna stopa</BionicFoot.label>
+  <BionicFoot.description>Proteza pozwala poruszać się szybciej niż zwykle i do tego bez potykania się.</BionicFoot.description>
+
+  <BionicEar.label>Bionieczne ucho</BionicEar.label>
+  <BionicEar.description>Ma o wiele lepsze możliwości niż te zwyczajne.</BionicEar.description>
+
+  <BionicJaw.label>Bioniczna szczęka</BionicJaw.label>
+  <BionicJaw.description>Oprócz całego zestawu zębów posiada modulator głosu.</BionicJaw.description>
+
+  <SilentJaw.label>Cicha szczęka</SilentJaw.label>
+  <SilentJaw.description>Wersja bionicznej szczęki bez modulatora głosu.</SilentJaw.description>
+
+  <BionicSpine.label>Bioniczny kręgosłup</BionicSpine.label>
+  <BionicSpine.description>Potrafi postawić na nogi sparaliżowaną osobę.</BionicSpine.description>
+  
+  <BionicEye.label>Bioniczne oko</BionicEye.label>
+  <BionicEye.description>Zaawansowany kawałek technologii zastępujący nie tylko naturalne oko, ale daje nadnaturalne pole widzenia.</BionicEye.description>
+  
+  <BionicArm.label>Bioniczne ramię</BionicArm.label>
+  <BionicArm.description>Jedno z najbardziej wyrafinowanych zastępstw. Daje użytkownikowi nieprawdopodobną siłe.</BionicArm.description>
+
+  <BionicLeg.label>Bioniczna noga</BionicLeg.label>
+  <BionicLeg.description>Bioniczna noga wykorzystuje najnowocześniejszą technologię, aby dostarczyć jak największego komfortu użytkownikowi.</BionicLeg.description>
+
+  <PowerClaw.label>Zabójcze pazury</PowerClaw.label>
+  <PowerClaw.description>Potężny zamiennik ręki wyposażony w trzy zabójcze pazury.</PowerClaw.description>
+  
+  <ScytherBlade.label>Ostrze mechanoida</ScytherBlade.label>
+  <ScytherBlade.description>Ręka zamieniona w wysuwane ostrze. Pochodzi z matrwego mechanoida. Niezbyt komfortowe, ale dość skuteczne jako broń bliskiego zasięgu.</ScytherBlade.description>
+
+  <MedicalRib.label>Żebro (medyczne)</MedicalRib.label>
+  <MedicalRib.description>Sztuczne żebro wyposażone w małe filtry krwi i dozowniki z antybiotykiem. Wszystko po to, aby utrzymać użytkownika w dobrym zdrowiu.</MedicalRib.description>
+
+  <DruggedRib.label>Żebro (odurzające)</DruggedRib.label>
+  <DruggedRib.description>Sztuczne żebro wyposażone w dozowniki z alkoholem. Wszystko po to, aby utrzymać użytkownika w dobrym nastroju.</DruggedRib.description>
+
+  <AdrenalineRib.label>Żebro z adrenaliną</AdrenalineRib.label>
+  <AdrenalineRib.description>Sztuczne żebro wyposażone w dozowniki z adrenaliną. Wszystko po to, aby użytkownik był pobudzony.</AdrenalineRib.description>
+  
+  <PainkillerRib.label>Żebro przeciwbólowe</PainkillerRib.label>
+  <PainkillerRib.description>Sztuczne żebro wyposażone w dozowniki z morfiną. Wszystko po, aby użytkownim nie czuł bólu. Efektem ubocznym mogą być problemy z oddychaniem.</PainkillerRib.description>
+
+</LanguageData>

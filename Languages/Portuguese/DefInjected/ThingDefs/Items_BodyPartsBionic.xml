@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <PowerArm.label>Braço Energizado</PowerArm.label>
+  <PowerArm.description>A Braço uma força e uma destreza sem precedentes com uma garra retrátil. Esta é a evolução final!</PowerArm.description>
+
+  <BionicHand.label>Mão Bionica</BionicHand.label>
+  <BionicHand.description>Permite ao usuário executar mais rapidamente do que as tarefas manuais comuns.</BionicHand.description>
+
+  <BionicFoot.label>Perna Bionica</BionicFoot.label>
+  <BionicFoot.description>Esta prótese pode rapidamente andar sem tropeçar todo o tempo.</BionicFoot.description>
+
+  <BionicEar.label>Ouvido Biônico</BionicEar.label>
+  <BionicEar.description>Um dispositivo avançado que estende a função básica do tímpano.</BionicEar.description>
+
+  <BionicJaw.label>Mandibula Biônica</BionicJaw.label>
+  <BionicJaw.description>Para além de uma dentição robusta, que está equipado com um modulador de voz.</BionicJaw.description>
+
+  <SilentJaw.label>Mandíbula Silenciosa</SilentJaw.label>
+  <SilentJaw.description>Esta versão do maxilar biônico não tem modulador de voz. Útil para pacientes queixosos.</SilentJaw.description>
+
+  <BionicSpine.label>Espinha Bionica</BionicSpine.label>
+  <BionicSpine.description>Este dispositivo pequeno, mas impressionante pode substituir uma coluna vertebral danificado. .</BionicSpine.description>
+
+  <MedicalRib.label>Medula Médica</MedicalRib.label>
+  <MedicalRib.description>A equipada costa artificial de filtros de sangue pequenas e dispensadores de antibióticos para manter os usuários saudável.</MedicalRib.description>
+
+  <DruggedRib.label>Medula Droga</DruggedRib.label>
+  <DruggedRib.description>Medula Artificial equipado com pequenos distribuidores de álcool para manter o bom humor do usuário.</DruggedRib.description>
+
+  <AdrenalineRib.label>Medula Adrenalina</AdrenalineRib.label>
+  <AdrenalineRib.description>Medula Artificial equipado com pequenos distribuidores adrenalina para manter-se acordado o usuário.</AdrenalineRib.description>
+  
+<ScytherBlade.label>Garra</ScytherBlade.label>
+<ScytherBlade.description>substituto de Mão compreendendo uma lâmina como protuberância. Não é muito confortável, mas muito eficaz como uma arma branca.</ScytherBlade.description>
+	
+	
+
+</LanguageData>

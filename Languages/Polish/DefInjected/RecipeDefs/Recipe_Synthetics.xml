@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallAIChip.label>Wszczep chip AI</InstallAIChip.label>
+	<InstallAIChip.description>Wszczepia chip AI.</InstallAIChip.description>
+    <InstallAIChip.jobString>Wszczepia chip AI</InstallAIChip.jobString>
+	
+	<InstallJoywire.label>Wszczep implant szczęścia</InstallJoywire.label>
+	<InstallJoywire.description>Wszczepia implant szczęścia.</InstallJoywire.description>
+    <InstallJoywire.jobString>Wszczep implant szczęścia</InstallJoywire.jobString>
+	
+	<InstallPainstopper.label>Wszczep implant przeciwbólowy</InstallPainstopper.label>
+	<InstallPainstopper.description>Wszczepia implant przeciwbólowy.</InstallPainstopper.description>
+    <InstallPainstopper.jobString>Wszczepia implant przeciwbólowy</InstallPainstopper.jobString>
+	
+	<InstallSyntheticLung.label>Wszczep syntetyczne płuco</InstallSyntheticLung.label>
+	<InstallSyntheticLung.description>Wszczepia syntetyczne płuco.</InstallSyntheticLung.description>
+    <InstallSyntheticLung.jobString>Wszczepia syntetyczne płuco</InstallSyntheticLung.jobString>
+	
+	<InstallSyntheticStomach.label>Wszczep syntetyczny żołądek</InstallSyntheticStomach.label>
+	<InstallSyntheticStomach.description>Wszczepia syntetyczny żołądek.</InstallSyntheticStomach.description>
+    <InstallSyntheticStomach.jobString>Wszczepia syntetyczny żołądek</InstallSyntheticStomach.jobString>
+	
+	<InstallSyntheticLiver.label>Wszczep syntetyczną wątrobę</InstallSyntheticLiver.label>
+	<InstallSyntheticLiver.description>Wszczepia syntetyczną wątrobę.</InstallSyntheticLiver.description>
+    <InstallSyntheticLiver.jobString>Wszczep syntetyczną wątrobę</InstallSyntheticLiver.jobString>
+	 
+	<InstallSyntheticKidney.label>Wszczep syntetyczną nerkę</InstallSyntheticKidney.label>
+	<InstallSyntheticKidney.description>Wszczepia syntetyczną nerkę.</InstallSyntheticKidney.description>
+    <InstallSyntheticKidney.jobString>Wszczepia syntetyczną nerkę</InstallSyntheticKidney.jobString>
+	 
+	<InstallSyntheticHeart.label>Wszczep syntetyczne serce</InstallSyntheticHeart.label>
+	<InstallSyntheticHeart.description>Wszczepia syntetyczne serce.</InstallSyntheticHeart.description>
+    <InstallSyntheticHeart.jobString>Wszczepia syntetyczne serce</InstallSyntheticHeart.jobString>
+	
+</LanguageData>

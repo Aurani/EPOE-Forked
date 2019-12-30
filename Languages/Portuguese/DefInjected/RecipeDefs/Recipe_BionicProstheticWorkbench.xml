@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateBionicEye.label>Criar Olho Bionico</CreateBionicEye.label>
+	<CreateBionicEye.description>Cria Olho Bionico à partir de Plastiaço.</CreateBionicEye.description>
+	<CreateBionicEye.jobString>Criando Olho Bionico</CreateBionicEye.jobString>
+	
+	<CreatePowerArm.label>Criar Braço Energizado</CreatePowerArm.label>
+	<CreatePowerArm.description>Anexa uma poderosa Garra no Braço Bionico que não é fácil, mas porra é Genial!</CreatePowerArm.description>
+	<CreatePowerArm.jobString>Criando Braço Energizado</CreatePowerArm.jobString>
+	
+	<CreateBionicArm.label>Criar Braço Bionico</CreateBionicArm.label>
+	<CreateBionicArm.description>Melhora uma prótese de braço simples usando Plastiaço e Componentes.</CreateBionicArm.description>
+	<CreateBionicArm.jobString>Criando Braço Bionico</CreateBionicArm.jobString>
+
+	<CreateBionicHand.label>Criar Mão Bionica</CreateBionicHand.label>
+	<CreateBionicHand.description>Melhora uma prótese de mão simples usando Plastiaço e Componentes.</CreateBionicHand.description>
+	<CreateBionicHand.jobString>Criando Mão Bionica</CreateBionicHand.jobString>
+
+	<CreateBionicFoot.label>Criar Pé Bionico</CreateBionicFoot.label>
+	<CreateBionicFoot.description>Melhora pé protético simples usando Plastiaço e Componentes.</CreateBionicFoot.description>
+	<CreateBionicFoot.jobString>Criando Pé Bionico</CreateBionicFoot.jobString>
+
+	<CreateBionicLeg.label>Criar Perna Bionica</CreateBionicLeg.label>
+	<CreateBionicLeg.description>Melhora a perna protética simples usando Plastiaço e Componentes.</CreateBionicLeg.description>
+	<CreateBionicLeg.jobString>Criando Perna Bionica</CreateBionicLeg.jobString>
+
+	<CreateBionicEar.label>Criar Orelha Bionica</CreateBionicEar.label>
+	<CreateBionicEar.description>Cria uma orelha bionica à partir de Plastiaço.</CreateBionicEar.description>
+	<CreateBionicEar.jobString>Criando Orelha Bionica</CreateBionicEar.jobString>
+
+	<CreateBionicJaw.label>Criar Mandibula Bionica</CreateBionicJaw.label>
+	<CreateBionicJaw.description>Cria uma mandibula bionica a partir de Aço e Plastiaço.</CreateBionicJaw.description>
+	<CreateBionicJaw.jobString>Criando Mandibula Bionica</CreateBionicJaw.jobString>
+
+	<CreateSilentJaw.label>Criar Mandibula Silenciosa</CreateSilentJaw.label>
+	<CreateSilentJaw.description>Cria uma mandibula silenciosa à partir de Aço e Plastiaço.</CreateSilentJaw.description>
+	<CreateSilentJaw.jobString>Criando Mandibula Silenciosa</CreateSilentJaw.jobString>
+
+	<CreateBionicSpine.label>Criar Coluna Vertebral Bionica</CreateBionicSpine.label>
+	<CreateBionicSpine.description>Cria uma coluna vertebral bionica a partir de aço e plastiaço</CreateBionicSpine.description>
+	<CreateBionicSpine.jobString>Criando Coluna Vertebral Bionica</CreateBionicSpine.jobString>
+
+	<CreateMedicalRib.label>Criar Medula Medica</CreateMedicalRib.label>
+	<CreateMedicalRib.description>Cria uma Medula "médica" à partir de Plastiaço e de medicamento avançado.</CreateMedicalRib.description>
+	<CreateMedicalRib.jobString>Criando Medula Medica</CreateMedicalRib.jobString>
+
+	<CreateDruggedRib.label>Criar Medula Droga</CreateDruggedRib.label>
+	<CreateDruggedRib.description>Cria uma Medula "droga" à partir de Plastiaço e Cerveja.</CreateDruggedRib.description>
+	<CreateDruggedRib.jobString>Criando Medula Droga</CreateDruggedRib.jobString>
+	
+	<CreateAdrenalineRib.label>Criar Medula Adrenalina</CreateAdrenalineRib.label>
+	<CreateAdrenalineRib.description>Cria Medula "adrenalina" à partir de Plastiaço e medicamentos.</CreateAdrenalineRib.description>
+	<CreateAdrenalineRib.jobString>Criando Medula Adrenalina</CreateAdrenalineRib.jobString>
+	
+	<CreatePainkillerRib.label>Criar Medula Analgesico</CreatePainkillerRib.label>
+	<CreatePainkillerRib.description>Cria Medula "analgesico" à partir de Plastiaço e suco-turbo.</CreatePainkillerRib.description>
+	<CreatePainkillerRib.jobString>Criando Medula Analgesico</CreatePainkillerRib.jobString>
+
+	
+</LanguageData>

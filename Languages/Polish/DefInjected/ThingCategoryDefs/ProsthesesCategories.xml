@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BasicProstheses.label>Podłe protezy</BasicProstheses.label>
+  <SimpleProstheses.label>Proste protezy</SimpleProstheses.label>
+  <BionicProstheses.label>Bioniczne protezy</BionicProstheses.label>
+  <AdvancedProstheses.label>Zaawansowane protezy</AdvancedProstheses.label>
+
+  <SurrogateOrgans.label>Sztuczne protezy/SurrogateOrgans.label>
+  <SyntheticOrgans.label>Syntetyczne protezy</SyntheticOrgans.label>
+
+</LanguageData>

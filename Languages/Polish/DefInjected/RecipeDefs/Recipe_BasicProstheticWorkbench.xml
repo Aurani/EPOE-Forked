@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateSteelArm.label>Stwórz stalowe ramię</CreateSteelArm.label>
+	<CreateSteelArm.description>Tworzy stalowe ramię z metalu.</CreateSteelArm.description>
+	<CreateSteelArm.jobString>Tworzy stalowe ramię</CreateSteelArm.jobString>
+	
+	<CreatePegLeg.label>Stwórz drewnianą nogę</CreatePegLeg.label>
+	<CreatePegLeg.description>Tworzy podłą protezę nogi z drewna.</CreatePegLeg.description>
+	<CreatePegLeg.jobString>Tworzy drewnianą nogę</CreatePegLeg.jobString>
+
+	<CreateEyePatch.label>Uszyj przepaskę na oko</CreateEyePatch.label>
+	<CreateEyePatch.description>Szyje przepaskę na oko</CreateEyePatch.description>
+	<CreateEyePatch.jobString>Szyje przepaskę na oko</CreateEyePatch.jobString>
+
+	<CreateHookHand.label>Stwórz rękę hak</CreateHookHand.label>
+	<CreateHookHand.description>Tworzy rękę hak z tkaniny i metalu</CreateHookHand.description>
+	<CreateHookHand.jobString>Tworzy rękę hak</CreateHookHand.jobString>
+
+	<CreateDenture.label>Stwórz drewnianą szczękę</CreateDenture.label>
+	<CreateDenture.description>Tworzy tanią protezę z drewna, łatwą do wykonania.</CreateDenture.description>
+	<CreateDenture.jobString>Tworzy drewnianą szczękę</CreateDenture.jobString>
+
+	<CreateWoodenFoot.label>Stwórz drewnianą stopę</CreateWoodenFoot.label>
+	<CreateWoodenFoot.description>Ociosaj kloc drewna w coś co wygląda jak stopa.</CreateWoodenFoot.description>
+	<CreateWoodenFoot.jobString>Tworzy drewnianą stopę</CreateWoodenFoot.jobString>
+	
+	<CreateEarBandage.label>Uszyj bandaż na ucho</CreateEarBandage.label>
+	<CreateEarBandage.description>Szyje bandaż na ucho z tkaniny.</CreateEarBandage.description>
+	<CreateEarBandage.jobString>Szyje bandaż na ucho</CreateEarBandage.jobString>
+
+</LanguageData>

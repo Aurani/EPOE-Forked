@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallAdvancedPowerArm.label>Przyszyj zaawansowane ramię mocy</InstallAdvancedPowerArm.label>
+	<InstallAdvancedPowerArm.description>Przyszywa zaawansowane ramię mocy.</InstallAdvancedPowerArm.description>
+	<InstallAdvancedPowerArm.jobString>Przyszywa zaawansowane ramię mocy</InstallAdvancedPowerArm.jobString>
+
+	<InstallAdvancedBionicArm.label>Przyszyj zaawansowane bioniczne ramię</InstallAdvancedBionicArm.label>
+	<InstallAdvancedBionicArm.description>Przyszywa zaawansowane bioniczne ramię.</InstallAdvancedBionicArm.description>
+	<InstallAdvancedBionicArm.jobString>Przyszywa zaawansowane bioniczne ramię</InstallAdvancedBionicArm.jobString>
+
+	<InstallAdvancedBionicLeg.label>Przyszyj zaawansowaną bioniczną nogę</InstallAdvancedBionicLeg.label>
+	<InstallAdvancedBionicLeg.description>Przyszywa zaawansowaną bioniczną nogę.</InstallAdvancedBionicLeg.description>
+	<InstallAdvancedBionicLeg.jobString>Przyszywa zaawansowaną bioniczną nogę</InstallAdvancedBionicLeg.jobString>
+
+	<InstallAdvancedBionicHand.label>Przyszyj zaawansowaną bioniczną dłoń</InstallAdvancedBionicHand.label>
+	<InstallAdvancedBionicHand.description>Przyszywa zaawansowaną bioniczną dłoń.</InstallAdvancedBionicHand.description>
+	<InstallAdvancedBionicHand.jobString>Przyszywa zaawansowaną bioniczną dłoń</InstallAdvancedBionicHand.jobString>
+
+	<InstallAdvancedBionicFoot.label>Przyszyj zaawansowną bioniczą stopę</InstallAdvancedBionicFoot.label>
+	<InstallAdvancedBionicFoot.description>Przyszywa zaawansowną bioniczą stopę.</InstallAdvancedBionicFoot.description>
+	<InstallAdvancedBionicFoot.jobString>Przyszywa zaawansowną bioniczą stopę</InstallAdvancedBionicFoot.jobString>
+
+	<InstallAdvancedBionicEye.label>Wszczep zaawansowane bioniczne oko</InstallAdvancedBionicEye.label>
+	<InstallAdvancedBionicEye.description>Wszczepia zaawansowane bioniczne oko.</InstallAdvancedBionicEye.description>
+	<InstallAdvancedBionicEye.jobString>Wszczepia zaawansowane bioniczne oko</InstallAdvancedBionicEye.jobString>
+
+	<InstallAdvancedBionicEar.label>Wszczep zaawansowane bioniczne ucho</InstallAdvancedBionicEar.label>
+	<InstallAdvancedBionicEar.description>Wszczepia zaawansowane bioniczne ucho.</InstallAdvancedBionicEar.description>
+	<InstallAdvancedBionicEar.jobString>Wszczepia zaawansowane bioniczne ucho</InstallAdvancedBionicEar.jobString>
+
+	<InstallAdvancedBionicJaw.label>Wszczep zaawansowaną bioniczną szczękę</InstallAdvancedBionicJaw.label>
+	<InstallAdvancedBionicJaw.description>Wszczepia zaawansowaną bioniczną szczękę.</InstallAdvancedBionicJaw.description>
+	<InstallAdvancedBionicJaw.jobString>Wszczepia zaawansowaną bioniczną szczękę</InstallAdvancedBionicJaw.jobString>
+
+	<InstallAdvancedBionicSpine.label>Wszczep zaawansowany bioniczny kręgosłup</InstallAdvancedBionicSpine.label>
+	<InstallAdvancedBionicSpine.description>Wszczepia zaawansowany bioniczny kręgosłup.</InstallAdvancedBionicSpine.description>
+	<InstallAdvancedBionicSpine.jobString>Wszczepia zaawansowany bioniczny kręgosłup</InstallAdvancedBionicSpine.jobString>
+
+	<InstallExoskeletonSuit.label>Wszczep egzoszkielet</InstallExoskeletonSuit.label>
+	<InstallExoskeletonSuit.description>Wszczepia egzoszkielet.</InstallExoskeletonSuit.description>
+	<InstallExoskeletonSuit.jobString>Wszczepia egzoszkielet</InstallExoskeletonSuit.jobString>
+
+</LanguageData>

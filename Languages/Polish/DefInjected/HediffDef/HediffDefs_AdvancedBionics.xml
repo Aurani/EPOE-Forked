@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+		
+   <AdvancedBionicHand.label>Zaawansowana bioniczna dłoń</AdvancedBionicHand.label>
+   <AdvancedBionicFoot.label>Zaawansowana bioniczna stopa</AdvancedBionicFoot.label>
+   <AdvancedBionicSpine.label>Zaawansowany bioniczny kręgosłup</AdvancedBionicSpine.label>
+   <AdvancedBionicJaw.label>Zaawansowana bioniczna szczęka</AdvancedBionicJaw.label>
+   <AdvancedBionicEar.label>Zaawansowane bioniczne ucho</AdvancedBionicEar.label>
+   <AdvancedPowerArm.label>Zaawansowane bioniczne ramię</AdvancedPowerArm.label>
+   <AdvancedBionicLeg.label>Zaawansowana bioniczna noga</AdvancedBionicLeg.label>
+   <AdvancedBionicEye.label>Zaawansowane bioniczne oko</AdvancedBionicEye.label>
+   <AdvancedPowerArm.label>Zaawansowane ramię mocy</AdvancedPowerArm.label>
+   <ExoskeletonSuit.label>Egzoszkielet</ExoskeletonSuit.label>
+	
+</LanguageData>

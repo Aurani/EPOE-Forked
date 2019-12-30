@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<InstallNaturalHeart.label> Wszczep serce</InstallNaturalHeart.label>
+	<InstallNaturalHeart.description>Wszczepia serce.</InstallNaturalHeart.description>
+    <InstallNaturalHeart.jobString>Wszczepia serce</InstallNaturalHeart.jobString>
+
+	<InstallNaturalLiver.label>Wszczep wątrobę</InstallNaturalLiver.label>
+	<InstallNaturalLiver.description>Wszczepia wątrobę.</InstallNaturalLiver.description>
+    <InstallNaturalLiver.jobString>Wszczepia wątrobę</InstallNaturalLiver.jobString>
+	
+	<InstallNaturalKidney.label>Wszczep nerkę</InstallNaturalKidney.label>
+	<InstallNaturalKidney.description>Wszczepia nerkę.</InstallNaturalKidney.description>
+    <InstallNaturalKidney.jobString>Wszczepia nerkę</InstallNaturalKidney.jobString>
+	
+	<InstallNaturalLung.label>Wszczep płuco</InstallNaturalLung.label>
+	<InstallNaturalLung.description>Wszczepia płuco.</InstallNaturalLung.description>
+    <InstallNaturalLung.jobString>Wszczepia płuco</InstallNaturalLung.jobString>
+
+	<InstallNaturalEye.label>Wszczep oko</InstallNaturalEye.label>
+	<InstallNaturalEye.description>Wszczepia oko.</InstallNaturalEye.description>
+    <InstallNaturalEye.jobString>Wszczepia oko</InstallNaturalEye.jobString>
+
+	<InstallNaturalNose.label>Przyszyj nos</InstallNaturalNose.label>
+	<InstallNaturalNose.description>Przyszywa nos.</InstallNaturalNose.description>
+    <InstallNaturalNose.jobString>Przyszywa nos.</InstallNaturalNose.jobString>
+
+	<InstallNaturalEar.label>Przyszyj ucho</InstallNaturalEar.label>
+	<InstallNaturalEar.description>Przyszywa ucho.</InstallNaturalEar.description>
+    <InstallNaturalEar.jobString>Przyszywa ucho</InstallNaturalEar.jobString>
+
+	<InstallNaturalJaw.label>Wszczep naturalną szczękę</InstallNaturalJaw.label>
+	<InstallNaturalJaw.description>Wszczepia naturalną szczękę.</InstallNaturalJaw.description>
+    <InstallNaturalJaw.jobString>Wszczepia naturalną szczękę</InstallNaturalJaw.jobString>
+
+	<InstallNaturalArm.label>Przyszyj ramię</InstallNaturalArm.label>
+	<InstallNaturalArm.description>Przyszywa ramię.</InstallNaturalArm.description>
+    <InstallNaturalArm.jobString>Przyszywa ramię</InstallNaturalArm.jobString>
+
+	<InstallNaturalLeg.label>Przyszy nogę</InstallNaturalLeg.label>
+	<InstallNaturalLeg.description>Przyszywa nogę.</InstallNaturalLeg.description>
+    <InstallNaturalLeg.jobString>Przyszywa nogę</InstallNaturalLeg.jobString>
+
+	<InstallNaturalStomach.label>Wszczep żołądek</InstallNaturalStomach.label>
+	<InstallNaturalStomach.description>Wszczepia żołądek.</InstallNaturalStomach.description>
+    <InstallNaturalStomach.jobString>Wszczepia żołądek</InstallNaturalStomach.jobString>
+
+</LanguageData>

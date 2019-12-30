@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateVancidium.label>Przetop Vancidium</CreateVancidium.label>
+	<CreateVancidium.description>Użyj temperatury i silnych elektromagnesów, aby połączyć złoto, metal i superstal.</CreateVancidium.description>
+	<CreateVancidium.jobString>Przetapia vancidium</CreateVancidium.jobString>
+
+	<MakeAdvancedComponent.label>Wykonaj zaawansowany komponent</MakeAdvancedComponent.label>
+	<MakeAdvancedComponent.description>Tworzy zaawansowany komponent.</MakeAdvancedComponent.description>
+	<MakeAdvancedComponent.jobString>Wykonuje zaawansowany komponent</MakeAdvancedComponent.jobString>
+	
+</LanguageData>

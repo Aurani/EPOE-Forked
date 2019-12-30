@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+   
+   <BrainStimulator.label>Stymulator mózgu</BrainStimulator.label>
+   <BrainStimulator.description>Małe urządzenie, które stymuluje nieuszkodzone obszary mózgu. Zalecany tylko przy poważnych obrażeniach mózgu. Wymaga badania operacja mózgu.</BrainStimulator.description>
+   
+   <SurrogateLung.label>Sztuczne płuco</SurrogateLung.label>
+   <SurrogateLung.description>Prymitywny zamiennik. Wydaje głęboki, brzęczący hałas.</SurrogateLung.description>
+   
+   <SurrogateStomach.label>Sztuczny żołądek</SurrogateStomach.label>
+   <SurrogateStomach.description>Prymitywny zamiennik.</SurrogateStomach.description>
+   
+   <SurrogateLiver.label>Sztuczna wątroba</SurrogateLiver.label>
+   <SurrogateLiver.description>Prymitywny zamiennik. Ma problem z utrzymaniem prawidłowego poziomu cukru we krwi.</SurrogateLiver.description>
+   
+   <SurrogateKidney.label>Sztuczna nerka</SurrogateKidney.label>
+   <SurrogateKidney.description>Prymitywny zamiennik. Jednym ze skutków ubocznych jest bladość.</SurrogateKidney.description>
+   
+   <SurrogateHeart.label>Sztuczne serce</SurrogateHeart.label>
+   <SurrogateHeart.description>Bardziej lub mniej wydajna pompka utrzymująca krwiobieg.</SurrogateHeart.description>
+  
+</LanguageData>

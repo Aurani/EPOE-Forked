@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+		
+   <SimpleProstheticHand.label>Prosta proteza dłoni</SimpleProstheticHand.label>
+   <SimpleProstheticFoot.label>Prosta proteza stopy</SimpleProstheticFoot.label>
+   <ArtificialNose.label>Sztuczny nos</ArtificialNose.label>
+   <HydraulicJaw.label>Hydrauliczna szczęka</HydraulicJaw.label>
+   <ArtificialPelvis.label>Sztuczna miednica</ArtificialPelvis.label>
+   <SimpleProstheticArm.label>Prosta proteza ramienia</SimpleProstheticArm.label>
+   <ArtificialPelvis.label>Sztuczna miednica</ArtificialPelvis.label>
+   <SimpleProstheticLeg.label>Prosta proteza nogi</SimpleProstheticLeg.label>
+   <GoldenEye.label>Złote oko</GoldenEye.label>
+   
+</LanguageData>

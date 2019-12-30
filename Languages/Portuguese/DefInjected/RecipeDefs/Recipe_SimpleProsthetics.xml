@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallSimplesProstheticLeg.label>Instalar Protese de Perna Simples</InstallSimplesProstheticLeg.label>
+	<InstallSimplesProstheticLeg.description>Instala um a Protese de Perna.</InstallSimplesProstheticLeg.description>
+    <InstallSimplesProstheticLeg.jobString>Instalando Protese de Perna</InstallSimplesProstheticLeg.jobString>
+
+	<InstallSimplesProstheticArm.label>Instalar Protese de Braço</InstallSimplesProstheticArm.label>
+	<InstallSimplesProstheticArm.description>Instala uma a Protese de Braço.</InstallSimplesProstheticArm.description>
+    <InstallSimplesProstheticArm.jobString>Instalando Protese de Braço</InstallSimplesProstheticArm.jobString>
+
+	<InstallGlassEye.label>Instalar Olho de Vidro</InstallGlassEye.label>
+	<InstallGlassEye.description>Instala um Olho de Vidro.</InstallGlassEye.description>
+    <InstallGlassEye.jobString>Instalando Olho de Vidro</InstallGlassEye.jobString>
+	
+	<InstallCrystalEye.label>Instalar Olho de cristal</InstallCrystalEye.label>
+	<InstallCrystalEye.description>Instala um Olho de cristal.</InstallCrystalEye.description>
+    <InstallCrystalEye.jobString>Instalando Olho de cristal</InstallCrystalEye.jobString>
+	
+	<InstallSimplesProstheticHand.label>Instalar Protese de Mão Simples</InstallSimplesProstheticHand.label>
+	<InstallSimplesProstheticHand.description>Instala uma Protese de Mão.</InstallSimplesProstheticHand.description>
+    <InstallSimplesProstheticHand.jobString>Instalando Protese de Mão Simples</InstallSimplesProstheticHand.jobString>
+	
+	<InstallSimplesProstheticFoot.label>Instalar Protese de Pé Simples</InstallSimplesProstheticFoot.label>
+	<InstallSimplesProstheticFoot.description>Instala uma Protese de Pé Simples.</InstallSimplesProstheticFoot.description>
+    <InstallSimplesProstheticFoot.jobString>Instalando Protese de Pé Simples</InstallSimplesProstheticFoot.jobString>
+	
+	<InstallArtificialNose.label>Instalar Nariz Artificial</InstallArtificialNose.label>
+	<InstallArtificialNose.description>Instala um Nariz Artificial.</InstallArtificialNose.description>
+    <InstallArtificialNose.jobString>Instalando Nariz Artificial</InstallArtificialNose.jobString>
+		
+	<InstallHydraulicJaw.label>Instalar Mandibula Hidraulica</InstallHydraulicJaw.label>
+	<InstallHydraulicJaw.description>Instala uma Mandibula Hidraulica.</InstallHydraulicJaw.description>
+    <InstallHydraulicJaw.jobString>Instalando Mandibula Hidraulica</InstallHydraulicJaw.jobString>
+
+	<InstallArtificialPelvis.label>Instalar Bacia Artificial</InstallArtificialPelvis.label>
+	<InstallArtificialPelvis.description>Instala uma Bacia Artificial.</InstallArtificialPelvis.description>
+    <InstallArtificialPelvis.jobString>Instalando Bacia Artificial</InstallArtificialPelvis.jobString>
+	
+	<InstallGoldenEye.label>Instalar Olho de Ouro</InstallGoldenEye.label>
+	<InstallGoldenEye.description>Instala um Olho de Ouro</InstallGoldenEye.description>
+	<InstallGoldenEye.jobString>Instalando Olho de Ouro</InstallGoldenEye.jobString>
+</LanguageData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+		
+   <PowerArm.label>Ramię mocy</PowerArm.label>
+   <BionicHand.label>Bioniczna ręka</BionicHand.label>
+   <BionicFoot.label>Bioniczna stopa</BionicFoot.label>
+   <BionicEar.label>Bioniczne ucho</BionicEar.label>
+   <BionicJaw.label>Bioniczna szczęka</BionicJaw.label>
+   <SilentJaw.label>Cicha szczęka</SilentJaw.label>
+   <BionicSpine.label>Bioniczny kręgosłup</BionicSpine.label>
+   <MedicalRib.label>Żebro medyczne</MedicalRib.label>
+   <DruggedRib.label>Żebro odurzające</DruggedRib.label>
+   <AdrenalineRib.label>Żebro z adrenaliną </AdrenalineRib.label>
+   <PainkillerRib.label>Żebro przeciwbólowe</PainkillerRib.label>
+   
+</LanguageData>

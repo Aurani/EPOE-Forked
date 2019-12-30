@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallPowerArm.label>Przyszyj ramię mocy</InstallPowerArm.label>
+	<InstallPowerArm.description>Przyszywa ramię mocy.</InstallPowerArm.description>
+	<InstallPowerArm.jobString>Przyszywa ramię mocy</InstallPowerArm.jobString>
+
+	<InstallBionicHand.label>Przyszyj bioniczną rękę</InstallBionicHand.label>
+	<InstallBionicHand.description>Przyszywa bioniczną rękę.</InstallBionicHand.description>
+	<InstallBionicHand.jobString>Przyszywa bioniczną rękę</InstallBionicHand.jobString>
+
+	<InstallBionicFoot.label>Przyszyj bioniczną stopę</InstallBionicFoot.label>
+	<InstallBionicFoot.description>Przyszywa bioniczną stopę.</InstallBionicFoot.description>
+	<InstallBionicFoot.jobString>Przyszywa bioniczną stopę</InstallBionicFoot.jobString>
+
+	<InstallBionicEar.label>Przyszyj bioniczne ucho</InstallBionicEar.label>
+	<InstallBionicEar.description>Przyszywa bioniczne ucho.</InstallBionicEar.description>
+	<InstallBionicEar.jobString>Przyszywa bioniczne ucho</InstallBionicEar.jobString>
+
+	<InstallBionicJaw.label>Przyszyj bioniczną szczękę</InstallBionicJaw.label>
+	<InstallBionicJaw.description>Przyszywa bioniczną szczękę.</InstallBionicJaw.description>
+	<InstallBionicJaw.jobString>Przyszywa bioniczną szczękę</InstallBionicJaw.jobString>
+
+	<InstallSilentJaw.label>Przyszyj cichą szczękę</InstallSilentJaw.label>
+	<InstallSilentJaw.description>Przyszywa cichą szczekę.</InstallSilentJaw.description>
+	<InstallSilentJaw.jobString>Przyszywa cichą szczekę</InstallSilentJaw.jobString>
+
+	<InstallBionicSpine.label>Wszczep bioniczny kręgosłup</InstallBionicSpine.label>
+	<InstallBionicSpine.description>Wszczepia bioniczny kręgosłup.</InstallBionicSpine.description>
+	<InstallBionicSpine.jobString>Wszczepia bioniczny kręgosłup.</InstallBionicSpine.jobString>
+
+	<InstallMedicalRib.label>Wszczep żebro medyczne</InstallMedicalRib.label>
+	<InstallMedicalRib.description>Wszczepia żebro medyczne.</InstallMedicalRib.description>
+	<InstallMedicalRib.jobString>Wszczepia żebro medyczne</InstallMedicalRib.jobString>
+
+	<InstallDruggedRib.label>Wszczep żebro odurzające</InstallDruggedRib.label>
+	<InstallDruggedRib.description>Wszczepia żebro odurzające.</InstallDruggedRib.description>
+	<InstallDruggedRib.jobString>Wszczepia żebro odurzające</InstallDruggedRib.jobString>
+	
+	<InstallAdrenalineRib.label>Wszczep żebro z adrenaliną</InstallAdrenalineRib.label>
+	<InstallAdrenalineRib.description>Wszczepia żebro z adrenaliną.</InstallAdrenalineRib.description>
+	<InstallAdrenalineRib.jobString>Wszczepia żebro z adrenaliną</InstallAdrenalineRib.jobString>
+	
+	<InstallPainkillerRib.label>Wszczep żebro przeciwbólowe</InstallPainkillerRib.label>
+	<InstallPainkillerRib.description>Wszczepia żebro przeciwbólowe.</InstallPainkillerRib.description>
+	<InstallPainkillerRib.jobString>Wszczepia żebro przeciwbólowe</InstallPainkillerRib.jobString>
+
+</LanguageData>

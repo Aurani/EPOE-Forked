@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallBrainStimulator.label>Wszczep stymulator mózgu</InstallBrainStimulator.label>
+	<InstallBrainStimulator.description>Wszczepia stymulator mózgu.</InstallBrainStimulator.description>
+    <InstallBrainStimulator.jobString>Wszczep stymulator mózgu</InstallBrainStimulator.jobString>
+	
+	<InstallSurrogateLung.label>Wszczep sztuczne płuco</InstallSurrogateLung.label>
+	<InstallSurrogateLung.description>Wszczepia sztuczne płuco.</InstallSurrogateLung.description>
+    <InstallSurrogateLung.jobString>Wszczepia sztuczne płuco</InstallSurrogateLung.jobString>
+	
+	<InstallSurrogateStomach.label>Wszczep sztuczny żołądek</InstallSurrogateStomach.label>
+	<InstallSurrogateStomach.description>Wszczepia sztuczny żołądek.</InstallSurrogateStomach.description>
+    <InstallSurrogateStomach.jobString>Wszczepia sztuczny żołądek</InstallSurrogateStomach.jobString>
+	
+	<InstallSurrogateLiver.label>Wszczep sztuczną wątrobę</InstallSurrogateLiver.label>
+	<InstallSurrogateLiver.description>Wszczepia sztuczną wątrobę.</InstallSurrogateLiver.description>
+    <InstallSurrogateLiver.jobString>Wszczepia sztuczną wątrobę</InstallSurrogateLiver.jobString>
+	
+	<InstallSurrogateKidney.label>Wszczep sztuczną nerkę</InstallSurrogateKidney.label>
+	<InstallSurrogateKidney.description>Wszczepia sztuczną nerkę.</InstallSurrogateKidney.description>
+    <InstallSurrogateKidney.jobString>Wszczepia sztuczną nerkę</InstallSurrogateKidney.jobString>
+	
+	<InstallSurrogateHeart.label>Wszczep sztuczne serce</InstallSurrogateHeart.label>
+	<InstallSurrogateHeart.description>Wszczepia sztuczne serce.</InstallSurrogateHeart.description>
+    <InstallSurrogateHeart.jobString>Wszczepia sztuczne serce</InstallSurrogateHeart.jobString>
+	
+</LanguageData>

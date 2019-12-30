@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+  <LeftEye.label>lewe oko</LeftEye.label>
+  <RightEye.label>prawe oko</RightEye.label>
+  <LeftEar.label>lewe ucho</LeftEar.label>
+  <RightEar.label>prawe ucho</RightEar.label>
+  <Nose.label>nos</Nose.label>
+  <Jaw.label>szczęka</Jaw.label>
+  <Stomach.label>żołądek</Stomach.label>
+  <Rib1.label>1. żebro</Rib1.label>
+  <Rib2.label>2. żebro</Rib2.label>
+  <Rib3.label>3. żebro</Rib3.label>
+  <Rib4.label>4. żebro</Rib4.label>
+  <Rib5.label>5. żebro</Rib5.label>
+  <Rib6.label>6. żebro</Rib6.label>
+  <Rib7.label>7. żebro</Rib7.label>
+  <Rib8.label>8. żebro</Rib8.label>
+  <Rib9.label>9. żebro</Rib9.label>
+  <Rib10.label>10. żebro</Rib10.label>
+  <Rib11.label>11. żebro</Rib11.label>
+  <Rib12.label>12. żebro</Rib12.label>
+	
+</LanguageData>

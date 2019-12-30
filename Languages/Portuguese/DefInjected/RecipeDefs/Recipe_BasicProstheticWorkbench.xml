@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateSteelArm.label>Criar Braço de Ferro</CreateSteelArm.label>
+	<CreateSteelArm.description>Cria um Braço a partir de ferro.</CreateSteelArm.description>
+	<CreateSteelArm.jobString>Criando Braço de Ferro</CreateSteelArm.jobString>
+	
+	<CreatePegLeg.label>Criar Perna-de-Pau</CreatePegLeg.label>
+	<CreatePegLeg.description>Cria uma perna simples a partir de madeira.</CreatePegLeg.description>
+	<CreatePegLeg.jobString>Criando Perna-de-Pau</CreatePegLeg.jobString>
+
+	
+	<CreateEyePatch.label>Criar Tapa Olho</CreateEyePatch.label>
+	<CreateEyePatch.description>Costura um Tapa Olho a partir de pano.</CreateEyePatch.description>
+	<CreateEyePatch.jobString>Criando Tapa Olho</CreateEyePatch.jobString>
+
+	<CreateHookHand.label>Criar Mão Gancho</CreateHookHand.label>
+	<CreateHookHand.description>Cria uma Mão Gancho a partir de ferro e pano.</CreateHookHand.description>
+	<CreateHookHand.jobString>Criando Mão Gancho</CreateHookHand.jobString>
+
+	
+	<CreateDenture.label>Criar Dentadura</CreateDenture.label>
+	<CreateDenture.description>Cria uma Dentadura a partir de madeira. Fácil de criar.</CreateDenture.description>
+	<CreateDenture.jobString>Criando Dentadura</CreateDenture.jobString>
+
+	
+	<CreateWoodenFoot.label>Criar Pé de Madeira</CreateWoodenFoot.label>
+	<CreateWoodenFoot.description>Corta a madeira em forma de Pé.</CreateWoodenFoot.description>
+	<CreateWoodenFoot.jobString>Criando Pé de Madeira</CreateWoodenFoot.jobString>
+
+	<CreateEarBandage.label>Criar Bandagem de Orelha</CreateEarBandage.label>
+	<CreateEarBandage.description>Faz uma bandagem de Orelha.</CreateEarBandage.description>
+	<CreateEarBandage.jobString>Criando Bandagem de Orelha</CreateEarBandage.jobString>
+
+</LanguageData>

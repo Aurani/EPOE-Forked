@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateSimpleProstheticLeg.label>Stwórz prostą protezę nogi</CreateSimpleProstheticLeg.label>
+	<CreateSimpleProstheticLeg.description>Tworzy prostą proteze nogi z metalu, super stali i komponentów.</CreateSimpleProstheticLeg.description>
+    <CreateSimpleProstheticLeg.jobString>Tworzy prostą protezę nogi</CreateSimpleProstheticLeg.jobString>
+	
+	<CreateSimpleProstheticArm.label>Stwórz prostą protezę ramienia</CreateSimpleProstheticArm.label>
+	<CreateSimpleProstheticArm.description>Tworzy prostą protezę ramienia z metalu, super stali i komponentów.</CreateSimpleProstheticArm.description>
+    <CreateSimpleProstheticArm.jobString>Tworzy prostą protezę ramienia</CreateSimpleProstheticArm.jobString>
+	
+	<CreateSimpleProstheticHand.label>Stwórz prostą protezę dłoni</CreateSimpleProstheticHand.label>
+	<CreateSimpleProstheticHand.description>Tworzy prostą protezę dłoni z metalu, super stali i komponentów.</CreateSimpleProstheticHand.description>
+    <CreateSimpleProstheticHand.jobString>Tworzy prostą protezę dłoni</CreateSimpleProstheticHand.jobString>
+	
+	<CreateSimpleProstheticFoot.label>Stwórz prostą protezę nogi</CreateSimpleProstheticFoot.label>
+	<CreateSimpleProstheticFoot.description>Tworzy prostą protezę nogi z metalu, super stali i komponentów</CreateSimpleProstheticFoot.description>
+    <CreateSimpleProstheticFoot.jobString>Tworzy prostą protezę nogi</CreateSimpleProstheticFoot.jobString>
+	
+	<CreateArtificialNose.label>Stwórz sztuczny nos</CreateArtificialNose.label>
+	<CreateArtificialNose.description>Tworzy sztuczny nos z super stali.</CreateArtificialNose.description>
+    <CreateArtificialNose.jobString>Tworzy sztuczny nos</CreateArtificialNose.jobString>
+	
+	<CreateArtificialPelvis.label>Stwórz sztuczną miednicę</CreateArtificialPelvis.label>
+	<CreateArtificialPelvis.description>Tworzy sztuczną miednicę z metalu i super stali.</CreateArtificialPelvis.description>
+    <CreateArtificialPelvis.jobString>Tworzy sztuczną miednicę</CreateArtificialPelvis.jobString>
+	
+	<CreateHydraulicJaw.label>Stwórz hydrauliczną szczękę</CreateHydraulicJaw.label>
+	<CreateHydraulicJaw.description>Tworzy hydrauliczną szczękę z metalu i super stali.</CreateHydraulicJaw.description>
+    <CreateHydraulicJaw.jobString>En train de créer une mâchoire hydraulique</CreateHydraulicJaw.jobString>
+
+	<CreateGoldenEye.label>Złote oko</CreateGoldenEye.label>
+	<CreateGoldenEye.description>Sztabka złota + młotek = złote oko</CreateGoldenEye.description>
+	<CreateGoldenEye.jobString>Tworzy złote oko</CreateGoldenEye.jobString>
+	
+</LanguageData>

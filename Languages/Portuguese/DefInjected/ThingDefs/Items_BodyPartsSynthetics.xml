@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<AIChip.label>Chip IA</AIChip.label>
+   <AIChip.description>Com produtos químicos especiais e choques elétricos, este pequeno chip é capaz de aumentar significativamente a consciência e mobilidade do usuário.</AIChip.description>
+   
+   <SyntheticLung.label>Pulmão Sintetico</SyntheticLung.label>
+   <SyntheticLung.description>Uma alta tecnologia respiração artificial. Faz um barulho ronronar suave.</SyntheticLung.description>
+   
+   <SyntheticStomach.label>Estômago Sintetico</SyntheticStomach.label>
+   <SyntheticStomach.description>Um estômago melhorou fibras sintéticas para reduzir a taxa de rejeição.</SyntheticStomach.description>
+   
+   <SyntheticLiver.label>Figado Sintetico</SyntheticLiver.label>
+   <SyntheticLiver.description>Melhoria fibras sintéticas fígado para reduzir a taxa de rejeição.</SyntheticLiver.description>
+   
+   <SyntheticKidney.label>Rim sintética</SyntheticKidney.label>
+   <SyntheticKidney.description>Um rim melhorou fibras sintéticas para reduzir a taxa de rejeição.</SyntheticKidney.description>
+   
+   <SyntheticHeart.label>Coração Sintetico</SyntheticHeart.label>
+   <SyntheticHeart.description>Um coração de substituição de gama alta. Pode durar mais de 30 anos com uma única carga.</SyntheticHeart.description>
+   
+   <SyntheticSkin.label>Pele Sintética</SyntheticSkin.label>
+   <SyntheticSkin.description>Um material interessante, assemelhando-se a pele. uma verdadeira aparência.</SyntheticSkin.description>
+   
+</LanguageData>

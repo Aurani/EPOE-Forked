@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+		
+    <BrainStimulator.label>Estimulador Cerebral</BrainStimulator.label>
+    <SurrogateLung.label>Pulmão Artificial</SurrogateLung.label>
+    <SurrogateStomach.label>Estomago Artificial</SurrogateStomach.label>
+    <SurrogateLiver.label>Fígado Artificial</SurrogateLiver.label>
+    <SurrogateKidney.label>Rim Artificial</SurrogateKidney.label>
+    <SurrogateHeart.label>Coração Artificial</SurrogateHeart.label>
+	
+</LanguageData>

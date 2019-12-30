@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BasicProsthetics.label>Podstawy protetyki</BasicProsthetics.label>
+	<BasicProsthetics.description>Zrozumienie kształtu nogi i połączenie tej wiedzy z podstawowyą obróbką drewna, pozwala tworzyć drewniane nogi i inne prymitywne protezy.</BasicProsthetics.description>
+	
+	<SimpleProsthetics.label>Zaawansowana protetyka</SimpleProsthetics.label>
+	<SimpleProsthetics.description>Ciężkie studia anatomii człowieka w połączeniu z wiedzą metalurgiczną pozwolą zbudować ci proste protezy.</SimpleProsthetics.description>
+
+	<Bionics.label>Bionika</Bionics.label>
+	<Bionics.description>Odkrycie zasad działania bardzo małych silników i obwodów elektrycznych otwiera przed tobą nowy wymiar tworzenia protez!</Bionics.description>
+	
+	<SurrogateOrgans.label>Sztuczne narządy</SurrogateOrgans.label>
+	<SurrogateOrgans.description>Poprzez poszerzenie swojej medycznej wiedzy stworzenie prostych, sztucznych nardządów, które zastąpią brakujące staje się możliwe.</SurrogateOrgans.description>
+	
+	<RibReplacements.label>Wymiana żeber</RibReplacements.label>
+	<RibReplacements.description>Odkrywasz bardzo małe dozowniki, zastanawiasz się nad umieszczeniem ich w żebrach. Od teraz możesz tworzyć i wszczepiać implanty żeber. </RibReplacements.description>
+	
+	<VancidiumRefineryTech.label>Vancidium i zaawansowane komponenty</VancidiumRefineryTech.label>
+	<VancidiumRefineryTech.description>Podczas eksperymentów z różnymi materiałami odkrywasz bardzo świecący, ale też wytrzymały materiał, który może być użyty do stworzenia bardzo zaawansowanych protez. Możesz tworzyć vancidium w Przetwórni Metalu oraz zaawansowane komponenty w Stole Roboczym.</VancidiumRefineryTech.description>
+	
+	<AdvancedBionics.label>Zaawansowana bionika</AdvancedBionics.label>
+	<AdvancedBionics.description>Ulepsz swoje bioniczne protezy vancidium, aby były jeszcze lepsze.</AdvancedBionics.description>
+
+	<SyntheticOrgans.label>Syntetyczne organy</SyntheticOrgans.label>
+	<SyntheticOrgans.description>Dalsze badania w nanotechnologii pozwoliły stworzyć nieprawdopodobnie dobrze zaprojektowane sztuczne organy w Stacji Rozwojowej.</SyntheticOrgans.description>
+
+    <BrainSurgery.label>Operacja mózgu</BrainSurgery.label>
+    <BrainSurgery.description>Pozwala przeprowadzać operacje mózgu.</BrainSurgery.description>
+	
+</LanguageData>

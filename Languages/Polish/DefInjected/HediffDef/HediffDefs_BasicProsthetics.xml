@@ -1,0 +1,12 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+		
+   <SteelArm.label>Stalowe ramię</SteelArm.label>
+   <EyePatch.label>Przepaska na oko</EyePatch.label>
+   <HookHand.label>Ręka hak</HookHand.label>
+   <WoodenFoot.label>Drewniana stopa</WoodenFoot.label>
+   <EarBandage.label>Bandaż ucha</EarBandage.label>
+   <denture.label>Proteza</denture.label>
+   <PegLeg.label>Drewniana noga</PegLeg.label>
+   
+</LanguageData>

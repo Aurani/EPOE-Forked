@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateSimpleProstheticLeg.label>Criar Protese de Perna Simples</CreateSimpleProstheticLeg.label>
+	<CreateSimpleProstheticLeg.description>Cria uma Protese de Perna Simples à partir de Aço, Plastiaço e Componentes.</CreateSimpleProstheticLeg.description>
+    <CreateSimpleProstheticLeg.jobString>Criando Protese de Perna Simples</CreateSimpleProstheticLeg.jobString>
+	
+	<CreateSimpleProstheticArm.label>Criar Protese de Braço Simples</CreateSimpleProstheticArm.label>
+	<CreateSimpleProstheticArm.description>Cria Protese de Braço Simples à partir de Aço, Plastiaço e Componentes.</CreateSimpleProstheticArm.description>
+    <CreateSimpleProstheticArm.jobString>Criando um Protese de Braço Simples</CreateSimpleProstheticArm.jobString>
+	
+	<CreateSimpleProstheticHand.label>Criar Protese de Mão Simples</CreateSimpleProstheticHand.label>
+	<CreateSimpleProstheticHand.description>Cria Protese de Mão Simples à partir de Aço, Plastiaço e Componentes.</CreateSimpleProstheticHand.description>
+    <CreateSimpleProstheticHand.jobString>Criando um Protese de Mão Simples</CreateSimpleProstheticHand.jobString>
+	
+	<CreateSimpleProstheticFoot.label>Criar Protese de Pé Simples</CreateSimpleProstheticFoot.label>
+	<CreateSimpleProstheticFoot.description>Cria Protese de Pé Simples à partir de Aço, Plastiaço e Componentes.</CreateSimpleProstheticFoot.description>
+    <CreateSimpleProstheticFoot.jobString>Criando Protese de Pé Simples</CreateSimpleProstheticFoot.jobString>
+	
+	<CreateArtificialNose.label>Criar Nariz Artificial</CreateArtificialNose.label>
+	<CreateArtificialNose.description>Cria Nariz Artificial à partir de Plastiaço.</CreateArtificialNose.description>
+    <CreateArtificialNose.jobString>Criando Nariz Artificial</CreateArtificialNose.jobString>
+	
+	<CreateArtificialPelvis.label>Criar Bacia Artificial</CreateArtificialPelvis.label>
+	<CreateArtificialPelvis.description>Cria Bacia Artificial à partir de Aço e Plastiaço.</CreateArtificialPelvis.description>
+    <CreateArtificialPelvis.jobString>Criando um Bacia Artificial</CreateArtificialPelvis.jobString>
+	
+	<CreateHydraulicJaw.label>Criar Mandibula Hidraulica</CreateHydraulicJaw.label>
+	<CreateHydraulicJaw.description>Cria Mandibula Hidraulica à partir de Aço e Componentes.</CreateHydraulicJaw.description>
+    <CreateHydraulicJaw.jobString>Criando Mandibula Hidraulica</CreateHydraulicJaw.jobString>
+	
+	<CreateGlassEye.label>Criar Olho de Vidro</CreateGlassEye.label>
+	<CreateGlassEye.description>Cria Olho de Vidro.</CreateGlassEye.description>
+    <CreateGlassEye.jobString>Criando Olho de Vidro</CreateGlassEye.jobString>
+	
+	<CreateCrystalEye.label>Criar Olho de cristal</CreateCrystalEye.label>
+	<CreateCrystalEye.description>Cria Olho de cristal.</CreateCrystalEye.description>
+    <CreateCrystalEye.jobString>Criando Olho de cristal</CreateCrystalEye.jobString>
+
+	<CreateGoldenEye.label>Criar Olho de Ouro</CreateGoldenEye.label>
+	<CreateGoldenEye.description>Cria Olho de Ouro</CreateGoldenEye.description>
+	<CreateGoldenEye.jobString>Criando Olho de Ouro</CreateGoldenEye.jobString>
+	
+</LanguageData>

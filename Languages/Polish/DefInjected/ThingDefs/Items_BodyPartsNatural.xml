@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <Leg.label>Noga</Leg.label>
+  <Leg.description>Zwykły mięsisty patyczek, który pozwala szwędać się po okolicy.</Leg.description>
+  
+  <Arm.label>Ramię</Arm.label>
+  <Arm.description>Ramię jest jak noga... tylko że możesz trzymać w nim rzeczy.</Arm.description>
+  
+  <Stomach.label>Żołądek</Stomach.label>
+  <Stomach.description>Trawi jedzenie i zamienia je w energię i składniki odżywcze.</Stomach.description>
+  
+  <Heart.label>Serce</Heart.label>
+  <Heart.description>Dostarcza krwi i tlenu do każdej części ciała. Gotowe by znaleźć nowego właściciela.</Heart.description>
+  
+  <Liver.label>Wątroba</Liver.label>
+  <Liver.description>Gra ważną rolę w metaboliźmie.</Liver.description>
+
+  <Lung.label>Płuco</Lung.label>
+  <Lung.description>Podstawowa część w układzie oddechowym.</Lung.description>
+  
+  <Kidney.label>Nerka</Kidney.label>
+  <Kidney.description>Filtruje i usuwa odpadki z krwi.</Kidney.description>
+  
+  <Eye.label>Oko</Eye.label>
+  <Eye.description>Absorbuje światło, pozwalając zobaczyć to co jest dookoła.</Eye.description>
+  
+  <Nose.label>Nos</Nose.label>
+  <Nose.description>Bardzo użyteczny organ pozwalający odróżnic zapachy.</Nose.description>
+  
+  <Ear.label>Ucho</Ear.label>
+  <Ear.description>Wychwytuje wibracje w powietrzu. Pozwala ludziom słyszeć dźwięki</Ear.description>
+  
+  <Jaw.label>Szczęka</Jaw.label>
+  <Jaw.description>Niezła klawiatura zębów, która pozwala żuć jedzenie... i rozmawiać.</Jaw.description>
+  
+</LanguageData>

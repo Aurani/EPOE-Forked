@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateAdvancedBionicEye.label>Criar Olho Bionico Avançado</CreateAdvancedBionicEye.label>
+	<CreateAdvancedBionicEye.description>Cria Olho Bionico Avançado.</CreateAdvancedBionicEye.description>
+    <CreateAdvancedBionicEye.jobString>Criando Olho Bionico Avançado</CreateAdvancedBionicEye.jobString>
+	
+	<CreateAdvancedPowerArm.label>Criar Braço Energizado Avançado</CreateAdvancedPowerArm.label>
+	<CreateAdvancedPowerArm.description>Cria Braço Energizado Avançado.</CreateAdvancedPowerArm.description>
+    <CreateAdvancedPowerArm.jobString>Criando Braço Energizado Avançado</CreateAdvancedPowerArm.jobString>
+	
+	<CreateAdvancedBionicArm.label>Criar Braço Bionico Avançado</CreateAdvancedBionicArm.label>
+	<CreateAdvancedBionicArm.description>Cria Braço Bionico Avançado.</CreateAdvancedBionicArm.description>
+    <CreateAdvancedBionicArm.jobString>Criando Braço Bionico Avançado</CreateAdvancedBionicArm.jobString>
+	
+	<CreateAdvancedBionicHand.label>Criar Mão Bionica Avançada</CreateAdvancedBionicHand.label>
+	<CreateAdvancedBionicHand.description>Cria Mão Bionica Avançada.</CreateAdvancedBionicHand.description>
+    <CreateAdvancedBionicHand.jobString>Criando Mão Bionica Avançada</CreateAdvancedBionicHand.jobString>
+	
+	<CreateAdvancedBionicFoot.label>Criar Pé Bionico Avançado</CreateAdvancedBionicFoot.label>
+	<CreateAdvancedBionicFoot.description>Cria Pé Bionico Avançado.</CreateAdvancedBionicFoot.description>
+    <CreateAdvancedBionicFoot.jobString>Criando Pé Bionico Avançado</CreateAdvancedBionicFoot.jobString>
+	
+	<CreateAdvancedBionicLeg.label>Criar Perna Bionica Avançada</CreateAdvancedBionicLeg.label>
+	<CreateAdvancedBionicLeg.description>Cria Perna Bionica Avançada.</CreateAdvancedBionicLeg.description>
+    <CreateAdvancedBionicLeg.jobString>Criando Perna Bionica Avançada</CreateAdvancedBionicLeg.jobString>
+	
+	<CreateAdvancedBionicEar.label>Criar Orelha Bionica Avançada</CreateAdvancedBionicEar.label>
+	<CreateAdvancedBionicEar.description>Cria Orelha Bionica Avançada.</CreateAdvancedBionicEar.description>
+    <CreateAdvancedBionicEar.jobString>Criando Orelha Bionica Avançada</CreateAdvancedBionicEar.jobString>
+	
+	<CreateAdvancedBionicJaw.label>Criar Mandibula Bionica Avançada</CreateAdvancedBionicJaw.label>
+	<CreateAdvancedBionicJaw.description>Cria Mandibula Bionica Avançada.</CreateAdvancedBionicJaw.description>
+    <CreateAdvancedBionicJaw.jobString>Criando Mandibula Bionica Avançada</CreateAdvancedBionicJaw.jobString> 
+	
+	<CreateAdvancedBionicSpine.label>Criar Coluna Vertebral Bionico Avançado</CreateAdvancedBionicSpine.label>
+	<CreateAdvancedBionicSpine.description>Cria Coluna Vertebral Bionico Avançado.</CreateAdvancedBionicSpine.description>
+	<CreateAdvancedBionicSpine.jobString>Criando Coluna Vertebral Bionico Avançado</CreateAdvancedBionicSpine.jobString>
+	
+	<CreatePowerClaw.label>Criar Garra Energizada</CreatePowerClaw.label>
+	<CreatePowerClaw.description>Cria Garra Energizada.</CreatePowerClaw.description>
+    <CreatePowerClaw.jobString>Criando Garra Energizada</CreatePowerClaw.jobString>
+	
+	<CreateExoskeletonSuit.label>Criar Exoesqueleto</CreateExoskeletonSuit.label>
+	<CreateExoskeletonSuit.description>Cria Exoesqueleto.</CreateExoskeletonSuit.description>
+    <CreateExoskeletonSuit.jobString>Criando Exoesqueleto</CreateExoskeletonSuit.jobString>
+	
+	
+	
+</LanguageData>

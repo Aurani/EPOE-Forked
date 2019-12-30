@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsTableSurrogates.verb>tworzy</DoBillsTableSurrogates.verb>
+  <DoBillsTableSurrogates.gerund>tworzeniem</DoBillsTableSurrogates.gerund>
+
+  <DoBillsTableSynthetics.verb>tworzy</DoBillsTableSynthetics.verb>
+  <DoBillsTableSynthetics.gerund>tworzeniem</DoBillsTableSynthetics.gerund>
+
+  <DoBillsUpgradingStation.verb>ulepsza</DoBillsUpgradingStation.verb>
+  <DoBillsUpgradingStation.gerund>ulepszeniem</DoBillsUpgradingStation.gerund>
+
+  <DoBillsSimpleProstheticWorkbench.verb>montuje</DoBillsSimpleProstheticWorkbench.verb>
+  <DoBillsSimpleProstheticWorkbench.gerund>montażem</DoBillsSimpleProstheticWorkbench.gerund>
+
+  <DoBillsBasicProstheticWorkbench.verb>montuje</DoBillsBasicProstheticWorkbench.verb>
+  <DoBillsBasicProstheticWorkbench.gerund>montażem</DoBillsBasicProstheticWorkbench.gerund>
+
+  <DoBillsBionicWorkbench.verb>montuje</DoBillsBionicWorkbench.verb>
+  <DoBillsBionicWorkbench.gerund>montażem</DoBillsBionicWorkbench.gerund>
+
+</LanguageData>

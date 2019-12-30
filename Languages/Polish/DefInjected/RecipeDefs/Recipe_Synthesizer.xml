@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateAIChip.label>Stwórz chip AI</CreateAIChip.label>
+	<CreateAIChip.description>Stwórz chip AI. Potrzebujesz dużo złota i zaawansowanych komponentów, aby uzyskać jak najlepszą jakość.</CreateAIChip.description>
+    <CreateAIChip.jobString>Tworzy chip AI</CreateAIChip.jobString>
+	
+	<CreateJoywire.label>Stwórz implant szczęścia</CreateJoywire.label>
+	<CreateJoywire.description>Stwórz implant szczęścia. Potrzebujesz dużo złota i zaawansowanych komponentów, aby uzyskać jak najlepszą jakość.</CreateJoywire.description>
+    <CreateJoywire.jobString>Tworzy implant szczęścia</CreateJoywire.jobString>
+	
+	<CreatePainstopper.label>Stwórz implant przeciwbólowy</CreatePainstopper.label>
+	<CreatePainstopper.description>Stwórz implant szczęścia. Potrzebujesz dużo złota i zaawansowanych komponentów, aby uzyskać jak najlepszą jakość.</CreatePainstopper.description>
+    <CreatePainstopper.jobString>Tworzy implant przeciwbólowy</CreatePainstopper.jobString>
+	
+	<CreateSyntheticLung.label>Stwórz syntetyczne płuco</CreateSyntheticLung.label>
+	<CreateSyntheticLung.description>Stwórz syntetyczne płuco z jego sztucznego odpowiednika, nanowłókna i zaawansowanych komponentów.</CreateSyntheticLung.description>
+    <CreateSyntheticLung.jobString>Tworzy syntetyczne płuco</CreateSyntheticLung.jobString>
+	
+	<CreateSyntheticStomach.label>Stwórz syntetyczny żołądek</CreateSyntheticStomach.label>
+	<CreateSyntheticStomach.description>Stwórz syntetyczny żołądek z jego sztucznego odpowiednika, nanowłókna i zaawansowanych komponentów.</CreateSyntheticStomach.description>
+    <CreateSyntheticStomach.jobString>Tworzy syntetyczny żołądek</CreateSyntheticStomach.jobString>
+   
+	<CreateSyntheticLiver.label>Stwórz syntetyczną wątrobę</CreateSyntheticLiver.label>
+	<CreateSyntheticLiver.description>Stwórz syntetyczną wątrobę z jej sztucznego odpowiednika, nanowłókna i zaawansowanych komponentów.</CreateSyntheticLiver.description>
+    <CreateSyntheticLiver.jobString>Tworzy syntetyczną wątrobę</CreateSyntheticLiver.jobString>
+   
+	<CreateSyntheticKidney.label>Stwórz syntetyczną nerkę</CreateSyntheticKidney.label>
+	<CreateSyntheticKidney.description>Stwórz syntetyczną nerkę z jej sztucznego odpowiednika, nanowłókna i zaawansowanych komponentów.</CreateSyntheticKidney.description>
+    <CreateSyntheticKidney.jobString>Tworzy syntetyczną nerkę</CreateSyntheticKidney.jobString>
+	
+	<CreateSyntheticHeart.label>Stwórz syntetyczne serce</CreateSyntheticHeart.label>
+	<CreateSyntheticHeart.description>Stwórz syntetyczne serce z jego sztucznego odpowiednika, nanowłókna i zaawansowanych komponentów.</CreateSyntheticHeart.description>
+	<CreateSyntheticHeart.jobString>Tworzy syntetyczne serce</CreateSyntheticHeart.jobString>
+   
+	<CreateSyntheticSkin.label>Stwórz syntetyczną skórę</CreateSyntheticSkin.label>
+	<CreateSyntheticSkin.description>Tworzy syntetyczną skórę z nanowłókien i ludzkiej skóry.</CreateSyntheticSkin.description>
+	<CreateSyntheticSkin.jobString>Tworzy syntetyczną skórę</CreateSyntheticSkin.jobString>
+	
+</LanguageData>

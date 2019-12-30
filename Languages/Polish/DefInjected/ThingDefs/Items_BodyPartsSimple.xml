@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+   <GoldenEye.label>Złote oko</GoldenEye.label>
+   <GoldenEye.description>Zastępuje brakujące oko. Jest tak nieprawdopodobnie piękne, aż szkoda, że nie widzisz się w lustrze.</GoldenEye.description>
+
+   <ArtificialNose.label>Sztuczny nos</ArtificialNose.label>
+   <ArtificialNose.description>Zastępuje brakujący nos. Zakrywa dziure w twarzy.</ArtificialNose.description>
+
+   <HydraulicJaw.label>Hydrauliczna szczęka</HydraulicJaw.label>
+   <HydraulicJaw.description>Zastępuje brakującą szczęke. Bądź ostrożny z tak wydajnymi zębami!</HydraulicJaw.description>
+
+   <SimpleProstheticHand.label>Prosta proteza dłoni</SimpleProstheticHand.label>
+   <SimpleProstheticHand.description>Zastępuje brakującą dłoń. O wiele bardziej komfortowa niż ta zakończona hakiem.</SimpleProstheticHand.description>
+
+   <SimpleProstheticFoot.label>Prosta proteza stopy</SimpleProstheticFoot.label>
+   <SimpleProstheticFoot.description>Zastępuje brakującą stopę. Nie tak tania jak ta drewniana.</SimpleProstheticFoot.description>
+
+   <ArtificialPelvis.label>Sztuczna miednica</ArtificialPelvis.label>
+   <ArtificialPelvis.description>Zastępuje brakującą miednicę. Bardzo użyteczna, pod warunkiem, że pełzanie nie jest twoją ulubioną formą przemieszczania się.</ArtificialPelvis.description>
+   
+   <SimpleProstheticLeg.label>Prosta proteza nogi</SimpleProstheticLeg.label>
+   <SimpleProstheticLeg.description>Zastępuje brakującą nogę. Niezbyt wygodna, ale cicha. </SimpleProstheticLeg.description>
+   
+   <SimpleProstheticArm.label>Prosta proteza ramienia</SimpleProstheticArm.label>
+   <SimpleProstheticArm.description>Prosta, ale trwała!</SimpleProstheticArm.description>
+
+</LanguageData>

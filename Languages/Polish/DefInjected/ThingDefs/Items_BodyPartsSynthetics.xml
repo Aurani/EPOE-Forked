@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+   <AIChip.label>Chip AI</AIChip.label>
+   <AIChip.description>Poddany specjalnej obróbce chemicznej i elektrycznej ten mały czip jest w stanie przywrócić pełną świadomość i sprawność ruchową poszkodowanemu. Wymaga badania operacja mózgu. </AIChip.description>
+   
+   <SyntheticLung.label>Syntetyczne płuco</SyntheticLung.label>
+   <SyntheticLung.description>Zamiennik wysokiej jakości. Wytwarza lekki szum.</SyntheticLung.description>
+   
+   <SyntheticStomach.label>Syntetyczny żołądek</SyntheticStomach.label>
+   <SyntheticStomach.description>Wykonany z włókien najwyższej jakości tak, aby zapobiec odrzuceniu.</SyntheticStomach.description> 
+   
+   <SyntheticLiver.label>Syntetyczna wątroba</SyntheticLiver.label>
+   <SyntheticLiver.description>>Wykonana z włókien najwyższej jakości tak, aby zapobiec odrzuceniu. </SyntheticLiver.description>  
+   
+   <SyntheticKidney.label>Syntetyczna nerka</SyntheticKidney.label>
+   <SyntheticKidney.description>Wykonana z włókien najwyższej jakości tak, aby zapobiec odrzuceniu.</SyntheticKidney.description>     
+   
+   <SyntheticHeart.label>Syntetyczne serce</SyntheticHeart.label>
+   <SyntheticHeart.description>Zamiennik serca z najwyższej półki. Może działać 30 lat na pojedynczym ładowaniu.</SyntheticHeart.description>
+   
+   <SyntheticSkin.label>Syntetyczna skóra</SyntheticSkin.label>
+   <SyntheticSkin.description>Kawałek skóropodobnego materiału, który wygląda jak prawdziwa skóra!</SyntheticSkin.description>
+   
+   <Joywire.label>Implant szczęścia</Joywire.label>
+   <Joywire.description>Ten mały implant mózgu sprawi, że poczujesz się szczęśliwy i zrelaksowany. Wymaga badania operacja mózgu.</Joywire.description>
+   
+   <Painstopper.label>Syntetyczna skóra</Painstopper.label>
+   <Painstopper.description>Ten mały implant mózgu sprawi, że przestaniesz odczuwać ból. Wymaga badania operacja mózgu</Painstopper.description>
+   
+</LanguageData>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<InstallNaturalHeart.label>	 Instalar Coração</InstallNaturalHeart.label>
+	<InstallNaturalHeart.description>Instala um Coração.</InstallNaturalHeart.description>
+    <InstallNaturalHeart.jobString>Instalando Coração</InstallNaturalHeart.jobString>
+
+	<InstallNaturalLiver.label>Instalar Fígado</InstallNaturalLiver.label>
+	<InstallNaturalLiver.description>Instala um Fígado.</InstallNaturalLiver.description>
+    <InstallNaturalLiver.jobString>Instalando Fígado</InstallNaturalLiver.jobString>
+	
+	<InstallNaturalKidney.label>Instalar Rim</InstallNaturalKidney.label>
+	<InstallNaturalKidney.description>Instala um Rim.</InstallNaturalKidney.description>
+    <InstallNaturalKidney.jobString>Instalando Rim</InstallNaturalKidney.jobString>
+	
+	<InstallNaturalLung.label>Instalar Pulmão</InstallNaturalLung.label>
+	<InstallNaturalLung.description>Instala um Pulmão.</InstallNaturalLung.description>
+    <InstallNaturalLung.jobString>Instalando Pulmão</InstallNaturalLung.jobString>
+
+	<InstallNaturalEye.label>Instalar Olho</InstallNaturalEye.label>
+	<InstallNaturalEye.description>Instala um Olho.</InstallNaturalEye.description>
+    <InstallNaturalEye.jobString>Instalando Olho</InstallNaturalEye.jobString>
+
+	<InstallNaturalNose.label>Instalar Nariz</InstallNaturalNose.label>
+	<InstallNaturalNose.description>Instala um Nariz.</InstallNaturalNose.description>
+    <InstallNaturalNose.jobString>Instalando Nariz</InstallNaturalNose.jobString>
+
+	<InstallNaturalEar.label>Instalar Orelha</InstallNaturalEar.label>
+	<InstallNaturalEar.description>Instala uma Orelha.</InstallNaturalEar.description>
+    <InstallNaturalEar.jobString>Instalando Orelha</InstallNaturalEar.jobString>
+
+	<InstallNaturalJaw.label>Instalar Mandibula</InstallNaturalJaw.label>
+	<InstallNaturalJaw.description>Instala uma Mandibula.</InstallNaturalJaw.description>
+    <InstallNaturalJaw.jobString>Instalando Mandibula</InstallNaturalJaw.jobString>
+
+	<InstallNaturalArm.label>Instalar Braço</InstallNaturalArm.label>
+	<InstallNaturalArm.description>Instala um Braço.</InstallNaturalArm.description>
+    <InstallNaturalArm.jobString>Instalando Braço</InstallNaturalArm.jobString>
+
+	<InstallNaturalLeg.label>Instalar Perna</InstallNaturalLeg.label>
+	<InstallNaturalLeg.description>Instala uma Perna.</InstallNaturalLeg.description>
+    <InstallNaturalLeg.jobString>Instalando Perna</InstallNaturalLeg.jobString>
+
+	<InstallNaturalStomach.label>Instalar Estomago</InstallNaturalStomach.label>
+	<InstallNaturalStomach.description>Instala um Estomago.</InstallNaturalStomach.description>
+    <InstallNaturalStomach.jobString>Instalando Estomago</InstallNaturalStomach.jobString>
+
+	<RemoveBodyPart.label>Amputar Corpo</RemoveBodyPart.label>
+	<RemoveBodyPart.description>Amputa o Corpo.</RemoveBodyPart.description>
+    <RemoveBodyPart.jobString>Amputando Corpo</RemoveBodyPart.jobString>
+
+	<RemoveMechanoidBodyPart.label>Remover Parte Mecanica</RemoveMechanoidBodyPart.label>
+	<RemoveMechanoidBodyPart.description>Remove Parte Mecanica.</RemoveMechanoidBodyPart.description>
+    <RemoveMechanoidBodyPart.jobString>Removendo Parte Mecanica</RemoveMechanoidBodyPart.jobString>
+
+	<Euthanize.label>Eutanasia</Euthanize.label>
+	<Euthanize.description>Eutanasia.</Euthanize.description>
+    <Euthanize.jobString>Efetuando Eutanasia</Euthanize.jobString>
+
+	<ShutDownMechanoid.label>Desligar Mechanoide</ShutDownMechanoid.label>
+	<ShutDownMechanoid.description>Desliga o Mechanoide.</ShutDownMechanoid.description>
+    <ShutDownMechanoid.jobString>Desligando Mechanoide</ShutDownMechanoid.jobString>
+
+</LanguageData>
