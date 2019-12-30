@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="Synthetic">
+		<defName>SyntheticSkin</defName>
+		<label>synthetic skin</label>
+		<description>A patch of organo-synthetic skin which can replace damaged areas.</description>
+		<statBases>
+			<MarketValue>400</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

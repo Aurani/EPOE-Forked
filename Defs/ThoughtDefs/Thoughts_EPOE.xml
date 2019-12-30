@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThoughtDef>
+    <defName>DruggedRibThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>DruggedRib</hediff>
+    <nullifyingTraits>
+      <li>BodyPurist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Drugged rib</label>
+        <description>I don't know why, but somehow I feel relaxed.</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>SilentJawThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>SilentJaw</hediff>
+    <stages>
+      <li>
+        <label>Silent jaw</label>
+        <description>I just want to talk, it's so horrible!</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+	<ThoughtDef>
+		<defName>CoreDepression</defName>
+		<durationDays>3</durationDays>
+		<stackLimit>5</stackLimit>
+		<stages>
+			<li>
+				<label>AI core depression</label>
+				<description>Why did this thing in my head force me to attack my friends? I just want it to stop messing with my head!</description>
+				<baseMoodEffect>-25</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

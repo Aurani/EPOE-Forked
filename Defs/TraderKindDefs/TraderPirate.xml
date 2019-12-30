@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef>
+    <defName>Orbital_PirateMerchant</defName>
+    <label>pirate merchant</label>
+    <commonality>1</commonality>
+    <orbital>true</orbital>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>2000</min>
+          <max>4000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+				<price>Expensive</price>
+				<countRange>
+          <min>5</min>
+          <max>10</max>
+        </countRange>
+      </li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Beer</thingDef>
+				<totalPriceRange>
+					<min>-300</min>
+					<max>300</max>
+				</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<price>Expensive</price>
+				<countRange>
+					<min>5</min>
+					<max>15</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Neutroamine</thingDef>
+				<price>Expensive</price>
+				<countRange>
+					<min>100</min>
+					<max>400</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chemfuel</thingDef>
+				<price>Expensive</price>
+				<countRange>
+					<min>50</min>
+					<max>200</max>
+				</countRange>
+			</li>
+      <li Class="StockGenerator_Slaves">
+        <countRange>
+          <min>2</min>
+          <max>3</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_WeaponsRanged">
+        <countRange>
+          <min>-1</min>
+          <max>2</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Armor">
+        <countRange>
+          <min>-2</min>
+          <max>2</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>BodyPartOrImplant</tradeTag>
+        <thingDefCountRange>
+          <min>-4</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>Implant</tradeTag>
+        <thingDefCountRange>
+          <min>-5</min>
+          <max>1</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>BasicProstheses</tradeTag>
+        <thingDefCountRange>
+          <min>0</min>
+          <max>3</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>SimpleProstheses</tradeTag>
+        <thingDefCountRange>
+          <min>-2</min>
+          <max>1</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>BionicProstheses</tradeTag>
+        <thingDefCountRange>
+          <min>-5</min>
+          <max>1</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>	
+      <li Class="StockGenerator_Tag">
+        <tradeTag>GlitterworldParts</tradeTag>
+        <thingDefCountRange>
+          <min>-2</min>
+          <max>1</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>	
+      <li Class="StockGenerator_Tag">
+        <tradeTag>BodyPartsAndImplants</tradeTag>
+        <thingDefCountRange>
+          <min>0</min>
+          <max>0</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>	      
+	  <li Class="StockGenerator_Tag">
+        <tradeTag>Artifact</tradeTag>
+        <thingDefCountRange>
+          <min>-5</min>
+          <max>1</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>1</min>
+          <max>1</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>6</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>2000</min>
+          <max>3000</max>
+        </totalPriceRange>
+      </li>
+      <li Class="StockGenerator_BuyArt" />
+      <li Class="StockGenerator_BuyWeirdOrganic" />
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Gold</thingDef>
+      </li>
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>Chocolate</li>
+        </thingDefs>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>

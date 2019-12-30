@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="Synthetic" ParentName="BodyPartBase" Abstract="True">
+	    <techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>BodyPart</li>
+		</tradeTags>
+		<thingCategories>
+			<li>SyntheticOrgans</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/SyntheticPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<!-- Added body parts -->
+
+	<ThingDef ParentName="Synthetic">
+		<defName>AIChip</defName>
+		<label>AI chip</label>
+		<description>Through special chemicals and electric shocks this little chip is able to completely restore the users consciousness and mobility. Requires brain surgery research before installing.</description>      
+		<statBases>
+			<MarketValue>4500</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Synthetic">
+		<defName>SyntheticLung</defName>
+		<label>synthetic lung</label>
+		<description>A high-tech breathing replacement. Makes a soft whirring sound.</description>
+		<statBases>
+			<MarketValue>1750</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Synthetic">
+		<defName>SyntheticStomach</defName>
+		<label>synthetic stomach</label>
+		<statBases>
+			<MarketValue>1750</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Synthetic">
+		<defName>SyntheticLiver</defName>
+		<label>synthetic liver</label>
+		<description>An enhanced liver augmented with synthetic fibres to decrease rejection rate.</description>
+		<statBases>
+			<MarketValue>1750</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Synthetic">
+		<defName>SyntheticKidney</defName>
+		<label>synthetic kidney</label>
+		<description>An enhanced kidney augmented with synthetic fibres to decrease rejection rate.</description>
+		<statBases>
+			<MarketValue>1750</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Synthetic">
+		<defName>SyntheticHeart</defName>
+		<label>synthetic heart</label>
+		<description>A top-of-the-line heart replacement. Can last for over 30 years on a single charge.</description>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Synthetic">
+		<defName>Joywire</defName>
+		<label>joywire</label>
+		<description>This little brain implant will make you feel happy and relaxed. Requires brain surgery research before installing.</description>
+		<statBases>
+			<MarketValue>4500</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Synthetic">
+		<defName>Painstopper</defName>
+		<label>painstopper</label>
+		<description>This brain implant will make you not feel pain. Requires brain surgery research before installing.</description>
+		<statBases>
+			<MarketValue>4500</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+  <ThingDef>
+    <defName>BionicHeart</defName>
+    <label>n/a</label>
+    <description>n/a</description>
+    <thingClass>ThingWithComps</thingClass>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>BionicStomach</defName>
+    <label>n/a</label>
+    <description>n/a</description>
+    <thingClass>ThingWithComps</thingClass>
+  </ThingDef>
+
+</Defs>

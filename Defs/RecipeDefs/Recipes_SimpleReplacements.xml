@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<RecipeDef ParentName="SurgeryBionic">
+		<defName>InstallSimpleSpine</defName>
+		<label>install replacement spine</label>
+		<description>Installs a replacement spine.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing a replacement spine.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SimpleSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleSpine</addsHediff>
+	</RecipeDef>
+	<RecipeDef ParentName="SurgerySimple">
+		<defName>InstallSimpleRib</defName>
+		<label>install simple rib replacement</label>
+		<description>Installs a simple rib replacement.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing a simple rib replacement.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SimpleRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Rib1</li>
+			<li>Rib2</li>
+			<li>Rib3</li>
+			<li>Rib4</li>
+			<li>Rib5</li>
+			<li>Rib6</li>
+			<li>Rib7</li>
+			<li>Rib8</li>
+			<li>Rib9</li>
+			<li>Rib10</li>
+			<li>Rib11</li>
+			<li>Rib12</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleRib</addsHediff>
+		<!--researchPrerequisite>RibReplacements</researchPrerequisite--> <!-- No longer works. Seems EPOE renamed the tech. -->
+	</RecipeDef>
+	<RecipeDef ParentName="SurgerySimple">
+		<defName>InstallReplacementRadius</defName>
+		<label>install replacement radius</label>
+		<description>Installs a replacement radius.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing a replacement radius.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ReplacementRadius</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ReplacementRadius</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Radius</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ReplacementRadius</addsHediff>
+	</RecipeDef>
+	<RecipeDef ParentName="SurgeryFlesh">
+	  <defName>SurgeryRemoveFrailty</defName>
+      <label>heal frailty</label>
+      <description>Install a neuromuscular framework to repair frailty.</description>
+      <jobString>Healing frailty.</jobString>
+      <removesHediff>Frail</removesHediff>
+      <successfullyRemovedHediffMessage>{0} has successfully healed {1}'s frailty.</successfullyRemovedHediffMessage>
+      <surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+      <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+      <recipeUsers>
+         <li>Human</li>
+      </recipeUsers>
+      <workerClass>Recipe_RemoveHediff</workerClass>
+      <workAmount>3000</workAmount>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>MedicineUltratech</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>NeuromuscularFramework</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>NeuromuscularFramework</li>
+			<li>MedicineUltratech</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+		<skillRequirements>
+			<Medicine>13</Medicine>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li> 
+		</appliedOnFixedBodyParts>
+   </RecipeDef>
+   <RecipeDef ParentName="SurgeryFlesh">
+	  <defName>SurgeryRemoveBadBack</defName>
+      <label>heal bad back</label>
+      <description>Install a neuromuscular framework to repair a bad back.</description>
+      <jobString>Healing bad back.</jobString>
+      <removesHediff>BadBack</removesHediff>
+      <successfullyRemovedHediffMessage>{0} has successfully healed {1}'s bad back.</successfullyRemovedHediffMessage>
+      <surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+      <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+      <recipeUsers>
+         <li>Human</li>
+      </recipeUsers>
+      <workerClass>Recipe_RemoveHediff</workerClass>
+      <workAmount>3000</workAmount>
+      <ingredients>
+         <li>
+            <filter>
+               <categories>
+                  <li>Medicine</li>
+               </categories>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>NeuromuscularFramework</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+		 <categories>
+            <li>Medicine</li>
+         </categories>
+         <thingDefs>
+            <li>NeuromuscularFramework</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li> 
+		</appliedOnFixedBodyParts>
+   </RecipeDef>
+</Defs>

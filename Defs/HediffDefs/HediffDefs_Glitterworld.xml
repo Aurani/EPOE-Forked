@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+   <HediffDef Name="addedPartGlittery" Abstract="True">
+      <hediffClass>Hediff_Implant</hediffClass>
+      <defaultLabelColor>(244,210,131)</defaultLabelColor>
+      <isBad>false</isBad>
+      <addedPartProps>
+         <partEfficiency>1</partEfficiency>
+         <betterThanNatural>true</betterThanNatural>
+      </addedPartProps>
+   </HediffDef>
+   
+   <!-- Added implants -->
+
+   <HediffDef ParentName="addedPartGlittery">
+      <defName>MuscleStimulatorArms</defName>
+      <label>muscle stimulator</label>
+      <spawnThingOnRemoved>MuscleStimulator</spawnThingOnRemoved>
+      <stages>
+         <li>
+            <capMods>
+               <li>
+                  <capacity>Manipulation</capacity>
+                  <offset>0.2</offset>
+               </li>
+            </capMods>
+            <statOffsets>
+               <MeleeHitChance>1.15</MeleeHitChance>
+               <MeleeDPS>1.15</MeleeDPS>
+            </statOffsets>
+         </li>
+      </stages>
+   </HediffDef>
+
+   <HediffDef ParentName="addedPartGlittery">
+      <defName>MuscleStimulatorLegs</defName>
+      <label>muscle stimulator</label>
+      <spawnThingOnRemoved>MuscleStimulator</spawnThingOnRemoved>
+      <stages>
+         <li>
+            <capMods>
+               <li>
+                  <capacity>Moving</capacity>
+                  <offset>0.2</offset>
+               </li>
+            </capMods>
+         </li>
+      </stages>
+   </HediffDef>
+
+   <HediffDef ParentName="addedPartGlittery">
+      <defName>TacticalCorneaImplant</defName>
+      <label>tactical cornea implant</label>
+      <spawnThingOnRemoved>TacticalCorneaImplant</spawnThingOnRemoved>
+      <stages>
+         <li>
+            <statOffsets>
+               <ShootingAccuracyPawn>+0.5</ShootingAccuracyPawn>
+               <AimingDelayFactor>-0.15</AimingDelayFactor>
+            </statOffsets>
+         </li>
+      </stages>
+   </HediffDef>
+   
+   <HediffDef ParentName="addedPartGlittery">
+      <defName>ConstructorCore</defName>
+      <label>auxiliary AI (constructing)</label>
+      <spawnThingOnRemoved>ConstructorCore</spawnThingOnRemoved>
+      <stages>
+         <li>
+            <statOffsets>
+               <ConstructionSpeed>+0.25</ConstructionSpeed>
+               <ConstructSuccessChance>0.15</ConstructSuccessChance>
+            </statOffsets>
+         </li>
+      </stages>
+   </HediffDef>
+
+   <HediffDef ParentName="addedPartGlittery">
+      <defName>FarmerCore</defName>
+      <label>auxiliary AI (agricultural)</label>
+      <spawnThingOnRemoved>FarmerCore</spawnThingOnRemoved>
+      <stages>
+         <li>
+            <statOffsets>
+               <PlantWorkSpeed>+0.25</PlantWorkSpeed>
+               <PlantHarvestYield>0.15</PlantHarvestYield>
+            </statOffsets>
+         </li>
+      </stages>
+   </HediffDef>
+
+   <HediffDef ParentName="addedPartGlittery">
+      <defName>MinerCore</defName>
+      <label>auxiliary AI (mining)</label>
+      <spawnThingOnRemoved>MinerCore</spawnThingOnRemoved>
+      <stages>
+         <li>
+            <statOffsets>
+               <MiningSpeed>+0.25</MiningSpeed>
+               <SmoothingSpeed>+0.15</SmoothingSpeed>
+            </statOffsets>
+         </li>
+      </stages>
+   </HediffDef>
+
+   <HediffDef ParentName="addedPartGlittery">
+      <defName>DoctorCore</defName>
+      <label>auxiliary AI (medical)</label>
+      <spawnThingOnRemoved>DoctorCore</spawnThingOnRemoved>
+      <stages>
+         <li>
+            <statOffsets>
+               <MedicalSurgerySuccessChance>+0.20</MedicalSurgerySuccessChance>
+               <MedicalTendQuality>+0.15</MedicalTendQuality>
+               <MedicalTendSpeed>+0.15</MedicalTendSpeed>
+            </statOffsets>
+         </li>
+      </stages>
+   </HediffDef>
+
+   <HediffDef ParentName="addedPartGlittery">
+      <defName>DiplomatCore</defName>
+      <label>auxiliary AI (diplomatic)</label>
+      <spawnThingOnRemoved>DiplomatCore</spawnThingOnRemoved>
+      <stages>
+         <li>
+            <statOffsets>
+               <NegotiationAbility>+0.20</NegotiationAbility>
+               <SocialImpact>+0.1</SocialImpact>
+            </statOffsets>
+         </li>
+      </stages>
+   </HediffDef>
+
+</Defs>

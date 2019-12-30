@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--Prostheses-->
+
+  <ThingCategoryDef>
+    <defName>BasicProstheses</defName>
+    <label>basic prostheses</label>
+    <parent>BodyPartsArtificial</parent>
+  </ThingCategoryDef>
+  
+  <ThingCategoryDef>
+    <defName>SimpleProstheses</defName>
+    <label>simple prostheses</label>
+    <parent>BodyPartsArtificial</parent>
+  </ThingCategoryDef>
+  
+  <ThingCategoryDef>
+    <defName>BionicProstheses</defName>
+    <label>bionics</label>
+    <parent>BodyPartsArtificial</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>AdvancedProstheses</defName>
+    <label>advanced bionics</label>
+    <parent>BodyPartsArtificial</parent>
+  </ThingCategoryDef>
+ 
+  <ThingCategoryDef>
+    <defName>GlitterworldParts</defName>
+    <label>Glitterworld parts</label>
+    <parent>BodyPartsArtificial</parent>
+  </ThingCategoryDef>
+  
+<!--Organs-->
+
+  <ThingCategoryDef>
+    <defName>SurrogateOrgans</defName>
+    <label>surrogate organs</label>
+    <parent>BodyPartsArtificial</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>SyntheticOrgans</defName>
+    <label>synthetic organs</label>
+    <parent>BodyPartsArtificial</parent>
+  </ThingCategoryDef>
+  
+</Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "TableBionics"]/recipes</xpath>
+	  <value>
+		<li>CreateSimpleSpine</li>
+		<li>CreateBionicToe</li>
+		<li>CreateBionicFinger</li>
+	  </value>
+	</Operation> 
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "TableSimpleProsthetic"]/recipes</xpath>
+	  <value>
+		<li>CreateSimpleRib</li>
+		<li>CreateReplacementRadius</li>
+	  </value>
+	</Operation> 
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "TableOrgans"]/recipes</xpath>
+	  <value>
+		<li>CreateNeuromuscularFramework</li>
+		<li>CreateSyntheticSkin</li>
+	  </value>
+	</Operation> 
+</Patch>

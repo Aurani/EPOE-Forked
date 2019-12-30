@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="Bionic">
+		<defName>BionicFinger</defName>
+		<label>bionic finger</label>
+		<description>A replacement finger allowing for slightly faster and more precise movement.</description>
+		<statBases>
+			<MarketValue>200</MarketValue>
+			<Mass>0.6</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Bionic">
+		<defName>BionicToe</defName>
+		<label>bionic toe</label>
+		<description>A replacement toe which lets the wearer grip the ground slightly better.</description>
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<Mass>0.6</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+</Defs>

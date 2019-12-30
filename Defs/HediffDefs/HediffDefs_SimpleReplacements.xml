@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+   <HediffDef ParentName="addedPartBionics">
+      <defName>SimpleSpine</defName>
+      <label>replacement spine</label>
+      <spawnThingOnRemoved>SimpleSpine</spawnThingOnRemoved>
+      <addedPartProps>
+         <partEfficiency>1.0</partEfficiency>
+      </addedPartProps>
+      <stages>
+		<li>
+         <capMods>
+            <li>
+               <capacity>Manipulation</capacity>
+               <offset>-.05</offset>
+            </li>
+            <li>
+               <capacity>Moving</capacity>
+               <offset>-0.1</offset>
+            </li>
+         </capMods>
+		</li>	 
+      </stages>
+   </HediffDef>
+
+   <HediffDef ParentName="addedPartSimple">
+      <defName>SimpleRib</defName>
+      <label>simple rib replacement</label>
+      <spawnThingOnRemoved>SimpleRib</spawnThingOnRemoved>
+      <addedPartProps>
+         <partEfficiency>1.0</partEfficiency>
+      </addedPartProps>
+   </HediffDef>
+   <HediffDef ParentName="addedPartSimple">
+      <defName>ReplacementRadius</defName>
+      <label>replacement radius</label>
+      <spawnThingOnRemoved>ReplacementRadius</spawnThingOnRemoved>
+      <addedPartProps>
+         <partEfficiency>1.0</partEfficiency>
+      </addedPartProps>
+   </HediffDef>
+</Defs>

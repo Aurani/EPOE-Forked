@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Abstract="True" Name="RecipeSimpleProsthesis">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>EPOEAssembling</soundWorking>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>5000</workAmount>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateSimpleProstheticLeg</defName>
+		<label>Craft simple prosthetic leg</label>
+		<description>Crafts a simple prosthetic leg from steel, plasteel and components.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<SimpleProstheticLeg>1</SimpleProstheticLeg>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>55</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateSimpleProstheticArm</defName>
+		<label>Craft simple prosthetic arm</label>
+		<description>Crafts a simple prosthetic arm from steel, plasteel and components.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<SimpleProstheticArm>1</SimpleProstheticArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>55</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateSimpleProstheticHand</defName>
+		<label>craft simple prosthetic hand</label>
+		<description>Crafts a simple prosthetic hand from steel, plasteel and components.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<SimpleProstheticHand>1</SimpleProstheticHand>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateSimpleProstheticFoot</defName>
+		<label>craft simple prosthetic foot</label>
+		<description>Crafts a simple prosthetic foot from steel, plasteel and components.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<SimpleProstheticFoot>1</SimpleProstheticFoot>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateArtificialNose</defName>
+		<label>craft artificial nose</label>
+		<description>Crafts an artificial nose from plasteel.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<ArtificialNose>1</ArtificialNose>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateCochlearImplant</defName>
+		<label>craft cochlear implant</label>
+		<description>Crafts a cochlear implant from plasteel.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<CochlearImplant>1</CochlearImplant>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateHydraulicJaw</defName>
+		<label>craft hydraulic jaw</label>
+		<description>Crafts a hydraulic jaw from steel and components.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<HydraulicJaw>1</HydraulicJaw>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>65</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateGoldenEye</defName>
+		<label>Craft golden eye</label>
+		<description>Gold bar + hammer = golden eye.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<GoldenEye>1</GoldenEye>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Gold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateLightReceptor</defName>
+		<label>Craft light receptor</label>
+		<description>Crafts a light detector from plasteel and components.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<LightReceptor>1</LightReceptor>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateArtificialPelvis</defName>
+		<label>craft artificial pelvis</label>
+		<description>Crafts an artificial pelvis from steel and plasteel.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<ArtificialPelvis>1</ArtificialPelvis>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateArtificialClavicle</defName>
+		<label>craft artificial clavicle</label>
+		<description>Crafts an artificial clavicle from steel.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<ArtificialClavicle>1</ArtificialClavicle>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>

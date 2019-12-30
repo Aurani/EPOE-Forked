@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="Surrogate" ParentName="BodyPartBase" Abstract="True">
+	    <techLevel>Industrial</techLevel>
+		<tradeTags>
+			<li>BodyPart</li>
+		</tradeTags>
+		<thingCategories>
+			<li>SurrogateOrgans</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/SurrogatePart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<!-- Added body parts -->
+
+	<ThingDef ParentName="Surrogate">
+		<defName>BrainStimulator</defName>
+		<label>brain stimulator</label>
+		<description>A small device that does its best to stimulate the remaining areas of the brain. Recommended for severe brain damage only. Requires brain surgery research before installing.</description>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="Surrogate">
+		<defName>SurrogateLung</defName>
+		<label>surrogate lung</label>
+		<description>A rudimentary lung replacement. Makes a deep, clicking noise.</description>
+		<statBases>
+			<MarketValue>750</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="Surrogate">
+		<defName>SurrogateStomach</defName>
+		<label>surrogate stomach</label>
+		<description>A rudimentary stomach replacement. Produces unpleasant smelling bowel gas.</description>
+		<statBases>
+			<MarketValue>750</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Surrogate">
+		<defName>SurrogateLiver</defName>
+		<label>surrogate liver</label>
+		<description>A rudimentary blood filter. Has problems with keeping the blood sugar level constant.</description>
+		<statBases>
+			<MarketValue>750</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="Surrogate">
+		<defName>SurrogateKidney</defName>
+		<label>surrogate kidney</label>
+		<description>A rudimentary kidney replacement. One of its possible side effects is getting pale.</description>
+		<statBases>
+			<MarketValue>750</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="Surrogate">
+		<defName>SurrogateHeart</defName>
+		<label>surrogate heart</label>
+		<description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</description>
+		<statBases>
+			<MarketValue>850</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- EPOE -->
+
+	<RecipeDef Name="SurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.99</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<!--<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>-->
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryGlitterworld">
+		<defName>InstallMuscleStimulatorArms</defName>
+		<label>install muscle stimulator</label>
+		<description>Installs muscle stimulator.</description>
+		<jobString>Installing muscle stimulator.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MuscleStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MuscleStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Arm</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>MuscleStimulatorArms</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryGlitterworld">
+		<defName>InstallMuscleStimulatorLegs</defName>
+		<label>install muscle stimulator</label>
+		<description>Installs muscle stimulator.</description>
+		<jobString>Installing muscle stimulator.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MuscleStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MuscleStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>MuscleStimulatorLegs</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryGlitterworld">
+		<defName>InstallTacticalCorneaImplant</defName>
+		<label>install tactical cornea implant</label>
+		<description>Installs tactical cornea implant.</description>
+		<jobString>Installing tactical cornea implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TacticalCorneaImplant</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>TacticalCorneaImplant</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>TacticalCorneaImplant</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryGlitterworld">
+		<defName>InstallConstructorCore</defName>
+		<label>install auxiliary AI (constructing)</label>
+		<description>Installs auxiliary AI (constructing).</description>
+		<jobString>Installing auxiliary AI (constructing).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ConstructorCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ConstructorCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>ConstructorCore</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryGlitterworld">
+		<defName>InstallFarmerCore</defName>
+		<label>install auxiliary AI (agricultural)</label>
+		<description>Installs auxiliary AI (agricultural).</description>
+		<jobString>Installing auxiliary AI (agricultural).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FarmerCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>FarmerCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>FarmerCore</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryGlitterworld">
+		<defName>InstallMinerCore</defName>
+		<label>install auxiliary AI (mining)</label>
+		<description>Installs auxiliary AI (mining).</description>
+		<jobString>Installing auxiliary AI (mining).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MinerCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MinerCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>MinerCore</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryGlitterworld">
+		<defName>InstallDoctorCore</defName>
+		<label>install auxiliary AI (medical)</label>
+		<description>Installs auxiliary AI (medical).</description>
+		<jobString>Installing auxiliary AI (medical).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DoctorCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DoctorCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>DoctorCore</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryGlitterworld">
+		<defName>InstallDiplomatCore</defName>
+		<label>install auxiliary AI (diplomatic)</label>
+		<description>Installs auxiliary AI (diplomatic).</description>
+		<jobString>Installing auxiliary AI (diplomatic).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DiplomatCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DiplomatCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>DiplomatCore</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

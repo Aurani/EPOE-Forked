@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+   <HediffDef ParentName="addedPartBionics">
+      <defName>BionicFinger</defName>
+      <label>bionic finger</label>
+	  <labelNoun>a bionic finger</labelNoun>
+      <spawnThingOnRemoved>BionicFinger</spawnThingOnRemoved>
+      <addedPartProps>
+         <partEfficiency>1.15</partEfficiency>
+      </addedPartProps>
+   </HediffDef>
+   <HediffDef ParentName="addedPartBionics">
+      <defName>BionicToe</defName>
+      <label>bionic toe</label>
+	  <labelNoun>a bionic toe</labelNoun>
+      <spawnThingOnRemoved>BionicToe</spawnThingOnRemoved>
+      <addedPartProps>
+         <partEfficiency>1.15</partEfficiency>
+      </addedPartProps>
+   </HediffDef>
+</Defs>

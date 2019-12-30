@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- EPOE -->
+
+	<ThingDef Name="Advanced" ParentName="BodyPartBase" Abstract="True">
+	    <techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
+		<thingCategories>
+			<li>AdvancedProstheses</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AdvancedPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<!-- Added body parts -->
+
+	<ThingDef ParentName="Advanced">
+		<defName>AdvancedPowerArm</defName>
+		<label>advanced power arm</label>
+		<description>Even more unparalleled strength and dexterity, and with a sharp, retractable claws. Now it's the ultimate arm upgrade!</description>
+		<statBases>
+			<MarketValue>10000</MarketValue>
+			<Mass>5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Advanced">
+		<defName>AdvancedBionicHand</defName>
+		<label>advanced bionic hand</label>
+		<description>Some people would chop their own hands off just to get this gorgeous piece of tech.</description>
+		<statBases>
+			<MarketValue>3000</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Advanced">
+		<defName>AdvancedBionicArm</defName>
+		<label>advanced bionic arm</label>
+		<description>Remember when you struggled with opening jars? Now you struggle with not breaking them instantly.</description>
+		<statBases>
+			<MarketValue>5000</MarketValue>
+			<Mass>5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Advanced">
+		<defName>AdvancedBionicLeg</defName>
+		<label>advanced bionic leg</label>
+		<description>Gotta go fast!</description>
+		<statBases>
+			<MarketValue>5000</MarketValue>
+			<Mass>8</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Advanced">
+		<defName>AdvancedBionicFoot</defName>
+		<label>advanced bionic foot</label>
+		<description>Dozens of servomotors grant faster movement and ultimate comfort.</description>
+		<statBases>
+			<MarketValue>2750</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Advanced">
+		<defName>AdvancedBionicEar</defName>
+		<label>advanced bionic ear</label>
+		<description>This device allows the user to hear better than bats.</description>
+		<statBases>
+			<MarketValue>2750</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Advanced">
+		<defName>AdvancedBionicJaw</defName>
+		<label>advanced bionic jaw</label>
+		<description>The voice this jaw creates is so beautiful that even mechanoids stop by to listen.</description>
+		<statBases>
+			<MarketValue>3000</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Advanced">
+		<defName>AdvancedBionicEye</defName>
+		<label>advanced bionic eye</label>
+		<description>This advanced piece of technology allows the user to perfectly see in the dark as well as through walls. Also through clothes.</description>
+		<statBases>
+			<MarketValue>3000</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Advanced">
+		<defName>AdvancedBionicSpine</defName>
+		<label>advanced bionic spine</label>
+		<description>This durable device supports the back and makes working and walking much easier.</description>
+		<statBases>
+			<MarketValue>5000</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Advanced">
+		<defName>ExoskeletonSuit</defName>
+		<label>exoskeleton suit</label>
+		<description>A high tech device made out of two components: a light skeletal structure to relieve the back and servomotors to make the user stronger.</description>
+		<statBases>
+			<MarketValue>4500</MarketValue>
+			<Mass>7</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!--=============================== Tier 0 ===================================-->
+
+	<ResearchProjectDef>
+		<defName>BasicProsthetics</defName>
+		<label>Basic prosthetics</label>
+		<description>Understanding the shape of a leg and combining that knowledge with basic woodworking, you can now craft peg legs and other basic prostheses.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<tab>EPOE</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+
+	<!--=============================== Tier 1 ===================================-->
+
+	<ResearchProjectDef>
+		<defName>Prosthetics</defName>
+		<label>Simple prosthetics workbench</label>
+		<description>Advanced anatomy studies and metal testing will allow you to build simple prostheses.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+			<li>BasicProsthetics</li>
+		</prerequisites>
+		<tab>EPOE</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+
+	<!--=============================== Tier 2 ===================================-->
+
+	<ResearchProjectDef>
+		<defName>Bionics</defName>
+		<label>bionics workbench</label>
+		<description>Discovering the concept of very small motors and circuits, new possibilities of better prostheses are now open for you.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Prosthetics</li>
+		</prerequisites>
+		<tab>EPOE</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>SurrogateOrgans</defName>
+		<label>tissue printer</label>
+		<description>Gaining higher medical and technical knowledge, creating a 3D printer to craft simple surrogate organs becomes possible.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+		<tab>EPOE</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2.5</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>RibReplacements</defName>
+		<label>rib replacements</label>
+		<description>Discovering the concept of very small dispensers, you think about putting them in ribs. You can now craft and install rib implants.</description>
+		<baseCost>750</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Bionics</li>
+		</prerequisites>
+		<tab>EPOE</tab>
+		<researchViewX>3.5</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
+	<!--=============================== Tier 2.5 ===================================-->
+
+	<ResearchProjectDef>
+		<defName>AdvancedBionics</defName>
+		<label>advanced bionics</label>
+		<description>Upgrade regular bionics with vancidium to make them even better. Unlocks new recipes on the bionics workbench.</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>Bionics</li>
+		</prerequisites>
+		<tab>EPOE</tab>
+		<researchViewX>3.5</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>SyntheticOrgans</defName>
+		<label>synthetic organs</label>
+		<description>Further research in nano-technology allows you to print incredibly well-engineered artificial organs. Unlocks new recipes on the tissue printer.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SurrogateOrgans</li>
+		</prerequisites>
+		<tab>EPOE</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>BrainSurgery</defName>
+		<label>brain surgery</label>
+		<description>Allows you to perform surgery on the brain.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>Bionics</li>
+		</prerequisites>
+		<tab>EPOE</tab>
+		<researchViewX>3.5</researchViewX>
+		<researchViewY>2.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

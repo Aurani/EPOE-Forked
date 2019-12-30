@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="BodyPartArchotechBase" ParentName="BodyPartArtificialBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemArchotech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <tradeability>None</tradeability>   <!-- Archotech HQ had a terrible work accident involving giant bugs and is now unable to maintain its business. -->
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartArchotechBase">
+    <defName>ArchotechEye</defName>
+    <label>archotech eye</label>
+    <description>An artifical eye built by an archotech. It perceives every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays. Its visual acuity is precise enough to read handwriting from twenty meters away. It can emit various wavelengths of radiation like a flashlight, and has an internal subpersona AI which helps highlight useful visual information. Externally, it looks like a natural human eye, except it can change color at will. Its internal workings are a mystery to all human minds.</description>
+    <techLevel>Archotech</techLevel>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartArchotechBase">
+    <defName>ArchotechArm</defName>
+    <label>archotech arm</label>
+    <description>An artifical arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+    <techLevel>Archotech</techLevel>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartArchotechBase">
+    <defName>ArchotechLeg</defName>
+    <label>archotech leg</label>
+    <description>An artifical leg built by an archotech. It looks and feels like natural flesh, but a pair of these can move the user as fast as a decent car, and it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+    <techLevel>Archotech</techLevel>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>7</Mass>
+    </statBases>
+  </ThingDef>
+  
+</Defs>

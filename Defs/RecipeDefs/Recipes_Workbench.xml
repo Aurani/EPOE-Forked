@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<RecipeDef ParentName="RecipeBionicProsthesis">
+		<defName>CreateSimpleSpine</defName>
+		<label>Craft replacement spine</label>
+		<description>Crafts a replacement spine from steel and plasteel.</description>
+		<jobString>Crafting spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SimpleSpine>1</SimpleSpine>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateSimpleRib</defName>
+		<label>Craft simple Rib</label>
+		<description>Crafts a simple rib replacement from plasteel.</description>
+		<jobString>Crafting rib.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SimpleRib>1</SimpleRib>
+		</products>
+		<!--researchPrerequisite>RibReplacements</researchPrerequisite-->
+	</RecipeDef>
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateReplacementRadius</defName>
+		<label>Craft replacement radius</label>
+		<description>Crafts a replacement radius from plasteel.</description>
+		<jobString>Crafting radius.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ReplacementRadius>1</ReplacementRadius>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="RecipeSyntheticOrgan">
+		<defName>CreateNeuromuscularFramework</defName>
+		<label>create neuromuscular framework</label>
+		<description>Creates a neuromuscular framework from hyperweave, energized components, and Glitterworld medicine.</description>
+		<jobString>Creating synthetic organ.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineUltratech</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineUltratech</li>
+				<li>Hyperweave</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<NeuromuscularFramework>1</NeuromuscularFramework>
+		</products>
+		<researchPrerequisite>SyntheticOrgans</researchPrerequisite>
+	</RecipeDef>
+	<RecipeDef ParentName="RecipeBionicProsthesis">
+		<defName>CreateBionicFinger</defName>
+		<label>craft bionic finger</label>
+		<description>Craft a bionic finger from plasteel, steel, and components.</description>
+		<jobString>Crafting bionic.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<products>
+			<BionicFinger>1</BionicFinger>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	<RecipeDef ParentName="RecipeBionicProsthesis">
+		<defName>CreateBionicToe</defName>
+		<label>craft bionic toe</label>
+		<description>Craft a bionic toe from plasteel, steel, and components.</description>
+		<jobString>Crafting bionic.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<products>
+			<BionicToe>1</BionicToe>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	<RecipeDef ParentName="RecipeSyntheticOrgan">
+		<defName>CreateSyntheticSkin</defName>
+		<label>create synthetic skin</label>
+		<description>Creates synthetic skin from synthread and glitterworld medicine.</description>
+		<jobString>Creating synthetic skin.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Synthread</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineUltratech</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Synthread</li>
+				<li>MedicineUltratech</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SyntheticSkin>1</SyntheticSkin>
+		</products>
+	</RecipeDef>
+</Defs>

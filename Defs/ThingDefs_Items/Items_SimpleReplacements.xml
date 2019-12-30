@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="Bionic">
+		<defName>SimpleSpine</defName>
+		<label>replacement spine</label>
+		<description>This simple but advanced device can almost perfectly replace a damaged spine.</description>
+		<statBases>
+			<MarketValue>1250</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Simple">
+		<defName>SimpleRib</defName>
+		<label>simple rib replacement</label>
+		<description>An artificial rib, and nothing more.</description>
+		<statBases>
+			<MarketValue>300</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	<ThingDef ParentName="Simple">
+		<defName>ReplacementRadius</defName>
+		<label>replacement radius</label>
+		<description>A replacement for the radius, a bone in the lower arm.</description>
+		<statBases>
+			<MarketValue>300</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	<ThingDef ParentName="Synthetic">
+		<defName>NeuromuscularFramework</defName>
+		<label>neuromuscular framework</label>
+		<description>A set of synthetic muscles and artificial nerves capable of perfectly recreating the function of a healthy torso.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<Mass>1.0</Mass>
+			<MarketValue>1250</MarketValue>
+		</statBases>
+	</ThingDef>
+</Defs>
