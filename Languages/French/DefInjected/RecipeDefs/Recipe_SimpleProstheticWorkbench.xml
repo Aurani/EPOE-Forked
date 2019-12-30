@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateSimpleProstheticLeg.label>Créer une prothèse de jambe simple</CreateSimpleProstheticLeg.label>
+	<CreateSimpleProstheticLeg.description>Créer une prothèse de jambe simple à partir d'acier, de plastacier et de composants.</CreateSimpleProstheticLeg.description>
+    <CreateSimpleProstheticLeg.jobString>En train de créer une prothèse de jambe simple</CreateSimpleProstheticLeg.jobString>
+	
+	<CreateSimpleProstheticArm.label>Créer une prothèse de bras simple</CreateSimpleProstheticArm.label>
+	<CreateSimpleProstheticArm.description>Créer une prothèse de bras simple à partir d'acier, de plastacier et de composants.</CreateSimpleProstheticArm.description>
+    <CreateSimpleProstheticArm.jobString>En train de créer une prothèse de bras simple</CreateSimpleProstheticArm.jobString>
+	
+	<CreateSimpleProstheticHand.label>Créer une prothèse de main simple</CreateSimpleProstheticHand.label>
+	<CreateSimpleProstheticHand.description>Créer une prothèse de main simple à partir d'acier, de plastacier et de composants.</CreateSimpleProstheticHand.description>
+    <CreateSimpleProstheticHand.jobString>En train de créer une prothèse de main simple</CreateSimpleProstheticHand.jobString>
+	
+	<CreateSimpleProstheticFoot.label>Créer une prothèse de pied simple</CreateSimpleProstheticFoot.label>
+	<CreateSimpleProstheticFoot.description>Créer une prothèse de pied simple à partir d'acier, de plastacier et de composants.</CreateSimpleProstheticFoot.description>
+    <CreateSimpleProstheticFoot.jobString>En train de créer une prothèse de pied simple</CreateSimpleProstheticFoot.jobString>
+	
+	<CreateArtificialNose.label>Créer un nez artificiel</CreateArtificialNose.label>
+	<CreateArtificialNose.description>Crée un nez artificiel à partir de plastacier.</CreateArtificialNose.description>
+    <CreateArtificialNose.jobString>En train de créer un nez artificiel</CreateArtificialNose.jobString>
+	
+	<CreateArtificialPelvis.label>Créer un bassin artificiel</CreateArtificialPelvis.label>
+	<CreateArtificialPelvis.description>Créer un bassin artificiel à partir d'acier et de plastacier.</CreateArtificialPelvis.description>
+    <CreateArtificialPelvis.jobString>En train de créer un bassin artificiel</CreateArtificialPelvis.jobString>
+	
+	<CreateHydraulicJaw.label>Créer une mâchoire hydraulique</CreateHydraulicJaw.label>
+	<CreateHydraulicJaw.description>Crée une mâchoire hydraulique à partir d'acier et de composants.</CreateHydraulicJaw.description>
+    <CreateHydraulicJaw.jobString>En train de créer une mâchoire hydraulique</CreateHydraulicJaw.jobString>
+	
+	<CreateGlassEye.label>Créer un oeil de verre</CreateGlassEye.label>
+	<CreateGlassEye.description>Créer un oeil de verre.</CreateGlassEye.description>
+    <CreateGlassEye.jobString>En train de créer un oeil de verre</CreateGlassEye.jobString>
+	
+	<CreateCrystalEye.label>Créer un oeil en cristal</CreateCrystalEye.label>
+	<CreateCrystalEye.description>Crée un oeil en cristal.</CreateCrystalEye.description>
+    <CreateCrystalEye.jobString>En train de créer un oeil en cristal</CreateCrystalEye.jobString>
+
+	<CreateGoldenEye.label>Créer un oeil en or</CreateGoldenEye.label>
+	<CreateGoldenEye.description>Crée un oeil en or</CreateGoldenEye.description>
+	<CreateGoldenEye.jobString>En train de créer un oeil en or</CreateGoldenEye.jobString>
+	
+</LanguageData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateSteelArm.label>Créer un bras en acier</CreateSteelArm.label>
+	<CreateSteelArm.description>Créer un bras à partir d'acier.</CreateSteelArm.description>
+	<CreateSteelArm.jobString>En train de créer un bras en acier</CreateSteelArm.jobString>
+	
+	<CreatePegLeg.label>Créer une jambe de bois</CreatePegLeg.label>
+	<CreatePegLeg.description>Crée une prothèse simple à partir de bois.</CreatePegLeg.description>
+	<CreatePegLeg.jobString>En train de créer une jambe de bois</CreatePegLeg.jobString>
+
+	
+	<CreateEyePatch.label>Coudre un cache-oeil</CreateEyePatch.label>
+	<CreateEyePatch.description>Coud un cache-oeil à partir de tissu</CreateEyePatch.description>
+	<CreateEyePatch.jobString>En train de coudre un cache-oeil</CreateEyePatch.jobString>
+
+	<CreateHookHand.label>Coudre une main crochet</CreateHookHand.label>
+	<CreateHookHand.description>Coud une main crochet à partir de métal et de tissu.</CreateHookHand.description>
+	<CreateHookHand.jobString>En train de coudre une main crochet</CreateHookHand.jobString>
+
+	
+	<CreateDenture.label>Créer un dentier</CreateDenture.label>
+	<CreateDenture.description>Crée un dentier bon marché à partir de bois. Facile à créer.</CreateDenture.description>
+	<CreateDenture.jobString>En train de créer un dentier</CreateDenture.jobString>
+
+	
+	<CreateWoodenFoot.label>Créer un pied en bois</CreateWoodenFoot.label>
+	<CreateWoodenFoot.description>Tailler du bois pour donner une forme de pied.</CreateWoodenFoot.description>
+	<CreateWoodenFoot.jobString>En train de créer un pied en bois</CreateWoodenFoot.jobString>
+
+
+</LanguageData>

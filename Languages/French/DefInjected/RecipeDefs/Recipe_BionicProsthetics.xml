@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallPowerArm.label>Installer un bras puissant</InstallPowerArm.label>
+	<InstallPowerArm.description>Installe un bras puissant.</InstallPowerArm.description>
+	<InstallPowerArm.jobString>En train d'installer un bras puissant</InstallPowerArm.jobString>
+
+	<InstallBionicHand.label>Installer une main bionique</InstallBionicHand.label>
+	<InstallBionicHand.description>Installe une main bionique.</InstallBionicHand.description>
+	<InstallBionicHand.jobString>En train d'installer une main bionique</InstallBionicHand.jobString>
+
+	<InstallBionicFoot.label>Installer un pied bionique</InstallBionicFoot.label>
+	<InstallBionicFoot.description>Installe un pied bionique.</InstallBionicFoot.description>
+	<InstallBionicFoot.jobString>En train d'installer un pied bionique</InstallBionicFoot.jobString>
+
+	<InstallBionicEar.label>Installer une oreille bionique</InstallBionicEar.label>
+	<InstallBionicEar.description>Installe une oreille bionique.</InstallBionicEar.description>
+	<InstallBionicEar.jobString>En train d'installer une oreille bionique</InstallBionicEar.jobString>
+
+	<InstallBionicJaw.label>Installer une mâchoire bionique</InstallBionicJaw.label>
+	<InstallBionicJaw.description>Installe une mâchoire bionique.</InstallBionicJaw.description>
+	<InstallBionicJaw.jobString>En train d'installer une mâchoire bionique</InstallBionicJaw.jobString>
+
+	<InstallSilentJaw.label>Installer une mâchoire silencieuse</InstallSilentJaw.label>
+	<InstallSilentJaw.description>Installe une mâchoire silencieuse.</InstallSilentJaw.description>
+	<InstallSilentJaw.jobString>En train d'installer une mâchoire silencieuse</InstallSilentJaw.jobString>
+
+	<InstallBionicSpine.label>Installer une colonne vertébrale bionique</InstallBionicSpine.label>
+	<InstallBionicSpine.description>Installe une colonne vertébrale bionique.</InstallBionicSpine.description>
+	<InstallBionicSpine.jobString>En train d'installer une colonne vertébrale bionique</InstallBionicSpine.jobString>
+
+	<InstallMedicalRib.label>Installer une côte (médicale)</InstallMedicalRib.label>
+	<InstallMedicalRib.description>Installe une côte (médicale).</InstallMedicalRib.description>
+	<InstallMedicalRib.jobString>En train d'installer une côte (médicale)</InstallMedicalRib.jobString>
+
+	<InstallDruggedRib.label>Installer une côte (drogue)</InstallDruggedRib.label>
+	<InstallDruggedRib.description>Installe une côte (drogue).</InstallDruggedRib.description>
+	<InstallDruggedRib.jobString>En train d'installer une côte (drogue)</InstallDruggedRib.jobString>
+	
+</LanguageData>

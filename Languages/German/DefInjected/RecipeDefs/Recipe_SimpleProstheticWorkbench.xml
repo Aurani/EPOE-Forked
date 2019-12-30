@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateSimpleProstheticLeg.label>Stelle einfache Beinprothese her</CreateSimpleProstheticLeg.label>
+	<CreateSimpleProstheticLeg.description>Stellt eine einfache Beinprotheses aus Stahl und Plastahl her.</CreateSimpleProstheticLeg.description>
+
+	<CreateSimpleProstheticArm.label>Stelle einfache Armprothese her</CreateSimpleProstheticArm.label>
+	<CreateSimpleProstheticArm.description>Stellt eine einfache Armprotheses aus Stahl und Plastahl her.</CreateSimpleProstheticArm.description>
+
+	<CreateSimpleProstheticHand.label>Stelle einfache Handprothese her</CreateSimpleProstheticHand.label>
+	<CreateSimpleProstheticHand.description>Stellt eine einfache Handprotheses aus Stahl und Plastahl her.</CreateSimpleProstheticHand.description>
+
+	<CreateSimpleProstheticFoot.label>Stelle einfache Fußprothese her</CreateSimpleProstheticFoot.label>
+	<CreateSimpleProstheticFoot.description>Stellt eine einfache Fußprotheses aus Stahl und Plastahl her.</CreateSimpleProstheticFoot.description>
+
+	<CreateArtificialNose.label>Stelle küstliche Nase her</CreateArtificialNose.label>
+	<CreateArtificialNose.description>Fertigt eine künstliche Nase aus Plastahl an.</CreateArtificialNose.description>
+
+	<CreateCochlearImplant.label>Stelle Cochlea-Implantat her</CreateCochlearImplant.label>
+	<CreateCochlearImplant.description>Fertigt ein Cochlea-Implantat aus Plastahl an.</CreateCochlearImplant.description>
+
+	<CreateArtificialPelvis.label>Stelle künstliches Becken her</CreateArtificialPelvis.label>
+	<CreateArtificialPelvis.description>Fertigt ein künstliches Becken aus Stahl und Plastahl an.</CreateArtificialPelvis.description>
+	
+	<CreateArtificialClavicle.label>Stelle künstliches Schlüsselbein her</CreateArtificialClavicle.label>
+	<CreateArtificialClavicle.description>Fertigt ein künstliches Schlüsselbein aus Stahl an.</CreateArtificialClavicle.description>
+
+	<CreateHydraulicJaw.label>Stelle hydraulischen Kiefer her</CreateHydraulicJaw.label>
+	<CreateHydraulicJaw.description>Fertigt einen hydraulischen Kiefer aus Stahl an.</CreateHydraulicJaw.description>
+
+	<CreateGoldenEye.label>Stelle goldenes Auge her</CreateGoldenEye.label>
+	<CreateGoldenEye.description>Fertigt ein goldenes Auge aus - richtig geraten - Gold an!</CreateGoldenEye.description>
+	
+	<CreateLightReceptor.label>Stelle Lichtrezeptor her</CreateLightReceptor.label>
+	<CreateLightReceptor.description>Fertigt einen Lichtrezeptor aus Plastahl und Bauteilen an.</CreateLightReceptor.description>
+
+</LanguageData>

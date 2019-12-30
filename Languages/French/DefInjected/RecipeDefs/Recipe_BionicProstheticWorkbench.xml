@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateBionicEye.label>Créer un oeil bionique</CreateBionicEye.label>
+	<CreateBionicEye.description>Crée un oeil bionique à partir de plastacier.</CreateBionicEye.description>
+	<CreateBionicEye.jobString>En train de créer un oeil bionique</CreateBionicEye.jobString>
+	
+	<CreatePowerArm.label>Créer un bras puissant</CreatePowerArm.label>
+	<CreatePowerArm.description>Fixer une puissante griffe à un bras bionique n'est pas si facile que ça. Mais bon sang que c'est génial !</CreatePowerArm.description>
+	<CreatePowerArm.jobString>En train de créer un bras puissant</CreatePowerArm.jobString>
+	
+	<CreateBionicArm.label>Créer un bras bionique</CreateBionicArm.label>
+	<CreateBionicArm.description>Améliore une prothèse de bras simple en utilisant du plastacier et des composants.</CreateBionicArm.description>
+	<CreateBionicArm.jobString>En train de créer un bras bionique</CreateBionicArm.jobString>
+
+	<CreateBionicHand.label>Créer une main bionique</CreateBionicHand.label>
+	<CreateBionicHand.description>Améliore une prothèse de main simple en utilisant du plastacier et des composants.</CreateBionicHand.description>
+	<CreateBionicHand.jobString>En train de créer une main bionique</CreateBionicHand.jobString>
+
+	<CreateBionicFoot.label>Créer un pied bionique</CreateBionicFoot.label>
+	<CreateBionicFoot.description>Améliore une prothèse de pied simple en utilisant du plastacier et des composants.</CreateBionicFoot.description>
+	<CreateBionicFoot.jobString>En train de créer un pied bionique</CreateBionicFoot.jobString>
+
+	<CreateBionicLeg.label>Créer une jambe bionique</CreateBionicLeg.label>
+	<CreateBionicLeg.description>Améliore une prothèse de jampe simple en utilisant du plastacier et des composants.</CreateBionicLeg.description>
+	<CreateBionicLeg.jobString>En train de créer une jambe bionique</CreateBionicLeg.jobString>
+
+	<CreateBionicEar.label>Créer une oreille bionique</CreateBionicEar.label>
+	<CreateBionicEar.description>Crée une oreille bionique à partir de plastacier.</CreateBionicEar.description>
+	<CreateBionicEar.jobString>En train de créer une oreille bionique</CreateBionicEar.jobString>
+
+	<CreateBionicJaw.label>Créer une mâchoire bionique</CreateBionicJaw.label>
+	<CreateBionicJaw.description>Crée une mâchoire bionique à partir d'acier et de plastacier.</CreateBionicJaw.description>
+	<CreateBionicJaw.jobString>En train de créer une mâchoire bionique</CreateBionicJaw.jobString>
+
+	<CreateSilentJaw.label>Créer une mâchoire silencieuse</CreateSilentJaw.label>
+	<CreateSilentJaw.description>Crée une mâchoire silencieuse à partir d'acier et de plastacier.</CreateSilentJaw.description>
+	<CreateSilentJaw.jobString>En train de créer une mâchoire silencieuse</CreateSilentJaw.jobString>
+
+	<CreateBionicSpine.label>Créer une colonne vertébrale bionique</CreateBionicSpine.label>
+	<CreateBionicSpine.description>Crée une colonne vertébrale bionique à  partir d'acier et de plastacier</CreateBionicSpine.description>
+	<CreateBionicSpine.jobString>En train de créer une colonne vertébrale bionique</CreateBionicSpine.jobString>
+
+	<CreateMedicalRib.label>Créer une côte (médicale)</CreateMedicalRib.label>
+	<CreateMedicalRib.description>Crée une côte "médicale" à partir de plastacier et de médicaments avancés.</CreateMedicalRib.description>
+	<CreateMedicalRib.jobString>En train de créer une côte (médicale)</CreateMedicalRib.jobString>
+
+	<CreateDruggedRib.label>Créer une côte (drogue)</CreateDruggedRib.label>
+	<CreateDruggedRib.description>Crée une côte "droguée" à partir de plastacier et de bière.</CreateDruggedRib.description>
+	<CreateDruggedRib.jobString>En train de créer une côte (drogue)</CreateDruggedRib.jobString>
+	
+	<CreateDruggedRib.label>Créer une côte (adrénaline)</CreateDruggedRib.label>
+	<CreateDruggedRib.description>Crée une côte "adrénaline" à partir de plastacier et de médicaments.</CreateDruggedRib.description>
+	<CreateDruggedRib.jobString>En train de créer une côte (adrénaline)</CreateDruggedRib.jobString>
+
+	
+</LanguageData>

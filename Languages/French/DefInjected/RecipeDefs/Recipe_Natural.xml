@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<InstallNaturalHeart.label>	 Installer un coeur</InstallNaturalHeart.label>
+	<InstallNaturalHeart.description>Installe un coeur.</InstallNaturalHeart.description>
+    <InstallNaturalHeart.jobString>En train d'installer un coeur</InstallNaturalHeart.jobString>
+
+	<InstallNaturalLiver.label>Installer un foie</InstallNaturalLiver.label>
+	<InstallNaturalLiver.description>Installe un foie.</InstallNaturalLiver.description>
+    <InstallNaturalLiver.jobString>En train d'installer un foie</InstallNaturalLiver.jobString>
+	
+	<InstallNaturalKidney.label>Installer un rein</InstallNaturalKidney.label>
+	<InstallNaturalKidney.description>Installe un rein.</InstallNaturalKidney.description>
+    <InstallNaturalKidney.jobString>En train d'installer un rein</InstallNaturalKidney.jobString>
+	
+	<InstallNaturalLung.label>Installer un poumon</InstallNaturalLung.label>
+	<InstallNaturalLung.description>Installe un poumon.</InstallNaturalLung.description>
+    <InstallNaturalLung.jobString>En train d'installer un poumon</InstallNaturalLung.jobString>
+
+	<InstallNaturalEye.label>Installer un oeil</InstallNaturalEye.label>
+	<InstallNaturalEye.description>Installe un oeil.</InstallNaturalEye.description>
+    <InstallNaturalEye.jobString>En train d'installer un oeil</InstallNaturalEye.jobString>
+
+	<InstallNaturalNose.label>Installer un nez</InstallNaturalNose.label>
+	<InstallNaturalNose.description>Installe un nez.</InstallNaturalNose.description>
+    <InstallNaturalNose.jobString>En train d'installer un nez</InstallNaturalNose.jobString>
+
+	<InstallNaturalEar.label>Installer une oreille</InstallNaturalEar.label>
+	<InstallNaturalEar.description>Installe une oreille.</InstallNaturalEar.description>
+    <InstallNaturalEar.jobString>En train d'installer une oreille</InstallNaturalEar.jobString>
+
+	<InstallNaturalJaw.label>Installer une mâchoire</InstallNaturalJaw.label>
+	<InstallNaturalJaw.description>Installe une mâchoire.</InstallNaturalJaw.description>
+    <InstallNaturalJaw.jobString>En train d'installer une mâchoire</InstallNaturalJaw.jobString>
+
+	<InstallNaturalArm.label>Installer un bras</InstallNaturalArm.label>
+	<InstallNaturalArm.description>Installe un bras.</InstallNaturalArm.description>
+    <InstallNaturalArm.jobString>En train d'installer un bras</InstallNaturalArm.jobString>
+
+	<InstallNaturalLeg.label>Installer une jambe</InstallNaturalLeg.label>
+	<InstallNaturalLeg.description>Installe une jambe.</InstallNaturalLeg.description>
+    <InstallNaturalLeg.jobString>En train d'installer une jambe</InstallNaturalLeg.jobString>
+
+	<InstallNaturalStomach.label>Installer un estomac</InstallNaturalStomach.label>
+	<InstallNaturalStomach.description>Installe un estomac.</InstallNaturalStomach.description>
+    <InstallNaturalStomach.jobString>En train d'installer un estomac</InstallNaturalStomach.jobString>
+
+	<RemoveBodyPart.label>Amputer le corps</RemoveBodyPart.label>
+	<RemoveBodyPart.description>Ampute le corps.</RemoveBodyPart.description>
+    <RemoveBodyPart.jobString>En train d'amputer le corps</RemoveBodyPart.jobString>
+
+	<RemoveMechanoidBodyPart.label>Enlever la partie mécanoïde</RemoveMechanoidBodyPart.label>
+	<RemoveMechanoidBodyPart.description>Enleve la partie mécanoïde.</RemoveMechanoidBodyPart.description>
+    <RemoveMechanoidBodyPart.jobString>En train d'enlever la partie mécanoïde</RemoveMechanoidBodyPart.jobString>
+
+	<Euthanize.label>Euthanasier</Euthanize.label>
+	<Euthanize.description>Euthanise.</Euthanize.description>
+    <Euthanize.jobString>En train d'euthanasier</Euthanize.jobString>
+
+	<ShutDownMechanoid.label>Eteindre le mécanoïde</ShutDownMechanoid.label>
+	<ShutDownMechanoid.description>Eteinds le mécanoïde.</ShutDownMechanoid.description>
+    <ShutDownMechanoid.jobString>En train d'éteindre le mécanoïde</ShutDownMechanoid.jobString>
+
+</LanguageData>

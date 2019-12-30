@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+   <GlassEye.label>Oeil de verre</GlassEye.label>
+   <GlassEye.description>Remplace un oeil manquant. Plus beau qu'un couvre-oeil.</GlassEye.description>
+
+   <CrystalEye.label>Oeil en cristal</CrystalEye.label>
+   <CrystalEye.description>Remplace un oeil manquant. C'est tellement beau que ç'en est une honte que vous ne puissiez vous voir dans un mirroir.</CrystalEye.description>
+
+   <ArtificialNose.label>Nez artificiel</ArtificialNose.label>
+   <ArtificialNose.description>Remplace un nez manquant. Recouvre le trou dans le visage.</ArtificialNose.description>
+
+   <HydraulicJaw.label>Mâchoire hydraulique</HydraulicJaw.label>
+   <HydraulicJaw.description>Remplace une mâchoire manquante. Soyez prudent, ces dents sont d'une efficacité extrême !</HydraulicJaw.description>
+
+   <SimpleProstheticHand.label>Prothèse de main simple</SimpleProstheticHand.label>
+   <SimpleProstheticHand.description>Remplace une main manquante. Beaucoup plus confortable et moins effrayant que la main-crochet.</SimpleProstheticHand.description>
+
+   <SimpleProstheticFoot.label>Prothèse de pied simple</SimpleProstheticFoot.label>
+   <SimpleProstheticFoot.description>Remplace un pied manquant. Pas pire qu'un pied en bois.</SimpleProstheticFoot.description>
+
+   <ArtificialPelvis.label>Bassin artificiel</ArtificialPelvis.label>
+   <ArtificialPelvis.description>Remplace un bassin artificiel. Plutôt utile si ramper n'est pas votre moyen de déplacement préféré.</ArtificialPelvis.description>
+
+   <GoldenEye.label>Oeil en or</GoldenEye.label>
+   <GoldenEye.description>Remplace un oeil manquant. C'est tellement beau que ç'en est une honte que vous ne puissiez vous voir dans un mirroir.</GoldenEye.description>
+
+</LanguageData>

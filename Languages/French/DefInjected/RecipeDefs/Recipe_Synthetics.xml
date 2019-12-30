@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallAIChip.label>Installer une puce IA</InstallAIChip.label>
+	<InstallAIChip.description>Installe une puce IA.</InstallAIChip.description>
+    <InstallAIChip.jobString>En train d'installer une puce IA</InstallAIChip.jobString>
+	
+	<InstallSyntheticLung.label>Installer un poumon synthétique</InstallSyntheticLung.label>
+	<InstallSyntheticLung.description>Installe un poumon synthétique.</InstallSyntheticLung.description>
+    <InstallSyntheticLung.jobString>En train d'installer un poumon synthétique</InstallSyntheticLung.jobString>
+	
+	<InstallSyntheticStomach.label>Installer un estomac synthétique</InstallSyntheticStomach.label>
+	<InstallSyntheticStomach.description>Installe un estomac synthétique.</InstallSyntheticStomach.description>
+    <InstallSyntheticStomach.jobString>En train d'installer un estomac synthétique</InstallSyntheticStomach.jobString>
+	
+	<InstallSyntheticLiver.label>Installer un foie synthétique</InstallSyntheticLiver.label>
+	<InstallSyntheticLiver.description>Installe un foie synthétique.</InstallSyntheticLiver.description>
+    <InstallSyntheticLiver.jobString>En train d'installer un foie synthétique</InstallSyntheticLiver.jobString>
+	 
+	<InstallSyntheticKidney.label>Installer un rein synthétique</InstallSyntheticKidney.label>
+	<InstallSyntheticKidney.description>Installe un rein synthétique.</InstallSyntheticKidney.description>
+    <InstallSyntheticKidney.jobString>En train d'installer un rein synthétique</InstallSyntheticKidney.jobString>
+	 
+	<InstallSyntheticHeart.label>Installer un coeur synthétique</InstallSyntheticHeart.label>
+	<InstallSyntheticHeart.description>Installe un coeur synthétique.</InstallSyntheticHeart.description>
+    <InstallSyntheticHeart.jobString>En train d'installer un coeur synthétique</InstallSyntheticHeart.jobString>
+	
+</LanguageData>

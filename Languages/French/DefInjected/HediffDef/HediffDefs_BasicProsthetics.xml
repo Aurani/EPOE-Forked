@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+		
+   <SteelArm.label>Bras en acier</SteelArm.label>
+   <EyePatch.label>Cache-oeil</EyePatch.label>
+   <HookHand.label>Main-crochet</HookHand.label>
+   <WoodenFoot.label>Pied en bois</WoodenFoot.label>
+	<denture.label>Dentier</denture.label>
+	<PegLeg.label>Jambe de bois</PegLeg.label>
+</LanguageData>

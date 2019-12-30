@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsTableSurrogates.verb>créer</DoBillsTableSurrogates.verb>
+  <DoBillsTableSurrogates.gerund>en train de créer</DoBillsTableSurrogates.gerund>
+
+  <DoBillsTableSynthetics.verb>créer</DoBillsTableSynthetics.verb>
+  <DoBillsTableSynthetics.gerund>en train de créer</DoBillsTableSynthetics.gerund>
+
+  <DoBillsUpgradingStation.verb>améliorer</DoBillsUpgradingStation.verb>
+  <DoBillsUpgradingStation.gerund>en train d'améliorer</DoBillsUpgradingStation.gerund>
+
+  <DoBillsSimpleProstheticWorkbench.verb>assembler</DoBillsSimpleProstheticWorkbench.verb>
+  <DoBillsSimpleProstheticWorkbench.gerund>en train d'assembler</DoBillsSimpleProstheticWorkbench.gerund>
+
+  <DoBillsBasicProstheticWorkbench.verb>assembler</DoBillsBasicProstheticWorkbench.verb>
+  <DoBillsBasicProstheticWorkbench.gerund>en train d'assembler</DoBillsBasicProstheticWorkbench.gerund>
+
+  <DoBillsBionicWorkbench.verb>assembler</DoBillsBionicWorkbench.verb>
+  <DoBillsBionicWorkbench.gerund>en train d'assembler</DoBillsBionicWorkbench.gerund>
+
+</LanguageData>

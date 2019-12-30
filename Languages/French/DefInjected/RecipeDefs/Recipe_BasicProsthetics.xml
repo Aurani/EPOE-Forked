@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallSteelArm.label>Installer un bras en acier</InstallSteelArm.label>
+	<InstallSteelArm.description>Installe un bras en acier.</InstallSteelArm.description>
+	<InstallSteelArm.jobString>En train d'installer un bras en acier</InstallSteelArm.jobString>
+
+	<InstallEyePatch.label>Installer un cache-oeil</InstallEyePatch.label>
+	<InstallEyePatch.description>Installe un cache-oeil.</InstallEyePatch.description>
+	<InstallEyePatch.jobString>En train d'installer un cache-oeil</InstallEyePatch.jobString>
+
+	<InstallHookHand.label>Installer une main-crochet</InstallHookHand.label>
+	<InstallHookHand.description>Installe une main-crochet.</InstallHookHand.description>
+	<InstallHookHand.jobString>En train d'installer une main-crochet</InstallHookHand.jobString>
+
+	<InstallDenture.label>Installer un dentier</InstallDenture.label>
+	<InstallDenture.description>Installe un dentier.</InstallDenture.description>
+	<InstallDenture.jobString>En train d'installer un dentier</InstallDenture.jobString>
+
+	<InstallWoodenFoot.label>Installer un pied en bois</InstallWoodenFoot.label>
+	<InstallWoodenFoot.description>Installe un pied en bois.</InstallWoodenFoot.description>
+	<InstallWoodenFoot.jobString>En train d'installer un pied en bois</InstallWoodenFoot.jobString>
+
+	<InstallPegLeg.label>Installer une jambe de bois</InstallPegLeg.label>
+	<InstallPegLeg.description>Installe une jambe de bois.</InstallPegLeg.description>
+	<InstallPegLeg.jobString>En train d'installer une jambe de bois</InstallPegLeg.jobString>
+
+
+</LanguageData>

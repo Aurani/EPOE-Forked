@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<SimpleProsthetics.label>Prothèses simples</SimpleProsthetics.label>
+	<SimpleProsthetics.description>Des études approfondies sur l'anatomie ainsi que des essais sur différents matériaux vous permettent à présent de fabriquer des prothèses simples.</SimpleProsthetics.description>
+
+	<Bionics.label>Bioniques</Bionics.label>
+	<Bionics.description>En découvrant le concept des moteurs et des circuits miniaturisés, de nouvelles possibilités d'améliorations de prothèses vous sont disponibles.</Bionics.description>
+
+	<AdvancedBionics.label>Bioniques avancés</AdvancedBionics.label>
+	<AdvancedBionics.description>Améliorez les prothèses bioniques ordinaire avec du vancidium, afin de les rendre encore plus performantes.</AdvancedBionics.description>
+
+	<SurrogateOrgans.label>Organes artificiels</SurrogateOrgans.label>
+	<SurrogateOrgans.description>En approfondissant vos connaissances médicales, la création d'organes artificiels devient possible, afin de remplacer des organes détruits ou manquants.</SurrogateOrgans.description>
+
+	<SyntheticOrgans.label>Organes synthétiques</SyntheticOrgans.label>
+	<SyntheticOrgans.description>Des recherches poussées en nanotechnologie vous permettent de créer des organes artificiels incroyablement bien conçu.</SyntheticOrgans.description>
+
+	<VancidiumRefineryTech.label>Vancidium et composants avancés</VancidiumRefineryTech.label>
+	<VancidiumRefineryTech.description>Tandis que vous combinez différents matériaux, vous découvrez comment créer un matériau très léger, mais robuste, qui pourrait être utiliser pour fabriquer des prothèses de meilleures qualités. Vous pouvez maintenant fabriquer du vancidium au fondeur électrique, mais aussi assembler des composants avancés à l'établi d'assemblage !</VancidiumRefineryTech.description>
+
+	<RibReplacements.label>Remplacement des côtes</RibReplacements.label>
+	<RibReplacements.description>En découvrant le concept des distributeurs miniaturisés, vous pouvez envisager à les implanter dans des côtes.</RibReplacements.description>
+
+    <BrainSurgery.label>Chirurgie du cerveau</BrainSurgery.label>
+    <BrainSurgery.description>Permet d'effectuer des opérations chirurgicales sur le cerveau.</BrainSurgery.description>
+</LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <Leg.label>Jambe</Leg.label>
+  <Leg.description>Un long bâton charnu permettant de se déplacer.</Leg.description>
+  
+  <Arm.label>Bras</Arm.label>
+  <Arm.description>Un long bâton charnu permettant de transporter des choses.</Arm.description>
+  
+  <Stomach.label>Estomac</Stomach.label>
+  <Stomach.description>Digère la nourriture et la convertie en énergie et nutriments.</Stomach.description>
+  
+  <Eye.label>Oeil</Eye.label>
+  <Eye.description>Absorbe les lumières, ce qui permet à l'utilisateur de savoir ce qui est autour de lui.</Eye.description>
+  
+  <Nose.label>Nez</Nose.label>
+  <Nose.description>Un organe pratique permettant de distinguer les odeurs, s'appliquant en finalité à un visage.</Nose.description>
+  
+  <Ear.label>Oreille</Ear.label>
+  <Ear.description>Capte les vibrations dans l'air, permettant à l'utilisateur d'entendre les sons.</Ear.description>
+  
+  <Jaw.label>Mâchoire</Jaw.label>
+  <Jaw.description>Une bonne dentition pour mâcher du chewing-gum et discuter.</Jaw.description>
+  
+</LanguageData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<InstallBrainStimulator.label>Installer un stimulateur cérébral</InstallBrainStimulator.label>
+	<InstallBrainStimulator.description>Installe un stimulateur cérébral.</InstallBrainStimulator.description>
+    <InstallBrainStimulator.jobString>En train d'installer un stimulateur cérébral</InstallBrainStimulator.jobString>
+	
+	<InstallSurrogateLung.label>Installer un poumon artificiel</InstallSurrogateLung.label>
+	<InstallSurrogateLung.description>Installe un poumon artificiel</InstallSurrogateLung.description>
+    <InstallSurrogateLung.jobString>En train d'installer un poumon artificiel</InstallSurrogateLung.jobString>
+	
+	<InstallSurrogateStomach.label>Installer un estomac artificiel</InstallSurrogateStomach.label>
+	<InstallSurrogateStomach.description>Installe un estomac artificiel.</InstallSurrogateStomach.description>
+    <InstallSurrogateStomach.jobString>En train d'installer un estomac artificiel</InstallSurrogateStomach.jobString>
+	
+	<InstallSurrogateLiver.label>Installer un foie artificiel</InstallSurrogateLiver.label>
+	<InstallSurrogateLiver.description>Installe un foie artificiel.</InstallSurrogateLiver.description>
+    <InstallSurrogateLiver.jobString>En train d'installer une foie artificiel</InstallSurrogateLiver.jobString>
+	
+	<InstallSurrogateKidney.label>Installer un rein artificiel</InstallSurrogateKidney.label>
+	<InstallSurrogateKidney.description>Installe un rein artificiel.</InstallSurrogateKidney.description>
+    <InstallSurrogateKidney.jobString>En train d'installer un rein artificiel</InstallSurrogateKidney.jobString>
+	
+	<InstallSurrogateHeart.label>Installer un coeur artificiel</InstallSurrogateHeart.label>
+	<InstallSurrogateHeart.description>Installe un coeur artificiel.</InstallSurrogateHeart.description>
+    <InstallSurrogateHeart.jobString>En train d'installer un coeur artificiel</InstallSurrogateHeart.jobString>
+	
+</LanguageData>

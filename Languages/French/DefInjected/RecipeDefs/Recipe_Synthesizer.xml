@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateAIChip.label>Créer une puce IA</CreateAIChip.label>
+	<CreateAIChip.description>Crée une puce IA. Necessite de l'or et des composants avancés pour un circuit de haute qualité</CreateAIChip.description>
+    <CreateAIChip.jobString>En train de créer une puce IA</CreateAIChip.jobString>
+	
+	<CreateSyntheticLung.label>Créer un poumon synthétique</CreateSyntheticLung.label>
+	<CreateSyntheticLung.description>Crée un poumon synthétique à partir de hyperfibre et de composants avancés.</CreateSyntheticLung.description>
+    <CreateSyntheticLung.jobString>En train de créer un poumon synthétique</CreateSyntheticLung.jobString>
+	
+	<CreateSyntheticStomach.label>Créer un estomac synthétique</CreateSyntheticStomach.label>
+	<CreateSyntheticStomach.description>Crée un estomac synthétique à partir de hyperfibre et de composants avancés.</CreateSyntheticStomach.description>
+    <CreateSyntheticStomach.jobString>En train de créer un estomac synthétique</CreateSyntheticStomach.jobString>
+   
+	<CreateSyntheticLiver.label>Créer un foie synthétique</CreateSyntheticLiver.label>
+	<CreateSyntheticLiver.description>Crée un foie synthétique à partir de hyperfibre et de composants avancés.</CreateSyntheticLiver.description>
+    <CreateSyntheticLiver.jobString>En train de créer un foie synthétique</CreateSyntheticLiver.jobString>
+   
+	<CreateSyntheticKidney.label>Créer un rein synthétique</CreateSyntheticKidney.label>
+	<CreateSyntheticKidney.description>Crée un rein synthétique à partir de hyperfibre et de composants avancés.</CreateSyntheticKidney.description>
+    <CreateSyntheticKidney.jobString>En train de créer un rein synthétique</CreateSyntheticKidney.jobString>
+	
+	<CreateSyntheticHeart.label>Créer un coeur synthétique</CreateSyntheticHeart.label>
+	<CreateSyntheticHeart.description>Crée un coeur synthétique à partir de hyperfibre et de composants avancés.</CreateSyntheticHeart.description>
+	<CreateSyntheticHeart.jobString>En train de créer un coeur synthétique</CreateSyntheticHeart.jobString>
+   
+	<CreateSyntheticSkin.label>Créer une peau synthétique</CreateSyntheticSkin.label>
+	<CreateSyntheticSkin.description>Crée une peau synthétique à partir de hyperfibre et de cuir humain.</CreateSyntheticSkin.description>
+	<CreateSyntheticSkin.jobString>En train de créer une peau synthétique</CreateSyntheticSkin.jobString>
+	
+</LanguageData>

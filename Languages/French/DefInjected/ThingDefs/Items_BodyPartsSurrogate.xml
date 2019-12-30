@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+   
+   <BrainStimulator.label>Stimulateur cérébral</BrainStimulator.label>
+   <BrainStimulator.description>Un petit dispositif qui fait de son mieux pour stimuler les zones du cerveau encore existantes. Recommandé seulement pour des lésions cérébrales graves.</BrainStimulator.description>
+   
+   <SurrogateLung.label>Poumon artificiel</SurrogateLung.label>
+   <SurrogateLung.description>Un poumon de remplacement rudimentaire. Fait un profond bruit de cliquetis.</SurrogateLung.description>
+   
+   <SurrogateStomach.label>Estomac artificiel</SurrogateStomach.label>
+   <SurrogateStomach.description>Un estomac de remplacement rudimentaire.</SurrogateStomach.description>
+   
+   <SurrogateLiver.label>Foie artificiel</SurrogateLiver.label>
+   <SurrogateLiver.description>Un filtre sanguin rudimentaire. A quelques problèmes pour maintenir le taux de sucre dans le sang de manière constante.</SurrogateLiver.description>
+   
+   <SurrogateKidney.label>Rein artificiel</SurrogateKidney.label>
+   <SurrogateKidney.description>Un rein de remplacement rudimentaire. Un de ses effets secondaires est de devenir pâle.</SurrogateKidney.description>
+   
+   <SurrogateHeart.label>Coeur artificiel</SurrogateHeart.label>
+   <SurrogateHeart.description>Une pompe plus ou moins puissante pour maintenir le flux sanguin.</SurrogateHeart.description>
+  
+</LanguageData>

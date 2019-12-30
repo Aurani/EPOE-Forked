@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateBrainStimulator.label>Créer un stimulateur cérébral</CreateBrainStimulator.label>
+	<CreateBrainStimulator.description>Crée un stimulateur cérébral.</CreateBrainStimulator.description>
+    <CreateBrainStimulator.jobString>En train de créer un stimulateur cérébral</CreateBrainStimulator.jobString>
+	
+	<CreateSurrogateLung.label>Créer un poumon artificiel</CreateSurrogateLung.label>
+	<CreateSurrogateLung.description>Crée un poumon artificiel.</CreateSurrogateLung.description>
+    <CreateSurrogateLung.jobString>En train de créer un poumon artificiel</CreateSurrogateLung.jobString>
+	
+	<CreateSurrogateStomach.label>Créer un estomac artificiel</CreateSurrogateStomach.label>
+	<CreateSurrogateStomach.description>Crée un estomac artificiel.</CreateSurrogateStomach.description>
+    <CreateSurrogateStomach.jobString>En train de créer un estomac artificiel</CreateSurrogateStomach.jobString>
+	
+	<CreateSurrogateLiver.label>Créer un foie artificiel</CreateSurrogateLiver.label>
+	<CreateSurrogateLiver.description>Crée un foie artificiel.</CreateSurrogateLiver.description>
+    <CreateSurrogateLiver.jobString>En train de créer un foie artificiel</CreateSurrogateLiver.jobString>
+
+	<CreateSurrogateKidney.label>Créer un rein artificiel</CreateSurrogateKidney.label>
+	<CreateSurrogateKidney.description>Créerun rein artificiel.</CreateSurrogateKidney.description>
+    <CreateSurrogateKidney.jobString>En train de créer un rein artificiel</CreateSurrogateKidney.jobString>
+	
+	<CreateSurrogateHeart.label>Créer un coeur artificiel</CreateSurrogateHeart.label>
+	<CreateSurrogateHeart.description>Crée un coeur artificiel.</CreateSurrogateHeart.description>
+    <CreateSurrogateHeart.jobString>En train de créer un coeur artificiel</CreateSurrogateHeart.jobString>
+	
+</LanguageData>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AdvancedPowerArm.label>Bras puissant avancé</AdvancedPowerArm.label>
+  <AdvancedPowerArm.Description>Un bras d'une force et d'une dexterité sans précédent, avec une griffe tranchante rétractable. C'est l'évolution ultime !</AdvancedPowerArm.Description>
+
+  <AdvancedBionicHand.label>Main bionique avancée</AdvancedBionicHand.label>
+  <AdvancedBionicHand.Description>Certaines personnes se couperaient les mains d'elles même juste pour y mettre cette pièce de technologie splendide.</AdvancedBionicHand.Description>
+
+  <AdvancedBionicArm.label>Bras bionique avancé</AdvancedBionicArm.label>
+  <AdvancedBionicArm.Description>Vous vous souvenez quand vous luttiez pour ouvrir des bocaux ? Maintenant, vous allez avoir du mal à ne pas les casser directement.</AdvancedBionicArm.Description>
+
+  <AdvancedBionicLeg.label>Jambe bionique avancée</AdvancedBionicLeg.label>
+  <AdvancedBionicLeg.Description>Une technologie impressionnante permettant aux utilisateurs de se déplacer plus rapidement que jamais auparavant.</AdvancedBionicLeg.Description>
+
+  <AdvancedBionicFoot.label>Pied bionique avancé</AdvancedBionicFoot.label>
+  <AdvancedBionicFoot.Description>Des dizaines de servomoteurs accordent un mouvement rapide et un confort inégalé.</AdvancedBionicFoot.Description>
+
+  <AdvancedBionicEar.label>Oreille bionique avancée</AdvancedBionicEar.label>
+  <AdvancedBionicEar.Description>Ce dispositif permet à l'utilisateur d'entendre mieux qu'une chauve-souris.</AdvancedBionicEar.Description>
+
+  <AdvancedBionicJaw.label>Mâchoire bionique avancée</AdvancedBionicJaw.label>
+  <AdvancedBionicJaw.Description>La voix qui sort de cette mâchoire est si belle, que même des mécanoïdes s'arrêtent pour l'écouter.</AdvancedBionicJaw.Description>
+
+  <AdvancedBionicEye.label>Oeil bionique avancé</AdvancedBionicEye.label>
+  <AdvancedBionicEye.Description>Cette pièce de technologie avancée permet à l'utilisateur de parfaitement voir, aussi bien dans le noir qu'à travers un mur.</AdvancedBionicEye.Description>
+
+  <AdvancedBionicSpine.label>Colonne vertébrale avancée</AdvancedBionicSpine.label>
+  <AdvancedBionicSpine.Description>Ce dispositif durable soutient le dos et rend le travail et la marche bien plus facile.</AdvancedBionicSpine.Description>
+
+  <ExoskeletonSuit.label>Combinaison exosquelette</ExoskeletonSuit.label>
+  <ExoskeletonSuit.description>Un dispositif de haute technologie fabriqué avec deux composants : une structure squelettique légere pour soulager le dos, et des servomoteurs pour rendre l'utilisateur plus fort.</ExoskeletonSuit.description>
+
+</LanguageData>

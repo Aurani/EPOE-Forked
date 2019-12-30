@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<CreateVancidium.label>Créer du vancidium</CreateVancidium.label>
+	<CreateVancidium.description>Utilise la chaleur et de puissants  électroaimants pour combiner l'or, l'acier et le plastacier.</CreateVancidium.description>
+	<CreateVancidium.jobString>En train de créer du vancidium</CreateVancidium.jobString>
+
+	<MakeAdvancedComponent.label>Fabriquer un composant avancé</MakeAdvancedComponent.label>
+	<MakeAdvancedComponent.description>Fabrique un composant avancé.</MakeAdvancedComponent.description>
+	<MakeAdvancedComponent.jobString>En train de fabriquer un composant avancé</MakeAdvancedComponent.jobString>
+</LanguageData>
