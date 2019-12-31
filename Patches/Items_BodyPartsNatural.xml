@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Heart"]/description</xpath>
+			<value>
+				<description>Supplies blood and oxygen to all parts of the body. Ready to find a new owner.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Heart"]/statBases/Mass</xpath>
+			<value>
+				<Mass>2</Mass>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Lung"]/description</xpath>
+			<value>
+				<description>Essential part of the respiratory system.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Lung"]/statBases/Mass</xpath>
+			<value>
+				<Mass>2</Mass>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Kidney"]/description</xpath>
+			<value>
+				<description>Filters and removes waste products from the blood.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Kidney"]/statBases/Mass</xpath>
+			<value>
+				<Mass>2</Mass>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Liver"]/description</xpath>
+			<value>
+				<description>Plays an important role in metabolism.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Liver"]/statBases/Mass</xpath>
+			<value>
+				<Mass>2</Mass>
+			</value>
+		</li>
+	</operations>
+</Operation>
+	
+</Patch>

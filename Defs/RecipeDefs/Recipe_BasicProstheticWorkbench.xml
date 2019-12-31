@@ -9,58 +9,6 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
-		<defName>CreateSteelArm</defName>
-		<label>Craft steel arm</label>
-		<description>Crafts a steel arm from steel.</description>
-		<jobString>Crafting prosthesis.</jobString>
-		<soundWorking>EPOEAssembling</soundWorking>
-		<products>
-			<SteelArm>1</SteelArm>
-		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>75</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-	</RecipeDef>
-
-	<RecipeDef ParentName="RecipeBasicProsthesis">
-		<defName>CreatePegLeg</defName>
-		<label>Craft peg leg</label>
-		<description>Crafts a simple prosthetic leg from wood.</description>
-		<jobString>Crafting prosthesis.</jobString>
-		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
-		<products>
-			<PegLeg>1</PegLeg>
-		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>WoodLog</li>
-					</thingDefs>
-				</filter>
-				<count>50</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>WoodLog</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-	</RecipeDef>
-
-	<RecipeDef ParentName="RecipeBasicProsthesis">
 		<defName>CreateEyePatch</defName>
 		<label>Craft eye patch</label>
 		<description>Tailors an eye patch from fabric.</description>
@@ -84,6 +32,7 @@
 				<li>Textiles</li>
 			</categories>
 		</fixedIngredientFilter>
+		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
@@ -121,61 +70,7 @@
 				<li>Textiles</li>
 			</categories>
 		</fixedIngredientFilter>
-	</RecipeDef>
-
-	<RecipeDef ParentName="RecipeBasicProsthesis">
-		<defName>CreateDenture</defName>
-		<label>Craft denture</label>
-		<description>Crafts a cheap denture from wood logs. Easy to make.</description>
-		<jobString>Crafting prosthesis.</jobString>
-		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>WoodLog</li>
-					</thingDefs>
-				</filter>
-				<count>20</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>WoodLog</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<denture>1</denture>
-		</products>
-		<skillRequirements>
-			<Crafting>7</Crafting>
-		</skillRequirements>
-	</RecipeDef>
-
-	<RecipeDef ParentName="RecipeBasicProsthesis">
-		<defName>CreateWoodenFoot</defName>
-		<label>Craft wooden foot</label>
-		<description>Chops wood into a foot-like shape.</description>
-		<jobString>Crafting prosthesis.</jobString>
-		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>WoodLog</li>
-					</thingDefs>
-				</filter>
-				<count>15</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>WoodLog</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<WoodenFoot>1</WoodenFoot>
-		</products>
+		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
@@ -202,6 +97,7 @@
 				<li>Textiles</li>
 			</categories>
 		</fixedIngredientFilter>
+		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

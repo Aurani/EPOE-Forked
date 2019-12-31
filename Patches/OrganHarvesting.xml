@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName="Stomach"]/spawnThingOnRemoved</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName="Stomach"]</xpath>
+				<value>
+					<spawnThingOnRemoved>Stomach</spawnThingOnRemoved>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName="Eye"]/spawnThingOnRemoved</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName="Eye"]</xpath>
+				<value>
+					<spawnThingOnRemoved>Eye</spawnThingOnRemoved>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName="Nose"]/spawnThingOnRemoved</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName="Nose"]</xpath>
+				<value>
+					<spawnThingOnRemoved>Nose</spawnThingOnRemoved>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName="Ear"]/spawnThingOnRemoved</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName="Ear"]</xpath>
+				<value>
+					<spawnThingOnRemoved>Ear</spawnThingOnRemoved>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/BodyPartDef[defName="Jaw"]/spawnThingOnRemoved</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BodyPartDef[defName="Jaw"]</xpath>
+				<value>
+					<spawnThingOnRemoved>Jaw</spawnThingOnRemoved>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+</Patch>

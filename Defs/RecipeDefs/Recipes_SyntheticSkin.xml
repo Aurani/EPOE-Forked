@@ -1,106 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-   <RecipeDef Name="SurgeryRepairScar" ParentName="SurgeryFlesh" Abstract="True">
-      <surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
-      <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
-      <recipeUsers>
-         <li>Human</li>
-      </recipeUsers>
-      <workerClass>Recipe_RemoveHediff</workerClass>
-      <workAmount>2500</workAmount>
-      <ingredients>
-         <li>
-            <filter>
-               <thingDefs>
-                  <li>MedicineUltratech</li>
-               </thingDefs>
-            </filter>
-            <count>1</count>
-         </li>
-         <li>
-            <filter>
-               <thingDefs>
-                  <li>SyntheticSkin</li>
-               </thingDefs>
-            </filter>
-            <count>1</count>
-         </li>
-      </ingredients>
-      <fixedIngredientFilter>
-         <thingDefs>
-            <li>MedicineUltratech</li>
-            <li>SyntheticSkin</li>
-         </thingDefs>
-      </fixedIngredientFilter>
+
+	<RecipeDef Name="SurgeryRepairScar" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineUltratech</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineUltratech</li>
+				<li>SyntheticSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
 		<skillRequirements>
 			<Medicine>7</Medicine>
 		</skillRequirements>
 		<appliedOnFixedBodyParts>
 			<li>Torso</li> 
 		</appliedOnFixedBodyParts>
-   </RecipeDef>
-   <RecipeDef ParentName="SurgeryRepairScar">
-      <defName>RepairBurn</defName>
-      <label>mend burn</label>
-      <description>Mend a burn scar.</description>
-      <jobString>Mending burn scar.</jobString>
-      <removesHediff>Burn</removesHediff>
-      <successfullyRemovedHediffMessage>{0} has successfully mended {1}'s burn scar.</successfullyRemovedHediffMessage>
-   </RecipeDef>   
-   <RecipeDef ParentName="SurgeryRepairScar">
-      <defName>RepairCut</defName>
-      <label>mend cut</label>
-      <description>Mend a cut scar.</description>
-      <jobString>Mending cut scar.</jobString>
-      <removesHediff>Cut</removesHediff>
-      <successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cut scar.</successfullyRemovedHediffMessage>
-   </RecipeDef>  
-  <RecipeDef ParentName="SurgeryRepairScar">
-      <defName>RepairSurgicalCut</defName>
-      <label>mend surgical cut</label>
-      <description>Mend a surgical cut scar.</description>
-      <jobString>Mending surgical cut scar.</jobString>
-      <removesHediff>SurgicalCut</removesHediff>
-      <successfullyRemovedHediffMessage>{0} has successfully mended {1}'s surgical cut scar.</successfullyRemovedHediffMessage>
-   </RecipeDef>   
-   <RecipeDef ParentName="SurgeryRepairScar">
-      <defName>RepairScratch</defName>
-      <label>mend surgical scratch</label>
-      <description>Mend a surgical scratch scar.</description>
-      <jobString>Mending surgical scratch scar.</jobString>
-      <removesHediff>Scratch</removesHediff>
-      <successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</successfullyRemovedHediffMessage>
-   </RecipeDef>   
-   <RecipeDef ParentName="SurgeryRepairScar">
-      <defName>RepairBite</defName>
-      <label>mend bite</label>
-      <description>Mend a bite scar.</description>
-      <jobString>Mending bite scar.</jobString>
-      <removesHediff>Bite</removesHediff>
-      <successfullyRemovedHediffMessage>{0} has successfully mended {1}'s bite scar.</successfullyRemovedHediffMessage>
-   </RecipeDef>   
-   <RecipeDef ParentName="SurgeryRepairScar">
-      <defName>RepairStab</defName>
-      <label>mend stab</label>
-      <description>Mend a stab scar.</description>
-      <jobString>Mending stab scar.</jobString>
-      <removesHediff>Stab</removesHediff>
-      <successfullyRemovedHediffMessage>{0} has successfully mended {1}'s stab scar.</successfullyRemovedHediffMessage>
-   </RecipeDef>   
-   <RecipeDef ParentName="SurgeryRepairScar">
-      <defName>RepairGunshot</defName>
-      <label>mend gunshot</label>
-      <description>Mend a gunshot scar.</description>
-      <jobString>Mending gunshot scar.</jobString>
-      <removesHediff>Gunshot</removesHediff>
-      <successfullyRemovedHediffMessage>{0} has successfully mended {1}'s gunshot scar.</successfullyRemovedHediffMessage>
-   </RecipeDef>   
-   <RecipeDef ParentName="SurgeryRepairScar">
-      <defName>RepairFrostbite</defName>
-      <label>mend frostbite</label>
-      <description>Mend a frostbite scar.</description>
-      <jobString>Mending frostbite scar.</jobString>
-      <removesHediff>Frostbite</removesHediff>
-      <successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</successfullyRemovedHediffMessage>
-   </RecipeDef>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairBurn</defName>
+		<label>mend burn</label>
+		<description>Mend a burn scar.</description>
+		<jobString>Mending burn scar.</jobString>
+		<removesHediff>Burn</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s burn scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairCut</defName>
+		<label>mend cut</label>
+		<description>Mend a cut scar.</description>
+		<jobString>Mending cut scar.</jobString>
+		<removesHediff>Cut</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cut scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+		
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairSurgicalCut</defName>
+		<label>mend surgical cut</label>
+		<description>Mend a surgical cut scar.</description>
+		<jobString>Mending surgical cut scar.</jobString>
+		<removesHediff>SurgicalCut</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s surgical cut scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairScratch</defName>
+		<label>mend surgical scratch</label>
+		<description>Mend a surgical scratch scar.</description>
+		<jobString>Mending surgical scratch scar.</jobString>
+		<removesHediff>Scratch</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairBite</defName>
+		<label>mend bite</label>
+		<description>Mend a bite scar.</description>
+		<jobString>Mending bite scar.</jobString>
+		<removesHediff>Bite</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s bite scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairStab</defName>
+		<label>mend stab</label>
+		<description>Mend a stab scar.</description>
+		<jobString>Mending stab scar.</jobString>
+		<removesHediff>Stab</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s stab scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairGunshot</defName>
+		<label>mend gunshot</label>
+		<description>Mend a gunshot scar.</description>
+		<jobString>Mending gunshot scar.</jobString>
+		<removesHediff>Gunshot</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s gunshot scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairFrostbite</defName>
+		<label>mend frostbite</label>
+		<description>Mend a frostbite scar.</description>
+		<jobString>Mending frostbite scar.</jobString>
+		<removesHediff>Frostbite</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
 </Defs>

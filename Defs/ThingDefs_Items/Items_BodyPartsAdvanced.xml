@@ -1,149 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<!-- EPOE -->
-
-	<ThingDef Name="Advanced" ParentName="BodyPartBase" Abstract="True">
-	    <techLevel>Spacer</techLevel>
-		<tradeTags>
-			<li>AdvancedProstheses</li>
-		</tradeTags>
-		<thingCategories>
-			<li>AdvancedProstheses</li>
-		</thingCategories>
+	<ThingDef Name="BodyPartAdvancedBionicBase" ParentName="BodyPartBionicBase" Abstract="True">
+		<techLevel>Spacer</techLevel>
 		<graphicData>
 			<texPath>Things/Item/BodyPart/AdvancedPart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>AdvancedBionics</researchPrerequisite>
+		</recipeMaker>
+		<thingCategories Inherit="False">
+			<li>AdvancedProstheses</li>
+		</thingCategories>
 	</ThingDef>
 
-	<!-- Added body parts -->
+	<!-- New EPOE body parts -->
 
-	<ThingDef ParentName="Advanced">
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
 		<defName>AdvancedPowerArm</defName>
 		<label>advanced power arm</label>
 		<description>Even more unparalleled strength and dexterity, and with a sharp, retractable claws. Now it's the ultimate arm upgrade!</description>
+		<costList>
+			<PowerArm>1</PowerArm>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
 		<statBases>
-			<MarketValue>10000</MarketValue>
+			<WorkToMake>10000</WorkToMake>
 			<Mass>5</Mass>
 		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>AdvancedWeapon</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Advanced">
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicHand</defName>
 		<label>advanced bionic hand</label>
 		<description>Some people would chop their own hands off just to get this gorgeous piece of tech.</description>
+		<costList>
+			<BionicHand>1</BionicHand>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
-			<MarketValue>3000</MarketValue>
+			<WorkToMake>10000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Advanced">
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicArm</defName>
 		<label>advanced bionic arm</label>
 		<description>Remember when you struggled with opening jars? Now you struggle with not breaking them instantly.</description>
+		<costList>
+			<BionicArm>1</BionicArm>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
 		<statBases>
-			<MarketValue>5000</MarketValue>
+			<WorkToMake>10000</WorkToMake>
 			<Mass>5</Mass>
 		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Advanced">
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicLeg</defName>
 		<label>advanced bionic leg</label>
 		<description>Gotta go fast!</description>
+		<costList>
+			<BionicLeg>1</BionicLeg>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
 		<statBases>
-			<MarketValue>5000</MarketValue>
+			<WorkToMake>10000</WorkToMake>
 			<Mass>8</Mass>
 		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Advanced">
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicFoot</defName>
 		<label>advanced bionic foot</label>
 		<description>Dozens of servomotors grant faster movement and ultimate comfort.</description>
+		<costList>
+			<BionicFoot>1</BionicFoot>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
-			<MarketValue>2750</MarketValue>
+			<WorkToMake>10000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Advanced">
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicEar</defName>
 		<label>advanced bionic ear</label>
 		<description>This device allows the user to hear better than bats.</description>
+		<costList>
+			<BionicEar>1</BionicEar>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
-			<MarketValue>2750</MarketValue>
+			<WorkToMake>10000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Advanced">
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicJaw</defName>
 		<label>advanced bionic jaw</label>
 		<description>The voice this jaw creates is so beautiful that even mechanoids stop by to listen.</description>
+		<costList>
+			<BionicJaw>1</BionicJaw>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
-			<MarketValue>3000</MarketValue>
+			<WorkToMake>10000</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Advanced">
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicEye</defName>
 		<label>advanced bionic eye</label>
 		<description>This advanced piece of technology allows the user to perfectly see in the dark as well as through walls. Also through clothes.</description>
+		<costList>
+			<BionicEye>1</BionicEye>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
-			<MarketValue>3000</MarketValue>
+			<WorkToMake>10000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Advanced">
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicSpine</defName>
 		<label>advanced bionic spine</label>
 		<description>This durable device supports the back and makes working and walking much easier.</description>
+		<costList>
+			<BionicSpine>1</BionicSpine>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
 		<statBases>
-			<MarketValue>5000</MarketValue>
+			<WorkToMake>10000</WorkToMake>
 			<Mass>4</Mass>
 		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Advanced">
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
 		<defName>ExoskeletonSuit</defName>
 		<label>exoskeleton suit</label>
 		<description>A high tech device made out of two components: a light skeletal structure to relieve the back and servomotors to make the user stronger.</description>
+		<costList>
+			<Plasteel>75</Plasteel>
+			<Steel>60</Steel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
 		<statBases>
-			<MarketValue>4500</MarketValue>
+			<WorkToMake>10000</WorkToMake>
 			<Mass>7</Mass>
 		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>

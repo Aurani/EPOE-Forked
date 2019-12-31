@@ -32,46 +32,6 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BodyPartNaturalBase">
-		<defName>Heart</defName>
-		<label>heart</label>
-		<description>Supplies blood and oxygen to all parts of the body. Ready to find a new owner.</description>
-		<statBases>
-			<MarketValue>2000</MarketValue>
-			<Mass>2</Mass>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="BodyPartNaturalBase">
-		<defName>Liver</defName>
-		<label>liver</label>
-		<description>Plays an important role in metabolism.</description>
-		<statBases>
-			<MarketValue>2000</MarketValue>
-			<Mass>2</Mass>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="BodyPartNaturalBase">
-		<defName>Lung</defName>
-		<label>lung</label>
-		<description>Essential part of the respiratory system.</description>
-		<statBases>
-			<MarketValue>1500</MarketValue>
-			<Mass>2</Mass>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="BodyPartNaturalBase">
-		<defName>Kidney</defName>
-		<label>kidney</label>
-		<description>Filters and removes waste products from the blood.</description>
-		<statBases>
-			<MarketValue>1000</MarketValue>
-			<Mass>2</Mass>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="BodyPartNaturalBase">
 		<defName>Eye</defName>
 		<label>eyeball</label>
 		<description>Absorbs light, which lets a person know what's around them.</description>

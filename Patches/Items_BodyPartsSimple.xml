@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[@Name="BodyPartProstheticBase"]/graphicData</xpath>
+			<value>
+				<graphicData>
+					<texPath>Things/Item/BodyPart/SimplePart</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[@Name="BodyPartProstheticBase"]/recipeMaker/soundWorking</xpath>
+			<value>
+				<soundWorking>EPOEAssembling</soundWorking>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[@Name="BodyPartProstheticBase"]/recipeMaker/recipeUsers</xpath>
+			<value>
+				<recipeUsers>
+					<li>TableSimpleProsthetic</li>
+				</recipeUsers>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[@Name="BodyPartProstheticBase"]/recipeMaker/unfinishedThingDef</xpath>
+			<value>
+				<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[@Name="BodyPartProstheticBase"]</xpath>
+			<value>
+				<thingCategories Inherit="False">
+					<li>SimpleProstheses</li>
+				</thingCategories>
+			</value>
+		</li>
+	</operations>
+</Operation>
+
+</Patch>

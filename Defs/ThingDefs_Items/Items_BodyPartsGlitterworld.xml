@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef Name="Glitterworld" ParentName="BodyPartBase" Abstract="True">
+	<ThingDef Name="EPOEGlitterworldImplantBase" ParentName="ImplantBase" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 		<tradeTags>
 			<li>GlitterworldParts</li>
 		</tradeTags>
-		<thingCategories>
+		<thingCategories Inherit="False">
 			<li>GlitterworldParts</li>
 		</thingCategories>
 	</ThingDef>
 
-	<!-- Added body parts -->
+	<!-- New EPOE implants -->
 
-	<ThingDef ParentName="Synthetic">
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
 		<defName>MuscleStimulator</defName>
 		<label>muscle stimulator</label>
 		<description>Through special chemicals and electric shocks this little chip is able to stimulate the muscles so they can operate at above maximum performance.</description>      
-		<graphicData>
-			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
 		<statBases>
-			<MarketValue>3500</MarketValue>
+			<MarketValue>2500</MarketValue>
 			<Mass>0.1</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -29,16 +30,12 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Synthetic">
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
 		<defName>TacticalCorneaImplant</defName>
 		<label>tactical cornea implant</label>
 		<description>An enhanced implant which provides the user with additional information about potential targets and suggests a perfect firing angle.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
 		<statBases>
-			<MarketValue>3500</MarketValue>
+			<MarketValue>2500</MarketValue>
 			<Mass>0.1</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -46,16 +43,12 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Synthetic">
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
 		<defName>ConstructorCore</defName>
 		<label>auxiliary AI (constructing)</label>
 		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
 		<statBases>
-			<MarketValue>4500</MarketValue>
+			<MarketValue>2500</MarketValue>
 			<Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -63,16 +56,12 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Synthetic">
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
 		<defName>FarmerCore</defName>
 		<label>auxiliary AI (agricultural)</label>
 		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
 		<statBases>
-			<MarketValue>4500</MarketValue>
+			<MarketValue>2500</MarketValue>
 			<Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -80,16 +69,12 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Synthetic">
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
 		<defName>MinerCore</defName>
 		<label>auxiliary AI (mining)</label>
 		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
 		<statBases>
-			<MarketValue>4500</MarketValue>
+			<MarketValue>2500</MarketValue>
 			<Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -97,16 +82,12 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Synthetic">
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
 		<defName>DoctorCore</defName>
 		<label>auxiliary AI (medical)</label>
 		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
 		<statBases>
-			<MarketValue>4500</MarketValue>
+			<MarketValue>2800</MarketValue>
 			<Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -114,16 +95,12 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Synthetic">
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
 		<defName>DiplomatCore</defName>
 		<label>auxiliary AI (diplomatic)</label>
 		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
 		<statBases>
-			<MarketValue>4500</MarketValue>
+			<MarketValue>2500</MarketValue>
 			<Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>

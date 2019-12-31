@@ -1,178 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<RecipeDef Name="SurgeryNatural" ParentName="SurgeryFlesh" Abstract="True">
-		<surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
-		<deathOnFailedSurgeryChance>0.3</deathOnFailedSurgeryChance>
+	<RecipeDef Name="EPOESurgeryNatural" ParentName="SurgeryFlesh" Abstract="True">
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
 		<recipeUsers>
 			<li>Human</li>
 		</recipeUsers>
-		<!--<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>-->
 	</RecipeDef>
 
-	<!-- Vanilla -->
+	<!-- New EPOE body parts -->
 
-	<RecipeDef ParentName="SurgeryNatural">
-		<defName>InstallNaturalHeart</defName>
-		<label>install heart</label>
-		<description>Installs heart.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing heart.</jobString>
-		<workAmount>2000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>4</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Heart</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Heart</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Heart</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryNatural">
-		<defName>InstallNaturalLiver</defName>
-		<label>install liver</label>
-		<description>Installs liver.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing liver.</jobString>
-		<workAmount>2000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>3</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Liver</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Liver</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Liver</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryNatural">
-		<defName>InstallNaturalKidney</defName>
-		<label>install kidney</label>
-		<description>Installs kidney.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing kidney.</jobString>
-		<workAmount>2000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>3</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Kidney</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Kidney</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Kidney</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryNatural">
-		<defName>InstallNaturalLung</defName>
-		<label>install lung</label>
-		<description>Installs lung.</description>
-		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-		<jobString>Installing lung.</jobString>
-		<workAmount>2000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>3</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Lung</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Lung</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Lung</li>
-		</appliedOnFixedBodyParts>
-	</RecipeDef>
-
-	<!-- EPOE -->
-
-	<RecipeDef ParentName="SurgeryNatural">
+	<RecipeDef ParentName="EPOESurgeryNatural">
 		<defName>InstallNaturalEye</defName>
 		<label>install eye</label>
 		<description>Installs eye.</description>
 		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
 		<jobString>Installing eye.</jobString>
-		<workAmount>1200</workAmount>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -204,13 +53,13 @@
 		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryNatural">
+	<RecipeDef ParentName="EPOESurgeryNatural">
 		<defName>InstallNaturalNose</defName>
 		<label>install nose</label>
 		<description>Installs nose.</description>
 		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
 		<jobString>Installing nose.</jobString>
-		<workAmount>800</workAmount>
+		<workAmount>2500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -242,13 +91,13 @@
 		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryNatural">
+	<RecipeDef ParentName="EPOESurgeryNatural">
 		<defName>InstallNaturalEar</defName>
 		<label>install ear</label>
 		<description>Installs ear.</description>
 		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
 		<jobString>Installing ear.</jobString>
-		<workAmount>800</workAmount>
+		<workAmount>2500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -280,13 +129,13 @@
 		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryNatural">
+	<RecipeDef ParentName="EPOESurgeryNatural">
 		<defName>InstallNaturalJaw</defName>
 		<label>install jaw</label>
 		<description>Installs jaw.</description>
 		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
 		<jobString>Installing jaw.</jobString>
-		<workAmount>1200</workAmount>
+		<workAmount>2500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -318,13 +167,13 @@
 		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryNatural">
+	<RecipeDef ParentName="EPOESurgeryNatural">
 		<defName>InstallNaturalArm</defName>
 		<label>install arm</label>
 		<description>Installs arm.</description>
 		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
 		<jobString>Installing arm.</jobString>
-		<workAmount>1200</workAmount>
+		<workAmount>2500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -356,13 +205,13 @@
 		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryNatural">
+	<RecipeDef ParentName="EPOESurgeryNatural">
 		<defName>InstallNaturalLeg</defName>
 		<label>install leg</label>
 		<description>Installs leg.</description>
 		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
 		<jobString>Installing leg.</jobString>
-		<workAmount>1200</workAmount>
+		<workAmount>2500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -394,13 +243,13 @@
 		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryNatural">
+	<RecipeDef ParentName="EPOESurgeryNatural">
 		<defName>InstallNaturalStomach</defName>
 		<label>install stomach</label>
 		<description>Installs stomach.</description>
 		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
 		<jobString>Installing stomach.</jobString>
-		<workAmount>1200</workAmount>
+		<workAmount>2500</workAmount>
 		<ingredients>
 			<li>
 				<filter>

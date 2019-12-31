@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<RecipeDef Name="SurgerySynthetic" ParentName="SurgeryFlesh" Abstract="True">
+	<RecipeDef Name="EPOESurgerySynthetic" ParentName="SurgeryFlesh" Abstract="True">
 		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
-		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
 		<recipeUsers>
 			<li>Human</li>
 		</recipeUsers>
-		<!--<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>-->
 	</RecipeDef>
 
-	<RecipeDef Name="SurgerySyntheticVanilla" ParentName="SurgeryFlesh" Abstract="True">
-		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
-		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
-		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgerySynthetic">
+	<RecipeDef ParentName="EPOESurgerySynthetic">
 		<defName>InstallAIChip</defName>
 		<label>install AI chip</label>
 		<description>Installs AI chip.</description>
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<jobString>Installing AI chip.</jobString>
-		<workAmount>2000</workAmount>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -56,13 +55,17 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="SurgerySynthetic">
+	<RecipeDef ParentName="EPOESurgerySynthetic">
 		<defName>InstallAIPersonaCore</defName>
 		<label>install AI persona core</label>
 		<description>Installs AI persona core.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing AI persona core.</jobString>
-		<workAmount>2000</workAmount>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -96,49 +99,19 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 	
-  <RecipeDef ParentName="SurgeryFlesh">
-    <defName>RemoveBrainStimulator</defName>
-    <label>remove brain stimulator</label>
-    <description>Removes brain stimulator.</description>
-    <workerClass>Recipe_RemoveHediff</workerClass>
-    <jobString>Removing brain stimulator.</jobString>
-    <workAmount>2500</workAmount>
-    <removesHediff>BrainStimulator</removesHediff>
-    <successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</successfullyRemovedHediffMessage>
-    <deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>
-    <skillRequirements>
-      <Medicine>7</Medicine>
-    </skillRequirements>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>7</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <categories>
-        <li>Medicine</li>
-      </categories>
-      <disallowedThingDefs>
-        <li>MedicineHerbal</li>
-      </disallowedThingDefs>
-    </fixedIngredientFilter>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-  </RecipeDef>
-
-	<RecipeDef ParentName="SurgerySyntheticVanilla">
-		<defName>InstallJoywire</defName>
-		<label>install joywire</label>
-		<description>Installs joywire.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
-		<jobString>Installing joywire.</jobString>
-		<workAmount>2000</workAmount>
+	<RecipeDef ParentName="EPOESurgerySynthetic">
+		<defName>RemoveBrainStimulator</defName>
+		<label>remove brain stimulator</label>
+		<description>Removes brain stimulator.</description>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<jobString>Removing brain stimulator.</jobString>
+		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</successfullyRemovedHediffMessage>
+		<workAmount>3700</workAmount>
+		<removesHediff>BrainStimulator</removesHediff>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -148,77 +121,24 @@
 				</filter>
 				<count>7</count>
 			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Joywire</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
 				<li>Medicine</li>
 			</categories>
-			<thingDefs>
-				<li>Joywire</li>
-			</thingDefs>
+		<disallowedThingDefs>
+			<li>MedicineHerbal</li>
+		</disallowedThingDefs>
 		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Brain</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>Joywire</addsHediff>
-		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgerySyntheticVanilla">
-		<defName>InstallPainstopper</defName>
-		<label>install painstopper</label>
-		<description>Installs painstopper.</description>
-		<workerClass>Recipe_InstallImplant</workerClass>
-		<jobString>Installing painstopper.</jobString>
-		<workAmount>2000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>7</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Painstopper</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>Painstopper</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Brain</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>Painstopper</addsHediff>
-		<researchPrerequisite>BrainSurgery</researchPrerequisite>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgerySynthetic">
+	<RecipeDef ParentName="EPOESurgerySynthetic">
 		<defName>InstallSyntheticLung</defName>
 		<label>install synthetic lung</label>
 		<description>Installs synthetic lung.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing synthetic lung.</jobString>
-		<workAmount>1000</workAmount>
+		<workAmount>2500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -251,13 +171,14 @@
 		<addsHediff>SyntheticLung</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgerySynthetic">
+	<RecipeDef ParentName="EPOESurgerySynthetic">
 		<defName>InstallSyntheticStomach</defName>
 		<label>install synthetic stomach</label>
 		<description>Installs a synthetic stomach.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing synthetic stomach.</jobString>
-		<workAmount>1000</workAmount>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
 		<ingredients>
 			<li>
 				<filter>
@@ -265,12 +186,13 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>3</count>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
 						<li>SyntheticStomach</li>
+						<li>BionicStomach</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -282,6 +204,7 @@
 			</categories>
 			<thingDefs>
 				<li>SyntheticStomach</li>
+				<li>BionicStomach</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
@@ -290,13 +213,14 @@
 		<addsHediff>SyntheticStomach</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgerySynthetic">
+	<RecipeDef ParentName="EPOESurgerySynthetic">
 		<defName>InstallSyntheticLiver</defName>
 		<label>install synthetic liver</label>
 		<description>Installs a synthetic liver.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing synthetic liver.</jobString>
-		<workAmount>1000</workAmount>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
 		<ingredients>
 			<li>
 				<filter>
@@ -304,7 +228,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>3</count>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -329,13 +253,13 @@
 		<addsHediff>SyntheticLiver</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgerySynthetic">
+	<RecipeDef ParentName="EPOESurgerySynthetic">
 		<defName>InstallSyntheticKidney</defName>
 		<label>install synthetic kidney</label>
 		<description>Installs a synthetic kidney.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing synthetic kidney.</jobString>
-		<workAmount>1000</workAmount>
+		<workAmount>2500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -368,13 +292,17 @@
 		<addsHediff>SyntheticKidney</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgerySynthetic">
+	<RecipeDef ParentName="EPOESurgerySynthetic">
 		<defName>InstallSyntheticHeart</defName>
 		<label>install synthetic heart</label>
 		<description>Installs an artificial heart.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing an artificial heart.</jobString>
-		<workAmount>1000</workAmount>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -388,6 +316,7 @@
 				<filter>
 					<thingDefs>
 						<li>SyntheticHeart</li>
+						<li>BionicHeart</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -399,6 +328,7 @@
 			</categories>
 			<thingDefs>
 				<li>SyntheticHeart</li>
+				<li>BionicHeart</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>

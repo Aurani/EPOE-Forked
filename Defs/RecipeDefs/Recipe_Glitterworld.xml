@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- EPOE -->
-
-	<RecipeDef Name="SurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
-		<surgerySuccessChanceFactor>0.99</surgerySuccessChanceFactor>
-		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+	<RecipeDef Name="EPOESurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
 		<workerClass>Recipe_InstallImplant</workerClass>
-		<workAmount>1500</workAmount>
+		<workAmount>3700</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
 		<recipeUsers>
 			<li>Human</li>
 		</recipeUsers>
-		<!--<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>-->
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryGlitterworld">
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
 		<defName>InstallMuscleStimulatorArms</defName>
 		<label>install muscle stimulator</label>
 		<description>Installs muscle stimulator.</description>
@@ -51,7 +50,7 @@
 		<addsHediff>MuscleStimulatorArms</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryGlitterworld">
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
 		<defName>InstallMuscleStimulatorLegs</defName>
 		<label>install muscle stimulator</label>
 		<description>Installs muscle stimulator.</description>
@@ -88,11 +87,15 @@
 		<addsHediff>MuscleStimulatorLegs</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryGlitterworld">
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
 		<defName>InstallTacticalCorneaImplant</defName>
 		<label>install tactical cornea implant</label>
 		<description>Installs tactical cornea implant.</description>
 		<jobString>Installing tactical cornea implant.</jobString>
+		<workAmount>4200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -100,7 +103,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>6</count>
+				<count>7</count>
 			</li>
 			<li>
 				<filter>
@@ -125,7 +128,7 @@
 		<addsHediff>TacticalCorneaImplant</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryGlitterworld">
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
 		<defName>InstallConstructorCore</defName>
 		<label>install auxiliary AI (constructing)</label>
 		<description>Installs auxiliary AI (constructing).</description>
@@ -163,7 +166,7 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryGlitterworld">
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
 		<defName>InstallFarmerCore</defName>
 		<label>install auxiliary AI (agricultural)</label>
 		<description>Installs auxiliary AI (agricultural).</description>
@@ -201,7 +204,7 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryGlitterworld">
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
 		<defName>InstallMinerCore</defName>
 		<label>install auxiliary AI (mining)</label>
 		<description>Installs auxiliary AI (mining).</description>
@@ -239,7 +242,7 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryGlitterworld">
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
 		<defName>InstallDoctorCore</defName>
 		<label>install auxiliary AI (medical)</label>
 		<description>Installs auxiliary AI (medical).</description>
@@ -277,7 +280,7 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryGlitterworld">
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
 		<defName>InstallDiplomatCore</defName>
 		<label>install auxiliary AI (diplomatic)</label>
 		<description>Installs auxiliary AI (diplomatic).</description>

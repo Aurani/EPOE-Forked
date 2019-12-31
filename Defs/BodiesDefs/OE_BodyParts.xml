@@ -3,17 +3,6 @@
 <Defs>
 
   <BodyPartDef>
-    <defName>Stomach</defName>
-    <label>stomach</label>
-    <hitPoints>20</hitPoints>
-    <skinCovered>false</skinCovered>
-    <tags>
-      <li>MetabolismSource</li>
-    </tags>
-    <spawnThingOnRemoved>Stomach</spawnThingOnRemoved>
-  </BodyPartDef>
-  
-  <BodyPartDef>
     <defName>Rib1</defName>
     <label>first rib</label>
     <hitPoints>8</hitPoints>

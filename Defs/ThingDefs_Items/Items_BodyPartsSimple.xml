@@ -1,172 +1,265 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef Name="Simple" ParentName="BodyPartBase" Abstract="True">
-	    <techLevel>Industrial</techLevel>
-		<tradeTags>
-			<li>SimpleProstheses</li>
-		</tradeTags>
-		<thingCategories>
-			<li>SimpleProstheses</li>
-		</thingCategories>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/SimplePart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-	</ThingDef>
+	<!-- Vanilla overwrites, for now. -->
 
-	<!-- Added body parts -->
-
-	<ThingDef ParentName="Simple">
-		<defName>GoldenEye</defName>
-		<label>golden eye</label>
-		<description>Replaces missing eyes. So incredibly beautiful that it's a shame you can't see yourself in the mirror.</description>
-		<statBases>
-			<MarketValue>300</MarketValue>
-			<Mass>0.3</Mass>
-		</statBases>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-	</ThingDef>
-
-	<ThingDef ParentName="Simple">
-		<defName>ArtificialNose</defName>
-		<label>artificial nose</label>
-		<description>Replaces a missing nose. Covers the hole in the face.</description>
-		<statBases>
-			<MarketValue>300</MarketValue>
-			<Mass>0.2</Mass>
-		</statBases>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-	</ThingDef>
-	
-  <ThingDef ParentName="Simple">
-    <defName>CochlearImplant</defName>
-    <label>cochlear implant</label>
-    <description>An implant which replaces normal hearing. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf.</description>
-    <statBases>
-	  <MarketValue>500</MarketValue>
-      <Mass>0.05</Mass>
-    </statBases>
-    <techHediffsTags>
-      <li>Simple</li>
-    </techHediffsTags>
-  </ThingDef>
-
-	<ThingDef ParentName="Simple">
-		<defName>HydraulicJaw</defName>
-		<label>hydraulic jaw</label>
-		<description>Replaces a missing jaw. Be careful with the extremely efficient teeth!</description>
-		<statBases>
-			<MarketValue>200</MarketValue>
-			<Mass>2</Mass>
-		</statBases>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-	</ThingDef>   
-	
-	<ThingDef ParentName="Simple">
-		<defName>LightReceptor</defName>
-		<label>light receptor</label>
-		<description>Replaces a missing eye. Can detect light and even objects. Like looking through frosted glass but without the colors.</description>
-		<statBases>
-			<MarketValue>475</MarketValue>
-			<Mass>0.3</Mass>
-		</statBases>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-	</ThingDef>   
-
-	<ThingDef ParentName="Simple">
-		<defName>SimpleProstheticHand</defName>
-		<label>simple prosthetic hand</label>
-		<description>Replaces missing hands. Way more comfortable and less frightening than the hook hand.</description>
-		<statBases>
-			<MarketValue>450</MarketValue>
-			<Mass>3</Mass>
-		</statBases>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-	</ThingDef>
-
-	<ThingDef ParentName="Simple">
-		<defName>SimpleProstheticFoot</defName>
-		<label>simple prosthetic foot</label>
-		<description>Replaces missing feet. Not as cheap as a wood log.</description>
-		<statBases>
-			<MarketValue>400</MarketValue>
-			<Mass>3</Mass>
-		</statBases>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-	</ThingDef>
-
-	<ThingDef ParentName="Simple">
+	<ThingDef ParentName="BodyPartProstheticBase">
 		<defName>SimpleProstheticLeg</defName>
 		<label>simple prosthetic leg</label>
 		<description>Simple prosthesis made to replace a missing leg. Not very comfortable but quite efficient.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>55</Steel>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
 		<statBases>
-			<MarketValue>700</MarketValue>
+			<WorkToMake>5000</WorkToMake>
 			<Mass>8</Mass>
 		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Simple</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Simple">
+	<ThingDef ParentName="BodyPartProstheticBase">
 		<defName>SimpleProstheticArm</defName>
 		<label>simple prosthetic arm</label>
 		<description>Simple but durable arm prosthesis.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>55</Steel>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
 		<statBases>
-			<MarketValue>700</MarketValue>
+			<WorkToMake>5000</WorkToMake>
 			<Mass>5</Mass>
 		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Simple</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Simple">
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>CochlearImplant</defName>
+		<label>cochlear implant</label>
+		<description>An implant which replaces normal hearing. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+		  <WorkToMake>5000</WorkToMake>
+		  <Mass>0.05</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+		  <li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- Redundant overwriting. For now. -->
+
+	<ThingDef ParentName="BodyPartArtificialBase">
+		<defName>SimpleProstheticHeart</defName>
+		<label>prosthetic heart</label>
+		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart.</description> 
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItemProsthetic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Cloth>40</Cloth>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<tradeability>None</tradeability>
+		<generateAllowChance>0</generateAllowChance>
+	</ThingDef>
+	
+	<!-- New EPOE body parts -->
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>GoldenEye</defName>
+		<label>golden eye</label>
+		<description>Replaces missing eyes. So incredibly beautiful that it's a shame you can't see yourself in the mirror.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Gold>1</Gold>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>ArtificialNose</defName>
+		<label>artificial nose</label>
+		<description>Replaces a missing nose. Covers the hole in the face.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Plasteel>20</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.2</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>HydraulicJaw</defName>
+		<label>hydraulic jaw</label>
+		<description>Replaces a missing jaw. Be careful with the extremely efficient teeth!</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>65</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>LightReceptor</defName>
+		<label>light receptor</label>
+		<description>Replaces a missing eye. Can detect light and even objects. Like looking through frosted glass but without the colors.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>SimpleProstheticHand</defName>
+		<label>simple prosthetic hand</label>
+		<description>Replaces missing hands. Way more comfortable and less frightening than the hook hand.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>35</Steel>
+			<Plasteel>15</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>SimpleProstheticFoot</defName>
+		<label>simple prosthetic foot</label>
+		<description>Replaces missing feet. Not as cheap as a wood log.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>35</Steel>
+			<Plasteel>15</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
 		<defName>ArtificialPelvis</defName>
 		<label>artificial pelvis</label>
 		<description>Replaces a missing pelvis. Pretty useful if crawling is not your favourite way of moving around.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>45</Steel>
+			<Plasteel>20</Plasteel>
+		</costList>
 		<statBases>
-			<MarketValue>450</MarketValue>
+			<WorkToMake>5000</WorkToMake>
 			<Mass>5</Mass>
 		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Simple</li>
 		</techHediffsTags>
 	</ThingDef>
-	
-	<ThingDef ParentName="Simple">
+
+	<ThingDef ParentName="BodyPartProstheticBase">
 		<defName>ArtificialClavicle</defName>
 		<label>artificial clavicle</label>
 		<description>Replaces a missing clavicle. If you somehow manage to break yours.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>35</Steel>
+		</costList>
 		<statBases>
-			<MarketValue>100</MarketValue>
+			<WorkToMake>5000</WorkToMake>
 			<Mass>0.5</Mass>
 		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Simple</li>
 		</techHediffsTags>
 	</ThingDef>
-	
-<!-- Do it properly or don't do it at all Tynan ^^ -->	
-	
-  <ThingDef>
-    <defName>SimpleProstheticHeart</defName>
-    <thingClass>ThingWithComps</thingClass>
-    <label>n/a</label>
-    <description>n/a</description>
-  </ThingDef>
 
 </Defs>

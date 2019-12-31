@@ -1,149 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <RecipeDef Abstract="True" Name="SurgeryFlesh">
-    <effectWorking>Surgery</effectWorking>
-    <soundWorking>Recipe_Surgery</soundWorking>
-    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
-    <workSkill>Medicine</workSkill>
-    <workSkillLearnFactor>16</workSkillLearnFactor>
-		<!--<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>-->
-  </RecipeDef>
 	
-	<RecipeDef Name="SurgeryBasic" ParentName="SurgeryFlesh" Abstract="True">
-		<surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
+	<RecipeDef Name="EPOESurgeryBasic" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>1.4</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryBasic">
-		<defName>InstallSteelArm</defName>
-		<label>install steel arm</label>
-		<description>Installs steel arm.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing steel arm.</jobString>
-		<workAmount>350</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>SteelArm</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>SteelArm</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Shoulder</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>SteelArm</addsHediff>
-	</RecipeDef>
+	<!-- Vanilla overwrites, for now. -->
 
-	<RecipeDef ParentName="SurgeryBasic">
-		<defName>InstallEyePatch</defName>
-		<label>install eye patch</label>
-		<description>Installs eye patch.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing eye patch.</jobString>
-		<workAmount>350</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>EyePatch</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>EyePatch</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Eye</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>EyePatch</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryBasic">
-		<defName>InstallHookHand</defName>
-		<label>install hook hand</label>
-		<description>Installs hook hand.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing hook hand.</jobString>
-		<workAmount>350</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>HookHand</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>HookHand</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Hand</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>HookHand</addsHediff>
-	</RecipeDef>
-
-
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="EPOESurgeryBasic">
 		<defName>InstallDenture</defName>
 		<label>install denture</label>
-		<description>Installs a simple denture.</description>
+		<description>Install a denture.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing a denture.</jobString>
-		<workAmount>350</workAmount>
+		<jobString>Installing denture.</jobString>
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
@@ -173,16 +50,17 @@
 		<appliedOnFixedBodyParts>
 			<li>Jaw</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>denture</addsHediff>
+		<addsHediff>Denture</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryBasic">
+
+	<RecipeDef ParentName="EPOESurgeryBasic">
 		<defName>InstallWoodenFoot</defName>
 		<label>install wooden foot</label>
 		<description>Installs a wooden foot.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Attaching wood log to the leg.</jobString>
-		<workAmount>350</workAmount>
+		<workAmount>1000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -215,13 +93,13 @@
 		<addsHediff>WoodenFoot</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="EPOESurgeryBasic">
 		<defName>InstallPegLeg</defName>
 		<label>install peg leg</label>
 		<description>Installs a wooden leg.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing peg leg.</jobString>
-		<workAmount>350</workAmount>
+		<workAmount>1300</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -254,13 +132,144 @@
 		<addsHediff>PegLeg</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryBasic">
+	<!-- New EPOE body parts -->
+
+	<RecipeDef ParentName="EPOESurgeryBasic">
+		<defName>InstallSteelArm</defName>
+		<label>install steel arm</label>
+		<description>Installs steel arm.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing steel arm.</jobString>
+		<workAmount>1300</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SteelArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SteelArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SteelArm</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryBasic">
+		<defName>InstallHookHand</defName>
+		<label>install hook hand</label>
+		<description>Installs hook hand.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing hook hand.</jobString>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HookHand</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HookHand</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>HookHand</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryBasic">
+		<defName>InstallEyePatch</defName>
+		<label>install eye patch</label>
+		<description>Installs eye patch.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing eye patch.</jobString>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EyePatch</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>EyePatch</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EyePatch</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryBasic">
 		<defName>InstallEarBandage</defName>
 		<label>install ear bandage</label>
 		<description>Installs an ear bandage.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing ear bandage.</jobString>
-		<workAmount>350</workAmount>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>

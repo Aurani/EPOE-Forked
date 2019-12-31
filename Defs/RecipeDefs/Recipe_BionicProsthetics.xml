@@ -1,141 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<RecipeDef Name="SurgeryBionic" ParentName="SurgeryFlesh" Abstract="True">
+	<RecipeDef Name="EPOESurgeryBionic" ParentName="SurgeryFlesh" Abstract="True">
 		<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
-		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
 		<recipeUsers>
 			<li>Human</li>
 		</recipeUsers>
-		<!--<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>-->
 	</RecipeDef>
 
-	<!-- Bionics Below -->  
+	<!-- New EPOE body parts -->
 
-  <RecipeDef ParentName="SurgeryBionic">
-    <defName>InstallBionicLeg</defName>
-    <label>install bionic leg</label>
-    <description>Install a bionic leg.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-    <jobString>Installing bionic leg.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>2</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>BionicLeg</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <categories>
-        <li>Medicine</li>
-      </categories>
-      <thingDefs>
-        <li>BionicLeg</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <appliedOnFixedBodyParts>
-      <li>Leg</li>
-    </appliedOnFixedBodyParts>
-    <addsHediff>BionicLeg</addsHediff>
-  </RecipeDef>	
-  
-  <RecipeDef ParentName="SurgeryBionic">
-    <defName>InstallBionicArm</defName>
-    <label>install bionic arm</label>
-    <description>Install a bionic arm.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-    <jobString>Installing bionic arm.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>2</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>BionicArm</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <categories>
-        <li>Medicine</li>
-      </categories>
-      <thingDefs>
-        <li>BionicArm</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <appliedOnFixedBodyParts>
-      <li>Shoulder</li>
-    </appliedOnFixedBodyParts>
-    <addsHediff>BionicArm</addsHediff>
-  </RecipeDef>
-
-	<RecipeDef ParentName="SurgeryBionic">
-		<defName>InstallPowerArm</defName>
-		<label>install power arm</label>
-		<description>Installs power arm.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing power arm.</jobString>
-		<workAmount>2000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>3</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>PowerArm</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>PowerArm</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Shoulder</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>PowerArm</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryBionic">
+	<RecipeDef ParentName="EPOESurgeryBionic">
 		<defName>InstallBionicHand</defName>
 		<label>install bionic hand</label>
 		<description>Installs bionic hand.</description>
@@ -174,7 +52,7 @@
 		<addsHediff>BionicHand</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryBionic">
+	<RecipeDef ParentName="EPOESurgeryBionic">
 		<defName>InstallBionicFoot</defName>
 		<label>install bionic foot</label>
 		<description>Installs bionic foot.</description>
@@ -213,47 +91,7 @@
 		<addsHediff>BionicFoot</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryBionic">
-		<defName>InstallBionicEar</defName>
-		<label>install bionic ear implant</label>
-		<description>Installs a bionic ear implant.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing a bionic ear implant.</jobString>
-		<workAmount>2000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>BionicEar</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>BionicEar</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Ear</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>BionicEar</addsHediff>
-		<workSkill>Medicine</workSkill>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryBionic">
+	<RecipeDef ParentName="EPOESurgeryBionic">
 		<defName>InstallBionicJaw</defName>
 		<label>install bionic jaw implant</label>
 		<description>Installs a bionic jaw implant.</description>
@@ -267,7 +105,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -292,7 +130,7 @@
 		<addsHediff>BionicJaw</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryBionic">
+	<RecipeDef ParentName="EPOESurgeryBionic">
 		<defName>InstallSilentJaw</defName>
 		<label>install silent jaw implant</label>
 		<description>Installs a silent jaw implant.</description>
@@ -306,7 +144,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -331,13 +169,13 @@
 		<addsHediff>SilentJaw</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryBionic">
-		<defName>InstallBionicSpine</defName>
-		<label>install bionic spine</label>
-		<description>Installs a bionic spine.</description>
+	<RecipeDef ParentName="EPOESurgeryBionic">
+		<defName>InstallPowerArm</defName>
+		<label>install power arm</label>
+		<description>Installs power arm.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing a bionic spine.</jobString>
-		<workAmount>2000</workAmount>
+		<jobString>Installing power arm.</jobString>
+		<workAmount>2500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -345,12 +183,12 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>5</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>BionicSpine</li>
+						<li>PowerArm</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -361,101 +199,16 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>BionicSpine</li>
+				<li>PowerArm</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Spine</li>
+			<li>Shoulder</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>BionicSpine</addsHediff>
+		<addsHediff>PowerArm</addsHediff>
 	</RecipeDef>
 
-  <RecipeDef ParentName="SurgeryBionic">
-    <defName>InstallPowerClaw</defName>
-    <label>install power claw</label>
-    <description>Install a power claw.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-    <jobString>Installing power claw.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>2</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PowerClaw</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <categories>
-        <li>Medicine</li>
-      </categories>
-      <thingDefs>
-        <li>PowerClaw</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <appliedOnFixedBodyParts>
-      <li>Hand</li>
-    </appliedOnFixedBodyParts>
-    <addsHediff>PowerClaw</addsHediff>
-  </RecipeDef>
-
-  <RecipeDef ParentName="SurgeryBionic">
-    <defName>InstallBionicEye</defName>
-    <label>install bionic eye</label>
-    <description>Install a bionic eye.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-    <jobString>Installing bionic eye.</jobString>
-    <workAmount>3500</workAmount>
-    <deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>
-    <skillRequirements>
-      <Medicine>7</Medicine>
-    </skillRequirements>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>3</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>BionicEye</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <categories>
-        <li>Medicine</li>
-      </categories>
-      <thingDefs>
-        <li>BionicEye</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <appliedOnFixedBodyParts>
-      <li>Eye</li>
-    </appliedOnFixedBodyParts>
-    <addsHediff>BionicEye</addsHediff>
-  </RecipeDef>	
-	
-	<RecipeDef ParentName="SurgeryBionic">
+	<RecipeDef ParentName="EPOESurgeryBionic">
 		<defName>InstallMedicalRib</defName>
 		<label>install medical rib replacement</label>
 		<description>Installs a medical rib replacement.</description>
@@ -494,7 +247,7 @@
 		<addsHediff>MedicalRib</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryBionic">
+	<RecipeDef ParentName="EPOESurgeryBionic">
 		<defName>InstallDruggedRib</defName>
 		<label>install drugged rib</label>
 		<description>Installs a drugged rib.</description>
@@ -533,7 +286,7 @@
 		<addsHediff>DruggedRib</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryBionic">
+	<RecipeDef ParentName="EPOESurgeryBionic">
 		<defName>InstallAdrenalineRib</defName>
 		<label>install adrenaline rib</label>
 		<description>Installs an adrenaline rib.</description>
@@ -572,7 +325,7 @@
 		<addsHediff>AdrenalineRib</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryBionic">
+	<RecipeDef ParentName="EPOESurgeryBionic">
 		<defName>InstallPainkillerRib</defName>
 		<label>install painkiller rib</label>
 		<description>Installs a painkiller rib.</description>

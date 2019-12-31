@@ -1,145 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Defs>
-   <HediffDef Name="addedPartSimple" Abstract="True">
-      <hediffClass>Hediff_AddedPart</hediffClass>
-      <isBad>false</isBad>
-      <defaultLabelColor>(102,178,255)</defaultLabelColor>
-      <addedPartProps>
-         <betterThanNatural>false</betterThanNatural>
-      </addedPartProps>
-   </HediffDef>
 
-   <!-- Added body parts -->
-   
-   <HediffDef ParentName="addedPartSimple">
-      <defName>GoldenEye</defName>
-      <label>golden eye</label>
-      <spawnThingOnRemoved>GoldenEye</spawnThingOnRemoved>
-      <addedPartProps>
-         <partEfficiency>0</partEfficiency>
-      </addedPartProps>
-   </HediffDef>
-   
-   <HediffDef ParentName="addedPartSimple">
-      <defName>LightReceptor</defName>
-      <label>light receptor</label>
-      <spawnThingOnRemoved>LightReceptor</spawnThingOnRemoved>
-      <addedPartProps>
-         <partEfficiency>0.6</partEfficiency>
-      </addedPartProps>
-   </HediffDef>
-   
-   <HediffDef ParentName="addedPartSimple">
-      <defName>SimpleProstheticHand</defName>
-      <label>simple prosthetic hand</label>
-      <spawnThingOnRemoved>SimpleProstheticHand</spawnThingOnRemoved>
-      <addedPartProps>
-         <partEfficiency>0.7</partEfficiency>
-      </addedPartProps>
-      <comps>
-         <li Class="HediffCompProperties_VerbGiver">
-            <tools>
-               <li>
-                  <label>bionic fist</label>
-                  <capacities>
-                     <li>Blunt</li>
-                  </capacities>
-                  <power>9</power>
-                  <cooldownTime>1.65</cooldownTime>
-               </li>
-            </tools>
-         </li>
-      </comps>
-   </HediffDef>
-   
-   <HediffDef ParentName="addedPartSimple">
-      <defName>SimpleProstheticFoot</defName>
-      <label>simple prosthetic foot</label>
-      <spawnThingOnRemoved>SimpleProstheticFoot</spawnThingOnRemoved>
-      <addedPartProps>
-         <partEfficiency>0.9</partEfficiency>
-      </addedPartProps>
-   </HediffDef>
-   
-   <HediffDef ParentName="addedPartSimple">
-      <defName>SimpleProstheticArm</defName>
-      <label>simple prosthetic arm</label>
-      <spawnThingOnRemoved>SimpleProstheticArm</spawnThingOnRemoved>
-      <addedPartProps>
-         <partEfficiency>0.7</partEfficiency>
-      </addedPartProps>
-      <comps>
-         <li Class="HediffCompProperties_VerbGiver">
-            <verbs>
-               <li>
-                  <verbClass>Verb_MeleeAttack</verbClass>
-                  <defaultCooldownTime>1.65</defaultCooldownTime>
-                  <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
-                  <meleeDamageDef>Blunt</meleeDamageDef>
-               </li>
-            </verbs>
-         </li>
-      </comps>
-   </HediffDef>
-   
-   <HediffDef ParentName="addedPartSimple">
-      <defName>SimpleProstheticLeg</defName>
-      <label>simple prosthetic leg</label>
-      <spawnThingOnRemoved>SimpleProstheticLeg</spawnThingOnRemoved>
-      <addedPartProps>
-         <partEfficiency>0.8</partEfficiency>
-      </addedPartProps>
-   </HediffDef>
-   
-   <HediffDef ParentName="addedPartSimple">
-      <defName>ArtificialNose</defName>
-      <label>artificial nose</label>
-      <spawnThingOnRemoved>ArtificialNose</spawnThingOnRemoved>
-      <addedPartProps>
-         <partEfficiency>1</partEfficiency>
-      </addedPartProps>
-   </HediffDef>
-   
-   <HediffDef ParentName="addedPartSimple">
-      <defName>HydraulicJaw</defName>
-      <label>hydraulic jaw</label>
-      <spawnThingOnRemoved>HydraulicJaw</spawnThingOnRemoved>
-      <addedPartProps>
-         <partEfficiency>1</partEfficiency>
-      </addedPartProps>
-      <stages>
-		<li>
-         <capMods>
-            <li>
-               <capacity>Eating</capacity>
-               <offset>0.2</offset>
-            </li>
-            <li>
-               <capacity>Talking</capacity>
-               <offset>-0.2</offset>
-            </li>
-         </capMods>
-		</li>	 
-      </stages>
-   </HediffDef>
+	<HediffDef Name="addedPartSimple" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(102,178,255)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>false</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
 
-   <HediffDef ParentName="addedPartSimple">
-      <defName>ArtificialPelvis</defName>
-      <label>artificial pelvis</label>
-      <spawnThingOnRemoved>ArtificialPelvis</spawnThingOnRemoved>
-      <addedPartProps>
-         <partEfficiency>0.9</partEfficiency>
-      </addedPartProps>
-   </HediffDef>
-   
-   <HediffDef ParentName="addedPartSimple">
-      <defName>ArtificialClavicle</defName>
-      <label>artificial clavicle</label>
-      <spawnThingOnRemoved>ArtificialClavicle</spawnThingOnRemoved>
-      <addedPartProps>
-         <partEfficiency>0.9</partEfficiency>
-      </addedPartProps>
-   </HediffDef>
-   
+
+	<!-- Vanilla overwrites, for now. -->
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticArm</defName>
+		<label>simple prosthetic arm</label>
+		<spawnThingOnRemoved>SimpleProstheticArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.7</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>8.2</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticLeg</defName>
+		<label>simple prosthetic leg</label>
+		<spawnThingOnRemoved>SimpleProstheticLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<!-- New EPOE body parts -->
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>GoldenEye</defName>
+		<label>golden eye</label>
+		<spawnThingOnRemoved>GoldenEye</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>LightReceptor</defName>
+		<label>light receptor</label>
+		<spawnThingOnRemoved>LightReceptor</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.6</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticHand</defName>
+		<label>simple prosthetic hand</label>
+		<spawnThingOnRemoved>SimpleProstheticHand</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.7</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bionic fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>9</power>
+						<cooldownTime>1.65</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticFoot</defName>
+		<label>simple prosthetic foot</label>
+		<spawnThingOnRemoved>SimpleProstheticFoot</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.9</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>ArtificialNose</defName>
+		<label>artificial nose</label>
+		<spawnThingOnRemoved>ArtificialNose</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>HydraulicJaw</defName>
+		<label>hydraulic jaw</label>
+		<spawnThingOnRemoved>HydraulicJaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>ArtificialPelvis</defName>
+		<label>artificial pelvis</label>
+		<spawnThingOnRemoved>ArtificialPelvis</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.9</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>ArtificialClavicle</defName>
+		<label>artificial clavicle</label>
+		<spawnThingOnRemoved>ArtificialClavicle</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.9</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
 </Defs>

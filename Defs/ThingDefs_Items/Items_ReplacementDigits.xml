@@ -1,28 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef ParentName="Bionic">
+
+	<ThingDef ParentName="BodyPartBionicBase">
 		<defName>BionicFinger</defName>
 		<label>bionic finger</label>
 		<description>A replacement finger allowing for slightly faster and more precise movement.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<Steel>7</Steel>
+			<Plasteel>7</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
 		<statBases>
-			<MarketValue>200</MarketValue>
+			<WorkToMake>8000</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
+		<tradeTags>
+			<li>BionicProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Bionic">
+	<ThingDef ParentName="BodyPartBionicBase">
 		<defName>BionicToe</defName>
 		<label>bionic toe</label>
 		<description>A replacement toe which lets the wearer grip the ground slightly better.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<Steel>7</Steel>
+			<Plasteel>7</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
 		<statBases>
-			<MarketValue>150</MarketValue>
+			<WorkToMake>8000</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
+		<tradeTags>
+			<li>BionicProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
+
 </Defs>

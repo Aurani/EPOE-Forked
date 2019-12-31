@@ -1,113 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef Name="Basic" ParentName="BodyPartBase" Abstract="True">
+	<ThingDef Name="BodyPartBasicBase" ParentName="BodyPartArtificialBase"  Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 		<tradeTags>
 			<li>BasicProstheses</li>
 		</tradeTags>
 		<thingCategories>
 			<li>BasicProstheses</li>
 		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
 	</ThingDef>
 
-	<!-- Added body parts -->
+	<!-- Extended Vanilla body parts -->
 
-	<ThingDef ParentName="Basic">
-		<defName>SteelArm</defName>
-		<label>steel arm</label>
-		<description>A very poor arm replacement. Looks bad, feels bad, is bad.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>200</MarketValue>
-			<Mass>6</Mass>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="Basic">
-		<defName>EyePatch</defName>
-		<label>eye patch</label>
-		<description>Covers the eye socket. Intimidating.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>65</MarketValue>
-			<Mass>0.3</Mass>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="Basic">
-		<defName>HookHand</defName>
-		<label>hook hand</label>
-		<description>Replaces missing hands. Pretty scary. Yarr.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>115</MarketValue>
-			<Mass>2</Mass>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="Basic">
+	<ThingDef ParentName="BodyPartBasicBase">
 		<defName>denture</defName>
 		<label>denture</label>
 		<description>Replaces a missing jaw with wooden teeth. Smells a bit.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<recipeUsers>
+				<li>TableBasicProsthetic</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+			<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+			<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<WoodLog>20</WoodLog>
+		</costList>
 		<statBases>
-			<MarketValue>40</MarketValue>
+			<WorkToMake>2500</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="Basic">
+	<ThingDef ParentName="BodyPartBasicBase">
 		<defName>PegLeg</defName>
 		<label>peg leg</label>
 		<description>Replaces a missing leg with a wooden one. Out of fashion but it does its job pretty well.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<recipeUsers>
+				<li>TableBasicProsthetic</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+			<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+			<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<WoodLog>50</WoodLog>
+		</costList>
 		<statBases>
-			<MarketValue>100</MarketValue>
+			<WorkToMake>2500</WorkToMake>
 			<Mass>6</Mass>
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="Basic">
+	<ThingDef ParentName="BodyPartBasicBase">
 		<defName>WoodenFoot</defName>
 		<label>wooden foot</label>
 		<description>Replaces missing feet with a wooden log. At least it's more comfortable than hopping around.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<recipeUsers>
+				<li>TableBasicProsthetic</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+			<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+			<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<WoodLog>15</WoodLog>
+		</costList>
 		<statBases>
-			<MarketValue>25</MarketValue>
+			<WorkToMake>2500</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="Basic">
+	<!-- New EPOE body parts -->
+	
+	<ThingDef ParentName="BodyPartBasicBase">
+		<defName>SteelArm</defName>
+		<label>steel arm</label>
+		<description>A very poor arm replacement. Looks bad, feels bad, is bad.</description>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<recipeUsers>
+				<li>TableBasicProsthetic</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+			<soundWorking>EPOEAssembling</soundWorking>
+			<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>75</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>6</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBasicBase">
 		<defName>EarBandage</defName>
 		<label>ear bandage</label>
 		<description>Covers a missing ear. Look like a certain unsuccessful 19th century artist!</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
 		<statBases>
-			<MarketValue>50</MarketValue>
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
 
+	<ThingDef ParentName="BodyPartBasicBase">
+		<defName>EyePatch</defName>
+		<label>eye patch</label>
+		<description>Covers the eye socket. Intimidating.</description>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBasicBase">
+		<defName>HookHand</defName>
+		<label>hook hand</label>
+		<description>Replaces missing hands. Pretty scary. Yarr.</description>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	
 </Defs>

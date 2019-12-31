@@ -1,50 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef ParentName="Bionic">
+
+	<ThingDef ParentName="BodyPartProstheticBase">
 		<defName>SimpleSpine</defName>
 		<label>replacement spine</label>
 		<description>This simple but advanced device can almost perfectly replace a damaged spine.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>55</Steel>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
 		<statBases>
-			<MarketValue>1250</MarketValue>
-			<Mass>4</Mass>
+		  <WorkToMake>5000</WorkToMake>
+		  <Mass>4</Mass>
 		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
-			<li>Advanced</li>
+		  <li>Simple</li>
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Simple">
+	<ThingDef ParentName="BodyPartProstheticBase">
 		<defName>SimpleRib</defName>
 		<label>simple rib replacement</label>
 		<description>An artificial rib, and nothing more.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Plasteel>30</Plasteel>
+		</costList>
 		<statBases>
-			<MarketValue>300</MarketValue>
+			<WorkToMake>5000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Simple</li>
 		</techHediffsTags>
 	</ThingDef>
-	<ThingDef ParentName="Simple">
+
+	<ThingDef ParentName="BodyPartProstheticBase">
 		<defName>ReplacementRadius</defName>
 		<label>replacement radius</label>
 		<description>A replacement for the radius, a bone in the lower arm.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Plasteel>30</Plasteel>
+		</costList>
 		<statBases>
-			<MarketValue>300</MarketValue>
+			<WorkToMake>5000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
 		<techHediffsTags>
 			<li>Simple</li>
 		</techHediffsTags>
 	</ThingDef>
-	<ThingDef ParentName="Synthetic">
+	
+	<ThingDef ParentName="EPOESyntheticBase">
 		<defName>NeuromuscularFramework</defName>
 		<label>neuromuscular framework</label>
 		<description>A set of synthetic muscles and artificial nerves capable of perfectly recreating the function of a healthy torso.</description>
 		<tradeability>None</tradeability>
+		<costList>
+			<MedicineUltratech>5</MedicineUltratech>
+			<Hyperweave>50</Hyperweave>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
-			<Mass>1.0</Mass>
-			<MarketValue>1250</MarketValue>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>1</Mass>
 		</statBases>
 	</ThingDef>
+
 </Defs>

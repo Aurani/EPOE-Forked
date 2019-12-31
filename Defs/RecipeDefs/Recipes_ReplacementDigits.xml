@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<RecipeDef ParentName="SurgeryBionic">
+
+	<RecipeDef ParentName="EPOESurgeryBionic">
 		<defName>InstallBionicFinger</defName>
 		<label>install bionic finger</label>
 		<description>Installs bionic finger.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bionic finger.</jobString>
-		<workAmount>400</workAmount>
+		<workAmount>1000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -38,13 +39,14 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicFinger</addsHediff>
 	</RecipeDef>
-	<RecipeDef ParentName="SurgeryBionic">
+
+	<RecipeDef ParentName="EPOESurgeryBionic">
 		<defName>InstallBionicToe</defName>
 		<label>install bionic toe</label>
 		<description>Installs bionic toe.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bionic toe.</jobString>
-		<workAmount>400</workAmount>
+		<workAmount>1000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -76,4 +78,5 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicToe</addsHediff>
 	</RecipeDef>
+
 </Defs>
