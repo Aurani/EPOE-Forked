@@ -34,7 +34,7 @@
 			<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 		</recipeMaker>
 		<costList>
-			<WoodLog>20</WoodLog>
+			<WoodLog>4</WoodLog>
 		</costList>
 		<statBases>
 			<WorkToMake>2500</WorkToMake>
@@ -57,7 +57,7 @@
 			<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 		</recipeMaker>
 		<costList>
-			<WoodLog>50</WoodLog>
+			<WoodLog>10</WoodLog>
 		</costList>
 		<statBases>
 			<WorkToMake>2500</WorkToMake>
@@ -80,7 +80,7 @@
 			<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 		</recipeMaker>
 		<costList>
-			<WoodLog>15</WoodLog>
+			<WoodLog>4</WoodLog>
 		</costList>
 		<statBases>
 			<WorkToMake>2500</WorkToMake>
@@ -105,7 +105,7 @@
 			<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 		</recipeMaker>
 		<costList>
-			<Steel>75</Steel>
+			<Steel>50</Steel>
 		</costList>
 		<statBases>
 			<WorkToMake>2500</WorkToMake>
