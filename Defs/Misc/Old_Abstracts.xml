@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="SurgeryAdvanced" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef Name="SurgeryBasic" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>1.4</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+	
+
+	<RecipeDef Name="SurgeryBionic" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	
+	<RecipeDef Name="SurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>3700</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef Name="SurgeryNatural" ParentName="SurgeryFlesh" Abstract="True">
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef Name="SurgerySimple" ParentName="SurgeryFlesh" Abstract="True">
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef Name="SurgerySurrogate" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+		<RecipeDef Name="SurgerySynthetic" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Abstract="True" Name="RecipeAdvancedProsthesis">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>EPOEAssembling</soundWorking>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>10000</workAmount>
+		<researchPrerequisite>AdvancedBionics</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>TableBionics</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Abstract="True" Name="RecipeBasicProsthesis">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>2500</workAmount>
+	</RecipeDef>
+	
+	<RecipeDef Abstract="True" Name="RecipeBionicProsthesis">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>EPOEAssembling</soundWorking>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>8000</workAmount>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef Abstract="True" Name="RecipeSimpleProsthesis">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>EPOEAssembling</soundWorking>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>5000</workAmount>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef Abstract="True" Name="RecipeSurrogateOrgan">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>4500</workAmount>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef Abstract="True" Name="RecipeSyntheticOrgan">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>7500</workAmount>
+		<researchPrerequisite>SyntheticOrgans</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>TableOrgans</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<ThingDef Name="Advanced" ParentName="BodyPartArtificialBase" Abstract="True">
+	    <techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>AdvancedProstheses</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AdvancedPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef Name="Basic" ParentName="BodyPartArtificialBase" Abstract="True">
+		<tradeTags>
+			<li>BasicProstheses</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>BasicProstheses</li>
+		</thingCategories>
+      <graphicData>
+         <texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+	</ThingDef>
+
+	<ThingDef Name="Bionic" ParentName="BodyPartArtificialBase" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>BionicProstheses</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>BionicProstheses</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/BionicPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<!--ThingDef Name="Glitterworld" ParentName="BodyPartArtificialBase" Abstract="True">
+		<tradeTags>
+			<li>GlitterworldParts</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>GlitterworldParts</li>
+		</thingCategories>
+	</ThingDef-->
+
+	<ThingDef Name="Simple" ParentName="BodyPartArtificialBase" Abstract="True">
+	    <techLevel>Industrial</techLevel>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>SimpleProstheses</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/SimplePart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef Name="Surrogate" ParentName="BodyPartArtificialBase" Abstract="True">
+	    <techLevel>Industrial</techLevel>
+		<tradeTags>
+			<li>BodyPart</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>SurrogateOrgans</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/SurrogatePart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef Name="Synthetic" ParentName="BodyPartArtificialBase" Abstract="True">
+	    <techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>BodyPart</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>SyntheticOrgans</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/SyntheticPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+</Defs>
