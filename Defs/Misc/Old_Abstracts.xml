@@ -95,13 +95,6 @@
 			<li>TableBionics</li>
 		</recipeUsers>
 	</RecipeDef>
-
-	<RecipeDef Abstract="True" Name="RecipeBasicProsthesis">
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
-		<workSkill>Crafting</workSkill>
-		<workAmount>2500</workAmount>
-	</RecipeDef>
 	
 	<RecipeDef Abstract="True" Name="RecipeBionicProsthesis">
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
