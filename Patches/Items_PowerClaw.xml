@@ -1,39 +1,61 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-<Operation Class="PatchOperationSequence">
-	<success>Always</success>
-	<operations>
-		<li Class="PatchOperationRemove">
-			<xpath>Defs/ThingDef[defName="PowerClaw"]/graphicData/drawSize</xpath>
-		</li>
-		<!--li Class="PatchOperationRemove">
-			<xpath>Defs/ThingDef[defName="PowerClaw"]/thingSetMakerTags</xpath>
-		</li-->
-		<li Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="PowerClaw"]/description</xpath>
-			<value>
-				<description>Powerful hand replacement consisting of three deadly claws.</description>
-			</value>
-		</li>
-		<li Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="PowerClaw"]/graphicData/texPath</xpath>
-			<value>
-				<texPath>Things/Item/BodyPart/BionicPart</texPath>
-			</value>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="PowerClaw"]</xpath>
-			<value>
-				<tradeTags>
-					<li>BionicProstheses</li>
-				</tradeTags>
-				<thingCategories Inherit="False">
-					<li>BionicProstheses</li>
-				</thingCategories>
-			</value>
-		</li>
-	</operations>
-</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>BodyPartBionicBase</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/graphicData/drawSize</xpath>
+			</li>
+			<!--li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/thingSetMakerTags</xpath>
+			</li-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/description</xpath>
+				<value>
+					<description>Powerful hand replacement consisting of three deadly claws.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Item/BodyPart/BionicPart</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]</xpath>
+				<value>
+					<tradeTags>
+						<li>BionicProstheses</li>
+					</tradeTags>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/costList</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]</xpath>
+				<value>
+					<costList>
+						<ScytherBlade>1</ScytherBlade>
+						<Plasteel>35</Plasteel>
+						<ComponentIndustrial>3</ComponentIndustrial>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</Operation>
 
 </Patch>
