@@ -9,7 +9,7 @@
 		<tradeTags>
 			<li>BasicProstheses</li>
 		</tradeTags>
-		<thingCategories>
+		<thingCategories Inherit="False">
 			<li>BasicProstheses</li>
 		</thingCategories>
 		<techHediffsTags>
