@@ -1,7 +1,15 @@
-Version 3.0 is officially out! (31.12.2019)
+Update 3.02 (4.1.2020)
+* Added the power claws production line
+* Added cooling and heating ribs replacements
+* New compatibility patch included for QEE
+* RePower no longer needs an external EPOE patch
 
+Update 3.01 (2.1.2020)
+* Added ability to craft advanced power claw and made some overall quality of life improvements.
+
+Version 3.0 is officially out! (31.12.2019)
 *  Streamlined prosthetic definitions into vanilla standard format for smoother blending with vanilla codes.
-   As a result, other mods that adds custom prosthetics that have been written the same as vanilla core methods, will automatically be reassigned to their respective workbenches.
+As a result, other mods that adds custom prosthetics that have been written the same as vanilla core methods, will automatically be reassigned to their respective workbenches.
 
 2.25 - Mod overhaul (27.12.2019)
 *  Merged EPOE and EPOE Expanded (by dninemfive)
