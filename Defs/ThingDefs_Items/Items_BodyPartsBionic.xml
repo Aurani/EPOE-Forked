@@ -358,29 +358,42 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
-		<defName>ScytherBlade</defName>
-		<label>scyther blade</label>
-		<description>Hand replacement with a telescoping blade. Scavenged from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</description>
+	<ThingDef ParentName="BodyPartBionicRibBase">
+		<defName>HeaterRib</defName>
+		<label>heating rib replacement</label>
+		<description>An artificial rib, containing a micro-reactor powered, heat inducing spiral to warm the body from the inside.</description>
 		<techLevel>Spacer</techLevel>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/BionicPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+		<costList>
+			<SimpleRib>1</SimpleRib>
+			<Plasteel>35</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
 		<statBases>
-			<MarketValue>500</MarketValue>
-			<Mass>3</Mass>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>0.3</Mass>
 		</statBases>
-		<tradeTags>
-			<li>BionicProstheses</li>
-		</tradeTags>
-		<thingCategories Inherit="False">
-			<li>BionicProstheses</li>
-		</thingCategories>
 		<techHediffsTags>
-			<li>SpecialWeapon</li>
+			<li>Advanced</li>
 		</techHediffsTags>
-		<tradeability>Sellable</tradeability>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartBionicRibBase">
+		<defName>CoolerRib</defName>
+		<label>cooling rib replacement</label>
+		<description>An artificial rib with a micro coolant system, increasing the effectiveness of heat exchange via dermal exhausts.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<SimpleRib>1</SimpleRib>
+			<Plasteel>35</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
 	</ThingDef>
 
 </Defs>

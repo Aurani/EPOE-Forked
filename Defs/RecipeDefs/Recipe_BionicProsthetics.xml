@@ -364,4 +364,82 @@
 		<addsHediff>PainkillerRib</addsHediff>
 	</RecipeDef>
 
+	<RecipeDef ParentName="EPOESurgeryBionic">
+		<defName>InstallHeaterRib</defName>
+		<label>install heating rib</label>
+		<description>Installs a heating rib.</description>
+		<jobString>Installing a heating rib.</jobString>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HeaterRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HeaterRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>HeaterRib</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryBionic">
+		<defName>InstallCoolerRib</defName>
+		<label>install cooling rib</label>
+		<description>Installs a cooling rib.</description>
+		<jobString>Installing a cooling rib.</jobString>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CoolerRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CoolerRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>CoolerRib</addsHediff>
+	</RecipeDef>
+
 </Defs>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- A lot of other QEE patches found in Patch xml file OrganHarvesting -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Questionable Ethics Enhanced</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationTest">
+					<xpath>Defs/RecipeDef[@ParentName="EPOESurgeryNatural"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[@ParentName="EPOESurgeryNatural"]</xpath>
+				</li>
+			</operations>
+		</nomatch>
+	</Operation>
+
+</Patch>

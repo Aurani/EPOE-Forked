@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>Smelt_EPOE_DamagedScytherBlade</defName>
+		<label>smelt damaged scyther blade</label>
+		<description>Use heat and strong electromagnets to extract useful metal from a damaged scyther blade.</description>
+		<jobString>Smelting metal from slag.</jobString>
+		<workAmount>700</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_DamagedScytherBlade</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Plasteel>3</Plasteel>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPOE_DamagedScytherBlade</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>InstallScytherBlade</defName>
+		<label>install scyther blade</label>
+		<description>Installs a scyther blade at where the hand is.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing scyther blade.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ScytherBlade</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ScytherBlade</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_ScytherBlade</addsHediff>
+	</RecipeDef>
+
+</Defs>

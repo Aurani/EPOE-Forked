@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>EPOE_DamagedScytherBlade</defName>
+		<label>damaged scyther blade</label>
+		<description>A damaged blade scavenged from a dead scyther mechanoid. Not very useful in it's current state. Can be restored at a simple prosthetics workbench or smelted for some plasteel.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>Things/Item/Resource/EPOEDamagedScytherBlade</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>5</stackLimit>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>20</MarketValue>
+			<Mass>2</Mass>
+			<Flammability>0.7</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>ScytherBlade</defName>
+		<label>scyther blade</label>
+		<description>Hand replacement with a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/BionicPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<EPOE_DamagedScytherBlade>1</EPOE_DamagedScytherBlade>
+			<Steel>5</Steel>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>SpecialWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+</Defs>

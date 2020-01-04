@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Orassans (EPOE Patch)</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName="AdvancedTail"]/statBases/MarketValue</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName="ClothTail"]/statBases/MarketValue</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName="BionicTail"]/statBases/MarketValue</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName="PlasteelClaws"]/statBases/MarketValue</xpath>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Orassans (EPOE Patch)</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RecipeDef[defName="PlasteelClaws"]/statBases/MarketValue</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName="PlasteelClaws"]/statBases/MarketValue</xpath>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

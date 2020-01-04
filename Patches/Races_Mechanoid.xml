@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="Mech_Scyther"]/butcherProducts</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mech_Scyther"]</xpath>
+				<value>
+					<butcherProducts></butcherProducts>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Mech_Scyther"]/butcherProducts</xpath>
+		<value>
+			<EPOE_DamagedScytherBlade>1</EPOE_DamagedScytherBlade>
+		</value>
+	</Operation>
+
+</Patch>

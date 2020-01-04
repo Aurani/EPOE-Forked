@@ -25,12 +25,13 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>bionic fist</label>
+						<label>bionic claw</label>
 						<capacities>
 							<li>Cut</li>
 						</capacities>
-						<power>30</power>
-						<cooldownTime>0.9</cooldownTime>
+						<power>27</power>
+						<cooldownTime>1.7</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 					</li>
 				</tools>
 			</li>
@@ -171,5 +172,5 @@
 			</li>
 		</stages>
 	</HediffDef>
-	
+   
 </Defs>

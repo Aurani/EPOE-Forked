@@ -25,12 +25,13 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>bionic fist</label>
+						<label>bionic claw</label>
 						<capacities>
 							<li>Cut</li>
 						</capacities>
 						<power>22</power>
-						<cooldownTime>1.5</cooldownTime>
+						<cooldownTime>1.7</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 					</li>
 				</tools>
 			</li>
@@ -119,9 +120,6 @@
 		<labelNoun>a medical rib replacement</labelNoun>
 		<hediffClass>Hediff_Implant</hediffClass>
 		<spawnThingOnRemoved>MedicalRib</spawnThingOnRemoved>
-		<addedPartProps>
-			<partEfficiency>1.0</partEfficiency>
-		</addedPartProps>
 		<stages>
 			<li>
 				<capMods>
@@ -140,9 +138,6 @@
 		<labelNoun>a drugged rib</labelNoun>
 		<hediffClass>Hediff_Implant</hediffClass>
 		<spawnThingOnRemoved>DruggedRib</spawnThingOnRemoved>
-		<addedPartProps>
-			<partEfficiency>1.0</partEfficiency>
-		</addedPartProps>
 		<stages>
 			<li>
 				<capMods>
@@ -161,9 +156,6 @@
 		<labelNoun>an adrenaline rib</labelNoun>
 		<hediffClass>Hediff_Implant</hediffClass>
 		<spawnThingOnRemoved>AdrenalineRib</spawnThingOnRemoved>
-		<addedPartProps>
-			<partEfficiency>1.0</partEfficiency>
-		</addedPartProps>
 		<stages>
 			<li>
 				<capMods>
@@ -182,9 +174,6 @@
 		<labelNoun>a painkiller rib</labelNoun>
 		<hediffClass>Hediff_Implant</hediffClass>
 		<spawnThingOnRemoved>PainkillerRib</spawnThingOnRemoved>
-		<addedPartProps>
-			<partEfficiency>1.0</partEfficiency>
-		</addedPartProps>
 		<stages>
 			<li>
 				<painFactor>0.9</painFactor>
@@ -192,6 +181,38 @@
 		</stages>
 	</HediffDef>
 
+	<HediffDef ParentName="addedPartBionics">
+		<defName>HeaterRib</defName>
+		<label>heating rib replacement</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<spawnThingOnRemoved>HeaterRib</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>-2</ComfyTemperatureMax>
+					<ComfyTemperatureMin>-12.5</ComfyTemperatureMin>
+				</statOffsets>
+			</li>	 
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>CoolerRib</defName>
+		<label>cooling rib replacement</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<spawnThingOnRemoved>CoolerRib</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>12.5</ComfyTemperatureMax>
+					<ComfyTemperatureMin>2</ComfyTemperatureMin>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	
+	
 	<!--
 	<HediffDef ParentName="addedPartBionics">
 		<defName>CannonArm</defName>
