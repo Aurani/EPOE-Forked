@@ -1,13 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+	<RecipeDef ParentName="EPOESurgeryBasic">
+		<defName>InstallBasicWoodenFinger</defName>
+		<label>install wooden finger</label>
+		<description>Installs wooden finger.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing wooden finger.</jobString>
+		<workAmount>750</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BasicWoodenFinger</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BasicWoodenFinger</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Finger</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BasicWoodenFinger</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryBasic">
+		<defName>InstallBasicWoodenToe</defName>
+		<label>install wooden toe</label>
+		<description>Installs wooden toe.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing wooden toe.</jobString>
+		<workAmount>750</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BasicWoodenToe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BasicWoodenToe</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Toe</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BasicWoodenToe</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>SimpleProstheticFinger</defName>
+		<label>install simple prosthetic finger</label>
+		<description>Installs simple prosthetic finger.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing simple prosthetic finger.</jobString>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticFinger</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SimpleProstheticFinger</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Finger</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticFinger</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>SimpleProstheticToe</defName>
+		<label>install simple prosthetic toe</label>
+		<description>Installs simple prosthetic toe.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing simple prosthetic toe.</jobString>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticToe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SimpleProstheticToe</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Toe</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticToe</addsHediff>
+	</RecipeDef>
+
 	<RecipeDef ParentName="EPOESurgeryBionic">
 		<defName>InstallBionicFinger</defName>
 		<label>install bionic finger</label>
 		<description>Installs bionic finger.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bionic finger.</jobString>
-		<workAmount>1000</workAmount>
+		<workAmount>1500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -46,7 +208,7 @@
 		<description>Installs bionic toe.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing bionic toe.</jobString>
-		<workAmount>1000</workAmount>
+		<workAmount>1500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -77,6 +239,84 @@
 			<li>Toe</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicToe</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicFinger</defName>
+		<label>install advanced bionic finger</label>
+		<description>Installs advanced bionic finger.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing advanced bionic finger.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicFinger</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AdvancedBionicFinger</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Finger</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicFinger</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicToe</defName>
+		<label>install advanced bionic toe</label>
+		<description>Installs advanced bionic toe.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing advanced bionic toe.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicToe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AdvancedBionicToe</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Toe</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicToe</addsHediff>
 	</RecipeDef>
 
 </Defs>

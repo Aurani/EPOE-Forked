@@ -6,9 +6,10 @@
 		<label>leg</label>
 		<description>Basically long meaty sticks that let you move around.</description>
 		<statBases>
-			<MarketValue>1300</MarketValue>
+			<MarketValue>750</MarketValue>
 			<Mass>8</Mass>
 		</statBases>
+		<tradeability>Sellable</tradeability>
 	</ThingDef>
 
 	<ThingDef ParentName="BodyPartNaturalBase">
@@ -16,9 +17,10 @@
 		<label>arm</label>
 		<description>Arms are like legs, except you can carry stuff with them.</description>
 		<statBases>
-			<MarketValue>1300</MarketValue>
+			<MarketValue>750</MarketValue>
 			<Mass>5</Mass>
 		</statBases>
+		<tradeability>Sellable</tradeability>
 	</ThingDef>
 
 	<ThingDef ParentName="BodyPartNaturalBase">
@@ -26,7 +28,7 @@
 		<label>stomach</label>
 		<description>Digests food and turns it into energy and nutrients.</description>
 		<statBases>
-			<MarketValue>1000</MarketValue>
+			<MarketValue>500</MarketValue>
 			<Mass>2</Mass>
 		</statBases>
 	</ThingDef>
@@ -36,7 +38,7 @@
 		<label>eyeball</label>
 		<description>Absorbs light, which lets a person know what's around them.</description>
 		<statBases>
-			<MarketValue>1500</MarketValue>
+			<MarketValue>400</MarketValue>
 			<Mass>0.3</Mass>
 		</statBases>
 	</ThingDef>
@@ -46,7 +48,7 @@
 		<label>nose</label>
 		<description>A pretty useful organ to distinguish odors, applies the finishing touch to a face.</description>
 		<statBases>
-			<MarketValue>500</MarketValue>
+			<MarketValue>100</MarketValue>
 			<Mass>0.2</Mass>
 		</statBases>
 	</ThingDef>
@@ -56,7 +58,7 @@
 		<label>ear</label>
 		<description>Picks up vibrations in the air, allowing people to hear sound.</description>
 		<statBases>
-			<MarketValue>500</MarketValue>
+			<MarketValue>250</MarketValue>
 			<Mass>0.3</Mass>
 		</statBases>
 	</ThingDef>
@@ -66,7 +68,7 @@
 		<label>jaw</label>
 		<description>A nice set of teeth for chewing food and talking.</description>
 		<statBases>
-			<MarketValue>500</MarketValue>
+			<MarketValue>250</MarketValue>
 			<Mass>2</Mass>
 		</statBases>
 	</ThingDef>

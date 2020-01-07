@@ -105,6 +105,9 @@
 		<skillRequirements>
 			<Crafting>7</Crafting>
 		</skillRequirements>
+		<recipeUsers>
+			<li>TableBionics</li>
+		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef Abstract="True" Name="RecipeSimpleProsthesis">
@@ -116,6 +119,9 @@
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>
+		<recipeUsers>
+			<li>TableSimpleProsthetic</li>
+		</recipeUsers>
 	</RecipeDef>
 	
 	<RecipeDef Abstract="True" Name="RecipeSurrogateOrgan">
@@ -127,6 +133,9 @@
 		<skillRequirements>
 			<Crafting>7</Crafting>
 		</skillRequirements>
+		<recipeUsers>
+			<li>TableOrgans</li>
+		</recipeUsers>
 	</RecipeDef>
 	
 	<RecipeDef Abstract="True" Name="RecipeSyntheticOrgan">

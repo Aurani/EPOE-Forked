@@ -19,7 +19,7 @@
 		<labelNoun>a power arm</labelNoun>
 		<spawnThingOnRemoved>PowerArm</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1.15</partEfficiency>
+			<partEfficiency>1.1</partEfficiency>
 		</addedPartProps>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -44,7 +44,7 @@
 		<labelNoun>a bionic hand</labelNoun>
 		<spawnThingOnRemoved>BionicHand</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1.15</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -68,7 +68,7 @@
 		<labelNoun>a bionic foot</labelNoun>
 		<spawnThingOnRemoved>BionicFoot</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1.15</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 
@@ -78,18 +78,8 @@
 		<labelNoun>a bionic jaw implant</labelNoun>
 		<spawnThingOnRemoved>BionicJaw</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1.0</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Talking</capacity>
-						<offset>0.25</offset>
-					</li>
-				</capMods>
-			</li>	 
-		</stages>
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartBionics">
@@ -98,14 +88,14 @@
 		<labelNoun>a silent jaw implant</labelNoun>
 		<spawnThingOnRemoved>SilentJaw</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1.0</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
 		<stages>
 			<li>
 				<capMods>
 					<li>
 						<capacity>Talking</capacity>
-						<offset>-1.0</offset>
+						<setMax>0</setMax>
 					</li>
 				</capMods>
 			</li>	 

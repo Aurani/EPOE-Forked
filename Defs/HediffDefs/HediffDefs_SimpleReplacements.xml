@@ -24,7 +24,7 @@
 		<label>replacement radius</label>
 		<spawnThingOnRemoved>ReplacementRadius</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1.0</partEfficiency>
+			<partEfficiency>0.8</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 

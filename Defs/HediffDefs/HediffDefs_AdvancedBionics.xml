@@ -78,7 +78,7 @@
 		<labelNoun>an advanced bionic hand</labelNoun>
 		<spawnThingOnRemoved>AdvancedBionicHand</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1.25</partEfficiency>
+			<partEfficiency>1.35</partEfficiency>
 		</addedPartProps>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -102,7 +102,7 @@
 		<labelNoun>an advanced bionic foot</labelNoun>
 		<spawnThingOnRemoved>AdvancedBionicFoot</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1.25</partEfficiency>
+			<partEfficiency>1.35</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 

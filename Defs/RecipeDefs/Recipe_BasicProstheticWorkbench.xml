@@ -10,7 +10,7 @@
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
 		<defName>CreateEyePatch</defName>
-		<label>Craft eye patch</label>
+		<label>make eye patch</label>
 		<description>Tailors an eye patch from fabric.</description>
 		<jobString>Crafting prosthesis.</jobString>
 		<soundWorking>Recipe_Tailor</soundWorking>
@@ -24,7 +24,7 @@
 						<li>Textiles</li>
 					</categories>
 				</filter>
-				<count>15</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -37,7 +37,7 @@
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
 		<defName>CreateHookHand</defName>
-		<label>Craft hook hand</label>
+		<label>make hook hand</label>
 		<description>Tailors a hook hand from fabric and metal.</description>
 		<jobString>Crafting prosthesis.</jobString>
 		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
@@ -51,7 +51,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -59,7 +59,7 @@
 						<li>Textiles</li>
 					</categories>
 				</filter>
-				<count>20</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -75,7 +75,7 @@
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
 		<defName>CreateEarBandage</defName>
-		<label>Craft ear bandage</label>
+		<label>make ear bandage</label>
 		<description>Tailors an ear bandage from fabric.</description>
 		<jobString>Crafting prosthesis.</jobString>
 		<soundWorking>Recipe_Tailor</soundWorking>
@@ -89,10 +89,86 @@
 						<li>Textiles</li>
 					</categories>
 				</filter>
-				<count>15</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>Textiles</li>
+			</categories>
+		</fixedIngredientFilter>
+		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeBasicProsthesis">
+		<defName>MakeBasicWoodenFinger</defName>
+		<label>make wooden finger</label>
+		<description>make a wooden finger with a bit of textile to help keep it attached to the hand.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<products>
+			<EarBandage>1</EarBandage>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Textiles</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+			<categories>
+				<li>Textiles</li>
+			</categories>
+		</fixedIngredientFilter>
+		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeBasicProsthesis">
+		<defName>MakeBasicWoodenToe</defName>
+		<label>make wooden toe</label>
+		<description>make a wooden toe with a bit of textile to help keep it attached to the foot.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<products>
+			<EarBandage>1</EarBandage>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Textiles</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
 			<categories>
 				<li>Textiles</li>
 			</categories>

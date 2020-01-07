@@ -11,7 +11,6 @@
 		</addedPartProps>
 	</HediffDef>
 
-
 	<!-- Vanilla overwrites, for now. -->
 
 	<HediffDef ParentName="addedPartSimple">
@@ -19,7 +18,7 @@
 		<label>simple prosthetic arm</label>
 		<spawnThingOnRemoved>SimpleProstheticArm</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>0.7</partEfficiency>
+			<partEfficiency>0.8</partEfficiency>
 		</addedPartProps>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -46,6 +45,16 @@
 		</addedPartProps>
 	</HediffDef>
 
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>CochlearImplant</defName>
+		<label>cochlear implant</label>
+		<labelNoun>a cochlear implant</labelNoun>
+		<spawnThingOnRemoved>CochlearImplant</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+  
 	<!-- New EPOE body parts -->
 
 	<HediffDef ParentName="addedPartSimple">
@@ -62,7 +71,7 @@
 		<label>light receptor</label>
 		<spawnThingOnRemoved>LightReceptor</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>0.6</partEfficiency>
+			<partEfficiency>0.8</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 
@@ -71,18 +80,18 @@
 		<label>simple prosthetic hand</label>
 		<spawnThingOnRemoved>SimpleProstheticHand</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>0.7</partEfficiency>
+			<partEfficiency>0.8</partEfficiency>
 		</addedPartProps>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>bionic fist</label>
+						<label>fist</label>
 						<capacities>
 							<li>Blunt</li>
 						</capacities>
-						<power>9</power>
-						<cooldownTime>1.65</cooldownTime>
+						<power>8.2</power>
+						<cooldownTime>2</cooldownTime>
 					</li>
 				</tools>
 			</li>
@@ -94,7 +103,7 @@
 		<label>simple prosthetic foot</label>
 		<spawnThingOnRemoved>SimpleProstheticFoot</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>0.9</partEfficiency>
+			<partEfficiency>0.8</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 
@@ -102,9 +111,6 @@
 		<defName>ArtificialNose</defName>
 		<label>artificial nose</label>
 		<spawnThingOnRemoved>ArtificialNose</spawnThingOnRemoved>
-		<addedPartProps>
-			<partEfficiency>1</partEfficiency>
-		</addedPartProps>
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSimple">
@@ -135,7 +141,7 @@
 		<label>artificial pelvis</label>
 		<spawnThingOnRemoved>ArtificialPelvis</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>0.9</partEfficiency>
+			<partEfficiency>0.8</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 
@@ -144,7 +150,7 @@
 		<label>artificial clavicle</label>
 		<spawnThingOnRemoved>ArtificialClavicle</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>0.9</partEfficiency>
+			<partEfficiency>0.8</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 

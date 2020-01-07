@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Defs>
 
 	<HediffDef Name="addedPartBasic" Abstract="True">
@@ -56,7 +55,7 @@
 		<spawnThingOnRemoved>WoodenFoot</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>0.7</partEfficiency>
+			<partEfficiency>0.6</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 
@@ -69,7 +68,7 @@
 		<spawnThingOnRemoved>SteelArm</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>0.35</partEfficiency>
+			<partEfficiency>0.6</partEfficiency>
 		</addedPartProps>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -87,16 +86,6 @@
 		</comps>
 	</HediffDef>
 
-	<HediffDef ParentName="addedPartBasic">
-		<defName>EyePatch</defName>
-		<label>eye patch</label>
-		<labelNoun>an eye patch</labelNoun>
-		<spawnThingOnRemoved>EyePatch</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>0</partEfficiency>
-		</addedPartProps>
-	</HediffDef>
 
 	<HediffDef ParentName="addedPartBasic">
 		<defName>HookHand</defName>
@@ -105,7 +94,7 @@
 		<spawnThingOnRemoved>HookHand</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>0.3</partEfficiency>
+			<partEfficiency>0.6</partEfficiency>
 		</addedPartProps>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -121,6 +110,17 @@
 				</tools>
 			</li>
 		</comps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartBasic">
+		<defName>EyePatch</defName>
+		<label>eye patch</label>
+		<labelNoun>an eye patch</labelNoun>
+		<spawnThingOnRemoved>EyePatch</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0</partEfficiency>
+		</addedPartProps>
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartBasic">
