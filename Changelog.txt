@@ -1,3 +1,8 @@
+Update 3.1 (7.1.2020)
+3.1 is out!
+* Added new tiers of finger and toe prosthetics.
+* Fixed and rewrote a bunch of abstracts.
+
 Update 3.03 (7.1.2020)
 * Fixed a compatibility issue with QEE.
 
