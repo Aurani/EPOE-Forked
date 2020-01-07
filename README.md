@@ -16,16 +16,16 @@ This mod is compatible with every mod the original EPOE is compatible with, plus
 The mod should be safe to add mid-save and remove as well, as long as the operation bills are all removed so as to avoid getting a UI error.
 
 No longer needed due to integration:
-EPOE Replacement Expansion
-EPOE Trader and Archotech Patch
-EPOE Craftable Power Claws - Added a new production line for it
-EPOE LEGACY Body Climate Control - Wasn't functional, but now contains an integrated fix
-RePower EPOE Patch - Added the missing Tissue Printer changes.
-Finger and Toes for EPOE - Essentially the concept EPOE Replacement Expansion has already
+* EPOE Replacement Expansion
+* EPOE Trader and Archotech Patch
+* EPOE Craftable Power Claws - Added a new production line for it
+* EPOE LEGACY Body Climate Control - Wasn't functional, but now contains an integrated fix
+* RePower EPOE Patch - Added the missing Tissue Printer changes.
+* Finger and Toes for EPOE - Essentially the concept EPOE Replacement Expansion has already
 
 Compatibility notes with other mods:
-Questionable Ethics Enhanced - Patched on our end to reduce duplications and our added natural body parts and organs should no longer be obtainable.
+* Questionable Ethics Enhanced - Patched on our end to reduce duplications and our added natural body parts and organs should no longer be obtainable.
 
 Incompatible mods:
-Rah's Bionics and Surgery Expansion
-Older versions of EPOE - This mod is a continuation of EPOE and thus doesn't need a second, outdated copy of it running at the same time.
+* Rah's Bionics and Surgery Expansion
+* Older versions of EPOE - This mod is a continuation of EPOE and thus doesn't need a second, outdated copy of it running at the same time.
