@@ -56,6 +56,51 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgerySurrogate">
+		<defName>InstallSurrogateHeart</defName>
+		<label>install surrogate heart</label>
+		<description>Installs an surrogate heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing an artificial heart.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateHeart</li>
+						<li>SimpleProstheticHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SurrogateHeart</li>
+				<li>SimpleProstheticHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SurrogateHeart</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySurrogate">
 		<defName>InstallSurrogateLung</defName>
 		<label>install surrogate lung</label>
 		<description>Installs surrogate lung.</description>
@@ -211,51 +256,6 @@
 			<li>Kidney</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SurrogateKidney</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPOESurgerySurrogate">
-		<defName>InstallSurrogateHeart</defName>
-		<label>install surrogate heart</label>
-		<description>Installs an surrogate heart.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing an artificial heart.</jobString>
-		<workAmount>3700</workAmount>
-		<deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
-		<skillRequirements>
-			<Medicine>8</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>5</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>SurrogateHeart</li>
-						<li>SimpleProstheticHeart</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>SurrogateHeart</li>
-				<li>SimpleProstheticHeart</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Heart</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>SurrogateHeart</addsHediff>
 	</RecipeDef>
 
 </Defs>

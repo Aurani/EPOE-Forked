@@ -49,6 +49,21 @@
 	</ThingDef>
 
 	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SurrogateHeart</defName>
+		<label>surrogate heart</label>
+		<description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</description>
+		<costList>
+			<Cloth>40</Cloth>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOESurrogateBase">
 		<defName>SurrogateLung</defName>
 		<label>surrogate lung</label>
 		<description>A rudimentary lung replacement. Makes a deep, clicking noise.</description>
@@ -100,21 +115,6 @@
 		<costList>
 			<Cloth>30</Cloth>
 			<Plasteel>15</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
-		</costList>
-		<statBases>
-			<WorkToMake>4500</WorkToMake>
-			<Mass>2</Mass>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="EPOESurrogateBase">
-		<defName>SurrogateHeart</defName>
-		<label>surrogate heart</label>
-		<description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</description>
-		<costList>
-			<Cloth>40</Cloth>
-			<Plasteel>25</Plasteel>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>

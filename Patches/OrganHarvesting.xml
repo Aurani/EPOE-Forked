@@ -68,6 +68,26 @@
 								<label>stomach [EPOE]</label>
 							</value>
 						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Stomach"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Stomach"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Stomach"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
 					</operations>
 				</li>
 			</operations>
@@ -139,6 +159,26 @@
 								<label>eyeball [EPOE]</label>
 							</value>
 						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Eye"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Eye"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Eye"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
 					</operations>
 				</li>
 			</operations>
@@ -208,6 +248,26 @@
 							<value>
 								<label>nose [EPOE]</label>
 							</value>
+						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Nose"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Nose"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Nose"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
 						</li>
 					</operations>
 				</li>
@@ -279,6 +339,26 @@
 								<label>ear [EPOE]</label>
 							</value>
 						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Ear"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Ear"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Ear"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
 					</operations>
 				</li>
 			</operations>
@@ -349,6 +429,26 @@
 								<label>jaw [EPOE]</label>
 							</value>
 						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Jaw"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Jaw"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Jaw"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
 					</operations>
 				</li>
 			</operations>
@@ -404,6 +504,26 @@
 								<label>arm [EPOE]</label>
 							</value>
 						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Arm"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Arm"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Arm"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
 					</operations>
 				</li>
 			</operations>
@@ -458,6 +578,26 @@
 							<value>
 								<label>leg [EPOE]</label>
 							</value>
+						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Leg"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Leg"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Leg"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
 						</li>
 					</operations>
 				</li>

@@ -24,28 +24,6 @@
 			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
-	
-	<ThingDef ParentName="BodyPartBionicBase">
-		<defName>BionicArm</defName>
-		<label>bionic arm</label>
-		<description>One of the most sophisticated arm replacements. Gives extreme strength to its user.</description>
-		<techLevel>Spacer</techLevel>
-		<costList> 
-			<SimpleProstheticArm>1</SimpleProstheticArm>
-			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>5</ComponentIndustrial>
-		</costList>
-		<statBases>
-			<WorkToMake>8000</WorkToMake>
-			<Mass>5</Mass>
-		</statBases>
-		<tradeTags>
-			<li>BionicProstheses</li>
-		</tradeTags>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-	</ThingDef>
 
 	<ThingDef ParentName="BodyPartBionicBase">
 		<defName>BionicLeg</defName>
@@ -66,6 +44,28 @@
 		</tradeTags>
 		<techHediffsTags>
 		  <li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicArm</defName>
+		<label>bionic arm</label>
+		<description>One of the most sophisticated arm replacements. Gives extreme strength to its user.</description>
+		<techLevel>Spacer</techLevel>
+		<costList> 
+			<SimpleProstheticArm>1</SimpleProstheticArm>
+			<Plasteel>35</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+		<tradeTags>
+			<li>BionicProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
 		</techHediffsTags>
 	</ThingDef>
 
@@ -136,6 +136,9 @@
 		</statBases>
 		<tradeability>None</tradeability>
 		<generateAllowChance>0</generateAllowChance>
+		<thingCategories Inherit="False">
+			<li>EPOE_Redundancy</li>
+		</thingCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="BodyPartArtificialBase">
@@ -159,31 +162,12 @@
 		</statBases>
 		<tradeability>None</tradeability>
 		<generateAllowChance>0</generateAllowChance>
+		<thingCategories Inherit="False">
+			<li>EPOE_Redundancy</li>
+		</thingCategories>
 	</ThingDef>
 
 	<!-- New EPOE body parts -->
-
-	<ThingDef ParentName="BodyPartBionicBase">
-		<defName>PowerArm</defName>
-		<label>power arm</label>
-		<description>Unparalleled strength and dexterity, and with retractable claws. This is the ultimate arm upgrade!</description>
-		<techLevel>Spacer</techLevel>
-		<costList>
-			<BionicArm>1</BionicArm>
-			<PowerClaw>1</PowerClaw>
-			<Plasteel>35</Plasteel>
-		</costList>
-		<statBases>
-			<WorkToMake>8000</WorkToMake>
-			<Mass>6</Mass>
-		</statBases>
-		<tradeTags>
-			<li>BionicProstheses</li>
-		</tradeTags>
-		<techHediffsTags>
-			<li>AdvancedWeapon</li>
-		</techHediffsTags>
-	</ThingDef>
 
 	<ThingDef ParentName="BodyPartBionicBase">
 		<defName>BionicHand</defName>
@@ -207,6 +191,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
+
 	<ThingDef ParentName="BodyPartBionicBase">
 		<defName>BionicFoot</defName>
 		<label>bionic foot</label>
@@ -220,6 +205,50 @@
 		<statBases>
 			<WorkToMake>8000</WorkToMake>
 			<Mass>3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>BionicProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicFinger</defName>
+		<label>bionic finger</label>
+		<description>A replacement finger allowing for slightly faster and more precise movement.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<SimpleProstheticFinger>1</SimpleProstheticFinger>
+			<Plasteel>7</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>0.6</Mass>
+		</statBases>
+		<tradeTags>
+			<li>BionicProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>BionicToe</defName>
+		<label>bionic toe</label>
+		<description>A replacement toe which lets the wearer grip the ground slightly better.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<SimpleProstheticToe>1</SimpleProstheticToe>
+			<Plasteel>7</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>0.6</Mass>
 		</statBases>
 		<tradeTags>
 			<li>BionicProstheses</li>
@@ -270,6 +299,28 @@
 		</tradeTags>
 		<techHediffsTags>
 			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>PowerArm</defName>
+		<label>power arm</label>
+		<description>Unparalleled strength and dexterity, and with retractable claws. This is the ultimate arm upgrade!</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<BionicArm>1</BionicArm>
+			<PowerClaw>1</PowerClaw>
+			<Plasteel>35</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>6</Mass>
+		</statBases>
+		<tradeTags>
+			<li>BionicProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
 		</techHediffsTags>
 	</ThingDef>
 

@@ -25,28 +25,4 @@
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartProstheticBase">
-		<defName>ScytherBlade</defName>
-		<label>scyther blade</label>
-		<description>Hand replacement with a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</description>
-		<techLevel>Spacer</techLevel>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/BionicPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<costList>
-			<EPOE_DamagedScytherBlade>1</EPOE_DamagedScytherBlade>
-			<Steel>5</Steel>
-			<Plasteel>10</Plasteel>
-			<ComponentIndustrial>1</ComponentIndustrial>
-		</costList>
-		<statBases>
-			<WorkToMake>5000</WorkToMake>
-			<Mass>3</Mass>
-		</statBases>
-		<techHediffsTags>
-			<li>SpecialWeapon</li>
-		</techHediffsTags>
-	</ThingDef>
-
 </Defs>

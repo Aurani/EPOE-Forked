@@ -92,7 +92,46 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>LightReceptor</addsHediff>
 	</RecipeDef>	
-	
+
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>InstallSimpleSpine</defName>
+		<label>install replacement spine</label>
+		<description>Installs a replacement spine.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing a replacement spine.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SimpleSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleSpine</addsHediff>
+	</RecipeDef>
+
 	<RecipeDef ParentName="EPOESurgerySimple">
 		<defName>InstallSimpleProstheticHand</defName>
 		<label>install simple prosthetic hand</label>
@@ -172,12 +211,12 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgerySimple">
-		<defName>InstallArtificialNose</defName>
-		<label>install artificial nose</label>
-		<description>Installs artificial nose.</description>
+		<defName>SimpleProstheticFinger</defName>
+		<label>install simple prosthetic finger</label>
+		<description>Installs simple prosthetic finger.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing artificial nose.</jobString>
-		<workAmount>1500</workAmount>
+		<jobString>Installing simple prosthetic finger.</jobString>
+		<workAmount>1000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -190,7 +229,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ArtificialNose</li>
+						<li>SimpleProstheticFinger</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -201,13 +240,52 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>ArtificialNose</li>
+				<li>SimpleProstheticFinger</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Nose</li>
+			<li>Finger</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>ArtificialNose</addsHediff>
+		<addsHediff>SimpleProstheticFinger</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>SimpleProstheticToe</defName>
+		<label>install simple prosthetic toe</label>
+		<description>Installs simple prosthetic toe.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing simple prosthetic toe.</jobString>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticToe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SimpleProstheticToe</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Toe</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticToe</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgerySimple">
@@ -247,6 +325,84 @@
 			<li>Jaw</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>HydraulicJaw</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>InstallArtificialNose</defName>
+		<label>install artificial nose</label>
+		<description>Installs artificial nose.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing artificial nose.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ArtificialNose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ArtificialNose</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Nose</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ArtificialNose</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>InstallReplacementRadius</defName>
+		<label>install replacement radius</label>
+		<description>Installs a replacement radius.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing a replacement radius.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ReplacementRadius</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ReplacementRadius</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Radius</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ReplacementRadius</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgerySimple">
@@ -325,6 +481,84 @@
 			<li>Clavicle</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>ArtificialClavicle</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>InstallScytherBlade</defName>
+		<label>install scyther blade</label>
+		<description>Installs a scyther blade at where the hand is.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing scyther blade.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ScytherBlade</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ScytherBlade</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_ScytherBlade</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>InstallSimpleRib</defName>
+		<label>install simple rib replacement</label>
+		<description>Installs a simple rib replacement.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing a simple rib replacement.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SimpleRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleRib</addsHediff>
 	</RecipeDef>
 
 </Defs>

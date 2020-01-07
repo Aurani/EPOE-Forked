@@ -21,36 +21,16 @@
 	<!-- New EPOE body parts -->
 
 	<ThingDef ParentName="BodyPartAdvancedBionicBase">
-		<defName>AdvancedPowerArm</defName>
-		<label>advanced power arm</label>
-		<description>Even more unparalleled strength and dexterity, and with a sharp, retractable claws. Now it's the ultimate arm upgrade!</description>
+		<defName>AdvancedBionicEye</defName>
+		<label>advanced bionic eye</label>
+		<description>This advanced piece of technology allows the user to perfectly see in the dark as well as through walls. Also through clothes.</description>
 		<costList>
-			<PowerArm>1</PowerArm>
-			<ComponentSpacer>5</ComponentSpacer>
-		</costList>
-		<statBases>
-			<WorkToMake>10000</WorkToMake>
-			<Mass>5</Mass>
-		</statBases>
-		<tradeTags>
-			<li>AdvancedProstheses</li>
-		</tradeTags>
-		<techHediffsTags>
-			<li>AdvancedWeapon</li>
-		</techHediffsTags>
-	</ThingDef>
-
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
-		<defName>AdvancedBionicHand</defName>
-		<label>advanced bionic hand</label>
-		<description>Some people would chop their own hands off just to get this gorgeous piece of tech.</description>
-		<costList>
-			<BionicHand>1</BionicHand>
+			<BionicEye>1</BionicEye>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
-			<Mass>3</Mass>
+			<Mass>0.3</Mass>
 		</statBases>
 		<tradeTags>
 			<li>AdvancedProstheses</li>
@@ -101,6 +81,66 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicSpine</defName>
+		<label>advanced bionic spine</label>
+		<description>This durable device supports the back and makes working and walking much easier.</description>
+		<costList>
+			<BionicSpine>1</BionicSpine>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>4</Mass>
+		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicEar</defName>
+		<label>advanced bionic ear</label>
+		<description>This device allows the user to hear better than bats.</description>
+		<costList>
+			<BionicEar>1</BionicEar>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicHand</defName>
+		<label>advanced bionic hand</label>
+		<description>Some people would chop their own hands off just to get this gorgeous piece of tech.</description>
+		<costList>
+			<BionicHand>1</BionicHand>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicFoot</defName>
 		<label>advanced bionic foot</label>
 		<description>Dozens of servomotors grant faster movement and ultimate comfort.</description>
@@ -121,16 +161,36 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BodyPartAdvancedBionicBase">
-		<defName>AdvancedBionicEar</defName>
-		<label>advanced bionic ear</label>
-		<description>This device allows the user to hear better than bats.</description>
+		<defName>AdvancedBionicFinger</defName>
+		<label>advanced bionic finger</label>
+		<description>Advanced bionic finger. Delicate glitterworld sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing ensure the best precision and grip, far surpassing that of a natural or bionic finger. Powerful enough to crush rocks like ripe tomatoes.</description>
 		<costList>
-			<BionicEar>1</BionicEar>
-			<ComponentSpacer>3</ComponentSpacer>
+			<BionicFinger>1</BionicFinger>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
-			<Mass>0.3</Mass>
+			<Mass>0.6</Mass>
+		</statBases>
+		<tradeTags>
+			<li>AdvancedProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicToe</defName>
+		<label>advanced bionic toe</label>
+		<description>Advanced bionic toe. Delicate glitterworld sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing make these toes unrivalled when it comes to movement and control, far surpassing that of natural or bionic toes. Glitterworld mechanite-traction technology ensures extreme speeds even on normally unfavourable terrain, such as water.</description>
+		<costList>
+			<BionicToe>1</BionicToe>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>0.6</Mass>
 		</statBases>
 		<tradeTags>
 			<li>AdvancedProstheses</li>
@@ -161,42 +221,22 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BodyPartAdvancedBionicBase">
-		<defName>AdvancedBionicEye</defName>
-		<label>advanced bionic eye</label>
-		<description>This advanced piece of technology allows the user to perfectly see in the dark as well as through walls. Also through clothes.</description>
+		<defName>AdvancedPowerArm</defName>
+		<label>advanced power arm</label>
+		<description>Even more unparalleled strength and dexterity, and with a sharp, retractable claws. Now it's the ultimate arm upgrade!</description>
 		<costList>
-			<BionicEye>1</BionicEye>
-			<ComponentSpacer>3</ComponentSpacer>
-		</costList>
-		<statBases>
-			<WorkToMake>10000</WorkToMake>
-			<Mass>0.3</Mass>
-		</statBases>
-		<tradeTags>
-			<li>AdvancedProstheses</li>
-		</tradeTags>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-	</ThingDef>
-
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
-		<defName>AdvancedBionicSpine</defName>
-		<label>advanced bionic spine</label>
-		<description>This durable device supports the back and makes working and walking much easier.</description>
-		<costList>
-			<BionicSpine>1</BionicSpine>
+			<PowerArm>1</PowerArm>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
-			<Mass>4</Mass>
+			<Mass>5</Mass>
 		</statBases>
 		<tradeTags>
 			<li>AdvancedProstheses</li>
 		</tradeTags>
 		<techHediffsTags>
-			<li>Advanced</li>
+			<li>AdvancedWeapon</li>
 		</techHediffsTags>
 	</ThingDef>
 

@@ -53,6 +53,44 @@
 		<addsHediff>Denture</addsHediff>
 	</RecipeDef>
 
+	<RecipeDef ParentName="EPOESurgeryBasic">
+		<defName>InstallPegLeg</defName>
+		<label>install peg leg</label>
+		<description>Installs a wooden leg.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing peg leg.</jobString>
+		<workAmount>1300</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PegLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>PegLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>PegLeg</addsHediff>
+	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgeryBasic">
 		<defName>InstallWoodenFoot</defName>
@@ -93,13 +131,18 @@
 		<addsHediff>WoodenFoot</addsHediff>
 	</RecipeDef>
 
+	<!-- New EPOE body parts -->
+
 	<RecipeDef ParentName="EPOESurgeryBasic">
-		<defName>InstallPegLeg</defName>
-		<label>install peg leg</label>
-		<description>Installs a wooden leg.</description>
+		<defName>InstallEyePatch</defName>
+		<label>install eye patch</label>
+		<description>Installs eye patch.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing peg leg.</jobString>
-		<workAmount>1300</workAmount>
+		<jobString>Installing eye patch.</jobString>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -112,7 +155,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>PegLeg</li>
+						<li>EyePatch</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -123,16 +166,14 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>PegLeg</li>
+				<li>EyePatch</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Leg</li>
+			<li>Eye</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>PegLeg</addsHediff>
+		<addsHediff>EyePatch</addsHediff>
 	</RecipeDef>
-
-	<!-- New EPOE body parts -->
 
 	<RecipeDef ParentName="EPOESurgeryBasic">
 		<defName>InstallSteelArm</defName>
@@ -219,12 +260,12 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgeryBasic">
-		<defName>InstallEyePatch</defName>
-		<label>install eye patch</label>
-		<description>Installs eye patch.</description>
+		<defName>InstallBasicWoodenFinger</defName>
+		<label>install wooden finger</label>
+		<description>Installs wooden finger.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing eye patch.</jobString>
-		<workAmount>1000</workAmount>
+		<jobString>Installing wooden finger.</jobString>
+		<workAmount>750</workAmount>
 		<recipeUsers>
 			<li>Human</li>
 		</recipeUsers>
@@ -240,7 +281,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EyePatch</li>
+						<li>BasicWoodenFinger</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -251,13 +292,55 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>EyePatch</li>
+				<li>BasicWoodenFinger</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Eye</li>
+			<li>Finger</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>EyePatch</addsHediff>
+		<addsHediff>BasicWoodenFinger</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryBasic">
+		<defName>InstallBasicWoodenToe</defName>
+		<label>install wooden toe</label>
+		<description>Installs wooden toe.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing wooden toe.</jobString>
+		<workAmount>750</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BasicWoodenToe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BasicWoodenToe</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Toe</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BasicWoodenToe</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgeryBasic">

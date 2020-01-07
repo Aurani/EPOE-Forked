@@ -89,7 +89,16 @@
 	</ThingDef>
 
 	<!-- New EPOE body parts -->
-	
+
+	<ThingDef ParentName="BodyPartBasicBase">
+		<defName>EyePatch</defName>
+		<label>eye patch</label>
+		<description>Covers the eye socket. Intimidating.</description>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+
 	<ThingDef ParentName="BodyPartBasicBase">
 		<defName>SteelArm</defName>
 		<label>steel arm</label>
@@ -114,6 +123,33 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BodyPartBasicBase">
+		<defName>HookHand</defName>
+		<label>hook hand</label>
+		<description>Replaces missing hands. Pretty scary. Yarr.</description>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBasicBase">
+		<defName>BasicWoodenFinger</defName>
+		<label>wooden finger</label>
+		<description>Replacement fingers. Just a bunch of wooden sticks shoved into your stubs. Painful and not pleasant to look at, it has the unfortunate downside of accumulating dirt in the many pores and crevices, which in turn creates a gut-wrenching smell.</description>
+		<statBases>
+			<Mass>0.6</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBasicBase">
+		<defName>BasicWoodenToe</defName>
+		<label>wooden toe</label>
+		<description>Replacement toes. Incredibly uncomfortable to walk on, clanky and not the greatest things to have if you don't wash often.</description>
+		<statBases>
+			<Mass>0.6</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBasicBase">
 		<defName>EarBandage</defName>
 		<label>ear bandage</label>
 		<description>Covers a missing ear. Look like a certain unsuccessful 19th century artist!</description>
@@ -122,22 +158,4 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBasicBase">
-		<defName>EyePatch</defName>
-		<label>eye patch</label>
-		<description>Covers the eye socket. Intimidating.</description>
-		<statBases>
-			<Mass>0.3</Mass>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="BodyPartBasicBase">
-		<defName>HookHand</defName>
-		<label>hook hand</label>
-		<description>Replaces missing hands. Pretty scary. Yarr.</description>
-		<statBases>
-			<Mass>2</Mass>
-		</statBases>
-	</ThingDef>
-	
 </Defs>

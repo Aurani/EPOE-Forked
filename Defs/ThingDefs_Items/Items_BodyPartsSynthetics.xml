@@ -80,18 +80,21 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="EPOESyntheticBase">
-		<defName>SyntheticLung</defName>
-		<label>synthetic lung</label>
-		<description>A high-tech breathing replacement. Makes a soft whirring sound.</description>
+		<defName>SyntheticHeart</defName>
+		<label>synthetic heart</label>
+		<description>A top-of-the-line heart replacement. Can last for over 30 years on a single charge.</description>
 		<costList>
-			<SurrogateLung>1</SurrogateLung>
-			<Hyperweave>15</Hyperweave>
+			<SurrogateHeart>1</SurrogateHeart>
+			<Hyperweave>20</Hyperweave>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<statBases>
 			<WorkToMake>7500</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
 	</ThingDef>
 
 	<ThingDef ParentName="EPOESyntheticBase">
@@ -110,6 +113,21 @@
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOESyntheticBase">
+		<defName>SyntheticLung</defName>
+		<label>synthetic lung</label>
+		<description>A high-tech breathing replacement. Makes a soft whirring sound.</description>
+		<costList>
+			<SurrogateLung>1</SurrogateLung>
+			<Hyperweave>15</Hyperweave>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="EPOESyntheticBase">
@@ -149,21 +167,33 @@
 	</ThingDef>
 
 	<ThingDef ParentName="EPOESyntheticBase">
-		<defName>SyntheticHeart</defName>
-		<label>synthetic heart</label>
-		<description>A top-of-the-line heart replacement. Can last for over 30 years on a single charge.</description>
+		<defName>SyntheticSkin</defName>
+		<label>synthetic skin</label>
+		<description>A patch of organo-synthetic skin which can replace damaged areas.</description>
 		<costList>
-			<SurrogateHeart>1</SurrogateHeart>
-			<Hyperweave>20</Hyperweave>
-			<ComponentSpacer>1</ComponentSpacer>
+			<Synthread>30</Synthread>
+			<MedicineUltratech>1</MedicineUltratech>
 		</costList>
 		<statBases>
 			<WorkToMake>7500</WorkToMake>
-			<Mass>2</Mass>
+			<Mass>0.5</Mass>
 		</statBases>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOESyntheticBase">
+		<defName>NeuromuscularFramework</defName>
+		<label>neuromuscular framework</label>
+		<description>A set of synthetic muscles and artificial nerves capable of perfectly recreating the function of a healthy torso.</description>
+		<tradeability>None</tradeability>
+		<costList>
+			<MedicineUltratech>5</MedicineUltratech>
+			<Hyperweave>50</Hyperweave>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
 	</ThingDef>
 
 </Defs>

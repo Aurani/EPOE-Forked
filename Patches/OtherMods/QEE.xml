@@ -16,7 +16,26 @@
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/RecipeDef[@ParentName="EPOESurgeryNatural"]</xpath>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="MinceOrgans"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Jaw</li>
+						<li>Ear</li>
+						<li>Nose</li>
+						<li>Eye</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="MinceOrgans"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Jaw</li>
+						<li>Ear</li>
+						<li>Nose</li>
+						<li>Eye</li>
+					</value>
+				</li>
 			</operations>
+			
 		</match>
 	</Operation>
 

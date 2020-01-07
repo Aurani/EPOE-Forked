@@ -14,12 +14,15 @@
 	<!-- New EPOE body parts -->
 
 	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
-		<defName>InstallAdvancedPowerArm</defName>
-		<label>install advanced power arm</label>
-		<description>Installs advanced power arm.</description>
+		<defName>InstallAdvancedBionicEye</defName>
+		<label>install advanced bionic eye</label>
+		<description>Installs advanced bionic eye.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing advanced power arm.</jobString>
-		<workAmount>3500</workAmount>
+		<jobString>Installing advanced bionic eye.</jobString>
+		<skillRequirements>
+			<Medicine>9</Medicine>
+		</skillRequirements>
+		<workAmount>4500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -27,12 +30,12 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>2</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvancedPowerArm</li>
+						<li>AdvancedBionicEye</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -43,13 +46,13 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>AdvancedPowerArm</li>
+				<li>AdvancedBionicEye</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Shoulder</li> 
+			<li>Eye</li>  
 		</appliedOnFixedBodyParts>
-		<addsHediff>AdvancedPowerArm</addsHediff>
+		<addsHediff>AdvancedBionicEye</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
@@ -130,6 +133,83 @@
 		<addsHediff>AdvancedBionicLeg</addsHediff>
 	</RecipeDef>
 
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicSpine</defName>
+		<label>install advanced bionic spine implant</label>
+		<description>Installs advanced bionic spine.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing advanced bionic spine.</jobString>
+		<workAmount>3500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AdvancedBionicSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicSpine</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicEar</defName>
+		<label>install advanced bionic ear implant</label>
+		<description>Installs an advanced bionic ear implant.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing an advanced bionic ear implant.</jobString>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AdvancedBionicEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicEar</addsHediff>
+	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicHand</defName>
@@ -210,15 +290,12 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
-		<defName>InstallAdvancedBionicEye</defName>
-		<label>install advanced bionic eye</label>
-		<description>Installs advanced bionic eye.</description>
+		<defName>InstallAdvancedBionicFinger</defName>
+		<label>install advanced bionic finger</label>
+		<description>Installs advanced bionic finger.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing advanced bionic eye.</jobString>
-		<skillRequirements>
-			<Medicine>9</Medicine>
-		</skillRequirements>
-		<workAmount>4500</workAmount>
+		<jobString>Installing advanced bionic finger.</jobString>
+		<workAmount>2000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -226,12 +303,12 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>3</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvancedBionicEye</li>
+						<li>AdvancedBionicFinger</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -242,22 +319,22 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>AdvancedBionicEye</li>
+				<li>AdvancedBionicFinger</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Eye</li>  
+			<li>Finger</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>AdvancedBionicEye</addsHediff>
+		<addsHediff>AdvancedBionicFinger</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
-		<defName>InstallAdvancedBionicEar</defName>
-		<label>install advanced bionic ear implant</label>
-		<description>Installs an advanced bionic ear implant.</description>
+		<defName>InstallAdvancedBionicToe</defName>
+		<label>install advanced bionic toe</label>
+		<description>Installs advanced bionic toe.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing an advanced bionic ear implant.</jobString>
-		<workAmount>2500</workAmount>
+		<jobString>Installing advanced bionic toe.</jobString>
+		<workAmount>2000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -265,12 +342,12 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>2</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvancedBionicEar</li>
+						<li>AdvancedBionicToe</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -281,13 +358,13 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>AdvancedBionicEar</li>
+				<li>AdvancedBionicToe</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Ear</li>
+			<li>Toe</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>AdvancedBionicEar</addsHediff>
+		<addsHediff>AdvancedBionicToe</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
@@ -330,11 +407,11 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
-		<defName>InstallAdvancedBionicSpine</defName>
-		<label>install advanced bionic spine implant</label>
-		<description>Installs advanced bionic spine.</description>
+		<defName>InstallAdvancedPowerArm</defName>
+		<label>install advanced power arm</label>
+		<description>Installs advanced power arm.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing advanced bionic spine.</jobString>
+		<jobString>Installing advanced power arm.</jobString>
 		<workAmount>3500</workAmount>
 		<ingredients>
 			<li>
@@ -348,7 +425,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvancedBionicSpine</li>
+						<li>AdvancedPowerArm</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -359,13 +436,13 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>AdvancedBionicSpine</li>
+				<li>AdvancedPowerArm</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Spine</li>
+			<li>Shoulder</li> 
 		</appliedOnFixedBodyParts>
-		<addsHediff>AdvancedBionicSpine</addsHediff>
+		<addsHediff>AdvancedPowerArm</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">

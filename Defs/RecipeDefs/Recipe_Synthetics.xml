@@ -12,6 +12,39 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgerySynthetic">
+		<defName>RemoveBrainStimulator</defName>
+		<label>remove brain stimulator</label>
+		<description>Removes brain stimulator.</description>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<jobString>Removing brain stimulator.</jobString>
+		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</successfullyRemovedHediffMessage>
+		<workAmount>3700</workAmount>
+		<removesHediff>BrainStimulator</removesHediff>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		<disallowedThingDefs>
+			<li>MedicineHerbal</li>
+		</disallowedThingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySynthetic">
 		<defName>InstallAIChip</defName>
 		<label>install AI chip</label>
 		<description>Installs AI chip.</description>
@@ -61,6 +94,7 @@
 		<description>Installs AI persona core.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing AI persona core.</jobString>
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
 		<workAmount>3700</workAmount>
 		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
 		<skillRequirements>
@@ -98,19 +132,17 @@
 		<addsHediff>AIPersonaCore</addsHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
-	
+
 	<RecipeDef ParentName="EPOESurgerySynthetic">
-		<defName>RemoveBrainStimulator</defName>
-		<label>remove brain stimulator</label>
-		<description>Removes brain stimulator.</description>
-		<workerClass>Recipe_RemoveHediff</workerClass>
-		<jobString>Removing brain stimulator.</jobString>
-		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</successfullyRemovedHediffMessage>
+		<defName>InstallSyntheticHeart</defName>
+		<label>install synthetic heart</label>
+		<description>Installs an artificial heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing an artificial heart.</jobString>
 		<workAmount>3700</workAmount>
-		<removesHediff>BrainStimulator</removesHediff>
 		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
 		<skillRequirements>
-			<Medicine>7</Medicine>
+			<Medicine>8</Medicine>
 		</skillRequirements>
 		<ingredients>
 			<li>
@@ -119,17 +151,31 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>7</count>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticHeart</li>
+						<li>BionicHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
 				<li>Medicine</li>
 			</categories>
-		<disallowedThingDefs>
-			<li>MedicineHerbal</li>
-		</disallowedThingDefs>
+			<thingDefs>
+				<li>SyntheticHeart</li>
+				<li>BionicHeart</li>
+			</thingDefs>
 		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticHeart</addsHediff>
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgerySynthetic">
@@ -292,17 +338,178 @@
 		<addsHediff>SyntheticKidney</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySynthetic">
-		<defName>InstallSyntheticHeart</defName>
-		<label>install synthetic heart</label>
-		<description>Installs an artificial heart.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing an artificial heart.</jobString>
-		<workAmount>3700</workAmount>
-		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+	<RecipeDef Name="SurgeryRepairScar" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineUltratech</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineUltratech</li>
+				<li>SyntheticSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
 		<skillRequirements>
-			<Medicine>8</Medicine>
+			<Medicine>7</Medicine>
 		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li> 
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairBurn</defName>
+		<label>mend burn</label>
+		<description>Mend a burn scar.</description>
+		<jobString>Mending burn scar.</jobString>
+		<removesHediff>Burn</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s burn scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairCut</defName>
+		<label>mend cut</label>
+		<description>Mend a cut scar.</description>
+		<jobString>Mending cut scar.</jobString>
+		<removesHediff>Cut</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cut scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+		
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairSurgicalCut</defName>
+		<label>mend surgical cut</label>
+		<description>Mend a surgical cut scar.</description>
+		<jobString>Mending surgical cut scar.</jobString>
+		<removesHediff>SurgicalCut</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s surgical cut scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairScratch</defName>
+		<label>mend surgical scratch</label>
+		<description>Mend a surgical scratch scar.</description>
+		<jobString>Mending surgical scratch scar.</jobString>
+		<removesHediff>Scratch</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairBite</defName>
+		<label>mend bite</label>
+		<description>Mend a bite scar.</description>
+		<jobString>Mending bite scar.</jobString>
+		<removesHediff>Bite</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s bite scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairStab</defName>
+		<label>mend stab</label>
+		<description>Mend a stab scar.</description>
+		<jobString>Mending stab scar.</jobString>
+		<removesHediff>Stab</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s stab scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairGunshot</defName>
+		<label>mend gunshot</label>
+		<description>Mend a gunshot scar.</description>
+		<jobString>Mending gunshot scar.</jobString>
+		<removesHediff>Gunshot</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s gunshot scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRepairScar">
+		<defName>RepairFrostbite</defName>
+		<label>mend frostbite</label>
+		<description>Mend a frostbite scar.</description>
+		<jobString>Mending frostbite scar.</jobString>
+		<removesHediff>Frostbite</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>SurgeryRemoveFrailty</defName>
+		<label>heal frailty</label>
+		<description>Install a neuromuscular framework to repair frailty.</description>
+		<jobString>Healing frailty.</jobString>
+		<removesHediff>Frail</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully healed {1}'s frailty.</successfullyRemovedHediffMessage>
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<workAmount>3000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineUltratech</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NeuromuscularFramework</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>NeuromuscularFramework</li>
+				<li>MedicineUltratech</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Medicine>13</Medicine>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li> 
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>SurgeryRemoveBadBack</defName>
+		<label>heal bad back</label>
+		<description>Install a neuromuscular framework to repair a bad back.</description>
+		<jobString>Healing bad back.</jobString>
+		<removesHediff>BadBack</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully healed {1}'s bad back.</successfullyRemovedHediffMessage>
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -310,13 +517,12 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>5</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SyntheticHeart</li>
-						<li>BionicHeart</li>
+						<li>NeuromuscularFramework</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -327,14 +533,15 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>SyntheticHeart</li>
-				<li>BionicHeart</li>
+				<li>NeuromuscularFramework</li>
 			</thingDefs>
 		</fixedIngredientFilter>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
 		<appliedOnFixedBodyParts>
-			<li>Heart</li>
+			<li>Torso</li> 
 		</appliedOnFixedBodyParts>
-		<addsHediff>SyntheticHeart</addsHediff>
 	</RecipeDef>
-
+  
 </Defs>

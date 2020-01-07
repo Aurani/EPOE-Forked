@@ -17,28 +17,28 @@
 		<ingredients>
 			<li>
 				<filter>
-					<categories>
-						<li>BodyPartsNatural</li>
-					</categories>
+					<thingDefs>
+						<li>Heart</li>
+						<li>Lung</li>
+						<li>Stomach</li>
+						<li>Liver</li>
+						<li>Kidney</li>
+					</thingDefs>
 				</filter>
 				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories>
-				<li>BodyPartsNatural</li>
-			</categories>
-			<disallowedThingDefs>
-				<li>Leg</li>
-				<li>Arm</li>
-				<li>Ear</li>
-				<li>Eye</li>
-				<li>Nose</li>
-				<li>Jaw</li>
-			</disallowedThingDefs>
+			<thingDefs>
+				<li>Heart</li>
+				<li>Lung</li>
+				<li>Stomach</li>
+				<li>Liver</li>
+				<li>Kidney</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Meat_Human>25</Meat_Human>
+			<Meat_Human>10</Meat_Human>
 		</products>
 	</RecipeDef>
 
@@ -58,31 +58,22 @@
 		<ingredients>
 			<li>
 				<filter>
-					<categories>
-						<li>BodyPartsNatural</li>
-					</categories>
+					<thingDefs>
+						<li>Arm</li>
+						<li>Leg</li>
+					</thingDefs>
 				</filter>
 				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories>
-				<li>BodyPartsNatural</li>
-			</categories>
-			<disallowedThingDefs>
-				<li>Stomach</li>
-				<li>Liver</li>
-				<li>Ear</li>
-				<li>Eye</li>
-				<li>Nose</li>
-				<li>Kidney</li>
-				<li>Jaw</li>
-				<li>Heart</li>
-				<li>Lung</li>
-			</disallowedThingDefs>
+			<thingDefs>
+				<li>Arm</li>
+				<li>Leg</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Meat_Human>50</Meat_Human>
+			<Meat_Human>20</Meat_Human>
 		</products>
 	</RecipeDef>
 
