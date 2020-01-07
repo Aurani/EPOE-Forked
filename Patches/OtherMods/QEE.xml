@@ -7,7 +7,7 @@
 		<mods>
 			<li>Questionable Ethics Enhanced</li>
 		</mods>
-		<nomatch Class="PatchOperationSequence">
+		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationTest">
@@ -17,7 +17,7 @@
 					<xpath>Defs/RecipeDef[@ParentName="EPOESurgeryNatural"]</xpath>
 				</li>
 			</operations>
-		</nomatch>
+		</match>
 	</Operation>
 
 </Patch>
