@@ -20,7 +20,7 @@
 		<unspawnedCanDo>false</unspawnedCanDo>
 	</MentalStateDef>
 
-	<MentalStateDef ParentName="BaseMentalState" Name="Manhunter">
+	<MentalStateDef ParentName="BaseMentalState">
 		<defName>BerserkCore</defName>
 		<stateClass>MentalState_Manhunter</stateClass>
 		<label>AI takeover</label>
