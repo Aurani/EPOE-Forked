@@ -1,3 +1,6 @@
+Update 3.03 (7.1.2020)
+* Fixed a compatibility issue with QEE.
+
 Update 3.02 (4.1.2020)
 * Added the power claws production line
 * Added cooling and heating ribs replacements
