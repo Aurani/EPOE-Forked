@@ -1,3 +1,8 @@
+Update 3.11 (8.1.2020)
+* Fixed Manhunter Mental State being broken.
+* Added values for new bionics.
+* Cleaned reduntant files.
+
 Update 3.1 (7.1.2020)
 3.1 is out!
 * Added new tiers of finger and toe prosthetics.
