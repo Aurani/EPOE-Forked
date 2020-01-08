@@ -115,10 +115,10 @@
 
 	<!-- Redundant overwriting. For now. -->
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="EPOESyntheticBase">
 		<defName>BionicHeart</defName>
 		<label>bionic heart</label>
-		<description>Redundant item with EPOE mod. It can be treated as a Synthetic Heart.</description>
+		<description>Redundant item with EPOE mod. It can be treated as a Synthetic Heart. If the bill to craft this item is left in the fabrication bench after fresh installing EPOE, recommend removing it. A method was left to not break your fabrication bench and allowing the recipe to exist for player self-debug purposes.</description>
 		<graphicData>
 			<texPath>Things/Item/Health/HealthItemBionic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -126,7 +126,7 @@
 		</graphicData>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SurrogateHeart>1</SurrogateHeart>
+			<SimpleProstheticHeart>1</SimpleProstheticHeart>
 			<Hyperweave>20</Hyperweave>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
@@ -139,12 +139,19 @@
 		<thingCategories Inherit="False">
 			<li>EPOE_Redundancy</li>
 		</thingCategories>
+		<recipeMaker>
+			<factionPrerequisiteTags>
+				<li>EPOE_Redundancy_Debug</li>
+			</factionPrerequisiteTags>
+		</recipeMaker>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+		<tradeTags Inherit="False"></tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="EPOESyntheticBase">
 		<defName>BionicStomach</defName>
 		<label>bionic stomach</label>
-		<description>Redundant item with EPOE mod. It can be treated as a Synthetic Stomach.</description>
+		<description>Redundant item with EPOE mod. It can be treated as a Synthetic Stomach. If the bill to craft this item is left in the fabrication bench after fresh installing EPOE, recommend removing it. A method was left to not break your fabrication bench and allowing the recipe to exist for player self-debug purposes.</description>
 		<graphicData>
 			<texPath>Things/Item/Health/HealthItemBionic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -165,6 +172,13 @@
 		<thingCategories Inherit="False">
 			<li>EPOE_Redundancy</li>
 		</thingCategories>
+		<recipeMaker>
+			<factionPrerequisiteTags>
+				<li>EPOE_Redundancy_Debug</li>
+			</factionPrerequisiteTags>
+		</recipeMaker>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+		<tradeTags Inherit="False"></tradeTags>
 	</ThingDef>
 
 	<!-- New EPOE body parts -->
@@ -199,7 +213,7 @@
 		<techLevel>Spacer</techLevel>
 		<costList>
 			<SimpleProstheticFoot>1</SimpleProstheticFoot>
-			<Plasteel>10</Plasteel>
+			<Plasteel>20</Plasteel>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>

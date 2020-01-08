@@ -6,6 +6,7 @@
 		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 		<workSkill>Crafting</workSkill>
 		<workAmount>2500</workAmount>
+		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
@@ -32,7 +33,6 @@
 				<li>Textiles</li>
 			</categories>
 		</fixedIngredientFilter>
-		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
@@ -70,7 +70,6 @@
 				<li>Textiles</li>
 			</categories>
 		</fixedIngredientFilter>
-		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
@@ -108,7 +107,6 @@
 				<li>Textiles</li>
 			</categories>
 		</fixedIngredientFilter>
-		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
@@ -146,7 +144,6 @@
 				<li>Textiles</li>
 			</categories>
 		</fixedIngredientFilter>
-		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
@@ -173,7 +170,6 @@
 				<li>Textiles</li>
 			</categories>
 		</fixedIngredientFilter>
-		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

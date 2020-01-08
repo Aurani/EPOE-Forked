@@ -98,6 +98,21 @@
 	</ThingDef>
 
 	<ThingDef ParentName="EPOESyntheticBase">
+		<defName>SyntheticLung</defName>
+		<label>synthetic lung</label>
+		<description>A high-tech breathing replacement. Makes a soft whirring sound.</description>
+		<costList>
+			<SurrogateLung>1</SurrogateLung>
+			<Hyperweave>15</Hyperweave>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOESyntheticBase">
 		<defName>SyntheticStomach</defName>
 		<label>synthetic stomach</label>
 		<description>An enhanced stomach augmented with chemical synthesizers that efficiently digest nearly any energy-bearing foodstuff. Unaffected by its own stomach acid.</description>
@@ -113,21 +128,6 @@
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
-	</ThingDef>
-
-	<ThingDef ParentName="EPOESyntheticBase">
-		<defName>SyntheticLung</defName>
-		<label>synthetic lung</label>
-		<description>A high-tech breathing replacement. Makes a soft whirring sound.</description>
-		<costList>
-			<SurrogateLung>1</SurrogateLung>
-			<Hyperweave>15</Hyperweave>
-			<ComponentSpacer>1</ComponentSpacer>
-		</costList>
-		<statBases>
-			<WorkToMake>7500</WorkToMake>
-			<Mass>2</Mass>
-		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="EPOESyntheticBase">

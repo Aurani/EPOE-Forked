@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Old abstracts for sake of old compatibility patches -->
+	<!-- Invisible debug recipes for swapping versions to look seamless -->
+
+	<ThingDef Name="Simple" ParentName="BodyPartArtificialBase" Abstract="True">
+	    <techLevel>Industrial</techLevel>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>SimpleProstheses</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/SimplePart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<RecipeDef Name="SurgerySimple" ParentName="SurgeryFlesh" Abstract="True">
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Abstract="True" Name="RecipeSimpleProsthesis">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>EPOEAssembling</soundWorking>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>5000</workAmount>
+		<researchPrerequisite>Prosthetics</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>TableSimpleProsthetic</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateSimpleProstheticLeg</defName>
+		<label>make simple prosthetic leg</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<SimpleProstheticLeg>1</SimpleProstheticLeg>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>55</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateSimpleProstheticArm</defName>
+		<label>make simple prosthetic arm</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<SimpleProstheticArm>1</SimpleProstheticArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>55</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateCochlearImplant</defName>
+		<label>make cochlear implant</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<CochlearImplant>1</CochlearImplant>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateGoldenEye</defName>
+		<label>make golden eye</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<GoldenEye>1</GoldenEye>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Gold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateLightReceptor</defName>
+		<label>make light receptor</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<LightReceptor>1</LightReceptor>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateSimpleProstheticHand</defName>
+		<label>make simple prosthetic hand</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<SimpleProstheticHand>1</SimpleProstheticHand>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateSimpleProstheticFoot</defName>
+		<label>make simple prosthetic foot</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<SimpleProstheticFoot>1</SimpleProstheticFoot>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateHydraulicJaw</defName>
+		<label>make hydraulic jaw</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<HydraulicJaw>1</HydraulicJaw>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>65</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateArtificialNose</defName>
+		<label>make artificial nose</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<ArtificialNose>1</ArtificialNose>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
+	
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateArtificialPelvis</defName>
+		<label>make artificial pelvis</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<ArtificialPelvis>1</ArtificialPelvis>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>CreateArtificialClavicle</defName>
+		<label>make artificial clavicle</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<ArtificialClavicle>1</ArtificialClavicle>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
+</Defs>

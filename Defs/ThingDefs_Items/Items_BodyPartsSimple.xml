@@ -70,10 +70,10 @@
 
 	<!-- Redundant overwriting. For now. -->
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="EPOESurrogateBase">
 		<defName>SimpleProstheticHeart</defName>
 		<label>prosthetic heart</label>
-		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart.</description> 
+		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart. If the bill to craft this item is left in the fabrication bench after fresh installing EPOE, recommend removing it. A method was left to not break your machining table and allowing the recipe to exist for player self-debug purposes.</description> 
 		<graphicData>
 			<texPath>Things/Item/Health/HealthItemProsthetic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -94,6 +94,13 @@
 		<thingCategories Inherit="False">
 			<li>EPOE_Redundancy</li>
 		</thingCategories>
+		<recipeMaker>
+			<factionPrerequisiteTags>
+				<li>EPOE_Redundancy_Debug</li>
+			</factionPrerequisiteTags>
+		</recipeMaker>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+		<tradeTags Inherit="False"></tradeTags>
 	</ThingDef>
 	
 	<!-- New EPOE body parts -->
@@ -125,7 +132,7 @@
 		<techLevel>Industrial</techLevel>
 		<costList>
 			<Plasteel>25</Plasteel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<WorkToMake>5000</WorkToMake>
