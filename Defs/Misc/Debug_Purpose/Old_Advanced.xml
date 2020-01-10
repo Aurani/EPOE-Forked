@@ -78,6 +78,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeAdvancedProsthesis">
@@ -115,6 +116,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeAdvancedProsthesis">
@@ -152,6 +154,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeAdvancedProsthesis">
@@ -189,6 +192,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeAdvancedProsthesis">
@@ -226,6 +230,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeAdvancedProsthesis">
@@ -263,6 +268,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeAdvancedProsthesis">
@@ -300,6 +306,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeAdvancedProsthesis">
@@ -337,6 +344,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeAdvancedProsthesis">
@@ -374,6 +382,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeAdvancedProsthesis">
@@ -420,6 +429,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 </Defs>

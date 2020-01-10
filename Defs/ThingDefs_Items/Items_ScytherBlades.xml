@@ -25,4 +25,49 @@
 		</thingCategories>
 	</ThingDef>
 
+	<!-- Under development -->
+
+	<!--ThingDef ParentName="ResourceBase">
+		<defName>EPOE_MAAI_Chip</defName>
+		<label>MA-AI chip</label>
+		<description>Medical Assistant AI chip. Used as a specialized component in advanced and delicate implants, which has an AI system that can handle all the device's processes without burdening the user.</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>Things/Item/Resource/EPOEMAAIChip</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>50</stackLimit>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<Mass>0.6</Mass>
+			<Flammability>0.6</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>EPOEAssembling</soundWorking>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+			<researchPrerequisite>EPOE_MAAIChip</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Steel>10</Steel>
+			<Plasteel>20</Plasteel>
+			<Gold>1.5</Gold>
+		</costList>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef-->
+
 </Defs>

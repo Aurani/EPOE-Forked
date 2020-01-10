@@ -33,4 +33,69 @@
 		</fixedIngredientFilter>
 	</RecipeDef>
 
+	<!--RecipeDef>
+		<defName>Make_EPOE_MAAI_Chip_UseAICore</defName>
+		<label>make 5 MA-AI chip from AI persona core</label>
+		<description>Make 5 MA-AI chip from AI persona core.</description>
+		<jobString>Making MA-AI chip.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>EPOEAssembling</soundWorking>
+		<workSkill>Crafting</workSkill>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>EPOE_MAAIChip</researchPrerequisite>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
+		<products>
+			<EPOE_MAAI_Chip>5</EPOE_MAAI_Chip>
+		</products>
+		<workAmount>10000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AIPersonaCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>1.5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AIPersonaCore</li>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>Gold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef-->
+
 </Defs>

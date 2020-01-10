@@ -73,7 +73,7 @@
 	<ThingDef ParentName="EPOESurrogateBase">
 		<defName>SimpleProstheticHeart</defName>
 		<label>prosthetic heart</label>
-		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart. If the bill to craft this item is left in the fabrication bench after fresh installing EPOE, recommend removing it. A method was left to not break your machining table and allowing the recipe to exist for player self-debug purposes.</description> 
+		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart. If the bill to craft this item is left in the machining table after fresh installing EPOE, recommend removing it. A method was left to not break your machining table and allowing the recipe to exist for player self-debug purposes.</description> 
 		<graphicData>
 			<texPath>Things/Item/Health/HealthItemProsthetic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -98,6 +98,7 @@
 			<factionPrerequisiteTags>
 				<li>EPOE_Redundancy_Debug</li>
 			</factionPrerequisiteTags>
+			<recipeUsers Inherit="False" />
 		</recipeMaker>
 		<techHediffsTags Inherit="False"></techHediffsTags>
 		<tradeTags Inherit="False"></tradeTags>

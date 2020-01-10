@@ -52,6 +52,8 @@
 			<li>CreateHookHand</li>
 			<li>CreateEyePatch</li>
 			<li>CreateEarBandage</li>
+			<li>Make_BasicWoodenFinger</li>
+			<li>Make_BasicWoodenToe</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>

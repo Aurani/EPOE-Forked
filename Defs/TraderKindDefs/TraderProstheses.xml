@@ -96,7 +96,7 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>SyntheticOrgans</categoryDef>
 				<thingDefCountRange>
-					<min>-1</min>
+					<min>0</min>
 					<max>1</max>
 				</thingDefCountRange>
 				<countRange>

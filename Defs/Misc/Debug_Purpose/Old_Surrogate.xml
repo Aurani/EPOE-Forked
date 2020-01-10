@@ -86,6 +86,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeSurrogateOrgan">
@@ -132,6 +133,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeSurrogateOrgan">
@@ -178,6 +180,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeSurrogateOrgan">
@@ -224,6 +227,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeSurrogateOrgan">
@@ -270,6 +274,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeSurrogateOrgan">
@@ -316,6 +321,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 </Defs>
