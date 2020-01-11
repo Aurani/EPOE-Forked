@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>EPOE Fix + EPOE Replacement Expansion</name>
+	<name>Expanded Prosthetics and Organ Engineering</name>
 	<author>Victorique</author>
     <url>https://github.com/Aurani/EPOE-Forked</url>
         <supportedVersions>
 		<li>1.0</li>
 	</supportedVersions>
-	<description>Adds the ability to craft tons of prostheses and artificial organs in various forms and shapes. Version 3.11</description>
+	<description>Adds the ability to craft tons of prostheses and artificial organs in various forms and shapes. Version 3.12</description>
 </ModMetaData>
