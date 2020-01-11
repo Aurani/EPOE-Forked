@@ -1,3 +1,8 @@
+Update 3.12 (11.1.2020)
+* Added a compatibility patch with Vanilla Furniture Expanded - Production. 
+EPOE workbenches can now link with the new cabinets of that mod.
+* Fixed an error to look if RePowerReborn is loaded.
+
 Update 3.11 (8.1.2020)
 * Fixed Manhunter Mental State being broken.
 * Added values for new bionics.
