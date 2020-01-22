@@ -55,7 +55,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AIChip</li>
+						<li>Gold</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -63,7 +63,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Gold</li>
+						<li>Silver</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -74,7 +74,7 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -82,13 +82,13 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AIChip</li>
 				<li>Gold</li>
+				<li>Silver</li>
 				<li>Plasteel</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
@@ -111,7 +111,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AIChip</li>
+						<li>Gold</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -119,7 +119,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Gold</li>
+						<li>Silver</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -130,7 +130,7 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -138,13 +138,70 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AIChip</li>
 				<li>Gold</li>
+				<li>Silver</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSyntheticOrgan">
+		<defName>CreateBrainStimulator</defName>
+		<label>make brain stimulator</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Creating surrogate organ.</jobString>
+		<workAmount>6500</workAmount>
+		<products>
+			<BrainStimulator>1</BrainStimulator>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+				<li>Neutroamine</li>
 				<li>Plasteel</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
@@ -167,10 +224,26 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>BrainStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>Gold</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -178,22 +251,24 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentSpacer</li>
+						<li>EPOE_MAAI_Chip</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
+				<li>BrainStimulator</li>
 				<li>Gold</li>
+				<li>Neutroamine</li>
 				<li>Plasteel</li>
-				<li>ComponentSpacer</li>
+				<li>EPOE_MAAI_Chip</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<factionPrerequisiteTags>
@@ -431,6 +506,55 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySynthetic">
+		<defName>InstallAIPersonaCore</defName>
+		<label>install AI persona core (removed)</label>
+		<description>AI persona core surgery no longer exists. This is a debug recipe that should not be visible at all, to avoid breaking a pawn's operation bill UI if it was left there during a EPOE version swap.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing AI persona core.</jobString>
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AIPersonaCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AIPersonaCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AIChip</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>

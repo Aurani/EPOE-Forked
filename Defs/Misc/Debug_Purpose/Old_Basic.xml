@@ -52,6 +52,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 	
 	<RecipeDef ParentName="RecipeBasicProsthesis">
@@ -81,6 +82,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
@@ -110,6 +112,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 	<RecipeDef ParentName="RecipeBasicProsthesis">
@@ -139,6 +142,7 @@
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 </Defs>

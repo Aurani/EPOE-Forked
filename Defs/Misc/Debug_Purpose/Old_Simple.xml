@@ -319,7 +319,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -405,11 +405,11 @@
 	
 	<RecipeDef ParentName="RecipeSimpleProsthesis">
 		<defName>CreateArtificialPelvis</defName>
-		<label>make artificial pelvis</label>
-		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<label>Remove this recipe</label>
+		<description>A debug recipe to prevent glitches when swapping from old EPOE to EPOE-forked. Safe to delete this recipe, and you will not see it again. A Simple Rib will be produced as the debugged product of this recipe if continued use.</description>
 		<jobString>Crafting prosthesis.</jobString>
 		<products>
-			<ArtificialPelvis>1</ArtificialPelvis>
+			<SimpleRib>1</SimpleRib>
 		</products>
 		<ingredients>
 			<li>
@@ -440,14 +440,14 @@
 		</factionPrerequisiteTags>
 		<recipeUsers Inherit="False" />
 	</RecipeDef>
-	
+
 	<RecipeDef ParentName="RecipeSimpleProsthesis">
 		<defName>CreateArtificialClavicle</defName>
-		<label>make artificial clavicle</label>
-		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<label>remove this recipe</label>
+		<description>A debug recipe to prevent glitches when swapping from old EPOE to EPOE-forked. Safe to delete this recipe, and you will not see it again. A Simple Rib will be produced as the debugged product of this recipe if continued use.</description>
 		<jobString>Crafting prosthesis.</jobString>
 		<products>
-			<ArtificialClavicle>1</ArtificialClavicle>
+			<SimpleRib>1</SimpleRib>
 		</products>
 		<ingredients>
 			<li>
@@ -464,6 +464,177 @@
 				<li>Steel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>Make_ArtificialPelvis</defName>
+		<label>remove this recipe</label>
+		<description>A debug recipe to prevent glitches due to removal of artifical pelvis. Safe to delete this recipe, and you will not see it again. A Simple Rib will be produced as the debugged product of this recipe if continued use.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<SimpleRib>1</SimpleRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeSimpleProsthesis">
+		<defName>Make_ArtificialClavicle</defName>
+		<label>remove this recipe</label>
+		<description>A debug recipe to prevent glitches due to removal of artificial clavicle. Safe to delete this recipe, and you will not see it again. A Simple Rib will be produced as the debugged product of this recipe if continued use.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<products>
+			<SimpleRib>1</SimpleRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>InstallArtificialPelvis</defName>
+		<label>install artifical pelvis</label>
+		<description>Installs artifical pelvis.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing artifical pelvis.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Pelvis</li>
+		</appliedOnFixedBodyParts>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+	</RecipeDef>
+	
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>InstallArtificialClavicle</defName>
+		<label>install artifical clavicle</label>
+		<description>Installs artifical clavicle.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing artifical clavicle.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Clavicle</li>
+		</appliedOnFixedBodyParts>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySimple">
+		<defName>InstallSimpleRib</defName>
+		<label>install simple rib replacement</label>
+		<description>Installs a simple rib replacement.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing a simple rib replacement.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SimpleRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
 		<factionPrerequisiteTags>
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>

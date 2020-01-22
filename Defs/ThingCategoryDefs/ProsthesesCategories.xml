@@ -44,6 +44,12 @@
 	</ThingCategoryDef>
 
     <ThingCategoryDef>
+      <defName>EPOE_OrganicOptimizer</defName>
+      <label>organic optimizer</label>
+      <parent>BodyPartsNatural</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
       <defName>EPOE_Redundancy</defName>
       <label>epoe redundancy</label>
       <parent>BodyParts</parent>

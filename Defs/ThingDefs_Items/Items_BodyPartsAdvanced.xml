@@ -245,6 +245,7 @@
 		<label>exoskeleton suit</label>
 		<description>A high tech device made out of two components: a light skeletal structure to relieve the back and servomotors to make the user stronger.</description>
 		<costList>
+			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
 			<Plasteel>75</Plasteel>
 			<Steel>60</Steel>
 			<ComponentSpacer>5</ComponentSpacer>

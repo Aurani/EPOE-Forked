@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="EPOEOrganicOptimizer" ParentName="EPOESyntheticBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>EPOE_OrganicOptimizer</researchPrerequisite>
+		</recipeMaker>
+	    <techLevel>Spacer</techLevel>
+		<techHediffsTags Inherit="False">
+			<li>Advanced</li>
+		</techHediffsTags>
+		<thingCategories Inherit="False">
+			<li>EPOE_OrganicOptimizer</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOEOrganicOptimizer">
+		<defName>EPOE_OrganicOptimizingNanobots</defName>
+		<label>organic optimizing nanobots</label>
+		<description>Advanced nanobots that can help to bring out the full potential of the natural body. It takes 3 days for the full process to complete the optimization, which does include requiring more rest and food needs. At the end of the process, the nanobots breaks down and dissolve without a trace as the treated body part no longer needs them.\n\nBody purist can accept or even be happy about the improvements, whilst transhumanists hates all of this.</description>
+		<costList>
+			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>30</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<Gold>1</Gold>
+		</costList>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>0.25</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOEOrganicOptimizer">
+		<defName>EPOE_InstinctOptimizingNanobots</defName>
+		<label>instinct optimizing nanobots</label>
+		<description>Advanced nanobots that assists the the natural body with imprinting beneficial instinctual reaction sequences into the organic tissues. It takes 4 days for the full process to complete the optimization, which does include requiring more rest and food needs. At the end of the process, the nanobots breaks down and dissolve without a trace as the treated body part no longer needs them.\n\nBody purist can accept these improvements, whilst transhumanists hates all of this.</description>
+		<costList>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>25</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<Silver>4</Silver>
+		</costList>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>0.25</Mass>
+		</statBases>
+	</ThingDef>
+
+</Defs>

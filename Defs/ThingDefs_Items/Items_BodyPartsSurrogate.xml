@@ -34,21 +34,6 @@
 	<!-- New EPOE body parts -->
 
 	<ThingDef ParentName="EPOESurrogateBase">
-		<defName>BrainStimulator</defName>
-		<label>brain stimulator</label>
-		<description>A small device that does its best to stimulate the remaining areas of the brain. Recommended for severe brain damage only. Requires brain surgery research before installing.</description>
-		<costList>
-			<Cloth>25</Cloth>
-			<Plasteel>50</Plasteel>
-			<ComponentIndustrial>5</ComponentIndustrial>
-		</costList>
-		<statBases>
-			<WorkToMake>4500</WorkToMake>
-			<Mass>0.1</Mass>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="EPOESurrogateBase">
 		<defName>SurrogateHeart</defName>
 		<label>surrogate heart</label>
 		<description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</description>

@@ -131,4 +131,128 @@
 		</stages>
 	</HediffDef>
 
+	<HediffDef ParentName="addedPartGlittery">
+		<defName>AIPersonaCore</defName>
+		<label>AI persona core</label>
+		<labelNoun>an AI persona core</labelNoun>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<spawnThingOnRemoved>AIPersonaCore</spawnThingOnRemoved>
+		<minSeverity>0.001</minSeverity>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>48</baseTendDurationHours>
+				<severityPerDayTended>0.4</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-0.15</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>AI take over</label>
+				<painFactor>0.8</painFactor>
+				<restFallFactor>2</restFallFactor>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<MentalBreakThreshold>0.5</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.65</setMax>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>BerserkCore</mentalState>
+						<mtbDays>0.05</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.01</minSeverity>
+				<label>Unmaintained</label>
+				<painFactor>0.8</painFactor>
+				<restFallFactor>2</restFallFactor>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<MentalBreakThreshold>0.18</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.65</setMax>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>BerserkCore</mentalState>
+						<mtbDays>25</mtbDays>
+					</li>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>13</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.15</minSeverity>
+				<label>Maintenance critical</label>
+				<painFactor>0.8</painFactor>
+				<restFallFactor>1.5</restFallFactor>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<MentalBreakThreshold>0.06</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.9</setMax>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>15</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.35</minSeverity>
+				<label>Maintenance required</label>
+				<painFactor>0.8</painFactor>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<MentalBreakThreshold>-0.04</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.7</minSeverity>
+				<painFactor>0.8</painFactor>
+				<restFallFactor>0.5</restFallFactor>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<MentalBreakThreshold>-0.04</MentalBreakThreshold>
+					<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+					<MeleeHitChance>2</MeleeHitChance>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.50</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
 </Defs>

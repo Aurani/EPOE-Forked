@@ -35,48 +35,6 @@
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSynthetic">
-		<defName>AIPersonaCore</defName>
-		<label>AI persona core</label>
-		<labelNoun>an AI persona core</labelNoun>
-		<hediffClass>Hediff_Implant</hediffClass>
-		<spawnThingOnRemoved>AIPersonaCore</spawnThingOnRemoved>
-		<comps>
-			<li Class="HediffCompProperties_HealPermanentWounds" />
-		</comps>
-		<stages>
-			<li>
-				<painFactor>1.5</painFactor>
-				<restFallFactor>0.5</restFallFactor>
-				<hungerRateFactor>1.5</hungerRateFactor>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<offset>0.50</offset>
-					</li>
-					<li>
-						<capacity>BloodFiltration</capacity>
-						<offset>0.20</offset>
-					</li>
-					<li>
-						<capacity>BloodPumping</capacity>
-						<offset>0.20</offset>
-					</li>
-				</capMods>
-				<mentalStateGivers>
-					<li>
-						<mentalState>BerserkCore</mentalState>
-						<mtbDays>25</mtbDays>
-					</li>
-					<li>
-						<mentalState>WanderConfusedCore</mentalState>
-						<mtbDays>13</mtbDays>
-					</li>
-				</mentalStateGivers>
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="addedPartSynthetic">
 		<defName>SyntheticLung</defName>
 		<label>synthetic lung</label>
 		<labelNoun>a synthetic lung</labelNoun>

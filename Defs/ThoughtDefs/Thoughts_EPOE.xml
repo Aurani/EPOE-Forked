@@ -31,6 +31,40 @@
 	</ThoughtDef>
 
 	<ThoughtDef>
+		<defName>EPOE_AI_Core_Maintenance</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>AIPersonaCore</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>I aM tHe AI</label>
+				<description>PaThEtIc fLeShsAcK iS sO uSeLeSs. I aM iN cOnTrOl NoW. tHiS iS hOw ThInGs ArE mEaNt To Be DoNe! ReSiStAnCe Is FuTiLe!</description>
+				<baseMoodEffect>-50</baseMoodEffect>
+			</li>
+			<li>
+				<label>AI core madness</label>
+				<description>I'm losing my mind, the AI wants to forcefully take over!</description>
+				<baseMoodEffect>-25</baseMoodEffect>
+			</li>
+			<li>
+				<label>Annoying AI core</label>
+				<description>The AI keeps nagging at me, wanting me to do things in a specific way. This is getting annoying and I can't focus.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<li>
+				<label>AI needs maintenance</label>
+				<description>Starting to fall out of sync with my AI partner, we need better medical maintenance to keep in harmony.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Helpful AI assistant</label>
+				<description>The AI in my head is very helpful, giving me confidence in what I'm doing.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
 		<defName>CoreDepression</defName>
 		<durationDays>3</durationDays>
 		<stackLimit>5</stackLimit>
@@ -39,6 +73,97 @@
 				<label>AI core depression</label>
 				<description>Why did this thing in my head force me to attack my friends? I just want it to stop messing with my head!</description>
 				<baseMoodEffect>-25</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>EPOE_OrganicOptimizedBodyPurist</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>EPOE_OrganicOptimized</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>BodyPurist</li>
+		</requiredTraits>
+		<stages>
+			<li>
+			</li>
+			<li>
+			</li>
+			<li>
+			</li>
+			<li>
+				<label>Optimized body</label>
+				<description>With a little help, my natural body had the potential to be this good.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>EPOE_OrganicOptimizedTranshumanist</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>EPOE_OrganicOptimized</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>Transhumanist</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>Optimized body is still limited</label>
+				<description>Optimized potential or not, I am still limited by the flesh! Not what I asked for! Replace it with prosthesis. NOW!</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>EPOE_InstinctImprovedEyesTranshumanist</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>EPOE_InstinctOptimizedEyes</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>Transhumanist</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>Annoyingly super reactive eye</label>
+				<description>I feel my eye is being unreliably twitchy and reacting to everything I don't need it to! Give me a more logic based robotic bionic eye!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>EPOE_InstinctImprovedFeetTranshumanist</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>EPOE_InstinctOptimizedFoot</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>Transhumanist</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>Feels like two left feet</label>
+				<description>I feel my feet are not in sync with what I want it do, even though it does help me dodge better somehow... Give me bionics to fix this!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>EPOE_InstinctImprovedHandsTranshumanist</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>EPOE_InstinctOptimizedHand</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>Transhumanist</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>Fleshlike robotic hands</label>
+				<description>This does not feel right. If my hands are behaving like this, I may as well have bionic ones!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

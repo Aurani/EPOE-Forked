@@ -199,7 +199,7 @@
 		<costList>
 			<Steel>35</Steel>
 			<Plasteel>15</Plasteel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<WorkToMake>5000</WorkToMake>
@@ -308,47 +308,6 @@
 		<statBases>
 			<WorkToMake>5000</WorkToMake>
 			<Mass>0.3</Mass>
-		</statBases>
-		<tradeTags>
-			<li>SimpleProstheses</li>
-		</tradeTags>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-	</ThingDef>
-	
-	<ThingDef ParentName="BodyPartProstheticBase">
-		<defName>ArtificialPelvis</defName>
-		<label>artificial pelvis</label>
-		<description>Replaces a missing pelvis. Pretty useful if crawling is not your favourite way of moving around.</description>
-		<techLevel>Industrial</techLevel>
-		<costList>
-			<Steel>45</Steel>
-			<Plasteel>20</Plasteel>
-		</costList>
-		<statBases>
-			<WorkToMake>5000</WorkToMake>
-			<Mass>5</Mass>
-		</statBases>
-		<tradeTags>
-			<li>SimpleProstheses</li>
-		</tradeTags>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-	</ThingDef>
-
-	<ThingDef ParentName="BodyPartProstheticBase">
-		<defName>ArtificialClavicle</defName>
-		<label>artificial clavicle</label>
-		<description>Replaces a missing clavicle. If you somehow manage to break yours.</description>
-		<techLevel>Industrial</techLevel>
-		<costList>
-			<Steel>35</Steel>
-		</costList>
-		<statBases>
-			<WorkToMake>5000</WorkToMake>
-			<Mass>0.5</Mass>
 		</statBases>
 		<tradeTags>
 			<li>SimpleProstheses</li>

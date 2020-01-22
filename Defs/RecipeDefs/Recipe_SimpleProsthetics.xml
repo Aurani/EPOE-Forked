@@ -406,84 +406,6 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgerySimple">
-		<defName>InstallArtificialPelvis</defName>
-		<label>install artifical pelvis</label>
-		<description>Installs artifical pelvis.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing artifical pelvis.</jobString>
-		<workAmount>2000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ArtificialPelvis</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>ArtificialPelvis</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Pelvis</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>ArtificialPelvis</addsHediff>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="EPOESurgerySimple">
-		<defName>InstallArtificialClavicle</defName>
-		<label>install artifical clavicle</label>
-		<description>Installs artifical clavicle.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing artifical clavicle.</jobString>
-		<workAmount>2000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ArtificialClavicle</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>ArtificialClavicle</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Clavicle</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>ArtificialClavicle</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPOESurgerySimple">
 		<defName>InstallScytherBlade</defName>
 		<label>install scyther blade</label>
 		<description>Installs a scyther blade at where the hand is.</description>
@@ -520,45 +442,6 @@
 			<li>Hand</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>EPOE_ScytherBlade</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPOESurgerySimple">
-		<defName>InstallSimpleRib</defName>
-		<label>install simple rib replacement</label>
-		<description>Installs a simple rib replacement.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing a simple rib replacement.</jobString>
-		<workAmount>1500</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>SimpleRib</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>SimpleRib</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Ribcage</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>SimpleRib</addsHediff>
 	</RecipeDef>
 
 </Defs>

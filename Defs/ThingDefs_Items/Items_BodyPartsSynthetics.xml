@@ -29,10 +29,10 @@
 		<label>joywire</label>
 		<description>This little brain implant will make you feel happy and relaxed. Requires brain surgery research before installing.</description>
 		<costList>
-			<AIChip>1</AIChip>
-			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<Gold>1</Gold>
+			<Silver>3</Silver>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
 			<WorkToMake>7500</WorkToMake>
@@ -48,10 +48,10 @@
 		<label>painstopper</label>
 		<description>This brain implant will make you not feel pain. Requires brain surgery research before installing.</description>
 		<costList>
-			<AIChip>1</AIChip>
-			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<Gold>1</Gold>
+			<Silver>3</Silver>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>		
 		<statBases>
 			<WorkToMake>7500</WorkToMake>
@@ -65,13 +65,32 @@
 	<!-- New EPOE body parts -->
 
 	<ThingDef ParentName="EPOESyntheticBase">
+		<defName>BrainStimulator</defName>
+		<label>brain stimulator</label>
+		<description>A small device that does its best to stimulate the remaining areas of the brain. Recommended for severe brain damage only. Requires brain surgery research before installing.</description>
+		<costList>
+			<Silver>3</Silver>
+			<Neutroamine>5</Neutroamine>
+			<Plasteel>35</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>6500</WorkToMake>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOESyntheticBase">
 		<defName>AIChip</defName>
 		<label>AI chip</label>
 		<description>Through special chemicals and electric shocks this little chip is able to completely restore the users consciousness and mobility. Requires brain surgery research before installing.</description>      
 		<costList>
-			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<BrainStimulator>1</BrainStimulator>
+			<Gold>1</Gold>
+			<Neutroamine>5</Neutroamine>
+			<Plasteel>15</Plasteel>
+			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
 		</costList>
 		<statBases>
 			<WorkToMake>7500</WorkToMake>
@@ -92,9 +111,6 @@
 			<WorkToMake>7500</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
 	</ThingDef>
 
 	<ThingDef ParentName="EPOESyntheticBase">
@@ -125,9 +141,6 @@
 			<WorkToMake>7500</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
 	</ThingDef>
 
 	<ThingDef ParentName="EPOESyntheticBase">
@@ -143,9 +156,6 @@
 			<WorkToMake>7500</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
 	</ThingDef>
 
 	<ThingDef ParentName="EPOESyntheticBase">
@@ -161,9 +171,6 @@
 			<WorkToMake>7500</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
 	</ThingDef>
 
 	<ThingDef ParentName="EPOESyntheticBase">

@@ -137,24 +137,6 @@
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSimple">
-		<defName>ArtificialPelvis</defName>
-		<label>artificial pelvis</label>
-		<spawnThingOnRemoved>ArtificialPelvis</spawnThingOnRemoved>
-		<addedPartProps>
-			<partEfficiency>0.8</partEfficiency>
-		</addedPartProps>
-	</HediffDef>
-
-	<HediffDef ParentName="addedPartSimple">
-		<defName>ArtificialClavicle</defName>
-		<label>artificial clavicle</label>
-		<spawnThingOnRemoved>ArtificialClavicle</spawnThingOnRemoved>
-		<addedPartProps>
-			<partEfficiency>0.8</partEfficiency>
-		</addedPartProps>
-	</HediffDef>
-
-	<HediffDef ParentName="addedPartSimple">
 		<defName>EPOE_ScytherBlade</defName>
 		<label>scyther blade</label>
 		<spawnThingOnRemoved>ScytherBlade</spawnThingOnRemoved>
