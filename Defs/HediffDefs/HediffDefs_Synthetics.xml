@@ -12,6 +12,27 @@
 
 	<!-- New EPOE body parts -->
 
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>BrainStimulator</defName>
+		<label>brain stimulator</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<spawnThingOnRemoved>BrainStimulator</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.7</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.9</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
 	<HediffDef ParentName="addedPartSynthetic">
 		<defName>AIChip</defName>
 		<label>AI Chip</label>
