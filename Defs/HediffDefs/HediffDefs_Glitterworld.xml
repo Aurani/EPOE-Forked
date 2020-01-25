@@ -144,7 +144,7 @@
 		<comps>
 			<li Class="HediffCompProperties_TendDuration">
 				<baseTendDurationHours>48</baseTendDurationHours>
-				<severityPerDayTended>0.4</severityPerDayTended>
+				<severityPerDayTended>0.214</severityPerDayTended>
 			</li>
 			<li Class="HediffCompProperties_Immunizable">
 				<severityPerDayNotImmune>-0.15</severityPerDayNotImmune>
@@ -238,7 +238,7 @@
 			<li>
 				<minSeverity>0.7</minSeverity>
 				<painFactor>0.8</painFactor>
-				<restFallFactor>0.5</restFallFactor>
+				<restFallFactor>0.75</restFallFactor>
 				<hungerRateFactor>1.25</hungerRateFactor>
 				<statOffsets>
 					<MentalBreakThreshold>-0.04</MentalBreakThreshold>
