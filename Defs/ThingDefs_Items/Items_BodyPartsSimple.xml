@@ -70,15 +70,18 @@
 
 	<!-- Redundant overwriting. For now. -->
 
-	<ThingDef ParentName="EPOESurrogateBase">
-		<defName>SimpleProstheticHeart</defName>
-		<label>prosthetic heart</label>
-		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart. If the bill to craft this item is left in the machining table after fresh installing EPOE, recommend removing it. A method was left to not break your machining table and allowing the recipe to exist for player self-debug purposes.</description> 
+	<ThingDef Name="EPOE_ObsoleteSurrogate" ParentName="EPOESurrogateBase" Abstract="True">
 		<graphicData>
 			<texPath>Things/Item/Health/HealthItemProsthetic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.80</drawSize>
 		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOE_ObsoleteSurrogate">
+		<defName>SimpleProstheticHeart</defName>
+		<label>prosthetic heart</label>
+		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart. If the bill to craft this item is left in the machining table after fresh installing EPOE, recommend removing it. A method was left to not break your machining table and allowing the recipe to exist for player self-debug purposes.</description> 
 		<techLevel>Industrial</techLevel>
 		<costList>
 			<Cloth>40</Cloth>

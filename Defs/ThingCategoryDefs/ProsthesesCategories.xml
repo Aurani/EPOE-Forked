@@ -46,7 +46,7 @@
     <ThingCategoryDef>
       <defName>EPOE_OrganicOptimizer</defName>
       <label>organic optimizer</label>
-      <parent>BodyPartsNatural</parent>
+      <parent>Items</parent>
     </ThingCategoryDef>
 
     <ThingCategoryDef>

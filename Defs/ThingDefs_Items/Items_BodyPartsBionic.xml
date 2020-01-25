@@ -113,17 +113,41 @@
 		</techHediffsTags>
 	</ThingDef>
 
+	<!-- I blame MSE for making me do this overwrite -->
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>PowerClaw</defName>
+		<label>power claw</label>
+		<description>Powerful hand replacement consisting of three deadly claws.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<ScytherBlade>3</ScytherBlade>
+			<Plasteel>25</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
 	<!-- Redundant overwriting. For now. -->
 
-	<ThingDef ParentName="EPOESyntheticBase">
-		<defName>BionicHeart</defName>
-		<label>bionic heart</label>
-		<description>Redundant item with EPOE mod. It can be treated as a Synthetic Heart. If the bill to craft this item is left in the fabrication bench after fresh installing EPOE, recommend removing it. A method was left to not break your fabrication bench and allowing the recipe to exist for player self-debug purposes.</description>
+	<ThingDef Name="EPOE_ObsoleteSynthetic" ParentName="EPOESyntheticBase" Abstract="True">
 		<graphicData>
 			<texPath>Things/Item/Health/HealthItemBionic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.80</drawSize>
 		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOE_ObsoleteSynthetic">
+		<defName>BionicHeart</defName>
+		<label>bionic heart</label>
+		<description>Redundant item with EPOE mod. It can be treated as a Synthetic Heart. If the bill to craft this item is left in the fabrication bench after fresh installing EPOE, recommend removing it. A method was left to not break your fabrication bench and allowing the recipe to exist for player self-debug purposes.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
 			<SimpleProstheticHeart>1</SimpleProstheticHeart>
@@ -149,15 +173,10 @@
 		<tradeTags Inherit="False"></tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="EPOESyntheticBase">
+	<ThingDef ParentName="EPOE_ObsoleteSynthetic">
 		<defName>BionicStomach</defName>
 		<label>bionic stomach</label>
 		<description>Redundant item with EPOE mod. It can be treated as a Synthetic Stomach. If the bill to craft this item is left in the fabrication bench after fresh installing EPOE, recommend removing it. A method was left to not break your fabrication bench and allowing the recipe to exist for player self-debug purposes.</description>
-		<graphicData>
-			<texPath>Things/Item/Health/HealthItemBionic</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.80</drawSize>
-		</graphicData>
 		<techLevel>Spacer</techLevel>
 		<costList>
 			<SurrogateStomach>1</SurrogateStomach>

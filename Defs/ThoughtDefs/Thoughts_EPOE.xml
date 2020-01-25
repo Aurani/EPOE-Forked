@@ -86,12 +86,9 @@
 			<li>BodyPurist</li>
 		</requiredTraits>
 		<stages>
-			<li>
-			</li>
-			<li>
-			</li>
-			<li>
-			</li>
+			<li IsNull="True" />
+			<li IsNull="True" />
+			<li IsNull="True" />
 			<li>
 				<label>Optimized body</label>
 				<description>With a little help, my natural body had the potential to be this good.</description>
