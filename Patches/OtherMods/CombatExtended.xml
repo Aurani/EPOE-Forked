@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="EPOE_ScytherBlade"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>blade</label>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
+							<power>16</power>
+							<armorPenetrationBlunt>4</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.8</armorPenetrationSharp>
+							<cooldownTime>1.29</cooldownTime>
+							<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+			<!--li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedEyes"]/stages/li[label="Optimizing"]/statOffsets/ShootingAccuracyPawn</xpath>
+				<value>
+					<ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+				</value>
+			</li-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedEyes"]/stages/li[minSeverity="0.99"]/statOffsets/MeleeDodgeChance</xpath>
+				<value>
+					<MeleeDodgeChance>0.05</MeleeDodgeChance>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedEyes"]/stages/li[minSeverity="0.99"]/statOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.075</MeleeCritChance>
+					<MeleeParryChance>0.075</MeleeParryChance>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedFoot"]/stages/li[label="Optimizing"]/statOffsets/MeleeDodgeChance</xpath>
+				<value>
+					<MeleeDodgeChance>0.075</MeleeDodgeChance>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedFoot"]/stages/li[minSeverity="0.99"]/statOffsets/MeleeDodgeChance</xpath>
+				<value>
+					<MeleeDodgeChance>0.15</MeleeDodgeChance>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+	<!-- Stupid MSE forcing me to just do overwrite on the power claw for now -->
+	<!-- Just so can get less needless complaints when EPOE and MSE conflicts anyway -->
+	<!-- Going to be one massive can of worms when I finally try finding ways to hybrid these medical mods -->
+	<!-- No one is using vanilla format styles and make it 100 times harder for themselves and everyone else... Grumble grumble... -->
+	<!-- Going for the more aggressive "patching" for now... -->
+	
+	<!--
+	
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -10,7 +18,7 @@
 				<value>BodyPartBionicBase</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName="PowerClaw"]/graphicData/drawSize</xpath>
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/graphicData</xpath>
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="PowerClaw"]/thingSetMakerTags</xpath>
@@ -22,12 +30,6 @@
 				<xpath>Defs/ThingDef[defName="PowerClaw"]/description</xpath>
 				<value>
 					<description>Powerful hand replacement consisting of three deadly claws.</description>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="PowerClaw"]/graphicData/texPath</xpath>
-				<value>
-					<texPath>Things/Item/BodyPart/BionicPart</texPath>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -58,5 +60,7 @@
 			</li>
 		</operations>
 	</Operation>
+
+	-->
 
 </Patch>
