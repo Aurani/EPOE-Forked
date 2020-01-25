@@ -12,6 +12,50 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgerySynthetic">
+		<defName>InstallBrainStimulator</defName>
+		<label>install brain stimulator</label>
+		<description>Installs brain stimulator.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing brain stimulator.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BrainStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BrainStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BrainStimulator</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySynthetic">
 		<defName>RemoveBrainStimulator</defName>
 		<label>remove brain stimulator</label>
 		<description>Removes brain stimulator.</description>
