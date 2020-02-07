@@ -1,3 +1,14 @@
+Update 3.13 (7.2.2020)
+* Fixed some item description errors
+* Changed the synthetic organ values: instead of the old values, each organ now provides 120% part efficiency
+* Muscle stimulator tech lowered, stats changed
+* Organic optimisers buffed (time being bedridden is now shorter)
+* Brain Surgery research has been reduced to 1500 from 2500
+* Moved the Auxiliary AIs to a lower tier of technology, making them available earlier in the game
+* Added AI Persona Core implant research, requiring 1000 points. New AI Core surgeries now require this research before being done.
+* Synthetic Skin has been renamed to Synthetic Tissue. Synthetic Repairs research is now needed to make the Synthetic Tissue and the Neuromuscular Framework.
+* Tactical Cornea Implant has been buffed to offer better combat stats and make it viable again
+
 Update 3.12 (11.1.2020)
 * Added a compatibility patch with Vanilla Furniture Expanded - Production. 
 EPOE workbenches can now link with the new cabinets of that mod.
