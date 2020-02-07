@@ -31,24 +31,6 @@
 	<!-- New EPOE implants -->
 
 	<ThingDef ParentName="EPOEGlitterworldImplantBase">
-		<defName>MuscleStimulator</defName>
-		<label>muscle stimulator</label>
-		<description>Through special chemicals and electric shocks this little chip is able to stimulate the muscles so they can operate at above maximum performance.</description>
-		<costList>
-			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
-			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
-		</costList>
-		<statBases>
-			<Mass>0.1</Mass>
-		</statBases>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-	</ThingDef>
-
-	<ThingDef ParentName="EPOEGlitterworldImplantBase">
 		<defName>TacticalCorneaImplant</defName>
 		<label>tactical cornea implant</label>
 		<description>An enhanced implant which provides the user with additional information about potential targets and suggests a perfect firing angle.</description>

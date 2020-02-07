@@ -106,8 +106,8 @@
 
 	<HediffDef ParentName="addedPartBionics">
 		<defName>MedicalRib</defName>
-		<label>medical rib replacement</label>
-		<labelNoun>a medical rib replacement</labelNoun>
+		<label>medical rib</label>
+		<labelNoun>a medical rib</labelNoun>
 		<hediffClass>Hediff_Implant</hediffClass>
 		<spawnThingOnRemoved>MedicalRib</spawnThingOnRemoved>
 		<stages>
@@ -173,7 +173,7 @@
 
 	<HediffDef ParentName="addedPartBionics">
 		<defName>HeaterRib</defName>
-		<label>heating rib replacement</label>
+		<label>heating rib</label>
 		<hediffClass>Hediff_Implant</hediffClass>
 		<spawnThingOnRemoved>HeaterRib</spawnThingOnRemoved>
 		<stages>
@@ -188,7 +188,7 @@
 
 	<HediffDef ParentName="addedPartBionics">
 		<defName>CoolerRib</defName>
-		<label>cooling rib replacement</label>
+		<label>cooling rib</label>
 		<hediffClass>Hediff_Implant</hediffClass>
 		<spawnThingOnRemoved>CoolerRib</spawnThingOnRemoved>
 		<stages>

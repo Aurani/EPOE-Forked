@@ -43,7 +43,15 @@
 		</recipeUsers>
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef Name="EPOEDebugRecipeBionic" ParentName="RecipeBionicProsthesis" Abstract="True">
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+		<researchPrerequisite Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicEye</defName>
 		<label>make bionic eye</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -84,13 +92,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicArm</defName>
 		<label>make bionic arm</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -131,13 +135,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicLeg</defName>
 		<label>make bionic leg</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -178,13 +178,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicSpine</defName>
 		<label>make bionic spine</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -225,13 +221,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicEar</defName>
 		<label>make bionic ear</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -272,13 +264,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicHand</defName>
 		<label>make bionic hand</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -320,13 +308,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicFoot</defName>
 		<label>make bionic foot</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -367,13 +351,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicJaw</defName>
 		<label>make bionic jaw</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -414,13 +394,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateSilentJaw</defName>
 		<label>make silent jaw</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -461,13 +437,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeAdvancedProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreatePowerClaw</defName>
 		<label>make scyther blade</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -508,13 +480,9 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreatePowerArm</defName>
 		<label>make power arm</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -555,13 +523,9 @@
 				<li>Plasteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateMedicalRib</defName>
 		<label>make medical rib</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -602,14 +566,9 @@
 				<li>MedicineUltratech</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<researchPrerequisite>RibReplacements</researchPrerequisite>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateDruggedRib</defName>
 		<label>make drugged rib</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -650,14 +609,9 @@
 				<li>Flake</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<researchPrerequisite>RibReplacements</researchPrerequisite>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateAdrenalineRib</defName>
 		<label>make adrenaline rib</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -698,14 +652,9 @@
 				<li>Yayo</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<researchPrerequisite>RibReplacements</researchPrerequisite>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBionicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreatePainkillerRib</defName>
 		<label>make painkiller rib</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -746,11 +695,6 @@
 				<li>GoJuice</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<researchPrerequisite>RibReplacements</researchPrerequisite>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 </Defs>

@@ -25,7 +25,15 @@
 		</skillRequirements>
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBasicProsthesis">
+	<RecipeDef Name="EPOEDebugRecipeBasic" ParentName="RecipeBasicProsthesis" Abstract="True">
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+		<researchPrerequisite Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
 		<defName>CreateDenture</defName>
 		<label>make denture</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -49,13 +57,9 @@
 		<products>
 			<denture>1</denture>
 		</products>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 	
-	<RecipeDef ParentName="RecipeBasicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
 		<defName>CreatePegLeg</defName>
 		<label>make peg leg</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -79,13 +83,9 @@
 		<products>
 			<PegLeg>1</PegLeg>
 		</products>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBasicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
 		<defName>CreateWoodenFoot</defName>
 		<label>make wooden foot</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -109,13 +109,9 @@
 		<products>
 			<WoodenFoot>1</WoodenFoot>
 		</products>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeBasicProsthesis">
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
 		<defName>CreateSteelArm</defName>
 		<label>make steel arm</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -139,10 +135,6 @@
 				<li>Steel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 </Defs>

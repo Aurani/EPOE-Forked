@@ -121,6 +121,13 @@
 			<solid>true</solid>
 			<partEfficiency>0</partEfficiency>
 		</addedPartProps>
+		<stages>
+			<li>		  
+				<statOffsets>
+					<SocialImpact>0.10</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartBasic">

@@ -14,80 +14,6 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgeryGlitterworld">
-		<defName>InstallMuscleStimulatorArms</defName>
-		<label>install muscle stimulator</label>
-		<description>Installs muscle stimulator.</description>
-		<jobString>Installing muscle stimulator.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>5</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>MuscleStimulator</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>MuscleStimulator</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Arm</li> 
-		</appliedOnFixedBodyParts>
-		<addsHediff>MuscleStimulatorArms</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
-		<defName>InstallMuscleStimulatorLegs</defName>
-		<label>install muscle stimulator</label>
-		<description>Installs muscle stimulator.</description>
-		<jobString>Installing muscle stimulator.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>5</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>MuscleStimulator</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>MuscleStimulator</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Leg</li> 
-		</appliedOnFixedBodyParts>
-		<addsHediff>MuscleStimulatorLegs</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
 		<defName>InstallTacticalCorneaImplant</defName>
 		<label>install tactical cornea implant</label>
 		<description>Installs tactical cornea implant.</description>
@@ -328,7 +254,7 @@
 		<workAmount>3700</workAmount>
 		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
 		<skillRequirements>
-			<Medicine>7</Medicine>
+			<Medicine>12</Medicine>
 		</skillRequirements>
 		<ingredients>
 			<li>
@@ -360,7 +286,7 @@
 			<li>Brain</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AIPersonaCore</addsHediff>
-		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+		<researchPrerequisite>EPOE_AIPersonaCoreImplant</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

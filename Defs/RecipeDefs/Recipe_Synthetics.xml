@@ -10,6 +10,84 @@
 			<li>Human</li>
 		</recipeUsers>
 	</RecipeDef>
+	
+	<RecipeDef ParentName="EPOESurgerySynthetic">
+		<defName>InstallMuscleStimulatorArms</defName>
+		<label>install muscle stimulator</label>
+		<description>Installs muscle stimulator.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing muscle stimulator.</jobString>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MuscleStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MuscleStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>MuscleStimulatorArms</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgerySynthetic">
+		<defName>InstallMuscleStimulatorLegs</defName>
+		<label>install muscle stimulator</label>
+		<description>Installs muscle stimulator.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing muscle stimulator.</jobString>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MuscleStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MuscleStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>MuscleStimulatorLegs</addsHediff>
+	</RecipeDef>
 
 	<RecipeDef ParentName="EPOESurgerySynthetic">
 		<defName>InstallBrainStimulator</defName>
@@ -156,7 +234,6 @@
 				<filter>
 					<thingDefs>
 						<li>SyntheticHeart</li>
-						<li>BionicHeart</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -168,7 +245,6 @@
 			</categories>
 			<thingDefs>
 				<li>SyntheticHeart</li>
-				<li>BionicHeart</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
@@ -237,7 +313,6 @@
 				<filter>
 					<thingDefs>
 						<li>SyntheticStomach</li>
-						<li>BionicStomach</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -249,7 +324,6 @@
 			</categories>
 			<thingDefs>
 				<li>SyntheticStomach</li>
-				<li>BionicStomach</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>

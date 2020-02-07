@@ -154,9 +154,6 @@
 		<defaultLabelColor>(18,215,57)</defaultLabelColor>
 		<isBad>false</isBad>
 		<spawnThingOnRemoved>ExoskeletonSuit</spawnThingOnRemoved>
-		<addedPartProps>
-			<partEfficiency>1.0</partEfficiency>
-		</addedPartProps>
 		<stages>
 			<li>
 				<capMods>

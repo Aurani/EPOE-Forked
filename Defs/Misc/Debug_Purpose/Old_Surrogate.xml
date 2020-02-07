@@ -42,7 +42,15 @@
 		</recipeUsers>
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSurrogateOrgan">
+	<RecipeDef Name="EPOEDebugRecipeSurrogate" ParentName="RecipeSurrogateOrgan" Abstract="True">
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+		<researchPrerequisite Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeSurrogate">
 		<defName>CreateSurrogateHeart</defName>
 		<label>make surrogate heart</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -83,13 +91,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSurrogateOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSurrogate">
 		<defName>CreateSurrogateLung</defName>
 		<label>make surrogate lung</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -130,13 +134,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSurrogateOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSurrogate">
 		<defName>CreateSurrogateStomach</defName>
 		<label>make surrogate stomach</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -177,13 +177,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSurrogateOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSurrogate">
 		<defName>CreateSurrogateLiver</defName>
 		<label>make surrogate liver</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -224,13 +220,9 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSurrogateOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSurrogate">
 		<defName>CreateSurrogateKidney</defName>
 		<label>make surrogate kidney</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -271,10 +263,6 @@
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 </Defs>

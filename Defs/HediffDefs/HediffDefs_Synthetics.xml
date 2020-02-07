@@ -12,7 +12,38 @@
 
 	<!-- New EPOE body parts -->
 
-	<HediffDef ParentName="addedPartSurrogate">
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>MuscleStimulatorArms</defName>
+		<label>muscle stimulator</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<spawnThingOnRemoved>MuscleStimulator</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.075</partEfficiencyOffset>
+				<statOffsets>
+					<CarryingCapacity>+30</CarryingCapacity>
+					<MeleeWeapon_CooldownMultiplier>-0.1</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>MuscleStimulatorLegs</defName>
+		<label>muscle stimulator</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<spawnThingOnRemoved>MuscleStimulator</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.075</partEfficiencyOffset>
+				<statOffsets>
+					<MoveSpeed>0.2</MoveSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSynthetic">
 		<defName>BrainStimulator</defName>
 		<label>brain stimulator</label>
 		<hediffClass>Hediff_Implant</hediffClass>
@@ -54,29 +85,15 @@
 			</li>
 		</stages>
 	</HediffDef>
-
+	
 	<HediffDef ParentName="addedPartSynthetic">
 		<defName>SyntheticLung</defName>
 		<label>synthetic lung</label>
 		<labelNoun>a synthetic lung</labelNoun>
 		<spawnThingOnRemoved>SyntheticLung</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Breathing</capacity>
-						<offset>0.2</offset>
-					</li>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>0.1</offset>
-					</li>
-				</capMods>
-			</li>
-		</stages>
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSynthetic">
@@ -85,18 +102,8 @@
 		<labelNoun>a synthetic stomach</labelNoun>
 		<spawnThingOnRemoved>SyntheticStomach</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Eating</capacity>
-						<offset>0.2</offset>
-					</li>
-				</capMods>
-			</li>
-		</stages>
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSynthetic">
@@ -105,18 +112,8 @@
 		<labelNoun>a synthetic liver</labelNoun>
 		<spawnThingOnRemoved>SyntheticLiver</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>BloodFiltration</capacity>
-						<offset>0.2</offset>
-					</li>
-				</capMods>
-			</li>
-		</stages>
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSynthetic">
@@ -125,18 +122,8 @@
 		<labelNoun>a synthetic kidney</labelNoun>
 		<spawnThingOnRemoved>SyntheticKidney</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>BloodFiltration</capacity>
-						<offset>0.2</offset>
-					</li>
-				</capMods>
-			</li>
-		</stages>
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSynthetic">
@@ -145,26 +132,8 @@
 		<labelNoun>a synthetic heart</labelNoun>
 		<spawnThingOnRemoved>SyntheticHeart</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>BloodPumping</capacity>
-						<offset>0.2</offset>
-					</li>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>0.1</offset>
-					</li>
-					<li>
-						<capacity>Manipulation</capacity>
-						<offset>0.1</offset>
-					</li>
-				</capMods>
-			</li>
-		</stages>
 	</HediffDef>
 
 	<!-- Redundant Bionic Heart overwrite, copy into Synthetic Heart -->
@@ -175,26 +144,8 @@
 		<labelNoun>a synthetic heart</labelNoun>
 		<spawnThingOnRemoved>SyntheticHeart</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>BloodPumping</capacity>
-						<offset>0.2</offset>
-					</li>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>0.1</offset>
-					</li>
-					<li>
-						<capacity>Manipulation</capacity>
-						<offset>0.1</offset>
-					</li>
-				</capMods>
-			</li>
-		</stages>
 	</HediffDef>
 
 	<!-- Redundant Bionic Stomach overwrite, copy into Synthetic Stomach -->
@@ -205,18 +156,8 @@
 		<labelNoun>a synthetic stomach</labelNoun>
 		<spawnThingOnRemoved>SyntheticStomach</spawnThingOnRemoved>
 		<addedPartProps>
-			<partEfficiency>1</partEfficiency>
+			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Eating</capacity>
-						<offset>0.2</offset>
-					</li>
-				</capMods>
-			</li>
-		</stages>
 	</HediffDef>
 
 </Defs>

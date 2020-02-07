@@ -104,6 +104,17 @@
 					<max>1</max>
 				</countRange>
 			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>EPOE_OrganicOptimizer</categoryDef>
+				<thingDefCountRange>
+					<min>1</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>-2</min>
+					<max>2</max>
+				</countRange>
+			</li>
 			<li Class="StockGenerator_Tag">
 				<tradeTag>TechHediff</tradeTag>
 				<thingDefCountRange>

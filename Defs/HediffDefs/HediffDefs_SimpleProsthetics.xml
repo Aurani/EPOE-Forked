@@ -64,6 +64,14 @@
 		<addedPartProps>
 			<partEfficiency>0</partEfficiency>
 		</addedPartProps>
+		<stages>
+			<li>		  
+				<statOffsets>
+					<SocialImpact>0.10</SocialImpact>
+					<TradePriceImprovement>0.10</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</stages>
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSimple">

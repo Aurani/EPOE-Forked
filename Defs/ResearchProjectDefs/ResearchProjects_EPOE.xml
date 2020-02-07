@@ -118,17 +118,35 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>BrainSurgery</defName>
-		<label>brain surgery</label>
-		<description>Allows you to perform surgery on the brain.</description>
-		<baseCost>2500</baseCost>
+		<defName>EPOE_SyntheticRepair</defName>
+		<label>Synthetic repair</label>
+		<description>Further research in nano-technology allows you to print incredibly well-engineered artificial tissues and nerves to aid with healing scars, frailty and bad backs. Unlocks synthetic tissue and neuromuscular framework recipes on the tissue printer.</description>
+		<baseCost>300</baseCost>
 		<techLevel>Spacer</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>Bionics</li>
+			<li>SyntheticOrgans</li>
+		</prerequisites>
+		<tab>EPOE</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>BrainSurgery</defName>
+		<label>brain surgery</label>
+		<description>Allows you to perform surgery on the brain.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>MultiAnalyzer</li>
 		</prerequisites>
 		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
@@ -152,6 +170,24 @@
 		</prerequisites>
 		<tab>EPOE</tab>
 		<researchViewX>4</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>EPOE_AIPersonaCoreImplant</defName>
+		<label>AI persona core implant</label>
+		<description>Allows you to perform the surgery to implant an AI persona core into the brain. It provides a powerful consciousness boost with the assistance of the AI, but it will require regular medical maintenance to avoid the AI turning rogue on the user.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>EPOE_Glitterworld_Implants</li>
+		</prerequisites>
+		<tab>EPOE</tab>
+		<researchViewX>5</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 

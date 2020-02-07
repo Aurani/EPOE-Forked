@@ -24,7 +24,7 @@
 	<ThingDef ParentName="EPOEOrganicOptimizer">
 		<defName>EPOE_OrganicOptimizingNanobots</defName>
 		<label>organic optimizing nanobots</label>
-		<description>Advanced nanobots that can help to bring out the full potential of the natural body. It takes 3 days for the full process to complete the optimization, which does include requiring more rest and food needs. At the end of the process, the nanobots breaks down and dissolve without a trace as the treated body part no longer needs them.\n\nBody purist can accept or even be happy about the improvements, whilst transhumanists hates all of this.</description>
+		<description>Advanced nanobots which help bring out the full potential of the natural body. It takes 3 days for the process to complete, requiring more rest and a higher food intake. At the end of this grueling process the nanobots break down and dissolve, leaving no trace.\n\nThe average person will accept it, body purists will be delighted, while transhumanists utterly abhor it.</description>
 		<costList>
 			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
 			<ComponentSpacer>2</ComponentSpacer>
@@ -41,7 +41,7 @@
 	<ThingDef ParentName="EPOEOrganicOptimizer">
 		<defName>EPOE_InstinctOptimizingNanobots</defName>
 		<label>instinct optimizing nanobots</label>
-		<description>Advanced nanobots that assists the the natural body with imprinting beneficial instinctual reaction sequences into the organic tissues. It takes 4 days for the full process to complete the optimization, which does include requiring more rest and food needs. At the end of the process, the nanobots breaks down and dissolve without a trace as the treated body part no longer needs them.\n\nBody purist can accept these improvements, whilst transhumanists hates all of this.</description>
+		<description>Advanced nanobots which assist the the natural body with imprinting beneficial instinctual reaction sequences into the organic tissues. It takes 4 days for the full process to complete, requiring more rest and a higher food intake. At the end of this grueling process, the nanobots break down and dissolve, leaving no trace.\n\nTranshumanists utterly abhor this change.</description>
 		<costList>
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<ComponentSpacer>1</ComponentSpacer>

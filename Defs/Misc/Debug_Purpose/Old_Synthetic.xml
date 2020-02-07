@@ -43,7 +43,15 @@
 		</recipeUsers>
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSyntheticOrgan">
+	<RecipeDef Name="EPOEDebugRecipeSynthetic" ParentName="RecipeSyntheticOrgan" Abstract="True">
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+		<researchPrerequisite Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeSynthetic">
 		<defName>CreateJoywire</defName>
 		<label>make joywire</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -93,13 +101,9 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSyntheticOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSynthetic">
 		<defName>CreatePainstopper</defName>
 		<label>make painstopper</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -149,13 +153,9 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSyntheticOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSynthetic">
 		<defName>CreateBrainStimulator</defName>
 		<label>make brain stimulator</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -206,13 +206,9 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSyntheticOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSynthetic">
 		<defName>CreateAIChip</defName>
 		<label>make AI chip</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -271,13 +267,9 @@
 				<li>EPOE_MAAI_Chip</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSyntheticOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSynthetic">
 		<defName>CreateSyntheticHeart</defName>
 		<label>make synthetic heart</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -318,13 +310,9 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSyntheticOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSynthetic">
 		<defName>CreateSyntheticLung</defName>
 		<label>make synthetic lung</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -365,13 +353,9 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSyntheticOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSynthetic">
 		<defName>CreateSyntheticStomach</defName>
 		<label>make synthetic stomach</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -412,13 +396,9 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSyntheticOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSynthetic">
 		<defName>CreateSyntheticLiver</defName>
 		<label>make synthetic liver</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -459,13 +439,9 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="RecipeSyntheticOrgan">
+	<RecipeDef ParentName="EPOEDebugRecipeSynthetic">
 		<defName>CreateSyntheticKidney</defName>
 		<label>make synthetic kidney</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
@@ -506,10 +482,6 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<factionPrerequisiteTags>
-			<li>EPOE_Redundancy_Debug</li>
-		</factionPrerequisiteTags>
-		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
 </Defs>

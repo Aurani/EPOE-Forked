@@ -81,7 +81,7 @@
 	<ThingDef ParentName="EPOE_ObsoleteSurrogate">
 		<defName>SimpleProstheticHeart</defName>
 		<label>prosthetic heart</label>
-		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart. If the bill to craft this item is left in the machining table after fresh installing EPOE, recommend removing it. A method was left to not break your machining table and allowing the recipe to exist for player self-debug purposes.</description> 
+		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart. If the bill to craft this item is left in the machining table after freshly installing EPOE, we recommend removing it. A method was left to not break your machining table and allowing the recipe to exist for player self-debug purposes.</description> 
 		<techLevel>Industrial</techLevel>
 		<costList>
 			<Cloth>40</Cloth>
@@ -320,15 +320,20 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartProstheticBase">
-		<defName>ScytherBlade</defName>
-		<label>scyther blade</label>
-		<description>Hand replacement with a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</description>
-		<techLevel>Spacer</techLevel>
+	<!-- Just to avoid errors with graphics mod that have poorly written patching methods. -->
+
+	<ThingDef Name="EPOE_ScytherBladeGraphics" ParentName="BodyPartProstheticBase" Abstract="True">
 		<graphicData>
 			<texPath>Things/Item/BodyPart/BionicPart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="EPOE_ScytherBladeGraphics">
+		<defName>ScytherBlade</defName>
+		<label>scyther blade</label>
+		<description>Hand replacement with a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</description>
+		<techLevel>Spacer</techLevel>
 		<costList>
 			<EPOE_DamagedScytherBlade>1</EPOE_DamagedScytherBlade>
 			<Steel>5</Steel>

@@ -35,7 +35,6 @@
 				<filter>
 					<thingDefs>
 						<li>SurrogateHeart</li>
-						<li>SimpleProstheticHeart</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -47,7 +46,6 @@
 			</categories>
 			<thingDefs>
 				<li>SurrogateHeart</li>
-				<li>SimpleProstheticHeart</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>

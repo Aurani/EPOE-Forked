@@ -7,6 +7,7 @@
 		<description>Improve and bring out the potential of a natural body part with the organic optimizing nanobots, with the surgeon carefully monitoring the initial application and progress.</description>
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<jobString>Optimizing natural body part.</jobString>
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
 		<workAmount>3000</workAmount>
 		<skillRequirements>
 			<Medicine>7</Medicine>
@@ -51,6 +52,7 @@
 	<RecipeDef Name="EPOESurgeryInstinctOptimizer" ParentName="EPOESurgerySynthetic" Abstract="True">
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<jobString>Optimizing natural body part.</jobString>
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
 		<workAmount>3000</workAmount>
 		<skillRequirements>
 			<Medicine>7</Medicine>
