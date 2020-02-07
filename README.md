@@ -17,7 +17,7 @@ This mod is compatible with every mod the original EPOE is compatible with, plus
 The mod should be safe to add mid-save and remove as well, as long as the operation bills are all removed so as to avoid getting a UI error.
 
 No longer needed due to integration:
-* EPOE Replacement Expansion
+* EPOE Replacement Expansion - Thanks to dninemfive for his permission.
 * EPOE Trader and Archotech Patch
 * EPOE Craftable Power Claws - Added a new production line for it
 * EPOE LEGACY Body Climate Control - Wasn't functional, but now contains an integrated fix
