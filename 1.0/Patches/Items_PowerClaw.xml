@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Stupid MSE forcing me to just do overwrite on the power claw for now -->
+	<!-- Just so can get less needless complaints when EPOE and MSE conflicts anyway -->
+	<!-- Going to be one massive can of worms when I finally try finding ways to hybrid these medical mods -->
+	<!-- No one is using vanilla format styles and make it 100 times harder for themselves and everyone else... Grumble grumble... -->
+	<!-- Going for the more aggressive "patching" for now... -->
+	
+	<!--
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>BodyPartBionicBase</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/graphicData</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/thingSetMakerTags</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/statBases/MarketValue</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/description</xpath>
+				<value>
+					<description>Powerful hand replacement consisting of three deadly claws.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/statBases</xpath>
+				<value>
+					<WorkToMake>8000</WorkToMake>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]/costList</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="PowerClaw"]</xpath>
+				<value>
+					<costList>
+						<ScytherBlade>3</ScytherBlade>
+						<Plasteel>25</Plasteel>
+						<ComponentSpacer>1</ComponentSpacer>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	-->
+
+</Patch>

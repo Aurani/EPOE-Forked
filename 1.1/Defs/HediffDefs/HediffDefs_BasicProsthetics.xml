@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffDef Name="addedPartBasic" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(148,117,14)</defaultLabelColor>
+	</HediffDef>
+
+	<ThingDef Name="BodyPartBasicBase" ParentName="BodyPartProstheticMakeableBase" Abstract="True">
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<WorkToMake>3500</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<recipeUsers>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef Name="EPOESurgeryBasic" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- New EPOE body parts -->
+	
+	<!-- Hook hand -->
+
+	<HediffDef ParentName="addedPartBasic">
+		<defName>HookHand</defName>
+		<label>Hook hand</label>
+		<labelNoun>a hook hand</labelNoun>
+		<description>An installed hook hand.</description>
+		<descriptionHyperlinks><ThingDef>HookHand</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>HookHand</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.6</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>hook hand</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>9</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBasicBase">
+		<defName>HookHand</defName>
+		<label>hook hand</label>
+		<description>Replaces missing hands. Pretty scary. Yarr.</description>
+		<descriptionHyperlinks><RecipeDef>InstallHookHand</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>5</Steel>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryBasic">
+		<defName>InstallHookHand</defName>
+		<label>install hook hand</label>
+		<description>Installs hook hand.</description>
+		<descriptionHyperlinks><ThingDef>HookHand</ThingDef></descriptionHyperlinks>
+		<jobString>Installing hook hand.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HookHand</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>HookHand</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>HookHand</addsHediff>
+	</RecipeDef>
+
+	<!-- Steel arm -->
+
+	<HediffDef ParentName="addedPartBasic">
+		<defName>SteelArm</defName>
+		<label>steel arm</label>
+		<labelNoun>a steel arm</labelNoun>
+		<description>An installed steel arm.</description>
+		<descriptionHyperlinks><ThingDef>SteelArm</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SteelArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.6</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>steel fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>2.5</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartBasicBase">
+		<defName>SteelArm</defName>
+		<label>steel arm</label>
+		<description>A very poor arm replacement. Looks bad, feels bad, is bad.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSteelArm</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>50</Steel>
+		</costList>
+		<statBases>
+			<Mass>6</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryBasic">
+		<defName>InstallSteelArm</defName>
+		<label>install steel arm</label>
+		<description>Installs steel arm.</description>
+		<descriptionHyperlinks><ThingDef>SteelArm</ThingDef></descriptionHyperlinks>
+		<jobString>Installing steel arm.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SteelArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SteelArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SteelArm</addsHediff>
+	</RecipeDef>
+
+	<!-- Eye patch -->
+
+	<HediffDef ParentName="addedPartBasic">
+		<defName>EyePatch</defName>
+		<label>eye patch</label>
+		<labelNoun>an eye patch</labelNoun>
+		<description>An installed eye patch.</description>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>		  
+				<statOffsets>
+					<SocialImpact>0.10</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<RecipeDef ParentName="EPOESurgeryBasic">
+		<defName>InstallEyePatch</defName>
+		<label>install eye patch</label>
+		<description>Installs eye patch.</description>
+		<jobString>Installing eye patch.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Textiles</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Textiles</li>
+			</categories>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EyePatch</addsHediff>
+	</RecipeDef>
+
+	<!-- Ear Bandage -->
+
+	<HediffDef ParentName="addedPartBasic">
+		<defName>EarBandage</defName>
+		<label>ear bandage</label>
+		<labelNoun>an ear bandage</labelNoun>
+		<description>An installed ear bandage.</description>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<RecipeDef ParentName="EPOESurgeryBasic">
+		<defName>InstallEarBandage</defName>
+		<label>install ear bandage</label>
+		<description>Installs an ear bandage.</description>
+		<jobString>Installing ear bandage.</jobString>
+		<workAmount>500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Textiles</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Textiles</li>
+			</categories>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EarBandage</addsHediff>
+	</RecipeDef>
+
+	<!-- Wooden finger -->
+
+	<HediffDef ParentName="addedPartBasic">
+		<defName>BasicWoodenFinger</defName>
+		<label>wooden finger</label>
+		<labelNoun>a wooden finger</labelNoun>
+		<description>An installed wooden finger.</description>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.6</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallWoodenPartBase">
+		<defName>InstallBasicWoodenFinger</defName>
+		<label>install wooden finger</label>
+		<description>Installs wooden finger.</description>
+		<descriptionHyperlinks><ThingDef>WoodLog</ThingDef></descriptionHyperlinks>
+		<jobString>Installing wooden finger.</jobString>
+		<workAmount>750</workAmount>
+		<appliedOnFixedBodyParts>
+			<li>Finger</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BasicWoodenFinger</addsHediff>
+	</RecipeDef>
+
+	<!-- Wooden toe -->
+
+	<HediffDef ParentName="addedPartBasic">
+		<defName>BasicWoodenToe</defName>
+		<label>wooden toe</label>
+		<labelNoun>a wooden toe</labelNoun>
+		<description>An installed wooden toe.</description>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.6</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallWoodenPartBase">
+		<defName>InstallBasicWoodenToe</defName>
+		<label>install wooden toe</label>
+		<description>Installs wooden toe.</description>
+		<descriptionHyperlinks><ThingDef>WoodLog</ThingDef></descriptionHyperlinks>
+		<jobString>Installing wooden toe.</jobString>
+		<workAmount>750</workAmount>
+		<appliedOnFixedBodyParts>
+			<li>Toe</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BasicWoodenToe</addsHediff>
+	</RecipeDef>
+
+</Defs>

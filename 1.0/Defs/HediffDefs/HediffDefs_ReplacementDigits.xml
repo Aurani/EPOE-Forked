@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffDef ParentName="addedPartBasic">
+		<defName>BasicWoodenFinger</defName>
+		<label>wooden finger</label>
+		<labelNoun>a wooden finger</labelNoun>
+		<spawnThingOnRemoved>BasicWoodenFinger</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.6</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartBasic">
+		<defName>BasicWoodenToe</defName>
+		<label>wooden toe</label>
+		<labelNoun>a wooden toe</labelNoun>
+		<spawnThingOnRemoved>BasicWoodenToe</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.6</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+   <HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticFinger</defName>
+		<label>simple prosthetic finger</label>
+		<labelNoun>a simple prosthetic finger</labelNoun>
+		<spawnThingOnRemoved>SimpleProstheticFinger</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+   <HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticToe</defName>
+		<label>simple prosthetic toe</label>
+		<labelNoun>a simple prosthetic toe</labelNoun>
+		<spawnThingOnRemoved>SimpleProstheticToe</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+   <HediffDef ParentName="addedPartBionics">
+		<defName>BionicFinger</defName>
+		<label>bionic finger</label>
+		<labelNoun>a bionic finger</labelNoun>
+		<spawnThingOnRemoved>BionicFinger</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>BionicToe</defName>
+		<label>bionic toe</label>
+		<labelNoun>a bionic toe</labelNoun>
+		<spawnThingOnRemoved>BionicToe</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+   <HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicFinger</defName>
+		<label>advanced bionic finger</label>
+		<labelNoun>an advanced bionic finger</labelNoun>
+		<spawnThingOnRemoved>AdvancedBionicFinger</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.35</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+   <HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicToe</defName>
+		<label>advanced bionic toe</label>
+		<labelNoun>an advanced bionic toe</labelNoun>
+		<spawnThingOnRemoved>AdvancedBionicToe</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.35</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+</Defs>

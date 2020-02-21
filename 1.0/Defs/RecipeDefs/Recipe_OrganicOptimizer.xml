@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef ParentName="EPOESurgerySynthetic">
+		<defName>EPOE_OrganicOptimizing</defName>
+		<label>Optimize natural body part</label>
+		<description>Improve and bring out the potential of a natural body part with the organic optimizing nanobots, with the surgeon carefully monitoring the initial application and progress.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Optimizing natural body part.</jobString>
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_OrganicOptimizingNanobots</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>EPOE_OrganicOptimizingNanobots</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+			<li>Leg</li>
+			<li>Ear</li>
+			<li>Eye</li>
+			<li>Spine</li>
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_OrganicOptimized</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef Name="EPOESurgeryInstinctOptimizer" ParentName="EPOESurgerySynthetic" Abstract="True">
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Optimizing natural body part.</jobString>
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<workAmount>3000</workAmount>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_InstinctOptimizingNanobots</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>EPOE_InstinctOptimizingNanobots</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryInstinctOptimizer">
+		<defName>EPOE_InstinctOptimizingEyes</defName>
+		<label>Improve reactive pupil</label>
+		<description>Improve the instinctual reaction of the eyes with instinct optimizing nanobots, improving hit and aim accuracy. The surgeon carefully monitoring the initial application and progress.</description>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>  
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_InstinctOptimizedEyes</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryInstinctOptimizer">
+		<defName>EPOE_InstinctOptimizingFoot</defName>
+		<label>Improve nimble instinct</label>
+		<description>Improve the instinctual reaction of the feet with instinct optimizing nanobots, improving the ability to dodge incoming melee attacks. The surgeon carefully monitoring the initial application and progress.</description>
+		<appliedOnFixedBodyParts>
+			<li>Foot</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_InstinctOptimizedFoot</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOESurgeryInstinctOptimizer">
+		<defName>EPOE_InstinctOptimizingHands</defName>
+		<label>Improve hand reflex</label>
+		<description>Improve the instinctual reaction of the hands with instinct optimizing nanobots, improving the speed of aiming, striking with a melee weapon and general repetative work. with the surgeon carefully monitoring the initial application and progress.</description>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_InstinctOptimizedHand</addsHediff>
+	</RecipeDef>
+
+</Defs>

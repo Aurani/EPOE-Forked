@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffDef Name="addedPartGlitteryImplants" Abstract="True">
+		<hediffClass>Hediff_Implant</hediffClass>
+		<defaultLabelColor>(244,210,131)</defaultLabelColor>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<ThingDef Name="EPOEGlitterworldImplantBase" ParentName="EPOESyntheticBase" Abstract="True">
+	    <techLevel>Spacer</techLevel>
+		<thingCategories Inherit="False">
+			<li>GlitterworldParts</li>
+		</thingCategories>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>36000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<soundWorking>EPOEAssembling</soundWorking>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>EPOE_Glitterworld_Implants</researchPrerequisite>
+		</recipeMaker>
+		<techHediffsTags Inherit="False" />
+	</ThingDef>
+
+	<RecipeDef Name="EPOESurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>2500</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- New EPOE implants -->
+
+	<!-- Tactical cornea implant -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>TacticalCorneaImplant</defName>
+		<label>tactical cornea implant</label>
+		<description>An installed tactical cornea implant.</description>
+		<descriptionHyperlinks><ThingDef>TacticalCorneaImplant</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>TacticalCorneaImplant</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.1</partEfficiencyOffset>
+				<statOffsets>
+					<ShootingAccuracyPawn>+5</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.15</AimingDelayFactor>
+					<MeleeHitChance>3</MeleeHitChance>
+					<MeleeDodgeChance>3</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+		<defName>TacticalCorneaImplant</defName>
+		<label>tactical cornea implant</label>
+		<description>An enhanced implant which provides the user with additional information about potential targets and suggests a perfect firing angle.</description>
+		<descriptionHyperlinks><RecipeDef>InstallTacticalCorneaImplant</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>25</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+		<defName>InstallTacticalCorneaImplant</defName>
+		<label>install tactical cornea implant</label>
+		<description>Installs tactical cornea implant.</description>
+		<descriptionHyperlinks><ThingDef>TacticalCorneaImplant</ThingDef></descriptionHyperlinks>
+		<jobString>Installing tactical cornea implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TacticalCorneaImplant</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>TacticalCorneaImplant</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>TacticalCorneaImplant</addsHediff>
+	</RecipeDef>
+
+	<!-- Auxiliary AI (construction) -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>ConstructorCore</defName>
+		<label>auxiliary AI: construction</label>
+		<description>An installed auxiliary AI that aids with construction.</description>
+		<descriptionHyperlinks><ThingDef>ConstructorCore</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ConstructorCore</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<statOffsets>
+					<ConstructionSpeed>+0.25</ConstructionSpeed>
+					<ConstructSuccessChance>0.15</ConstructSuccessChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+		<defName>ConstructorCore</defName>
+		<label>auxiliary AI (constructing)</label>
+		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
+		<descriptionHyperlinks><RecipeDef>InstallConstructorCore</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>25</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+		<defName>InstallConstructorCore</defName>
+		<label>install auxiliary AI (constructing)</label>
+		<description>Installs auxiliary AI (constructing).</description>
+		<descriptionHyperlinks><ThingDef>ConstructorCore</ThingDef></descriptionHyperlinks>
+		<jobString>Installing auxiliary AI (constructing).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ConstructorCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ConstructorCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>ConstructorCore</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Auxiliary AI (agricultural) -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>FarmerCore</defName>
+		<label>auxiliary AI: agricultural</label>
+		<description>An installed auxiliary AI that aids with farming.</description>
+		<descriptionHyperlinks><ThingDef>FarmerCore</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FarmerCore</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<statOffsets>
+					<PlantWorkSpeed>+0.25</PlantWorkSpeed>
+					<PlantHarvestYield>0.15</PlantHarvestYield>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+		<defName>FarmerCore</defName>
+		<label>auxiliary AI (agricultural)</label>
+		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFarmerCore</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>25</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+		<defName>InstallFarmerCore</defName>
+		<label>install auxiliary AI (agricultural)</label>
+		<description>Installs auxiliary AI (agricultural).</description>
+		<descriptionHyperlinks><ThingDef>FarmerCore</ThingDef></descriptionHyperlinks>
+		<jobString>Installing auxiliary AI (agricultural).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FarmerCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FarmerCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>FarmerCore</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Auxiliary AI (mining) -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>MinerCore</defName>
+		<label>auxiliary AI: mining</label>
+		<description>An installed auxiliary AI that aids with mining.</description>
+		<descriptionHyperlinks><ThingDef>MinerCore</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>MinerCore</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<statOffsets>
+					<MiningSpeed>+0.25</MiningSpeed>
+					<MiningYield>+0.15</MiningYield>
+					<SmoothingSpeed>+0.15</SmoothingSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+		<defName>MinerCore</defName>
+		<label>auxiliary AI (mining)</label>
+		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
+		<descriptionHyperlinks><RecipeDef>InstallMinerCore</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>25</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+		<defName>InstallMinerCore</defName>
+		<label>install auxiliary AI (mining)</label>
+		<description>Installs auxiliary AI (mining).</description>
+		<descriptionHyperlinks><ThingDef>MinerCore</ThingDef></descriptionHyperlinks>
+		<jobString>Installing auxiliary AI (mining).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MinerCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MinerCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>MinerCore</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Auxiliary AI (medical) -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>DoctorCore</defName>
+		<label>auxiliary AI: medical</label>
+		<description>An installed auxiliary AI that aids with medical procedures.</description>
+		<descriptionHyperlinks><ThingDef>DoctorCore</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>DoctorCore</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<statOffsets>
+					<MedicalSurgerySuccessChance>+0.20</MedicalSurgerySuccessChance>
+					<MedicalTendQuality>+0.15</MedicalTendQuality>
+					<MedicalTendSpeed>+0.15</MedicalTendSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+		<defName>DoctorCore</defName>
+		<label>auxiliary AI (medical)</label>
+		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
+		<descriptionHyperlinks><RecipeDef>InstallDoctorCore</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>3</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>25</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+		<defName>InstallDoctorCore</defName>
+		<label>install auxiliary AI (medical)</label>
+		<description>Installs auxiliary AI (medical).</description>
+		<descriptionHyperlinks><ThingDef>DoctorCore</ThingDef></descriptionHyperlinks>
+		<jobString>Installing auxiliary AI (medical).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DoctorCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DoctorCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>DoctorCore</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Auxiliary AI (diplomatic) -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>DiplomatCore</defName>
+		<label>auxiliary AI: diplomatic</label>
+		<description>An installed auxiliary AI that aids with diplomatic conversations.</description>
+		<descriptionHyperlinks><ThingDef>DiplomatCore</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>DiplomatCore</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<statOffsets>
+					<NegotiationAbility>+0.20</NegotiationAbility>
+					<SocialImpact>+0.1</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+		<defName>DiplomatCore</defName>
+		<label>auxiliary AI (diplomatic)</label>
+		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
+		<descriptionHyperlinks><RecipeDef>InstallDiplomatCore</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>25</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+		<defName>InstallDiplomatCore</defName>
+		<label>install auxiliary AI (diplomatic)</label>
+		<description>Installs auxiliary AI (diplomatic).</description>
+		<descriptionHyperlinks><ThingDef>DiplomatCore</ThingDef></descriptionHyperlinks>
+		<jobString>Installing auxiliary AI (diplomatic).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DiplomatCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DiplomatCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>DiplomatCore</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- AI persona core -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>AIPersonaCore</defName>
+		<label>AI persona core</label>
+		<labelNoun>an AI persona core</labelNoun>
+		<description>An installed AI persona core. Requires minimum 70% medical tending as maintenance to prevent the AI persona core from going rogue.</description>
+		<descriptionHyperlinks><ThingDef>AIPersonaCore</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AIPersonaCore</spawnThingOnRemoved>
+		<minSeverity>0.001</minSeverity>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>48</baseTendDurationHours>
+				<severityPerDayTended>0.214</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-0.15</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>AI take over</label>
+				<painFactor>0.8</painFactor>
+				<restFallFactor>2</restFallFactor>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<MentalBreakThreshold>0.5</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.65</setMax>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>BerserkCore</mentalState>
+						<mtbDays>0.05</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.01</minSeverity>
+				<label>Unmaintained</label>
+				<painFactor>0.8</painFactor>
+				<restFallFactor>2</restFallFactor>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<MentalBreakThreshold>0.18</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.65</setMax>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>BerserkCore</mentalState>
+						<mtbDays>25</mtbDays>
+					</li>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>13</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.15</minSeverity>
+				<label>Maintenance critical</label>
+				<painFactor>0.8</painFactor>
+				<restFallFactor>1.5</restFallFactor>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<MentalBreakThreshold>0.06</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.9</setMax>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>15</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.35</minSeverity>
+				<label>Maintenance required</label>
+				<painFactor>0.8</painFactor>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<MentalBreakThreshold>-0.04</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.7</minSeverity>
+				<painFactor>0.8</painFactor>
+				<restFallFactor>0.75</restFallFactor>
+				<hungerRateFactor>1.25</hungerRateFactor>
+				<statOffsets>
+					<MentalBreakThreshold>-0.04</MentalBreakThreshold>
+					<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+					<MeleeHitChance>2</MeleeHitChance>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.50</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+		<defName>InstallAIPersonaCore</defName>
+		<label>install AI persona core</label>
+		<description>Installs AI persona core.</description>
+		<descriptionHyperlinks><ThingDef>AIPersonaCore</ThingDef></descriptionHyperlinks>
+		<jobString>Installing AI persona core.</jobString>
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>12</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AIPersonaCore</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AIPersonaCore</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AIPersonaCore</addsHediff>
+		<researchPrerequisite>EPOE_AIPersonaCoreImplant</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

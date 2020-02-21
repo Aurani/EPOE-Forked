@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraderKindDef>
+		<defName>ProsthesesTrader</defName>
+		<label>prostheses trader</label>
+		<orbital>true</orbital>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>
+					<min>10000</min>
+					<max>15000</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>
+					<min>5</min>
+					<max>30</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineUltratech</thingDef>
+				<countRange>
+					<min>-3</min>
+					<max>15</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BasicProstheses</categoryDef>
+				<thingDefCountRange>
+					<min>3</min>
+					<max>5</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>3</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>SimpleProstheses</categoryDef>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>5</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>3</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BionicProstheses</categoryDef>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>4</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>2</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>AdvancedProstheses</categoryDef>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>GlitterworldParts</categoryDef>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>4</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>SurrogateOrgans</categoryDef>
+				<thingDefCountRange>
+					<min>1</min>
+					<max>3</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>SyntheticOrgans</categoryDef>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>1</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>EPOE_OrganicOptimizer</categoryDef>
+				<thingDefCountRange>
+					<min>1</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>-2</min>
+					<max>2</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TechHediff</tradeTag>
+				<thingDefCountRange>
+					<min>-2</min>
+					<max>7</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+			</li>
+		</stockGenerators>	  
+	</TraderKindDef>
+
+</Defs>

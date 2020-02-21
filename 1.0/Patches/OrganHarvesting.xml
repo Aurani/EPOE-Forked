@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- A lot of QEE related patch involved here to avoid conflicts -->
+	<!-- If QEE not installed, it merely enables organ harvesting on several new parts -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Questionable Ethics Enhanced</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationTest">
+					<xpath>Defs/BodyPartDef[defName="Stomach"]/spawnThingOnRemoved</xpath>
+					<success>Invert</success>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BodyPartDef[defName="Stomach"]</xpath>
+					<value>
+						<spawnThingOnRemoved>Stomach</spawnThingOnRemoved>
+					</value>
+				</li>
+			</operations>
+		</nomatch>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalStomach"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Stomach</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalStomach"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Stomach</li>
+					</value>
+				</li>
+				<li Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+						<li Class="PatchOperationTest">
+							<xpath>/Defs/ThingDef[defName = "Stomach"]</xpath>
+							<success>Always</success>
+						</li>
+						<!-- Disallow purchase of EPOE stomach -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Stomach"]/tradeability</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Stomach"]/tradeability</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Stomach"]</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</nomatch>
+						</li>
+						<!-- Change label of EPOE stomach -->
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName = "Stomach"]/label</xpath>
+							<value>
+								<label>stomach [EPOE]</label>
+							</value>
+						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Stomach"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Stomach"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Stomach"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
+					</operations>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Questionable Ethics Enhanced</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationTest">
+					<xpath>Defs/BodyPartDef[defName="Eye"]/spawnThingOnRemoved</xpath>
+					<success>Invert</success>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BodyPartDef[defName="Eye"]</xpath>
+					<value>
+						<spawnThingOnRemoved>Eye</spawnThingOnRemoved>
+					</value>
+				</li>
+			</operations>
+		</nomatch>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalEye"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Eye</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalEye"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Eye</li>
+					</value>
+				</li>
+				<li Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+						<li Class="PatchOperationTest">
+							<xpath>/Defs/ThingDef[defName = "Eye"]</xpath>
+							<success>Always</success>
+						</li>
+						<!-- Disallow purchase of EPOE eye -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Eye"]/tradeability</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Eye"]/tradeability</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Eye"]</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</nomatch>
+						</li>
+						<!-- Change label of EPOE eye -->
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName = "Eye"]/label</xpath>
+							<value>
+								<label>eyeball [EPOE]</label>
+							</value>
+						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Eye"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Eye"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Eye"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
+					</operations>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Questionable Ethics Enhanced</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationTest">
+					<xpath>Defs/BodyPartDef[defName="Nose"]/spawnThingOnRemoved</xpath>
+					<success>Invert</success>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BodyPartDef[defName="Nose"]</xpath>
+					<value>
+						<spawnThingOnRemoved>Nose</spawnThingOnRemoved>
+					</value>
+				</li>
+			</operations>
+		</nomatch>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalNose"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Nose</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalNose"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Nose</li>
+					</value>
+				</li>
+				<li Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+						<li Class="PatchOperationTest">
+							<xpath>/Defs/ThingDef[defName = "Nose"]</xpath>
+							<success>Always</success>
+						</li>
+						<!-- Disallow purchase of EPOE nose -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Nose"]/tradeability</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Nose"]/tradeability</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Nose"]</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</nomatch>
+						</li>
+						<!-- Change label of EPOE nose -->
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName = "Nose"]/label</xpath>
+							<value>
+								<label>nose [EPOE]</label>
+							</value>
+						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Nose"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Nose"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Nose"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
+					</operations>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Questionable Ethics Enhanced</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationTest">
+					<xpath>Defs/BodyPartDef[defName="Ear"]/spawnThingOnRemoved</xpath>
+					<success>Invert</success>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BodyPartDef[defName="Ear"]</xpath>
+					<value>
+						<spawnThingOnRemoved>Ear</spawnThingOnRemoved>
+					</value>
+				</li>
+			</operations>
+		</nomatch>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalEar"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Ear</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalEar"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Ear</li>
+					</value>
+				</li>
+				<li Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+						<li Class="PatchOperationTest">
+							<xpath>/Defs/ThingDef[defName = "Ear"]</xpath>
+							<success>Always</success>
+						</li>
+						<!-- Disallow purchase of EPOE ear -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Ear"]/tradeability</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Ear"]/tradeability</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Ear"]</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</nomatch>
+						</li>
+						<!-- Change label of EPOE ear -->
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName = "Ear"]/label</xpath>
+							<value>
+								<label>ear [EPOE]</label>
+							</value>
+						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Ear"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Ear"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Ear"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
+					</operations>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Questionable Ethics Enhanced</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationTest">
+					<xpath>Defs/BodyPartDef[defName="Jaw"]/spawnThingOnRemoved</xpath>
+					<success>Invert</success>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BodyPartDef[defName="Jaw"]</xpath>
+					<value>
+						<spawnThingOnRemoved>Jaw</spawnThingOnRemoved>
+					</value>
+				</li>
+			</operations>
+		</nomatch>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalJaw"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Jaw</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalJaw"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Jaw</li>
+					</value>
+				</li>
+				<li Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+						<li Class="PatchOperationTest">
+							<xpath>/Defs/ThingDef[defName = "Jaw"]</xpath>
+							<success>Always</success>
+						</li>
+						<!-- Disallow purchase of EPOE jaw -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Jaw"]/tradeability</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Jaw"]/tradeability</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Jaw"]</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</nomatch>
+						</li>
+						<!-- Change label of EPOE jaw -->
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName = "Jaw"]/label</xpath>
+							<value>
+								<label>jaw [EPOE]</label>
+							</value>
+						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Jaw"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Jaw"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Jaw"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
+					</operations>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Questionable Ethics Enhanced</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalArm"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Arm</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalArm"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Arm</li>
+					</value>
+				</li>
+				<li Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+						<li Class="PatchOperationTest">
+							<xpath>/Defs/ThingDef[defName = "Arm"]</xpath>
+							<success>Always</success>
+						</li>
+						<!-- Disallow purchase of EPOE arm -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Arm"]/tradeability</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Arm"]/tradeability</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Arm"]</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</nomatch>
+						</li>
+						<!-- Change label of EPOE arm -->
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName = "Arm"]/label</xpath>
+							<value>
+								<label>arm [EPOE]</label>
+							</value>
+						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Arm"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Arm"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Arm"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
+					</operations>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Questionable Ethics Enhanced</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalLeg"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>Leg</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "QE_InstallNaturalLeg"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>Leg</li>
+					</value>
+				</li>
+				<li Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+						<li Class="PatchOperationTest">
+							<xpath>/Defs/ThingDef[defName = "Leg"]</xpath>
+							<success>Always</success>
+						</li>
+						<!-- Disallow purchase of EPOE leg -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Leg"]/tradeability</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Leg"]/tradeability</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Leg"]</xpath>
+								<value>
+									<tradeability>Sellable</tradeability>
+								</value>
+							</nomatch>
+						</li>
+						<!-- Change label of EPOE lg -->
+						<li Class="PatchOperationReplace">
+							<xpath>/Defs/ThingDef[defName = "Leg"]/label</xpath>
+							<value>
+								<label>leg [EPOE]</label>
+							</value>
+						</li>
+						<!-- Moving to EPOE redundancy category -->
+						<li Class="PatchOperationConditional">
+							<xpath>/Defs/ThingDef[defName = "Leg"]/thingCategories</xpath>
+							<match Class="PatchOperationReplace">
+								<xpath>/Defs/ThingDef[defName = "Leg"]/thingCategories</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</match>
+							<nomatch Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "Leg"]</xpath>
+								<value>
+									<thingCategories Inherit="False">
+										<li>EPOE_Redundancy</li>
+									</thingCategories>
+								</value>
+							</nomatch>
+						</li>
+					</operations>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

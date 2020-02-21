@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+	<HediffDef Name="addedPartOptimized" Abstract="True">
+		<defaultLabelColor>(244,210,131)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<initialSeverity>0.001</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+	</HediffDef>
+
+	<!-- New EPOE hediffs -->
+
+	<HediffDef ParentName="addedPartOptimized">
+		<defName>EPOE_OrganicOptimized</defName>
+		<label>optimized</label>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0.33</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Fresh</label>
+				<painFactor>1.25</painFactor>
+				<restFallFactorOffset>0.5</restFallFactorOffset>
+				<hungerRateFactorOffset>1</hungerRateFactorOffset>
+				<partEfficiencyOffset>-0.1</partEfficiencyOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>Adapting</label>
+				<minSeverity>0.25</minSeverity>
+				<painFactor>1.25</painFactor>
+				<restFallFactorOffset>0.25</restFallFactorOffset>
+				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+				<partEfficiencyOffset>-0.1</partEfficiencyOffset>
+			</li>
+			<li>
+				<label>Optimizing</label>
+				<minSeverity>0.75</minSeverity>
+				<partEfficiencyOffset>0.05</partEfficiencyOffset>
+			</li>
+			<li>
+				<minSeverity>0.99</minSeverity>
+				<partEfficiencyOffset>0.15</partEfficiencyOffset>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartOptimized">
+		<defName>EPOE_InstinctOptimizedEyes</defName>
+		<label>improved reactive pupil</label>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Fresh</label>
+				<painFactor>1.5</painFactor>
+				<restFallFactorOffset>0.5</restFallFactorOffset>
+				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+				<partEfficiencyOffset>-0.1</partEfficiencyOffset>
+				<statOffsets>
+					<MentalBreakThreshold>0.06</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>Adapting</label>
+				<minSeverity>0.20</minSeverity>
+				<painFactor>1.5</painFactor>
+				<restFallFactorOffset>0.25</restFallFactorOffset>
+				<hungerRateFactorOffset>0.25</hungerRateFactorOffset>
+				<statOffsets>
+					<MentalBreakThreshold>0.06</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<label>Optimizing</label>
+				<minSeverity>0.75</minSeverity>
+				<statOffsets>
+					<MentalBreakThreshold>0.03</MentalBreakThreshold>
+					<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.99</minSeverity>
+				<partEfficiencyOffset>0.05</partEfficiencyOffset>
+				<statOffsets>
+					<ShootingAccuracyPawn>2.5</ShootingAccuracyPawn>
+					<MeleeHitChance>1</MeleeHitChance>
+					<MeleeDodgeChance>1</MeleeDodgeChance>
+					<AimingDelayFactor>-0.025</AimingDelayFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartOptimized">
+		<defName>EPOE_InstinctOptimizedFoot</defName>
+		<label>nimble instinct</label>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Fresh</label>
+				<painFactor>1.5</painFactor>
+				<restFallFactorOffset>0.5</restFallFactorOffset>
+				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+				<partEfficiencyOffset>-0.1</partEfficiencyOffset>
+				<statOffsets>
+					<MoveSpeed>-0.1</MoveSpeed>
+					<MentalBreakThreshold>0.04</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>Adapting</label>
+				<minSeverity>0.20</minSeverity>
+				<painFactor>1.5</painFactor>
+				<restFallFactorOffset>0.25</restFallFactorOffset>
+				<hungerRateFactorOffset>0.25</hungerRateFactorOffset>
+				<statOffsets>
+					<MoveSpeed>-0.1</MoveSpeed>
+					<MentalBreakThreshold>0.04</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<label>Optimizing</label>
+				<minSeverity>0.75</minSeverity>
+				<statOffsets>
+					<MentalBreakThreshold>0.02</MentalBreakThreshold>
+					<MeleeDodgeChance>2</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.99</minSeverity>
+				<partEfficiencyOffset>0.05</partEfficiencyOffset>
+				<statOffsets>
+					<MoveSpeed>0.1</MoveSpeed>
+					<MeleeDodgeChance>5</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartOptimized">
+		<defName>EPOE_InstinctOptimizedHand</defName>
+		<label>improved hand reflex</label>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Fresh</label>
+				<painFactor>1.5</painFactor>
+				<restFallFactorOffset>0.5</restFallFactorOffset>
+				<hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+				<partEfficiencyOffset>-0.1</partEfficiencyOffset>
+				<statOffsets>
+					<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+					<MentalBreakThreshold>0.04</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>Adapting</label>
+				<minSeverity>0.20</minSeverity>
+				<painFactor>1.5</painFactor>
+				<restFallFactorOffset>0.25</restFallFactorOffset>
+				<hungerRateFactorOffset>0.25</hungerRateFactorOffset>
+				<statOffsets>
+					<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+					<MentalBreakThreshold>0.04</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+			<li>
+				<label>Optimizing</label>
+				<minSeverity>0.75</minSeverity>
+				<statOffsets>
+					<MentalBreakThreshold>0.02</MentalBreakThreshold>
+					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+					<MeleeHitChance>2</MeleeHitChance>
+					<AimingDelayFactor>-0.025</AimingDelayFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.99</minSeverity>
+				<partEfficiencyOffset>0.05</partEfficiencyOffset>
+				<statOffsets>
+					<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+					<MeleeHitChance>4</MeleeHitChance>
+					<AimingDelayFactor>-0.075</AimingDelayFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

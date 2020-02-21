@@ -1,12 +1,4 @@
 *************************************
-******** Fork Project Credits *******
-*************************************
-
-Github management: Aurani
-Balancing/Coding/Workshop management: Victorique
-Major coding contribution: Tarojun
-
-*************************************
 ******** Original Mod Credits *******
 *************************************
 

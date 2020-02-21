@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RecipeDef[defName="InstallJoywire"]/researchPrerequisite</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallJoywire"]</xpath>
+				<value>
+					<researchPrerequisite>BrainSurgery</researchPrerequisite>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RecipeDef[defName="InstallPainstopper"]/researchPrerequisite</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallPainstopper"]</xpath>
+				<value>
+					<researchPrerequisite>BrainSurgery</researchPrerequisite>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticHeart"]/addsHediff</xpath>
+				<value>		
+					<addsHediff>SurrogateHeart</addsHediff>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="InstallBionicHeart"]/addsHediff</xpath>
+				<value>		
+					<addsHediff>SyntheticHeart</addsHediff>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="InstallBionicStomach"]/addsHediff</xpath>
+				<value>		
+					<addsHediff>SyntheticStomach</addsHediff>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

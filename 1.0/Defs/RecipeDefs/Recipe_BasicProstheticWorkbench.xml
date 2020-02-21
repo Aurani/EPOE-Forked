@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Abstract="True" Name="RecipeBasicProsthesis">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>2500</workAmount>
+		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeBasicProsthesis">
+		<defName>CreateEyePatch</defName>
+		<label>make eye patch</label>
+		<description>Tailors an eye patch from fabric.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<products>
+			<EyePatch>1</EyePatch>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Textiles</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Textiles</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeBasicProsthesis">
+		<defName>CreateHookHand</defName>
+		<label>make hook hand</label>
+		<description>Tailors a hook hand from fabric and metal.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<products>
+			<HookHand>1</HookHand>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Textiles</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+			<categories>
+				<li>Textiles</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeBasicProsthesis">
+		<defName>Make_BasicWoodenFinger</defName>
+		<label>make wooden finger</label>
+		<description>make a wooden finger with a bit of textile to help keep it attached to the hand.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<products>
+			<BasicWoodenFinger>1</BasicWoodenFinger>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Textiles</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+			<categories>
+				<li>Textiles</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeBasicProsthesis">
+		<defName>Make_BasicWoodenToe</defName>
+		<label>make wooden toe</label>
+		<description>make a wooden toe with a bit of textile to help keep it attached to the foot.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<products>
+			<BasicWoodenToe>1</BasicWoodenToe>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Textiles</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+			<categories>
+				<li>Textiles</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RecipeBasicProsthesis">
+		<defName>CreateEarBandage</defName>
+		<label>make ear bandage</label>
+		<description>Tailors an ear bandage from fabric.</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<products>
+			<EarBandage>1</EarBandage>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Textiles</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Textiles</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>

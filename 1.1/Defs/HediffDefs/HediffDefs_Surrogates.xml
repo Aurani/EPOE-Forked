@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffDef Name="addedPartSurrogate" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(233,129,69)</defaultLabelColor>
+	</HediffDef>
+
+	<ThingDef Name="EPOESurrogateBase" ParentName="BodyPartProstheticMakeableBase" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>SurrogateOrgans</li>
+		</thingCategories>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/SurrogatePart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers Inherit="False">
+				<li>TableOrgans</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+			<researchPrerequisite>SurrogateOrgans</researchPrerequisite>
+		</recipeMaker>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- Redundant Prosthetic Heart overwrite, copy into Surrogate Heart -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SimpleProstheticHeart</defName>
+		<label>surrogate heart</label>
+		<description>An installed surrogate heart.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateHeart</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SurrogateHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef Name="EPOE_ObsoleteSurrogate" ParentName="EPOESurrogateBase" Abstract="True">
+		<graphicData Inherit="False">
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(154,124,104)</color>
+		</graphicData>
+		<thingCategories Inherit="False">
+			<li>EPOE_Redundancy</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+		<generateAllowChance>0</generateAllowChance>
+		<recipeMaker>
+			<factionPrerequisiteTags>
+				<li>EPOE_Redundancy_Debug</li>
+			</factionPrerequisiteTags>
+			<recipeUsers Inherit="False" />
+			<researchPrerequisite Inherit="False" />
+		</recipeMaker>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+		<tradeTags Inherit="False"></tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOE_ObsoleteSurrogate">
+		<defName>SimpleProstheticHeart</defName>
+		<label>prosthetic heart</label>
+		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart. If the bill to craft this item is left in the machining table after freshly installing EPOE, we recommend removing it. A method was left to not break your machining table and allowing the recipe to exist for player self-debug purposes.</description> 
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticHeart</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>40</Cloth>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- New EPOE body parts -->
+
+	<!-- Surrogate heart -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateHeart</defName>
+		<label>surrogate heart</label>
+		<description>An installed surrogate heart.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateHeart</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SurrogateHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SurrogateHeart</defName>
+		<label>surrogate heart</label>
+		<description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSurrogateHeart</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>40</Cloth>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSurrogateHeart</defName>
+		<label>install surrogate heart</label>
+		<description>Installs an surrogate heart.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateHeart</ThingDef></descriptionHyperlinks>
+		<jobString>Installing an artificial heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SurrogateHeart</addsHediff>
+	</RecipeDef>
+
+	<!-- Surrogate lung -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateLung</defName>
+		<label>surrogate lung</label>
+		<description>An installed surrogate lung.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateLung</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SurrogateLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SurrogateLung</defName>
+		<label>surrogate lung</label>
+		<description>A rudimentary lung replacement. Makes a deep, clicking noise.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSurrogateLung</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>30</Cloth>
+			<Plasteel>15</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSurrogateLung</defName>
+		<label>install surrogate lung</label>
+		<description>Installs surrogate lung.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateLung</ThingDef></descriptionHyperlinks>
+		<jobString>Installing surrogate lung.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SurrogateLung</addsHediff>
+	</RecipeDef>
+
+	<!-- Surrogate stomach -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateStomach</defName>
+		<label>surrogate stomach</label>
+		<description>An installed surrogate stomach.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateStomach</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SurrogateStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SurrogateStomach</defName>
+		<label>surrogate stomach</label>
+		<description>A rudimentary stomach replacement. Produces unpleasant smelling bowel gas.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSurrogateStomach</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>30</Cloth>
+			<Plasteel>15</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSurrogateStomach</defName>
+		<label>install surrogate stomach</label>
+		<description>Installs a surrogate stomach.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateStomach</ThingDef></descriptionHyperlinks>
+		<jobString>Installing surrogate stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SurrogateStomach</addsHediff>
+	</RecipeDef>
+
+	<!-- Surrogate liver -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateLiver</defName>
+		<label>surrogate liver</label>
+		<description>An installed surrogate liver.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateLiver</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SurrogateLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SurrogateLiver</defName>
+		<label>surrogate liver</label>
+		<description>A rudimentary blood filter. Has problems with keeping the blood sugar level constant.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSurrogateLiver</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>30</Cloth>
+			<Plasteel>15</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSurrogateLiver</defName>
+		<label>install surrogate liver</label>
+		<description>Installs a surrogate liver.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateLiver</ThingDef></descriptionHyperlinks>
+		<jobString>Installing surrogate liver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SurrogateLiver</addsHediff>
+	</RecipeDef>
+
+	<!-- Surrogate kidney -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateKidney</defName>
+		<label>surrogate kidney</label>
+		<description>An installed surrogate kidney.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateKidney</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SurrogateKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SurrogateKidney</defName>
+		<label>surrogate kidney</label>
+		<description>A rudimentary kidney replacement. One of its possible side effects is getting pale.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSurrogateKidney</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>30</Cloth>
+			<Plasteel>15</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSurrogateKidney</defName>
+		<label>install surrogate kidney</label>
+		<description>Installs a surrogate kidney.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateKidney</ThingDef></descriptionHyperlinks>
+		<jobString>Installing surrogate kidney.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SurrogateKidney</addsHediff>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Old abstracts for sake of old compatibility patches -->
+	<!-- Invisible debug recipes for swapping versions to look seamless -->
+
+	<ThingDef Name="Basic" ParentName="BodyPartArtificialBase" Abstract="True">
+		<tradeTags>
+			<li>BasicProstheses</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>BasicProstheses</li>
+		</thingCategories>
+      <graphicData>
+         <texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+	</ThingDef>
+
+	<RecipeDef Name="SurgeryBasic" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>1.4</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef Name="EPOEDebugRecipeBasic" ParentName="RecipeBasicProsthesis" Abstract="True">
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+		<researchPrerequisite Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreateDenture</defName>
+		<label>make denture</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<denture>1</denture>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreatePegLeg</defName>
+		<label>make peg leg</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PegLeg>1</PegLeg>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreateWoodenFoot</defName>
+		<label>make wooden foot</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<WoodenFoot>1</WoodenFoot>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreateSteelArm</defName>
+		<label>make steel arm</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>EPOEAssembling</soundWorking>
+		<products>
+			<SteelArm>1</SteelArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>

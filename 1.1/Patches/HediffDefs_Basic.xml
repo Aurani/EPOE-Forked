@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="WoodenFoot"]/addedPartProps/partEfficiency</xpath>
+				<value>
+					<partEfficiency>0.6</partEfficiency>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="Denture"]/addedPartProps/partEfficiency</xpath>
+				<value>
+					<partEfficiency>0.6</partEfficiency>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/HediffDef[defName="PegLeg" or defName="WoodenHand" or defName="WoodenFoot" or defName="Denture"]</xpath>
+				<value>
+					<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RecipeDef[@Name="SurgeryInstallWoodenPartBase"]/researchPrerequisite</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[@Name="SurgeryInstallWoodenPartBase"]</xpath>
+				<value>
+					<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

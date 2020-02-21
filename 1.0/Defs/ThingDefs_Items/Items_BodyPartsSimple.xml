@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Vanilla overwrites, for now. -->
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>SimpleProstheticLeg</defName>
+		<label>simple prosthetic leg</label>
+		<description>Simple prosthesis made to replace a missing leg. Not very comfortable but quite efficient.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>55</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>8</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>SimpleProstheticArm</defName>
+		<label>simple prosthetic arm</label>
+		<description>Simple but durable arm prosthesis.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>55</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>CochlearImplant</defName>
+		<label>cochlear implant</label>
+		<description>An implant which replaces normal hearing. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+		  <WorkToMake>5000</WorkToMake>
+		  <Mass>0.1</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+		  <li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- Redundant overwriting. For now. -->
+
+	<ThingDef Name="EPOE_ObsoleteSurrogate" ParentName="EPOESurrogateBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItemProsthetic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOE_ObsoleteSurrogate">
+		<defName>SimpleProstheticHeart</defName>
+		<label>prosthetic heart</label>
+		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart. If the bill to craft this item is left in the machining table after freshly installing EPOE, we recommend removing it. A method was left to not break your machining table and allowing the recipe to exist for player self-debug purposes.</description> 
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Cloth>40</Cloth>
+			<Plasteel>25</Plasteel>
+			<Neutroamine>5</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<tradeability>None</tradeability>
+		<generateAllowChance>0</generateAllowChance>
+		<thingCategories Inherit="False">
+			<li>EPOE_Redundancy</li>
+		</thingCategories>
+		<recipeMaker>
+			<factionPrerequisiteTags>
+				<li>EPOE_Redundancy_Debug</li>
+			</factionPrerequisiteTags>
+			<recipeUsers Inherit="False" />
+		</recipeMaker>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+		<tradeTags Inherit="False"></tradeTags>
+	</ThingDef>
+	
+	<!-- New EPOE body parts -->
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>GoldenEye</defName>
+		<label>golden eye</label>
+		<description>Replaces missing eyes. So incredibly beautiful that it's a shame you can't see yourself in the mirror.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Gold>1</Gold>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>LightReceptor</defName>
+		<label>light receptor</label>
+		<description>Replaces a missing eye. Can detect light and even objects. Like looking through frosted glass but without the colors.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>35</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>SimpleSpine</defName>
+		<label>replacement spine</label>
+		<description>This simple but advanced device can almost perfectly replace a damaged spine.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>55</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+		  <WorkToMake>5000</WorkToMake>
+		  <Mass>4</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+		  <li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>SimpleProstheticHand</defName>
+		<label>simple prosthetic hand</label>
+		<description>Replaces missing hands. Way more comfortable and less frightening than the hook hand.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>35</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>SimpleProstheticFoot</defName>
+		<label>simple prosthetic foot</label>
+		<description>Replaces missing feet. Not as cheap as a wood log.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>35</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>SimpleProstheticFinger</defName>
+		<label>simple prosthetic finger</label>
+		<description>Archaic and crude replacement for lost fingers. Not terribly efficient and certainly not comfortable, but gets the job done.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>7</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.6</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>SimpleProstheticToe</defName>
+		<label>simple prosthetic toe</label>
+		<description>Archaic and crude replacement for lost toes. Inefficient and uncomfortable, they generate a lot of noise while walking, but they get the job done.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>7</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.6</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>HydraulicJaw</defName>
+		<label>hydraulic jaw</label>
+		<description>Replaces a missing jaw. Be careful with the extremely efficient teeth!</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>45</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>ArtificialNose</defName>
+		<label>artificial nose</label>
+		<description>Replaces a missing nose. Covers the hole in the face.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>30</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.2</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>ReplacementRadius</defName>
+		<label>replacement radius</label>
+		<description>A replacement for the radius, a bone in the lower arm.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Plasteel>30</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- Just to avoid errors with graphics mod that have poorly written patching methods. -->
+
+	<ThingDef Name="EPOE_ScytherBladeGraphics" ParentName="BodyPartProstheticBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/BodyPart/BionicPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="EPOE_ScytherBladeGraphics">
+		<defName>ScytherBlade</defName>
+		<label>scyther blade</label>
+		<description>Hand replacement with a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<EPOE_DamagedScytherBlade>1</EPOE_DamagedScytherBlade>
+			<Steel>5</Steel>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>SpecialWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>SimpleRib</defName>
+		<label>simple rib replacement</label>
+		<description>An artificial rib, and nothing more.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Plasteel>30</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeTags>
+			<li>SimpleProstheses</li>
+		</tradeTags>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+</Defs>

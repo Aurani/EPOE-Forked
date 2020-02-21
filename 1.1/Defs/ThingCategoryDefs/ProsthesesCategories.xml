@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>AdvancedProstheses</defName>
+		<label>advanced bionics</label>
+		<parent>BodyParts</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>GlitterworldParts</defName>
+		<label>Glitterworld parts</label>
+		<parent>BodyParts</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>SurrogateOrgans</defName>
+		<label>surrogate organs</label>
+		<parent>BodyParts</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>SyntheticOrgans</defName>
+		<label>synthetic organs</label>
+		<parent>BodyParts</parent>
+	</ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EPOE_OrganicOptimizer</defName>
+      <label>organic optimizer</label>
+      <parent>BodyParts</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EPOE_Redundancy</defName>
+      <label>epoe redundancy</label>
+      <parent>BodyParts</parent>
+    </ThingCategoryDef>
+
+</Defs>

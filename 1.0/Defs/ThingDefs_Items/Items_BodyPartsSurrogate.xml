@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="EPOESurrogateBase" ParentName="BodyPartArtificialBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/BodyPart/SurrogatePart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers>
+				<li>TableOrgans</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+			<researchPrerequisite>SurrogateOrgans</researchPrerequisite>
+		</recipeMaker>
+	    <techLevel>Industrial</techLevel>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+		<tradeTags>
+			<li>BodyPart</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>SurrogateOrgans</li>
+		</thingCategories>
+	</ThingDef>
+
+	<!-- New EPOE body parts -->
+
+	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SurrogateHeart</defName>
+		<label>surrogate heart</label>
+		<description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</description>
+		<costList>
+			<Cloth>40</Cloth>
+			<Plasteel>25</Plasteel>
+			<Neutroamine>5</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SurrogateLung</defName>
+		<label>surrogate lung</label>
+		<description>A rudimentary lung replacement. Makes a deep, clicking noise.</description>
+		<costList>
+			<Cloth>30</Cloth>
+			<Plasteel>15</Plasteel>
+			<Neutroamine>5</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SurrogateStomach</defName>
+		<label>surrogate stomach</label>
+		<description>A rudimentary stomach replacement. Produces unpleasant smelling bowel gas.</description>
+		<costList>
+			<Cloth>30</Cloth>
+			<Plasteel>15</Plasteel>
+			<Neutroamine>5</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SurrogateLiver</defName>
+		<label>surrogate liver</label>
+		<description>A rudimentary blood filter. Has problems with keeping the blood sugar level constant.</description>
+		<costList>
+			<Cloth>30</Cloth>
+			<Plasteel>15</Plasteel>
+			<Neutroamine>5</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SurrogateKidney</defName>
+		<label>surrogate kidney</label>
+		<description>A rudimentary kidney replacement. One of its possible side effects is getting pale.</description>
+		<costList>
+			<Cloth>30</Cloth>
+			<Plasteel>15</Plasteel>
+			<Neutroamine>5</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+</Defs>

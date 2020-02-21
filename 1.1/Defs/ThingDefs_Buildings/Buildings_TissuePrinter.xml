@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="BenchBase">
+		<defName>TableOrgans</defName>
+		<label>tissue printer</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A workstation, equipped with a 3D printer to craft organs.</description>
+		<graphicData>
+		<texPath>Things/Building/Production/TableOrgans</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(3.5,1.5)</drawSize>
+		<damageData>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+		</damageData>
+		</graphicData>
+		<costList>
+			<Steel>200</Steel>
+			<Plasteel>150</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<constructEffect>ConstructMetal</constructEffect>
+		<fillPercent>0.5</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>2250</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<WorkTableWorkSpeedFactor>3</WorkTableWorkSpeedFactor>
+		</statBases>
+		<size>(3,1)</size>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>300</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<recipes></recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>SurrogateOrgans</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>

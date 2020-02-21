@@ -1,50 +1,55 @@
-Update 3.13 (7.2.2020)
+3.13 (7.2.2020)
 * Fixed some item description errors
-* Changed the synthetic organ values: instead of the old values, each organ now provides 120% part efficiency
+Changed the synthetic organ values: instead of the old values, each organ now provides 120% part efficiency
+
 * Muscle stimulator tech lowered, stats changed
-* Organic optimisers buffed (time being bedridden is now shorter)
+
+* Organic optimisers buffed (time being bedridden is now shorter) 
+
 * Brain Surgery research has been reduced to 1500 from 2500
+
 * Moved the Auxiliary AIs to a lower tier of technology, making them available earlier in the game
+
 * Added AI Persona Core implant research, requiring 1000 points. New AI Core surgeries now require this research before being done.
+
 * Synthetic Skin has been renamed to Synthetic Tissue. Synthetic Repairs research is now needed to make the Synthetic Tissue and the Neuromuscular Framework.
 * Tactical Cornea Implant has been buffed to offer better combat stats and make it viable again
 
-Update 3.12 (11.1.2020)
-* Added a compatibility patch with Vanilla Furniture Expanded - Production. 
-EPOE workbenches can now link with the new cabinets of that mod.
-* Fixed an error to look if RePowerReborn is loaded.
+3.12 (25.1.2020)
+* Reworked certain items requiring the new MA-AI Chips (Medical Assistant AI chips) as a crafting material, obtained through using up AI persona cores, or a end research to be able to make them on your own.
+* Glitterworld implants can now be crafted, all requiring numerous MA-AI chips.
+* New endgame research. New Organic Optimizers nanobots that improves the efficiency of the natural body. Body purists will like them, whilst Transhumanists hate them.
+* Brain Stimulator changed from +100% consciousness, max 65% consciousness, to +70% consciousness, max 90% consciousness. Overall, this should be a buff, for below reason.
+* AI Core implant reworked. The person with it should no longer be on murderous rage unless the implant is not maintained carefully through tending every 2 days by a doctor. 
+* If bad doctor is tending to it, it becomes less efficient until bad things may start happening! Kind of basically revert to the old AI Core implant. So look after it!
+* Removed Artificial Clavicle and Pelvis.
 
-Update 3.11 (8.1.2020)
-* Fixed Manhunter Mental State being broken.
-* Added values for new bionics.
-* Cleaned reduntant files.
+3.11 (8.1.2020)
+* Fixed a bug which disabled the Manhunter Mental Break
+* Removed reduntant files
+* Added new bionics stats
+* Made most recipes idiot-proof
 
-Update 3.1 (7.1.2020)
-3.1 is out!
-* Added new tiers of finger and toe prosthetics.
-* Fixed and rewrote a bunch of abstracts.
+3.03 (7.1.2020)
+* Fixed a compatibility issue with QEE
 
-Update 3.03 (7.1.2020)
-* Fixed a compatibility issue with QEE.
-
-Update 3.02 (4.1.2020)
+3.02 (4.1.2020)
 * Added the power claws production line
 * Added cooling and heating ribs replacements
 * New compatibility patch included for QEE
 * RePower no longer needs an external EPOE patch
 
-Update 3.01 (2.1.2020)
+3.01 (2.1.2020)
 * Added ability to craft advanced power claw and made some overall quality of life improvements.
 
-Version 3.0 is officially out! (31.12.2019)
+3.0 is officially out! (31.12.2019)
 *  Streamlined prosthetic definitions into vanilla standard format for smoother blending with vanilla codes.
-As a result, other mods that adds custom prosthetics that have been written the same as vanilla core methods, will automatically be reassigned to their respective workbenches.
+*  As a result, other mods that adds custom prosthetics that have been written the same as vanilla core methods, will automatically be reassigned to their respective workbenches.
 
 2.25 - Mod overhaul (27.12.2019)
 *  Merged EPOE and EPOE Expanded (by dninemfive)
 *  Rebalanced Advanced Bionics to fit their original category between bionics and archotech upgrades
 *  Fixed minor issues and redundancies in code
-
 
 2.24 - Goodbye individual ribs! (24.10.2018)
 *  Removed individual ribs

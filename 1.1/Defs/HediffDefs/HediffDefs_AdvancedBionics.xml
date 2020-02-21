@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+	<HediffDef Name="addedPartAdvanced" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(18,215,57)</defaultLabelColor>
+	</HediffDef>
+
+	<ThingDef Name="BodyPartAdvancedBionicBase" ParentName="BodyPartBionicBase" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<thingCategories Inherit="False">
+			<li>AdvancedProstheses</li>
+		</thingCategories>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/AdvancedPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>33000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>AdvancedBionics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef Name="EPOESurgeryAdvancedBionic" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+
+	<!-- New EPOE body parts -->
+
+	<!-- Advanced bionic eye -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicEye</defName>
+		<label>advanced bionic eye</label>
+		<labelNoun>an advanced bionic eye</labelNoun>
+		<description>An installed advanced bionic eye.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicEye</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedBionicEye</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.35</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicEye</defName>
+		<label>advanced bionic eye</label>
+		<description>This advanced piece of technology allows the user to perfectly see in the dark as well as through walls. Also through clothes.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicEye</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<BionicEye>1</BionicEye>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicEye</defName>
+		<label>install advanced bionic eye</label>
+		<description>Installs advanced bionic eye.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicEye</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic eye.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedBionicEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>  
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicEye</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced bionic arm -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicArm</defName>
+		<label>advanced bionic arm</label>
+		<labelNoun>an advanced bionic arm</labelNoun>
+		<description>An installed advanced bionic arm.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicArm</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedBionicArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.35</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bionic fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>15</power>
+						<cooldownTime>1.65</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicArm</defName>
+		<label>advanced bionic arm</label>
+		<description>Remember when you struggled with opening jars? Now you struggle with not breaking them instantly.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicArm</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<BionicArm>1</BionicArm>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicArm</defName>
+		<label>install advanced bionic arm</label>
+		<description>Installs advanced bionic arm.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicArm</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic arm.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedBionicArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicArm</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced bionic leg -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicLeg</defName>
+		<label>advanced bionic leg</label>
+		<labelNoun>an advanced bionic leg</labelNoun>
+		<description>An installed advanced bionic leg.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicLeg</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedBionicLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.35</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicLeg</defName>
+		<label>advanced bionic leg</label>
+		<description>Gotta go fast!</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicLeg</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<BionicLeg>1</BionicLeg>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>8</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicLeg</defName>
+		<label>install advanced bionic leg</label>
+		<description>Installs advanced bionic leg.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicLeg</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic leg.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedBionicLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicLeg</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced bionic spine -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicSpine</defName>
+		<label>advanced bionic spine</label>
+		<labelNoun>an advanced bionic spine</labelNoun>
+		<description>An installed advanced bionic spine.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicSpine</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedBionicSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicSpine</defName>
+		<label>advanced bionic spine</label>
+		<description>This durable device supports the back and makes working and walking much easier.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicSpine</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<BionicSpine>1</BionicSpine>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>4</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicSpine</defName>
+		<label>install advanced bionic spine implant</label>
+		<description>Installs advanced bionic spine.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicSpine</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedBionicSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicSpine</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced bionic ear -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicEar</defName>
+		<label>advanced bionic ear</label>
+		<labelNoun>an advanced bionic ear</labelNoun>
+		<description>An installed advanced bionic ear.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicEar</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedBionicEar</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.35</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicEar</defName>
+		<label>advanced bionic ear</label>
+		<description>This device allows the user to hear better than bats.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicEar</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<BionicEar>1</BionicEar>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicEar</defName>
+		<label>install advanced bionic ear</label>
+		<description>Installs an advanced bionic ear.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicEar</ThingDef></descriptionHyperlinks>
+		<jobString>Installing an advanced bionic ear.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedBionicEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicEar</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced bionic hand -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicHand</defName>
+		<label>advanced bionic hand</label>
+		<labelNoun>an advanced bionic hand</labelNoun>
+		<description>An installed advanced bionic hand.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicHand</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedBionicHand</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.35</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bionic fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>15</power>
+						<cooldownTime>1.65</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicHand</defName>
+		<label>advanced bionic hand</label>
+		<description>Some people would chop their own hands off just to get this gorgeous piece of tech.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicHand</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<BionicHand>1</BionicHand>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicHand</defName>
+		<label>install advanced bionic hand</label>
+		<description>Installs advanced bionic hand.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicHand</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic hand.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicHand</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedBionicHand</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicHand</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced bionic foot -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicFoot</defName>
+		<label>advanced bionic foot</label>
+		<labelNoun>an advanced bionic foot</labelNoun>
+		<description>An installed advanced bionic foot.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicFoot</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedBionicFoot</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.35</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicFoot</defName>
+		<label>advanced bionic foot</label>
+		<description>Dozens of servomotors grant faster movement and ultimate comfort.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicFoot</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<BionicFoot>1</BionicFoot>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicFoot</defName>
+		<label>install advanced bionic foot</label>
+		<description>Installs bionic foot.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicFoot</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic foot.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicFoot</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedBionicFoot</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Foot</li>  
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicFoot</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced bionic finger -->
+
+   <HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicFinger</defName>
+		<label>advanced bionic finger</label>
+		<labelNoun>an advanced bionic finger</labelNoun>
+		<description>An installed advanced bionic finger.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicFinger</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedBionicFinger</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.35</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicFinger</defName>
+		<label>advanced bionic finger</label>
+		<description>Advanced bionic finger. Delicate glitterworld sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing ensure the best precision and grip, far surpassing that of a natural or bionic finger. Powerful enough to crush rocks like ripe tomatoes.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicFinger</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<BionicFinger>1</BionicFinger>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>0.6</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicFinger</defName>
+		<label>install advanced bionic finger</label>
+		<description>Installs advanced bionic finger.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicFinger</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic finger.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicFinger</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedBionicFinger</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Finger</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicFinger</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced bionic toe -->
+
+   <HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicToe</defName>
+		<label>advanced bionic toe</label>
+		<labelNoun>an advanced bionic toe</labelNoun>
+		<description>An installed advanced bionic toe.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicToe</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedBionicToe</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.35</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicToe</defName>
+		<label>advanced bionic toe</label>
+		<description>Advanced bionic toe. Delicate glitterworld sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing make these toes unrivalled when it comes to movement and control, far surpassing that of natural or bionic toes. Glitterworld mechanite-traction technology ensures extreme speeds even on normally unfavourable terrain, such as water.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicToe</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<BionicToe>1</BionicToe>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>0.6</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicToe</defName>
+		<label>install advanced bionic toe</label>
+		<description>Installs advanced bionic toe.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicToe</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic toe.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicToe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedBionicToe</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Toe</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicToe</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced bionic jaw -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedBionicJaw</defName>
+		<label>advanced bionic jaw</label>
+		<labelNoun>an advanced bionic jaw</labelNoun>
+		<description>An installed advanced bionic jaw.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicJaw</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedBionicJaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.35</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedBionicJaw</defName>
+		<label>advanced bionic jaw</label>
+		<description>The voice this jaw creates is so beautiful that even mechanoids stop by to listen.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicJaw</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<BionicJaw>1</BionicJaw>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedBionicJaw</defName>
+		<label>install advanced bionic jaw implant</label>
+		<description>Installs advanced bionic jaw.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedBionicJaw</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced bionic jaw.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedBionicJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedBionicJaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedBionicJaw</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced power arm -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedPowerArm</defName>
+		<label>advanced power arm</label>
+		<labelNoun>an advanced power arm</labelNoun>
+		<description>An installed advanced power arm.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedPowerArm</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedPowerArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bionic claw</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>27</power>
+						<cooldownTime>1.7</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>AdvancedPowerArm</defName>
+		<label>advanced power arm</label>
+		<description>Even more unparalleled strength and dexterity, and with a sharp, retractable claws. Now it's the ultimate arm upgrade!</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedPowerArm</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<PowerArm>1</PowerArm>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallAdvancedPowerArm</defName>
+		<label>install advanced power arm</label>
+		<description>Installs advanced power arm.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedPowerArm</ThingDef></descriptionHyperlinks>
+		<jobString>Installing advanced power arm.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedPowerArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedPowerArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedPowerArm</addsHediff>
+	</RecipeDef>
+
+	<!-- Exoskeleton suit -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>ExoskeletonSuit</defName>
+		<label>exoskeleton suit</label>
+		<labelNoun>an exoskeleton suit</labelNoun>
+		<description>An installed exoskeleton suit.</description>
+		<descriptionHyperlinks><ThingDef>ExoskeletonSuit</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ExoskeletonSuit</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>ExoskeletonSuit</defName>
+		<label>exoskeleton suit</label>
+		<description>A high tech device made out of two components: a light skeletal structure to relieve the back and servomotors to make the user stronger.</description>
+		<descriptionHyperlinks><RecipeDef>InstallExoskeletonSuit</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
+			<Plasteel>75</Plasteel>
+			<Steel>60</Steel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>7</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+		<defName>InstallExoskeletonSuit</defName>
+		<label>install exoskeleton suit</label>
+		<description>Installs exoskeleton suit.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedPowerArm</ThingDef></descriptionHyperlinks>
+		<jobString>Installing exoskeleton suit.</jobString>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>3500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ExoskeletonSuit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ExoskeletonSuit</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ExoskeletonSuit</addsHediff>
+	</RecipeDef>
+
+</Defs>

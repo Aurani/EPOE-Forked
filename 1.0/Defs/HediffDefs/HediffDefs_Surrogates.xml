@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+	<HediffDef Name="addedPartSurrogate" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(233,129,69)</defaultLabelColor>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>false</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<!-- New EPOE body parts -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateLung</defName>
+		<label>surrogate lung</label>
+		<spawnThingOnRemoved>SurrogateLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateStomach</defName>
+		<label>surrogate stomach</label>
+		<spawnThingOnRemoved>SurrogateStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateLiver</defName>
+		<label>surrogate liver</label>
+		<spawnThingOnRemoved>SurrogateLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateKidney</defName>
+		<label>surrogate kidney</label>
+		<spawnThingOnRemoved>SurrogateKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateHeart</defName>
+		<label>surrogate heart</label>
+		<spawnThingOnRemoved>SurrogateHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<!-- Redundant Prosthetic Heart overwrite, copy into Surrogate Heart -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SimpleProstheticHeart</defName>
+		<label>surrogate heart</label>
+		<spawnThingOnRemoved>SurrogateHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+</Defs>

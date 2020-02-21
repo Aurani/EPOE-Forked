@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- New EPOE body parts -->
+
+	<!-- Eye -->
+
+	<ThingDef ParentName="BodyPartNaturalBase">
+		<defName>Eye</defName>
+		<label>eyeball</label>
+		<description>Absorbs light, which lets a person know what's around them.</description>
+		<descriptionHyperlinks><RecipeDef>InstallNaturalEye</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>400</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+		<defName>InstallNaturalEye</defName>
+		<label>install eye</label>
+		<description>Installs eye.</description>
+		<descriptionHyperlinks><ThingDef>Eye</ThingDef></descriptionHyperlinks>
+		<jobString>Installing eye.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Eye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Eye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<!-- Nose -->
+
+	<ThingDef ParentName="BodyPartNaturalBase">
+		<defName>Nose</defName>
+		<label>nose</label>
+		<description>A pretty useful organ to distinguish odors, applies the finishing touch to a face.</description>
+		<descriptionHyperlinks><RecipeDef>InstallNaturalNose</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>0.2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+		<defName>InstallNaturalNose</defName>
+		<label>install nose</label>
+		<description>Installs nose.</description>
+		<descriptionHyperlinks><ThingDef>Nose</ThingDef></descriptionHyperlinks>
+		<jobString>Installing nose.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Nose</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Nose</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<!-- Ear -->
+
+	<ThingDef ParentName="BodyPartNaturalBase">
+		<defName>Ear</defName>
+		<label>ear</label>
+		<description>Picks up vibrations in the air, allowing people to hear sound.</description>
+		<descriptionHyperlinks><RecipeDef>InstallNaturalEar</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+		<defName>InstallNaturalEar</defName>
+		<label>install ear</label>
+		<description>Installs ear.</description>
+		<descriptionHyperlinks><ThingDef>Ear</ThingDef></descriptionHyperlinks>
+		<jobString>Installing ear.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Ear</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Ear</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<!-- Jaw -->
+
+	<ThingDef ParentName="BodyPartNaturalBase">
+		<defName>Jaw</defName>
+		<label>jaw</label>
+		<description>A nice set of teeth for chewing food and talking.</description>
+		<descriptionHyperlinks><RecipeDef>InstallNaturalJaw</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+		<defName>InstallNaturalJaw</defName>
+		<label>install jaw</label>
+		<description>Installs jaw.</description>
+		<descriptionHyperlinks><ThingDef>Jaw</ThingDef></descriptionHyperlinks>
+		<jobString>Installing jaw.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Jaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Jaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<!-- Stomach -->
+
+	<ThingDef ParentName="BodyPartNaturalBase">
+		<defName>Stomach</defName>
+		<label>stomach</label>
+		<description>Digests food and turns it into energy and nutrients.</description>
+		<descriptionHyperlinks><RecipeDef>InstallNaturalStomach</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+		<defName>InstallNaturalStomach</defName>
+		<label>install stomach</label>
+		<description>Installs stomach.</description>
+		<descriptionHyperlinks><ThingDef>Stomach</ThingDef></descriptionHyperlinks>
+		<jobString>Installing stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Stomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Stomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<!-- Arm -->
+
+	<ThingDef ParentName="BodyPartNaturalBase">
+		<defName>Arm</defName>
+		<label>arm</label>
+		<description>Arms are like legs, except you can carry stuff with them.</description>
+		<descriptionHyperlinks><RecipeDef>InstallNaturalLeg</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>750</MarketValue>
+			<Mass>5</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+		<defName>InstallNaturalArm</defName>
+		<label>install arm</label>
+		<description>Installs arm.</description>
+		<descriptionHyperlinks><ThingDef>Arm</ThingDef></descriptionHyperlinks>
+		<jobString>Installing arm.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Arm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Arm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li> 
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	<!-- Leg -->
+
+	<ThingDef ParentName="BodyPartNaturalBase">
+		<defName>Leg</defName>
+		<label>leg</label>
+		<description>Basically long meaty sticks that let you move around.</description>
+		<descriptionHyperlinks><RecipeDef>InstallNaturalArm</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>750</MarketValue>
+			<Mass>8</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+		<defName>InstallNaturalLeg</defName>
+		<label>install leg</label>
+		<description>Installs leg.</description>
+		<descriptionHyperlinks><ThingDef>Leg</ThingDef></descriptionHyperlinks>
+		<jobString>Installing leg.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Leg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Leg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+
+</Defs>
