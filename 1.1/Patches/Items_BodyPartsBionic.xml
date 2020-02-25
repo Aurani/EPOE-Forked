@@ -30,13 +30,4 @@
 		</operations>
 	</Operation>
 
-	<!-- Trying a catch-all transfer to EPOE workbenches, but seems need further twisting of my head to figure out -->
-
-	<!--Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[@ParentName="BodyPartProstheticMakeableBase"]/recipeMaker/recipeUsers[@Inherit="False"]</xpath>
-		<value>
-			<li>TableSimpleProsthetic</li>
-		</value>
-	</Operation-->
-
 </Patch>

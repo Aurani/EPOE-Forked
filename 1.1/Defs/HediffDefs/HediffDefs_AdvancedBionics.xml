@@ -164,7 +164,7 @@
 		<addsHediff>AdvancedBionicArm</addsHediff>
 	</RecipeDef>
 
-	<!-- Advanced Bionic Leg -->
+	<!-- Advanced bionic leg -->
 
 	<HediffDef ParentName="addedPartAdvanced">
 		<defName>AdvancedBionicLeg</defName>
@@ -250,7 +250,7 @@
 			<Mass>4</Mass>
 		</statBases>
 	</ThingDef>
-<!---->
+
 	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicSpine</defName>
 		<label>install advanced bionic spine implant</label>

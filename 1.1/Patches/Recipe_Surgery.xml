@@ -4,27 +4,6 @@
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[appliedOnFixedBodyParts[li="Brain"]]</xpath>
-				<value>
-					<EPOE_BrainSurgery>true</EPOE_BrainSurgery>
-				</value>
-			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/RecipeDef[researchPrerequisite]/EPOE_BrainSurgery</xpath>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef/EPOE_BrainSurgery</xpath>
-				<value>
-					<researchPrerequisite>BrainSurgery</researchPrerequisite>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-
-	<!--Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
 			<li Class="PatchOperationTest">
 				<xpath>Defs/RecipeDef[defName="InstallJoywire"]/researchPrerequisite</xpath>
 				<success>Invert</success>
@@ -52,7 +31,8 @@
 				</value>
 			</li>
 		</operations>
-	</Operation-->
+	</Operation>
+
 
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>

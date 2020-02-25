@@ -53,7 +53,7 @@
 		<defName>AdvancedBionics</defName>
 		<label>advanced bionics</label>
 		<description>Upgrade regular bionics to make them even better. Unlocks new recipes on the bionics workbench.</description>
-		<baseCost>2500</baseCost>
+		<baseCost>3500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>Bionics</li>
@@ -90,7 +90,7 @@
 		<defName>SurrogateOrgans</defName>
 		<label>tissue printer</label>
 		<description>Gaining higher medical and technical knowledge, creating a 3D printer to craft simple surrogate organs becomes possible.</description>
-		<baseCost>600</baseCost>
+		<baseCost>800</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>MicroelectronicsBasics</li>
@@ -105,7 +105,7 @@
 		<defName>SyntheticOrgans</defName>
 		<label>synthetic organs</label>
 		<description>Further research in nano-technology allows you to print incredibly well-engineered artificial organs. Unlocks new recipes on the tissue printer.</description>
-		<baseCost>2000</baseCost>
+		<baseCost>2500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>SurrogateOrgans</li>
@@ -123,7 +123,7 @@
 	<ResearchProjectDef>
 		<defName>EPOE_SyntheticRepair</defName>
 		<label>Synthetic repair</label>
-		<description>Further research into nano technology allows you to print incredibly well-engineered artificial tissues and nerves to aid with healing scars, frailty and bad backs. Unlocks synthetic tissue and neuromuscular framework recipes on the tissue printer.</description>
+		<description>Further research in nano-technology allows you to print incredibly well-engineered artificial tissues and nerves to aid with healing scars, frailty and bad backs. Unlocks synthetic tissue and neuromuscular framework recipes on the tissue printer.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -142,8 +142,15 @@
 		<defName>BrainSurgery</defName>
 		<label>brain surgery</label>
 		<description>Allows you to perform surgery on the brain.</description>
-		<baseCost>750</baseCost>
+		<baseCost>1500</baseCost>
 		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MultiAnalyzer</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
 		<researchViewY>1</researchViewY>
@@ -153,7 +160,7 @@
 		<defName>EPOE_Glitterworld_Implants</defName>
 		<label>Glitterworld implants</label>
 		<description>Allows you to make Glitterworld implants.</description>
-		<baseCost>3000</baseCost>
+		<baseCost>5000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>AdvancedBionics</li>
@@ -190,8 +197,8 @@
 	<ResearchProjectDef>
 		<defName>EPOE_OrganicOptimizer</defName>
 		<label>Organic optimization</label>
-		<description>Allows you to develop nanobots to optimize and bring out the full potential of the natural body, specifically designed to aid body purists.</description>
-		<baseCost>3000</baseCost>
+		<description>Allows you to develop nanobots to optimize and bring out the full potential of the natural body. Body purists are fine or even happy with some of this, whilst transhumanists hates all of this.</description>
+		<baseCost>5000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>SyntheticOrgans</li>
@@ -209,8 +216,8 @@
 	<ResearchProjectDef>
 		<defName>EPOE_MAAIChip</defName>
 		<label>MA-AI chip</label>
-		<description>Allows you to manufacture your own MA-AI chip (Medical Assistant-AI chip), without needing to find an AI persona core.</description>
-		<baseCost>3000</baseCost>
+		<description>Allows you to manufacture your own MA-AI chip (Medical Assistant-AI chip), without needing to find and use up a AI persona core when using the lower tech method.</description>
+		<baseCost>5000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>AdvancedBionics</li>

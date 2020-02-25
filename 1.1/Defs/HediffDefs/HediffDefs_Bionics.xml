@@ -104,8 +104,6 @@
 		</statBases>
 	</ThingDef>
 
-	<!-- Power claw -->
-
 	<ThingDef ParentName="BodyPartBionicBase">
 		<defName>PowerClaw</defName>
 		<label>power claw</label>
@@ -129,7 +127,7 @@
 
 	<!-- New EPOE body parts -->
 
-	<!-- Bionic hand -->
+	<!-- Bionic Hand -->
 
 	<HediffDef ParentName="addedPartBionics">
 		<defName>BionicHand</defName>
@@ -201,7 +199,7 @@
 		<addsHediff>BionicHand</addsHediff>
 	</RecipeDef>
 
-	<!-- Bionic FOot -->
+	<!-- Bionic Foot -->
 
 	<HediffDef ParentName="addedPartBionics">
 		<defName>BionicFoot</defName>
@@ -375,7 +373,7 @@
 		<addsHediff>BionicToe</addsHediff>
 	</RecipeDef>
 
-	<!-- Bionic Jaw -->
+	<!-- Bionic jaw -->
 
 	<HediffDef ParentName="addedPartBionics">
 		<defName>BionicJaw</defName>
@@ -578,7 +576,7 @@
 		<addsHediff>PowerArm</addsHediff>
 	</RecipeDef>
 
-	<!-- Rib implantS -->
+	<!-- Rib implants -->
 
 	<ThingDef Name="BodyPartBionicRibBase" ParentName="BodyPartBionicBase" Abstract="True">
 		<recipeMaker>
