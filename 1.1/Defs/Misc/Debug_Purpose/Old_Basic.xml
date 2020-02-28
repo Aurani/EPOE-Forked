@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Old abstracts for sake of old compatibility patches -->
+	<!-- Invisible debug recipes for swapping versions to look seamless -->
+
+	<ThingDef Name="Basic" ParentName="BodyPartBase" Abstract="True">
+		<thingCategories>
+			<li>BodyPartsSimple</li>
+		</thingCategories>
+      <graphicData Inherit="False">
+         <texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+	</ThingDef>
+
+	<RecipeDef Name="SurgeryBasic" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>1.4</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef Abstract="True" Name="RecipeBasicProsthesis">
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>2500</workAmount>
+		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="EPOEDebugRecipeBasic" ParentName="RecipeBasicProsthesis" Abstract="True">
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+		<researchPrerequisite Inherit="False" />
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreateDenture</defName>
+		<label>remove this recipe</label>
+		<description>A debug recipe to prevent glitches due to removal of needing to craft dentures. Safe to delete this recipe, and you will not see it again. Wood logs will be partially refunded as the debugged product of this recipe if continued use.</description>
+		<jobString>Working on a removed recipe.</jobString>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<WoodLog>2</WoodLog>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreatePegLeg</defName>
+		<label>remove this recipe</label>
+		<description>A debug recipe to prevent glitches due to removal of needing to craft peg legs. Safe to delete this recipe, and you will not see it again. Wood logs will be partially refunded as the debugged product of this recipe if continued use.</description>
+		<jobString>Working on a removed recipe.</jobString>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<WoodLog>5</WoodLog>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreateWoodenFoot</defName>
+		<label>remove this recipe</label>
+		<description>A debug recipe to prevent glitches due to removal of needing to craft wooden foot. Safe to delete this recipe, and you will not see it again. Wood logs will be partially refunded as the debugged product of this recipe if continued use.</description>
+		<jobString>Working on a removed recipe.</jobString>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<WoodLog>2</WoodLog>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreateSteelArm</defName>
+		<label>make steel arm</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>EPOEAssembling</soundWorking>
+		<products>
+			<SteelArm>1</SteelArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreateEyePatch</defName>
+		<label>remove this recipe</label>
+		<description>A debug recipe to prevent glitches due to removal of needing to craft eye patch. Safe to delete this recipe, and you will not see it again. Cloth will be partially refunded as the debugged product of this recipe if continued use.</description>
+		<jobString>Working on a removed recipe.</jobString>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<products>
+			<Cloth>5</Cloth>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreateHookHand</defName>
+		<label>make hook hand</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Crafting prosthesis.</jobString>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<products>
+			<HookHand>1</HookHand>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreateEarBandage</defName>
+		<label>remove this recipe</label>
+		<description>A debug recipe to prevent glitches due to removal of needing to craft ear bandage. Safe to delete this recipe, and you will not see it again. Cloth will be partially refunded as the debugged product of this recipe if continued use.</description>
+		<jobString>Working on a removed recipe.</jobString>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<products>
+			<Cloth>5</Cloth>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeBasic">
+		<defName>CreateWoodenHand</defName>
+		<label>remove this recipe</label>
+		<description>A debug recipe to prevent glitches due to removal of needing to craft wooden hand. Safe to delete this recipe, and you will not see it again. Wood logs will be partially refunded as the debugged product of this recipe if continued use.</description>
+		<jobString>Working on a removed recipe.</jobString>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<products>
+			<WoodLog>2</WoodLog>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>

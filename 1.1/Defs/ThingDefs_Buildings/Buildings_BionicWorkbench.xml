@@ -5,7 +5,7 @@
 		<defName>TableBionics</defName>
 		<label>bionics workbench</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>A workbench equipped for production of high tech bionics.</description>
+		<description>A workbench equipped for production of high tech bionics and implants.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/TableBionics</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

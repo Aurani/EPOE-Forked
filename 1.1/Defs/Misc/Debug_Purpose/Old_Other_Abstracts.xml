@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Old abstracts for sake of old compatibility patches -->
+
+	<RecipeDef Name="SurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>3700</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="SurgeryNatural" ParentName="SurgeryFlesh" Abstract="True">
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

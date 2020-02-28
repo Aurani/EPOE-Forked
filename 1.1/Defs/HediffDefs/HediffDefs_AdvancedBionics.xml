@@ -11,7 +11,7 @@
 	<ThingDef Name="BodyPartAdvancedBionicBase" ParentName="BodyPartBionicBase" Abstract="True">
 		<techLevel>Spacer</techLevel>
 		<thingCategories Inherit="False">
-			<li>AdvancedProstheses</li>
+			<li>BodyPartsUltra</li>
 		</thingCategories>
 		<graphicData Inherit="False">
 			<texPath>Things/Item/BodyPart/AdvancedPart</texPath>
@@ -61,6 +61,9 @@
 			<BionicEye>1</BionicEye>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
 		<statBases>
 			<Mass>0.3</Mass>
 		</statBases>
@@ -132,6 +135,9 @@
 			<BionicArm>1</BionicArm>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
 		<statBases>
 			<Mass>5</Mass>
 		</statBases>
@@ -189,6 +195,9 @@
 			<BionicLeg>1</BionicLeg>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
 		<statBases>
 			<Mass>8</Mass>
 		</statBases>

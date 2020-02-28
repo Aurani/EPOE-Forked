@@ -30,8 +30,8 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>BodyPartsProsthetic</categoryDef>
 				<thingDefCountRange>
-					<min>2</min>
-					<max>5</max>
+					<min>3</min>
+					<max>6</max>
 				</thingDefCountRange>
 				<countRange>
 					<min>1</min>
@@ -41,8 +41,8 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>BodyPartsBionic</categoryDef>
 				<thingDefCountRange>
-					<min>2</min>
-					<max>4</max>
+					<min>3</min>
+					<max>5</max>
 				</thingDefCountRange>
 				<countRange>
 					<min>1</min>
@@ -50,7 +50,7 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
-				<categoryDef>AdvancedProstheses</categoryDef>
+				<categoryDef>BodyPartsUltra</categoryDef>
 				<thingDefCountRange>
 					<min>0</min>
 					<max>2</max>
@@ -61,32 +61,10 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
-				<categoryDef>GlitterworldParts</categoryDef>
+				<categoryDef>BodyPartsArchotech</categoryDef>
 				<thingDefCountRange>
-					<min>0</min>
-					<max>4</max>
-				</thingDefCountRange>
-				<countRange>
-					<min>1</min>
-					<max>1</max>
-				</countRange>
-			</li>
-			<li Class="StockGenerator_Category">
-				<categoryDef>SurrogateOrgans</categoryDef>
-				<thingDefCountRange>
-					<min>1</min>
-					<max>3</max>
-				</thingDefCountRange>
-				<countRange>
-					<min>1</min>
-					<max>1</max>
-				</countRange>
-			</li>
-			<li Class="StockGenerator_Category">
-				<categoryDef>SyntheticOrgans</categoryDef>
-				<thingDefCountRange>
-					<min>0</min>
-					<max>1</max>
+					<min>-1</min>
+					<max>2</max>
 				</thingDefCountRange>
 				<countRange>
 					<min>1</min>
@@ -100,7 +78,7 @@
 					<max>2</max>
 				</thingDefCountRange>
 				<countRange>
-					<min>-2</min>
+					<min>0</min>
 					<max>2</max>
 				</countRange>
 			</li>

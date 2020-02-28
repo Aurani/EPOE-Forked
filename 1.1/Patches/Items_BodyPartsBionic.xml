@@ -16,7 +16,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/recipeUsers</xpath>
 				<value>
-					<recipeUsers Inherit="False">
+					<recipeUsers>
 						<li>TableBionics</li>
 					</recipeUsers>
 				</value>
@@ -33,9 +33,9 @@
 	<!-- Trying a catch-all transfer to EPOE workbenches, but seems need further twisting of my head to figure out -->
 
 	<!--Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[@ParentName="BodyPartProstheticMakeableBase"]/recipeMaker/recipeUsers[@Inherit="False"]</xpath>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartBionicBase"]/recipeMaker/recipeUsers[@Inherit="False"]</xpath>
 		<value>
-			<li>TableSimpleProsthetic</li>
+			<li>TableBionics</li>
 		</value>
 	</Operation-->
 

@@ -9,7 +9,7 @@
 
 	<ThingDef Name="EPOESurrogateBase" ParentName="BodyPartProstheticMakeableBase" Abstract="True">
 		<thingCategories Inherit="False">
-			<li>SurrogateOrgans</li>
+			<li>BodyPartsProsthetic</li>
 		</thingCategories>
 		<graphicData Inherit="False">
 			<texPath>Things/Item/BodyPart/SurrogatePart</texPath>
@@ -31,14 +31,14 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<!-- Redundant Prosthetic Heart overwrite, copy into Surrogate Heart -->
+	<!-- Redundant original Surrogate Heart, if ever upgrading from 1.0 to 1.1 midsave -->
 
 	<HediffDef ParentName="addedPartSurrogate">
-		<defName>SimpleProstheticHeart</defName>
+		<defName>SurrogateHeart</defName>
 		<label>surrogate heart</label>
 		<description>An installed surrogate heart.</description>
-		<descriptionHyperlinks><ThingDef>SurrogateHeart</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>SurrogateHeart</spawnThingOnRemoved>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticHeart</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticHeart</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>0.65</partEfficiency>
@@ -46,12 +46,6 @@
 	</HediffDef>
 
 	<ThingDef Name="EPOE_ObsoleteSurrogate" ParentName="EPOESurrogateBase" Abstract="True">
-		<graphicData Inherit="False">
-			<texPath>Things/Item/Health/HealthItem</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.80</drawSize>
-			<color>(154,124,104)</color>
-		</graphicData>
 		<thingCategories Inherit="False">
 			<li>EPOE_Redundancy</li>
 		</thingCategories>
@@ -69,40 +63,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="EPOE_ObsoleteSurrogate">
-		<defName>SimpleProstheticHeart</defName>
-		<label>prosthetic heart</label>
-		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart. If the bill to craft this item is left in the machining table after freshly installing EPOE, we recommend removing it. A method was left to not break your machining table and allowing the recipe to exist for player self-debug purposes.</description> 
-		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticHeart</RecipeDef></descriptionHyperlinks>
-		<costList>
-			<Cloth>40</Cloth>
-			<Plasteel>25</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
-		</costList>
-		<statBases>
-			<Mass>2</Mass>
-		</statBases>
-	</ThingDef>
-
-	<!-- New EPOE body parts -->
-
-	<!-- Surrogate heart -->
-
-	<HediffDef ParentName="addedPartSurrogate">
 		<defName>SurrogateHeart</defName>
 		<label>surrogate heart</label>
-		<description>An installed surrogate heart.</description>
-		<descriptionHyperlinks><ThingDef>SurrogateHeart</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>SurrogateHeart</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>0.65</partEfficiency>
-		</addedPartProps>
-	</HediffDef>
-
-	<ThingDef ParentName="EPOESurrogateBase">
-		<defName>SurrogateHeart</defName>
-		<label>surrogate heart</label>
-		<description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</description>
+		<description>Redundant item version for 1.1 RimWorld. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</description> 
 		<descriptionHyperlinks><RecipeDef>InstallSurrogateHeart</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Cloth>40</Cloth>
@@ -138,7 +101,65 @@
 		<appliedOnFixedBodyParts>
 			<li>Heart</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>SurrogateHeart</addsHediff>
+		<addsHediff>SimpleProstheticHeart</addsHediff>
+	</RecipeDef>
+
+	<!-- New EPOE body parts -->
+
+	<!-- Surrogate heart -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SimpleProstheticHeart</defName>
+		<label>surrogate heart</label>
+		<description>An installed surrogate heart.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticHeart</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPOESurrogateBase">
+		<defName>SimpleProstheticHeart</defName>
+		<label>surrogate heart</label>
+		<description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticHeart</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>40</Cloth>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSimpleProstheticHeart</defName>
+		<label>install surrogate heart</label>
+		<description>Installs an surrogate heart.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticHeart</ThingDef></descriptionHyperlinks>
+		<jobString>Installing an artificial heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticHeart</addsHediff>
 	</RecipeDef>
 
 	<!-- Surrogate lung -->

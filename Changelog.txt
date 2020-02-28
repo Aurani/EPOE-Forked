@@ -1,3 +1,14 @@
+3.15 (27.2.2020)
+* Hotfixed the cochlear implant not being craftable
+* Changed the material cost of Tissue Printer to no longer use advanced components
+* Removed the plasteel cost from Tissue Printer
+* Simple Prosthetic Heart, Bionic Stomach and Bionic Heart now simply renamed and used in place of their
+surrogate/synthetic counterparts.
+* Surrogate/synthetic counterparts are now the redundant ones. Kept as debug mode.
+* Re-added debug recipes for smooth transition from original EPOE to forked.
+* Rebalanced some of the research, as well as ordering it to avoid clutter
+* Neurological treatment research (for the neuro-cure framework) requires Synthetic Repair and glitterworld implants now
+
 (25.2.2020)
 Royalty DLC update
 * Brain Surgery no longer has any requirements

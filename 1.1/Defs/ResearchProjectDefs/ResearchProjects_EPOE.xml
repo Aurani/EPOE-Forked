@@ -83,7 +83,7 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -98,7 +98,7 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<tab>EPOE</tab>
 		<researchViewX>1</researchViewX>
-		<researchViewY>2.5</researchViewY>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -117,7 +117,7 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>2</researchViewX>
-		<researchViewY>2.5</researchViewY>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -135,7 +135,26 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
-		<researchViewY>3</researchViewY>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>EPOE_NeurologicalTreatment</defName>
+		<label>Neurological treatment</label>
+		<description>Extensive research into nano technology allows you to print incredibly well-engineered framework kit consisting of artificial adaptable brain tissues, nerves and nanomachines to aid with countering dementia and alzheimer. Unlocks neuro-cure framework recipe on the tissue printer.\n\nNeuro-cure framework only cures dementia and alzheimer, and does not prevent it from appearing again.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>EPOE_SyntheticRepair</li>
+			<li>EPOE_Glitterworld_Implants</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<tab>EPOE</tab>
+		<researchViewX>5</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -146,19 +165,18 @@
 		<techLevel>Industrial</techLevel>
 		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
-		<researchViewY>1</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>EPOE_Glitterworld_Implants</defName>
 		<label>Glitterworld implants</label>
 		<description>Allows you to make Glitterworld implants.</description>
-		<baseCost>3000</baseCost>
+		<baseCost>2500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>AdvancedBionics</li>
 			<li>BrainSurgery</li>
-			<li>ShipBasics</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
@@ -166,7 +184,7 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>4</researchViewX>
-		<researchViewY>1</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -184,14 +202,14 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>5</researchViewX>
-		<researchViewY>1</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>EPOE_OrganicOptimizer</defName>
 		<label>Organic optimization</label>
 		<description>Allows you to develop nanobots to optimize and bring out the full potential of the natural body, specifically designed to aid body purists.</description>
-		<baseCost>3000</baseCost>
+		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>SyntheticOrgans</li>
@@ -203,7 +221,7 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>4</researchViewX>
-		<researchViewY>2.5</researchViewY>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -223,7 +241,7 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>4</researchViewX>
-		<researchViewY>2</researchViewY>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>

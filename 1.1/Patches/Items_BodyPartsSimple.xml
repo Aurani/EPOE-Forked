@@ -36,4 +36,17 @@
 		</operations>
 	</Operation>
 
+	<!-- Trying a catch-all transfer to EPOE workbenches, hopefully this does not break something?! -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@ParentName="BodyPartProstheticMakeableBase"]/recipeMaker/recipeUsers[@Inherit="False"]</xpath>
+		<value>
+			<li>TableSimpleProsthetic</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[@Name="EPOESurrogateBase"]/recipeMaker/recipeUsers/li[text() = "TableSimpleProsthetic"]</xpath>
+	</Operation>
+
 </Patch>

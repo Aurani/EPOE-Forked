@@ -18,9 +18,8 @@
 		</damageData>
 		</graphicData>
 		<costList>
-			<Steel>200</Steel>
-			<Plasteel>150</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Steel>250</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<constructEffect>ConstructMetal</constructEffect>
 		<fillPercent>0.5</fillPercent>

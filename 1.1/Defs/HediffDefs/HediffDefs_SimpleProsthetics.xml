@@ -101,7 +101,7 @@
 		</addedPartProps>
 	</HediffDef>
 
-	<ThingDef ParentName="BodyPartProstheticBase">
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
 		<defName>CochlearImplant</defName>
 		<label>cochlear implant</label>
 		<description>An implant which replaces normal hearing. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf.</description>

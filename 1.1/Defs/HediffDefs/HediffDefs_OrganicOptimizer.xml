@@ -31,7 +31,7 @@
 	</ThingDef>
 
 	<RecipeDef Name="EPOESurgeryOptimizer" ParentName="SurgeryFlesh" Abstract="True">
-		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<deathOnFailedSurgeryChance>0.02</deathOnFailedSurgeryChance>
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<jobString>Optimizing natural body part.</jobString>
 		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
@@ -119,6 +119,9 @@
 			<Neutroamine>10</Neutroamine>
 			<Gold>1</Gold>
 		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
 		<statBases>
 			<Mass>0.25</Mass>
 		</statBases>
@@ -168,6 +171,9 @@
 			<Neutroamine>10</Neutroamine>
 			<Silver>4</Silver>
 		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
 		<statBases>
 			<Mass>0.25</Mass>
 		</statBases>

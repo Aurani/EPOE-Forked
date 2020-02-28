@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-BodyPartProstheticImperialBase
+
 	<!-- Reverts some stuff to Royalty's material costs -->
 
 	<Operation Class="PatchOperationSequence">
@@ -36,7 +36,157 @@ BodyPartProstheticImperialBase
 					</costList>
 				</value>
 			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Joywire" or defName="Painstopper"]/thingCategories</xpath>
+			</li>
 		</operations>
 	</Operation>
 
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ResearchProjectDef[@Name="BaseBodyPartEmpire_TierA"]</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ResearchProjectDef[@Name="BaseBodyPartEmpire_TierA"]</xpath>
+				<value>
+					<tab>EPOE</tab>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/researchViewX</xpath>
+				<value>
+					<researchViewX>0</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="BrainWiring"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4</researchViewY>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="SpecializedLimbs"]/researchViewX</xpath>
+				<value>
+					<researchViewX>0</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="SpecializedLimbs"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3.5</researchViewY>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="CompactWeaponry"]/researchViewX</xpath>
+				<value>
+					<researchViewX>0</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="CompactWeaponry"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.5</researchViewY>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="VenomSynthesis"]/researchViewX</xpath>
+				<value>
+					<researchViewX>1</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="VenomSynthesis"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.5</researchViewY>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="ArtificialMetabolism"]/researchViewX</xpath>
+				<value>
+					<researchViewX>2</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="ArtificialMetabolism"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4</researchViewY>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="NeuralComputation"]/researchViewX</xpath>
+				<value>
+					<researchViewX>2</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="NeuralComputation"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.5</researchViewY>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="SkinHardening"]/researchViewX</xpath>
+				<value>
+					<researchViewX>3</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="SkinHardening"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3.5</researchViewY>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="HealingFactors"]/researchViewX</xpath>
+				<value>
+					<researchViewX>3</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="HealingFactors"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4</researchViewY>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="FleshShaping"]/researchViewX</xpath>
+				<value>
+					<researchViewX>3</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="FleshShaping"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.5</researchViewY>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="MolecularAnalysis"]/researchViewX</xpath>
+				<value>
+					<researchViewX>4</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="MolecularAnalysis"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3.5</researchViewY>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="CircadianInfluence"]/researchViewX</xpath>
+				<value>
+					<researchViewX>4</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="CircadianInfluence"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4</researchViewY>
+				</value>
+			</li>
+		</operations>
+	</Operation>
 </Patch>

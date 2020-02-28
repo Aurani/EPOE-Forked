@@ -7,10 +7,10 @@
 		<isBad>false</isBad>
 	</HediffDef>
 
-	<ThingDef Name="EPOEGlitterworldImplantBase" ParentName="EPOESyntheticBase" Abstract="True">
+	<ThingDef Name="EPOEGlitterworldImplantBase" ParentName="BodyPartAdvancedBionicBase" Abstract="True">
 	    <techLevel>Spacer</techLevel>
 		<thingCategories Inherit="False">
-			<li>GlitterworldParts</li>
+			<li>BodyPartsUltra</li>
 		</thingCategories>
 		<graphicData Inherit="False">
 			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
@@ -20,13 +20,15 @@
 			<WorkToMake>36000</WorkToMake>
 		</statBases>
 		<recipeMaker>
-			<soundWorking>EPOEAssembling</soundWorking>
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
 			<researchPrerequisite>EPOE_Glitterworld_Implants</researchPrerequisite>
 		</recipeMaker>
 		<techHediffsTags Inherit="False" />
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
 	</ThingDef>
 
 	<RecipeDef Name="EPOESurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
