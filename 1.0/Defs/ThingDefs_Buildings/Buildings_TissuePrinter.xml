@@ -5,22 +5,21 @@
 		<defName>TableOrgans</defName>
 		<label>tissue printer</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>A workstation, equipped with a 3D printer to craft organs.</description>
+		<description>A workstation, equipped with a 3D printer to craft organs. This advanced workbench is capable of assisting certain workstations by sharing some of its specialized fabrication system when placed near them.\n\nWhen placed near a bionic table or fabrication bench, this workbench is able to increase their production speed. They can connect to a maximum of one tissue printer.</description>
 		<graphicData>
-		<texPath>Things/Building/Production/TableOrgans</texPath>
-		<graphicClass>Graphic_Multi</graphicClass>
-		<drawSize>(3.5,1.5)</drawSize>
-		<damageData>
-			<cornerTL>Damage/Corner</cornerTL>
-			<cornerTR>Damage/Corner</cornerTR>
-			<cornerBL>Damage/Corner</cornerBL>
-			<cornerBR>Damage/Corner</cornerBR>
-		</damageData>
+			<texPath>Things/Building/Production/TableOrgans</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
 		</graphicData>
 		<costList>
-			<Steel>200</Steel>
-			<Plasteel>150</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Steel>250</Steel>
+			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<constructEffect>ConstructMetal</constructEffect>
 		<fillPercent>0.5</fillPercent>
@@ -42,9 +41,16 @@
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
 					<li>ToolCabinet</li>
+					<li>TableBionics</li>
 				</linkableFacilities>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
 		</comps>
 		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>

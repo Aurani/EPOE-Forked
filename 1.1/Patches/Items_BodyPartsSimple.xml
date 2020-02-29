@@ -14,17 +14,23 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/soundWorking</xpath>
-				<value>
-					<soundWorking>EPOEAssembling</soundWorking>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/recipeUsers</xpath>
 				<value>
 					<recipeUsers>
 						<li>TableSimpleProsthetic</li>
 					</recipeUsers>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="BodyPartProstheticBase"]/statBases/WorkToMake</xpath>
+				<value>
+					<WorkToMake>5000</WorkToMake>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/soundWorking</xpath>
+				<value>
+					<soundWorking>EPOEAssembling</soundWorking>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

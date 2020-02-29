@@ -30,7 +30,7 @@
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 		<workSkill>Crafting</workSkill>
-		<workAmount>26000</workAmount>
+		<workAmount>9000</workAmount>
 		<researchPrerequisite>SyntheticOrgans</researchPrerequisite>
 		<skillRequirements>
 			<Crafting>10</Crafting>

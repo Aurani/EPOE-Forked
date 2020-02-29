@@ -147,7 +147,7 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>bionic fist</label>
+						<label>fist</label>
 						<capacities>
 							<li>Blunt</li>
 						</capacities>
@@ -284,7 +284,7 @@
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
+			<WorkToMake>2500</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 	</ThingDef>
@@ -342,7 +342,7 @@
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
+			<WorkToMake>2500</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 	</ThingDef>
@@ -512,6 +512,7 @@
 		<descriptionHyperlinks><ThingDef>PowerArm</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>PowerArm</spawnThingOnRemoved>
 		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
 			<solid>true</solid>
 			<partEfficiency>1.1</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
@@ -520,12 +521,12 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>bionic claw</label>
+						<label>claw</label>
 						<capacities>
-							<li>Cut</li>
+							<li>Scratch</li>
 						</capacities>
-						<power>22</power>
-						<cooldownTime>1.7</cooldownTime>
+						<power>18</power>
+						<cooldownTime>2</cooldownTime>
 						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 					</li>
 				</tools>

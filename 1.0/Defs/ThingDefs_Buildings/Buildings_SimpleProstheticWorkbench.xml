@@ -18,8 +18,8 @@
 			</damageData>
 		</graphicData>
 		<costList>
-			<Steel>250</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>150</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<constructEffect>ConstructMetal</constructEffect>
 		<altitudeLayer>Building</altitudeLayer>
@@ -33,13 +33,14 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>300</basePowerConsumption>
+				<basePowerConsumption>200</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AffectedByFacilities">
-			<linkableFacilities>
-				<li>ToolCabinet</li>
-			</linkableFacilities>
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+					<li>TableBionics</li>
+				</linkableFacilities>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
@@ -55,6 +56,7 @@
 		</inspectorTabs>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<unpoweredWorkTableWorkSpeedFactor>0.25</unpoweredWorkTableWorkSpeedFactor>
 		</building>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>

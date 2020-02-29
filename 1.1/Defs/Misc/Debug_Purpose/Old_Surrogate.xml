@@ -30,7 +30,7 @@
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 		<workSkill>Crafting</workSkill>
-		<workAmount>15000</workAmount>
+		<workAmount>5000</workAmount>
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>

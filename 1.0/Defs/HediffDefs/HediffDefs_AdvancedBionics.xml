@@ -26,12 +26,12 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>bionic claw</label>
+						<label>claw</label>
 						<capacities>
-							<li>Cut</li>
+							<li>Scratch</li>
 						</capacities>
-						<power>27</power>
-						<cooldownTime>1.7</cooldownTime>
+						<power>23</power>
+						<cooldownTime>2</cooldownTime>
 						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 					</li>
 				</tools>
@@ -52,12 +52,12 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>bionic fist</label>
+						<label>fist</label>
 						<capacities>
 							<li>Blunt</li>
 						</capacities>
-						<power>15</power>
-						<cooldownTime>1.65</cooldownTime>
+						<power>13</power>
+						<cooldownTime>2</cooldownTime>
 					</li>
 				</tools>
 			</li>
@@ -88,12 +88,12 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>bionic fist</label>
+						<label>fist</label>
 						<capacities>
 							<li>Blunt</li>
 						</capacities>
-						<power>15</power>
-						<cooldownTime>1.65</cooldownTime>
+						<power>13</power>
+						<cooldownTime>2</cooldownTime>
 					</li>
 				</tools>
 			</li>

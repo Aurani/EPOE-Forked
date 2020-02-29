@@ -25,12 +25,12 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>bionic claw</label>
+						<label>claw</label>
 						<capacities>
-							<li>Cut</li>
+							<li>Scratch</li>
 						</capacities>
-						<power>22</power>
-						<cooldownTime>1.7</cooldownTime>
+						<power>18</power>
+						<cooldownTime>2</cooldownTime>
 						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 					</li>
 				</tools>

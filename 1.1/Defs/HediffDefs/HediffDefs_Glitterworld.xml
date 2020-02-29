@@ -17,7 +17,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<WorkToMake>36000</WorkToMake>
+			<WorkToMake>13000</WorkToMake>
 		</statBases>
 		<recipeMaker>
 			<skillRequirements>

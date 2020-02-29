@@ -42,6 +42,24 @@
 		</operations>
 	</Operation>
 
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TipSetDef[defName="RoyaltyTips"]</xpath>
+			</li>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ResearchProjectDef[defName="EPOE_AdvancedSpecializedLimbs"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TipSetDef[defName="EPOEForkedTips"]/tips</xpath>
+				<value>
+					<li>There is an optional expansion mod named "EPOE-Forked: Royalty DLC expansion", that adds more prosthesis and implant parts for the Royalty DLC.</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
 
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
@@ -112,7 +130,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName="ArtificialMetabolism"]/researchViewY</xpath>
 				<value>
-					<researchViewY>4</researchViewY>
+					<researchViewY>3.5</researchViewY>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -124,19 +142,19 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName="NeuralComputation"]/researchViewY</xpath>
 				<value>
-					<researchViewY>4.5</researchViewY>
+					<researchViewY>4</researchViewY>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName="SkinHardening"]/researchViewX</xpath>
 				<value>
-					<researchViewX>3</researchViewX>
+					<researchViewX>2</researchViewX>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName="SkinHardening"]/researchViewY</xpath>
 				<value>
-					<researchViewY>3.5</researchViewY>
+					<researchViewY>4.5</researchViewY>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -148,7 +166,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName="HealingFactors"]/researchViewY</xpath>
 				<value>
-					<researchViewY>4</researchViewY>
+					<researchViewY>3.5</researchViewY>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -160,19 +178,19 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName="FleshShaping"]/researchViewY</xpath>
 				<value>
-					<researchViewY>4.5</researchViewY>
+					<researchViewY>4</researchViewY>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName="MolecularAnalysis"]/researchViewX</xpath>
 				<value>
-					<researchViewX>4</researchViewX>
+					<researchViewX>3</researchViewX>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ResearchProjectDef[defName="MolecularAnalysis"]/researchViewY</xpath>
 				<value>
-					<researchViewY>3.5</researchViewY>
+					<researchViewY>4.5</researchViewY>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

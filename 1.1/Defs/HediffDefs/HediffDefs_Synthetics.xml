@@ -17,7 +17,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<WorkToMake>26000</WorkToMake>
+			<WorkToMake>9000</WorkToMake>
 		</statBases>
 		<recipeMaker>
 			<skillRequirements>
@@ -691,7 +691,7 @@
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>6500</WorkToMake>
+			<WorkToMake>2500</WorkToMake>
 			<Mass>0.1</Mass>
 		</statBases>
 		<techHediffsTags Inherit="False"></techHediffsTags>
@@ -814,7 +814,7 @@
 			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
 		</costList>
 		<statBases>
-			<WorkToMake>7500</WorkToMake>
+			<WorkToMake>3500</WorkToMake>
 			<Mass>0.1</Mass>
 		</statBases>
 	</ThingDef>
@@ -1152,7 +1152,7 @@
 		<jobString>Treating dementia.</jobString>
 		<removesHediff>Dementia</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s dementia.</successfullyRemovedHediffMessage>
-		<surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>
+		<surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
 		<recipeUsers>
 			<li>Human</li>
@@ -1198,7 +1198,7 @@
 		<jobString>Treating alzheimers.</jobString>
 		<removesHediff>Alzheimers</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s alzheimers.</successfullyRemovedHediffMessage>
-		<surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>
+		<surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
 		<recipeUsers>
 			<li>Human</li>

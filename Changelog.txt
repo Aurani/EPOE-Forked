@@ -1,22 +1,24 @@
-3.15 (27.2.2020)
-* Hotfixed the cochlear implant not being craftable
+3.15 (29.2.2020)
+* Corrected the combat stats of the prosthesis.
+* All work amount have been reverted on prosthesis crafting.
+* Workbenches no longer at 3 times work speed.
+* Bionic bench and tissue printer can now act as link facilities to improve fabrication bench work speed; they can also link between each other.
+* Prosthetic bench can operate without power, at 25% speed.
+* 1.0 got updated with most of the post-1.1 changes. Basic prosthesis remains as their item form in 1.0.
+
+3.14 mini update (27.2.2020)
 * Changed the material cost of Tissue Printer to no longer use advanced components
 * Removed the plasteel cost from Tissue Printer
 * Simple Prosthetic Heart, Bionic Stomach and Bionic Heart now simply renamed and used in place of their
-surrogate/synthetic counterparts.
+  surrogate/synthetic counterparts.
 * Surrogate/synthetic counterparts are now the redundant ones. Kept as debug mode.
 * Re-added debug recipes for smooth transition from original EPOE to forked.
 * Rebalanced some of the research, as well as ordering it to avoid clutter
 * Neurological treatment research (for the neuro-cure framework) requires Synthetic Repair and glitterworld implants now
 
-(25.2.2020)
-Royalty DLC update
-* Brain Surgery no longer has any requirements
-
-* Power claw, painstopper and joywire will revert to the material costs based on Royalty if that DLC mod is active.
-
-3.14 (21.2.2020)
-1.1 Unstable update is here!
+3.14 (25.2.2020)
+*Brain Surgery no longer has any requirements
+*Power claw, painstopper and joywire will revert to the material costs based on Royalty if that dlc mod is active.
 
 3.13 (7.2.2020)
 * Fixed some item description errors

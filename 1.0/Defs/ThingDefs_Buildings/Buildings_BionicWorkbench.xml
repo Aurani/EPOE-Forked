@@ -5,7 +5,7 @@
 		<defName>TableBionics</defName>
 		<label>bionics workbench</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>A workbench equipped for production of high tech bionics.</description>
+		<description>A workbench equipped for production of high tech bionics. This advanced workbench is capable of assisting certain workstations by sharing some of its specialized fabrication system when placed near them.\n\nWhen placed near prosthetic workbench, organ printer or fabrication bench, this workbench is able to increase their production speed. They can connect to a maximum of one bionic workbench.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/TableBionics</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -45,15 +45,22 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>true</shortCircuitInRain>
-				<basePowerConsumption>450</basePowerConsumption>
+				<basePowerConsumption>250</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
-				<li>ToolCabinet</li>
+					<li>ToolCabinet</li>
+					<li>TableOrgans</li>
 				</linkableFacilities>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>

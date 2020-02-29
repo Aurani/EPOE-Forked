@@ -5,7 +5,7 @@
 		<defName>BasicProsthetics</defName>
 		<label>Basic prosthetics</label>
 		<description>Understanding the shape of a leg and combining that knowledge with basic woodworking, you can now craft peg legs and other basic prostheses.</description>
-		<baseCost>500</baseCost>
+		<baseCost>300</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<tab>EPOE</tab>
 		<researchViewX>0</researchViewX>
@@ -19,7 +19,7 @@
 		<defName>Prosthetics</defName>
 		<label>Simple prosthetics workbench</label>
 		<description>Advanced anatomy studies and metal testing will allow you to build simple prostheses.</description>
-		<baseCost>800</baseCost>
+		<baseCost>600</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Machining</li>
@@ -34,7 +34,7 @@
 		<defName>Bionics</defName>
 		<label>bionics workbench</label>
 		<description>Discovering the concept of very small motors and circuits, new possibilities of better prostheses are now open for you.</description>
-		<baseCost>3000</baseCost>
+		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>Prosthetics</li>
@@ -53,7 +53,7 @@
 		<defName>AdvancedBionics</defName>
 		<label>advanced bionics</label>
 		<description>Upgrade regular bionics to make them even better. Unlocks new recipes on the bionics workbench.</description>
-		<baseCost>3500</baseCost>
+		<baseCost>2500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>Bionics</li>
@@ -72,7 +72,7 @@
 		<defName>RibReplacements</defName>
 		<label>rib replacements</label>
 		<description>Discovering the concept of very small dispensers, you think about putting them in ribs. You can now craft and install rib implants.</description>
-		<baseCost>500</baseCost>
+		<baseCost>300</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>Bionics</li>
@@ -83,14 +83,14 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>SurrogateOrgans</defName>
 		<label>tissue printer</label>
 		<description>Gaining higher medical and technical knowledge, creating a 3D printer to craft simple surrogate organs becomes possible.</description>
-		<baseCost>800</baseCost>
+		<baseCost>600</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>MicroelectronicsBasics</li>
@@ -98,14 +98,14 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<tab>EPOE</tab>
 		<researchViewX>1</researchViewX>
-		<researchViewY>2.5</researchViewY>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>SyntheticOrgans</defName>
 		<label>synthetic organs</label>
 		<description>Further research in nano-technology allows you to print incredibly well-engineered artificial organs. Unlocks new recipes on the tissue printer.</description>
-		<baseCost>2500</baseCost>
+		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>SurrogateOrgans</li>
@@ -117,13 +117,13 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>2</researchViewX>
-		<researchViewY>2.5</researchViewY>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>EPOE_SyntheticRepair</defName>
 		<label>Synthetic repair</label>
-		<description>Further research in nano-technology allows you to print incredibly well-engineered artificial tissues and nerves to aid with healing scars, frailty and bad backs. Unlocks synthetic tissue and neuromuscular framework recipes on the tissue printer.</description>
+		<description>Further research into nano technology allows you to print incredibly well-engineered artificial tissues and nerves to aid with healing scars, frailty and bad backs. Unlocks synthetic tissue and neuromuscular framework recipes on the tissue printer.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -135,37 +135,48 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
-		<researchViewY>3</researchViewY>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>BrainSurgery</defName>
-		<label>brain surgery</label>
-		<description>Allows you to perform surgery on the brain.</description>
-		<baseCost>1500</baseCost>
-		<techLevel>Industrial</techLevel>
+		<defName>EPOE_NeurologicalTreatment</defName>
+		<label>Neurological treatment</label>
+		<description>Extensive research into nano technology allows you to print incredibly well-engineered framework kit consisting of artificial adaptable brain tissues, nerves and nanomachines to aid with countering dementia and alzheimer. Unlocks neuro-cure framework recipe on the tissue printer.\n\nNeuro-cure framework only cures dementia and alzheimer, and does not prevent it from appearing again.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
 		<prerequisites>
-			<li>MultiAnalyzer</li>
+			<li>EPOE_SyntheticRepair</li>
+			<li>EPOE_Glitterworld_Implants</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
+		<researchViewX>5</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>BrainSurgery</defName>
+		<label>brain surgery</label>
+		<description>Allows you to perform surgery on the brain.</description>
+		<baseCost>750</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
-		<researchViewY>1</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>EPOE_Glitterworld_Implants</defName>
 		<label>Glitterworld implants</label>
 		<description>Allows you to make Glitterworld implants.</description>
-		<baseCost>5000</baseCost>
+		<baseCost>2500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>AdvancedBionics</li>
 			<li>BrainSurgery</li>
-			<li>ShipBasics</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
@@ -173,7 +184,7 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>4</researchViewX>
-		<researchViewY>1</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -191,14 +202,14 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>5</researchViewX>
-		<researchViewY>1</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>EPOE_OrganicOptimizer</defName>
 		<label>Organic optimization</label>
-		<description>Allows you to develop nanobots to optimize and bring out the full potential of the natural body. Body purists are fine or even happy with some of this, whilst transhumanists hates all of this.</description>
-		<baseCost>5000</baseCost>
+		<description>Allows you to develop nanobots to optimize and bring out the full potential of the natural body, specifically designed to aid body purists.</description>
+		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>SyntheticOrgans</li>
@@ -210,14 +221,14 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>4</researchViewX>
-		<researchViewY>2.5</researchViewY>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>EPOE_MAAIChip</defName>
 		<label>MA-AI chip</label>
-		<description>Allows you to manufacture your own MA-AI chip (Medical Assistant-AI chip), without needing to find and use up a AI persona core when using the lower tech method.</description>
-		<baseCost>5000</baseCost>
+		<description>Allows you to manufacture your own MA-AI chip (Medical Assistant-AI chip), without needing to find an AI persona core.</description>
+		<baseCost>3000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>AdvancedBionics</li>
@@ -230,7 +241,7 @@
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>4</researchViewX>
-		<researchViewY>2</researchViewY>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>

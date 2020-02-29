@@ -29,7 +29,7 @@
 		<soundWorking>EPOEAssembling</soundWorking>
 		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 		<workSkill>Crafting</workSkill>
-		<workAmount>15000</workAmount>
+		<workAmount>5000</workAmount>
 		<researchPrerequisite>Prosthetics</researchPrerequisite>
 		<skillRequirements>
 			<Crafting>5</Crafting>

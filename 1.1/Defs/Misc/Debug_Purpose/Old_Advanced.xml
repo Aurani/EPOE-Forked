@@ -30,7 +30,7 @@
 		<soundWorking>EPOEAssembling</soundWorking>
 		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 		<workSkill>Crafting</workSkill>
-		<workAmount>33000</workAmount>
+		<workAmount>11000</workAmount>
 		<jobString>Upgrading bionic.</jobString>
 		<researchPrerequisite>AdvancedBionics</researchPrerequisite>
 		<skillRequirements>

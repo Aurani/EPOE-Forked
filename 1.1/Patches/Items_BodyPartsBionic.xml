@@ -22,9 +22,27 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/statBases/WorkToMake</xpath>
+				<value>
+					<WorkToMake>9000</WorkToMake>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/skillRequirements/Crafting</xpath>
 				<value>
 					<Crafting>7</Crafting>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/soundWorking</xpath>
+				<value>
+					<soundWorking>EPOEAssembling</soundWorking>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/unfinishedThingDef</xpath>
+				<value>
+					<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 				</value>
 			</li>
 		</operations>

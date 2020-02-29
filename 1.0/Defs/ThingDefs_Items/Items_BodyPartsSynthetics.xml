@@ -20,7 +20,17 @@
 			<li>SyntheticOrgans</li>
 		</thingCategories>
 	</ThingDef>
-	
+
+	<ThingDef Name="EPOENeuroGraphicBase" ParentName="EPOESyntheticBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories Inherit="False">
+			<li>GlitterworldParts</li>
+		</thingCategories>
+	</ThingDef>
+
 	<!-- Vanilla overwrites, for now. -->
 
 	<ThingDef ParentName="EPOESyntheticBase">
@@ -225,6 +235,30 @@
 			<MedicineUltratech>5</MedicineUltratech>
 			<Hyperweave>50</Hyperweave>
 			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPOENeuroGraphicBase">
+		<defName>NeurocureFramework</defName>
+		<label>neuro-cure framework</label>
+		<description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain afflicted by dementia and alzheimer.</description>
+		<tradeability>Sellable</tradeability>
+		<isTechHediff>false</isTechHediff>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>EPOE_NeurologicalTreatment</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<MedicineUltratech>10</MedicineUltratech>
+			<Hyperweave>25</Hyperweave>
+			<NeuromuscularFramework>1</NeuromuscularFramework>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 		</costList>
 		<statBases>
 			<WorkToMake>7500</WorkToMake>
