@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<TacticalCorneaImplant.label>tactical cornea implant</TacticalCorneaImplant.label>
+<TacticalCorneaImplant.description>An enhanced implant which provides the user with additional information about potential targets and suggests a perfect firing angle.</TacticalCorneaImplant.description>
+
+<ConstructorCore.label>auxiliary AI (constructing)</ConstructorCore.label>
+<ConstructorCore.description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</ConstructorCore.description>
+
+<FarmerCore.label>auxiliary AI (agricultural)</FarmerCore.label>
+<FarmerCore.description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</FarmerCore.description>
+
+<MinerCore.label>auxiliary AI (mining)</MinerCore.label>
+<MinerCore.description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</MinerCore.description>
+
+<DoctorCore.label>auxiliary AI (medical)</DoctorCore.label>
+<DoctorCore.description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</DoctorCore.description>
+
+<DiplomatCore.label>auxiliary AI (diplomatic)</DiplomatCore.label>
+<DiplomatCore.description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</DiplomatCore.description>
+
+</LanguageData>

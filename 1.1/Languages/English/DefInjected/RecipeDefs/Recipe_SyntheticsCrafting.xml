@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<CreateSyntheticHeart.label>assemble synthetic heart</CreateSyntheticHeart.label>
+<CreateSyntheticHeart.description>Upgrade surrogate heart into synthetic heart.</CreateSyntheticHeart.description>
+<CreateSyntheticHeart.jobString>Upgrading surrogate heart.</CreateSyntheticHeart.jobString>
+
+<CreateSyntheticLung.label>assemble synthetic lung</CreateSyntheticLung.label>
+<CreateSyntheticLung.description>Upgrade surrogate lung into synthetic lung.</CreateSyntheticLung.description>
+<CreateSyntheticLung.jobString>Upgrading surrogate lung.</CreateSyntheticLung.jobString>
+
+<CreateSyntheticStomach.label>assemble synthetic stomach</CreateSyntheticStomach.label>
+<CreateSyntheticStomach.description>Upgrade surrogate stomach into synthetic stomach.</CreateSyntheticStomach.description>
+<CreateSyntheticStomach.jobString>Upgrading surrogate stomach.</CreateSyntheticStomach.jobString>
+
+<CreateSyntheticLiver.label>assemble synthetic liver</CreateSyntheticLiver.label>
+<CreateSyntheticLiver.description>Upgrade surrogate liver into synthetic liver.</CreateSyntheticLiver.description>
+<CreateSyntheticLiver.jobString>Upgrading surrogate liver.</CreateSyntheticLiver.jobString>
+
+<CreateSyntheticKidney.label>assemble synthetic kidney</CreateSyntheticKidney.label>
+<CreateSyntheticKidney.description>Upgrade surrogate kidney into synthetic kidney.</CreateSyntheticKidney.description>
+<CreateSyntheticKidney.jobString>Upgrading surrogate kidney.</CreateSyntheticKidney.jobString>
+
+<CreateAIChip.label>assemble AI chip</CreateAIChip.label>
+<CreateAIChip.description>Upgrade brain stimulator into AI chip brain implant.</CreateAIChip.description>
+<CreateAIChip.jobString>Upgrading brain stimulator.</CreateAIChip.jobString>
+
+</LanguageData>

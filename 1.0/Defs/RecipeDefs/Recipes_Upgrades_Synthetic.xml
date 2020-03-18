@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="EPIA_RecipeUpgradeSynthetic" ParentName="RecipeSyntheticOrgan"  Abstract="True">
+		<workAmount>14000</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateSyntheticHeart</defName>
+		<label>assemble synthetic heart</label>
+		<description>Upgrade surrogate heart into synthetic heart.</description>
+		<jobString>Upgrading surrogate heart.</jobString>
+		<products>
+			<BionicHeart>1</BionicHeart>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticHeart</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateSyntheticLung</defName>
+		<label>assemble synthetic lung</label>
+		<description>Upgrade surrogate lung into synthetic lung.</description>
+		<jobString>Upgrading surrogate lung.</jobString>
+		<products>
+			<SyntheticLung>1</SyntheticLung>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateLung</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateSyntheticStomach</defName>
+		<label>assemble synthetic stomach</label>
+		<description>Upgrade surrogate stomach into synthetic stomach.</description>
+		<jobString>Upgrading surrogate stomach.</jobString>
+		<products>
+			<BionicStomach>1</BionicStomach>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateStomach</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateSyntheticLiver</defName>
+		<label>assemble synthetic liver</label>
+		<description>Upgrade surrogate liver into synthetic liver.</description>
+		<jobString>Upgrading surrogate liver.</jobString>
+		<products>
+			<SyntheticLiver>1</SyntheticLiver>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateLiver</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateSyntheticKidney</defName>
+		<label>assemble synthetic kidney</label>
+		<description>Upgrade surrogate kidney into synthetic kidney.</description>
+		<jobString>Upgrading surrogate kidney.</jobString>
+		<products>
+			<SyntheticKidney>1</SyntheticKidney>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateKidney</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateAIChip</defName>
+		<label>assemble AI chip</label>
+		<description>Upgrade brain stimulator into AI chip brain implant.</description>
+		<jobString>Upgrading brain stimulator.</jobString>
+		<products>
+			<AIChip>1</AIChip>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BrainStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_MAAI_Chip</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BrainStimulator</li>
+				<li>Gold</li>
+				<li>Plasteel</li>
+				<li>EPOE_MAAI_Chip</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>

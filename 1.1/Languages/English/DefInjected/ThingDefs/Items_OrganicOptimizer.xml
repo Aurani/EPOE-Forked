@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPOE_OrganicOptimizingNanobots.label>organic optimizing nanobots</EPOE_OrganicOptimizingNanobots.label>
+<EPOE_OrganicOptimizingNanobots.description>Advanced nanobots which help bring out the full potential of the natural body. It takes 3 days for the process to complete, requiring more rest and a higher food intake. At the end of this grueling process the nanobots break down and dissolve, leaving no trace.\n\nThe average person will accept it, body purists will be delighted, while transhumanists utterly abhor it.\n\nPart efficiency increase when fully developed after 3 days: +15%</EPOE_OrganicOptimizingNanobots.description>
+
+<EPOE_InstinctOptimizingNanobots.label>instinct optimizing nanobots</EPOE_InstinctOptimizingNanobots.label>
+<EPOE_InstinctOptimizingNanobots.description>Advanced nanobots which assist the the natural body with imprinting beneficial instinctual reaction sequences into the organic tissues. It takes 4 days for the full process to complete, requiring more rest and a higher food intake. At the end of this grueling process, the nanobots break down and dissolve, leaving no trace.
+Transhumanists utterly abhor this change. The mood penalty displayed in the information only applies to Transhumanists.
+
+Improvements when fully developed from the following body parts after 4 days:
+
+Eyes: +5% part efficiency, +2.5 shooting accuracy, -2.5% aim delay, +1 melee hit chance, +1 melee dodge chance.
+
+Hands: +5% part efficiency, +5% global work speed, +4 melee hit chance, -7.5% aim delay.
+
+Feet: +5% part efficiency, +0.1 c/s move speed, +5 melee dodge chance.</EPOE_InstinctOptimizingNanobots.description>
+
+</LanguageData>

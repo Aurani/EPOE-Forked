@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<AdvancedBionicEye.label>advanced bionic eye</AdvancedBionicEye.label>
+<AdvancedBionicEye.labelNoun>an advanced bionic eye</AdvancedBionicEye.labelNoun>
+<AdvancedBionicEye.description>An installed advanced bionic eye.</AdvancedBionicEye.description>
+
+<AdvancedBionicArm.label>advanced bionic arm</AdvancedBionicArm.label>
+<AdvancedBionicArm.labelNoun>an advanced bionic arm</AdvancedBionicArm.labelNoun>
+<AdvancedBionicArm.description>An installed advanced bionic arm.</AdvancedBionicArm.description>
+<AdvancedBionicArm.comps.0.tools.0.label>fist</AdvancedBionicArm.comps.0.tools.0.label>
+
+<AdvancedBionicLeg.label>advanced bionic leg</AdvancedBionicLeg.label>
+<AdvancedBionicLeg.labelNoun>an advanced bionic leg</AdvancedBionicLeg.labelNoun>
+<AdvancedBionicLeg.description>An installed advanced bionic leg.</AdvancedBionicLeg.description>
+
+<AdvancedBionicSpine.label>advanced bionic spine</AdvancedBionicSpine.label>
+<AdvancedBionicSpine.labelNoun>an advanced bionic spine</AdvancedBionicSpine.labelNoun>
+<AdvancedBionicSpine.description>An installed advanced bionic spine.</AdvancedBionicSpine.description>
+
+<AdvancedBionicEar.label>advanced bionic ear</AdvancedBionicEar.label>
+<AdvancedBionicEar.labelNoun>an advanced bionic ear</AdvancedBionicEar.labelNoun>
+<AdvancedBionicEar.description>An installed advanced bionic ear.</AdvancedBionicEar.description>
+
+<AdvancedBionicHand.label>advanced bionic hand</AdvancedBionicHand.label>
+<AdvancedBionicHand.labelNoun>an advanced bionic hand</AdvancedBionicHand.labelNoun>
+<AdvancedBionicHand.description>An installed advanced bionic hand.</AdvancedBionicHand.description>
+<AdvancedBionicHand.comps.0.tools.0.label>fist</AdvancedBionicHand.comps.0.tools.0.label>
+
+<AdvancedBionicFoot.label>advanced bionic foot</AdvancedBionicFoot.label>
+<AdvancedBionicFoot.labelNoun>an advanced bionic foot</AdvancedBionicFoot.labelNoun>
+<AdvancedBionicFoot.description>An installed advanced bionic foot.</AdvancedBionicFoot.description>
+
+<AdvancedBionicFinger.label>advanced bionic finger</AdvancedBionicFinger.label>
+<AdvancedBionicFinger.labelNoun>an advanced bionic finger</AdvancedBionicFinger.labelNoun>
+<AdvancedBionicFinger.description>An installed advanced bionic finger.</AdvancedBionicFinger.description>
+
+<AdvancedBionicToe.label>advanced bionic toe</AdvancedBionicToe.label>
+<AdvancedBionicToe.labelNoun>an advanced bionic toe</AdvancedBionicToe.labelNoun>
+<AdvancedBionicToe.description>An installed advanced bionic toe.</AdvancedBionicToe.description>
+
+<AdvancedBionicJaw.label>advanced bionic jaw</AdvancedBionicJaw.label>
+<AdvancedBionicJaw.labelNoun>an advanced bionic jaw</AdvancedBionicJaw.labelNoun>
+<AdvancedBionicJaw.description>An installed advanced bionic jaw.</AdvancedBionicJaw.description>
+
+<AdvancedPowerArm.label>advanced power arm</AdvancedPowerArm.label>
+<AdvancedPowerArm.labelNoun>an advanced power arm</AdvancedPowerArm.labelNoun>
+<AdvancedPowerArm.description>An installed advanced power arm.</AdvancedPowerArm.description>
+<AdvancedPowerArm.comps.0.tools.0.label>claw</AdvancedPowerArm.comps.0.tools.0.label>
+
+<ExoskeletonSuit.label>exoskeleton suit</ExoskeletonSuit.label>
+<ExoskeletonSuit.labelNoun>an exoskeleton suit</ExoskeletonSuit.labelNoun>
+<ExoskeletonSuit.description>An installed exoskeleton suit.</ExoskeletonSuit.description>
+
+</LanguageData>

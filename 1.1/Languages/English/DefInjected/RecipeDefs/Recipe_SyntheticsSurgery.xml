@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallSyntheticHeart.label>install synthetic heart</InstallSyntheticHeart.label>
+<InstallSyntheticHeart.description>Installs a synthetic heart.</InstallSyntheticHeart.description>
+<InstallSyntheticHeart.jobString>Installing synthetic heart.</InstallSyntheticHeart.jobString>
+
+<InstallSyntheticStomach.label>install synthetic stomach</InstallSyntheticStomach.label>
+<InstallSyntheticStomach.description>Installs a synthetic stomach.</InstallSyntheticStomach.description>
+<InstallSyntheticStomach.jobString>Installing synthetic stomach.</InstallSyntheticStomach.jobString>
+
+<InstallBionicHeart.label>install synthetic heart</InstallBionicHeart.label>
+<InstallBionicHeart.description>Installs a synthetic heart.</InstallBionicHeart.description>
+<InstallBionicHeart.jobString>Installing synthetic heart.</InstallBionicHeart.jobString>
+
+<InstallSyntheticLung.label>install synthetic lung</InstallSyntheticLung.label>
+<InstallSyntheticLung.description>Installs a synthetic lung.</InstallSyntheticLung.description>
+<InstallSyntheticLung.jobString>Installing synthetic lung.</InstallSyntheticLung.jobString>
+
+<InstallBionicStomach.label>install synthetic stomach</InstallBionicStomach.label>
+<InstallBionicStomach.description>Installs a synthetic stomach.</InstallBionicStomach.description>
+<InstallBionicStomach.jobString>Installing synthetic stomach.</InstallBionicStomach.jobString>
+
+<InstallSyntheticLiver.label>install synthetic liver</InstallSyntheticLiver.label>
+<InstallSyntheticLiver.description>Installs a synthetic liver.</InstallSyntheticLiver.description>
+<InstallSyntheticLiver.jobString>Installing synthetic liver.</InstallSyntheticLiver.jobString>
+
+<InstallSyntheticKidney.label>install synthetic kidney</InstallSyntheticKidney.label>
+<InstallSyntheticKidney.description>Installs a synthetic kidney.</InstallSyntheticKidney.description>
+<InstallSyntheticKidney.jobString>Installing synthetic kidney.</InstallSyntheticKidney.jobString>
+
+<InstallMuscleStimulatorArms.label>install muscle stimulator</InstallMuscleStimulatorArms.label>
+<InstallMuscleStimulatorArms.description>Installs muscle stimulator in the arm.</InstallMuscleStimulatorArms.description>
+<InstallMuscleStimulatorArms.jobString>Installing muscle stimulator.</InstallMuscleStimulatorArms.jobString>
+
+<InstallMuscleStimulatorLegs.label>install muscle stimulator</InstallMuscleStimulatorLegs.label>
+<InstallMuscleStimulatorLegs.description>Installs muscle stimulator in the leg.</InstallMuscleStimulatorLegs.description>
+<InstallMuscleStimulatorLegs.jobString>Installing muscle stimulator.</InstallMuscleStimulatorLegs.jobString>
+
+<InstallAIChip.label>install AI chip</InstallAIChip.label>
+<InstallAIChip.description>Installs AI chip.</InstallAIChip.description>
+<InstallAIChip.jobString>Installing AI chip.</InstallAIChip.jobString>
+
+<RepairBurn.label>mend burn</RepairBurn.label>
+<RepairBurn.description>Mend a burn scar.</RepairBurn.description>
+<RepairBurn.jobString>Mending burn scar.</RepairBurn.jobString>
+<RepairBurn.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s burn scar.</RepairBurn.successfullyRemovedHediffMessage>
+
+<RepairCut.label>mend cut</RepairCut.label>
+<RepairCut.description>Mend a cut scar.</RepairCut.description>
+<RepairCut.jobString>Mending cut scar.</RepairCut.jobString>
+<RepairCut.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cut scar.</RepairCut.successfullyRemovedHediffMessage>
+
+<RepairSurgicalCut.label>mend surgical cut</RepairSurgicalCut.label>
+<RepairSurgicalCut.description>Mend a surgical cut scar.</RepairSurgicalCut.description>
+<RepairSurgicalCut.jobString>Mending surgical cut scar.</RepairSurgicalCut.jobString>
+<RepairSurgicalCut.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s surgical cut scar.</RepairSurgicalCut.successfullyRemovedHediffMessage>
+
+<RepairScratch.label>mend surgical scratch</RepairScratch.label>
+<RepairScratch.description>Mend a surgical scratch scar.</RepairScratch.description>
+<RepairScratch.jobString>Mending surgical scratch scar.</RepairScratch.jobString>
+<RepairScratch.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</RepairScratch.successfullyRemovedHediffMessage>
+
+<RepairBite.label>mend bite</RepairBite.label>
+<RepairBite.description>Mend a bite scar.</RepairBite.description>
+<RepairBite.jobString>Mending bite scar.</RepairBite.jobString>
+<RepairBite.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s bite scar.</RepairBite.successfullyRemovedHediffMessage>
+
+<RepairStab.label>mend stab</RepairStab.label>
+<RepairStab.description>Mend a stab scar.</RepairStab.description>
+<RepairStab.jobString>Mending stab scar.</RepairStab.jobString>
+<RepairStab.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s stab scar.</RepairStab.successfullyRemovedHediffMessage>
+
+<RepairGunshot.label>mend gunshot</RepairGunshot.label>
+<RepairGunshot.description>Mend a gunshot scar.</RepairGunshot.description>
+<RepairGunshot.jobString>Mending gunshot scar.</RepairGunshot.jobString>
+<RepairGunshot.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s gunshot scar.</RepairGunshot.successfullyRemovedHediffMessage>
+
+<RepairFrostbite.label>mend frostbite</RepairFrostbite.label>
+<RepairFrostbite.description>Mend a frostbite scar.</RepairFrostbite.description>
+<RepairFrostbite.jobString>Mending frostbite scar.</RepairFrostbite.jobString>
+<RepairFrostbite.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</RepairFrostbite.successfullyRemovedHediffMessage>
+
+<SurgeryRemoveFrailty.label>heal frailty</SurgeryRemoveFrailty.label>
+<SurgeryRemoveFrailty.description>Install a neuromuscular framework to repair frailty.</SurgeryRemoveFrailty.description>
+<SurgeryRemoveFrailty.jobString>Healing frailty.</SurgeryRemoveFrailty.jobString>
+<SurgeryRemoveFrailty.successfullyRemovedHediffMessage>{0} has successfully healed {1}'s frailty.</SurgeryRemoveFrailty.successfullyRemovedHediffMessage>
+
+<SurgeryRemoveBadBack.label>heal bad back</SurgeryRemoveBadBack.label>
+<SurgeryRemoveBadBack.description>Install a neuromuscular framework to repair a bad back.</SurgeryRemoveBadBack.description>
+<SurgeryRemoveBadBack.jobString>Healing bad back.</SurgeryRemoveBadBack.jobString>
+<SurgeryRemoveBadBack.successfullyRemovedHediffMessage>{0} has successfully healed {1}'s bad back.</SurgeryRemoveBadBack.successfullyRemovedHediffMessage>
+
+<EPOE_SurgeryRemoveDementia.label>heal dementia</EPOE_SurgeryRemoveDementia.label>
+<EPOE_SurgeryRemoveDementia.description>Install a neuro-cure framework to treat dementia.</EPOE_SurgeryRemoveDementia.description>
+<EPOE_SurgeryRemoveDementia.jobString>Treating dementia.</EPOE_SurgeryRemoveDementia.jobString>
+<EPOE_SurgeryRemoveDementia.successfullyRemovedHediffMessage>{0} has successfully treated {1}'s dementia.</EPOE_SurgeryRemoveDementia.successfullyRemovedHediffMessage>
+
+<EPOE_SurgeryRemoveAlzheimers.label>heal alzheimers</EPOE_SurgeryRemoveAlzheimers.label>
+<EPOE_SurgeryRemoveAlzheimers.description>Install a neuro-cure framework to treat alzheimers.</EPOE_SurgeryRemoveAlzheimers.description>
+<EPOE_SurgeryRemoveAlzheimers.jobString>Treating alzheimers.</EPOE_SurgeryRemoveAlzheimers.jobString>
+<EPOE_SurgeryRemoveAlzheimers.successfullyRemovedHediffMessage>{0} has successfully treated {1}'s alzheimers.</EPOE_SurgeryRemoveAlzheimers.successfullyRemovedHediffMessage>
+
+</LanguageData>

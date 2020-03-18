@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<SurrogateHeart.label>surrogate heart</SurrogateHeart.label>
+<SurrogateHeart.description>Redundant item version for 1.1 RimWorld. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SurrogateHeart.description> 
+
+<SimpleProstheticHeart.label>surrogate heart</SimpleProstheticHeart.label>
+<SimpleProstheticHeart.description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</SimpleProstheticHeart.description>
+
+<SurrogateLung.label>surrogate lung</SurrogateLung.label>
+<SurrogateLung.description>A rudimentary lung replacement. Makes a deep, clicking noise.</SurrogateLung.description>
+
+<SurrogateStomach.label>surrogate stomach</SurrogateStomach.label>
+<SurrogateStomach.description>A rudimentary stomach replacement. Produces unpleasant smelling bowel gas.</SurrogateStomach.description>
+
+<SurrogateLiver.label>surrogate liver</SurrogateLiver.label>
+<SurrogateLiver.description>A rudimentary blood filter. Has problems with keeping the blood sugar level constant.</SurrogateLiver.description>
+
+<SurrogateKidney.label>surrogate kidney</SurrogateKidney.label>
+<SurrogateKidney.description>A rudimentary kidney replacement. One of its possible side effects is getting pale.</SurrogateKidney.description>
+
+<BrainStimulator.label>brain stimulator</BrainStimulator.label>
+<BrainStimulator.description>A small device that does its best to stimulate the remaining areas of the brain. Recommended for severe brain damage only. Requires brain surgery research before installing.</BrainStimulator.description>
+
+</LanguageData>

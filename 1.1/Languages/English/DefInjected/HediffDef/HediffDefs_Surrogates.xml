@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<SurrogateHeart.label>surrogate heart</SurrogateHeart.label>
+<SurrogateHeart.description>An installed surrogate heart.</SurrogateHeart.description>
+
+<SimpleProstheticHeart.label>surrogate heart</SimpleProstheticHeart.label>
+<SimpleProstheticHeart.description>An installed surrogate heart.</SimpleProstheticHeart.description>
+
+<SurrogateLung.label>surrogate lung</SurrogateLung.label>
+<SurrogateLung.description>An installed surrogate lung.</SurrogateLung.description>
+
+<SurrogateStomach.label>surrogate stomach</SurrogateStomach.label>
+<SurrogateStomach.description>An installed surrogate stomach.</SurrogateStomach.description>
+
+<SurrogateLiver.label>surrogate liver</SurrogateLiver.label>
+<SurrogateLiver.description>An installed surrogate liver.</SurrogateLiver.description>
+
+<SurrogateKidney.label>surrogate kidney</SurrogateKidney.label>
+<SurrogateKidney.description>An installed surrogate kidney.</SurrogateKidney.description>
+
+<BrainStimulator.label>brain stimulator</BrainStimulator.label>
+<BrainStimulator.description>An installed brain stimulator.</BrainStimulator.description>
+
+</LanguageData>

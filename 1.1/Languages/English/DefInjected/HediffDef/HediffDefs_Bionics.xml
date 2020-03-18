@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<BionicHand.label>bionic hand</BionicHand.label>
+<BionicHand.labelNoun>a bionic hand</BionicHand.labelNoun>
+<BionicHand.description>An installed bionic hand.</BionicHand.description>
+<BionicHand.comps.0.tools.0.label>fist</BionicHand.comps.0.tools.0.label>
+
+<BionicFoot.label>bionic foot</BionicFoot.label>
+<BionicFoot.labelNoun>a bionic foot</BionicFoot.labelNoun>
+<BionicFoot.description>An installed bionic foot.</BionicFoot.description>
+
+<BionicFinger.label>bionic finger</BionicFinger.label>
+<BionicFinger.labelNoun>a bionic finger</BionicFinger.labelNoun>
+<BionicFinger.description>An installed bionic finger.</BionicFinger.description>
+
+<BionicToe.label>bionic toe</BionicToe.label>
+<BionicToe.labelNoun>a bionic toe</BionicToe.labelNoun>
+<BionicToe.description>An installed bionic toe.</BionicToe.description>
+
+<BionicJaw.label>bionic jaw</BionicJaw.label>
+<BionicJaw.labelNoun>a bionic jaw</BionicJaw.labelNoun>
+<BionicJaw.description>An installed bionic jaw.</BionicJaw.description>
+
+<SilentJaw.label>silent jaw</SilentJaw.label>
+<SilentJaw.labelNoun>a silent jaw</SilentJaw.labelNoun>
+<SilentJaw.description>An installed silent jaw.</SilentJaw.description>
+
+<PowerArm.label>power arm</PowerArm.label>
+<PowerArm.labelNoun>a power arm</PowerArm.labelNoun>
+<PowerArm.description>An installed power arm.</PowerArm.description>
+<PowerArm.comps.0.tools.0.label>claw</PowerArm.comps.0.tools.0.label>
+
+</LanguageData>

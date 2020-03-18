@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="EPIA_RecipeBaseProsthesis" Abstract="True">
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<soundWorking>EPOEAssembling</soundWorking>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef Name="RecipeBionicProsthesis" ParentName="EPIA_RecipeBaseProsthesis" Abstract="True">
+		<researchPrerequisite>Bionics</researchPrerequisite>
+		<workAmount>26000</workAmount>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>TableBionics</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="RecipeAdvancedProsthesis" ParentName="RecipeBionicProsthesis"  Abstract="True">
+		<researchPrerequisite>AdvancedBionics</researchPrerequisite>
+		<workAmount>40000</workAmount>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef Name="RecipeSyntheticOrgan" ParentName="EPIA_RecipeBaseProsthesis"  Abstract="True">
+		<researchPrerequisite>SyntheticOrgans</researchPrerequisite>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>26000</workAmount>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>TableOrgans</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

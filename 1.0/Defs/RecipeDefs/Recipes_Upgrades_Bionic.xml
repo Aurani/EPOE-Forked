@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="EPIA_RecipeUpgradeBionic" ParentName="RecipeBionicProsthesis" Abstract="True">
+		<workAmount>14000</workAmount>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicEye</defName>
+		<label>assemble bionic eye</label>
+		<description>Upgrade light receptor into bionic eye.</description>
+		<jobString>Upgrading light receptor.</jobString>
+		<products>
+			<BionicEye>1</BionicEye>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>LightReceptor</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>LightReceptor</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicLeg</defName>
+		<label>assemble bionic leg</label>
+		<description>Upgrade prosthetic leg into bionic leg.</description>
+		<jobString>Upgrading prosthetic leg.</jobString>
+		<products>
+			<BionicLeg>1</BionicLeg>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticLeg</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicArm</defName>
+		<label>assemble bionic arm</label>
+		<description>Upgrade prosthetic arm into bionic arm.</description>
+		<jobString>Upgrading prosthetic arm.</jobString>
+		<products>
+			<BionicArm>1</BionicArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticArm</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicSpine</defName>
+		<label>assemble bionic spine</label>
+		<description>Upgrade replacement spine into bionic spine.</description>
+		<jobString>Upgrading replacement spine.</jobString>
+		<products>
+			<BionicSpine>1</BionicSpine>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleSpine</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicEar</defName>
+		<label>assemble bionic ear</label>
+		<description>Upgrade cochlear implant into bionic ear.</description>
+		<jobString>Upgrading cochlear implant.</jobString>
+		<products>
+			<BionicEar>1</BionicEar>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CochlearImplant</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CochlearImplant</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicHand</defName>
+		<label>assemble bionic hand</label>
+		<description>Upgrade prosthetic hand into bionic hand.</description>
+		<jobString>Upgrading prosthetic hand.</jobString>
+		<products>
+			<BionicHand>1</BionicHand>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticHand</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticHand</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicFoot</defName>
+		<label>assemble bionic foot</label>
+		<description>Upgrade prosthetic foot into bionic foot.</description>
+		<jobString>Upgrading prosthetic foot.</jobString>
+		<products>
+			<BionicFoot>1</BionicFoot>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticFoot</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticFoot</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>EPIA_UpgradeBionicFinger</defName>
+		<label>assemble bionic finger</label>
+		<description>Upgrade prosthetic finger into bionic finger.</description>
+		<jobString>Upgrading prosthetic finger.</jobString>
+		<workAmount>2300</workAmount>
+		<products>
+			<BionicFinger>1</BionicFinger>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticFinger</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticFinger</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>EPIA_UpgradeBionicToe</defName>
+		<label>assemble bionic toe</label>
+		<description>Upgrade prosthetic toe into bionic toe.</description>
+		<jobString>Upgrading prosthetic toe.</jobString>
+		<workAmount>2300</workAmount>
+		<products>
+			<BionicToe>1</BionicToe>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticToe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticToe</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicJaw</defName>
+		<label>assemble bionic jaw</label>
+		<description>Upgrade hydraulic jaw into bionic jaw.</description>
+		<jobString>Upgrading hydraulic jaw.</jobString>
+		<products>
+			<BionicJaw>1</BionicJaw>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>HydraulicJaw</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateSilentJaw</defName>
+		<label>assemble silent jaw</label>
+		<description>Upgrade hydraulic jaw into silent jaw.</description>
+		<jobString>Upgrading hydraulic jaw.</jobString>
+		<products>
+			<SilentJaw>1</SilentJaw>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>HydraulicJaw</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreatePowerArm</defName>
+		<label>assemble power arm</label>
+		<description>Upgrade power claw into power arm.</description>
+		<jobString>Upgrading power claw.</jobString>
+		<products>
+			<PowerArm>1</PowerArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PowerClaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicArm</li>
+				<li>PowerClaw</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef Name="EPIA_RecipeUpgradeBionicRib" ParentName="EPIA_RecipeUpgradeBionic" Abstract="True">
+		<workAmount>9000</workAmount>
+		<researchPrerequisite>RibReplacements</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>CreateMedicalRib</defName>
+		<label>assemble medical rib</label>
+		<description>Fill a blank rib replacement to complete a medical rib replacement.</description>
+		<jobString>Assembling medical rib.</jobString>
+		<products>
+			<MedicalRib>1</MedicalRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineUltratech</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Neutroamine</li>
+				<li>MedicineUltratech</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>CreateDruggedRib</defName>
+		<label>assemble drugged rib</label>
+		<description>Fill a blank rib replacement to complete a drugged rib replacement.</description>
+		<products>
+			<DruggedRib>1</DruggedRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Flake</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Neutroamine</li>
+				<li>Flake</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>CreateAdrenalineRib</defName>
+		<label>assemble adrenaline rib</label>
+		<description>Fill a blank rib replacement to complete a adrenaline rib replacement.</description>
+		<products>
+			<AdrenalineRib>1</AdrenalineRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Yayo</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Neutroamine</li>
+				<li>Yayo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>CreatePainkillerRib</defName>
+		<label>assemble painkiller rib</label>
+		<description>Fill a blank rib replacement to complete a painkiller rib replacement.</description>
+		<products>
+			<PainkillerRib>1</PainkillerRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GoJuice</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Neutroamine</li>
+				<li>GoJuice</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>EPIA_UpgradeHeatingRib</defName>
+		<label>assemble heating rib</label>
+		<description>Fill a blank rib replacement to complete a heating rib replacement.</description>
+		<products>
+			<PainkillerRib>1</PainkillerRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>EPIA_UpgradeCoolingRib</defName>
+		<label>assemble cooling rib</label>
+		<description>Fill a blank rib replacement to complete a cooling rib implant.</description>
+		<products>
+			<PainkillerRib>1</PainkillerRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>

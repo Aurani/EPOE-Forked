@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="EPIA_BodyPartBlankRibBase" ParentName="BodyPartBionicBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/BodyPart/SimplePart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<recipeUsers>
+				<li>TableSimpleProsthetic</li>
+			</recipeUsers>
+			<researchPrerequisite>RibReplacements</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>17000</WorkToMake>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="EPIA_BodyPartBionicRibBase" ParentName="BodyPartBionicBase" Abstract="True">
+		<recipeMaker>
+			<recipeUsers Inherit="False" />
+			<researchPrerequisite>RibReplacements</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef Name="EPIA_RecipeUpgradeBionicRib" ParentName="EPIA_RecipeUpgradeBionic" Abstract="True">
+		<workAmount>9000</workAmount>
+		<researchPrerequisite>RibReplacements</researchPrerequisite>
+	</RecipeDef>
+
+	<!--RecipeDef Name="EPIA_SurgeryRemoveRibImplant" ParentName="SurgeryInstallImplantBase" Abstract="True">
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s rib replacement implant. It has emptied into a blank rib replacement.</successfullyRemovedHediffMessage>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<products>
+			<SimpleRib>1</SimpleRib>
+		</products>
+	</RecipeDef-->
+
+	<!-- Blank rib -->
+
+	<ThingDef ParentName="EPIA_BodyPartBlankRibBase">
+		<defName>SimpleRib</defName>
+		<label>blank rib replacement</label>
+		<description>A hollow artificial rib, with a tiny dispenser system. Ready to be filled to complete a rib replacement implant of choice.</description>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<intricate>true</intricate>
+	</ThingDef>
+
+	<!-- Medical rib -->
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>MedicalRib</defName>
+		<label>medical rib</label>
+		<labelNoun>a medical rib</labelNoun>
+		<description>An installed medical rib implant.</description>
+		<descriptionHyperlinks><ThingDef>MedicalRib</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleRib</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
+		<defName>MedicalRib</defName>
+		<label>medical rib replacement</label>
+		<description>An artificial rib, equipped with little blood filters and antibiotics-dispensers to keep the user healthy.</description>
+		<descriptionHyperlinks><RecipeDef>InstallMedicalRib</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Neutroamine>3</Neutroamine>
+			<MedicineUltratech>1</MedicineUltratech>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<smeltProducts>
+			<Plasteel>6</Plasteel>
+		</smeltProducts>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>CreateMedicalRib</defName>
+		<label>assemble medical rib</label>
+		<description>Fill a blank rib replacement to complete a medical rib replacement.</description>
+		<jobString>Assembling medical rib.</jobString>
+		<products>
+			<MedicalRib>1</MedicalRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineUltratech</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Neutroamine</li>
+				<li>MedicineUltratech</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallMedicalRib</defName>
+		<label>install medical rib replacement</label>
+		<description>Installs a medical rib replacement.</description>
+		<descriptionHyperlinks><ThingDef>MedicalRib</ThingDef></descriptionHyperlinks>
+		<jobString>Installing a medical rib replacement.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicalRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MedicalRib</addsHediff>
+	</RecipeDef>
+
+	<!--RecipeDef ParentName="EPIA_SurgeryRemoveRibImplant">
+		<defName>EPIA_RemoveMedicalRib</defName>
+		<label>remove medical rib replacement</label>
+		<description>Remove a medical rib replacement.</description>
+		<jobString>Removing a medical rib replacement.</jobString>
+		<removesHediff>MedicalRib</removesHediff>
+	</RecipeDef-->
+
+	<!-- Drugged rib -->
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>DruggedRib</defName>
+		<label>drugged rib</label>
+		<labelNoun>a drugged rib</labelNoun>
+		<description>An installed drugged rib implant.</description>
+		<descriptionHyperlinks><ThingDef>DruggedRib</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleRib</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
+		<defName>DruggedRib</defName>
+		<label>drugged rib replacement</label>
+		<description>An artificial rib, equipped with little flake-dispensers to keep the user happy. Synthetic liver highly recommended.</description>
+		<descriptionHyperlinks><RecipeDef>InstallDruggedRib</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Neutroamine>3</Neutroamine>
+			<Flake>10</Flake>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<smeltProducts>
+			<Plasteel>6</Plasteel>
+		</smeltProducts>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>CreateDruggedRib</defName>
+		<label>assemble drugged rib</label>
+		<description>Fill a blank rib replacement to complete a drugged rib replacement.</description>
+		<jobString>Assembling drugged rib.</jobString>
+		<products>
+			<DruggedRib>1</DruggedRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Flake</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Neutroamine</li>
+				<li>Flake</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallDruggedRib</defName>
+		<label>install drugged rib</label>
+		<description>Installs a drugged rib.</description>
+		<descriptionHyperlinks><ThingDef>DruggedRib</ThingDef></descriptionHyperlinks>
+		<jobString>Installing a drugged rib.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DruggedRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DruggedRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>DruggedRib</addsHediff>
+	</RecipeDef>
+
+	<!--RecipeDef ParentName="EPIA_SurgeryRemoveRibImplant">
+		<defName>EPIA_RemoveDruggedRib</defName>
+		<label>remove drugged rib replacement</label>
+		<description>Remove a drugged rib replacement.</description>
+		<jobString>Removing a drugged rib replacement.</jobString>
+		<removesHediff>DruggedRib</removesHediff>
+	</RecipeDef-->
+
+	<!-- Adrenaline rib -->
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>AdrenalineRib</defName>
+		<label>adrenaline rib</label>
+		<labelNoun>an adrenaline rib</labelNoun>
+		<description>An installed adrenaline rib implant.</description>
+		<descriptionHyperlinks><ThingDef>AdrenalineRib</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleRib</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
+		<defName>AdrenalineRib</defName>
+		<label>adrenaline rib replacement</label>
+		<description>An artificial rib, equipped with little adrenaline-dispensers to keep the user fit and awake.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdrenalineRib</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Neutroamine>3</Neutroamine>
+			<Yayo>10</Yayo>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<smeltProducts>
+			<Plasteel>6</Plasteel>
+		</smeltProducts>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>CreateAdrenalineRib</defName>
+		<label>assemble adrenaline rib</label>
+		<description>Fill a blank rib replacement to complete a adrenaline rib replacement.</description>
+		<jobString>Assembling adrenaline rib.</jobString>
+		<products>
+			<AdrenalineRib>1</AdrenalineRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Yayo</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Neutroamine</li>
+				<li>Yayo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallAdrenalineRib</defName>
+		<label>install adrenaline rib</label>
+		<description>Installs an adrenaline rib.</description>
+		<descriptionHyperlinks><ThingDef>AdrenalineRib</ThingDef></descriptionHyperlinks>
+		<jobString>Installing an adrenaline rib.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdrenalineRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdrenalineRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdrenalineRib</addsHediff>
+	</RecipeDef>
+
+	<!--RecipeDef ParentName="EPIA_SurgeryRemoveRibImplant">
+		<defName>EPIA_RemoveAdrenalineRib</defName>
+		<label>remove adrenaline rib replacement</label>
+		<description>Remove a adrenaline rib replacement.</description>
+		<jobString>Removing a adrenaline rib replacement.</jobString>
+		<removesHediff>AdrenalineRib</removesHediff>
+	</RecipeDef-->
+
+	<!-- Painkiller rib -->
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>PainkillerRib</defName>
+		<label>painkiller rib</label>
+		<labelNoun>a painkiller rib</labelNoun>
+		<description>An installed painkiller rib implant.</description>
+		<descriptionHyperlinks><ThingDef>PainkillerRib</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleRib</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<painFactor>0.9</painFactor>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
+		<defName>PainkillerRib</defName>
+		<label>painkiller rib replacement</label>
+		<description>An artificial rib, equipped with little morphine-dispensers to numb the user's pain. Side effects are respiratory ailments.</description>
+		<descriptionHyperlinks><RecipeDef>InstallPainkillerRib</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Neutroamine>3</Neutroamine>
+			<GoJuice>5</GoJuice>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<smeltProducts>
+			<Plasteel>6</Plasteel>
+		</smeltProducts>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>CreatePainkillerRib</defName>
+		<label>assemble painkiller rib</label>
+		<description>Fill a blank rib replacement to complete a painkiller rib replacement.</description>
+		<jobString>Assembling painkiller rib.</jobString>
+		<products>
+			<PainkillerRib>1</PainkillerRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GoJuice</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Neutroamine</li>
+				<li>GoJuice</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallPainkillerRib</defName>
+		<label>install painkiller rib</label>
+		<description>Installs a painkiller rib.</description>
+		<descriptionHyperlinks><ThingDef>PainkillerRib</ThingDef></descriptionHyperlinks>
+		<jobString>Installing a painkiller rib.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PainkillerRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PainkillerRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>PainkillerRib</addsHediff>
+	</RecipeDef>
+
+	<!--RecipeDef ParentName="EPIA_SurgeryRemoveRibImplant">
+		<defName>EPIA_RemovePainkillerRib</defName>
+		<label>remove painkiller rib replacement</label>
+		<description>Remove a painkiller rib replacement.</description>
+		<jobString>Removing a painkiller rib replacement.</jobString>
+		<removesHediff>PainkillerRib</removesHediff>
+	</RecipeDef-->
+
+	<!-- Heater rib -->
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>HeaterRib</defName>
+		<label>heating rib</label>
+		<description>An installed heater rib implant.</description>
+		<descriptionHyperlinks><ThingDef>HeaterRib</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleRib</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>-2</ComfyTemperatureMax>
+					<ComfyTemperatureMin>-12.5</ComfyTemperatureMin>
+				</statOffsets>
+			</li>	 
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
+		<defName>HeaterRib</defName>
+		<label>heating rib replacement</label>
+		<description>An artificial rib, containing a micro-reactor powered, heat inducing spiral to warm the body from the inside.</description>
+		<descriptionHyperlinks><RecipeDef>InstallHeaterRib</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<Steel>20</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<smeltProducts>
+			<Plasteel>6</Plasteel>
+			<Steel>5</Steel>
+		</smeltProducts>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>EPIA_UpgradeHeatingRib</defName>
+		<label>assemble heating rib</label>
+		<description>Fill a blank rib replacement to complete a heating rib replacement.</description>
+		<jobString>Assembling heating rib.</jobString>
+		<products>
+			<PainkillerRib>1</PainkillerRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallHeaterRib</defName>
+		<label>install heating rib</label>
+		<description>Installs a heating rib.</description>
+		<descriptionHyperlinks><ThingDef>HeaterRib</ThingDef></descriptionHyperlinks>
+		<jobString>Installing a heating rib.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HeaterRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>HeaterRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>HeaterRib</addsHediff>
+	</RecipeDef>
+
+	<!--RecipeDef ParentName="EPIA_SurgeryRemoveRibImplant">
+		<defName>EPIA_RemoveHeaterRib</defName>
+		<label>remove heating rib replacement</label>
+		<description>Remove a heating rib replacement.</description>
+		<jobString>Removing a heating rib replacement.</jobString>
+		<removesHediff>HeaterRib</removesHediff>
+	</RecipeDef-->
+
+	<!-- Cooler rib -->
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>CoolerRib</defName>
+		<label>cooling rib</label>
+		<description>An installed cooler rib implant.</description>
+		<descriptionHyperlinks><ThingDef>CoolerRib</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleRib</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>12.5</ComfyTemperatureMax>
+					<ComfyTemperatureMin>2</ComfyTemperatureMin>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
+		<defName>CoolerRib</defName>
+		<label>cooling rib replacement</label>
+		<description>An artificial rib with a micro coolant system, increasing the effectiveness of heat exchange via dermal exhausts.</description>
+		<descriptionHyperlinks><RecipeDef>InstallCoolerRib</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<Steel>20</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<smeltProducts>
+			<Plasteel>6</Plasteel>
+			<Steel>5</Steel>
+		</smeltProducts>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>EPIA_UpgradeCoolingRib</defName>
+		<label>assemble cooling rib</label>
+		<description>Fill a blank rib replacement to complete a cooling rib implant.</description>
+		<jobString>Assembling cooling rib.</jobString>
+		<products>
+			<PainkillerRib>1</PainkillerRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallCoolerRib</defName>
+		<label>install cooling rib</label>
+		<description>Installs a cooling rib.</description>
+		<descriptionHyperlinks><ThingDef>CoolerRib</ThingDef></descriptionHyperlinks>
+		<jobString>Installing a cooling rib.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CoolerRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CoolerRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>CoolerRib</addsHediff>
+	</RecipeDef>
+
+	<!--RecipeDef ParentName="EPIA_SurgeryRemoveRibImplant">
+		<defName>EPIA_RemoveCoolerRib</defName>
+		<label>remove cooling rib replacement</label>
+		<description>Remove a cooling rib replacement.</description>
+		<jobString>Removing a cooling rib replacement.</jobString>
+		<removesHediff>CoolerRib</removesHediff>
+	</RecipeDef-->
+
+</Defs>

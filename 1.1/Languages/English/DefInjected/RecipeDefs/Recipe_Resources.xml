@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<Smelt_EPOE_DamagedScytherBlade.label>smelt damaged scyther blade</Smelt_EPOE_DamagedScytherBlade.label>
+<Smelt_EPOE_DamagedScytherBlade.description>Use heat and strong electromagnets to extract useful metal from a damaged scyther blade.</Smelt_EPOE_DamagedScytherBlade.description>
+<Smelt_EPOE_DamagedScytherBlade.jobString>Smelting damaged scyther blade.</Smelt_EPOE_DamagedScytherBlade.jobString>
+
+<EPIA_ScrapProsthesis.label>disassemble prosthesis</EPIA_ScrapProsthesis.label>
+<EPIA_ScrapProsthesis.description>Scrap and disassemble unwanted prosthesis for materials.</EPIA_ScrapProsthesis.description>
+<EPIA_ScrapProsthesis.jobString>Disassembling prosthesis.</EPIA_ScrapProsthesis.jobString>
+
+<Make_EPOE_MAAI_Chip_UseAICore.label>make 5 MA-AI chip from AI persona core</Make_EPOE_MAAI_Chip_UseAICore.label>
+<Make_EPOE_MAAI_Chip_UseAICore.description>Make 5 MA-AI chip from AI persona core.</Make_EPOE_MAAI_Chip_UseAICore.description>
+<Make_EPOE_MAAI_Chip_UseAICore.jobString>Making MA-AI chip.</Make_EPOE_MAAI_Chip_UseAICore.jobString>
+
+</LanguageData>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<SimpleProstheticLeg.label>prosthetic leg</SimpleProstheticLeg.label>
+<SimpleProstheticLeg.description>Simple prosthesis made to replace a missing leg. Not very comfortable but quite efficient.</SimpleProstheticLeg.description>
+
+<SimpleProstheticArm.label>prosthetic arm</SimpleProstheticArm.label>
+<SimpleProstheticArm.description>Simple but durable arm prosthesis.</SimpleProstheticArm.description>
+
+<CochlearImplant.label>cochlear implant</CochlearImplant.label>
+<CochlearImplant.description>An implant which replaces normal hearing. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf.</CochlearImplant.description>
+
+<GoldenEye.label>golden eye</GoldenEye.label>
+<GoldenEye.description>Replaces missing eyes. So incredibly beautiful that it's a shame you can't see yourself in the mirror.</GoldenEye.description>
+
+<LightReceptor.label>light receptor</LightReceptor.label>
+<LightReceptor.description>Replaces a missing eye. Can detect light and even objects. Like looking through frosted glass but without the colors.</LightReceptor.description>
+
+<SimpleSpine.label>replacement spine</SimpleSpine.label>
+<SimpleSpine.description>This simple but advanced device can almost perfectly replace a damaged spine.</SimpleSpine.description>
+
+<SimpleProstheticHand.label>prosthetic hand</SimpleProstheticHand.label>
+<SimpleProstheticHand.description>Replaces missing hands. Way more comfortable and less frightening than the hook hand.</SimpleProstheticHand.description>
+
+<SimpleProstheticFoot.label>prosthetic foot</SimpleProstheticFoot.label>
+<SimpleProstheticFoot.description>Replaces missing feet. Not as cheap as a wood log.</SimpleProstheticFoot.description>
+
+<SimpleProstheticFinger.label>prosthetic finger</SimpleProstheticFinger.label>
+<SimpleProstheticFinger.description>Archaic and crude replacement for lost fingers. Not terribly efficient and certainly not comfortable, but gets the job done.</SimpleProstheticFinger.description>
+
+<SimpleProstheticToe.label>prosthetic toe</SimpleProstheticToe.label>
+<SimpleProstheticToe.description>Archaic and crude replacement for lost toes. Inefficient and uncomfortable, they generate a lot of noise while walking, but they get the job done.</SimpleProstheticToe.description>
+
+<HydraulicJaw.label>hydraulic jaw</HydraulicJaw.label>
+<HydraulicJaw.description>Replaces a missing jaw. Be careful with the extremely efficient teeth!</HydraulicJaw.description>
+
+<ArtificialNose.label>artificial nose</ArtificialNose.label>
+<ArtificialNose.description>Replaces a missing nose. Covers the hole in the face.</ArtificialNose.description>
+
+<ReplacementRadius.label>replacement radius</ReplacementRadius.label>
+<ReplacementRadius.description>A replacement for the radius, a bone in the lower arm.</ReplacementRadius.description>
+
+<ScytherBlade.label>scyther blade</ScytherBlade.label>
+<ScytherBlade.description>Hand replacement with a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</ScytherBlade.description>
+
+</LanguageData>

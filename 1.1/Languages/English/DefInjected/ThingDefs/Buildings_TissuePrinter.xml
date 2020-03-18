@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<TableOrgans.label>tissue printer</TableOrgans.label>
+<TableOrgans.description>A fabrication workstation, equipped with a 3D printer to craft organs. This advanced workbench is capable of assisting certain workstations by sharing some of its specialized fabrication system when placed near them.\n\nWhen placed near a bionic table or fabrication bench, this workbench is able to increase their production speed. They can connect to a maximum of one tissue printer.</TableOrgans.description>
+
+</LanguageData>

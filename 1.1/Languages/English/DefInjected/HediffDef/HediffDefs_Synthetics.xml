@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<SyntheticHeart.label>synthetic heart</SyntheticHeart.label>
+<SyntheticHeart.labelNoun>a synthetic heart</SyntheticHeart.labelNoun>
+<SyntheticHeart.description>An installed synthetic heart.</SyntheticHeart.description>
+
+<SyntheticStomach.label>synthetic stomach</SyntheticStomach.label>
+<SyntheticStomach.labelNoun>a synthetic stomach</SyntheticStomach.labelNoun>
+<SyntheticStomach.description>An installed synthetic stomach.</SyntheticStomach.description>
+
+<BionicHeart.label>synthetic heart</BionicHeart.label>
+<BionicHeart.labelNoun>a synthetic heart</BionicHeart.labelNoun>
+<BionicHeart.description>An installed synthetic heart.</BionicHeart.description>
+
+<SyntheticLung.label>synthetic lung</SyntheticLung.label>
+<SyntheticLung.labelNoun>a synthetic lung</SyntheticLung.labelNoun>
+<SyntheticLung.description>An installed synthetic lung.</SyntheticLung.description>
+
+<BionicStomach.label>synthetic stomach</BionicStomach.label>
+<BionicStomach.labelNoun>a synthetic stomach</BionicStomach.labelNoun>
+<BionicStomach.description>An installed synthetic stomach.</BionicStomach.description>
+
+<SyntheticLiver.label>synthetic liver</SyntheticLiver.label>
+<SyntheticLiver.labelNoun>a synthetic liver</SyntheticLiver.labelNoun>
+<SyntheticLiver.description>An installed synthetic liver.</SyntheticLiver.description>
+
+<SyntheticKidney.label>synthetic kidney</SyntheticKidney.label>
+<SyntheticKidney.labelNoun>a synthetic kidney</SyntheticKidney.labelNoun>
+<SyntheticKidney.description>An installed synthetic kidney.</SyntheticKidney.description>
+
+<MuscleStimulatorArms.label>muscle stimulator</MuscleStimulatorArms.label>
+<MuscleStimulatorArms.description>An installed muscle stimulator in the arms.</MuscleStimulatorArms.description>
+
+<MuscleStimulatorLegs.label>muscle stimulator</MuscleStimulatorLegs.label>
+<MuscleStimulatorLegs.description>An installed muscle stimulator in the legs.</MuscleStimulatorLegs.description>
+
+<AIChip.label>AI Chip</AIChip.label>
+<AIChip.labelNoun>an AI chip</AIChip.labelNoun>
+<AIChip.description>An installed AI chip.</AIChip.description>
+
+</LanguageData>

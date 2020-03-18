@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<SyntheticHeart.label>synthetic heart</SyntheticHeart.label>
+<SyntheticHeart.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticHeart.description>
+
+<SyntheticStomach.label>synthetic stomach</SyntheticStomach.label>
+<SyntheticStomach.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticStomach.description>
+
+<BionicHeart.label>synthetic heart</BionicHeart.label>
+<BionicHeart.description>A top-of-the-line heart replacement. Can last for over 30 years on a single charge.</BionicHeart.description>
+
+<SyntheticLung.label>synthetic lung</SyntheticLung.label>
+<SyntheticLung.description>A high-tech breathing replacement. Makes a soft whirring sound.</SyntheticLung.description>
+
+<BionicStomach.label>synthetic stomach</BionicStomach.label>
+<BionicStomach.description>An enhanced stomach augmented with chemical synthesizers that efficiently digest nearly any energy-bearing foodstuff. Unaffected by its own stomach acid.</BionicStomach.description>
+
+<SyntheticLiver.label>synthetic liver</SyntheticLiver.label>
+<SyntheticLiver.description>An enhanced liver augmented with synthetic fibres to decrease rejection rate.</SyntheticLiver.description>
+
+<SyntheticKidney.label>synthetic kidney</SyntheticKidney.label>
+<SyntheticKidney.description>An enhanced kidney augmented with synthetic fibres to decrease rejection rate.</SyntheticKidney.description>
+
+<MuscleStimulator.label>muscle stimulator</MuscleStimulator.label>
+<MuscleStimulator.description>Through special chemicals and electric shocks this little chip is able to stimulate the muscles so they can operate at above maximum performance.</MuscleStimulator.description>
+
+<AIChip.label>AI chip</AIChip.label>
+<AIChip.description>Through special chemicals and electric shocks this little chip is able to completely restore the user's consciousness and mobility. Requires brain surgery research before installing.</AIChip.description>
+
+<SyntheticSkin.label>synthetic tissue</SyntheticSkin.label>
+<SyntheticSkin.description>A patch of organo-synthetic tissue which can replace damaged areas.</SyntheticSkin.description>
+
+<NeuromuscularFramework.label>neuromuscular framework</NeuromuscularFramework.label>
+<NeuromuscularFramework.description>A set of synthetic muscles and artificial nerves capable of perfectly recreating the function of a healthy torso.</NeuromuscularFramework.description>
+
+<NeurocureFramework.label>neuro-cure framework</NeurocureFramework.label>
+<NeurocureFramework.description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain afflicted by dementia and alzheimer.</NeurocureFramework.description>
+
+</LanguageData>

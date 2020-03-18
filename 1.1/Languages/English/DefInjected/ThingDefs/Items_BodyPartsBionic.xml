@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<BionicEye.label>bionic eye</BionicEye.label>
+<BionicEye.description>Advanced piece of technology made not only to fully replace natural eye, but also to give supernatural vision abilities.</BionicEye.description>
+
+<BionicLeg.label>bionic leg</BionicLeg.label>
+<BionicLeg.description>Bionic leg uses cutting-edge technology to give its owner extreme walking comfort and strength.</BionicLeg.description>
+
+<BionicArm.label>bionic arm</BionicArm.label>
+<BionicArm.description>One of the most sophisticated arm replacements. Gives extreme strength to its user.</BionicArm.description>
+
+<BionicSpine.label>bionic spine</BionicSpine.label>
+<BionicSpine.description>This light and impressing device can replace a damaged spine.</BionicSpine.description>
+
+<BionicEar.label>bionic ear</BionicEar.label>
+<BionicEar.description>An advanced device that expands upon the basic functions of the ear drum.</BionicEar.description>
+
+<PowerClaw.label>power claw</PowerClaw.label>
+<PowerClaw.description>Powerful hand replacement consisting of three deadly claws.</PowerClaw.description>
+
+<BionicHand.label>bionic hand</BionicHand.label>
+<BionicHand.description>Allows the user to perform tasks even faster than with regular hands.</BionicHand.description>
+
+<BionicFoot.label>bionic foot</BionicFoot.label>
+<BionicFoot.description>This prosthesis grants faster walking without stumbling all the time.</BionicFoot.description>
+
+<BionicFinger.label>bionic finger</BionicFinger.label>
+<BionicFinger.description>A replacement finger allowing for slightly faster and more precise movement.</BionicFinger.description>
+
+<BionicToe.label>bionic toe</BionicToe.label>
+<BionicToe.description>A replacement toe which lets the wearer grip the ground slightly better.</BionicToe.description>
+
+<BionicJaw.label>bionic jaw</BionicJaw.label>
+<BionicJaw.description>Aside from a strong set of teeth, this also comes with a voice modulator.</BionicJaw.description>
+
+<SilentJaw.label>silent jaw</SilentJaw.label>
+<SilentJaw.description>This version of the bionic jaw comes without a voice modulator, useful for abrasive patients.</SilentJaw.description>
+
+<PowerArm.label>power arm</PowerArm.label>
+<PowerArm.description>Unparalleled strength and dexterity, and with retractable claws. This is the ultimate arm upgrade!</PowerArm.description>
+
+</LanguageData>

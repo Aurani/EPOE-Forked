@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<HookHand.label>hook hand</HookHand.label>
+<HookHand.description>Replaces missing hands. Pretty scary. Yarr.</HookHand.description>
+
+<SteelArm.label>steel arm</SteelArm.label>
+<SteelArm.description>A very poor arm replacement. Looks bad, feels bad, is bad.</SteelArm.description>
+
+</LanguageData>

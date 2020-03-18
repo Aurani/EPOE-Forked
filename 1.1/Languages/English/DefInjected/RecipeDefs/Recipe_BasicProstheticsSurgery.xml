@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallHookHand.label>install hook hand</InstallHookHand.label>
+<InstallHookHand.description>Installs hook hand.</InstallHookHand.description>
+<InstallHookHand.jobString>Installing hook hand.</InstallHookHand.jobString>
+
+<InstallSteelArm.label>install steel arm</InstallSteelArm.label>
+<InstallSteelArm.description>Installs steel arm.</InstallSteelArm.description>
+<InstallSteelArm.jobString>Installing steel arm.</InstallSteelArm.jobString>
+
+<InstallEyePatch.label>install eye patch</InstallEyePatch.label>
+<InstallEyePatch.description>Installs eye patch.</InstallEyePatch.description>
+<InstallEyePatch.jobString>Installing eye patch.</InstallEyePatch.jobString>
+
+<InstallEarBandage.label>install ear bandage</InstallEarBandage.label>
+<InstallEarBandage.description>Installs an ear bandage.</InstallEarBandage.description>
+<InstallEarBandage.jobString>Installing ear bandage.</InstallEarBandage.jobString>
+
+</LanguageData>

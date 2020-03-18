@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallTacticalCorneaImplant.label>install tactical cornea implant</InstallTacticalCorneaImplant.label>
+<InstallTacticalCorneaImplant.description>Installs tactical cornea implant.</InstallTacticalCorneaImplant.description>
+<InstallTacticalCorneaImplant.jobString>Installing tactical cornea implant.</InstallTacticalCorneaImplant.jobString>
+
+
+<InstallConstructorCore.label>install auxiliary AI (constructing)</InstallConstructorCore.label>
+<InstallConstructorCore.description>Installs auxiliary AI (constructing).</InstallConstructorCore.description>
+<InstallConstructorCore.jobString>Installing auxiliary AI (constructing).</InstallConstructorCore.jobString>
+
+<InstallFarmerCore.label>install auxiliary AI (agricultural)</InstallFarmerCore.label>
+<InstallFarmerCore.description>Installs auxiliary AI (agricultural).</InstallFarmerCore.description>
+<InstallFarmerCore.jobString>Installing auxiliary AI (agricultural).</InstallFarmerCore.jobString>
+
+<InstallMinerCore.label>install auxiliary AI (mining)</InstallMinerCore.label>
+<InstallMinerCore.description>Installs auxiliary AI (mining).</InstallMinerCore.description>
+<InstallMinerCore.jobString>Installing auxiliary AI (mining).</InstallMinerCore.jobString>
+
+<InstallDoctorCore.label>install auxiliary AI (medical)</InstallDoctorCore.label>
+<InstallDoctorCore.description>Installs auxiliary AI (medical).</InstallDoctorCore.description>
+<InstallDoctorCore.jobString>Installing auxiliary AI (medical).</InstallDoctorCore.jobString>
+
+<InstallDiplomatCore.label>install auxiliary AI (diplomatic)</InstallDiplomatCore.label>
+<InstallDiplomatCore.description>Installs auxiliary AI (diplomatic).</InstallDiplomatCore.description>
+<InstallDiplomatCore.jobString>Installing auxiliary AI (diplomatic).</InstallDiplomatCore.jobString>
+
+<InstallAIPersonaCore.label>install AI persona core</InstallAIPersonaCore.label>
+<InstallAIPersonaCore.description>Installs AI persona core.</InstallAIPersonaCore.description>
+<InstallAIPersonaCore.jobString>Installing AI persona core.</InstallAIPersonaCore.jobString>
+
+</LanguageData>

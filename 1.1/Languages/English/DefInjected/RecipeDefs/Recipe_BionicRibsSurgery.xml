@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallMedicalRib.label>install medical rib replacement</InstallMedicalRib.label>
+<InstallMedicalRib.description>Installs a medical rib replacement.</InstallMedicalRib.description>
+<InstallMedicalRib.jobString>Installing a medical rib replacement.</InstallMedicalRib.jobString>
+
+<InstallDruggedRib.label>install drugged rib</InstallDruggedRib.label>
+<InstallDruggedRib.description>Installs a drugged rib.</InstallDruggedRib.description>
+<InstallDruggedRib.jobString>Installing a drugged rib.</InstallDruggedRib.jobString>
+
+<InstallAdrenalineRib.label>install adrenaline rib</InstallAdrenalineRib.label>
+<InstallAdrenalineRib.description>Installs an adrenaline rib.</InstallAdrenalineRib.description>
+<InstallAdrenalineRib.jobString>Installing an adrenaline rib.</InstallAdrenalineRib.jobString>
+
+<InstallPainkillerRib.label>install painkiller rib</InstallPainkillerRib.label>
+<InstallPainkillerRib.description>Installs a painkiller rib.</InstallPainkillerRib.description>
+<InstallPainkillerRib.jobString>Installing a painkiller rib.</InstallPainkillerRib.jobString>
+
+<InstallHeaterRib.label>install heating rib</InstallHeaterRib.label>
+<InstallHeaterRib.description>Installs a heating rib.</InstallHeaterRib.description>
+<InstallHeaterRib.jobString>Installing a heating rib.</InstallHeaterRib.jobString>
+
+<InstallCoolerRib.label>install cooling rib</InstallCoolerRib.label>
+<InstallCoolerRib.description>Installs a cooling rib.</InstallCoolerRib.description>
+<InstallCoolerRib.jobString>Installing a cooling rib.</InstallCoolerRib.jobString>
+
+</LanguageData>

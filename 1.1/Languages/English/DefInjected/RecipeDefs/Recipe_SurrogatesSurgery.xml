@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallSurrogateHeart.label>install surrogate heart</InstallSurrogateHeart.label>
+<InstallSurrogateHeart.description>Installs an surrogate heart.</InstallSurrogateHeart.description>
+<InstallSurrogateHeart.jobString>Installing surrogate heart.</InstallSurrogateHeart.jobString>
+
+<InstallSimpleProstheticHeart.label>install surrogate heart</InstallSimpleProstheticHeart.label>
+<InstallSimpleProstheticHeart.description>Installs an surrogate heart.</InstallSimpleProstheticHeart.description>
+<InstallSimpleProstheticHeart.jobString>Installing surrogate heart.</InstallSimpleProstheticHeart.jobString>
+
+<InstallSurrogateLung.label>install surrogate lung</InstallSurrogateLung.label>
+<InstallSurrogateLung.description>Installs surrogate lung.</InstallSurrogateLung.description>
+<InstallSurrogateLung.jobString>Installing surrogate lung.</InstallSurrogateLung.jobString>
+
+<InstallSurrogateStomach.label>install surrogate stomach</InstallSurrogateStomach.label>
+<InstallSurrogateStomach.description>Installs a surrogate stomach.</InstallSurrogateStomach.description>
+<InstallSurrogateStomach.jobString>Installing surrogate stomach.</InstallSurrogateStomach.jobString>
+
+<InstallSurrogateLiver.label>install surrogate liver</InstallSurrogateLiver.label>
+<InstallSurrogateLiver.description>Installs a surrogate liver.</InstallSurrogateLiver.description>
+<InstallSurrogateLiver.jobString>Installing surrogate liver.</InstallSurrogateLiver.jobString>
+
+<InstallSurrogateKidney.label>install surrogate kidney</InstallSurrogateKidney.label>
+<InstallSurrogateKidney.description>Installs a surrogate kidney.</InstallSurrogateKidney.description>
+<InstallSurrogateKidney.jobString>Installing surrogate kidney.</InstallSurrogateKidney.jobString>
+
+<InstallBrainStimulator.label>install brain stimulator</InstallBrainStimulator.label>
+<InstallBrainStimulator.description>Installs brain stimulator.</InstallBrainStimulator.description>
+<InstallBrainStimulator.jobString>Installing brain stimulator.</InstallBrainStimulator.jobString>
+
+<RemoveBrainStimulator.label>remove brain stimulator</RemoveBrainStimulator.label>
+<RemoveBrainStimulator.description>Removes brain stimulator.</RemoveBrainStimulator.description>
+<RemoveBrainStimulator.jobString>Removing brain stimulator.</RemoveBrainStimulator.jobString>
+<RemoveBrainStimulator.successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</RemoveBrainStimulator.successfullyRemovedHediffMessage>
+
+</LanguageData>

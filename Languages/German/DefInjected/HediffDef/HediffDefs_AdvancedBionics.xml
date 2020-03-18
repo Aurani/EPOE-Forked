@@ -8,7 +8,10 @@
 	<AdvancedBionicEar.label>Verbessertes bionisches Ohr</AdvancedBionicEar.label>
 	<AdvancedPowerArm.label>Verbesserter Powerarm</AdvancedPowerArm.label>
 	<AdvancedBionicLeg.label>Verbessertes bionisches Bein</AdvancedBionicLeg.label>
+	
 	<AdvancedBionicArm.label>Verbesserter bionischer Arm</AdvancedBionicArm.label>
+	<AdvancedBionicArm.description>Installierter erweiterter bionischer Arm</AdvancedBionicArm.description>
+
 	<AdvancedBionicEye.label>Verbessertes bionisches Auge</AdvancedBionicEye.label>
 	
 </LanguageData>

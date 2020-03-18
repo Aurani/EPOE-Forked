@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<GoldenEye.label>golden eye</GoldenEye.label>
+<GoldenEye.description>An installed golden eye.</GoldenEye.description>
+
+<LightReceptor.label>light receptor</LightReceptor.label>
+<LightReceptor.description>An installed light receptor.</LightReceptor.description>
+
+<SimpleSpine.label>replacement spine</SimpleSpine.label>
+<SimpleSpine.description>An installed simple replacement spine.</SimpleSpine.description>
+
+<SimpleProstheticHand.label>prosthetic hand</SimpleProstheticHand.label>
+<SimpleProstheticHand.description>An installed prosthetic hand.</SimpleProstheticHand.description>
+<SimpleProstheticHand.comps.0.tools.0.label>fist</SimpleProstheticHand.comps.0.tools.0.label>
+
+<SimpleProstheticFoot.label>prosthetic foot</SimpleProstheticFoot.label>
+<SimpleProstheticFoot.description>An installed prosthetic foot.</SimpleProstheticFoot.description>
+
+<SimpleProstheticFinger.label>prosthetic finger</SimpleProstheticFinger.label>
+<SimpleProstheticFinger.labelNoun>a prosthetic finger</SimpleProstheticFinger.labelNoun>
+<SimpleProstheticFinger.description>An installed prosthetic finger.</SimpleProstheticFinger.description>
+
+<SimpleProstheticToe.label>prosthetic toe</SimpleProstheticToe.label>
+<SimpleProstheticToe.labelNoun>a prosthetic toe</SimpleProstheticToe.labelNoun>
+<SimpleProstheticToe.description>An installed prosthetic toe.</SimpleProstheticToe.description>
+
+<HydraulicJaw.label>hydraulic jaw</HydraulicJaw.label>
+<HydraulicJaw.description>An installed hydraulic jaw.</HydraulicJaw.description>
+
+<ArtificialNose.label>artificial nose</ArtificialNose.label>
+<ArtificialNose.description>An installed artificial nose.</ArtificialNose.description>
+
+<ReplacementRadius.label>replacement radius</ReplacementRadius.label>
+<ReplacementRadius.description>An installed replacement radius.</ReplacementRadius.description>
+
+<EPOE_ScytherBlade.label>scyther blade</EPOE_ScytherBlade.label>
+<EPOE_ScytherBlade.description>An installed scyther blade.</EPOE_ScytherBlade.description>
+
+</LanguageData>

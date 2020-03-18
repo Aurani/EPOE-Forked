@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="EPIA_RecipeUpgradeAdvanced" ParentName="RecipeAdvancedProsthesis"  Abstract="True">
+		<workAmount>14000</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>CreateAdvancedBionicEye</defName>
+		<label>assemble advanced bionic eye</label>
+		<description>Upgrade bionic eye into advanced bionic eye.</description>
+		<jobString>Upgrading bionic eye.</jobString>
+		<products>
+			<AdvancedBionicEye>1</AdvancedBionicEye>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicEye</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>CreateAdvancedBionicArm</defName>
+		<label>assemble advanced bionic arm</label>
+		<description>Upgrade bionic arm into advanced bionic arm.</description>
+		<jobString>Upgrading bionic arm.</jobString>
+		<products>
+			<AdvancedBionicArm>1</AdvancedBionicArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicArm</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>CreateAdvancedBionicLeg</defName>
+		<label>assemble advanced bionic leg</label>
+		<description>Upgrade bionic leg into advanced bionic leg.</description>
+		<jobString>Upgrading bionic leg.</jobString>
+		<products>
+			<AdvancedBionicLeg>1</AdvancedBionicLeg>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicLeg</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>CreateAdvancedBionicSpine</defName>
+		<label>assemble advanced bionic spine</label>
+		<description>Upgrade bionic spine into advanced bionic spine.</description>
+		<jobString>Upgrading bionic spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicSpine</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AdvancedBionicSpine>1</AdvancedBionicSpine>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>CreateAdvancedBionicEar</defName>
+		<label>assemble advanced bionic ear</label>
+		<description>Upgrade bionic ear into advanced bionic ear.</description>
+		<jobString>Upgrading bionic ear.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicEar</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AdvancedBionicEar>1</AdvancedBionicEar>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>CreateAdvancedBionicHand</defName>
+		<label>assemble advanced bionic hand</label>
+		<description>Upgrade bionic hand into advanced bionic hand.</description>
+		<jobString>Upgrading bionic hand.</jobString>
+		<products>
+			<AdvancedBionicHand>1</AdvancedBionicHand>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicHand</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicHand</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>CreateAdvancedBionicFoot</defName>
+		<label>assemble advanced bionic foot</label>
+		<description>Upgrade bionic foot into advanced bionic foot.</description>
+		<jobString>Upgrading bionic foot.</jobString>
+		<products>
+			<AdvancedBionicFoot>1</AdvancedBionicFoot>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicFoot</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicFoot</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>EPIA_UpgradeAdvancedBionicFinger</defName>
+		<label>assemble advanced bionic finger</label>
+		<description>Upgrade bionic finger into advanced bionic finger.</description>
+		<jobString>Upgrading bionic finger.</jobString>
+		<workAmount>2300</workAmount>
+		<products>
+			<AdvancedBionicFinger>1</AdvancedBionicFinger>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicFinger</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicFinger</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>EPIA_UpgradeAdvancedBionicToe</defName>
+		<label>assemble advanced bionic toe</label>
+		<description>Upgrade bionic toe into advanced bionic toe.</description>
+		<jobString>Upgrading bionic toe.</jobString>
+		<workAmount>2300</workAmount>
+		<products>
+			<AdvancedBionicToe>1</AdvancedBionicToe>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicToe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicToe</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>CreateAdvancedBionicJaw</defName>
+		<label>assemble advanced bionic jaw</label>
+		<description>Upgrade bionic jaw into advanced bionic jaw.</description>
+		<jobString>Upgrading bionic jaw.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicJaw</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AdvancedBionicJaw>1</AdvancedBionicJaw>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>CreateAdvancedPowerArm</defName>
+		<label>assemble advanced power arm</label>
+		<description>Upgrade bionic power arm into advanced bionic power arm.</description>
+		<jobString>Upgrading power arm.</jobString>
+		<products>
+			<AdvancedPowerArm>1</AdvancedPowerArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PowerArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PowerArm</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>
