@@ -1,3 +1,36 @@
+3.19 (18.3.2020)
+* Description correction and adjustments.
+* English language folder located in 1.1 folder, now contains all the description tags that can be translated. Can use as the format to go through with translating into other languages.
+* Language additions/updates will be primarily focused for 1.1 version.
+
+3.18 (13.3.2020)
+* Further overhaul of foundation codes, allowing smaller and simpler patches for later planned EPOE-Forked expansion modules to achieve same effects.
+* Reworked concept of smelting unwanted prosthesis into scrapping unwanted prosthesis prosthesis.
+* Due to the newer overhaul, the term to scrap and disassembling unwanted prosthesis sounds more fitting as it accommodates for non-metallic prosthesis. Also more simpler and a lot less issues to smooth out.
+* With above change, the recipe to scrap prosthesis is now moved to both Prosthetic workbench and machining bench.
+* EPOE-Forked's Brain Surgery will no longer reach out to affect other surgeries that operates on the brain. Keeping it within EPOE-Forked as an effort to reduce confusion.
+* Work required have been set to match with vanilla's. Prosthetic tier however is reduced slightly from vanilla, rather cut to a third of vanilla values.
+* Overall work amount to make a bionic tier item, with the required Prosthetic tier item's work amount taken into account, will total up the same as vanilla.
+
+3.17 (8.3.2020)
+* Overhaul of the foundation codes for both 1.0 and 1.1.
+* Foundation now allow easier and smoother additions for later planned EPOE-Forked expansion modules.
+* Some redundant recipe defs capable of being recycled and actively used if certain optional mods are active.
+* Surrogate and Synthetic organ material costs changed to match their tech tier.
+* Research required to unlock recipe to dismantle AI subpersona core into 5 MA-AI Chips have been corrected to require Advanced Fabrication. This was meant to be the "lower tech" route to obtaining MA-AI chips.
+* Mincing natural body parts now became more generic and covers the entire natural body part category, so it can include modded ones.
+* Ability to smelt unwanted prosthesis to get some materials back.
+* Brain Surgery no longer needed for removing Psychic Amplifiers (Royalty DLC).
+
+3.16 (5.3.2020)
+* Fixed mismatched material costs in 1.1 version
+* 1.0 version foundation restructured slightly. There should be no visible changes other than work amount matching 1.1 version.
+* Synthetic Tissue now needs 5 Neutroamine
+* Brain Surgery research now requires Microelectronics research
+* Rib Replacement research now requires Medicine production research and increased from 300 to 500 research cost.
+* One of MA-AI Chip research requirements changed. Vitals Monitor is now needed instead of Starflight Basic
+* Improved reflex on hands from Instinct Optimizer, reduced Global Work Speed from +10% to +5%. It is already powerful enough with a -7.5% Aim delay alongside other bonuses.
+
 3.15 (29.2.2020)
 * Corrected the combat stats of the prosthesis.
 * All work amount have been reverted on prosthesis crafting.
