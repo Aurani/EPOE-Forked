@@ -3,77 +3,34 @@
 
 	<RecipeDef>
 		<defName>MinceOrgans</defName>
-		<label>mince organs</label>
-		<description>Minces human organs to obtain edible meat. Makes great prison meals.</description>
+		<label>mince natural body parts</label>
+		<description>Minces natural body parts to obtain edible meat.</description>
 		<jobString>Butchering.</jobString>
 		<workAmount>250</workAmount>
-		<recipeUsers>
-			<li>TableButcher</li>
-		</recipeUsers>
 		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>ButcherFlesh</effectWorking>
 		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<recipeUsers>
+			<li>TableButcher</li>
+		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Heart</li>
-						<li>Lung</li>
-						<li>Stomach</li>
-						<li>Liver</li>
-						<li>Kidney</li>
-					</thingDefs>
+					<categories>
+						<li>BodyPartsNatural</li>
+					</categories>
 				</filter>
 				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Heart</li>
-				<li>Lung</li>
-				<li>Stomach</li>
-				<li>Liver</li>
-				<li>Kidney</li>
-			</thingDefs>
+			<categories>
+				<li>BodyPartsNatural</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
 			<Meat_Human>10</Meat_Human>
-		</products>
-	</RecipeDef>
-
-	<RecipeDef>
-		<defName>MinceLimbs</defName>
-		<label>mince limbs</label>
-		<description>Minces human limbs to obtain edible meat. Watch out for toenails.</description>
-		<jobString>Butchering.</jobString>
-		<workAmount>300</workAmount>
-		<recipeUsers>
-			<li>TableButcher</li>
-		</recipeUsers>
-		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
-		<workSkill>Cooking</workSkill>
-		<effectWorking>ButcherFlesh</effectWorking>
-		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Arm</li>
-						<li>Leg</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Arm</li>
-				<li>Leg</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Meat_Human>20</Meat_Human>
 		</products>
 	</RecipeDef>
 

@@ -5,7 +5,7 @@
 		<defName>Smelt_EPOE_DamagedScytherBlade</defName>
 		<label>smelt damaged scyther blade</label>
 		<description>Use heat and strong electromagnets to extract useful metal from a damaged scyther blade.</description>
-		<jobString>Smelting metal from slag.</jobString>
+		<jobString>Smelting damaged scyther blade.</jobString>
 		<workAmount>700</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
@@ -32,6 +32,54 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>EPIA_ScrapProsthesis</defName>
+		<label>disassemble prosthesis</label>
+		<description>Scrap and disassemble unwanted prosthesis for materials.</description>
+		<jobString>Disassembling prosthesis.</jobString>
+		<workAmount>300</workAmount>
+		<workSpeedStat>ButcheryMechanoidSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>ButcherMechanoid</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
+		<recipeUsers>
+			<li>TableMachining</li>
+			<li>TableSimpleProsthetic</li>
+		</recipeUsers>
+		<specialProducts>
+			<li>Smelted</li>
+		</specialProducts>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>BodyPartsProsthetic</li>
+						<li>BodyPartsBionic</li>
+						<li>BodyPartsUltra</li>
+						<li>EPIA_OrganicOptimizer</li>
+						<li>EPOE_Redundancy</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>BodyPartsProsthetic</li>
+				<li>BodyPartsBionic</li>
+				<li>BodyPartsUltra</li>
+				<li>EPIA_OrganicOptimizer</li>
+				<li>EPOE_Redundancy</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>BodyPartsProsthetic</li>
+				<li>EPOE_Redundancy</li>
+			</categories>
+		</defaultIngredientFilter>
+	</RecipeDef>
 
 	<RecipeDef>
 		<defName>Make_EPOE_MAAI_Chip_UseAICore</defName>
@@ -45,7 +93,7 @@
 		<skillRequirements>
 			<Crafting>10</Crafting>
 		</skillRequirements>
-		<researchPrerequisite>EPOE_MAAIChip</researchPrerequisite>
+		<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<recipeUsers>
 			<li>FabricationBench</li>
