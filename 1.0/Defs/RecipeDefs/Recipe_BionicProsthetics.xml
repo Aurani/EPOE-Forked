@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<RecipeDef Name="EPOESurgeryBionic" ParentName="SurgeryFlesh" Abstract="True">
+	<RecipeDef Name="EPIASurgeryBionic" ParentName="SurgeryFlesh" Abstract="True">
 		<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
 		<skillRequirements>
 			<Medicine>5</Medicine>
@@ -13,7 +13,7 @@
 
 	<!-- New EPOE body parts -->
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallBionicHand</defName>
 		<label>install bionic hand</label>
 		<description>Installs bionic hand.</description>
@@ -52,7 +52,7 @@
 		<addsHediff>BionicHand</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallBionicFoot</defName>
 		<label>install bionic foot</label>
 		<description>Installs bionic foot.</description>
@@ -91,7 +91,7 @@
 		<addsHediff>BionicFoot</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallBionicFinger</defName>
 		<label>install bionic finger</label>
 		<description>Installs bionic finger.</description>
@@ -130,7 +130,7 @@
 		<addsHediff>BionicFinger</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallBionicToe</defName>
 		<label>install bionic toe</label>
 		<description>Installs bionic toe.</description>
@@ -169,12 +169,12 @@
 		<addsHediff>BionicToe</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallBionicJaw</defName>
-		<label>install bionic jaw implant</label>
-		<description>Installs a bionic jaw implant.</description>
+		<label>install bionic jaw</label>
+		<description>Installs a bionic jaw.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing a bionic jaw implant.</jobString>
+		<jobString>Installing a bionic jaw.</jobString>
 		<workAmount>2000</workAmount>
 		<ingredients>
 			<li>
@@ -208,12 +208,12 @@
 		<addsHediff>BionicJaw</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallSilentJaw</defName>
-		<label>install silent jaw implant</label>
-		<description>Installs a silent jaw implant.</description>
+		<label>install silent jaw</label>
+		<description>Installs a silent jaw.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing a silent jaw implant.</jobString>
+		<jobString>Installing a silent jaw.</jobString>
 		<workAmount>2000</workAmount>
 		<ingredients>
 			<li>
@@ -247,7 +247,7 @@
 		<addsHediff>SilentJaw</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallPowerArm</defName>
 		<label>install power arm</label>
 		<description>Installs power arm.</description>
@@ -286,7 +286,7 @@
 		<addsHediff>PowerArm</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallMedicalRib</defName>
 		<label>install medical rib replacement</label>
 		<description>Installs a medical rib replacement.</description>
@@ -325,7 +325,7 @@
 		<addsHediff>MedicalRib</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallDruggedRib</defName>
 		<label>install drugged rib</label>
 		<description>Installs a drugged rib.</description>
@@ -364,7 +364,7 @@
 		<addsHediff>DruggedRib</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallAdrenalineRib</defName>
 		<label>install adrenaline rib</label>
 		<description>Installs an adrenaline rib.</description>
@@ -403,7 +403,7 @@
 		<addsHediff>AdrenalineRib</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallPainkillerRib</defName>
 		<label>install painkiller rib</label>
 		<description>Installs a painkiller rib.</description>
@@ -442,7 +442,7 @@
 		<addsHediff>PainkillerRib</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallHeaterRib</defName>
 		<label>install heating rib</label>
 		<description>Installs a heating rib.</description>
@@ -481,7 +481,7 @@
 		<addsHediff>HeaterRib</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBionic">
+	<RecipeDef ParentName="EPIASurgeryBionic">
 		<defName>InstallCoolerRib</defName>
 		<label>install cooling rib</label>
 		<description>Installs a cooling rib.</description>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<RecipeDef Name="EPOESurgeryAdvancedBionic" ParentName="SurgeryFlesh" Abstract="True">
+	<RecipeDef Name="EPIASurgeryAdvancedBionic" ParentName="SurgeryFlesh" Abstract="True">
 		<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
 		<skillRequirements>
 			<Medicine>7</Medicine>
@@ -13,7 +13,7 @@
 
 	<!-- New EPOE body parts -->
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicEye</defName>
 		<label>install advanced bionic eye</label>
 		<description>Installs advanced bionic eye.</description>
@@ -55,7 +55,7 @@
 		<addsHediff>AdvancedBionicEye</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicArm</defName>
 		<label>install advanced bionic arm</label>
 		<description>Installs advanced bionic arm.</description>
@@ -94,7 +94,7 @@
 		<addsHediff>AdvancedBionicArm</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicLeg</defName>
 		<label>install advanced bionic leg</label>
 		<description>Installs advanced bionic leg.</description>
@@ -133,9 +133,9 @@
 		<addsHediff>AdvancedBionicLeg</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicSpine</defName>
-		<label>install advanced bionic spine implant</label>
+		<label>install advanced bionic spine</label>
 		<description>Installs advanced bionic spine.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing advanced bionic spine.</jobString>
@@ -172,7 +172,7 @@
 		<addsHediff>AdvancedBionicSpine</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicEar</defName>
 		<label>install advanced bionic ear implant</label>
 		<description>Installs an advanced bionic ear implant.</description>
@@ -211,7 +211,7 @@
 		<addsHediff>AdvancedBionicEar</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicHand</defName>
 		<label>install advanced bionic hand</label>
 		<description>Installs advanced bionic hand.</description>
@@ -250,7 +250,7 @@
 		<addsHediff>AdvancedBionicHand</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicFoot</defName>
 		<label>install advanced bionic foot</label>
 		<description>Installs bionic foot.</description>
@@ -289,7 +289,7 @@
 		<addsHediff>AdvancedBionicFoot</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicFinger</defName>
 		<label>install advanced bionic finger</label>
 		<description>Installs advanced bionic finger.</description>
@@ -328,7 +328,7 @@
 		<addsHediff>AdvancedBionicFinger</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicToe</defName>
 		<label>install advanced bionic toe</label>
 		<description>Installs advanced bionic toe.</description>
@@ -367,7 +367,7 @@
 		<addsHediff>AdvancedBionicToe</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallAdvancedBionicJaw</defName>
 		<label>install advanced bionic jaw implant</label>
 		<description>Installs advanced bionic jaw.</description>
@@ -406,7 +406,7 @@
 		<addsHediff>AdvancedBionicJaw</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallAdvancedPowerArm</defName>
 		<label>install advanced power arm</label>
 		<description>Installs advanced power arm.</description>
@@ -445,7 +445,7 @@
 		<addsHediff>AdvancedPowerArm</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryAdvancedBionic">
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
 		<defName>InstallExoskeletonSuit</defName>
 		<label>install exoskeleton suit</label>
 		<description>Installs exoskeleton suit.</description>

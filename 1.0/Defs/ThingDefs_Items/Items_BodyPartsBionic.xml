@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+	<ThingDef Name="EPIA_UpgradeBodyPartBionicBase" ParentName="BodyPartBionicBase" Abstract="True">
+		<recipeMaker>
+			<recipeUsers Inherit="False" />
+		</recipeMaker>
+	</ThingDef>
+
 	<!-- Vanilla overwrites, for now. -->
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicEye</defName>
 		<label>bionic eye</label>
 		<description>Advanced piece of technology made not only to fully replace natural eye, but also to give supernatural vision abilities.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<LightReceptor>1</LightReceptor>
+			<Steel>35</Steel>
 			<Plasteel>45</Plasteel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
 		<tradeTags>
@@ -25,18 +30,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicLeg</defName>
 		<label>bionic leg</label>
 		<description>Bionic leg uses cutting-edge technology to give its owner extreme walking comfort and strength.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleProstheticLeg>1</SimpleProstheticLeg>
+			<Steel>55</Steel>
 			<Plasteel>60</Plasteel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<statBases>
-		  <WorkToMake>8000</WorkToMake>
 		  <Mass>8</Mass>
 		</statBases>
 		<tradeTags>
@@ -47,18 +51,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicArm</defName>
 		<label>bionic arm</label>
 		<description>One of the most sophisticated arm replacements. Gives extreme strength to its user.</description>
 		<techLevel>Spacer</techLevel>
 		<costList> 
-			<SimpleProstheticArm>1</SimpleProstheticArm>
+			<Steel>55</Steel>
 			<Plasteel>60</Plasteel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>5</Mass>
 		</statBases>
 		<tradeTags>
@@ -69,18 +72,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicSpine</defName>
 		<label>bionic spine</label>
 		<description>This light and impressing device can replace a damaged spine.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleSpine>1</SimpleSpine>
+			<Steel>55</Steel>
 			<Plasteel>60</Plasteel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<statBases>
-		  <WorkToMake>8000</WorkToMake>
 		  <Mass>2</Mass>
 		</statBases>
 		<tradeTags>
@@ -91,18 +93,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicEar</defName>
 		<label>bionic ear</label>
 		<description>An advanced device that expands upon the basic functions of the ear drum.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<CochlearImplant>1</CochlearImplant>
+			<Steel>20</Steel>
 			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<statBases>
-		  <WorkToMake>8000</WorkToMake>
 		  <Mass>0.3</Mass>
 		</statBases>
 		<tradeTags>
@@ -113,9 +114,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<!-- I blame MSE for making me do this overwrite -->
-
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>PowerClaw</defName>
 		<label>power claw</label>
 		<description>Powerful hand replacement consisting of three deadly claws.</description>
@@ -126,7 +125,6 @@
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>4</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -134,90 +132,19 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<!-- Redundant overwriting. For now. -->
-
-	<ThingDef Name="EPOE_ObsoleteSynthetic" ParentName="EPOESyntheticBase" Abstract="True">
-		<graphicData>
-			<texPath>Things/Item/Health/HealthItemBionic</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.80</drawSize>
-		</graphicData>
-	</ThingDef>
-
-	<ThingDef ParentName="EPOE_ObsoleteSynthetic">
-		<defName>BionicHeart</defName>
-		<label>bionic heart</label>
-		<description>Redundant item with EPOE mod. It can be treated as a Synthetic Heart. If the bill to craft this item is left in the fabrication bench after fresh installing EPOE, recommend removing it. A method was left to not break your fabrication bench and allowing the recipe to exist for player self-debug purposes.</description>
-		<techLevel>Spacer</techLevel>
-		<costList>
-			<SimpleProstheticHeart>1</SimpleProstheticHeart>
-			<Hyperweave>20</Hyperweave>
-			<Neutroamine>5</Neutroamine>
-			<ComponentSpacer>1</ComponentSpacer>
-		</costList>
-		<statBases>
-			<WorkToMake>7500</WorkToMake>
-			<Mass>2</Mass>
-		</statBases>
-		<tradeability>None</tradeability>
-		<generateAllowChance>0</generateAllowChance>
-		<thingCategories Inherit="False">
-			<li>EPOE_Redundancy</li>
-		</thingCategories>
-		<recipeMaker>
-			<factionPrerequisiteTags>
-				<li>EPOE_Redundancy_Debug</li>
-			</factionPrerequisiteTags>
-			<recipeUsers Inherit="False" />
-		</recipeMaker>
-		<techHediffsTags Inherit="False"></techHediffsTags>
-		<tradeTags Inherit="False"></tradeTags>
-	</ThingDef>
-
-	<ThingDef ParentName="EPOE_ObsoleteSynthetic">
-		<defName>BionicStomach</defName>
-		<label>bionic stomach</label>
-		<description>Redundant item with EPOE mod. It can be treated as a Synthetic Stomach. If the bill to craft this item is left in the fabrication bench after fresh installing EPOE, recommend removing it. A method was left to not break your fabrication bench and allowing the recipe to exist for player self-debug purposes.</description>
-		<techLevel>Spacer</techLevel>
-		<costList>
-			<SurrogateStomach>1</SurrogateStomach>
-			<Hyperweave>15</Hyperweave>
-			<Neutroamine>5</Neutroamine>
-			<ComponentSpacer>1</ComponentSpacer>
-		</costList>
-		<statBases>
-			<WorkToMake>7500</WorkToMake>
-			<Mass>2</Mass>
-		</statBases>
-		<tradeability>None</tradeability>
-		<generateAllowChance>0</generateAllowChance>
-		<thingCategories Inherit="False">
-			<li>EPOE_Redundancy</li>
-		</thingCategories>
-		<recipeMaker>
-			<factionPrerequisiteTags>
-				<li>EPOE_Redundancy_Debug</li>
-			</factionPrerequisiteTags>
-			<recipeUsers Inherit="False" />
-		</recipeMaker>
-		<techHediffsTags Inherit="False"></techHediffsTags>
-		<tradeTags Inherit="False"></tradeTags>
-	</ThingDef>
-
 	<!-- New EPOE body parts -->
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicHand</defName>
 		<label>bionic hand</label>
 		<description>Allows the user to perform tasks even faster than with regular hands.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleProstheticHand>1</SimpleProstheticHand>
+			<Steel>35</Steel>
 			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
 		<tradeTags>
@@ -229,18 +156,17 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicFoot</defName>
 		<label>bionic foot</label>
 		<description>This prosthesis grants faster walking without stumbling all the time.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleProstheticFoot>1</SimpleProstheticFoot>
+			<Steel>35</Steel>
 			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
 		<tradeTags>
@@ -251,18 +177,18 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicFinger</defName>
 		<label>bionic finger</label>
 		<description>A replacement finger allowing for slightly faster and more precise movement.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleProstheticFinger>1</SimpleProstheticFinger>
+			<Steel>7</Steel>
 			<Plasteel>7</Plasteel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
+			<WorkToMake>4300</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 		<tradeTags>
@@ -273,18 +199,18 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicToe</defName>
 		<label>bionic toe</label>
 		<description>A replacement toe which lets the wearer grip the ground slightly better.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleProstheticToe>1</SimpleProstheticToe>
+			<Steel>7</Steel>
 			<Plasteel>7</Plasteel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
+			<WorkToMake>4300</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 		<tradeTags>
@@ -295,18 +221,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicJaw</defName>
 		<label>bionic jaw implant</label>
 		<description>Aside from a strong set of teeth, this also comes with a voice modulator.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<HydraulicJaw>1</HydraulicJaw>
+			<Steel>45</Steel>
 			<Plasteel>40</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
 		<tradeTags>
@@ -317,18 +242,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>SilentJaw</defName>
 		<label>silent jaw implant</label>
 		<description>This version of the bionic jaw comes without a voice modulator, useful for abrasive patients.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<HydraulicJaw>1</HydraulicJaw>
+			<Steel>45</Steel>
 			<Plasteel>30</Plasteel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
 		<tradeTags>
@@ -339,18 +263,19 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>PowerArm</defName>
 		<label>power arm</label>
 		<description>Unparalleled strength and dexterity, and with retractable claws. This is the ultimate arm upgrade!</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<BionicArm>1</BionicArm>
-			<PowerClaw>1</PowerClaw>
-			<Plasteel>35</Plasteel>
+			<ScytherBlade>3</ScytherBlade>
+			<Steel>55</Steel>
+			<Plasteel>120</Plasteel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>6</Mass>
 		</statBases>
 		<tradeTags>
@@ -361,27 +286,57 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef Name="BodyPartBionicRibBase" ParentName="BodyPartBionicBase" Abstract="True">
+	<!-- Rib replacement -->
+
+	<ThingDef Name="EPIA_BodyPartBlankRibBase" ParentName="BodyPartBionicBase" Abstract="True">
+		<graphicData>
+			<texPath>Things/Item/BodyPart/SimplePart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 		<recipeMaker>
+			<recipeUsers>
+				<li>TableSimpleProsthetic</li>
+			</recipeUsers>
 			<researchPrerequisite>RibReplacements</researchPrerequisite>
 		</recipeMaker>
-		<tradeTags>
-			<li>BionicProstheses</li>
-		</tradeTags>
+		<statBases>
+			<WorkToMake>17000</WorkToMake>
+		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicRibBase">
+	<ThingDef Name="EPIA_BodyPartBionicRibBase" ParentName="BodyPartBionicBase" Abstract="True">
+		<recipeMaker>
+			<recipeUsers Inherit="False" />
+			<researchPrerequisite>RibReplacements</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIA_BodyPartBlankRibBase">
+		<defName>SimpleRib</defName>
+		<label>blank rib replacement</label>
+		<description>A hollow artificial rib, with a tiny dispenser system. Ready to be filled to complete a rib replacement implant of choice.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>MedicalRib</defName>
 		<label>medical rib replacement</label>
 		<description>An artificial rib, equipped with little blood filters and antibiotics-dispensers to keep the user healthy.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Neutroamine>3</Neutroamine>
 			<MedicineUltratech>1</MedicineUltratech>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -389,18 +344,18 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicRibBase">
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>DruggedRib</defName>
 		<label>drugged rib replacement</label>
 		<description>An artificial rib, equipped with little flake-dispensers to keep the user happy. Synthetic liver highly recommended.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Neutroamine>3</Neutroamine>
 			<Flake>10</Flake>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -408,18 +363,18 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicRibBase">
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>AdrenalineRib</defName>
 		<label>adrenaline rib replacement</label>
 		<description>An artificial rib, equipped with little adrenaline-dispensers to keep the user fit and awake.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Neutroamine>3</Neutroamine>
 			<Yayo>10</Yayo>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -427,18 +382,18 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicRibBase">
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>PainkillerRib</defName>
 		<label>painkiller rib replacement</label>
 		<description>An artificial rib, equipped with little morphine-dispensers to numb the user's pain. Side effects are respiratory ailments.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Neutroamine>3</Neutroamine>
 			<GoJuice>5</GoJuice>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -446,18 +401,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartBionicRibBase">
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>HeaterRib</defName>
 		<label>heating rib replacement</label>
 		<description>An artificial rib, containing a micro-reactor powered, heat inducing spiral to warm the body from the inside.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Plasteel>25</Plasteel>
+			<Steel>20</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -465,18 +419,17 @@
 		</techHediffsTags>
 	</ThingDef>
 	
-	<ThingDef ParentName="BodyPartBionicRibBase">
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>CoolerRib</defName>
 		<label>cooling rib replacement</label>
 		<description>An artificial rib with a micro coolant system, increasing the effectiveness of heat exchange via dermal exhausts.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Plasteel>25</Plasteel>
+			<Steel>20</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>

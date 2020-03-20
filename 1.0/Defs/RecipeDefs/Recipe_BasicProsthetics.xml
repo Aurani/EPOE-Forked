@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<RecipeDef Name="EPOESurgeryBasic" ParentName="SurgeryFlesh" Abstract="True">
+	<RecipeDef Name="EPIASurgeryBasic" ParentName="SurgeryFlesh" Abstract="True">
 		<surgerySuccessChanceFactor>1.4</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
 		<skillRequirements>
@@ -11,7 +11,7 @@
 
 	<!-- Vanilla overwrites, for now. -->
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallDenture</defName>
 		<label>install denture</label>
 		<description>Install a denture.</description>
@@ -53,7 +53,7 @@
 		<addsHediff>Denture</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallPegLeg</defName>
 		<label>install peg leg</label>
 		<description>Installs a wooden leg.</description>
@@ -92,7 +92,7 @@
 		<addsHediff>PegLeg</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallWoodenFoot</defName>
 		<label>install wooden foot</label>
 		<description>Installs a wooden foot.</description>
@@ -133,7 +133,7 @@
 
 	<!-- New EPOE body parts -->
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallEyePatch</defName>
 		<label>install eye patch</label>
 		<description>Installs eye patch.</description>
@@ -175,7 +175,7 @@
 		<addsHediff>EyePatch</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallSteelArm</defName>
 		<label>install steel arm</label>
 		<description>Installs steel arm.</description>
@@ -217,7 +217,7 @@
 		<addsHediff>SteelArm</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallHookHand</defName>
 		<label>install hook hand</label>
 		<description>Installs hook hand.</description>
@@ -259,7 +259,7 @@
 		<addsHediff>HookHand</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallBasicWoodenFinger</defName>
 		<label>install wooden finger</label>
 		<description>Installs wooden finger.</description>
@@ -301,7 +301,7 @@
 		<addsHediff>BasicWoodenFinger</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallBasicWoodenToe</defName>
 		<label>install wooden toe</label>
 		<description>Installs wooden toe.</description>
@@ -343,7 +343,7 @@
 		<addsHediff>BasicWoodenToe</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallEarBandage</defName>
 		<label>install ear bandage</label>
 		<description>Installs an ear bandage.</description>

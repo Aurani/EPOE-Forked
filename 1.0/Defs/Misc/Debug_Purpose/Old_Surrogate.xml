@@ -33,7 +33,7 @@
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 		<workSkill>Crafting</workSkill>
-		<workAmount>4500</workAmount>
+		<workAmount>5000</workAmount>
 		<skillRequirements>
 			<Crafting>7</Crafting>
 		</skillRequirements>
@@ -56,7 +56,7 @@
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
 		<jobString>Creating surrogate organ.</jobString>
 		<products>
-			<SurrogateHeart>1</SurrogateHeart>
+			<SimpleProstheticHeart>1</SimpleProstheticHeart>
 		</products>
 		<ingredients>
 			<li>
@@ -65,15 +65,15 @@
 						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>40</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Plasteel</li>
+						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>30</count>
 			</li>
 			<li>
 				<filter>
@@ -81,7 +81,7 @@
 						<li>Neutroamine</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -89,13 +89,13 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Cloth</li>
-				<li>Plasteel</li>
+				<li>Steel</li>
 				<li>Neutroamine</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -117,15 +117,15 @@
 						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Plasteel</li>
+						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -133,7 +133,7 @@
 						<li>Neutroamine</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -141,13 +141,13 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Cloth</li>
-				<li>Plasteel</li>
+				<li>Steel</li>
 				<li>Neutroamine</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -169,15 +169,15 @@
 						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Plasteel</li>
+						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -185,7 +185,7 @@
 						<li>Neutroamine</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -193,13 +193,13 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Cloth</li>
-				<li>Plasteel</li>
+				<li>Steel</li>
 				<li>Neutroamine</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -221,15 +221,15 @@
 						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Plasteel</li>
+						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -237,7 +237,7 @@
 						<li>Neutroamine</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -245,13 +245,13 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Cloth</li>
-				<li>Plasteel</li>
+				<li>Steel</li>
 				<li>Neutroamine</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -273,15 +273,15 @@
 						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Plasteel</li>
+						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -289,7 +289,7 @@
 						<li>Neutroamine</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -297,14 +297,67 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Cloth</li>
-				<li>Plasteel</li>
+				<li>Steel</li>
 				<li>Neutroamine</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPOEDebugRecipeSurrogate">
+		<defName>CreateBrainStimulator</defName>
+		<label>make brain stimulator</label>
+		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
+		<jobString>Creating surrogate organ.</jobString>
+		<workAmount>6500</workAmount>
+		<products>
+			<BrainStimulator>1</BrainStimulator>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+				<li>Neutroamine</li>
+				<li>Steel</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>

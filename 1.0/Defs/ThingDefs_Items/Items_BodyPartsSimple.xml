@@ -13,7 +13,6 @@
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
 			<Mass>8</Mass>
 		</statBases>
 		<tradeTags>
@@ -34,7 +33,6 @@
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
 			<Mass>5</Mass>
 		</statBases>
 		<tradeTags>
@@ -55,7 +53,6 @@
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
-		  <WorkToMake>5000</WorkToMake>
 		  <Mass>0.1</Mass>
 		</statBases>
 		<tradeTags>
@@ -64,46 +61,6 @@
 		<techHediffsTags>
 		  <li>Simple</li>
 		</techHediffsTags>
-	</ThingDef>
-
-	<!-- Redundant overwriting. For now. -->
-
-	<ThingDef Name="EPOE_ObsoleteSurrogate" ParentName="EPOESurrogateBase" Abstract="True">
-		<graphicData>
-			<texPath>Things/Item/Health/HealthItemProsthetic</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.80</drawSize>
-		</graphicData>
-	</ThingDef>
-
-	<ThingDef ParentName="EPOE_ObsoleteSurrogate">
-		<defName>SimpleProstheticHeart</defName>
-		<label>prosthetic heart</label>
-		<description>Redundant item with EPOE mod. It can be treated as a Surrogate Heart. If the bill to craft this item is left in the machining table after freshly installing EPOE, we recommend removing it. A method was left to not break your machining table and allowing the recipe to exist for player self-debug purposes.</description> 
-		<techLevel>Industrial</techLevel>
-		<costList>
-			<Cloth>40</Cloth>
-			<Plasteel>25</Plasteel>
-			<Neutroamine>5</Neutroamine>
-			<ComponentIndustrial>3</ComponentIndustrial>
-		</costList>
-		<statBases>
-			<WorkToMake>4500</WorkToMake>
-			<Mass>2</Mass>
-		</statBases>
-		<tradeability>None</tradeability>
-		<generateAllowChance>0</generateAllowChance>
-		<thingCategories Inherit="False">
-			<li>EPOE_Redundancy</li>
-		</thingCategories>
-		<recipeMaker>
-			<factionPrerequisiteTags>
-				<li>EPOE_Redundancy_Debug</li>
-			</factionPrerequisiteTags>
-			<recipeUsers Inherit="False" />
-		</recipeMaker>
-		<techHediffsTags Inherit="False"></techHediffsTags>
-		<tradeTags Inherit="False"></tradeTags>
 	</ThingDef>
 	
 	<!-- New EPOE body parts -->
@@ -117,7 +74,7 @@
 			<Gold>1</Gold>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
+			<WorkToMake>1500</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<tradeTags>
@@ -138,7 +95,6 @@
 			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<tradeTags>
@@ -159,7 +115,6 @@
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
-		  <WorkToMake>5000</WorkToMake>
 		  <Mass>4</Mass>
 		</statBases>
 		<tradeTags>
@@ -180,7 +135,6 @@
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
 		<tradeTags>
@@ -201,7 +155,6 @@
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
 		<tradeTags>
@@ -219,10 +172,9 @@
 		<techLevel>Industrial</techLevel>
 		<costList>
 			<Steel>7</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
+			<WorkToMake>2000</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 		<tradeTags>
@@ -240,10 +192,9 @@
 		<techLevel>Industrial</techLevel>
 		<costList>
 			<Steel>7</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
+			<WorkToMake>2000</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 		<tradeTags>
@@ -264,7 +215,6 @@
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
 		<tradeTags>
@@ -285,7 +235,6 @@
 			<Steel>30</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
 			<Mass>0.2</Mass>
 		</statBases>
 		<tradeTags>
@@ -305,7 +254,6 @@
 			<Plasteel>30</Plasteel>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<tradeTags>
@@ -318,14 +266,14 @@
 
 	<!-- Just to avoid errors with graphics mod that have poorly written patching methods. -->
 
-	<ThingDef Name="EPOE_ScytherBladeGraphics" ParentName="BodyPartProstheticBase" Abstract="True">
+	<ThingDef Name="EPIA_ScytherBladeGraphics" ParentName="BodyPartProstheticBase" Abstract="True">
 		<graphicData>
 			<texPath>Things/Item/BodyPart/BionicPart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingDef>
 	
-	<ThingDef ParentName="EPOE_ScytherBladeGraphics">
+	<ThingDef ParentName="EPIA_ScytherBladeGraphics">
 		<defName>ScytherBlade</defName>
 		<label>scyther blade</label>
 		<description>Hand replacement with a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</description>
@@ -337,31 +285,10 @@
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>SpecialWeapon</li>
-		</techHediffsTags>
-	</ThingDef>
-	
-	<ThingDef ParentName="BodyPartProstheticBase">
-		<defName>SimpleRib</defName>
-		<label>simple rib replacement</label>
-		<description>An artificial rib, and nothing more.</description>
-		<techLevel>Industrial</techLevel>
-		<costList>
-			<Plasteel>30</Plasteel>
-		</costList>
-		<statBases>
-			<WorkToMake>5000</WorkToMake>
-			<Mass>0.3</Mass>
-		</statBases>
-		<tradeTags>
-			<li>SimpleProstheses</li>
-		</tradeTags>
-		<techHediffsTags>
-			<li>Simple</li>
 		</techHediffsTags>
 	</ThingDef>
 

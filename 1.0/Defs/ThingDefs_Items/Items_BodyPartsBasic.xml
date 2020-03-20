@@ -6,6 +6,9 @@
 			<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+		</statBases>
 		<tradeTags>
 			<li>BasicProstheses</li>
 		</tradeTags>
@@ -38,7 +41,6 @@
 			<WoodLog>4</WoodLog>
 		</costList>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
 	</ThingDef>
@@ -62,7 +64,6 @@
 			<WoodLog>10</WoodLog>
 		</costList>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
 			<Mass>6</Mass>
 		</statBases>
 	</ThingDef>
@@ -86,7 +87,6 @@
 			<WoodLog>4</WoodLog>
 		</costList>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
 	</ThingDef>
@@ -123,7 +123,6 @@
 			<Steel>50</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
 			<Mass>6</Mass>
 		</statBases>
 	</ThingDef>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<RecipeDef Name="EPOESurgerySurrogate" ParentName="SurgeryFlesh" Abstract="True">
+	<RecipeDef Name="EPIASurgerySurrogate" ParentName="SurgeryFlesh" Abstract="True">
 		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
 		<skillRequirements>
 			<Medicine>5</Medicine>
@@ -11,12 +11,12 @@
 		</recipeUsers>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySurrogate">
-		<defName>InstallSurrogateHeart</defName>
+	<RecipeDef ParentName="EPIASurgerySurrogate">
+		<defName>InstallSimpleProstheticHeart</defName>
 		<label>install surrogate heart</label>
 		<description>Installs an surrogate heart.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing an artificial heart.</jobString>
+		<jobString>Installing surrogate heart.</jobString>
 		<workAmount>3700</workAmount>
 		<deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
 		<skillRequirements>
@@ -34,7 +34,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>SurrogateHeart</li>
+						<li>SimpleProstheticHeart</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -45,16 +45,16 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>SurrogateHeart</li>
+				<li>SimpleProstheticHeart</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
 			<li>Heart</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>SurrogateHeart</addsHediff>
+		<addsHediff>SimpleProstheticHeart</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySurrogate">
+	<RecipeDef ParentName="EPIASurgerySurrogate">
 		<defName>InstallSurrogateLung</defName>
 		<label>install surrogate lung</label>
 		<description>Installs surrogate lung.</description>
@@ -93,7 +93,7 @@
 		<addsHediff>SurrogateLung</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySurrogate">
+	<RecipeDef ParentName="EPIASurgerySurrogate">
 		<defName>InstallSurrogateStomach</defName>
 		<label>install surrogate stomach</label>
 		<description>Installs a surrogate stomach.</description>
@@ -133,7 +133,7 @@
 		<addsHediff>SurrogateStomach</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySurrogate">
+	<RecipeDef ParentName="EPIASurgerySurrogate">
 		<defName>InstallSurrogateLiver</defName>
 		<label>install surrogate liver</label>
 		<description>Installs a surrogate liver.</description>
@@ -173,7 +173,7 @@
 		<addsHediff>SurrogateLiver</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySurrogate">
+	<RecipeDef ParentName="EPIASurgerySurrogate">
 		<defName>InstallSurrogateKidney</defName>
 		<label>install surrogate kidney</label>
 		<description>Installs a surrogate kidney.</description>
@@ -210,6 +210,129 @@
 			<li>Kidney</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SurrogateKidney</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySurrogate">
+		<defName>InstallBrainStimulator</defName>
+		<label>install brain stimulator</label>
+		<description>Installs brain stimulator.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing brain stimulator.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BrainStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BrainStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BrainStimulator</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySurrogate">
+		<defName>RemoveBrainStimulator</defName>
+		<label>remove brain stimulator</label>
+		<description>Removes brain stimulator.</description>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<jobString>Removing brain stimulator.</jobString>
+		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</successfullyRemovedHediffMessage>
+		<workAmount>3700</workAmount>
+		<removesHediff>BrainStimulator</removesHediff>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		<disallowedThingDefs>
+			<li>MedicineHerbal</li>
+		</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Debug installation recipe -->
+
+	<RecipeDef ParentName="EPIASurgerySurrogate">
+		<defName>InstallSurrogateHeart</defName>
+		<label>install surrogate heart</label>
+		<description>Installs an surrogate heart.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing surrogate heart.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SurrogateHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticHeart</addsHediff>
 	</RecipeDef>
 
 </Defs>

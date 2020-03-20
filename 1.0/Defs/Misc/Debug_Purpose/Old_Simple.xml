@@ -457,7 +457,7 @@
 		</fixedIngredientFilter>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallArtificialPelvis</defName>
 		<label>install artifical pelvis</label>
 		<description>Installs artifical pelvis.</description>
@@ -488,7 +488,7 @@
 		<recipeUsers Inherit="False" />
 	</RecipeDef>
 	
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallArtificialClavicle</defName>
 		<label>install artifical clavicle</label>
 		<description>Installs artifical clavicle.</description>
@@ -519,7 +519,7 @@
 		<recipeUsers Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallSimpleRib</defName>
 		<label>install simple rib replacement</label>
 		<description>Installs a simple rib replacement.</description>

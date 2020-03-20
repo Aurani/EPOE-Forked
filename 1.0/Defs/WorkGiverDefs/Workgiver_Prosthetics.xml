@@ -3,7 +3,7 @@
 
 	<WorkGiverDef>
 		<defName>DoBillsBionicWorkbench</defName>
-		<label>Craft bionic prostheses</label>
+		<label>Craft bionic prosthesis</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Smithing</workType>
 		<priorityInType>100</priorityInType>
@@ -35,7 +35,7 @@
 
 	<WorkGiverDef>
 		<defName>DoBillsSimpleProstheticWorkbench</defName>
-		<label>Craft simple prostheses</label>
+		<label>Craft simple prosthesis</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Smithing</workType>
 		<priorityInType>85</priorityInType>
@@ -51,7 +51,7 @@
 
 	<WorkGiverDef>
 		<defName>DoBillsBasicProstheticWorkbench</defName>
-		<label>Craft basic prostheses</label>
+		<label>Craft basic prosthesis</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Smithing</workType>
 		<priorityInType>80</priorityInType>

@@ -41,30 +41,9 @@
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSynthetic">
-		<defName>BrainStimulator</defName>
-		<label>brain stimulator</label>
-		<hediffClass>Hediff_Implant</hediffClass>
-		<spawnThingOnRemoved>BrainStimulator</spawnThingOnRemoved>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<offset>0.7</offset>
-					</li>
-					<li>
-						<capacity>Consciousness</capacity>
-						<setMax>0.9</setMax>
-					</li>
-				</capMods>
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="addedPartSynthetic">
 		<defName>AIChip</defName>
 		<label>AI Chip</label>
-		<labelNoun>an AI chip </labelNoun>
+		<labelNoun>an AI chip</labelNoun>
 		<hediffClass>Hediff_Implant</hediffClass>
 		<spawnThingOnRemoved>AIChip</spawnThingOnRemoved>
 		<stages>
@@ -82,7 +61,18 @@
 			</li>
 		</stages>
 	</HediffDef>
-	
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>BionicHeart</defName>
+		<label>synthetic heart</label>
+		<labelNoun>a synthetic heart</labelNoun>
+		<spawnThingOnRemoved>BionicHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
 	<HediffDef ParentName="addedPartSynthetic">
 		<defName>SyntheticLung</defName>
 		<label>synthetic lung</label>
@@ -95,10 +85,10 @@
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSynthetic">
-		<defName>SyntheticStomach</defName>
+		<defName>BionicStomach</defName>
 		<label>synthetic stomach</label>
 		<labelNoun>a synthetic stomach</labelNoun>
-		<spawnThingOnRemoved>SyntheticStomach</spawnThingOnRemoved>
+		<spawnThingOnRemoved>BionicStomach</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1.2</partEfficiency>
@@ -127,37 +117,26 @@
 		</addedPartProps>
 	</HediffDef>
 
+	<!-- Redundant version of Synthetic Heart -->
+  
 	<HediffDef ParentName="addedPartSynthetic">
 		<defName>SyntheticHeart</defName>
 		<label>synthetic heart</label>
 		<labelNoun>a synthetic heart</labelNoun>
-		<spawnThingOnRemoved>SyntheticHeart</spawnThingOnRemoved>
+		<spawnThingOnRemoved>BionicHeart</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1.2</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 
-	<!-- Redundant Bionic Heart overwrite, copy into Synthetic Heart -->
-  
-	<HediffDef ParentName="addedPartSynthetic">
-		<defName>BionicHeart</defName>
-		<label>synthetic heart</label>
-		<labelNoun>a synthetic heart</labelNoun>
-		<spawnThingOnRemoved>SyntheticHeart</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-	</HediffDef>
-
-	<!-- Redundant Bionic Stomach overwrite, copy into Synthetic Stomach -->
+	<!-- Redundant version of Synthetic Stomach -->
 
 	<HediffDef ParentName="addedPartSynthetic">
-		<defName>BionicStomach</defName>
+		<defName>SyntheticStomach</defName>
 		<label>synthetic stomach</label>
 		<labelNoun>a synthetic stomach</labelNoun>
-		<spawnThingOnRemoved>SyntheticStomach</spawnThingOnRemoved>
+		<spawnThingOnRemoved>BionicStomach</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1.2</partEfficiency>

@@ -10,15 +10,6 @@
 		</addedPartProps>
 	</HediffDef>
 
-   <HediffDef ParentName="addedPartSimple">
-		<defName>SimpleRib</defName>
-		<label>simple rib replacement</label>
-		<spawnThingOnRemoved>SimpleRib</spawnThingOnRemoved>
-		<addedPartProps>
-			<partEfficiency>1.0</partEfficiency>
-		</addedPartProps>
-	</HediffDef>
-
 	<HediffDef ParentName="addedPartSimple">
 		<defName>ReplacementRadius</defName>
 		<label>replacement radius</label>

@@ -15,6 +15,15 @@
 	<!-- New EPOE body parts -->
 
 	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SimpleProstheticHeart</defName>
+		<label>surrogate heart</label>
+		<spawnThingOnRemoved>SimpleProstheticHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSurrogate">
 		<defName>SurrogateLung</defName>
 		<label>surrogate lung</label>
 		<spawnThingOnRemoved>SurrogateLung</spawnThingOnRemoved>
@@ -51,20 +60,32 @@
 	</HediffDef>
 
 	<HediffDef ParentName="addedPartSurrogate">
-		<defName>SurrogateHeart</defName>
-		<label>surrogate heart</label>
-		<spawnThingOnRemoved>SurrogateHeart</spawnThingOnRemoved>
-		<addedPartProps>
-			<partEfficiency>0.65</partEfficiency>
-		</addedPartProps>
+		<defName>BrainStimulator</defName>
+		<label>brain stimulator</label>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<spawnThingOnRemoved>BrainStimulator</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.7</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.85</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
 	</HediffDef>
 
-	<!-- Redundant Prosthetic Heart overwrite, copy into Surrogate Heart -->
+	<!-- Redundant version of Surrogate Heart -->
 
 	<HediffDef ParentName="addedPartSurrogate">
-		<defName>SimpleProstheticHeart</defName>
+		<defName>SurrogateHeart</defName>
 		<label>surrogate heart</label>
-		<spawnThingOnRemoved>SurrogateHeart</spawnThingOnRemoved>
+		<spawnThingOnRemoved>SimpleProstheticHeart</spawnThingOnRemoved>
 		<addedPartProps>
 			<partEfficiency>0.65</partEfficiency>
 		</addedPartProps>

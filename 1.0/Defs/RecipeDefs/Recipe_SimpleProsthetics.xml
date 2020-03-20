@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<RecipeDef Name="EPOESurgerySimple" ParentName="SurgeryFlesh" Abstract="True">
+	<RecipeDef Name="EPIASurgerySimple" ParentName="SurgeryFlesh" Abstract="True">
 		<skillRequirements>
 			<Medicine>3</Medicine>
 		</skillRequirements>
@@ -12,7 +12,7 @@
 
 	<!-- New EPOE body parts  -->
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallGoldenEye</defName>
 		<label>install golden eye</label>
 		<description>Installs golden eye.</description>
@@ -51,7 +51,7 @@
 		<addsHediff>GoldenEye</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallLightReceptor</defName>
 		<label>install light receptor</label>
 		<description>Installs light receptor.</description>
@@ -93,7 +93,7 @@
 		<addsHediff>LightReceptor</addsHediff>
 	</RecipeDef>	
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallSimpleSpine</defName>
 		<label>install replacement spine</label>
 		<description>Installs a replacement spine.</description>
@@ -132,7 +132,7 @@
 		<addsHediff>SimpleSpine</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallSimpleProstheticHand</defName>
 		<label>install simple prosthetic hand</label>
 		<description>Installs a simple prosthetic hand.</description>
@@ -171,7 +171,7 @@
 		<addsHediff>SimpleProstheticHand</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallSimpleProstheticFoot</defName>
 		<label>install simple prosthetic foot</label>
 		<description>Installs a simple prosthetic foot.</description>
@@ -210,7 +210,7 @@
 		<addsHediff>SimpleProstheticFoot</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>SimpleProstheticFinger</defName>
 		<label>install simple prosthetic finger</label>
 		<description>Installs simple prosthetic finger.</description>
@@ -249,7 +249,7 @@
 		<addsHediff>SimpleProstheticFinger</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>SimpleProstheticToe</defName>
 		<label>install simple prosthetic toe</label>
 		<description>Installs simple prosthetic toe.</description>
@@ -288,7 +288,7 @@
 		<addsHediff>SimpleProstheticToe</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallHydraulicJaw</defName>
 		<label>install hydraulic jaw</label>
 		<description>Installs hydraulic jaw.</description>
@@ -327,7 +327,7 @@
 		<addsHediff>HydraulicJaw</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallArtificialNose</defName>
 		<label>install artificial nose</label>
 		<description>Installs artificial nose.</description>
@@ -366,7 +366,7 @@
 		<addsHediff>ArtificialNose</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallReplacementRadius</defName>
 		<label>install replacement radius</label>
 		<description>Installs a replacement radius.</description>
@@ -405,7 +405,7 @@
 		<addsHediff>ReplacementRadius</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgerySimple">
+	<RecipeDef ParentName="EPIASurgerySimple">
 		<defName>InstallScytherBlade</defName>
 		<label>install scyther blade</label>
 		<description>Installs a scyther blade at where the hand is.</description>

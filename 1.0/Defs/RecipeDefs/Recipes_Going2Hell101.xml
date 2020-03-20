@@ -3,8 +3,8 @@
 
 	<RecipeDef>
 		<defName>MinceOrgans</defName>
-		<label>mince organs</label>
-		<description>Minces human organs to obtain edible meat. Makes great prison meals.</description>
+		<label>mince natural body parts</label>
+		<description>Minces natural body parts to obtain edible meat.</description>
 		<jobString>Butchering.</jobString>
 		<workAmount>250</workAmount>
 		<recipeUsers>
@@ -23,6 +23,8 @@
 						<li>Stomach</li>
 						<li>Liver</li>
 						<li>Kidney</li>
+						<li>Arm</li>
+						<li>Leg</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -35,6 +37,8 @@
 				<li>Stomach</li>
 				<li>Liver</li>
 				<li>Kidney</li>
+				<li>Arm</li>
+				<li>Leg</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -73,7 +77,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Meat_Human>20</Meat_Human>
+			<Meat_Human>10</Meat_Human>
 		</products>
 	</RecipeDef>
 

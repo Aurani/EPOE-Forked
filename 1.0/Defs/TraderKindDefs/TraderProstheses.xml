@@ -3,7 +3,7 @@
 
 	<TraderKindDef>
 		<defName>ProsthesesTrader</defName>
-		<label>prostheses trader</label>
+		<label>prosthesis trader</label>
 		<orbital>true</orbital>
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
@@ -105,7 +105,7 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
-				<categoryDef>EPOE_OrganicOptimizer</categoryDef>
+				<categoryDef>EPIA_OrganicOptimizer</categoryDef>
 				<thingDefCountRange>
 					<min>1</min>
 					<max>2</max>

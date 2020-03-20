@@ -208,7 +208,7 @@
 				<minSeverity>0.75</minSeverity>
 				<statOffsets>
 					<MentalBreakThreshold>0.02</MentalBreakThreshold>
-					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+					<WorkSpeedGlobal>0.025</WorkSpeedGlobal>
 					<MeleeHitChance>2</MeleeHitChance>
 					<AimingDelayFactor>-0.025</AimingDelayFactor>
 				</statOffsets>
@@ -217,7 +217,7 @@
 				<minSeverity>0.99</minSeverity>
 				<partEfficiencyOffset>0.05</partEfficiencyOffset>
 				<statOffsets>
-					<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
 					<MeleeHitChance>4</MeleeHitChance>
 					<AimingDelayFactor>-0.075</AimingDelayFactor>
 				</statOffsets>

@@ -7,9 +7,12 @@
 			<texPath>Things/Item/BodyPart/AdvancedPart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+		</statBases>
 		<recipeMaker>
 			<skillRequirements>
-				<Crafting>10</Crafting>
+				<Crafting>11</Crafting>
 			</skillRequirements>
 			<researchPrerequisite>AdvancedBionics</researchPrerequisite>
 		</recipeMaker>
@@ -18,18 +21,25 @@
 		</thingCategories>
 	</ThingDef>
 
+	<ThingDef Name="EPIA_UpgradeBodyPartAdvancedBionicBase" ParentName="BodyPartAdvancedBionicBase" Abstract="True">
+		<recipeMaker>
+			<recipeUsers Inherit="False" />
+		</recipeMaker>
+	</ThingDef>
+
 	<!-- New EPOE body parts -->
 
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicEye</defName>
 		<label>advanced bionic eye</label>
 		<description>This advanced piece of technology allows the user to perfectly see in the dark as well as through walls. Also through clothes.</description>
 		<costList>
-			<BionicEye>1</BionicEye>
+			<Steel>35</Steel>
+			<Plasteel>45</Plasteel>
+			<ComponentIndustrial>8</ComponentIndustrial>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<tradeTags>
@@ -40,16 +50,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicArm</defName>
 		<label>advanced bionic arm</label>
 		<description>Remember when you struggled with opening jars? Now you struggle with not breaking them instantly.</description>
 		<costList>
-			<BionicArm>1</BionicArm>
+			<Steel>55</Steel>
+			<Plasteel>60</Plasteel>
+			<ComponentIndustrial>8</ComponentIndustrial>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
 			<Mass>5</Mass>
 		</statBases>
 		<tradeTags>
@@ -60,16 +71,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicLeg</defName>
 		<label>advanced bionic leg</label>
 		<description>Gotta go fast!</description>
 		<costList>
-			<BionicLeg>1</BionicLeg>
+			<Steel>55</Steel>
+			<Plasteel>60</Plasteel>
+			<ComponentIndustrial>8</ComponentIndustrial>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
 			<Mass>8</Mass>
 		</statBases>
 		<tradeTags>
@@ -80,16 +92,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicSpine</defName>
 		<label>advanced bionic spine</label>
 		<description>This durable device supports the back and makes working and walking much easier.</description>
 		<costList>
-			<BionicSpine>1</BionicSpine>
+			<Steel>55</Steel>
+			<Plasteel>60</Plasteel>
+			<ComponentIndustrial>8</ComponentIndustrial>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
 			<Mass>4</Mass>
 		</statBases>
 		<tradeTags>
@@ -100,16 +113,17 @@
 		</techHediffsTags>
 	</ThingDef>
 	
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicEar</defName>
 		<label>advanced bionic ear</label>
 		<description>This device allows the user to hear better than bats.</description>
 		<costList>
-			<BionicEar>1</BionicEar>
+			<Steel>20</Steel>
+			<Plasteel>35</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<tradeTags>
@@ -120,16 +134,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicHand</defName>
 		<label>advanced bionic hand</label>
 		<description>Some people would chop their own hands off just to get this gorgeous piece of tech.</description>
 		<costList>
-			<BionicHand>1</BionicHand>
+			<Steel>35</Steel>
+			<Plasteel>35</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
 		<tradeTags>
@@ -140,16 +155,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicFoot</defName>
 		<label>advanced bionic foot</label>
 		<description>Dozens of servomotors grant faster movement and ultimate comfort.</description>
 		<costList>
-			<BionicFoot>1</BionicFoot>
+			<Steel>35</Steel>
+			<Plasteel>35</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
 			<Mass>3</Mass>
 		</statBases>
 		<tradeTags>
@@ -160,16 +176,18 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicFinger</defName>
 		<label>advanced bionic finger</label>
 		<description>Advanced bionic finger. Delicate glitterworld sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing ensure the best precision and grip, far surpassing that of a natural or bionic finger. Powerful enough to crush rocks like ripe tomatoes.</description>
 		<costList>
-			<BionicFinger>1</BionicFinger>
+			<Steel>7</Steel>
+			<Plasteel>7</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
+			<WorkToMake>6600</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 		<tradeTags>
@@ -180,16 +198,18 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicToe</defName>
 		<label>advanced bionic toe</label>
 		<description>Advanced bionic toe. Delicate glitterworld sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing make these toes unrivalled when it comes to movement and control, far surpassing that of natural or bionic toes. Glitterworld mechanite-traction technology ensures extreme speeds even on normally unfavourable terrain, such as water.</description>
 		<costList>
-			<BionicToe>1</BionicToe>
+			<Steel>7</Steel>
+			<Plasteel>7</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
+			<WorkToMake>6600</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 		<tradeTags>
@@ -200,16 +220,17 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicJaw</defName>
 		<label>advanced bionic jaw</label>
 		<description>The voice this jaw creates is so beautiful that even mechanoids stop by to listen.</description>
 		<costList>
-			<BionicJaw>1</BionicJaw>
+			<Steel>45</Steel>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
 		<tradeTags>
@@ -220,16 +241,18 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedPowerArm</defName>
 		<label>advanced power arm</label>
 		<description>Even more unparalleled strength and dexterity, and with a sharp, retractable claws. Now it's the ultimate arm upgrade!</description>
 		<costList>
-			<PowerArm>1</PowerArm>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ScytherBlade>3</ScytherBlade>
+			<Steel>55</Steel>
+			<Plasteel>120</Plasteel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
 			<Mass>5</Mass>
 		</statBases>
 		<tradeTags>
@@ -251,7 +274,6 @@
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
-			<WorkToMake>10000</WorkToMake>
 			<Mass>7</Mass>
 		</statBases>
 		<tradeTags>

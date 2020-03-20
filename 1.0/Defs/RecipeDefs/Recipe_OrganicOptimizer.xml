@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<RecipeDef ParentName="EPOESurgerySynthetic">
+	<RecipeDef ParentName="EPIASurgerySynthetic">
 		<defName>EPOE_OrganicOptimizing</defName>
 		<label>Optimize natural body part</label>
 		<description>Improve and bring out the potential of a natural body part with the organic optimizing nanobots, with the surgeon carefully monitoring the initial application and progress.</description>
@@ -49,7 +49,7 @@
 		<addsHediff>EPOE_OrganicOptimized</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef Name="EPOESurgeryInstinctOptimizer" ParentName="EPOESurgerySynthetic" Abstract="True">
+	<RecipeDef Name="EPIASurgeryInstinctOptimizer" ParentName="EPIASurgerySynthetic" Abstract="True">
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<jobString>Optimizing natural body part.</jobString>
 		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
@@ -85,7 +85,7 @@
 		</fixedIngredientFilter>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryInstinctOptimizer">
+	<RecipeDef ParentName="EPIASurgeryInstinctOptimizer">
 		<defName>EPOE_InstinctOptimizingEyes</defName>
 		<label>Improve reactive pupil</label>
 		<description>Improve the instinctual reaction of the eyes with instinct optimizing nanobots, improving hit and aim accuracy. The surgeon carefully monitoring the initial application and progress.</description>
@@ -95,7 +95,7 @@
 		<addsHediff>EPOE_InstinctOptimizedEyes</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryInstinctOptimizer">
+	<RecipeDef ParentName="EPIASurgeryInstinctOptimizer">
 		<defName>EPOE_InstinctOptimizingFoot</defName>
 		<label>Improve nimble instinct</label>
 		<description>Improve the instinctual reaction of the feet with instinct optimizing nanobots, improving the ability to dodge incoming melee attacks. The surgeon carefully monitoring the initial application and progress.</description>
@@ -105,7 +105,7 @@
 		<addsHediff>EPOE_InstinctOptimizedFoot</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryInstinctOptimizer">
+	<RecipeDef ParentName="EPIASurgeryInstinctOptimizer">
 		<defName>EPOE_InstinctOptimizingHands</defName>
 		<label>Improve hand reflex</label>
 		<description>Improve the instinctual reaction of the hands with instinct optimizing nanobots, improving the speed of aiming, striking with a melee weapon and general repetative work. with the surgeon carefully monitoring the initial application and progress.</description>

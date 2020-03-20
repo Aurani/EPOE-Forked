@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<RecipeDef Name="EPOESurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
+	<RecipeDef Name="EPIASurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
 		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<workAmount>3700</workAmount>
@@ -13,7 +13,7 @@
 		</recipeUsers>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallTacticalCorneaImplant</defName>
 		<label>install tactical cornea implant</label>
 		<description>Installs tactical cornea implant.</description>
@@ -54,7 +54,7 @@
 		<addsHediff>TacticalCorneaImplant</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallConstructorCore</defName>
 		<label>install auxiliary AI (constructing)</label>
 		<description>Installs auxiliary AI (constructing).</description>
@@ -92,7 +92,7 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallFarmerCore</defName>
 		<label>install auxiliary AI (agricultural)</label>
 		<description>Installs auxiliary AI (agricultural).</description>
@@ -130,7 +130,7 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallMinerCore</defName>
 		<label>install auxiliary AI (mining)</label>
 		<description>Installs auxiliary AI (mining).</description>
@@ -168,7 +168,7 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallDoctorCore</defName>
 		<label>install auxiliary AI (medical)</label>
 		<description>Installs auxiliary AI (medical).</description>
@@ -206,7 +206,7 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallDiplomatCore</defName>
 		<label>install auxiliary AI (diplomatic)</label>
 		<description>Installs auxiliary AI (diplomatic).</description>
@@ -244,7 +244,7 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallAIPersonaCore</defName>
 		<label>install AI persona core</label>
 		<description>Installs AI persona core.</description>
