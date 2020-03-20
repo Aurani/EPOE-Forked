@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="PatchOperationSequence">
+	<!--Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationAdd">
@@ -20,7 +20,7 @@
 				</value>
 			</li>
 		</operations>
-	</Operation>
+	</Operation-->
 
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
@@ -97,30 +97,6 @@
 				<xpath>Defs/RecipeDef[defName="InstallPowerClaw"]</xpath>
 				<value>
 					<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticHeart"]/addsHediff</xpath>
-				<value>		
-					<addsHediff>SurrogateHeart</addsHediff>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="InstallBionicHeart"]/addsHediff</xpath>
-				<value>		
-					<addsHediff>SyntheticHeart</addsHediff>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="InstallBionicStomach"]/addsHediff</xpath>
-				<value>		
-					<addsHediff>SyntheticStomach</addsHediff>
 				</value>
 			</li>
 		</operations>

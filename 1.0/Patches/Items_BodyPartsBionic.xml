@@ -1,41 +1,70 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-<Operation Class="PatchOperationSequence">
-	<success>Always</success>
-	<operations>
-		<li Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/graphicData</xpath>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/BodyPart/BionicPart</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/recipeUsers</xpath>
+				<value>
+					<recipeUsers Inherit="False">
+						<li>TableBionics</li>
+					</recipeUsers>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]</xpath>
+				<value>
+					<thingCategories Inherit="False">
+						<li>BionicProstheses</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/statBases</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]</xpath>
+				<value>
+					<statBases></statBases>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/statBases/WorkToMake</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/statBases</xpath>
 			<value>
-				<graphicData>
-					<texPath>Things/Item/BodyPart/BionicPart</texPath>
-					<graphicClass>Graphic_Single</graphicClass>
-				</graphicData>
+				<WorkToMake>26000</WorkToMake>
 			</value>
-		</li>
-		<li Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/recipeUsers</xpath>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/statBases/WorkToMake</xpath>
 			<value>
-				<recipeUsers Inherit="False">
-					<li>TableBionics</li>
-				</recipeUsers>
+				<WorkToMake>26000</WorkToMake>
 			</value>
-		</li>
-		<li Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/skillRequirements/Crafting</xpath>
-			<value>
-				<Crafting>7</Crafting>
-			</value>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]</xpath>
-			<value>
-				<thingCategories Inherit="False">
-					<li>BionicProstheses</li>
-				</thingCategories>
-			</value>
-		</li>
-	</operations>
-</Operation>
+		</match>
+	</Operation>
 
 </Patch>
