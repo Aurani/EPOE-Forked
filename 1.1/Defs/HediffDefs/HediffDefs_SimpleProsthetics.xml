@@ -395,7 +395,6 @@
 		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticFoot</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Steel>35</Steel>
-			<Plasteel>15</Plasteel>
 			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<statBases>
@@ -455,10 +454,9 @@
 		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticFinger</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Steel>7</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>1500</WorkToMake>
+			<WorkToMake>2000</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -516,10 +514,9 @@
 		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticToe</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Steel>7</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>1500</WorkToMake>
+			<WorkToMake>2000</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 		<techHediffsTags>
@@ -817,31 +814,5 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>EPOE_ScytherBlade</addsHediff>
 	</RecipeDef>
-
-	<!-- Simple rib -->
-
-   <HediffDef ParentName="addedPartSimple">
-		<defName>SimpleRib</defName>
-		<label>simple rib replacement</label>
-		<description>An installed rib.</description>
-		<descriptionHyperlinks><ThingDef>SimpleRib</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>SimpleRib</spawnThingOnRemoved>
-		<addedPartProps>
-			<solid>true</solid>
-			<partEfficiency>1.0</partEfficiency>
-		</addedPartProps>
-	</HediffDef>
-
-	<ThingDef ParentName="BodyPartProstheticMakeableBase">
-		<defName>SimpleRib</defName>
-		<label>simple rib replacement</label>
-		<description>An artificial rib, and nothing more.</description>
-		<costList>
-			<Plasteel>30</Plasteel>
-		</costList>
-		<statBases>
-			<Mass>0.3</Mass>
-		</statBases>
-	</ThingDef>
 
 </Defs>

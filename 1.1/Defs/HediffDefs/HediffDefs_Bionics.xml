@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Defs>
 
 	<HediffDef Name="addedPartBionics" Abstract="True">
@@ -8,19 +7,50 @@
 		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
 	</HediffDef>
 
+	<ThingDef Name="EPIA_UpgradeBodyPartBionicBase" ParentName="BodyPartBionicBase" Abstract="True">
+		<recipeMaker>
+			<recipeUsers Inherit="False" />
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef Name="EPIA_RecipeBaseProsthesis" Abstract="True">
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<soundWorking>EPOEAssembling</soundWorking>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef Name="RecipeBionicProsthesis" ParentName="EPIA_RecipeBaseProsthesis" Abstract="True">
+		<researchPrerequisite>Bionics</researchPrerequisite>
+		<workAmount>26000</workAmount>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>TableBionics</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="EPIA_RecipeUpgradeBionic" ParentName="RecipeBionicProsthesis" Abstract="True">
+		<workAmount>14000</workAmount>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
 	<!-- Vanilla overwrites, for now. -->
 
 	<!-- Bionic eye -->
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicEye</defName>
 		<label>bionic eye</label>
 		<description>Advanced piece of technology made not only to fully replace natural eye, but also to give supernatural vision abilities.</description>
 		<descriptionHyperlinks><RecipeDef>InstallBionicEye</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<LightReceptor>1</LightReceptor>
+			<Steel>35</Steel>
 			<Plasteel>45</Plasteel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<thingSetMakerTags>
 			<li>RewardStandardMidFreq</li>
@@ -30,17 +60,60 @@
 		</statBases>
 	</ThingDef>
 
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicEye</defName>
+		<label>assemble bionic eye</label>
+		<description>Upgrade light receptor into bionic eye.</description>
+		<jobString>Upgrading light receptor.</jobString>
+		<products>
+			<BionicEye>1</BionicEye>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>LightReceptor</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>LightReceptor</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
 	<!-- Bionic leg -->
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicLeg</defName>
 		<label>bionic leg</label>
 		<description>Bionic leg uses cutting-edge technology to give its owner extreme walking comfort and strength.</description>
 		<descriptionHyperlinks><RecipeDef>InstallBionicLeg</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<SimpleProstheticLeg>1</SimpleProstheticLeg>
+			<Steel>55</Steel>
 			<Plasteel>60</Plasteel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<thingSetMakerTags>
 			<li>RewardStandardMidFreq</li>
@@ -50,17 +123,60 @@
 		</statBases>
 	</ThingDef>
 
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicLeg</defName>
+		<label>assemble bionic leg</label>
+		<description>Upgrade prosthetic leg into bionic leg.</description>
+		<jobString>Upgrading prosthetic leg.</jobString>
+		<products>
+			<BionicLeg>1</BionicLeg>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticLeg</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
 	<!-- Bionic arm -->
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicArm</defName>
 		<label>bionic arm</label>
 		<description>One of the most sophisticated arm replacements. Gives extreme strength to its user.</description>
 		<descriptionHyperlinks><RecipeDef>InstallBionicArm</RecipeDef></descriptionHyperlinks>
 		<costList> 
-			<SimpleProstheticArm>1</SimpleProstheticArm>
+			<Steel>55</Steel>
 			<Plasteel>60</Plasteel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<thingSetMakerTags>
 			<li>RewardStandardMidFreq</li>
@@ -70,39 +186,168 @@
 		</statBases>
 	</ThingDef>
 
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicArm</defName>
+		<label>assemble bionic arm</label>
+		<description>Upgrade prosthetic arm into bionic arm.</description>
+		<jobString>Upgrading prosthetic arm.</jobString>
+		<products>
+			<BionicArm>1</BionicArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticArm</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
 	<!-- Bionic spine -->
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicSpine</defName>
 		<label>bionic spine</label>
 		<description>This light and impressing device can replace a damaged spine.</description>
 		<descriptionHyperlinks><RecipeDef>InstallBionicSpine</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<SimpleSpine>1</SimpleSpine>
+			<Steel>55</Steel>
 			<Plasteel>60</Plasteel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<statBases>
 		  <Mass>2</Mass>
 		</statBases>
 	</ThingDef>
 
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicSpine</defName>
+		<label>assemble bionic spine</label>
+		<description>Upgrade replacement spine into bionic spine.</description>
+		<jobString>Upgrading replacement spine.</jobString>
+		<products>
+			<BionicSpine>1</BionicSpine>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleSpine</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
 	<!-- Bionic ear -->
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicEar</defName>
 		<label>bionic ear</label>
 		<description>An advanced device that expands upon the basic functions of the ear drum.</description>
 		<descriptionHyperlinks><RecipeDef>InstallBionicEar</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<CochlearImplant>1</CochlearImplant>
+			<Steel>20</Steel>
 			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
 		</statBases>
 	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicEar</defName>
+		<label>assemble bionic ear</label>
+		<description>Upgrade cochlear implant into bionic ear.</description>
+		<jobString>Upgrading cochlear implant.</jobString>
+		<products>
+			<BionicEar>1</BionicEar>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CochlearImplant</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CochlearImplant</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
 
 	<!-- Power claw -->
 
@@ -159,20 +404,63 @@
 		</comps>
 	</HediffDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicHand</defName>
 		<label>bionic hand</label>
 		<description>Allows the user to perform tasks even faster than with regular hands.</description>
 		<descriptionHyperlinks><RecipeDef>InstallBionicHand</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<SimpleProstheticHand>1</SimpleProstheticHand>
+			<Steel>35</Steel>
 			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>3</Mass>
 		</statBases>
 	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicHand</defName>
+		<label>assemble bionic hand</label>
+		<description>Upgrade prosthetic hand into bionic hand.</description>
+		<jobString>Upgrading prosthetic hand.</jobString>
+		<products>
+			<BionicHand>1</BionicHand>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticHand</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticHand</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
 		<defName>InstallBionicHand</defName>
@@ -217,20 +505,63 @@
 		</addedPartProps>
 	</HediffDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicFoot</defName>
 		<label>bionic foot</label>
 		<description>This prosthesis grants faster walking without stumbling all the time.</description>
 		<descriptionHyperlinks><RecipeDef>InstallBionicFoot</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<SimpleProstheticFoot>1</SimpleProstheticFoot>
+			<Steel>35</Steel>
 			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>3</Mass>
 		</statBases>
 	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicFoot</defName>
+		<label>assemble bionic foot</label>
+		<description>Upgrade prosthetic foot into bionic foot.</description>
+		<jobString>Upgrading prosthetic foot.</jobString>
+		<products>
+			<BionicFoot>1</BionicFoot>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticFoot</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticFoot</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
 		<defName>InstallBionicFoot</defName>
@@ -273,21 +604,65 @@
 		</addedPartProps>
 	</HediffDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicFinger</defName>
 		<label>bionic finger</label>
 		<description>A replacement finger allowing for slightly faster and more precise movement.</description>
 		<descriptionHyperlinks><RecipeDef>InstallBionicFinger</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<SimpleProstheticFinger>1</SimpleProstheticFinger>
+			<Steel>7</Steel>
 			<Plasteel>7</Plasteel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
+			<WorkToMake>4300</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>EPIA_UpgradeBionicFinger</defName>
+		<label>assemble bionic finger</label>
+		<description>Upgrade prosthetic finger into bionic finger.</description>
+		<jobString>Upgrading prosthetic finger.</jobString>
+		<workAmount>2300</workAmount>
+		<products>
+			<BionicFinger>1</BionicFinger>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticFinger</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticFinger</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
 		<defName>InstallBionicFinger</defName>
@@ -331,21 +706,65 @@
 		</addedPartProps>
 	</HediffDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicToe</defName>
 		<label>bionic toe</label>
 		<description>A replacement toe which lets the wearer grip the ground slightly better.</description>
 		<descriptionHyperlinks><RecipeDef>InstallBionicToe</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<SimpleProstheticToe>1</SimpleProstheticToe>
+			<Steel>7</Steel>
 			<Plasteel>7</Plasteel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
+			<WorkToMake>4300</WorkToMake>
 			<Mass>0.6</Mass>
 		</statBases>
 	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>EPIA_UpgradeBionicToe</defName>
+		<label>assemble bionic toe</label>
+		<description>Upgrade prosthetic toe into bionic toe.</description>
+		<jobString>Upgrading prosthetic toe.</jobString>
+		<workAmount>2300</workAmount>
+		<products>
+			<BionicToe>1</BionicToe>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticToe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticToe</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
 		<defName>InstallBionicToe</defName>
@@ -391,27 +810,70 @@
 		</addedPartProps>
 	</HediffDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicJaw</defName>
 		<label>bionic jaw</label>
 		<description>Aside from a strong set of teeth, this also comes with a voice modulator.</description>
 		<descriptionHyperlinks><RecipeDef>InstallBionicJaw</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<HydraulicJaw>1</HydraulicJaw>
+			<Steel>45</Steel>
 			<Plasteel>40</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>2</Mass>
 		</statBases>
 	</ThingDef>
 
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateBionicJaw</defName>
+		<label>assemble bionic jaw</label>
+		<description>Upgrade hydraulic jaw into bionic jaw.</description>
+		<jobString>Upgrading hydraulic jaw.</jobString>
+		<products>
+			<BionicJaw>1</BionicJaw>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>HydraulicJaw</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
 		<defName>InstallBionicJaw</defName>
-		<label>install bionic jaw implant</label>
-		<description>Installs a bionic jaw implant.</description>
+		<label>install bionic jaw</label>
+		<description>Installs a bionic jaw.</description>
 		<descriptionHyperlinks><ThingDef>BionicJaw</ThingDef></descriptionHyperlinks>
-		<jobString>Installing a bionic jaw implant.</jobString>
+		<jobString>Installing a bionic jaw.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -459,27 +921,70 @@
 		</stages>
 	</HediffDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>SilentJaw</defName>
 		<label>silent jaw</label>
 		<description>This version of the bionic jaw comes without a voice modulator, useful for abrasive patients.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSilentJaw</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<HydraulicJaw>1</HydraulicJaw>
+			<Steel>45</Steel>
 			<Plasteel>30</Plasteel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>2</Mass>
 		</statBases>
 	</ThingDef>
 
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreateSilentJaw</defName>
+		<label>assemble silent jaw</label>
+		<description>Upgrade hydraulic jaw into silent jaw.</description>
+		<jobString>Upgrading hydraulic jaw.</jobString>
+		<products>
+			<SilentJaw>1</SilentJaw>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>HydraulicJaw</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
 		<defName>InstallSilentJaw</defName>
-		<label>install silent jaw implant</label>
-		<description>Installs a silent jaw implant.</description>
+		<label>install silent jaw</label>
+		<description>Installs a silent jaw.</description>
 		<descriptionHyperlinks><ThingDef>SilentJaw</ThingDef></descriptionHyperlinks>
-		<jobString>Installing a silent jaw implant.</jobString>
+		<jobString>Installing a silent jaw.</jobString>
 		<workAmount>2000</workAmount>
 		<ingredients>
 			<li>
@@ -534,15 +1039,17 @@
 		</comps>
 	</HediffDef>
 
-	<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>PowerArm</defName>
 		<label>power arm</label>
 		<description>Unparalleled strength and dexterity, and with retractable claws. This is the ultimate arm upgrade!</description>
 		<descriptionHyperlinks><RecipeDef>InstallPowerArm</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<BionicArm>1</BionicArm>
-			<PowerClaw>1</PowerClaw>
-			<Plasteel>35</Plasteel>
+			<ScytherBlade>3</ScytherBlade>
+			<Steel>55</Steel>
+			<Plasteel>120</Plasteel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>6</Mass>
@@ -551,6 +1058,49 @@
 			<li>AdvancedWeapon</li>
 		</techHediffsTags>
 	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreatePowerArm</defName>
+		<label>assemble power arm</label>
+		<description>Upgrade power claw into power arm.</description>
+		<jobString>Upgrading power claw.</jobString>
+		<products>
+			<PowerArm>1</PowerArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PowerClaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicArm</li>
+				<li>PowerClaw</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
 		<defName>InstallPowerArm</defName>
@@ -577,387 +1127,6 @@
 			<li>Shoulder</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>PowerArm</addsHediff>
-	</RecipeDef>
-
-	<!-- Rib implantS -->
-
-	<ThingDef Name="BodyPartBionicRibBase" ParentName="BodyPartBionicBase" Abstract="True">
-		<recipeMaker>
-			<researchPrerequisite>RibReplacements</researchPrerequisite>
-		</recipeMaker>
-	</ThingDef>
-
-	<!-- Medical rib -->
-
-	<HediffDef ParentName="addedPartBionics">
-		<defName>MedicalRib</defName>
-		<label>medical rib</label>
-		<labelNoun>a medical rib</labelNoun>
-		<description>An installed medical rib implant.</description>
-		<descriptionHyperlinks><ThingDef>MedicalRib</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>MedicalRib</spawnThingOnRemoved>
-		<hediffClass>Hediff_Implant</hediffClass>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>BloodFiltration</capacity>
-						<offset>0.1</offset>
-					</li>
-				</capMods>
-			</li>	 
-		</stages>
-	</HediffDef>
-
-	<ThingDef ParentName="BodyPartBionicRibBase">
-		<defName>MedicalRib</defName>
-		<label>medical rib replacement</label>
-		<description>An artificial rib, equipped with little blood filters and antibiotics-dispensers to keep the user healthy.</description>
-		<descriptionHyperlinks><RecipeDef>InstallMedicalRib</RecipeDef></descriptionHyperlinks>
-		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
-			<MedicineUltratech>1</MedicineUltratech>
-		</costList>
-		<statBases>
-			<Mass>0.3</Mass>
-		</statBases>
-	</ThingDef>
-
-	<RecipeDef ParentName="SurgeryInstallImplantBase">
-		<defName>InstallMedicalRib</defName>
-		<label>install medical rib replacement</label>
-		<description>Installs a medical rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>MedicalRib</ThingDef></descriptionHyperlinks>
-		<jobString>Installing a medical rib replacement.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>MedicalRib</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>MedicalRib</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Ribcage</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>MedicalRib</addsHediff>
-	</RecipeDef>
-
-	<!-- Drugged rib -->
-
-	<HediffDef ParentName="addedPartBionics">
-		<defName>DruggedRib</defName>
-		<label>drugged rib</label>
-		<labelNoun>a drugged rib</labelNoun>
-		<description>An installed drugged rib implant.</description>
-		<descriptionHyperlinks><ThingDef>DruggedRib</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>DruggedRib</spawnThingOnRemoved>
-		<hediffClass>Hediff_Implant</hediffClass>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<offset>-0.05</offset>
-					</li>
-				</capMods>
-			</li>	 
-		</stages>
-	</HediffDef>
-
-	<ThingDef ParentName="BodyPartBionicRibBase">
-		<defName>DruggedRib</defName>
-		<label>drugged rib replacement</label>
-		<description>An artificial rib, equipped with little flake-dispensers to keep the user happy. Synthetic liver highly recommended.</description>
-		<descriptionHyperlinks><RecipeDef>InstallDruggedRib</RecipeDef></descriptionHyperlinks>
-		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
-			<Flake>10</Flake>
-		</costList>
-		<statBases>
-			<Mass>0.3</Mass>
-		</statBases>
-	</ThingDef>
-
-	<RecipeDef ParentName="SurgeryInstallImplantBase">
-		<defName>InstallDruggedRib</defName>
-		<label>install drugged rib</label>
-		<description>Installs a drugged rib.</description>
-		<descriptionHyperlinks><ThingDef>DruggedRib</ThingDef></descriptionHyperlinks>
-		<jobString>Installing a drugged rib.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>DruggedRib</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>DruggedRib</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Ribcage</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>DruggedRib</addsHediff>
-	</RecipeDef>
-
-	<!-- Adrenaline rib -->
-
-	<HediffDef ParentName="addedPartBionics">
-		<defName>AdrenalineRib</defName>
-		<label>adrenaline rib</label>
-		<labelNoun>an adrenaline rib</labelNoun>
-		<description>An installed adrenaline rib implant.</description>
-		<descriptionHyperlinks><ThingDef>AdrenalineRib</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>AdrenalineRib</spawnThingOnRemoved>
-		<hediffClass>Hediff_Implant</hediffClass>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>0.05</offset>
-					</li>
-				</capMods>
-			</li>	 
-		</stages>
-	</HediffDef>
-
-	<ThingDef ParentName="BodyPartBionicRibBase">
-		<defName>AdrenalineRib</defName>
-		<label>adrenaline rib replacement</label>
-		<description>An artificial rib, equipped with little adrenaline-dispensers to keep the user fit and awake.</description>
-		<descriptionHyperlinks><RecipeDef>InstallAdrenalineRib</RecipeDef></descriptionHyperlinks>
-		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
-			<Yayo>10</Yayo>
-		</costList>
-		<statBases>
-			<Mass>0.3</Mass>
-		</statBases>
-	</ThingDef>
-
-	<RecipeDef ParentName="SurgeryInstallImplantBase">
-		<defName>InstallAdrenalineRib</defName>
-		<label>install adrenaline rib</label>
-		<description>Installs an adrenaline rib.</description>
-		<descriptionHyperlinks><ThingDef>AdrenalineRib</ThingDef></descriptionHyperlinks>
-		<jobString>Installing an adrenaline rib.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>AdrenalineRib</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>AdrenalineRib</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Ribcage</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>AdrenalineRib</addsHediff>
-	</RecipeDef>
-
-	<!-- Painkiller rib -->
-
-	<HediffDef ParentName="addedPartBionics">
-		<defName>PainkillerRib</defName>
-		<label>painkiller rib</label>
-		<labelNoun>a painkiller rib</labelNoun>
-		<description>An installed painkiller rib implant.</description>
-		<descriptionHyperlinks><ThingDef>PainkillerRib</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>PainkillerRib</spawnThingOnRemoved>
-		<hediffClass>Hediff_Implant</hediffClass>
-		<stages>
-			<li>
-				<painFactor>0.9</painFactor>
-			</li>
-		</stages>
-	</HediffDef>
-
-	<ThingDef ParentName="BodyPartBionicRibBase">
-		<defName>PainkillerRib</defName>
-		<label>painkiller rib replacement</label>
-		<description>An artificial rib, equipped with little morphine-dispensers to numb the user's pain. Side effects are respiratory ailments.</description>
-		<descriptionHyperlinks><RecipeDef>InstallPainkillerRib</RecipeDef></descriptionHyperlinks>
-		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
-			<GoJuice>5</GoJuice>
-		</costList>
-		<statBases>
-			<Mass>0.3</Mass>
-		</statBases>
-	</ThingDef>
-
-	<RecipeDef ParentName="SurgeryInstallImplantBase">
-		<defName>InstallPainkillerRib</defName>
-		<label>install painkiller rib</label>
-		<description>Installs a painkiller rib.</description>
-		<descriptionHyperlinks><ThingDef>PainkillerRib</ThingDef></descriptionHyperlinks>
-		<jobString>Installing a painkiller rib.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>PainkillerRib</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>PainkillerRib</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Ribcage</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>PainkillerRib</addsHediff>
-	</RecipeDef>
-
-	<!-- Heater rib -->
-
-	<HediffDef ParentName="addedPartBionics">
-		<defName>HeaterRib</defName>
-		<label>heating rib</label>
-		<description>An installed heater rib implant.</description>
-		<descriptionHyperlinks><ThingDef>HeaterRib</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>HeaterRib</spawnThingOnRemoved>
-		<hediffClass>Hediff_Implant</hediffClass>
-		<stages>
-			<li>
-				<statOffsets>
-					<ComfyTemperatureMax>-2</ComfyTemperatureMax>
-					<ComfyTemperatureMin>-12.5</ComfyTemperatureMin>
-				</statOffsets>
-			</li>	 
-		</stages>
-	</HediffDef>
-
-	<ThingDef ParentName="BodyPartBionicRibBase">
-		<defName>HeaterRib</defName>
-		<label>heating rib replacement</label>
-		<description>An artificial rib, containing a micro-reactor powered, heat inducing spiral to warm the body from the inside.</description>
-		<descriptionHyperlinks><RecipeDef>InstallHeaterRib</RecipeDef></descriptionHyperlinks>
-		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>2</ComponentIndustrial>
-		</costList>
-		<statBases>
-			<Mass>0.3</Mass>
-		</statBases>
-	</ThingDef>
-
-	<RecipeDef ParentName="SurgeryInstallImplantBase">
-		<defName>InstallHeaterRib</defName>
-		<label>install heating rib</label>
-		<description>Installs a heating rib.</description>
-		<descriptionHyperlinks><ThingDef>HeaterRib</ThingDef></descriptionHyperlinks>
-		<jobString>Installing a heating rib.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>HeaterRib</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>HeaterRib</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Ribcage</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>HeaterRib</addsHediff>
-	</RecipeDef>
-
-	<!-- Cooler rib -->
-
-	<HediffDef ParentName="addedPartBionics">
-		<defName>CoolerRib</defName>
-		<label>cooling rib</label>
-		<description>An installed cooler rib implant.</description>
-		<descriptionHyperlinks><ThingDef>CoolerRib</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>CoolerRib</spawnThingOnRemoved>
-		<hediffClass>Hediff_Implant</hediffClass>
-		<stages>
-			<li>
-				<statOffsets>
-					<ComfyTemperatureMax>12.5</ComfyTemperatureMax>
-					<ComfyTemperatureMin>2</ComfyTemperatureMin>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-
-	<ThingDef ParentName="BodyPartBionicRibBase">
-		<defName>CoolerRib</defName>
-		<label>cooling rib replacement</label>
-		<description>An artificial rib with a micro coolant system, increasing the effectiveness of heat exchange via dermal exhausts.</description>
-		<descriptionHyperlinks><RecipeDef>InstallCoolerRib</RecipeDef></descriptionHyperlinks>
-		<costList>
-			<SimpleRib>1</SimpleRib>
-			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>2</ComponentIndustrial>
-		</costList>
-		<statBases>
-			<Mass>0.3</Mass>
-		</statBases>
-	</ThingDef>
-
-	<RecipeDef ParentName="SurgeryInstallImplantBase">
-		<defName>InstallCoolerRib</defName>
-		<label>install cooling rib</label>
-		<description>Installs a cooling rib.</description>
-		<descriptionHyperlinks><ThingDef>CoolerRib</ThingDef></descriptionHyperlinks>
-		<jobString>Installing a cooling rib.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>CoolerRib</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>CoolerRib</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Ribcage</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>CoolerRib</addsHediff>
 	</RecipeDef>
 
 </Defs>

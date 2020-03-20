@@ -28,7 +28,7 @@
 		</recipeMaker>
 	</ThingDef>
 
-	<RecipeDef Name="EPOESurgeryBasic" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
+	<RecipeDef Name="EPIASurgeryBasic" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
 		<workAmount>1500</workAmount>
 		<skillRequirements>
 			<Medicine>3</Medicine>
@@ -83,7 +83,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallHookHand</defName>
 		<label>install hook hand</label>
 		<description>Installs hook hand.</description>
@@ -127,7 +127,7 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>steel fist</label>
+						<label>fist</label>
 						<capacities>
 							<li>Blunt</li>
 						</capacities>
@@ -155,7 +155,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallSteelArm</defName>
 		<label>install steel arm</label>
 		<description>Installs steel arm.</description>
@@ -202,7 +202,7 @@
 		</stages>
 	</HediffDef>
 
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallEyePatch</defName>
 		<label>install eye patch</label>
 		<description>Installs eye patch.</description>
@@ -241,7 +241,7 @@
 		</addedPartProps>
 	</HediffDef>
 	
-	<RecipeDef ParentName="EPOESurgeryBasic">
+	<RecipeDef ParentName="EPIASurgeryBasic">
 		<defName>InstallEarBandage</defName>
 		<label>install ear bandage</label>
 		<description>Installs an ear bandage.</description>

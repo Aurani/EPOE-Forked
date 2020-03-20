@@ -7,7 +7,7 @@
 		<isBad>false</isBad>
 	</HediffDef>
 
-	<ThingDef Name="EPOEGlitterworldImplantBase" ParentName="BodyPartAdvancedBionicBase" Abstract="True">
+	<ThingDef Name="EPIAGlitterworldImplantBase" ParentName="BodyPartAdvancedBionicBase" Abstract="True">
 	    <techLevel>Spacer</techLevel>
 		<thingCategories Inherit="False">
 			<li>BodyPartsUltra</li>
@@ -17,7 +17,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<WorkToMake>13000</WorkToMake>
+			<WorkToMake>26000</WorkToMake>
 		</statBases>
 		<recipeMaker>
 			<skillRequirements>
@@ -31,7 +31,7 @@
 		</thingSetMakerTags>
 	</ThingDef>
 
-	<RecipeDef Name="EPOESurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
+	<RecipeDef Name="EPIASurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
 		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<workAmount>2500</workAmount>
@@ -81,7 +81,7 @@
 		</stages>
 	</HediffDef>
 
-	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+	<ThingDef ParentName="EPIAGlitterworldImplantBase">
 		<defName>TacticalCorneaImplant</defName>
 		<label>tactical cornea implant</label>
 		<description>An enhanced implant which provides the user with additional information about potential targets and suggests a perfect firing angle.</description>
@@ -100,7 +100,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallTacticalCorneaImplant</defName>
 		<label>install tactical cornea implant</label>
 		<description>Installs tactical cornea implant.</description>
@@ -145,7 +145,7 @@
 		</stages>
 	</HediffDef>
 
-	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+	<ThingDef ParentName="EPIAGlitterworldImplantBase">
 		<defName>ConstructorCore</defName>
 		<label>auxiliary AI (constructing)</label>
 		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
@@ -164,7 +164,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallConstructorCore</defName>
 		<label>install auxiliary AI (constructing)</label>
 		<description>Installs auxiliary AI (constructing).</description>
@@ -210,7 +210,7 @@
 		</stages>
 	</HediffDef>
 
-	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+	<ThingDef ParentName="EPIAGlitterworldImplantBase">
 		<defName>FarmerCore</defName>
 		<label>auxiliary AI (agricultural)</label>
 		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
@@ -229,7 +229,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallFarmerCore</defName>
 		<label>install auxiliary AI (agricultural)</label>
 		<description>Installs auxiliary AI (agricultural).</description>
@@ -276,7 +276,7 @@
 		</stages>
 	</HediffDef>
 
-	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+	<ThingDef ParentName="EPIAGlitterworldImplantBase">
 		<defName>MinerCore</defName>
 		<label>auxiliary AI (mining)</label>
 		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
@@ -295,7 +295,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallMinerCore</defName>
 		<label>install auxiliary AI (mining)</label>
 		<description>Installs auxiliary AI (mining).</description>
@@ -342,7 +342,7 @@
 		</stages>
 	</HediffDef>
 
-	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+	<ThingDef ParentName="EPIAGlitterworldImplantBase">
 		<defName>DoctorCore</defName>
 		<label>auxiliary AI (medical)</label>
 		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
@@ -361,7 +361,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallDoctorCore</defName>
 		<label>install auxiliary AI (medical)</label>
 		<description>Installs auxiliary AI (medical).</description>
@@ -407,7 +407,7 @@
 		</stages>
 	</HediffDef>
 
-	<ThingDef ParentName="EPOEGlitterworldImplantBase">
+	<ThingDef ParentName="EPIAGlitterworldImplantBase">
 		<defName>DiplomatCore</defName>
 		<label>auxiliary AI (diplomatic)</label>
 		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
@@ -426,7 +426,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallDiplomatCore</defName>
 		<label>install auxiliary AI (diplomatic)</label>
 		<description>Installs auxiliary AI (diplomatic).</description>
@@ -581,7 +581,7 @@
 		</stages>
 	</HediffDef>
 
-	<RecipeDef ParentName="EPOESurgeryGlitterworld">
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
 		<defName>InstallAIPersonaCore</defName>
 		<label>install AI persona core</label>
 		<description>Installs AI persona core.</description>

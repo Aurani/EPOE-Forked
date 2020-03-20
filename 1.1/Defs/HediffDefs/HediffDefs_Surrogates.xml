@@ -7,7 +7,7 @@
 		<defaultLabelColor>(233,129,69)</defaultLabelColor>
 	</HediffDef>
 
-	<ThingDef Name="EPOESurrogateBase" ParentName="BodyPartProstheticMakeableBase" Abstract="True">
+	<ThingDef Name="EPIASurrogateBase" ParentName="BodyPartProstheticMakeableBase" Abstract="True">
 		<thingCategories Inherit="False">
 			<li>BodyPartsProsthetic</li>
 		</thingCategories>
@@ -15,6 +15,9 @@
 			<texPath>Things/Item/BodyPart/SurrogatePart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+		</statBases>
 		<recipeMaker>
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<recipeUsers Inherit="False">
@@ -45,7 +48,7 @@
 		</addedPartProps>
 	</HediffDef>
 
-	<ThingDef Name="EPOE_ObsoleteSurrogate" ParentName="EPOESurrogateBase" Abstract="True">
+	<ThingDef Name="EPIA_ObsoleteSurrogate" ParentName="EPIASurrogateBase" Abstract="True">
 		<thingCategories Inherit="False">
 			<li>EPOE_Redundancy</li>
 		</thingCategories>
@@ -62,14 +65,15 @@
 		<tradeTags Inherit="False"></tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="EPOE_ObsoleteSurrogate">
+	<ThingDef ParentName="EPIA_ObsoleteSurrogate">
 		<defName>SurrogateHeart</defName>
 		<label>surrogate heart</label>
 		<description>Redundant item version for 1.1 RimWorld. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</description> 
 		<descriptionHyperlinks><RecipeDef>InstallSurrogateHeart</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Cloth>40</Cloth>
-			<Plasteel>25</Plasteel>
+			<Cloth>20</Cloth>
+			<Steel>30</Steel>
+			<Neutroamine>10</Neutroamine>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
@@ -82,7 +86,7 @@
 		<label>install surrogate heart</label>
 		<description>Installs an surrogate heart.</description>
 		<descriptionHyperlinks><ThingDef>SurrogateHeart</ThingDef></descriptionHyperlinks>
-		<jobString>Installing an artificial heart.</jobString>
+		<jobString>Installing surrogate heart.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -120,14 +124,15 @@
 		</addedPartProps>
 	</HediffDef>
 
-	<ThingDef ParentName="EPOESurrogateBase">
+	<ThingDef ParentName="EPIASurrogateBase">
 		<defName>SimpleProstheticHeart</defName>
 		<label>surrogate heart</label>
 		<description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticHeart</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Cloth>40</Cloth>
-			<Plasteel>25</Plasteel>
+			<Cloth>20</Cloth>
+			<Steel>30</Steel>
+			<Neutroamine>10</Neutroamine>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
@@ -140,7 +145,7 @@
 		<label>install surrogate heart</label>
 		<description>Installs an surrogate heart.</description>
 		<descriptionHyperlinks><ThingDef>SimpleProstheticHeart</ThingDef></descriptionHyperlinks>
-		<jobString>Installing an artificial heart.</jobString>
+		<jobString>Installing surrogate heart.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -176,14 +181,15 @@
 		</addedPartProps>
 	</HediffDef>
 
-	<ThingDef ParentName="EPOESurrogateBase">
+	<ThingDef ParentName="EPIASurrogateBase">
 		<defName>SurrogateLung</defName>
 		<label>surrogate lung</label>
 		<description>A rudimentary lung replacement. Makes a deep, clicking noise.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSurrogateLung</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Cloth>30</Cloth>
-			<Plasteel>15</Plasteel>
+			<Cloth>15</Cloth>
+			<Steel>25</Steel>
+			<Neutroamine>10</Neutroamine>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
@@ -232,14 +238,15 @@
 		</addedPartProps>
 	</HediffDef>
 
-	<ThingDef ParentName="EPOESurrogateBase">
+	<ThingDef ParentName="EPIASurrogateBase">
 		<defName>SurrogateStomach</defName>
 		<label>surrogate stomach</label>
 		<description>A rudimentary stomach replacement. Produces unpleasant smelling bowel gas.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSurrogateStomach</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Cloth>30</Cloth>
-			<Plasteel>15</Plasteel>
+			<Cloth>15</Cloth>
+			<Steel>25</Steel>
+			<Neutroamine>10</Neutroamine>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
@@ -288,14 +295,15 @@
 		</addedPartProps>
 	</HediffDef>
 
-	<ThingDef ParentName="EPOESurrogateBase">
+	<ThingDef ParentName="EPIASurrogateBase">
 		<defName>SurrogateLiver</defName>
 		<label>surrogate liver</label>
 		<description>A rudimentary blood filter. Has problems with keeping the blood sugar level constant.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSurrogateLiver</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Cloth>30</Cloth>
-			<Plasteel>15</Plasteel>
+			<Cloth>15</Cloth>
+			<Steel>25</Steel>
+			<Neutroamine>10</Neutroamine>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
@@ -344,14 +352,15 @@
 		</addedPartProps>
 	</HediffDef>
 
-	<ThingDef ParentName="EPOESurrogateBase">
+	<ThingDef ParentName="EPIASurrogateBase">
 		<defName>SurrogateKidney</defName>
 		<label>surrogate kidney</label>
 		<description>A rudimentary kidney replacement. One of its possible side effects is getting pale.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSurrogateKidney</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Cloth>30</Cloth>
-			<Plasteel>15</Plasteel>
+			<Cloth>15</Cloth>
+			<Steel>25</Steel>
+			<Neutroamine>10</Neutroamine>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
@@ -384,6 +393,133 @@
 			<li>Kidney</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SurrogateKidney</addsHediff>
+	</RecipeDef>
+
+	<!-- Brain implants -->
+
+	<RecipeDef Name="EPIASurgerySurrogateImplant" ParentName="SurgeryFlesh" Abstract="True">
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<!-- Brain stimulator -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>BrainStimulator</defName>
+		<label>brain stimulator</label>
+		<description>An installed brain stimulator.</description>
+		<descriptionHyperlinks><ThingDef>BrainStimulator</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BrainStimulator</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.7</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.85</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIASurrogateBase">
+		<defName>BrainStimulator</defName>
+		<label>brain stimulator</label>
+		<description>A small device that does its best to stimulate the remaining areas of the brain. Recommended for severe brain damage only. Requires brain surgery research before installing.</description>
+		<descriptionHyperlinks><RecipeDef>InstallBrainStimulator</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Silver>3</Silver>
+			<Neutroamine>10</Neutroamine>
+			<Steel>50</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIASurgerySurrogateImplant">
+		<defName>InstallBrainStimulator</defName>
+		<label>install brain stimulator</label>
+		<description>Installs brain stimulator.</description>
+		<descriptionHyperlinks><ThingDef>BrainStimulator</ThingDef></descriptionHyperlinks>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing brain stimulator.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BrainStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BrainStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BrainStimulator</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySurrogateImplant">
+		<defName>RemoveBrainStimulator</defName>
+		<label>remove brain stimulator</label>
+		<description>Removes brain stimulator.</description>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<jobString>Removing brain stimulator.</jobString>
+		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</successfullyRemovedHediffMessage>
+		<workAmount>3700</workAmount>
+		<removesHediff>BrainStimulator</removesHediff>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		<disallowedThingDefs>
+			<li>MedicineHerbal</li>
+		</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>
