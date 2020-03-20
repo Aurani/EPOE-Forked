@@ -19,6 +19,27 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PowerArm"]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>95</Steel>
+						<Plasteel>95</Plasteel>
+						<ComponentIndustrial>16</ComponentIndustrial>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AdvancedPowerArm"]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>95</Steel>
+						<Plasteel>95</Plasteel>
+						<ComponentIndustrial>16</ComponentIndustrial>
+						<ComponentSpacer>5</ComponentSpacer>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Joywire"]/costList</xpath>
 				<value>
 					<costList>

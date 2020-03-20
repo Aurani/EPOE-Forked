@@ -24,7 +24,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="BodyPartProstheticBase"]/statBases/WorkToMake</xpath>
 				<value>
-					<WorkToMake>5000</WorkToMake>
+					<WorkToMake>12000</WorkToMake>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -52,7 +52,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[@Name="EPOESurrogateBase"]/recipeMaker/recipeUsers/li[text() = "TableSimpleProsthetic"]</xpath>
+		<xpath>Defs/ThingDef[@Name="EPIASurrogateBase"]/recipeMaker/recipeUsers/li[text() = "TableSimpleProsthetic"]</xpath>
 	</Operation>
 
 </Patch>

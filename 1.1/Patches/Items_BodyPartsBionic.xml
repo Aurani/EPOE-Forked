@@ -22,31 +22,49 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/statBases/WorkToMake</xpath>
-				<value>
-					<WorkToMake>9000</WorkToMake>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/skillRequirements/Crafting</xpath>
-				<value>
-					<Crafting>7</Crafting>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/soundWorking</xpath>
+				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/soundWorking</xpath>
 				<value>
 					<soundWorking>EPOEAssembling</soundWorking>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/unfinishedThingDef</xpath>
+				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/unfinishedThingDef</xpath>
 				<value>
 					<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 				</value>
 			</li>
 		</operations>
 	</Operation>
+	
+	<!--Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>EPOE-Forked: Direct crafting</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/statBases/WorkToMake</xpath>
+					<value>
+						<WorkToMake>9000</WorkToMake>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/skillRequirements/Crafting</xpath>
+					<value>
+						<Crafting>7</Crafting>
+					</value>
+				</li>
+			</operations>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/statBases/WorkToMake</xpath>
+			<value>
+				<WorkToMake>14000</WorkToMake>
+			</value>
+		</match>
+	</Operation-->
 
 	<!-- Trying a catch-all transfer to EPOE workbenches, but seems need further twisting of my head to figure out -->
 

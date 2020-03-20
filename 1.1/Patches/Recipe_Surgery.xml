@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="PatchOperationSequence">
+	<!--Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[@Name="BodyPartProstheticImperialBase"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RecipeDef[defName="InstallJoywire"]/researchPrerequisite</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallJoywire" or defName="InstallPainstopper"]</xpath>
+				<value>
+					<researchPrerequisite>BrainSurgery</researchPrerequisite>
+				</value>
+			</li>
+		</operations>
+	</Operation-->
+
+	<!--Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationAdd">
@@ -21,5 +41,17 @@
 			</li>
 		</operations>
 	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RecipeDef[defName="DowngradePsychicAmplifier"]/researchPrerequisite</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName="DowngradePsychicAmplifier"]/researchPrerequisite</xpath>
+			</li>
+		</operations>
+	</Operation-->
 
 </Patch>
