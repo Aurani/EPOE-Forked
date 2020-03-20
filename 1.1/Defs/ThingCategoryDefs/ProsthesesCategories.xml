@@ -2,7 +2,7 @@
 <Defs>
 
     <ThingCategoryDef>
-      <defName>EPOE_OrganicOptimizer</defName>
+      <defName>EPIA_OrganicOptimizer</defName>
       <label>organic optimizer</label>
       <parent>BodyParts</parent>
     </ThingCategoryDef>

@@ -4,7 +4,11 @@
 	<ResearchProjectDef>
 		<defName>BasicProsthetics</defName>
 		<label>Basic prosthetics</label>
-		<description>Understanding the shape of a leg and combining that knowledge with basic woodworking, you can now craft peg legs and other basic prostheses.</description>
+		<description>Understanding the basic shape of different body parts and combining that knowledge with basic woodworking, you can now use directly install basic prosthesis.
+
+Peg legs, wooden feet, wooden hands, dentures, eye patch and ear bandages are direct surgeries with a single wood log or textile.
+
+Hook hand and steel arm are crafted at a smithy.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<tab>EPOE</tab>
@@ -17,8 +21,8 @@
 
 	<ResearchProjectDef>
 		<defName>Prosthetics</defName>
-		<label>Simple prosthetics workbench</label>
-		<description>Advanced anatomy studies and metal testing will allow you to build simple prostheses.</description>
+		<label>prosthetics</label>
+		<description>Build inexpensive prosthetic body parts to replace lost limbs. Requires a skilled doctor to attach.</description>
 		<baseCost>600</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -32,8 +36,8 @@
 
 	<ResearchProjectDef>
 		<defName>Bionics</defName>
-		<label>bionics workbench</label>
-		<description>Discovering the concept of very small motors and circuits, new possibilities of better prostheses are now open for you.</description>
+		<label>bionic replacements</label>
+		<description>Discovering the concept of very small motors and circuits, new possibilities of better prosthesis are now open for you.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -72,10 +76,11 @@
 		<defName>RibReplacements</defName>
 		<label>rib replacements</label>
 		<description>Discovering the concept of very small dispensers, you think about putting them in ribs. You can now craft and install rib implants.</description>
-		<baseCost>300</baseCost>
+		<baseCost>500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>Bionics</li>
+			<li>MedicineProduction</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
@@ -88,11 +93,12 @@
 
 	<ResearchProjectDef>
 		<defName>SurrogateOrgans</defName>
-		<label>tissue printer</label>
+		<label>surrogate organs</label>
 		<description>Gaining higher medical and technical knowledge, creating a 3D printer to craft simple surrogate organs becomes possible.</description>
 		<baseCost>600</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
+			<li>BasicProsthetics</li>
 			<li>MicroelectronicsBasics</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -163,6 +169,9 @@
 		<description>Allows you to perform surgery on the brain.</description>
 		<baseCost>750</baseCost>
 		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
 		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
 		<researchViewY>2</researchViewY>
@@ -233,7 +242,7 @@
 		<prerequisites>
 			<li>AdvancedBionics</li>
 			<li>SyntheticOrgans</li>
-			<li>ShipBasics</li>
+			<li>VitalsMonitor</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>

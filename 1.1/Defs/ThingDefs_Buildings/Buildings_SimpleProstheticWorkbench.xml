@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="BenchBase">
 		<defName>TableSimpleProsthetic</defName>
-		<label>prosthetics workbench</label>
+		<label>prosthetic workbench</label>
 		<thingClass>Building_WorkTable</thingClass>
 		<description>A workbench equipped for production of prosthesis.</description>
 		<graphicData>

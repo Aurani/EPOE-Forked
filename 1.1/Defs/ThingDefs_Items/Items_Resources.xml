@@ -4,7 +4,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>EPOE_DamagedScytherBlade</defName>
 		<label>damaged scyther blade</label>
-		<description>A damaged blade scavenged from a dead scyther mechanoid. Not very useful in its current state. Can be restored at a simple prosthetics workbench or smelted for some plasteel.</description>
+		<description>A damaged blade scavenged from a dead scyther mechanoid. Not very useful in its current state. Can be restored at a prosthetic workbench or smelted for some plasteel.</description>
 		<techLevel>Spacer</techLevel>
 		<graphicData>
 			<texPath>Things/Item/Resource/EPOEDamagedScytherBlade</texPath>
@@ -21,6 +21,7 @@
 			<Flammability>0</Flammability>
 			<DeteriorationRate>2.0</DeteriorationRate>
 		</statBases>
+		<intricate>true</intricate>
 		<thingCategories>
 			<li>Manufactured</li>
 		</thingCategories>
@@ -46,6 +47,7 @@
 			<Flammability>0.6</Flammability>
 			<DeteriorationRate>2.0</DeteriorationRate>
 		</statBases>
+		<intricate>true</intricate>
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>

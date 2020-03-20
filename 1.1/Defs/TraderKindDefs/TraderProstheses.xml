@@ -3,95 +3,50 @@
 
 	<TraderKindDef>
 		<defName>ProsthesesTrader</defName>
-		<label>prostheses trader</label>
+		<label>prosthesis trader</label>
 		<orbital>true</orbital>
 		<stockGenerators>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Silver</thingDef>
-				<countRange>
-					<min>10000</min>
-					<max>15000</max>
-				</countRange>
+				<countRange>10000~15000</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineIndustrial</thingDef>
-				<countRange>
-					<min>5</min>
-					<max>30</max>
-				</countRange>
+				<countRange>5~30</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineUltratech</thingDef>
-				<countRange>
-					<min>-3</min>
-					<max>15</max>
-				</countRange>
+				<countRange>-3~15</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
 				<categoryDef>BodyPartsProsthetic</categoryDef>
-				<thingDefCountRange>
-					<min>3</min>
-					<max>6</max>
-				</thingDefCountRange>
-				<countRange>
-					<min>1</min>
-					<max>3</max>
-				</countRange>
+				<thingDefCountRange>3~6</thingDefCountRange>
+				<countRange>1~3</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
 				<categoryDef>BodyPartsBionic</categoryDef>
-				<thingDefCountRange>
-					<min>3</min>
-					<max>5</max>
-				</thingDefCountRange>
-				<countRange>
-					<min>1</min>
-					<max>2</max>
-				</countRange>
+				<thingDefCountRange>3~5</thingDefCountRange>
+				<countRange>1~2</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
 				<categoryDef>BodyPartsUltra</categoryDef>
-				<thingDefCountRange>
-					<min>0</min>
-					<max>2</max>
-				</thingDefCountRange>
-				<countRange>
-					<min>1</min>
-					<max>1</max>
-				</countRange>
+				<thingDefCountRange>0~2</thingDefCountRange>
+				<countRange>1~1</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
 				<categoryDef>BodyPartsArchotech</categoryDef>
-				<thingDefCountRange>
-					<min>-1</min>
-					<max>2</max>
-				</thingDefCountRange>
-				<countRange>
-					<min>1</min>
-					<max>1</max>
-				</countRange>
+				<thingDefCountRange>-1~2</thingDefCountRange>
+				<countRange>1~1</countRange>
 			</li>
 			<li Class="StockGenerator_Category">
-				<categoryDef>EPOE_OrganicOptimizer</categoryDef>
-				<thingDefCountRange>
-					<min>1</min>
-					<max>2</max>
-				</thingDefCountRange>
-				<countRange>
-					<min>0</min>
-					<max>2</max>
-				</countRange>
+				<categoryDef>EPIA_OrganicOptimizer</categoryDef>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<countRange>0~2</countRange>
 			</li>
 			<li Class="StockGenerator_Tag">
 				<tradeTag>TechHediff</tradeTag>
-				<thingDefCountRange>
-					<min>-2</min>
-					<max>7</max>
-				</thingDefCountRange>
-				<countRange>
-					<min>1</min>
-					<max>1</max>
-				</countRange>
+				<thingDefCountRange>-2~7</thingDefCountRange>
+				<countRange>1~1</countRange>
 			</li>
 		</stockGenerators>	  
 	</TraderKindDef>
