@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Expanded Prosthetics and Organ Engineering</name>
+	<name>Expanded Prosthetics and Organ Engineering - Forked</name>
 	<author>Victorique, Aurani, Tarojun</author>
     <url>https://github.com/Aurani/EPOE-Forked</url>
 	<supportedVersions>
@@ -8,5 +8,5 @@
 		<li>1.1</li>
 	</supportedVersions>
 	<packageId>vat.epoeforked</packageId>
-	<description>Adds the ability to craft tons of prostheses and artificial organs in various forms and shapes. Version 3.19</description>
+	<description>Adds the ability to craft tons of prostheses and artificial organs in various forms and shapes. Version 3.3.0.</description>
 </ModMetaData>
