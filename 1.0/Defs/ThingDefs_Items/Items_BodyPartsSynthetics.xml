@@ -290,7 +290,6 @@
 		</recipeMaker>
 		<costList>
 			<Synthread>10</Synthread>
-			<Neutroamine>5</Neutroamine>
 			<MedicineUltratech>1</MedicineUltratech>
 		</costList>
 		<statBases>
@@ -303,7 +302,6 @@
 		<defName>NeuromuscularFramework</defName>
 		<label>neuromuscular framework</label>
 		<description>A set of synthetic muscles and artificial nerves capable of perfectly recreating the function of a healthy torso.</description>
-		<tradeability>Sellable</tradeability>
 		<recipeMaker>
 			<researchPrerequisite>EPOE_SyntheticRepair</researchPrerequisite>
 		</recipeMaker>
@@ -315,13 +313,13 @@
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
+		<generateAllowChance>0.5</generateAllowChance>
 	</ThingDef>
 
 	<ThingDef ParentName="EPIANeuroGraphicBase">
 		<defName>NeurocureFramework</defName>
 		<label>neuro-cure framework</label>
-		<description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain afflicted by dementia and alzheimer.</description>
-		<tradeability>Sellable</tradeability>
+		<description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain. Used for curing brain injuries, dementia and alzheimer.</description>
 		<isTechHediff>false</isTechHediff>
 		<recipeMaker>
 			<skillRequirements>
@@ -331,13 +329,14 @@
 		</recipeMaker>
 		<costList>
 			<MedicineUltratech>15</MedicineUltratech>
-			<Hyperweave>75</Hyperweave>
-			<ComponentSpacer>3</ComponentSpacer>
-			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
+			<Hyperweave>25</Hyperweave>
+			<ComponentSpacer>2</ComponentSpacer>
+			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
 		</statBases>
+		<generateAllowChance>0.5</generateAllowChance>
 	</ThingDef>
 
 </Defs>

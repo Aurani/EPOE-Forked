@@ -288,4 +288,57 @@
 		<researchPrerequisite>EPOE_AIPersonaCoreImplant</researchPrerequisite>
 	</RecipeDef>
 
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveTacticalCorneaImplant</defName>
+		<label>remove tactical cornea implant</label>
+		<description>Remove a tactical cornea implant. Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<jobString>Removing tactical cornea implant.</jobString>
+		<removesHediff>TacticalCorneaImplant</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveConstructorCore</defName>
+		<label>remove auxiliary AI (constructing)</label>
+		<description>Remove auxiliary AI (constructing). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>ConstructorCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveFarmerCore</defName>
+		<label>remove auxiliary AI (agricultural)</label>
+		<description>Remove auxiliary AI (agricultural). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>FarmerCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveMinerCore</defName>
+		<label>remove auxiliary AI (mining)</label>
+		<description>Remove auxiliary AI (mining). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>MinerCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveDoctorCore</defName>
+		<label>remove auxiliary AI (medical)</label>
+		<description>Remove auxiliary AI (medical). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>DoctorCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveDiplomatCore</defName>
+		<label>remove auxiliary AI (diplomatic)</label>
+		<description>Remove auxiliary AI (diplomatic). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>DiplomatCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
 </Defs>

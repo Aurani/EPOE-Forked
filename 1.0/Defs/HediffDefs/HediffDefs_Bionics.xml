@@ -10,6 +10,25 @@
 			<solid>true</solid>
 		</addedPartProps>
 	</HediffDef>
+	
+	<!-- Overwrite of vanilla spine -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>BionicSpine</defName>
+		<label>bionic spine</label>
+		<labelNoun>a bionic spine</labelNoun>
+		<spawnThingOnRemoved>BionicSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<CarryingCapacity>+10</CarryingCapacity>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 
 	<!-- New EPOE body parts -->
 
@@ -166,6 +185,7 @@
 		<spawnThingOnRemoved>PainkillerRib</spawnThingOnRemoved>
 		<stages>
 			<li>
+				<painOffset>-0.08</painOffset>
 				<painFactor>0.9</painFactor>
 			</li>
 		</stages>

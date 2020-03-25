@@ -260,7 +260,7 @@
 		<defName>RemoveBrainStimulator</defName>
 		<label>remove brain stimulator</label>
 		<description>Removes brain stimulator.</description>
-		<workerClass>Recipe_RemoveHediff</workerClass>
+		<workerClass>EPIA.Recipe_RemoveImplant</workerClass>
 		<jobString>Removing brain stimulator.</jobString>
 		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</successfullyRemovedHediffMessage>
 		<workAmount>3700</workAmount>

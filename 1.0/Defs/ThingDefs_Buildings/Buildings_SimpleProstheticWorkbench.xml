@@ -5,7 +5,7 @@
 		<defName>TableSimpleProsthetic</defName>
 		<label>prosthetic workbench</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>A workbench equipped for production of simple prosthesis.</description>
+		<description>A workbench equipped for production of prosthesis.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/TableSimpleProsthetics</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

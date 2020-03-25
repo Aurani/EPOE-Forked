@@ -39,4 +39,30 @@
 		</recipeUsers>
 	</RecipeDef>
 
+	<RecipeDef Name="EPIA_SurgeryRemoveImplant" ParentName="SurgeryFlesh" Abstract="True">
+		<workerClass>EPIA.Recipe_RemoveImplant</workerClass>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
 </Defs>

@@ -520,4 +520,52 @@
 		<addsHediff>CoolerRib</addsHediff>
 	</RecipeDef>
 
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveMedicalRib</defName>
+		<label>remove medical rib replacement</label>
+		<description>Remove a medical rib replacement.</description>
+		<jobString>Removing rib replacement.</jobString>
+		<removesHediff>MedicalRib</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveDruggedRib</defName>
+		<label>remove drugged rib replacement</label>
+		<description>Remove a drugged rib replacement.</description>
+		<jobString>Removing rib replacement.</jobString>
+		<removesHediff>DruggedRib</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveAdrenalineRib</defName>
+		<label>remove adrenaline rib replacement</label>
+		<description>Remove a adrenaline rib replacement.</description>
+		<jobString>Removing rib replacement.</jobString>
+		<removesHediff>AdrenalineRib</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemovePainkillerRib</defName>
+		<label>remove painkiller rib replacement</label>
+		<description>Remove a painkiller rib replacement.</description>
+		<jobString>Removing rib replacement.</jobString>
+		<removesHediff>PainkillerRib</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveHeaterRib</defName>
+		<label>remove heating rib replacement</label>
+		<description>Remove a heating rib replacement.</description>
+		<jobString>Removing rib replacement.</jobString>
+		<removesHediff>HeaterRib</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveCoolerRib</defName>
+		<label>remove cooling rib replacement</label>
+		<description>Remove a cooling rib replacement.</description>
+		<jobString>Removing rib replacement.</jobString>
+		<removesHediff>CoolerRib</removesHediff>
+	</RecipeDef>
+
 </Defs>

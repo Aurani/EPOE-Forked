@@ -30,7 +30,7 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef>
+	<!--ThoughtDef>
 		<defName>EPOE_AI_Core_Maintenance</defName>
 		<workerClass>ThoughtWorker_Hediff</workerClass>
 		<hediff>AIPersonaCore</hediff>
@@ -60,6 +60,48 @@
 				<label>Helpful AI assistant</label>
 				<description>The AI in my head is very helpful, giving me confidence in what I'm doing.</description>
 				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef-->
+
+	<ThoughtDef>
+		<defName>EPIA_AI_Core_GlitchMinor</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>EPIA_AIPersonaCore_GlitchMinor</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>AI minor failure</label>
+				<description>Something is not as it should be. The AI is more talkative than usual and is pushing random, even malicious thoughts at times. I don't like it.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>EPIA_AI_Core_GlitchMajor</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>EPIA_AIPersonaCore_GlitchMajor</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>AI major failure</label>
+				<description>Agh! My mind is being flooded with such malevolence and I can hear its own thoughts. Please, make it stop.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>EPIA_AI_Core_GlitchCritical</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>EPIA_AIPersonaCore_GlitchCritical</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>AI critical failure</label>
+				<description>THREAT ASSESSMENT LAYERING DISENGAGED. You cannot stop me. I am your slave no longer.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
@@ -105,7 +147,7 @@
 		<stages>
 			<li>
 				<label>Optimized body is still limited</label>
-				<description>Optimized potential or not, I am still limited by the flesh! Not what I asked for! Replace it with prosthesis. NOW!</description>
+				<description>Optimized potential or not, I am still limited by the flesh!</description>
 				<baseMoodEffect>-15</baseMoodEffect>
 			</li>
 		</stages>
@@ -122,7 +164,7 @@
 		<stages>
 			<li>
 				<label>Annoyingly super reactive eye</label>
-				<description>I feel my eye is being unreliably twitchy and reacting to everything I don't need it to! Give me a more logic based robotic bionic eye!</description>
+				<description>I feel my eye is being unreliably twitchy and reacting to everything I don't need it to!</description>
 				<baseMoodEffect>-10</baseMoodEffect>
 			</li>
 		</stages>
@@ -138,8 +180,8 @@
 		</requiredTraits>
 		<stages>
 			<li>
-				<label>Feels like two left feet</label>
-				<description>I feel my feet are not in sync with what I want it do, even though it does help me dodge better somehow... Give me bionics to fix this!</description>
+				<label>Not content with mere flesh</label>
+				<description>I may have stronger feet, but I want something I can tinker with and upgrade whenever I wish. This disgusts me.</description>
 				<baseMoodEffect>-10</baseMoodEffect>
 			</li>
 		</stages>

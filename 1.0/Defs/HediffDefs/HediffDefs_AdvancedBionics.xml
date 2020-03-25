@@ -153,6 +153,13 @@
 			<solid>true</solid>
 			<partEfficiency>1.25</partEfficiency>
 		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<CarryingCapacity>+20</CarryingCapacity>
+				</statOffsets>
+			</li>
+		</stages>
 	</HediffDef>
 
 	<HediffDef>
@@ -165,6 +172,9 @@
 		<spawnThingOnRemoved>ExoskeletonSuit</spawnThingOnRemoved>
 		<stages>
 			<li>
+				<statOffsets>
+					<CarryingCapacity>+25</CarryingCapacity>
+				</statOffsets>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>

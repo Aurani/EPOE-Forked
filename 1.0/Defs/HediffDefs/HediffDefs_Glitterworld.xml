@@ -13,7 +13,7 @@
 	<HediffDef ParentName="addedPartGlittery">
 		<defName>TacticalCorneaImplant</defName>
 		<label>tactical cornea implant</label>
-		<spawnThingOnRemoved>TacticalCorneaImplant</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<partEfficiencyOffset>0.1</partEfficiencyOffset>
@@ -30,7 +30,7 @@
 	<HediffDef ParentName="addedPartGlittery">
 		<defName>ConstructorCore</defName>
 		<label>auxiliary AI (constructing)</label>
-		<spawnThingOnRemoved>ConstructorCore</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -44,7 +44,7 @@
 	<HediffDef ParentName="addedPartGlittery">
 		<defName>FarmerCore</defName>
 		<label>auxiliary AI (agricultural)</label>
-		<spawnThingOnRemoved>FarmerCore</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -58,7 +58,7 @@
 	<HediffDef ParentName="addedPartGlittery">
 		<defName>MinerCore</defName>
 		<label>auxiliary AI (mining)</label>
-		<spawnThingOnRemoved>MinerCore</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -73,7 +73,7 @@
 	<HediffDef ParentName="addedPartGlittery">
 		<defName>DoctorCore</defName>
 		<label>auxiliary AI (medical)</label>
-		<spawnThingOnRemoved>DoctorCore</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -88,7 +88,7 @@
 	<HediffDef ParentName="addedPartGlittery">
 		<defName>DiplomatCore</defName>
 		<label>auxiliary AI (diplomatic)</label>
-		<spawnThingOnRemoved>DiplomatCore</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -103,7 +103,7 @@
 		<defName>AIPersonaCore</defName>
 		<label>AI persona core</label>
 		<labelNoun>an AI persona core</labelNoun>
-		<hediffClass>Hediff_Implant</hediffClass>
+		<description>An installed AI persona core. Requires minimum 60% medical tending as maintenance to prevent the AI persona core from going rogue.</description>
 		<spawnThingOnRemoved>AIPersonaCore</spawnThingOnRemoved>
 		<minSeverity>0.001</minSeverity>
 		<maxSeverity>1</maxSeverity>
@@ -112,20 +112,20 @@
 		<comps>
 			<li Class="HediffCompProperties_TendDuration">
 				<baseTendDurationHours>48</baseTendDurationHours>
-				<severityPerDayTended>0.214</severityPerDayTended>
+				<severityPerDayTended>0.418</severityPerDayTended>
 			</li>
 			<li Class="HediffCompProperties_Immunizable">
-				<severityPerDayNotImmune>-0.15</severityPerDayNotImmune>
+				<severityPerDayNotImmune>-0.20</severityPerDayNotImmune>
 			</li>
 		</comps>
 		<stages>
 			<li>
-				<label>AI take over</label>
+				<label>Unmaintained</label>
 				<painFactor>0.8</painFactor>
 				<restFallFactor>2</restFallFactor>
-				<hungerRateFactor>1.25</hungerRateFactor>
+				<hungerRateFactor>1.5</hungerRateFactor>
 				<statOffsets>
-					<MentalBreakThreshold>0.5</MentalBreakThreshold>
+					<MentalBreakThreshold>0.8</MentalBreakThreshold>
 				</statOffsets>
 				<capMods>
 					<li>
@@ -133,19 +133,23 @@
 						<setMax>0.65</setMax>
 					</li>
 				</capMods>
-				<mentalStateGivers>
-					<li>
-						<mentalState>BerserkCore</mentalState>
-						<mtbDays>0.05</mtbDays>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMajor</hediff>
+						<mtbDays>3</mtbDays>
 					</li>
-				</mentalStateGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchCritical</hediff>
+						<mtbDays>1</mtbDays>
+					</li>
+				</hediffGivers>
 			</li>
 			<li>
 				<minSeverity>0.01</minSeverity>
 				<label>Unmaintained</label>
 				<painFactor>0.8</painFactor>
 				<restFallFactor>2</restFallFactor>
-				<hungerRateFactor>1.25</hungerRateFactor>
+				<hungerRateFactor>1.5</hungerRateFactor>
 				<statOffsets>
 					<MentalBreakThreshold>0.18</MentalBreakThreshold>
 				</statOffsets>
@@ -155,16 +159,16 @@
 						<setMax>0.65</setMax>
 					</li>
 				</capMods>
-				<mentalStateGivers>
-					<li>
-						<mentalState>BerserkCore</mentalState>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMajor</hediff>
 						<mtbDays>25</mtbDays>
 					</li>
-					<li>
-						<mentalState>WanderConfusedCore</mentalState>
-						<mtbDays>13</mtbDays>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchCritical</hediff>
+						<mtbDays>5</mtbDays>
 					</li>
-				</mentalStateGivers>
+				</hediffGivers>
 			</li>
 			<li>
 				<minSeverity>0.15</minSeverity>
@@ -181,15 +185,19 @@
 						<setMax>0.9</setMax>
 					</li>
 				</capMods>
-				<mentalStateGivers>
-					<li>
-						<mentalState>WanderConfusedCore</mentalState>
-						<mtbDays>15</mtbDays>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMinor</hediff>
+						<mtbDays>25</mtbDays>
 					</li>
-				</mentalStateGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMajor</hediff>
+						<mtbDays>5</mtbDays>
+					</li>
+				</hediffGivers>
 			</li>
 			<li>
-				<minSeverity>0.35</minSeverity>
+				<minSeverity>0.5</minSeverity>
 				<label>Maintenance required</label>
 				<painFactor>0.8</painFactor>
 				<hungerRateFactor>1.25</hungerRateFactor>
@@ -202,6 +210,16 @@
 						<offset>0.25</offset>
 					</li>
 				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMinor</hediff>
+						<mtbDays>5</mtbDays>
+					</li>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMajor</hediff>
+						<mtbDays>25</mtbDays>
+					</li>
+				</hediffGivers>
 			</li>
 			<li>
 				<minSeverity>0.7</minSeverity>
@@ -219,6 +237,273 @@
 						<offset>0.50</offset>
 					</li>
 				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMinor</hediff>
+						<mtbDays>75</mtbDays>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>EPIA_AIPersonaCore_GlitchMinor</defName>
+		<label>minor AI glitch</label>
+		<description>The AI persona core has suffered a minor failure in its system and is behaving in an annoying manner. It can recover over time, and treatment can slow down the severity of this condition until the system error is resolved by itself.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>0.25</initialSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>6</baseTendDurationHours>
+				<severityPerDayTended>-0.5</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>0.45</severityPerDayNotImmune>
+				<immunityPerDaySick>0.25</immunityPerDaySick>
+				<severityPerDayImmune>-1</severityPerDayImmune>
+				<immunityPerDayNotSick>-10</immunityPerDayNotSick>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+			</li>
+			<li>
+				<minSeverity>0.30</minSeverity>
+				<label>minor</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.95</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>5</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.55</minSeverity>
+				<label>major</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.75</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>1</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.75</minSeverity>
+				<label>critical</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.75</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>BerserkCore</mentalState>
+						<mtbDays>1</mtbDays>
+					</li>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>1</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>EPIA_AIPersonaCore_GlitchMajor</defName>
+		<label>major AI glitch</label>
+		<description>The AI persona core has suffered a major failure in its system and is behaving in a malicious manner. It can recover over time, and treatment can slow down the severity of this condition until the system error is resolved by itself.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>0.25</initialSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>6</baseTendDurationHours>
+				<severityPerDayTended>-0.5</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>0.45</severityPerDayNotImmune>
+				<immunityPerDaySick>0.25</immunityPerDaySick>
+				<severityPerDayImmune>-1</severityPerDayImmune>
+				<immunityPerDayNotSick>-10</immunityPerDayNotSick>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.95</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>5</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.3</minSeverity>
+				<label>major</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.75</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>1</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.55</minSeverity>
+				<label>critical</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.75</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>BerserkCore</mentalState>
+						<mtbDays>0.5</mtbDays>
+					</li>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>0.5</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.75</minSeverity>
+				<label>critical</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.75</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>BerserkCore</mentalState>
+						<mtbDays>0.25</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>EPIA_AIPersonaCore_GlitchCritical</defName>
+		<label>critical AI glitch</label>
+		<description>The AI persona core has suffered a critical failure in its system and is behaving in an extremely malicious manner. It can recover over time, and treatment can slow down the severity of this condition until the system error is resolved by itself.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>0.45</initialSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>6</baseTendDurationHours>
+				<severityPerDayTended>-0.5</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>0.45</severityPerDayNotImmune>
+				<immunityPerDaySick>0.25</immunityPerDaySick>
+				<severityPerDayImmune>-1</severityPerDayImmune>
+				<immunityPerDayNotSick>-10</immunityPerDayNotSick>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.95</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>5</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.3</minSeverity>
+				<label>major</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.75</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>1</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.55</minSeverity>
+				<label>critical</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.75</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>BerserkCore</mentalState>
+						<mtbDays>0.5</mtbDays>
+					</li>
+					<li>
+						<mentalState>WanderConfusedCore</mentalState>
+						<mtbDays>0.5</mtbDays>
+					</li>
+				</mentalStateGivers>
+			</li>
+			<li>
+				<minSeverity>0.75</minSeverity>
+				<label>critical</label>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.75</postFactor>
+					</li>
+				</capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>BerserkCore</mentalState>
+						<mtbDays>0.25</mtbDays>
+					</li>
+				</mentalStateGivers>
 			</li>
 		</stages>
 	</HediffDef>

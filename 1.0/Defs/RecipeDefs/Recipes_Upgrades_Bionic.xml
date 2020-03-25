@@ -559,17 +559,17 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MedicineUltratech</li>
+						<li>Penoxycyline</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>SimpleRib</li>
 				<li>Neutroamine</li>
-				<li>MedicineUltratech</li>
+				<li>Penoxycyline</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>
@@ -705,7 +705,7 @@
 		<label>assemble heating rib</label>
 		<description>Fill a blank rib replacement to complete a heating rib replacement.</description>
 		<products>
-			<PainkillerRib>1</PainkillerRib>
+			<HeaterRib>1</HeaterRib>
 		</products>
 		<ingredients>
 			<li>
@@ -747,7 +747,7 @@
 		<label>assemble cooling rib</label>
 		<description>Fill a blank rib replacement to complete a cooling rib implant.</description>
 		<products>
-			<PainkillerRib>1</PainkillerRib>
+			<CoolerRib>1</CoolerRib>
 		</products>
 		<ingredients>
 			<li>

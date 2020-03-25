@@ -16,7 +16,7 @@
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineIndustrial</thingDef>
 				<countRange>
-					<min>5</min>
+					<min>10</min>
 					<max>30</max>
 				</countRange>
 			</li>
@@ -26,6 +26,21 @@
 					<min>-3</min>
 					<max>15</max>
 				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Medicine</categoryDef>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>6</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>5</min>
+					<max>50</max>
+				</countRange>
+				<totalPriceRange>
+					<min>50</min>
+					<max>750</max>
+				</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_Category">
 				<categoryDef>BasicProstheses</categoryDef>
@@ -41,8 +56,8 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>SimpleProstheses</categoryDef>
 				<thingDefCountRange>
-					<min>2</min>
-					<max>5</max>
+					<min>4</min>
+					<max>6</max>
 				</thingDefCountRange>
 				<countRange>
 					<min>1</min>
@@ -52,8 +67,8 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>BionicProstheses</categoryDef>
 				<thingDefCountRange>
-					<min>2</min>
-					<max>4</max>
+					<min>3</min>
+					<max>6</max>
 				</thingDefCountRange>
 				<countRange>
 					<min>1</min>
@@ -63,8 +78,8 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>AdvancedProstheses</categoryDef>
 				<thingDefCountRange>
-					<min>0</min>
-					<max>2</max>
+					<min>1</min>
+					<max>3</max>
 				</thingDefCountRange>
 				<countRange>
 					<min>1</min>
@@ -85,8 +100,8 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>SurrogateOrgans</categoryDef>
 				<thingDefCountRange>
-					<min>1</min>
-					<max>3</max>
+					<min>2</min>
+					<max>4</max>
 				</thingDefCountRange>
 				<countRange>
 					<min>1</min>
@@ -96,8 +111,8 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>SyntheticOrgans</categoryDef>
 				<thingDefCountRange>
-					<min>0</min>
-					<max>1</max>
+					<min>1</min>
+					<max>3</max>
 				</thingDefCountRange>
 				<countRange>
 					<min>1</min>
@@ -118,8 +133,8 @@
 			<li Class="StockGenerator_Tag">
 				<tradeTag>TechHediff</tradeTag>
 				<thingDefCountRange>
-					<min>-2</min>
-					<max>7</max>
+					<min>3</min>
+					<max>12</max>
 				</thingDefCountRange>
 				<countRange>
 					<min>1</min>

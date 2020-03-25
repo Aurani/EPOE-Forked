@@ -334,7 +334,7 @@
 			<Plasteel>25</Plasteel>
 			<ComponentIndustrial>3</ComponentIndustrial>
 			<Neutroamine>3</Neutroamine>
-			<MedicineUltratech>1</MedicineUltratech>
+			<Penoxycyline>10</Penoxycyline>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -385,7 +385,7 @@
 	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>PainkillerRib</defName>
 		<label>painkiller rib replacement</label>
-		<description>An artificial rib, equipped with little morphine-dispensers to numb the user's pain. Side effects are respiratory ailments.</description>
+		<description>An artificial rib, equipped with little morphine-dispensers to numb the user's pain.</description>
 		<techLevel>Spacer</techLevel>
 		<costList>
 			<Plasteel>25</Plasteel>

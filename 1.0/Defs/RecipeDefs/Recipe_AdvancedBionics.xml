@@ -484,4 +484,12 @@
 		<addsHediff>ExoskeletonSuit</addsHediff>
 	</RecipeDef>
 
+	<RecipeDef ParentName="EPIA_SurgeryRemoveImplant">
+		<defName>RemoveExoskeletonSuit</defName>
+		<label>remove exoskeleton suit</label>
+		<description>Remove exoskeleton suit.</description>
+		<jobString>Removing exoskeleton suit.</jobString>
+		<removesHediff>ExoskeletonSuit</removesHediff>
+	</RecipeDef>
+
 </Defs>
