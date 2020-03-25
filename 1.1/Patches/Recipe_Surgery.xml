@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!--Operation Class="PatchOperationSequence">
+	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>Defs/ThingDef[@Name="BodyPartProstheticImperialBase"]</xpath>
+				<xpath>Defs/RecipeDef[@Name="SurgeryRemoveImplantBase"]</xpath>
 				<success>Invert</success>
 			</li>
-			<li Class="PatchOperationTest">
-				<xpath>Defs/RecipeDef[defName="InstallJoywire"]/researchPrerequisite</xpath>
-				<success>Invert</success>
+			<li Class="PatchOperationAttributeSet">
+				<xpath>Defs/RecipeDef[defName="RemoveMedicalRib" or
+				defName="RemoveDruggedRib" or
+				defName="RemoveAdrenalineRib" or
+				defName="RemovePainkillerRib" or
+				defName="RemoveHeaterRib" or
+				defName="RemoveCoolerRib" or
+				defName="RemoveCoagulatorRib" or
+				defName="RemoveTacticalCorneaImplant" or
+				defName="RemoveConstructorCore" or
+				defName="RemoveFarmerCore" or
+				defName="RemoveMinerCore" or
+				defName="RemoveDoctorCore" or
+				defName="RemoveDiplomatCore" or
+				defName="EPIA_RemoveAuxiliaryAI_Sharpshooter" or
+				defName="EPIA_RemoveAuxiliaryAI_Commando" or
+				defName="EPIA_RemoveAuxiliaryAI_Brawler" or
+				defName="RemoveExoskeletonSuit" or
+				defName="EPIA_RemoveProtectiveExoskeleton"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>EPIA_SurgeryRemoveImplant</value>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[defName="InstallJoywire" or defName="InstallPainstopper"]</xpath>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="RemoveBrainStimulator" or defName="RemoveAIChip"]/workerClass</xpath>
 				<value>
-					<researchPrerequisite>BrainSurgery</researchPrerequisite>
+					<workerClass>EPIA.Recipe_RemoveImplant</workerClass>
 				</value>
 			</li>
 		</operations>
-	</Operation-->
+	</Operation>
 
 	<!--Operation Class="PatchOperationSequence">
 		<success>Always</success>
