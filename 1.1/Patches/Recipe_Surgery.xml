@@ -31,7 +31,7 @@
 				<value>EPIA_SurgeryRemoveImplant</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="RemoveBrainStimulator" or defName="RemoveAIChip"]/workerClass</xpath>
+				<xpath>Defs/RecipeDef[defName="RemoveBrainStimulator" or defName="RemoveAIChip" or defName="RemoveJoywire" or defName="RemovePainstopper]/workerClass</xpath>
 				<value>
 					<workerClass>EPIA.Recipe_RemoveImplant</workerClass>
 				</value>
