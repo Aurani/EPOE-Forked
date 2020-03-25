@@ -19,7 +19,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/HediffDef[defName="PegLeg" or defName="WoodenHand" or defName="WoodenFoot" or defName="Denture"]</xpath>
 				<value>
-					<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+					<defaultLabelColor>(148,117,14)</defaultLabelColor>
 				</value>
 			</li>
 		</operations>
