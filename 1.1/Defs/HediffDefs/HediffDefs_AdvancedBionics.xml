@@ -372,6 +372,13 @@
 			<partEfficiency>1.25</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<CarryingCapacity>+20</CarryingCapacity>
+				</statOffsets>
+			</li>
+		</stages>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
@@ -395,6 +402,9 @@
 		<label>assemble advanced bionic spine</label>
 		<description>Upgrade bionic spine into advanced bionic spine.</description>
 		<jobString>Upgrading bionic spine.</jobString>
+		<products>
+			<AdvancedBionicSpine>1</AdvancedBionicSpine>
+		</products>
 		<ingredients>
 			<li>
 				<filter>
@@ -419,9 +429,6 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<products>
-			<AdvancedBionicSpine>1</AdvancedBionicSpine>
-		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
@@ -488,6 +495,9 @@
 		<label>assemble advanced bionic ear</label>
 		<description>Upgrade bionic ear into advanced bionic ear.</description>
 		<jobString>Upgrading bionic ear.</jobString>
+		<products>
+			<AdvancedBionicEar>1</AdvancedBionicEar>
+		</products>
 		<ingredients>
 			<li>
 				<filter>
@@ -512,9 +522,6 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<products>
-			<AdvancedBionicEar>1</AdvancedBionicEar>
-		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
@@ -973,6 +980,9 @@
 		<label>assemble advanced bionic jaw</label>
 		<description>Upgrade bionic jaw into advanced bionic jaw.</description>
 		<jobString>Upgrading bionic jaw.</jobString>
+		<products>
+			<AdvancedBionicJaw>1</AdvancedBionicJaw>
+		</products>
 		<ingredients>
 			<li>
 				<filter>
@@ -997,9 +1007,6 @@
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<products>
-			<AdvancedBionicJaw>1</AdvancedBionicJaw>
-		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
@@ -1154,6 +1161,9 @@
 		<hediffClass>Hediff_Implant</hediffClass>
 		<stages>
 			<li>
+				<statOffsets>
+					<CarryingCapacity>+25</CarryingCapacity>
+				</statOffsets>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -1166,6 +1176,9 @@
 				</capMods>
 			</li>
 		</stages>
+		<tags>
+			<li>ExoskeletonSuit</li>
+		</tags>
 	</HediffDef>
 
 	<ThingDef ParentName="BodyPartAdvancedBionicBase">
@@ -1211,6 +1224,106 @@
 			<li>Torso</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>ExoskeletonSuit</addsHediff>
+		<incompatibleWithHediffTags>
+			<li>ExoskeletonSuit</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveExoskeletonSuit</defName>
+		<label>remove exoskeleton suit</label>
+		<description>Remove exoskeleton suit.</description>
+		<descriptionHyperlinks><ThingDef>ExoskeletonSuit</ThingDef></descriptionHyperlinks>
+		<jobString>Removing exoskeleton suit.</jobString>
+		<removesHediff>ExoskeletonSuit</removesHediff>
+	</RecipeDef>
+
+	<!-- Protective exoskeleton -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>EPIA_ProtectiveExoskeleton</defName>
+		<label>protective exoskeleton</label>
+		<description>An installed protective exoskeleton.</description>
+		<descriptionHyperlinks><ThingDef>EPIA_ProtectiveExoskeleton</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPIA_ProtectiveExoskeleton</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li> 
+				<statFactors>
+					<IncomingDamageFactor>0.85</IncomingDamageFactor>
+				</statFactors>
+				<statOffsets>
+					<CarryingCapacity>+25</CarryingCapacity>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_ReactOnDamage">
+				<damageDefIncoming>EMP</damageDefIncoming>
+				<createHediff>EPIA_EMP_ProtectiveExoskeleton</createHediff>
+			</li>
+		</comps>
+		<tags>
+			<li>ExoskeletonSuit</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartAdvancedBionicBase">
+		<defName>EPIA_ProtectiveExoskeleton</defName>
+		<label>protective exoskeleton</label>
+		<description>A high tech device made out of a light skeletal structure and servomotors to support itself and the damage mitigation system used to protect the user.</description>
+		<descriptionHyperlinks><RecipeDef>EPIA_InstallProtectiveExoskeleton</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
+			<Plasteel>110</Plasteel>
+			<Hyperweave>30</Hyperweave>
+			<Steel>60</Steel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>7</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
+		<defName>EPIA_InstallProtectiveExoskeleton</defName>
+		<label>install protective exoskeleton</label>
+		<description>Installs protective exoskeleton.</description>
+		<descriptionHyperlinks><ThingDef>EPIA_ProtectiveExoskeleton</ThingDef></descriptionHyperlinks>
+		<jobString>Installing protective exoskeleton.</jobString>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>3500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPIA_ProtectiveExoskeleton</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPIA_ProtectiveExoskeleton</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPIA_ProtectiveExoskeleton</addsHediff>
+		<incompatibleWithHediffTags>
+			<li>ExoskeletonSuit</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>EPIA_RemoveProtectiveExoskeleton</defName>
+		<label>remove protective exoskeleton</label>
+		<description>Remove protective exoskeleton.</description>
+		<descriptionHyperlinks><ThingDef>EPIA_ProtectiveExoskeleton</ThingDef></descriptionHyperlinks>
+		<jobString>Removing protective exoskeleton.</jobString>
+		<removesHediff>EPIA_ProtectiveExoskeleton</removesHediff>
 	</RecipeDef>
 
 </Defs>

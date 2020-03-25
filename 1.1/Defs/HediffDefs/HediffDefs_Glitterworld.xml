@@ -67,7 +67,7 @@
 		<label>tactical cornea implant</label>
 		<description>An installed tactical cornea implant.</description>
 		<descriptionHyperlinks><ThingDef>TacticalCorneaImplant</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>TacticalCorneaImplant</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<partEfficiencyOffset>0.1</partEfficiencyOffset>
@@ -127,6 +127,15 @@
 		<addsHediff>TacticalCorneaImplant</addsHediff>
 	</RecipeDef>
 
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveTacticalCorneaImplant</defName>
+		<label>remove tactical cornea implant</label>
+		<description>Remove a tactical cornea implant. Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<jobString>Removing tactical cornea implant.</jobString>
+		<removesHediff>TacticalCorneaImplant</removesHediff>
+	</RecipeDef>
+
 	<!-- Auxiliary AI (construction) -->
 
 	<HediffDef ParentName="addedPartGlitteryImplants">
@@ -134,7 +143,7 @@
 		<label>auxiliary AI: construction</label>
 		<description>An installed auxiliary AI that aids with construction.</description>
 		<descriptionHyperlinks><ThingDef>ConstructorCore</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>ConstructorCore</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -143,6 +152,9 @@
 				</statOffsets>
 			</li>
 		</stages>
+		<tags>
+			<li>AuxiliaryAI_Worker</li>
+		</tags>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIAGlitterworldImplantBase">
@@ -190,6 +202,19 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>ConstructorCore</addsHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+		<incompatibleWithHediffTags>
+			<li>AuxiliaryAI_Combat</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveConstructorCore</defName>
+		<label>remove auxiliary AI (constructing)</label>
+		<description>Remove auxiliary AI (constructing). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>ConstructorCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
 	<!-- Auxiliary AI (agricultural) -->
@@ -199,7 +224,7 @@
 		<label>auxiliary AI: agricultural</label>
 		<description>An installed auxiliary AI that aids with farming.</description>
 		<descriptionHyperlinks><ThingDef>FarmerCore</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>FarmerCore</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -208,6 +233,9 @@
 				</statOffsets>
 			</li>
 		</stages>
+		<tags>
+			<li>AuxiliaryAI_Worker</li>
+		</tags>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIAGlitterworldImplantBase">
@@ -255,6 +283,19 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>FarmerCore</addsHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+		<incompatibleWithHediffTags>
+			<li>AuxiliaryAI_Combat</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveFarmerCore</defName>
+		<label>remove auxiliary AI (agricultural)</label>
+		<description>Remove auxiliary AI (agricultural). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>FarmerCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
 	<!-- Auxiliary AI (mining) -->
@@ -264,7 +305,7 @@
 		<label>auxiliary AI: mining</label>
 		<description>An installed auxiliary AI that aids with mining.</description>
 		<descriptionHyperlinks><ThingDef>MinerCore</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>MinerCore</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -274,6 +315,9 @@
 				</statOffsets>
 			</li>
 		</stages>
+		<tags>
+			<li>AuxiliaryAI_Worker</li>
+		</tags>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIAGlitterworldImplantBase">
@@ -321,6 +365,19 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>MinerCore</addsHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+		<incompatibleWithHediffTags>
+			<li>AuxiliaryAI_Combat</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveMinerCore</defName>
+		<label>remove auxiliary AI (mining)</label>
+		<description>Remove auxiliary AI (mining). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>MinerCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
 	<!-- Auxiliary AI (medical) -->
@@ -330,7 +387,7 @@
 		<label>auxiliary AI: medical</label>
 		<description>An installed auxiliary AI that aids with medical procedures.</description>
 		<descriptionHyperlinks><ThingDef>DoctorCore</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>DoctorCore</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -340,6 +397,9 @@
 				</statOffsets>
 			</li>
 		</stages>
+		<tags>
+			<li>AuxiliaryAI_Worker</li>
+		</tags>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIAGlitterworldImplantBase">
@@ -387,6 +447,19 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>DoctorCore</addsHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+		<incompatibleWithHediffTags>
+			<li>AuxiliaryAI_Combat</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveDoctorCore</defName>
+		<label>remove auxiliary AI (medical)</label>
+		<description>Remove auxiliary AI (medical). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>DoctorCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
 	<!-- Auxiliary AI (diplomatic) -->
@@ -396,7 +469,7 @@
 		<label>auxiliary AI: diplomatic</label>
 		<description>An installed auxiliary AI that aids with diplomatic conversations.</description>
 		<descriptionHyperlinks><ThingDef>DiplomatCore</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>DiplomatCore</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -405,6 +478,9 @@
 				</statOffsets>
 			</li>
 		</stages>
+		<tags>
+			<li>AuxiliaryAI_Worker</li>
+		</tags>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIAGlitterworldImplantBase">
@@ -452,7 +528,293 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>DiplomatCore</addsHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+		<incompatibleWithHediffTags>
+			<li>AuxiliaryAI_Combat</li>
+		</incompatibleWithHediffTags>
 	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveDiplomatCore</defName>
+		<label>remove auxiliary AI (diplomatic)</label>
+		<description>Remove auxiliary AI (diplomatic). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>DiplomatCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Auxiliary AI (sharpshooter) -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>EPIA_AuxiliaryAI_Sharpshooter</defName>
+		<label>auxiliary AI: sharpshooter</label>
+		<description>An installed auxiliary AI that aids combat, specializing in accuracy and long distance fire. Cannot be installed with other auxiliary AI.</description>
+		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Sharpshooter</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<statOffsets>
+					<ShootingAccuracyPawn>+15</ShootingAccuracyPawn>
+					<AimingDelayFactor>0.20</AimingDelayFactor>
+					<MeleeHitChance>-3</MeleeHitChance>
+					<MeleeDodgeChance>-8</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_ReactOnDamage">
+				<damageDefIncoming>EMP</damageDefIncoming>
+				<createHediff>EPIA_EMP_Disorientation</createHediff>
+			</li>
+		</comps>
+		<tags>
+			<li>AuxiliaryAI_Combat</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIAGlitterworldImplantBase">
+		<defName>EPIA_AuxiliaryAI_Sharpshooter</defName>
+		<label>auxiliary AI (sharpshooter)</label>
+		<description>A specialized combat AI assistant system designed for greatly increasing the user's accuracy, favouring long distance weaponry. Due to the sophisticated nature of the system that focuses and streamlines most cerebral processes, it cannot be used with other auxiliary AI.</description>
+		<descriptionHyperlinks><RecipeDef>EPIA_InstallAuxiliaryAI_Sharpshooter</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>25</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
+		<defName>EPIA_InstallAuxiliaryAI_Sharpshooter</defName>
+		<label>install auxiliary AI (sharpshooter)</label>
+		<description>Installs auxiliary AI (sharpshooter).</description>
+		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Sharpshooter</ThingDef></descriptionHyperlinks>
+		<jobString>Installing auxiliary AI (sharpshooter).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPIA_AuxiliaryAI_Sharpshooter</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPIA_AuxiliaryAI_Sharpshooter</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPIA_AuxiliaryAI_Sharpshooter</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+		<incompatibleWithHediffTags>
+			<li>AuxiliaryAI_Worker</li>
+			<li>AuxiliaryAI_Combat</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>EPIA_RemoveAuxiliaryAI_Sharpshooter</defName>
+		<label>remove auxiliary AI (sharpshooter)</label>
+		<description>Remove auxiliary AI (sharpshooter). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>EPIA_AuxiliaryAI_Sharpshooter</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Auxiliary AI (commando) -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>EPIA_AuxiliaryAI_Commando</defName>
+		<label>auxiliary AI: commando</label>
+		<description>An installed auxiliary AI that aids combat, supporting the user in coping with the pressures of combat. Cannot be installed with other auxiliary AI.</description>
+		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Commando</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<painFactor>0.85</painFactor>
+				<statOffsets>
+					<ShootingAccuracyPawn>+5</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.15</AimingDelayFactor>
+					<MentalBreakThreshold>-0.06</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_ReactOnDamage">
+				<damageDefIncoming>EMP</damageDefIncoming>
+				<createHediff>EPIA_EMP_Disorientation</createHediff>
+			</li>
+		</comps>
+		<tags>
+			<li>AuxiliaryAI_Combat</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIAGlitterworldImplantBase">
+		<defName>EPIA_AuxiliaryAI_Commando</defName>
+		<label>auxiliary AI (commando)</label>
+		<description>A specialized combat AI assistant system designed for supporting the user in coping with the pressures of combat. Due to the sophisticated nature of the system that focuses and streamlines most cerebral processes, it cannot be used with other auxiliary AI.</description>
+		<descriptionHyperlinks><RecipeDef>EPIA_InstallAuxiliaryAI_Commando</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>25</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
+		<defName>EPIA_InstallAuxiliaryAI_Commando</defName>
+		<label>install auxiliary AI (commando)</label>
+		<description>Installs auxiliary AI (commando).</description>
+		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Commando</ThingDef></descriptionHyperlinks>
+		<jobString>Installing auxiliary AI (commando).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPIA_AuxiliaryAI_Commando</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPIA_AuxiliaryAI_Commando</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPIA_AuxiliaryAI_Commando</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+		<incompatibleWithHediffTags>
+			<li>AuxiliaryAI_Worker</li>
+			<li>AuxiliaryAI_Combat</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>EPIA_RemoveAuxiliaryAI_Commando</defName>
+		<label>remove auxiliary AI (commando)</label>
+		<description>Remove auxiliary AI (commando). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>EPIA_AuxiliaryAI_Commando</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Auxiliary AI (brawler) -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>EPIA_AuxiliaryAI_Brawler</defName>
+		<label>auxiliary AI: brawler</label>
+		<description>An installed auxiliary AI that aids close quarter combat, supporting the user with life or death decisions. Cannot be installed with other auxiliary AI.</description>
+		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Brawler</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<painFactor>0.85</painFactor>
+				<statOffsets>
+					<ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+					<MentalBreakThreshold>-0.14</MentalBreakThreshold>
+					<MeleeHitChance>+8</MeleeHitChance>
+					<MeleeDodgeChance>+15</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_ReactOnDamage">
+				<damageDefIncoming>EMP</damageDefIncoming>
+				<createHediff>EPIA_EMP_Disorientation</createHediff>
+			</li>
+		</comps>
+		<tags>
+			<li>AuxiliaryAI_Combat</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIAGlitterworldImplantBase">
+		<defName>EPIA_AuxiliaryAI_Brawler</defName>
+		<label>auxiliary AI (brawler)</label>
+		<description>A specialized AI system designed for combat purposes, aiding the user by filtering irrelevant electrical and chemical signals sent to the brain in high-threat situations, thereby increasing overall combat capabilities. Due to the sophisticated nature of the system that focuses and streamlines most cerebral processes, it cannot be used with other auxiliary AI.</description>
+		<descriptionHyperlinks><RecipeDef>EPIA_InstallAuxiliaryAI_Brawler</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>25</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
+		<defName>EPIA_InstallAuxiliaryAI_Brawler</defName>
+		<label>install auxiliary AI (brawler)</label>
+		<description>Installs auxiliary AI (brawler).</description>
+		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Brawler</ThingDef></descriptionHyperlinks>
+		<jobString>Installing auxiliary AI (brawler).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPIA_AuxiliaryAI_Brawler</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPIA_AuxiliaryAI_Brawler</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPIA_AuxiliaryAI_Brawler</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+		<incompatibleWithHediffTags>
+			<li>AuxiliaryAI_Worker</li>
+			<li>AuxiliaryAI_Combat</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>EPIA_RemoveAuxiliaryAI_Brawler</defName>
+		<label>remove auxiliary AI (brawler)</label>
+		<description>Remove auxiliary AI (brawler). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>EPIA_AuxiliaryAI_Brawler</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- AI persona core -->
 
 	<!-- AI persona core -->
 
@@ -460,7 +822,7 @@
 		<defName>AIPersonaCore</defName>
 		<label>AI persona core</label>
 		<labelNoun>an AI persona core</labelNoun>
-		<description>An installed AI persona core. Requires minimum 70% medical tending as maintenance to prevent the AI persona core from going rogue.</description>
+		<description>An installed AI persona core. Requires minimum 60% medical tending as maintenance to prevent the AI persona core from going rogue.</description>
 		<descriptionHyperlinks><ThingDef>AIPersonaCore</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>AIPersonaCore</spawnThingOnRemoved>
 		<minSeverity>0.001</minSeverity>
@@ -470,20 +832,24 @@
 		<comps>
 			<li Class="HediffCompProperties_TendDuration">
 				<baseTendDurationHours>48</baseTendDurationHours>
-				<severityPerDayTended>0.214</severityPerDayTended>
+				<severityPerDayTended>0.418</severityPerDayTended>
 			</li>
 			<li Class="HediffCompProperties_Immunizable">
-				<severityPerDayNotImmune>-0.15</severityPerDayNotImmune>
+				<severityPerDayNotImmune>-0.20</severityPerDayNotImmune>
+			</li>
+			<li Class="HediffCompProperties_ReactOnDamage">
+				<damageDefIncoming>EMP</damageDefIncoming>
+				<createHediff>EPIA_AIPersonaCore_EMPed</createHediff>
 			</li>
 		</comps>
 		<stages>
 			<li>
-				<label>AI take over</label>
+				<label>Unmaintained</label>
 				<painFactor>0.8</painFactor>
 				<restFallFactor>2</restFallFactor>
-				<hungerRateFactor>1.25</hungerRateFactor>
+				<hungerRateFactor>1.5</hungerRateFactor>
 				<statOffsets>
-					<MentalBreakThreshold>0.5</MentalBreakThreshold>
+					<MentalBreakThreshold>0.8</MentalBreakThreshold>
 				</statOffsets>
 				<capMods>
 					<li>
@@ -491,19 +857,23 @@
 						<setMax>0.65</setMax>
 					</li>
 				</capMods>
-				<mentalStateGivers>
-					<li>
-						<mentalState>BerserkCore</mentalState>
-						<mtbDays>0.05</mtbDays>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMajor</hediff>
+						<mtbDays>3</mtbDays>
 					</li>
-				</mentalStateGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchCritical</hediff>
+						<mtbDays>1</mtbDays>
+					</li>
+				</hediffGivers>
 			</li>
 			<li>
 				<minSeverity>0.01</minSeverity>
 				<label>Unmaintained</label>
 				<painFactor>0.8</painFactor>
 				<restFallFactor>2</restFallFactor>
-				<hungerRateFactor>1.25</hungerRateFactor>
+				<hungerRateFactor>1.5</hungerRateFactor>
 				<statOffsets>
 					<MentalBreakThreshold>0.18</MentalBreakThreshold>
 				</statOffsets>
@@ -513,16 +883,16 @@
 						<setMax>0.65</setMax>
 					</li>
 				</capMods>
-				<mentalStateGivers>
-					<li>
-						<mentalState>BerserkCore</mentalState>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMajor</hediff>
 						<mtbDays>25</mtbDays>
 					</li>
-					<li>
-						<mentalState>WanderConfusedCore</mentalState>
-						<mtbDays>13</mtbDays>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchCritical</hediff>
+						<mtbDays>5</mtbDays>
 					</li>
-				</mentalStateGivers>
+				</hediffGivers>
 			</li>
 			<li>
 				<minSeverity>0.15</minSeverity>
@@ -539,15 +909,19 @@
 						<setMax>0.9</setMax>
 					</li>
 				</capMods>
-				<mentalStateGivers>
-					<li>
-						<mentalState>WanderConfusedCore</mentalState>
-						<mtbDays>15</mtbDays>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMinor</hediff>
+						<mtbDays>25</mtbDays>
 					</li>
-				</mentalStateGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMajor</hediff>
+						<mtbDays>5</mtbDays>
+					</li>
+				</hediffGivers>
 			</li>
 			<li>
-				<minSeverity>0.35</minSeverity>
+				<minSeverity>0.5</minSeverity>
 				<label>Maintenance required</label>
 				<painFactor>0.8</painFactor>
 				<hungerRateFactor>1.25</hungerRateFactor>
@@ -560,6 +934,16 @@
 						<offset>0.25</offset>
 					</li>
 				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMinor</hediff>
+						<mtbDays>5</mtbDays>
+					</li>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMajor</hediff>
+						<mtbDays>25</mtbDays>
+					</li>
+				</hediffGivers>
 			</li>
 			<li>
 				<minSeverity>0.7</minSeverity>
@@ -577,6 +961,12 @@
 						<offset>0.50</offset>
 					</li>
 				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>EPIA_AIPersonaCore_GlitchMinor</hediff>
+						<mtbDays>75</mtbDays>
+					</li>
+				</hediffGivers>
 			</li>
 		</stages>
 	</HediffDef>

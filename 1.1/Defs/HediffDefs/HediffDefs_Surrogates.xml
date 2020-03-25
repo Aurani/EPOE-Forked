@@ -495,7 +495,7 @@
 		<defName>RemoveBrainStimulator</defName>
 		<label>remove brain stimulator</label>
 		<description>Removes brain stimulator.</description>
-		<workerClass>Recipe_RemoveHediff</workerClass>
+		<workerClass>Recipe_RemoveImplant</workerClass>
 		<jobString>Removing brain stimulator.</jobString>
 		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</successfullyRemovedHediffMessage>
 		<workAmount>3700</workAmount>
@@ -508,7 +508,7 @@
 						<li>Medicine</li>
 					</categories>
 				</filter>
-				<count>7</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>

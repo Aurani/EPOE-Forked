@@ -49,4 +49,16 @@
 <InstallExoskeletonSuit.description>Installs exoskeleton suit.</InstallExoskeletonSuit.description>
 <InstallExoskeletonSuit.jobString>Installing exoskeleton suit.</InstallExoskeletonSuit.jobString>
 
+<EPIA_InstallProtectiveExoskeleton.label>install protective exoskeleton</EPIA_InstallProtectiveExoskeleton.label>
+<EPIA_InstallProtectiveExoskeleton.description>Installs protective exoskeleton.</EPIA_InstallProtectiveExoskeleton.description>
+<EPIA_InstallProtectiveExoskeleton.jobString>Installing protective exoskeleton.</EPIA_InstallProtectiveExoskeleton.jobString>
+
+<RemoveExoskeletonSuit.label>remove exoskeleton suit</RemoveExoskeletonSuit.label>
+<RemoveExoskeletonSuit.description>Remove exoskeleton suit.</RemoveExoskeletonSuit.description>
+<RemoveExoskeletonSuit.jobString>Removing exoskeleton suit.</RemoveExoskeletonSuit.jobString>
+
+<EPIA_RemoveProtectiveExoskeleton.label>remove protective exoskeleton</EPIA_RemoveProtectiveExoskeleton.label>
+<EPIA_RemoveProtectiveExoskeleton.description>Remove protective exoskeleton.</EPIA_RemoveProtectiveExoskeleton.description>
+<EPIA_RemoveProtectiveExoskeleton.jobString>Removing protective exoskeleton.</EPIA_RemoveProtectiveExoskeleton.jobString>
+
 </LanguageData>

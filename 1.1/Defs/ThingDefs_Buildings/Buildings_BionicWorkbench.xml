@@ -5,7 +5,7 @@
 		<defName>TableBionics</defName>
 		<label>bionics workbench</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>A workbench equipped for production of high tech bionics and implants. This advanced workbench is capable of assisting certain workstations by sharing some of its specialized fabrication system when placed near them.\n\nWhen placed near prosthetic workbench, organ printer or fabrication bench, this workbench is able to increase their production speed. They can connect to a maximum of one bionic workbench.</description>
+		<description>A workbench equipped for production of high tech bionics and implants. This advanced workbench is capable of assisting certain workstations by sharing some of its specialized fabrication system when placed near them.\n\nWhen placed near the prosthetic workbench, organ printer or the fabrication bench, this workbench is able to increase their production speed. They can connect to a maximum of one bionic workbench.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/TableBionics</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

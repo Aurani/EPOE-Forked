@@ -37,4 +37,7 @@
 <ExoskeletonSuit.label>exoskeleton suit</ExoskeletonSuit.label>
 <ExoskeletonSuit.description>A high tech device made out of two components: a light skeletal structure to relieve the back and servomotors to make the user stronger.</ExoskeletonSuit.description>
 
+<EPIA_ProtectiveExoskeleton.label>protective exoskeleton</EPIA_ProtectiveExoskeleton.label>
+<EPIA_ProtectiveExoskeleton.description>A high tech device made out of a light skeletal structure and servomotors to support itself and the damage mitigation system used to protect the user.</EPIA_ProtectiveExoskeleton.description>
+
 </LanguageData>

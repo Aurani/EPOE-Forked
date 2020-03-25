@@ -14,12 +14,15 @@
 <AdrenalineRib.description>An artificial rib, equipped with little adrenaline-dispensers to keep the user fit and awake.</AdrenalineRib.description>
 
 <PainkillerRib.label>painkiller rib replacement</PainkillerRib.label>
-<PainkillerRib.description>An artificial rib, equipped with little morphine-dispensers to numb the user's pain. Side effects are respiratory ailments.</PainkillerRib.description>
+<PainkillerRib.description>An artificial rib, equipped with little morphine-dispensers to numb the user's pain.</PainkillerRib.description>
 
 <HeaterRib.label>heating rib replacement</HeaterRib.label>
 <HeaterRib.description>An artificial rib, containing a micro-reactor powered, heat inducing spiral to warm the body from the inside.</HeaterRib.description>
 
 <CoolerRib.label>cooling rib replacement</CoolerRib.label>
 <CoolerRib.description>An artificial rib with a micro coolant system, increasing the effectiveness of heat exchange via dermal exhausts.</CoolerRib.description>
+
+<CoagulatorRib.label>coagulator rib replacement</CoagulatorRib.label>
+<CoagulatorRib.description>An artificial rib, equipped with little coagulator-dispensers that responds to blood loss, which will make the blood clot easier, in an effort to reduce bleeding.</CoagulatorRib.description>
 
 </LanguageData>

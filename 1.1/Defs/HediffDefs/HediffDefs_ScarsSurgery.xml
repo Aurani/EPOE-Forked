@@ -13,7 +13,6 @@
 		</recipeMaker>
 		<costList>
 			<Synthread>10</Synthread>
-			<Neutroamine>5</Neutroamine>
 			<MedicineUltratech>1</MedicineUltratech>
 		</costList>
 		<statBases>
@@ -274,7 +273,7 @@
 		</recipeMaker>
 		<costList>
 			<MedicineUltratech>15</MedicineUltratech>
-			<Hyperweave>50</Hyperweave>
+			<Hyperweave>25</Hyperweave>
 			<ComponentSpacer>2</ComponentSpacer>
 			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
 		</costList>

@@ -37,10 +37,10 @@
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_AffectedByFacilities">
-			<linkableFacilities>
-				<li>ToolCabinet</li>
-				<li>TableBionics</li>
-			</linkableFacilities>
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+					<li>TableBionics</li>
+				</linkableFacilities>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>

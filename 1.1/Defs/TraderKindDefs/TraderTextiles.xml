@@ -13,19 +13,23 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>Apparel</categoryDef>
 				<thingDefCountRange>3~6</thingDefCountRange>
-				<totalPriceRange>1500~10000</totalPriceRange>
-				<countRange>1~10</countRange>
+				<countRange>1~5</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Hyperweave</thingDef>
 				<price>Normal</price>
 				<countRange>40~120</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Synthread</thingDef>
+				<price>Normal</price>
+				<countRange>50~150</countRange>
 			</li>   
 			<li Class="StockGenerator_Category">
 				<categoryDef>Textiles</categoryDef>
-				<thingDefCountRange>50~300</thingDefCountRange>
+				<thingDefCountRange>10~25</thingDefCountRange>
 				<price>Cheap</price>
-				<totalPriceRange>2200~4000</totalPriceRange>
+				<totalPriceRange>1400~2800</totalPriceRange>
 			</li>
 		</stockGenerators>	  
 	</TraderKindDef>

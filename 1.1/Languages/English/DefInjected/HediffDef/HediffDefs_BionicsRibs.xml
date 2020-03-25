@@ -23,4 +23,7 @@
 <CoolerRib.label>cooling rib</CoolerRib.label>
 <CoolerRib.description>An installed cooler rib implant.</CoolerRib.description>
 
+<CoagulatorRib.label>coagulator rib</CoagulatorRib.label>
+<CoagulatorRib.description>An installed coagulator rib implant.</CoagulatorRib.description>
+
 </LanguageData>

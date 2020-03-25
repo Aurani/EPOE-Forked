@@ -231,6 +231,26 @@
 
 	<!-- Bionic spine -->
 
+	<HediffDef ParentName="addedPartBionics">
+		<defName>BionicSpine</defName>
+		<label>bionic spine</label>
+		<labelNoun>a bionic spine</labelNoun>
+		<description>An installed bionic spine.</description>
+		<descriptionHyperlinks><ThingDef>BionicSpine</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<CarryingCapacity>+10</CarryingCapacity>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
 	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
 		<defName>BionicSpine</defName>
 		<label>bionic spine</label>

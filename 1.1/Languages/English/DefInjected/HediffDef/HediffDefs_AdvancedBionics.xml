@@ -52,4 +52,7 @@
 <ExoskeletonSuit.labelNoun>an exoskeleton suit</ExoskeletonSuit.labelNoun>
 <ExoskeletonSuit.description>An installed exoskeleton suit.</ExoskeletonSuit.description>
 
+<EPIA_ProtectiveExoskeleton.label>protective exoskeleton</EPIA_ProtectiveExoskeleton.label>
+<EPIA_ProtectiveExoskeleton.description>An installed protective exoskeleton.</EPIA_ProtectiveExoskeleton.description>
+
 </LanguageData>
