@@ -51,6 +51,11 @@
 <RepairShredded.jobString>Mending shredded scar.</RepairShredded.jobString>
 <RepairShredded.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</RepairShredded.successfullyRemovedHediffMessage>
 
+<RepairCrush.label>mend mangled scar</RepairCrush.label>
+<RepairCrush.description>Mend a mangled scar.</RepairCrush.description>
+<RepairCrush.jobString>Mending mangled scar.</RepairCrush.jobString>
+<RepairCrush.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s mangled scar.</RepairCrush.successfullyRemovedHediffMessage>
+
 <SurgeryRemoveFrailty.label>heal frailty</SurgeryRemoveFrailty.label>
 <SurgeryRemoveFrailty.description>Install a neuromuscular framework to repair frailty.</SurgeryRemoveFrailty.description>
 <SurgeryRemoveFrailty.jobString>Healing frailty.</SurgeryRemoveFrailty.jobString>
@@ -120,5 +125,10 @@
 <EPIA_RepairBrainShredded.description>Mend a shredded scar.</EPIA_RepairBrainShredded.description>
 <EPIA_RepairBrainShredded.jobString>Mending shredded scar.</EPIA_RepairBrainShredded.jobString>
 <EPIA_RepairBrainShredded.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</EPIA_RepairBrainShredded.successfullyRemovedHediffMessage>
+
+<EPIA_RepairBrainCrush.label>mend mangled scar</EPIA_RepairBrainCrush.label>
+<EPIA_RepairBrainCrush.description>Mend a mangled scar.</EPIA_RepairBrainCrush.description>
+<EPIA_RepairBrainCrush.jobString>Mending mangled scar.</EPIA_RepairBrainCrush.jobString>
+<EPIA_RepairBrainCrush.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s mangled scar.</EPIA_RepairBrainCrush.successfullyRemovedHediffMessage>
 
 </LanguageData>
