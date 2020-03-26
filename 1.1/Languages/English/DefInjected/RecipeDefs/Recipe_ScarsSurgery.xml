@@ -41,6 +41,16 @@
 <RepairFrostbite.jobString>Mending frostbite scar.</RepairFrostbite.jobString>
 <RepairFrostbite.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</RepairFrostbite.successfullyRemovedHediffMessage>
 
+<RepairChemicalBurn.label>mend chemical burn</RepairChemicalBurn.label>
+<RepairChemicalBurn.description>Mend a chemical burn scar.</RepairChemicalBurn.description>
+<RepairChemicalBurn.jobString>Mending chemical burn scar.</RepairChemicalBurn.jobString>
+<RepairChemicalBurn.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s chemical burn scar.</RepairChemicalBurn.successfullyRemovedHediffMessage>
+
+<RepairShredded.label>mend shredded</RepairShredded.label>
+<RepairShredded.description>Mend a shredded scar.</RepairShredded.description>
+<RepairShredded.jobString>Mending shredded scar.</RepairShredded.jobString>
+<RepairShredded.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</RepairShredded.successfullyRemovedHediffMessage>
+
 <SurgeryRemoveFrailty.label>heal frailty</SurgeryRemoveFrailty.label>
 <SurgeryRemoveFrailty.description>Install a neuromuscular framework to repair frailty.</SurgeryRemoveFrailty.description>
 <SurgeryRemoveFrailty.jobString>Healing frailty.</SurgeryRemoveFrailty.jobString>
@@ -100,5 +110,15 @@
 <EPIA_RepairBrainFrostbite.description>Mend a frostbite scar.</EPIA_RepairBrainFrostbite.description>
 <EPIA_RepairBrainFrostbite.jobString>Mending frostbite scar.</EPIA_RepairBrainFrostbite.jobString>
 <EPIA_RepairBrainFrostbite.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</EPIA_RepairBrainFrostbite.successfullyRemovedHediffMessage>
+
+<EPIA_RepairBrainChemicalBurn.label>mend chemical burn</EPIA_RepairBrainChemicalBurn.label>
+<EPIA_RepairBrainChemicalBurn.description>Mend a chemical burn scar.</EPIA_RepairBrainChemicalBurn.description>
+<EPIA_RepairBrainChemicalBurn.jobString>Mending chemical burn scar.</EPIA_RepairBrainChemicalBurn.jobString>
+<EPIA_RepairBrainChemicalBurn.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s chemical burn scar.</EPIA_RepairBrainChemicalBurn.successfullyRemovedHediffMessage>
+
+<EPIA_RepairBrainShredded.label>mend shredded</EPIA_RepairBrainShredded.label>
+<EPIA_RepairBrainShredded.description>Mend a shredded scar.</EPIA_RepairBrainShredded.description>
+<EPIA_RepairBrainShredded.jobString>Mending shredded scar.</EPIA_RepairBrainShredded.jobString>
+<EPIA_RepairBrainShredded.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</EPIA_RepairBrainShredded.successfullyRemovedHediffMessage>
 
 </LanguageData>
