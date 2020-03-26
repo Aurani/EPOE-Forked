@@ -133,6 +133,24 @@
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</successfullyRemovedHediffMessage>
 	</RecipeDef>
 
+	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
+		<defName>RepairChemicalBurn</defName>
+		<label>mend chemical burn</label>
+		<description>Mend a chemical burn scar.</description>
+		<jobString>Mending chemical burn scar.</jobString>
+		<removesHediff>ChemicalBurn</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s chemical burn scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
+		<defName>RepairShredded</defName>
+		<label>mend shredded</label>
+		<description>Mend a shredded scar.</description>
+		<jobString>Mending shredded scar.</jobString>
+		<removesHediff>Shredded</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
 	<!-- Neuromuscular framework -->
 
 	<ThingDef Name="EPIANeuroGraphicBase" ParentName="EPIASyntheticBase" Abstract="True">
@@ -383,7 +401,7 @@
 		<recipeUsers>
 			<li>Human</li>
 		</recipeUsers>
-		<workerClass>Recipe_RemoveHediff</workerClass>
+		<workerClass>EPIA.Recipe_RemoveBrainScarHediff</workerClass>
 		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>
@@ -488,6 +506,24 @@
 		<jobString>Mending frostbite scar.</jobString>
 		<removesHediff>Frostbite</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
+		<defName>EPIA_RepairBrainChemicalBurn</defName>
+		<label>mend chemical burn</label>
+		<description>Mend a chemical burn scar.</description>
+		<jobString>Mending chemical burn scar.</jobString>
+		<removesHediff>ChemicalBurn</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s chemical burn scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
+		<defName>EPIA_RepairBrainShredded</defName>
+		<label>mend shredded</label>
+		<description>Mend a shredded scar.</description>
+		<jobString>Mending shredded scar.</jobString>
+		<removesHediff>Shredded</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</successfullyRemovedHediffMessage>
 	</RecipeDef>
 
 </Defs>
