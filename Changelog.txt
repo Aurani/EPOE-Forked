@@ -1,6 +1,7 @@
 3.3.2 (26.3.2020)
 * Fixed the missing follow up procedure of removing scars. It only looked if it was possible to perform it, but then does nothing.
 * Minor correction to a translation tag.
+* Removed some debug recipes that were used to debug own mod due to removal of artificial pelvis and clavicle.
 
 3.3.1 (25.3.2020)
 * Added custom worker class of being able to remove implants and get them back, for 1.1, as some people's game were not updating to use base game version.
