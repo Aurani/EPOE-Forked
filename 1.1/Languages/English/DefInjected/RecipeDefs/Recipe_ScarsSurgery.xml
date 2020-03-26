@@ -16,9 +16,9 @@
 <RepairSurgicalCut.jobString>Mending surgical cut scar.</RepairSurgicalCut.jobString>
 <RepairSurgicalCut.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s surgical cut scar.</RepairSurgicalCut.successfullyRemovedHediffMessage>
 
-<RepairScratch.label>mend surgical scratch</RepairScratch.label>
-<RepairScratch.description>Mend a surgical scratch scar.</RepairScratch.description>
-<RepairScratch.jobString>Mending surgical scratch scar.</RepairScratch.jobString>
+<RepairScratch.label>mend scratch</RepairScratch.label>
+<RepairScratch.description>Mend a scratch scar.</RepairScratch.description>
+<RepairScratch.jobString>Mending scratch scar.</RepairScratch.jobString>
 <RepairScratch.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</RepairScratch.successfullyRemovedHediffMessage>
 
 <RepairBite.label>mend bite</RepairBite.label>
@@ -86,9 +86,9 @@
 <EPIA_RepairBrainSurgicalCut.jobString>Mending surgical cut scar.</EPIA_RepairBrainSurgicalCut.jobString>
 <EPIA_RepairBrainSurgicalCut.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s surgical cut scar.</EPIA_RepairBrainSurgicalCut.successfullyRemovedHediffMessage>
 
-<EPIA_RepairBrainScratch.label>mend surgical scratch</EPIA_RepairBrainScratch.label>
-<EPIA_RepairBrainScratch.description>Mend a surgical scratch scar.</EPIA_RepairBrainScratch.description>
-<EPIA_RepairBrainScratch.jobString>Mending surgical scratch scar.</EPIA_RepairBrainScratch.jobString>
+<EPIA_RepairBrainScratch.label>mend scratch</EPIA_RepairBrainScratch.label>
+<EPIA_RepairBrainScratch.description>Mend a scratch scar.</EPIA_RepairBrainScratch.description>
+<EPIA_RepairBrainScratch.jobString>Mending scratch scar.</EPIA_RepairBrainScratch.jobString>
 <EPIA_RepairBrainScratch.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</EPIA_RepairBrainScratch.successfullyRemovedHediffMessage>
 
 <EPIA_RepairBrainBite.label>mend bite</EPIA_RepairBrainBite.label>
