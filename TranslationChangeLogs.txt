@@ -12,6 +12,11 @@ RecipeDefs\Recipe_ScarsSurgery - <RepairShredded.description>
 RecipeDefs\Recipe_ScarsSurgery - <RepairShredded.jobString>
 RecipeDefs\Recipe_ScarsSurgery - <RepairShredded.successfullyRemovedHediffMessage>
 
+RecipeDefs\Recipe_ScarsSurgery - <RepairCrush.label>
+RecipeDefs\Recipe_ScarsSurgery - <RepairCrush.description
+RecipeDefs\Recipe_ScarsSurgery - <RepairCrush.jobString>
+RecipeDefs\Recipe_ScarsSurgery - <RepairCrush.successfullyRemovedHediffMessage>
+
 RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainChemicalBurn.label>
 RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainChemicalBurn.description>
 RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainChemicalBurn.jobString>
@@ -22,7 +27,10 @@ RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainShredded.description>
 RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainShredded.jobString>
 RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainShredded.successfullyRemovedHediffMessage>
 
-
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainCrush.label>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainCrush.description>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainCrush.jobString>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainCrush.successfullyRemovedHediffMessage>
 = Changes =
 
 RecipeDefs\Recipe_ScarsSurgery - <RepairScratch.label
