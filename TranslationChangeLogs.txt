@@ -23,6 +23,16 @@ RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainShredded.jobString>
 RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainShredded.successfullyRemovedHediffMessage>
 
 
+= Changes =
+
+RecipeDefs\Recipe_ScarsSurgery - <RepairScratch.label
+RecipeDefs\Recipe_ScarsSurgery - <RepairScratch.description>
+RecipeDefs\Recipe_ScarsSurgery - <RepairScratch.jobString>
+
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainScratch.label>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainScratch.description>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainScratch.jobString>
+
 
 
 
