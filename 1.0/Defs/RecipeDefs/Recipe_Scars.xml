@@ -70,9 +70,9 @@
 
 	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
 		<defName>RepairScratch</defName>
-		<label>mend surgical scratch</label>
-		<description>Mend a surgical scratch scar.</description>
-		<jobString>Mending surgical scratch scar.</jobString>
+		<label>mend scratch</label>
+		<description>Mend a scratch scar.</description>
+		<jobString>Mending scratch scar.</jobString>
 		<removesHediff>Scratch</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</successfullyRemovedHediffMessage>
 	</RecipeDef>
@@ -371,9 +371,9 @@
 
 	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
 		<defName>EPIA_RepairBrainScratch</defName>
-		<label>mend surgical scratch</label>
-		<description>Mend a surgical scratch scar.</description>
-		<jobString>Mending surgical scratch scar.</jobString>
+		<label>mend scratch</label>
+		<description>Mend a scratch scar.</description>
+		<jobString>Mending scratch scar.</jobString>
 		<removesHediff>Scratch</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</successfullyRemovedHediffMessage>
 	</RecipeDef>
