@@ -1,4 +1,35 @@
-3.19 (18.3.2020)
+3.3.2 (26.3.2020)
+* Fixed the missing follow up procedure of removing scars. It only looked if it was possible to perform it, but then does nothing.
+* Minor correction to a translation tag.
+
+3.3.1 (25.3.2020)
+* Added custom worker class of being able to remove implants and get them back, for 1.1, as some people's game were not updating to use base game version.
+* Has a check if base game's one is existing. If not, uses our version of Recipe_RemoveImplant.
+
+3.3.0 (25.3.2020)
+For all intent and purposes to match Manifest file. This is technically 3.20 if we kept going, but now time to change over.
+It is a also a big enough change due to new base game classworkers and start implementing our own C# where required.
+This update will be the last one that affects RimWorld version 1.0.
+
+* Healing scars have been altered, no longer target the brain.
+* Healing brain scars is now a dedicated surgery, and now requires neuro-cure framework.
+* Synthetic tissue no longer needs neutroamine.
+* Neuromuscular framework and neuro-cure framework can now be sold by traders, and should be at a lower frequency than other prosthetic pieces.
+* Prosthetic trader has increased medicine stocks and more available prosthesis for sale.
+* Medical Ribs now needs 10 Penoxycyline instead of 1 Glitterworld medicine.
+* Painkiller Ribs now have an additional flat -8% pain offset.
+* Bionic spine, advanced bionic spine and exoskeleton now have carry capacity buffs.
+* Implants are now removable.
+* Removing Auxiliary AI only returns a MA-AI chip instead.
+* Reworked AI subpersona core implant.
+
+*** The changes listed below are exclusively for RimWorld 1.1 ***
+* Three new combat based Auxiliary AI. They cannot be installed together with non-combat versions, or with each other.
+* New Protective Exoskeleton implant. Cannot be installed with Exoskeleton Suit. Only stats is reducing incoming damage by 15% and and is affected by EMP, disabling damage reduction, movement and manipulation penalty.
+* New coagulator ribs replacement. Reduces total blood loss by 10%.
+
+
+3.19 (15.3.2020)
 * Description correction and adjustments.
 * English language folder located in 1.1 folder, now contains all the description tags that can be translated. Can use as the format to go through with translating into other languages.
 * Language additions/updates will be primarily focused for 1.1 version.
