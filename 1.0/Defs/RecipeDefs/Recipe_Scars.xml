@@ -113,6 +113,24 @@
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</successfullyRemovedHediffMessage>
 	</RecipeDef>
 
+	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
+		<defName>RepairShredded</defName>
+		<label>mend shredded</label>
+		<description>Mend a shredded scar.</description>
+		<jobString>Mending shredded scar.</jobString>
+		<removesHediff>Shredded</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
+		<defName>RepairCrush</defName>
+		<label>mend mangled scar</label>
+		<description>Mend a mangled scar.</description>
+		<jobString>Mending mangled scar.</jobString>
+		<removesHediff>Crush</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s mangled scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
 	<RecipeDef ParentName="SurgeryFlesh">
 		<defName>SurgeryRemoveFrailty</defName>
 		<label>heal frailty</label>
@@ -412,6 +430,24 @@
 		<jobString>Mending frostbite scar.</jobString>
 		<removesHediff>Frostbite</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
+		<defName>EPIA_RepairBrainShredded</defName>
+		<label>mend shredded</label>
+		<description>Mend a shredded scar.</description>
+		<jobString>Mending shredded scar.</jobString>
+		<removesHediff>Shredded</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
+		<defName>EPIA_RepairBrainCrush</defName>
+		<label>mend mangled scar</label>
+		<description>Mend a mangled scar.</description>
+		<jobString>Mending mangled scar.</jobString>
+		<removesHediff>Crush</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s mangled scar.</successfullyRemovedHediffMessage>
 	</RecipeDef>
 
 </Defs>
