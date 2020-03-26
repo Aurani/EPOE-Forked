@@ -1,4 +1,32 @@
-***Changes sinces (25.3.2020)***
+***Changes since (26.3.2020)***
+
+= New additions =
+
+RecipeDefs\Recipe_ScarsSurgery - <RepairChemicalBurn.label>
+RecipeDefs\Recipe_ScarsSurgery - <RepairChemicalBurn.description>
+RecipeDefs\Recipe_ScarsSurgery - <RepairChemicalBurn.jobString>
+RecipeDefs\Recipe_ScarsSurgery - <RepairChemicalBurn.successfullyRemovedHediffMessage>
+
+RecipeDefs\Recipe_ScarsSurgery - <RepairShredded.label>
+RecipeDefs\Recipe_ScarsSurgery - <RepairShredded.description>
+RecipeDefs\Recipe_ScarsSurgery - <RepairShredded.jobString>
+RecipeDefs\Recipe_ScarsSurgery - <RepairShredded.successfullyRemovedHediffMessage>
+
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainChemicalBurn.label>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainChemicalBurn.description>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainChemicalBurn.jobString>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainChemicalBurn.successfullyRemovedHediffMessage>
+
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainShredded.label>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainShredded.description>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainShredded.jobString>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RepairBrainShredded.successfullyRemovedHediffMessage>
+
+
+
+
+
+***Changes since (25.3.2020)***
 
 Scar removal surgery from Recipe_SyntheticSurgery split and moved to Recipe_ScarsSurgery.
 New file: HediffDef\Hediffs_Injuries
