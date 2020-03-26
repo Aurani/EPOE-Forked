@@ -307,7 +307,7 @@
 		<recipeUsers>
 			<li>Human</li>
 		</recipeUsers>
-		<workerClass>Recipe_RemoveHediff</workerClass>
+		<workerClass>EPIA.Recipe_RemoveBrainScarHediff</workerClass>
 		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>
