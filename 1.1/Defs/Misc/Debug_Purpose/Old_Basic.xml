@@ -8,10 +8,10 @@
 		<thingCategories>
 			<li>BodyPartsSimple</li>
 		</thingCategories>
-      <graphicData Inherit="False">
-         <texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
-         <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/BasicProsthesis</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<RecipeDef Name="SurgeryBasic" ParentName="SurgeryFlesh" Abstract="True">

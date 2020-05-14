@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-    <identifier>EPOE-Forked</identifier>
-    <version>3.3.2</version>
-    <incompatibleWith>
-        <li>ExpandedProstheticsandOrganEngineering</li>
-    </incompatibleWith>
+	<identifier>EPOE-Forked</identifier>
+	<version>3.3.2</version>
+	<incompatibleWith>
+		<li>ExpandedProstheticsandOrganEngineering</li>
+	</incompatibleWith>
 </Manifest>

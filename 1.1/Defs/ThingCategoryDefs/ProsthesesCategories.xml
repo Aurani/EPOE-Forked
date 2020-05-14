@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingCategoryDef>
-      <defName>EPIA_OrganicOptimizer</defName>
-      <label>organic optimizer</label>
-      <parent>BodyParts</parent>
-    </ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>EPIA_OrganicOptimizer</defName>
+		<label>organic optimizer</label>
+		<parent>BodyParts</parent>
+	</ThingCategoryDef>
 
-    <ThingCategoryDef>
-      <defName>EPOE_Redundancy</defName>
-      <label>epoe redundancy</label>
-      <parent>BodyParts</parent>
-    </ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>EPOE_Redundancy</defName>
+		<label>epoe redundancy</label>
+		<parent>BodyParts</parent>
+	</ThingCategoryDef>
 
 </Defs>

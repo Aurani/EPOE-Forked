@@ -30,7 +30,7 @@
 	<CreateBionicEar.jobString>Создаёт бионический протез.</CreateBionicEar.jobString>
 
 	<CreateBionicJaw.label>Смастерить бионическую челюсть</CreateBionicJaw.label>
-	<CreateBionicJaw.description>Создание бионической челюсти из стали и пластали. </CreateBionicJaw.description>
+	<CreateBionicJaw.description>Создание бионической челюсти из стали и пластали.</CreateBionicJaw.description>
 	<CreateBionicJaw.jobString>Создаёт бионический протез.</CreateBionicJaw.jobString>
 
 	<CreateSilentJaw.label>Смастерить "молчаливую" челюсть</CreateSilentJaw.label>
