@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bionic eye -->
+  <!--
+  <BionicEye.label>Bionisches Auge</BionicEye.label>
+  <BionicEye.description>Fortschrittliche Technologie, die nicht nur das natürliche Auge vollständig ersetzt, sondern auch übernatürliche Sehfähigkeiten verleiht.</BionicEye.description> -->
+
+  <!-- Bionic leg -->
+  <!--
+  <BionicLeg.label>Bionisches Bein</BionicLeg.label>
+  <BionicLeg.description>Das bionische Bein verwendet modernste Technologie, um seinem Besitzer extremen Gehkomfort und Kraft zu bieten.</BionicLeg.description> -->
+
+
+  <!-- Bionic arm -->
+  <!--
+  <BionicArm.label>Bionischer Arm</BionicArm.label>
+  <BionicArm.description>Einer der raffiniertesten Armersatzteile. Verleiht dem Benutzer extreme Stärke.</BionicArm.description> -->
+
+
+  <!-- Bionic spine -->
+  <!--
+  <BionicSpine.label>Bionische Wirbelsäule</BionicSpine.label>
+  <BionicSpine.description>Dieses leichte und beeindruckende Gerät kann eine beschädigte Wirbelsäule ersetzen.</BionicSpine.description> -->
+
+
+  <!-- Bionic ear -->
+  <!--
+  <BionicEar.label>Bionisches Ohr</BionicEar.label>
+  <BionicEar.description>Ein fortschrittliches Gerät, das die Grundfunktionen des Trommelfells erweitert.</BionicEar.description> -->
+
+
+  <!-- Power claw -->
+  <!--
+  <PowerClaw.label>Powerkralle</PowerClaw.label>
+  <PowerClaw.description>Leistungsstarker Handersatz bestehend aus drei tödlichen Krallen.</PowerClaw.description> -->
+
+
+  <!-- Bionic hand -->
+
+  <BionicHand.label>Bionische Hand</BionicHand.label>
+  <BionicHand.description>Ermöglicht es dem Benutzer, Aufgaben noch schneller als mit normalen Händen auszuführen.</BionicHand.description>
+
+
+  <!-- Bionic FOot -->
+
+  <BionicFoot.label>Bionischer Fuß</BionicFoot.label>
+  <BionicFoot.description>Diese Prothese ermöglicht ein schnelleres Gehen, ohne ständig zu stolpern.</BionicFoot.description>
+
+
+  <!-- Bionic finger -->
+
+  <BionicFinger.label>Bionischer Finger</BionicFinger.label>
+  <BionicFinger.description>DIeser Ersatzfinger ermöglicht eine etwas schnellere und präzisere Bewegung.</BionicFinger.description>
+
+
+  <!-- Bionic toe -->
+
+  <BionicToe.label>Bionischer Zeh</BionicToe.label>
+  <BionicToe.description>Dieser Ersatzzeh, ermöglicht es dem Träger den Boden etwas besser greifen zukönnen.</BionicToe.description>
+
+
+  <!-- Bionic Jaw -->
+
+  <BionicJaw.label>Bionischer Kiefer</BionicJaw.label>
+  <BionicJaw.description>Neben einem starken Gebiss wird auch ein Sprachmodulator mitgeliefert.</BionicJaw.description>
+
+
+  <!-- Silent jaw -->
+
+  <SilentJaw.label>Stummkiefer</SilentJaw.label>
+  <SilentJaw.description>Diese Version des bionischen Kiefers wird ohne Sprachmodulator geliefert, der für nervige Patienten nützlich ist.</SilentJaw.description>
+
+
+  <!-- Power arm -->
+
+  <PowerArm.label>Powerarm</PowerArm.label>
+  <PowerArm.description>Beispiellose Kraft und Geschicklichkeit und mit einziehbaren Krallen. Dies ist ein ultimatives Arm-Upgrade!</PowerArm.description>
+   
+
+</LanguageData>

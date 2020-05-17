@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Organic optimizing nanobots -->
+
+  <EPOE_OrganicOptimizing.label>Optimiere natürliches Körperteil</EPOE_OrganicOptimizing.label>
+  <EPOE_OrganicOptimizing.description>Verbessere und nutze das Potenzial eines natürlichen Körperteils mit den organisch optimierenden Nanorobotern, wobei der Chirurg die anfängliche Anwendung und den Fortschritt sorgfältig überwacht.</EPOE_OrganicOptimizing.description>
+  <EPOE_OrganicOptimizing.jobString>Optimiert ein natürliches Körperteil.</EPOE_OrganicOptimizing.jobString>
+
+
+  <!-- Eyes: Improved reactive pupil -->
+
+  <EPOE_InstinctOptimizingEyes.label>Optimiere Augen</EPOE_InstinctOptimizingEyes.label>
+  <EPOE_InstinctOptimizingEyes.description>Verbessere die instinktive Reaktion der Augen mit Instinkt optimierenden Nanorobotern und erhöhe so die Treffer- und Zielgenauigkeit. Der Chirurg überwacht sorgfältig die anfängliche Anwendung und den Fortschritt.</EPOE_InstinctOptimizingEyes.description>
+  <EPOE_InstinctOptimizingEyes.jobString>Optimiert die Augen.</EPOE_InstinctOptimizingEyes.jobString>
+
+
+  <!-- Hand: Improved hand reflex -->
+
+  <EPOE_InstinctOptimizingHands.label>Optimiere Handreflexe</EPOE_InstinctOptimizingHands.label>
+  <EPOE_InstinctOptimizingHands.description>Verbessern Sie die instinktive Reaktion der Hände mit Instinkt optimierenden Nanorobotern und erhöhe so die Zielgeschwindigkeit, die Nahkampfeffektivität und die allgemeine Arbeitsgeschwindigkeit. Der Chirurg überwacht sorgfältig die anfängliche Anwendung und den Fortschritt.</EPOE_InstinctOptimizingHands.description>
+  <EPOE_InstinctOptimizingHands.jobString>Optimiert Handreflexe.</EPOE_InstinctOptimizingHands.jobString>
+
+
+  <!-- Foot: nimble instinct -->
+
+  <EPOE_InstinctOptimizingFoot.label>Optimiere Fußreflexe</EPOE_InstinctOptimizingFoot.label>
+  <EPOE_InstinctOptimizingFoot.description>Verbessern Sie die instinktive Reaktion der Füße mit Instinkt optimierenden Nanorobotern und erhöhe so die Fähigkeit, eingehenden Nahkampfangriffen auszuweichen. Der Chirurg überwacht sorgfältig die anfängliche Anwendung und den Fortschritt.</EPOE_InstinctOptimizingFoot.description>
+  <EPOE_InstinctOptimizingFoot.jobString>Optimiert Fußreflexe.</EPOE_InstinctOptimizingFoot.jobString>
+
+
+</LanguageData>

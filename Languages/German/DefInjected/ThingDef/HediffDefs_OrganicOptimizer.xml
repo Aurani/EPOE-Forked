@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Organic optimizing nanobots -->
+
+  <EPOE_OrganicOptimizingNanobots.label>Organoptimierende Nanoroboter</EPOE_OrganicOptimizingNanobots.label>
+  <EPOE_OrganicOptimizingNanobots.description>Fortschrittliche Nanoroboter, die dazu beitragen, das volle Potenzial des natürlichen Körpers auszuschöpfen. Es dauert 3 Tage, bis der Prozess abgeschlossen ist, was mehr Ruhe und eine höhere Nahrungsaufnahme erfordert. Am Ende dieses anstrengenden Prozesses brechen die Nanobots zusammen und lösen sich auf, ohne Spuren zu hinterlassen.\n\nDie durchschnittliche Person wird es akzeptieren, Körperpuristen werden begeistert sein, während Transhumanisten es völlig verabscheuen.\n\nDie Effizienz der Körperteile steigt, wenn sie nach 3 Tagen vollständig entwickelt um + 15%</EPOE_OrganicOptimizingNanobots.description>
+
+
+  <!-- Instinct optimizing nanobots -->
+
+  <EPOE_InstinctOptimizingNanobots.label>Instinktoptimierende Nanoroboter</EPOE_InstinctOptimizingNanobots.label>
+  <EPOE_InstinctOptimizingNanobots.description>Fortschrittliche Nanoroboter, die den natürlichen Körper dabei unterstützen, nützliche instinktive Reaktionssequenzen in das organische Gewebe einzuprägen. Es dauert 4 Tage, bis der gesamte Prozess abgeschlossen ist, was mehr Ruhe und eine höhere Nahrungsaufnahme erfordert. Am Ende dieses anstrengenden Prozesses zersetzen sich die Nanobots und lösen sich auf, ohne Spuren zu hinterlassen.
+Transhumanisten verabscheuen diese Veränderung zutiefst. Die in den Informationen angezeigte Stimmungsstrafe gilt nur für Transhumanisten.
+
+Folgende Körperteile verbessern sich nach 4 Tagen:
+
+Augen: + 5% Teileffizienz, +2,5 Schussgenauigkeit, -2,5% Zielverzögerung, +1 Nahkampftrefferchance, +1 Nahkampfausweichchance.
+
+Hände: + 5% Teileffizienz, + 5% globale Arbeitsgeschwindigkeit, +4 Nahkampftrefferchance, -7,5% Zielverzögerung.
+
+Füße: + 5% Teileffizienz, +0,1 z/s Bewegungsgeschwindigkeit, +5 Nahkampfausweichchance.</EPOE_InstinctOptimizingNanobots.description>
+
+
+</LanguageData>

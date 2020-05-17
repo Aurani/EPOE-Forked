@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EPIA_EMP_Disorientation.label>Desorientierung</EPIA_EMP_Disorientation.label>
+  <EPIA_EMP_Disorientation.description>Nachwirkungen eines elektrischen Schlags auf das Gehirn. Dies wird im Allgemeinen durch Rückkopplungen von Gehirnimplantaten verursacht, die von EMP-Impulsen getroffen werden.</EPIA_EMP_Disorientation.description>
+
+  <EPIA_EMP_ProtectiveExoskeleton.label>Deaktiviertes schützendes Exoskelett</EPIA_EMP_ProtectiveExoskeleton.label>
+  <EPIA_EMP_ProtectiveExoskeleton.description>Ein EMP-Impuls deaktiviert die Schadensbegrenzungsfunktion des schützenden Exoskeletts und wird zu einem Eigengewicht, das den Benutzer für eine gewisse Zeit belastet.</EPIA_EMP_ProtectiveExoskeleton.description>
+
+  <EPIA_AIPersonaCore_GlitchMinor.label>Leichter KI-Fehler</EPIA_AIPersonaCore_GlitchMinor.label>
+  <EPIA_AIPersonaCore_GlitchMinor.description>Der Persona-Kern hat einen geringfügigen Fehler in seinem System erlitten und verhält sich merkwürdig. Er kann sich im Laufe der Zeit erholen, und die Behandlung kann die Schwere dieses Zustands verlangsamen, bis der Systemfehler von selbst behoben ist.</EPIA_AIPersonaCore_GlitchMinor.description>
+  <EPIA_AIPersonaCore_GlitchMinor.stages.0.label>leicht</EPIA_AIPersonaCore_GlitchMinor.stages.0.label>
+  <EPIA_AIPersonaCore_GlitchMinor.stages.1.label>leicht</EPIA_AIPersonaCore_GlitchMinor.stages.1.label>
+  <EPIA_AIPersonaCore_GlitchMinor.stages.2.label>schwer</EPIA_AIPersonaCore_GlitchMinor.stages.2.label>
+  <EPIA_AIPersonaCore_GlitchMinor.stages.3.label>kritisch</EPIA_AIPersonaCore_GlitchMinor.stages.3.label>
+
+  <EPIA_AIPersonaCore_GlitchMajor.label>Schwerer KI-Fehler</EPIA_AIPersonaCore_GlitchMajor.label>
+  <EPIA_AIPersonaCore_GlitchMajor.description>Der Persona-Kern hat einen schwerwiegenden Systemfehler erlitten und verhält sich böswillig. Er kann sich im Laufe der Zeit erholen, und die Behandlung kann die Schwere dieses Zustands verlangsamen, bis der Systemfehler von selbst behoben ist.</EPIA_AIPersonaCore_GlitchMajor.description>
+  <EPIA_AIPersonaCore_GlitchMajor.stages.0.label>leicht</EPIA_AIPersonaCore_GlitchMajor.stages.0.label>
+  <EPIA_AIPersonaCore_GlitchMajor.stages.1.label>schwer</EPIA_AIPersonaCore_GlitchMajor.stages.1.label>
+  <EPIA_AIPersonaCore_GlitchMajor.stages.2.label>kritisch</EPIA_AIPersonaCore_GlitchMajor.stages.2.label>
+  <EPIA_AIPersonaCore_GlitchMajor.stages.3.label>kritisch</EPIA_AIPersonaCore_GlitchMajor.stages.3.label>
+
+  <EPIA_AIPersonaCore_GlitchCritical.label>Kritischer KI-Fehler</EPIA_AIPersonaCore_GlitchCritical.label>
+  <EPIA_AIPersonaCore_GlitchCritical.description>Der Persona-Kern hat einen kritischen Systemfehler erlitten und verhält sich äußerst böswillig. Er kann sich im Laufe der Zeit erholen, und die Behandlung kann die Schwere dieses Zustands verlangsamen, bis der Systemfehler von selbst behoben ist.</EPIA_AIPersonaCore_GlitchCritical.description>
+  <EPIA_AIPersonaCore_GlitchCritical.stages.0.label>leicht</EPIA_AIPersonaCore_GlitchCritical.stages.0.label>
+  <EPIA_AIPersonaCore_GlitchCritical.stages.1.label>schwer</EPIA_AIPersonaCore_GlitchCritical.stages.1.label>
+  <EPIA_AIPersonaCore_GlitchCritical.stages.2.label>kritisch</EPIA_AIPersonaCore_GlitchCritical.stages.2.label>
+  <EPIA_AIPersonaCore_GlitchCritical.stages.3.label>kritisch</EPIA_AIPersonaCore_GlitchCritical.stages.3.label>
+
+  <EPIA_AIPersonaCore_EMPed.label>KI EMP-Schock</EPIA_AIPersonaCore_EMPed.label>
+  <EPIA_AIPersonaCore_EMPed.description>Der Persona-Kern wurde von einem EMP-Impuls beeinflusst und versucht schnell, seine volle Funktionalität wiederherzustellen. Es ist wahrscheinlich, dass Störungen im System auftreten und dem Benutzer böswilligen Schaden zufügen.</EPIA_AIPersonaCore_EMPed.description>
+  <EPIA_AIPersonaCore_EMPed.stages.0.label>leicht</EPIA_AIPersonaCore_EMPed.stages.0.label>
+  <EPIA_AIPersonaCore_EMPed.stages.1.label>schwer</EPIA_AIPersonaCore_EMPed.stages.1.label>
+  <EPIA_AIPersonaCore_EMPed.stages.2.label>kritisch</EPIA_AIPersonaCore_EMPed.stages.2.label>
+  <EPIA_AIPersonaCore_EMPed.stages.3.label>kritisch</EPIA_AIPersonaCore_EMPed.stages.3.label>
+
+
+</LanguageData>

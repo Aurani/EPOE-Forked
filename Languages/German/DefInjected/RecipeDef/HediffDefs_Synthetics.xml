@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Redundant Synthetic Heart version -->
+
+  <InstallSyntheticHeart.label>Implantiere Synthetisches Herz</InstallSyntheticHeart.label>
+  <InstallSyntheticHeart.description>Implantiere ein synthetisches Herz.</InstallSyntheticHeart.description>
+  <InstallSyntheticHeart.jobString>Implantiert Synthetisches Herz.</InstallSyntheticHeart.jobString>
+
+
+  <!-- Redundant Synthetic stomach version -->
+
+  <InstallSyntheticStomach.label>Implantiere Synthetischer Magen</InstallSyntheticStomach.label>
+  <InstallSyntheticStomach.description>Implantiere einen synthetischen Magen.</InstallSyntheticStomach.description>
+  <InstallSyntheticStomach.jobString>Installing synthetic stomach.</InstallSyntheticStomach.jobString>
+
+
+  <!-- Vanilla overwrites, for now. -->
+
+  <RemoveJoywire.label>Entferne Glücklichmacher</RemoveJoywire.label>
+  <RemoveJoywire.description>Entferne einen Glücklichmacher.</RemoveJoywire.description>
+  <RemoveJoywire.jobString>Entfernt Glücklichmacher.</RemoveJoywire.jobString>
+  <!--
+  <RemovePainstopper.label>Entferne Schmerzstopper</RemovePainstopper.label>
+  <RemovePainstopper.description>Entferne einen Schmerzstopper.</RemovePainstopper.description>
+  <RemovePainstopper.jobString>Entfernt Schmerzstopper.</RemovePainstopper.jobString> -->
+
+
+  <!-- Synthetic heart -->
+
+  <CreateSyntheticHeart.label>Stelle Synthetisches Herz her</CreateSyntheticHeart.label>
+  <CreateSyntheticHeart.description>Verbessere einen Herzersatz zu einem synthetischen Herz.</CreateSyntheticHeart.description>
+  <CreateSyntheticHeart.jobString>Stellt Synthetisches Herz her.</CreateSyntheticHeart.jobString>
+  
+  <!--
+  <InstallBionicHeart.label>Implantiere Synthetisches Herz</InstallBionicHeart.label>
+  <InstallBionicHeart.description>Implantiere ein synthetisches Herz.</InstallBionicHeart.description>
+  <InstallBionicHeart.jobString>Implantiert Synthetisches Herz.</InstallBionicHeart.jobString> -->
+
+
+  <!-- Synthetic lung -->
+
+  <CreateSyntheticLung.label>Stelle Synthetische Lunge her</CreateSyntheticLung.label>
+  <CreateSyntheticLung.description>Verbessere einen Lungenersatz zu einer synthetischen Lunge.</CreateSyntheticLung.description>
+  <CreateSyntheticLung.jobString>Stellt Synthetische Lunge her.</CreateSyntheticLung.jobString>
+
+  <InstallSyntheticLung.label>Implantiere Synthetische Lunge</InstallSyntheticLung.label>
+  <InstallSyntheticLung.description>Implantiere eine Synthetische Lunge.</InstallSyntheticLung.description>
+  <InstallSyntheticLung.jobString>Implantiert Synthetische Lunge.</InstallSyntheticLung.jobString>
+
+
+  <!-- Synthetic stomach -->
+
+  <CreateSyntheticStomach.label>Stelle Synthetischer Magen her</CreateSyntheticStomach.label>
+  <CreateSyntheticStomach.description>Verbessere einen Magenersatz zu einem synthetischen Magen.</CreateSyntheticStomach.description>
+  <CreateSyntheticStomach.jobString>Stellt Synthetischer Magen her.</CreateSyntheticStomach.jobString>
+  
+  <!--
+  <InstallBionicStomach.label>Implantiere Synthetischer Magen</InstallBionicStomach.label>
+  <InstallBionicStomach.description>Implantiere einen synthetischen Magen.</InstallBionicStomach.description>
+  <InstallBionicStomach.jobString>Implantiert Synthetischer Magen.</InstallBionicStomach.jobString> -->
+
+
+  <!-- Synthetic liver -->
+
+  <CreateSyntheticLiver.label>Stelle Synthetische Leber her</CreateSyntheticLiver.label>
+  <CreateSyntheticLiver.description>Verbessere einen Leberersatz zu einer synthetischen Leber.</CreateSyntheticLiver.description>
+  <CreateSyntheticLiver.jobString>Stellt Synthetische Leber her.</CreateSyntheticLiver.jobString>
+
+  <InstallSyntheticLiver.label>Implantiere Synthetische Leber</InstallSyntheticLiver.label>
+  <InstallSyntheticLiver.description>Implantiere eine synthetische Leber.</InstallSyntheticLiver.description>
+  <InstallSyntheticLiver.jobString>Implantiert Synthetische Leber.</InstallSyntheticLiver.jobString>
+
+
+  <!-- Synthetic kidney -->
+
+  <CreateSyntheticKidney.label>Stelle Synthetische Niere her</CreateSyntheticKidney.label>
+  <CreateSyntheticKidney.description>Verbessere einen Nierenersatz zu einer synthetischen Niere.</CreateSyntheticKidney.description>
+  <CreateSyntheticKidney.jobString>Stellt Synthetische Niere her.</CreateSyntheticKidney.jobString>
+
+  <InstallSyntheticKidney.label>Implantiere Synthetische Niere</InstallSyntheticKidney.label>
+  <InstallSyntheticKidney.description>Implantiere eine synthetische Niere.</InstallSyntheticKidney.description>
+  <InstallSyntheticKidney.jobString>Implantiert Synthetische Niere.</InstallSyntheticKidney.jobString>
+
+
+  <!-- Muscle stimulator -->
+
+  <InstallMuscleStimulatorArms.label>Implantiere Muskelstimulator (Arme)</InstallMuscleStimulatorArms.label>
+  <InstallMuscleStimulatorArms.description>Installiere einen Muskelstimulator in die Arme.</InstallMuscleStimulatorArms.description>
+  <InstallMuscleStimulatorArms.jobString>Implantiere Muskelstimulator.</InstallMuscleStimulatorArms.jobString>
+
+  <InstallMuscleStimulatorLegs.label>Implantiere Muskelstimulator (Beine)</InstallMuscleStimulatorLegs.label>
+  <InstallMuscleStimulatorLegs.description>Installiere einen Muskelstimulator in die Beine.</InstallMuscleStimulatorLegs.description>
+  <InstallMuscleStimulatorLegs.jobString>Implantiert Muskelstimulator.</InstallMuscleStimulatorLegs.jobString>
+
+
+  <!-- AI chip -->
+
+  <CreateAIChip.label>Stelle KI-Chip her</CreateAIChip.label>
+  <CreateAIChip.description>Verbessere einen Gehirnstimulator zu einem KI-Chip.</CreateAIChip.description>
+  <CreateAIChip.jobString>Stellt KI-Chip her.</CreateAIChip.jobString>
+
+  <InstallAIChip.label>Implantiere KI-Chip</InstallAIChip.label>
+  <InstallAIChip.description>Implantiere einen KI-Chip.</InstallAIChip.description>
+  <InstallAIChip.jobString>Implantiert KI-Chip.</InstallAIChip.jobString>
+
+  <RemoveAIChip.label>Entferne KI-Chip</RemoveAIChip.label>
+  <RemoveAIChip.description>Entferne einen KI-Chip.</RemoveAIChip.description>
+  <RemoveAIChip.jobString>Entfernt KI-Chip.</RemoveAIChip.jobString>
+
+
+</LanguageData>

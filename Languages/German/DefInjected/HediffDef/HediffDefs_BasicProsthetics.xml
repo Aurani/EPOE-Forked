@@ -1,11 +1,34 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-		
-	<EyePatch.label>Augenklappe</EyePatch.label>
-	<HookHand.label>Hakenhand</HookHand.label>
-	<WoodenFoot.label>Hölzerner Fuß</WoodenFoot.label>
-	<SteelArm.label>Stählerner Arm</SteelArm.label>
-	<denture.label>Zahnprothese</denture.label>
-	<EarBandage.label>Ohrenbinde</EarBandage.label>
+
+  <!-- Hook hand -->
+
+  <HookHand.label>Handhaken</HookHand.label>
+  <HookHand.description>Ein installierter Handhaken.</HookHand.description>
+  <HookHand.comps.0.tools.0.label>Handhaken</HookHand.comps.0.tools.0.label>
+  <HookHand.labelNoun>Ein Handhaken</HookHand.labelNoun>
+
+
+  <!-- Steel arm -->
+
+  <SteelArm.label>Stahlarm</SteelArm.label>
+  <SteelArm.description>Ein installierter Stahlarm.</SteelArm.description>
+  <SteelArm.comps.0.tools.0.label>Faust</SteelArm.comps.0.tools.0.label>
+  <SteelArm.labelNoun>Ein Stahlarm</SteelArm.labelNoun>
+
+
+  <!-- Eye patch -->
+
+  <EyePatch.label>Augenklappe</EyePatch.label>
+  <EyePatch.description>Eine angebrachte Augenklappe.</EyePatch.description>
+  <EyePatch.labelNoun>Eine Augenklappe</EyePatch.labelNoun>
+
+
+  <!-- Ear Bandage -->
+
+  <EarBandage.label>Ohrverband</EarBandage.label>
+  <EarBandage.description>Ein angebrachter Ohrverband.</EarBandage.description>
+  <EarBandage.labelNoun>Ein Ohrverband</EarBandage.labelNoun>
+
 
 </LanguageData>

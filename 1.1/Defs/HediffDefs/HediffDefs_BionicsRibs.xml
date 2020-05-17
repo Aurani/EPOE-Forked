@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+	<HediffDef Name="addedPartBionicsRib" Abstract="True">
+		<hediffClass>Hediff_Implant</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+		<priceImpact>true</priceImpact>
+	</HediffDef>
+
 	<ThingDef Name="EPIA_BodyPartBlankRibBase" ParentName="BodyPartBionicBase" Abstract="True">
 		<graphicData>
 			<texPath>Things/Item/BodyPart/SimplePart</texPath>
@@ -57,7 +64,7 @@
 
 	<!-- Medical rib -->
 
-	<HediffDef ParentName="addedPartBionics">
+	<HediffDef ParentName="addedPartBionicsRib">
 		<defName>MedicalRib</defName>
 		<label>medical rib</label>
 		<labelNoun>a medical rib</labelNoun>
@@ -180,7 +187,7 @@
 
 	<!-- Drugged rib -->
 
-	<HediffDef ParentName="addedPartBionics">
+	<HediffDef ParentName="addedPartBionicsRib">
 		<defName>DruggedRib</defName>
 		<label>drugged rib</label>
 		<labelNoun>a drugged rib</labelNoun>
@@ -303,7 +310,7 @@
 
 	<!-- Adrenaline rib -->
 
-	<HediffDef ParentName="addedPartBionics">
+	<HediffDef ParentName="addedPartBionicsRib">
 		<defName>AdrenalineRib</defName>
 		<label>adrenaline rib</label>
 		<labelNoun>an adrenaline rib</labelNoun>
@@ -426,7 +433,7 @@
 
 	<!-- Painkiller rib -->
 
-	<HediffDef ParentName="addedPartBionics">
+	<HediffDef ParentName="addedPartBionicsRib">
 		<defName>PainkillerRib</defName>
 		<label>painkiller rib</label>
 		<labelNoun>a painkiller rib</labelNoun>
@@ -545,7 +552,7 @@
 
 	<!-- Heater rib -->
 
-	<HediffDef ParentName="addedPartBionics">
+	<HediffDef ParentName="addedPartBionicsRib">
 		<defName>HeaterRib</defName>
 		<label>heating rib</label>
 		<description>An installed heater rib implant.</description>
@@ -664,7 +671,7 @@
 
 	<!-- Cooler rib -->
 
-	<HediffDef ParentName="addedPartBionics">
+	<HediffDef ParentName="addedPartBionicsRib">
 		<defName>CoolerRib</defName>
 		<label>cooling rib</label>
 		<description>An installed cooler rib implant.</description>
@@ -783,7 +790,7 @@
 
 	<!-- Coagulator rib -->
 
-	<HediffDef ParentName="addedPartBionics">
+	<HediffDef ParentName="addedPartBionicsRib">
 		<defName>CoagulatorRib</defName>
 		<label>coagulator rib</label>
 		<description>An installed coagulator rib implant.</description>

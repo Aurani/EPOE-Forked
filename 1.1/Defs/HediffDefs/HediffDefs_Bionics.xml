@@ -5,6 +5,7 @@
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
 		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+		<priceImpact>true</priceImpact>
 	</HediffDef>
 
 	<ThingDef Name="EPIA_UpgradeBodyPartBionicBase" ParentName="BodyPartBionicBase" Abstract="True">

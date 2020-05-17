@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Blank rib -->
+
+  <SimpleRib.label>Rippenimplantat</SimpleRib.label>
+  <SimpleRib.description>Eine hohle künstliche Rippe mit einem winzigen Spendersystem. Bereit zum Befüllen, um ein Rippenimplantat deiner Wahl zu vervollständigen.</SimpleRib.description>
+
+
+  <!-- Medical rib -->
+
+  <MedicalRib.label>Rippenimplantat (Medizinisch)</MedicalRib.label>
+  <MedicalRib.description>Eine künstliche Rippe, ausgestattet mit kleinen Blutfiltern und Antibiotika-Spendern, um den Benutzer gesund zu halten.</MedicalRib.description>
+
+
+  <!-- Drugged rib -->
+
+  <DruggedRib.label>Rippenimplantat (Rauschmittel)</DruggedRib.label>
+  <DruggedRib.description>Eine künstliche Rippe, ausgestattet mit kleinen Rauschmittelspendern, um den Benutzer glücklich zu machen. Eine synthetische Leber ist sehr zu empfehlen.</DruggedRib.description>
+
+
+  <!-- Adrenaline rib -->
+
+  <AdrenalineRib.label>Rippenimplantat (Adrenalin)</AdrenalineRib.label>
+  <AdrenalineRib.description>Eine künstliche Rippe, ausgestattet mit kleinen Adrenalinspendern, um den Benutzer fit und wach zu halten.</AdrenalineRib.description>
+
+
+  <!-- Painkiller rib -->
+
+  <PainkillerRib.label>Rippenimplantat (Schmerzlinderung)</PainkillerRib.label>
+  <PainkillerRib.description>Eine künstliche Rippe, ausgestattet mit kleinen Morphiumspendern, um den Schmerz des Benutzers zu betäuben.</PainkillerRib.description>
+
+
+  <!-- Heater rib -->
+
+  <HeaterRib.label>Rippenimplantat (Erwärmung)</HeaterRib.label>
+  <HeaterRib.description>Eine künstliche Rippe, die eine mit Mikroreaktoren betriebene, wärmeinduzierende Spirale enthält um den Körper von innen zu erwärmen.</HeaterRib.description>
+
+
+  <!-- Cooler rib -->
+
+  <CoolerRib.label>Rippenimplantat (Kühlung)</CoolerRib.label>
+  <CoolerRib.description>Eine künstliche Rippe mit einem Mikrokühlsystem, die die Wirksamkeit des Wärmeaustauschs über Hautabgase erhöht.</CoolerRib.description>
+
+
+  <!-- Coagulator rib -->
+
+  <CoagulatorRib.label>Rippenimplantat (Koagulator)</CoagulatorRib.label>
+  <CoagulatorRib.description>Eine künstliche Rippe, die mit kleinen Gerinnungsspendern ausgestattet ist die auf Blutverlust reagieren und das Blutgerinnsel erleichtern, um Blutungen zu reduzieren.</CoagulatorRib.description>
+
+
+</LanguageData>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Redundant original Surrogate Heart, if ever upgrading from 1.0 to 1.1 midsave -->
+
+  <SurrogateHeart.label>Herzersatz</SurrogateHeart.label>
+  <SurrogateHeart.description>Redundant item version for 1.1 RimWorld. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SurrogateHeart.description>
+
+
+  <!-- Surrogate heart -->
+  <!--
+  <SimpleProstheticHeart.label>Herzersatz</SimpleProstheticHeart.label>
+  <SimpleProstheticHeart.description>Eine mehr oder weniger leistungsstarke Pumpe zur Aufrechterhaltung des Blutkreislaufs. Die Patienten fühlen sich von Zeit zu Zeit erschöpft.</SimpleProstheticHeart.description> -->
+
+
+  <!-- Surrogate lung -->
+
+  <SurrogateLung.label>Lungenersatz</SurrogateLung.label>
+  <SurrogateLung.description>Ein rudimentärer Lungenersatz. Macht ein tiefes Klickgeräusch.</SurrogateLung.description>
+
+
+  <!-- Surrogate stomach -->
+
+  <SurrogateStomach.label>Magenersatz</SurrogateStomach.label>
+  <SurrogateStomach.description>Ein rudimentärer Magenersatz. Produziert unangenehm riechendes Darmgas.</SurrogateStomach.description>
+
+
+  <!-- Surrogate liver -->
+
+  <SurrogateLiver.label>Leberersatz</SurrogateLiver.label>
+  <SurrogateLiver.description>Ein rudimentärer Leberersatz. Hat Probleme, den Blutzuckerspiegel konstant zu halten.</SurrogateLiver.description>
+
+
+  <!-- Surrogate kidney -->
+
+  <SurrogateKidney.label>Nierenersatz</SurrogateKidney.label>
+  <SurrogateKidney.description>Ein rudimentärer Nierenersatz. Eine der möglichen Nebenwirkungen ist es, blass zu werden.</SurrogateKidney.description>
+
+
+  <!-- Brain stimulator -->
+
+  <BrainStimulator.label>Gehirnstimulator</BrainStimulator.label>
+  <BrainStimulator.description>Ein kleines Gerät, das sein Bestes tut, um die verbleibenden Bereiche des Gehirns zu stimulieren. Nur für schwere Hirnschäden empfohlen. Erfordert vor der Installation die Erfortschung von Gehirnchirurgie.</BrainStimulator.description>
+
+
+</LanguageData>

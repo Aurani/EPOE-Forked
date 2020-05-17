@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Invisible debug recipes for swapping versions to look seamless -->
+
+  <CreateSimpleProstheticLeg.label>make simple prosthetic leg</CreateSimpleProstheticLeg.label>
+  <CreateSimpleProstheticLeg.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateSimpleProstheticLeg.description>
+  <CreateSimpleProstheticLeg.jobString>Crafting prosthesis.</CreateSimpleProstheticLeg.jobString>
+
+  <CreateSimpleProstheticArm.label>make simple prosthetic arm</CreateSimpleProstheticArm.label>
+  <CreateSimpleProstheticArm.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateSimpleProstheticArm.description>
+  <CreateSimpleProstheticArm.jobString>Crafting prosthesis.</CreateSimpleProstheticArm.jobString>
+
+  <CreateCochlearImplant.label>make cochlear implant</CreateCochlearImplant.label>
+  <CreateCochlearImplant.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateCochlearImplant.description>
+  <CreateCochlearImplant.jobString>Crafting prosthesis.</CreateCochlearImplant.jobString>
+
+  <CreateGoldenEye.label>make golden eye</CreateGoldenEye.label>
+  <CreateGoldenEye.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateGoldenEye.description>
+  <CreateGoldenEye.jobString>Crafting prosthesis.</CreateGoldenEye.jobString>
+
+  <CreateLightReceptor.label>make light receptor</CreateLightReceptor.label>
+  <CreateLightReceptor.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateLightReceptor.description>
+  <CreateLightReceptor.jobString>Crafting prosthesis.</CreateLightReceptor.jobString>
+
+  <CreateSimpleProstheticHand.label>make simple prosthetic hand</CreateSimpleProstheticHand.label>
+  <CreateSimpleProstheticHand.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateSimpleProstheticHand.description>
+  <CreateSimpleProstheticHand.jobString>Crafting prosthesis.</CreateSimpleProstheticHand.jobString>
+
+  <CreateSimpleProstheticFoot.label>make simple prosthetic foot</CreateSimpleProstheticFoot.label>
+  <CreateSimpleProstheticFoot.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateSimpleProstheticFoot.description>
+  <CreateSimpleProstheticFoot.jobString>Crafting prosthesis.</CreateSimpleProstheticFoot.jobString>
+
+  <CreateHydraulicJaw.label>make hydraulic jaw</CreateHydraulicJaw.label>
+  <CreateHydraulicJaw.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateHydraulicJaw.description>
+  <CreateHydraulicJaw.jobString>Crafting prosthesis.</CreateHydraulicJaw.jobString>
+
+  <CreateArtificialNose.label>make artificial nose</CreateArtificialNose.label>
+  <CreateArtificialNose.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateArtificialNose.description>
+  <CreateArtificialNose.jobString>Crafting prosthesis.</CreateArtificialNose.jobString>
+
+  <CreateArtificialPelvis.label>remove this recipe</CreateArtificialPelvis.label>
+  <CreateArtificialPelvis.description>A debug recipe to prevent glitches when swapping from old EPOE to EPOE-forked. Safe to delete this recipe, and you will not see it again. A Simple Rib will be produced as the debugged product of this recipe if continued use.</CreateArtificialPelvis.description>
+  <CreateArtificialPelvis.jobString>Crafting prosthesis.</CreateArtificialPelvis.jobString>
+
+  <CreateArtificialClavicle.label>remove this recipe</CreateArtificialClavicle.label>
+  <CreateArtificialClavicle.description>A debug recipe to prevent glitches when swapping from old EPOE to EPOE-forked. Safe to delete this recipe, and you will not see it again. A Simple Rib will be produced as the debugged product of this recipe if continued use.</CreateArtificialClavicle.description>
+  <CreateArtificialClavicle.jobString>Crafting prosthesis.</CreateArtificialClavicle.jobString>
+
+
+</LanguageData>

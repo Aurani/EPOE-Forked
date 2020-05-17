@@ -47,7 +47,6 @@
 			<Flammability>0.6</Flammability>
 			<DeteriorationRate>2.0</DeteriorationRate>
 		</statBases>
-		<intricate>true</intricate>
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>

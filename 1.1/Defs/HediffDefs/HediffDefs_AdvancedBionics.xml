@@ -5,6 +5,7 @@
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
 		<defaultLabelColor>(18,215,57)</defaultLabelColor>
+		<priceImpact>true</priceImpact>
 	</HediffDef>
 
 	<ThingDef Name="BodyPartAdvancedBionicBase" ParentName="BodyPartBionicBase" Abstract="True">
@@ -1189,6 +1190,7 @@
 		<costList>
 			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
 			<Plasteel>75</Plasteel>
+			<Hyperweave>30</Hyperweave>
 			<Steel>60</Steel>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
@@ -1274,11 +1276,11 @@
 		<description>A high tech device made out of a light skeletal structure and servomotors to support itself and the damage mitigation system used to protect the user.</description>
 		<descriptionHyperlinks><RecipeDef>EPIA_InstallProtectiveExoskeleton</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
+			<EPOE_MAAI_Chip>3</EPOE_MAAI_Chip>
 			<Plasteel>110</Plasteel>
 			<Hyperweave>30</Hyperweave>
 			<Steel>60</Steel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>7</Mass>

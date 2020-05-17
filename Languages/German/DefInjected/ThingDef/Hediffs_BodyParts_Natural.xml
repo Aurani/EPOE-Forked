@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Eye -->
+
+  <Eye.label>Auge</Eye.label>
+  <Eye.description>Absorbiert Licht, damit eine Person weiß, was um sie herum geschieht.</Eye.description>
+
+
+  <!-- Nose -->
+
+  <Nose.label>Nase</Nose.label>
+  <Nose.description>Ein ziemlich nützliches Organ zur Unterscheidung von Gerüchen, das einem Gesicht den letzten Schliff verleiht.</Nose.description>
+
+
+  <!-- Ear -->
+
+  <Ear.label>Ohr</Ear.label>
+  <Ear.description>Nimmt Vibrationen in der Luft auf, sodass Menschen Geräusche hören können.</Ear.description>
+
+
+  <!-- Jaw -->
+
+  <Jaw.label>Kiefer</Jaw.label>
+  <Jaw.description>Ein schönes Gebiss zum Kauen und Reden.</Jaw.description>
+
+
+  <!-- Stomach -->
+
+  <Stomach.label>Magen</Stomach.label>
+  <Stomach.description>Verdaut Lebensmittel und wandelt sie in Energie und Nährstoffe um.</Stomach.description>
+
+
+  <!-- Arm -->
+
+  <Arm.label>Arm</Arm.label>
+  <Arm.description>Arme sind wie Beine, nur dass man Sachen mit sich führen kann.</Arm.description>
+
+
+  <!-- Leg -->
+
+  <Leg.label>Bein</Leg.label>
+  <Leg.description>Grundsätzlich lange fleischige Stangen, mit denen man sich bewegen kann.</Leg.description>
+
+
+</LanguageData>

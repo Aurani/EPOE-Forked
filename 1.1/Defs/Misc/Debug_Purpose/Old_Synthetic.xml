@@ -137,4 +137,154 @@
 		</fixedIngredientFilter>
 	</RecipeDef>
 
+
+	<!-- Redundant base def -->
+
+	<!--ThingDef Name="EPIA_ObsoleteSynthetic" ParentName="EPIASyntheticBase" Abstract="True">
+		<graphicData Inherit="False">
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(189,169,118)</color>
+		</graphicData>
+		<thingCategories Inherit="False">
+			<li>EPOE_Redundancy</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+		<generateAllowChance>0</generateAllowChance>
+		<recipeMaker>
+			<factionPrerequisiteTags>
+				<li>EPOE_Redundancy_Debug</li>
+			</factionPrerequisiteTags>
+			<recipeUsers Inherit="False" />
+			<researchPrerequisite Inherit="False" />
+		</recipeMaker>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+		<tradeTags Inherit="False"></tradeTags>
+	</ThingDef-->
+
+	<!-- Redundant Synthetic Heart version -->
+
+	<!--HediffDef ParentName="addedPartSynthetic">
+		<defName>SyntheticHeart</defName>
+		<label>synthetic heart</label>
+		<labelNoun>a synthetic heart</labelNoun>
+		<description>An installed synthetic heart.</description>
+		<descriptionHyperlinks><ThingDef>BionicHeart</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+		  <betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_ObsoleteSynthetic">
+		<defName>SyntheticHeart</defName>
+		<label>synthetic heart</label>
+		<description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSyntheticHeart</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>20</Cloth>
+			<Hyperweave>15</Hyperweave>
+			<Steel>30</Steel>
+			<Plasteel>30</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticHeart</defName>
+		<label>install synthetic heart</label>
+		<description>Installs a synthetic heart.</description>
+		<descriptionHyperlinks><ThingDef>SyntheticHeart</ThingDef></descriptionHyperlinks>
+		<jobString>Installing synthetic heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicHeart</addsHediff>
+	</RecipeDef-->
+
+	<!-- Redundant Synthetic stomach version -->
+
+	<!--HediffDef ParentName="addedPartSynthetic">
+		<defName>SyntheticStomach</defName>
+		<label>synthetic stomach</label>
+		<labelNoun>a synthetic stomach</labelNoun>
+		<description>An installed synthetic stomach.</description>
+		<descriptionHyperlinks><ThingDef>BionicStomach</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+		  <betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_ObsoleteSynthetic">
+		<defName>SyntheticStomach</defName>
+		<label>synthetic stomach</label>
+		<description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSyntheticStomach</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>20</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticStomach</defName>
+		<label>install synthetic stomach</label>
+		<description>Installs a synthetic stomach.</description>
+		<descriptionHyperlinks><ThingDef>SyntheticStomach</ThingDef></descriptionHyperlinks>
+		<jobString>Installing synthetic stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicStomach</addsHediff>
+	</RecipeDef-->
+
 </Defs>

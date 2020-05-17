@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Golden eye -->
+
+  <InstallGoldenEye.label>Implantiere Goldenes Auge</InstallGoldenEye.label>
+  <InstallGoldenEye.description>Implantiere ein Goldenes Auge.</InstallGoldenEye.description>
+  <InstallGoldenEye.jobString>Implantiert Goldenes Auge.</InstallGoldenEye.jobString>
+
+
+  <!-- Light receptor -->
+
+  <InstallLightReceptor.label>Implantiere Lichtrezeptor</InstallLightReceptor.label>
+  <InstallLightReceptor.description>Implantiere einen Lichtrezeptor.</InstallLightReceptor.description>
+  <InstallLightReceptor.jobString>Implantiert Lichtrezeptor.</InstallLightReceptor.jobString>
+
+
+  <!-- Simple spine replacement -->
+
+  <InstallSimpleSpine.label>Implantiere Ersatzwirbelsäule</InstallSimpleSpine.label>
+  <InstallSimpleSpine.description>Implantiere eine Ersatzwirbelsäule.</InstallSimpleSpine.description>
+  <InstallSimpleSpine.jobString>Implantiert Ersatzwirbelsäule.</InstallSimpleSpine.jobString>
+
+
+  <!-- Prosthetic hand -->
+
+  <InstallSimpleProstheticHand.label>Implantiere Handprothese</InstallSimpleProstheticHand.label>
+  <InstallSimpleProstheticHand.description>Implantiert eine Handprothese.</InstallSimpleProstheticHand.description>
+  <InstallSimpleProstheticHand.jobString>Implantiert Handprothese.</InstallSimpleProstheticHand.jobString>
+
+
+  <!-- Prosthetic foot -->
+
+  <InstallSimpleProstheticFoot.label>Implantiere Fußprothese</InstallSimpleProstheticFoot.label>
+  <InstallSimpleProstheticFoot.description>Implantiere eine Fußprothese.</InstallSimpleProstheticFoot.description>
+  <InstallSimpleProstheticFoot.jobString>Implantiert Fußprothese.</InstallSimpleProstheticFoot.jobString>
+
+
+  <!-- Prosthetic finger -->
+
+  <InstallSimpleProstheticFinger.label>Implantiere Fingerprothese</InstallSimpleProstheticFinger.label>
+  <InstallSimpleProstheticFinger.description>Implantiere eine Fingerprothese.</InstallSimpleProstheticFinger.description>
+  <InstallSimpleProstheticFinger.jobString>Implantiert Fingerprothese.</InstallSimpleProstheticFinger.jobString>
+
+
+  <!-- Prosthetic toe -->
+
+  <InstallSimpleProstheticToe.label>Implantiere Zehprothese</InstallSimpleProstheticToe.label>
+  <InstallSimpleProstheticToe.description>Implantiere eine Zehprothese.</InstallSimpleProstheticToe.description>
+  <InstallSimpleProstheticToe.jobString>Implantiert Zehprothese.</InstallSimpleProstheticToe.jobString>
+
+
+  <!-- Hydraulic jaw -->
+
+  <InstallHydraulicJaw.label>Implantiere Hydraulischer Kiefer</InstallHydraulicJaw.label>
+  <InstallHydraulicJaw.description>Implantiere einen hydraulischen Kiefer.</InstallHydraulicJaw.description>
+  <InstallHydraulicJaw.jobString>Implantiert Hydraulischer Kiefer.</InstallHydraulicJaw.jobString>
+
+
+  <!-- Artificial nose -->
+
+  <InstallArtificialNose.label>Implantiere Künstliche Nase</InstallArtificialNose.label>
+  <InstallArtificialNose.description>Implantiere eine künstliche Nase.</InstallArtificialNose.description>
+  <InstallArtificialNose.jobString>Implantiert Künstliche Nase.</InstallArtificialNose.jobString>
+
+
+  <!-- Replacement radius -->
+
+  <InstallReplacementRadius.label>Implantiere Radiusersatz</InstallReplacementRadius.label>
+  <InstallReplacementRadius.description>Implantiere einen Radiusersatz.</InstallReplacementRadius.description>
+  <InstallReplacementRadius.jobString>Implantiert Radiusersatz.</InstallReplacementRadius.jobString>
+
+
+  <!-- Scyther blade -->
+
+  <InstallScytherBlade.label>Implantiere Schnitterklinge</InstallScytherBlade.label>
+  <InstallScytherBlade.description>Implantiere eine Schnitterklinge und ersetze eine Hand.</InstallScytherBlade.description>
+  <InstallScytherBlade.jobString>Implantiert Schnitterklinge.</InstallScytherBlade.jobString>
+
+
+</LanguageData>

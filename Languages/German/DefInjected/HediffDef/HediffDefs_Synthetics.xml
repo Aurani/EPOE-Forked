@@ -1,11 +1,69 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-		
-	<AIChip.label>KI-Chip</AIChip.label>
-	<SyntheticStomach.label>Synthetischer Magen</SyntheticStomach.label>
-	<SyntheticLung.label>Synthetische Lunge</SyntheticLung.label>
-	<SyntheticLiver.label>Synthetische Leber</SyntheticLiver.label>
-	<SyntheticKidney.label>Synthetische Nieren</SyntheticKidney.label>
-	<SyntheticHeart.label>Synthetisches Herz</SyntheticHeart.label>
-	
+
+  <!-- Redundant Synthetic Heart version -->
+
+  <SyntheticHeart.label>Synthetisches Herz</SyntheticHeart.label>
+  <SyntheticHeart.description>Ein installiertes synthetisches Herz.</SyntheticHeart.description>
+  <SyntheticHeart.labelNoun>Ein Synthetisches Herz</SyntheticHeart.labelNoun>
+
+
+  <!-- Redundant Synthetic stomach version -->
+
+  <SyntheticStomach.label>Synthetischer Magen</SyntheticStomach.label>
+  <SyntheticStomach.description>Ein installierter synthetischer Magen.</SyntheticStomach.description>
+  <SyntheticStomach.labelNoun>Ein Synthetischer Magen</SyntheticStomach.labelNoun>
+
+
+  <!-- Synthetic heart 
+
+  <BionicHeart.label>Synthetisches Herz</BionicHeart.label>
+  <BionicHeart.description>Ein installiertes synthetisches Herz.</BionicHeart.description>
+  <BionicHeart.labelNoun>Ein Synthetisches Herz</BionicHeart.labelNoun> -->
+
+
+  <!-- Synthetic lung -->
+
+  <SyntheticLung.label>Synthetische Lunge</SyntheticLung.label>
+  <SyntheticLung.description>Eine installierte synthetische Lunge.</SyntheticLung.description>
+  <SyntheticLung.labelNoun>Eine Synthetische Lunge</SyntheticLung.labelNoun>
+
+
+  <!-- Synthetic stomach 
+
+  <BionicStomach.label>Synthetischer Magen</BionicStomach.label>
+  <BionicStomach.description>Ein installierter synthetischer Magen.</BionicStomach.description>
+  <BionicStomach.labelNoun>Ein Synthetischer Magen</BionicStomach.labelNoun> -->
+
+
+  <!-- Synthetic liver -->
+
+  <SyntheticLiver.label>Synthetische Leber</SyntheticLiver.label>
+  <SyntheticLiver.description>Eine installierte synthetische Leber.</SyntheticLiver.description>
+  <SyntheticLiver.labelNoun>Eine Synthetische Leber</SyntheticLiver.labelNoun>
+
+
+  <!-- Synthetic kidney -->
+
+  <SyntheticKidney.label>Synthetische Niere</SyntheticKidney.label>
+  <SyntheticKidney.description>Eine installierte synthetische Niere.</SyntheticKidney.description>
+  <SyntheticKidney.labelNoun>Eine Synthetische Niere</SyntheticKidney.labelNoun>
+
+
+  <!-- Muscle stimulator -->
+
+  <MuscleStimulatorArms.label>Muskelstimulator</MuscleStimulatorArms.label>
+  <MuscleStimulatorArms.description>Ein installierter Muskelstimulator in den Armen.</MuscleStimulatorArms.description>
+
+  <MuscleStimulatorLegs.label>Muskelstimulator</MuscleStimulatorLegs.label>
+  <MuscleStimulatorLegs.description>Ein installierter Muskelstimulator in den Beinen.</MuscleStimulatorLegs.description>
+
+
+  <!-- AI chip -->
+
+  <AIChip.label>KI-Chip</AIChip.label>
+  <AIChip.description>Ein installierter KI-Chip.</AIChip.description>
+  <AIChip.labelNoun>Ein KI-Chip</AIChip.labelNoun>
+
+
 </LanguageData>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[SYR] Scar Removal Plus</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[@Name="EPIA_SurgeryRepairScar"]/recipeUsers</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[@Name="EPIA_SurgeryBrainRepairScar"]/recipeUsers</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[@Name="EPIA_SurgeryBrainRepairScar"]/researchPrerequisite</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[@Name="EPIA_SurgeryRepairScar"]</xpath>
+				<value>
+					<factionPrerequisiteTags>
+						<li>EPOE_Redundancy_Debug</li>
+					</factionPrerequisiteTags>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[@Name="EPIA_SurgeryBrainRepairScar"]</xpath>
+				<value>
+					<factionPrerequisiteTags>
+						<li>EPOE_Redundancy_Debug</li>
+					</factionPrerequisiteTags>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="RemoveScar"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>MedicineUltratech</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>SyntheticSkin</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="RemoveScar"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>	
+					<li>SyntheticSkin</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="RemoveScarBrain"]/ingredients/li/filter/categories</xpath>
+				<value>
+					<thingDefs>
+						<li>NeurocureFramework</li>
+					</thingDefs>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="RemoveScarBrain"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>	
+					<li>NeurocureFramework</li>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName="RemoveScarBrain"]/fixedIngredientFilter/categories</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="RemoveScarBrain"]</xpath>
+				<value>	
+					<researchPrerequisite>BrainSurgery</researchPrerequisite>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="HealDementia" or defName="HealAlzheimers" or defName="HealFrailty"]</xpath>
+				<value>
+					<factionPrerequisiteTags>
+						<li>EPOE_Redundancy_Debug</li>
+					</factionPrerequisiteTags>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+
+</Patch>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Prosthetic leg -->
+  <!--
+  <SimpleProstheticLeg.label>Beinprothese</SimpleProstheticLeg.label>
+  <SimpleProstheticLeg.description>Einfache Prothese als Ersatz für ein fehlendes Bein. Nicht sehr komfortabel, aber effizient.</SimpleProstheticLeg.description> -->
+
+
+  <!-- Prosthetic arm -->
+  <!--
+  <SimpleProstheticArm.label>Armprohese</SimpleProstheticArm.label>
+  <SimpleProstheticArm.description>Einfache aber langlebige Armprothese.</SimpleProstheticArm.description> -->
+
+
+  <!-- Cochlear implant -->
+  <!--
+  <CochlearImplant.label>Cochlea-Implantat</CochlearImplant.label>
+  <CochlearImplant.description>Ein Implantat, das das normale Gehör ersetzt. Ein externes Mikrofon sendet ein Tonsignal an Elektroden, die um die Hörnerven des Innenohrs gewickelt sind. Die Elektroden stimulieren die Nerven entsprechend dem Klang und erzeugen ein Hörgefühl. Es ist nicht so gut wie ein natürliches Ohr, aber es ist viel besser als taub zu sein.</CochlearImplant.description> -->
+
+
+  <!-- Golden eye -->
+
+  <GoldenEye.label>Goldenes Auge</GoldenEye.label>
+  <GoldenEye.description>Ersetzt fehlende Augen. So unglaublich schön, dass es eine Schande ist, dass man sich nicht im Spiegel sehen kann.</GoldenEye.description>
+
+
+  <!-- Light receptor -->
+
+  <LightReceptor.label>Lichtrezeptor</LightReceptor.label>
+  <LightReceptor.description>Ersetzt ein fehlendes Auge. Durch den Lichtrezeptor kann man Licht und sogar Objekte erkennen aber leider keine Farben. Zudem wirkt alles ein wenig verschwommen.</LightReceptor.description>
+
+
+  <!-- Simple spine replacement -->
+
+  <SimpleSpine.label>Ersatzwirbelsäule</SimpleSpine.label>
+  <SimpleSpine.description>Dieses einfache, aber fortschrittliche Gerät kann eine beschädigte Wirbelsäule nahezu perfekt ersetzen.</SimpleSpine.description>
+
+
+  <!-- Prosthetic hand -->
+
+  <SimpleProstheticHand.label>Handprothese</SimpleProstheticHand.label>
+  <SimpleProstheticHand.description>Ersetzt fehlende Hände. Viel bequemer und weniger beängstigend als die Hakenhand.</SimpleProstheticHand.description>
+
+
+  <!-- Prosthetic foot -->
+
+  <SimpleProstheticFoot.label>Fußprothese</SimpleProstheticFoot.label>
+  <SimpleProstheticFoot.description>Ersetzt fehlende Füße. Nicht so billig wie ein Holzklotz.</SimpleProstheticFoot.description>
+
+
+  <!-- Prosthetic finger -->
+
+  <SimpleProstheticFinger.label>Fingerprothese</SimpleProstheticFinger.label>
+  <SimpleProstheticFinger.description>Archaischer und roher Ersatz für verlorene Finger. Nicht besonders effizient und schon gar nicht bequem, erledigt aber die Arbeit.</SimpleProstheticFinger.description>
+
+
+  <!-- Prosthetic toe -->
+
+  <SimpleProstheticToe.label>Zehprothese</SimpleProstheticToe.label>
+  <SimpleProstheticToe.description>Archaischer und roher Ersatz für verlorene Zehen. Ineffizient und unangenehm, erzeugen sie beim Gehen viel Lärm, aber sie erledigen die Arbeit.</SimpleProstheticToe.description>
+
+
+  <!-- Hydraulic jaw -->
+
+  <HydraulicJaw.label>Hydraulischer Kiefer</HydraulicJaw.label>
+  <HydraulicJaw.description>Ersetzt einen fehlenden Kiefer. Sei vorsichtig mit den extrem effizienten Zähnen!</HydraulicJaw.description>
+
+
+  <!-- Artificial nose -->
+
+  <ArtificialNose.label>Künstliche Nase</ArtificialNose.label>
+  <ArtificialNose.description>Ersetzt eine fehlende Nase. Deckt das Loch im Gesicht ab.</ArtificialNose.description>
+
+
+  <!-- Replacement radius -->
+
+  <ReplacementRadius.label>Ersatzradius</ReplacementRadius.label>
+  <ReplacementRadius.description>Ein Ersatz für den Radius, ein Knochen im Unterarm.</ReplacementRadius.description>
+
+
+  <!-- Scyther blade -->
+  
+  <ScytherBlade.label>Schnitterklinge</ScytherBlade.label>
+  <ScytherBlade.description>Handersatz durch eine Teleskopklinge. Von einem toten Schnitter-Mechanoid gereinigt und restauriert. Nicht sehr bequem, aber sehr effektiv als Nahkampfwaffe.</ScytherBlade.description>
+
+
+</LanguageData>

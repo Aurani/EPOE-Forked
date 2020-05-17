@@ -35,6 +35,6 @@
 <NeuromuscularFramework.description>A set of synthetic muscles and artificial nerves capable of perfectly recreating the function of a healthy torso.</NeuromuscularFramework.description>
 
 <NeurocureFramework.label>neuro-cure framework</NeurocureFramework.label>
-<NeurocureFramework.description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain. Used for curing brain injuries, dementia and alzheimer.</NeurocureFramework.description>
+<NeurocureFramework.description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain. Used for curing brain injuries, dementia and alzheimer.\n\nRequires Brain Surgery research to use.</NeurocureFramework.description>
 
 </LanguageData>

@@ -9,12 +9,17 @@ Author of EPOE Expanded: dninemfive
 ******** Translation Credits ********
 *************************************
 
-English: Ykara
+= Recent translations =
+English: 
+Chinese: leafzxg
+German: Erdnussbrot
+
+
+= Old translations =
 German: Dr Z. & Ykara
 Korean: Latta
 Russian: kors
 French: Jozay
-Chinese: duduluu
 Polish: Dawidienko1
 Portuguese: homerbra
 Spanish: Mike2611

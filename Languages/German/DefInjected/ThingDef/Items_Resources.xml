@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EPOE_DamagedScytherBlade.label>Beschädigte Schnitterklinge</EPOE_DamagedScytherBlade.label>
+  <EPOE_DamagedScytherBlade.description>Eine beschädigte Klinge wurde von einem toten Schnitter-Mechanoid entfernt. Im aktuellen Zustand nicht sehr nützlich. Kann an einer prothetischen Werkbank restauriert oder für etwas Plasteel geschmolzen werden.</EPOE_DamagedScytherBlade.description>
+
+  <EPOE_MAAI_Chip.label>MA-KI Chip</EPOE_MAAI_Chip.label>
+  <EPOE_MAAI_Chip.description>Ein Medizinischer Assistenz KI-Chip. Wird als Spezialkomponente für fortschrittliche und empfindliche Implantate verwendet und verfügt über ein KI-System, das alle komplexen Prozesse des Geräts bewältigen kann, ohne den Benutzer zu belasten.</EPOE_MAAI_Chip.description>
+
+
+</LanguageData>

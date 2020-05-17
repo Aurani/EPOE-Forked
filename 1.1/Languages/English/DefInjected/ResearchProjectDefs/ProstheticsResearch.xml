@@ -25,6 +25,8 @@ Hook hand and steel arm are crafted at a smithy.</BasicProsthetics.description>
 
 <EPOE_NeurologicalTreatment.label>Neurological treatment</EPOE_NeurologicalTreatment.label>
 <EPOE_NeurologicalTreatment.description>Extensive research into nano technology allows you to print incredibly well-engineered framework kit consisting of artificial adaptable brain tissues, nerves and nanomachines to aid with countering dementia and alzheimer. Unlocks neuro-cure framework recipe on the tissue printer.\n\nNeuro-cure framework only cures dementia and alzheimer, and does not prevent it from appearing again.</EPOE_NeurologicalTreatment.description>
+<EPOE_NeurologicalTreatment.discoveredLetterTitle>About: Neuro-cure Framework</EPOE_NeurologicalTreatment.discoveredLetterTitle>
+<EPOE_NeurologicalTreatment.discoveredLetterText>You now have the technology to print Neuro-cure Framework - but to use it for surgery operations involving the brain, it will require the Brain Surgery research.</EPOE_NeurologicalTreatment.discoveredLetterText>
 
 <BrainSurgery.label>brain surgery</BrainSurgery.label>
 <BrainSurgery.description>Allows you to perform surgery on the brain.</BrainSurgery.description>

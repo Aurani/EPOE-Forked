@@ -287,7 +287,7 @@
 	<ThingDef ParentName="EPIANeuroGraphicBase">
 		<defName>NeurocureFramework</defName>
 		<label>neuro-cure framework</label>
-		<description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain. Used for curing brain injuries, dementia and alzheimer.</description>
+		<description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain. Used for curing brain injuries, dementia and alzheimer.\n\nRequires Brain Surgery research to use.</description>
 		<isTechHediff>false</isTechHediff>
 		<thingCategories Inherit="False">
 			<li>BodyPartsUltra</li>

@@ -360,4 +360,83 @@
 		</fixedIngredientFilter>
 	</RecipeDef>
 
+
+	<!-- Redundant original Surrogate Heart, if ever upgrading from 1.0 to 1.1 midsave -->
+
+	<!--HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateHeart</defName>
+		<label>surrogate heart</label>
+		<description>An installed surrogate heart.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticHeart</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef Name="EPIA_ObsoleteSurrogate" ParentName="EPIASurrogateBase" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>EPOE_Redundancy</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+		<generateAllowChance>0</generateAllowChance>
+		<recipeMaker>
+			<factionPrerequisiteTags>
+				<li>EPOE_Redundancy_Debug</li>
+			</factionPrerequisiteTags>
+			<recipeUsers Inherit="False" />
+			<researchPrerequisite Inherit="False" />
+		</recipeMaker>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+		<tradeTags Inherit="False"></tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIA_ObsoleteSurrogate">
+		<defName>SurrogateHeart</defName>
+		<label>surrogate heart</label>
+		<description>Redundant item version for 1.1 RimWorld. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</description> 
+		<descriptionHyperlinks><RecipeDef>InstallSurrogateHeart</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>20</Cloth>
+			<Steel>30</Steel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSurrogateHeart</defName>
+		<label>install surrogate heart</label>
+		<description>Installs an surrogate heart.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateHeart</ThingDef></descriptionHyperlinks>
+		<jobString>Installing surrogate heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticHeart</addsHediff>
+	</RecipeDef-->
+
+
+
+
+
 </Defs>

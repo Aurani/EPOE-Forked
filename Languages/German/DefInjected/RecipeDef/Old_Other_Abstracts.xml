@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- And any other old stuff for debug reasons -->
+
+  <MinceLimbs.label>mince natural body parts</MinceLimbs.label>
+  <MinceLimbs.description>Minces natural body parts to obtain edible meat.</MinceLimbs.description>
+  <MinceLimbs.jobString>Butchering.</MinceLimbs.jobString>
+
+
+</LanguageData>

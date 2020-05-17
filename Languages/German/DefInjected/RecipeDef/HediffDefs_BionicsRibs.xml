@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <!-- Medical rib -->
+
+  <CreateMedicalRib.label>Stelle Rippenimplantat (Medizinisch) her</CreateMedicalRib.label>
+  <CreateMedicalRib.description>Fülle ein leeres Rippenimplantat, um ein medizinisches Rippenimplantat herzustellen.</CreateMedicalRib.description>
+  <CreateMedicalRib.jobString>Stellt Rippenimplantat (Medizinisch) her.</CreateMedicalRib.jobString>
+
+  <InstallMedicalRib.label>Implantiere Rippenimplantat (Medizinisch)</InstallMedicalRib.label>
+  <InstallMedicalRib.description>Implantiere ein Rippenimplantat (Medizinisch).</InstallMedicalRib.description>
+  <InstallMedicalRib.jobString>Installiert Rippenimplantat (Medizinisch).</InstallMedicalRib.jobString>
+
+  <RemoveMedicalRib.label>Entferne Rippenimplantat (Medizinisch)</RemoveMedicalRib.label>
+  <RemoveMedicalRib.description>Entferne ein Rippenimplantat (Medizinisch).</RemoveMedicalRib.description>
+  <RemoveMedicalRib.jobString>Entfernt Rippenimplantat (Medizinisch).</RemoveMedicalRib.jobString>
+
+
+  <!-- Drugged rib -->
+
+  <CreateDruggedRib.label>Stelle Rippenimplantat (Rauschmittel) her</CreateDruggedRib.label>
+  <CreateDruggedRib.description>Fülle ein leeres Rippenimplantat, um ein Rauschmittel-Rippenimplantat herzustellen.</CreateDruggedRib.description>
+  <CreateDruggedRib.jobString>Stellt Rippenimplantat (Rauschmittel) her.</CreateDruggedRib.jobString>
+
+  <InstallDruggedRib.label>Implantiere Rippenimplantat (Rauschmittel)</InstallDruggedRib.label>
+  <InstallDruggedRib.description>Implantiere ein Rippenimplantat (Rauschmittel).</InstallDruggedRib.description>
+  <InstallDruggedRib.jobString>Implantiert Rippenimplantat (Rauschmittel).</InstallDruggedRib.jobString>
+
+  <RemoveDruggedRib.label>Entferne Rippenimplantat (Rauschmittel)</RemoveDruggedRib.label>
+  <RemoveDruggedRib.description>Entferne ein Rippenimplantat (Rauschmittel).</RemoveDruggedRib.description>
+  <RemoveDruggedRib.jobString>Entfernt Rippenimplantat (Rauschmittel).</RemoveDruggedRib.jobString>
+
+
+  <!-- Adrenaline rib -->
+
+  <CreateAdrenalineRib.label>Stelle Rippenimplantat (Adrenalin) her</CreateAdrenalineRib.label>
+  <CreateAdrenalineRib.description>Fülle ein leeres Rippenimplantat, um ein Adrenalin-Rippenimplantat herzustellen..</CreateAdrenalineRib.description>
+  <CreateAdrenalineRib.jobString>Stelle Rippenimplantat (Adrenalin) her.</CreateAdrenalineRib.jobString>
+
+  <InstallAdrenalineRib.label>Implantiere Rippenimplantat (Adrenalin)</InstallAdrenalineRib.label>
+  <InstallAdrenalineRib.description>Implantiere ein Rippenimplantat (Adrenalin).</InstallAdrenalineRib.description>
+  <InstallAdrenalineRib.jobString>Implantiert Rippenimplantat (Adrenalin).</InstallAdrenalineRib.jobString>
+
+  <RemoveAdrenalineRib.label>Entferne Rippenimplantat (Adrenalin)</RemoveAdrenalineRib.label>
+  <RemoveAdrenalineRib.description>Entferne ein Rippenimplantat (Adrenalin).</RemoveAdrenalineRib.description>
+  <RemoveAdrenalineRib.jobString>Entfernt Rippenimplantat (Adrenalin).</RemoveAdrenalineRib.jobString>
+
+
+  <!-- Painkiller rib -->
+
+  <CreatePainkillerRib.label>Stelle Rippenimplantat (Schmerzlinderung) her</CreatePainkillerRib.label>
+  <CreatePainkillerRib.description>Fülle ein leeres Rippenimplantat, um ein Schmerzlinderungs-Rippenimplantat herzustellen.</CreatePainkillerRib.description>
+  <CreatePainkillerRib.jobString>Stellt Rippenimplantat (Schmerzlinderung) her.</CreatePainkillerRib.jobString>
+
+  <InstallPainkillerRib.label>Implantiere Rippenimplantat (Schmerzlinderung)</InstallPainkillerRib.label>
+  <InstallPainkillerRib.description>Implantiere ein Rippenimplantat (Schmerzlinderung).</InstallPainkillerRib.description>
+  <InstallPainkillerRib.jobString>Implantiert Rippenimplantat (Schmerzlinderung).</InstallPainkillerRib.jobString>
+
+  <RemovePainkillerRib.label>Entferne Rippenimplantat (Schmerzlinderung)</RemovePainkillerRib.label>
+  <RemovePainkillerRib.description>Entferne ein Rippenimplantat (Schmerzlinderung).</RemovePainkillerRib.description>
+  <RemovePainkillerRib.jobString>Entfernt Rippenimplantat (Schmerzlinderung).</RemovePainkillerRib.jobString>
+
+
+  <!-- Heater rib -->
+
+  <EPIA_UpgradeHeatingRib.label>Stelle Rippenimplantat (Erwärmung) her</EPIA_UpgradeHeatingRib.label>
+  <EPIA_UpgradeHeatingRib.description>Fülle ein leeres Rippenimplantat, um ein Erwärmungs-Rippenimplantat herzustellen.</EPIA_UpgradeHeatingRib.description>
+  <EPIA_UpgradeHeatingRib.jobString>Stellt Rippenimplantat (Erwärmung) her.</EPIA_UpgradeHeatingRib.jobString>
+
+  <InstallHeaterRib.label>Implantiere Rippenimplantat (Erwärmung)</InstallHeaterRib.label>
+  <InstallHeaterRib.description>Implantiere ein Rippenimplantat (Erwärmung).</InstallHeaterRib.description>
+  <InstallHeaterRib.jobString>Implantiert Rippenimplantat (Erwärmung).</InstallHeaterRib.jobString>
+
+  <RemoveHeaterRib.label>Entferne Rippenimplantat (Erwärmung)</RemoveHeaterRib.label>
+  <RemoveHeaterRib.description>Entferne ein Rippenimplantat (Erwärmung).</RemoveHeaterRib.description>
+  <RemoveHeaterRib.jobString>Entfernt Rippenimplantat (Erwärmung).</RemoveHeaterRib.jobString>
+
+
+  <!-- Cooler rib -->
+
+  <EPIA_UpgradeCoolingRib.label>Stelle Rippenimplantat (Kühlung) her</EPIA_UpgradeCoolingRib.label>
+  <EPIA_UpgradeCoolingRib.description>Fülle ein leeres Rippenimplantat, um ein Kühlungs-Rippenimplantat herzustellen.</EPIA_UpgradeCoolingRib.description>
+  <EPIA_UpgradeCoolingRib.jobString>Stellt Rippenimplantat (Kühlung) her.</EPIA_UpgradeCoolingRib.jobString>
+
+  <InstallCoolerRib.label>Implantiere Rippenimplantat (Kühlung)</InstallCoolerRib.label>
+  <InstallCoolerRib.description>Implantiere ein Rippenimplantat (Kühlung).</InstallCoolerRib.description>
+  <InstallCoolerRib.jobString>Implantiert Rippenimplantat (Kühlung).</InstallCoolerRib.jobString>
+
+  <RemoveCoolerRib.label>Entferne Rippenimplantat (Kühlung)</RemoveCoolerRib.label>
+  <RemoveCoolerRib.description>Entferne ein Rippenimplantat (Kühlung).</RemoveCoolerRib.description>
+  <RemoveCoolerRib.jobString>Entfernt Rippenimplantat (Kühlung).</RemoveCoolerRib.jobString>
+
+
+  <!-- Coagulator rib -->
+
+  <CreateCoagulatorRib.label>Stelle Rippenimplantat (Koagulator) her</CreateCoagulatorRib.label>
+  <CreateCoagulatorRib.description>Fülle ein leeres Rippenimplantat, um ein Koagulator-Rippenimplantat herzustellen.</CreateCoagulatorRib.description>
+  <CreateCoagulatorRib.jobString>Stellt Rippenimplantat (Koagulator) her.</CreateCoagulatorRib.jobString>
+
+  <InstallCoagulatorRib.label>Implantiere Rippenimplantat (Koagulator)</InstallCoagulatorRib.label>
+  <InstallCoagulatorRib.description>Implantiere ein Rippenimplantat (Koagulator).</InstallCoagulatorRib.description>
+  <InstallCoagulatorRib.jobString>Implantiert Rippenimplantat (Koagulator).</InstallCoagulatorRib.jobString>
+
+  <RemoveCoagulatorRib.label>Entferne Rippenimplantat (Koagulator)</RemoveCoagulatorRib.label>
+  <RemoveCoagulatorRib.description>Entfernt ein Rippenimplantat (Koagulator).</RemoveCoagulatorRib.description>
+  <RemoveCoagulatorRib.jobString>Entfernt Rippenimplantat (Koagulator).</RemoveCoagulatorRib.jobString>
+
+
+</LanguageData>

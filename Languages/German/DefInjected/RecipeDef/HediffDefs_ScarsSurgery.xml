@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Synthetic tissue -->
+
+  <RepairBurn.label>Behandel Verbrennung</RepairBurn.label>
+  <RepairBurn.description>Behandel eine Verbrennung.</RepairBurn.description>
+  <RepairBurn.jobString>Behandelt Verbrennung.</RepairBurn.jobString>
+  <RepairBurn.successfullyRemovedHediffMessage>{0} hat erfolgreich die Verbrennung von {1} behandelt.</RepairBurn.successfullyRemovedHediffMessage>
+
+  <RepairCut.label>Behandel Schnitt</RepairCut.label>
+  <RepairCut.description>Behandel eine Schnittverletzung.</RepairCut.description>
+  <RepairCut.jobString>Behandelt Schnitt.</RepairCut.jobString>
+  <RepairCut.successfullyRemovedHediffMessage>{0} hat erfolgreich die Schnittverletzung von {1} behandelt.</RepairCut.successfullyRemovedHediffMessage>
+
+  <RepairSurgicalCut.label>Behandel Chirurgischer Schnitt</RepairSurgicalCut.label>
+  <RepairSurgicalCut.description>Behandel einen Chirurgischen Schnitt.</RepairSurgicalCut.description>
+  <RepairSurgicalCut.jobString>Behandelt Chirurgischer Schnitt.</RepairSurgicalCut.jobString>
+  <RepairSurgicalCut.successfullyRemovedHediffMessage>{0} hat erfolgreich den Chirurgischen Schnitt von {1} behandelt.</RepairSurgicalCut.successfullyRemovedHediffMessage>
+
+  <RepairScratch.label>Behandel Kratzer</RepairScratch.label>
+  <RepairScratch.description>Behandel einen Kratzer.</RepairScratch.description>
+  <RepairScratch.jobString>Behandelt Kratzer.</RepairScratch.jobString>
+  <RepairScratch.successfullyRemovedHediffMessage>{0} hat erfolgreich den Kratzer von {1} behandelt.</RepairScratch.successfullyRemovedHediffMessage>
+
+  <RepairBite.label>Behandel Biss</RepairBite.label>
+  <RepairBite.description>Behandel einen Biss.</RepairBite.description>
+  <RepairBite.jobString>Behandelt Biss.</RepairBite.jobString>
+  <RepairBite.successfullyRemovedHediffMessage>{0} hat erfolgreich die Bissverletzung von {1} behandelt.</RepairBite.successfullyRemovedHediffMessage>
+
+  <RepairStab.label>Behandel Stich</RepairStab.label>
+  <RepairStab.description>Behandel eine Stichverletzung.</RepairStab.description>
+  <RepairStab.jobString>Behandelt Stich.</RepairStab.jobString>
+  <RepairStab.successfullyRemovedHediffMessage>{0} hat erfolgreich die Stichverletzung von {1} behandelt.</RepairStab.successfullyRemovedHediffMessage>
+
+  <RepairGunshot.label>Behandel Schussverletzung</RepairGunshot.label>
+  <RepairGunshot.description>Behandel eine Schussverletzung.</RepairGunshot.description>
+  <RepairGunshot.jobString>Behandelt Schussverletzung.</RepairGunshot.jobString>
+  <RepairGunshot.successfullyRemovedHediffMessage>{0} hat erfolgreich die Schussverletzung von {1} behandelt.</RepairGunshot.successfullyRemovedHediffMessage>
+
+  <RepairFrostbite.label>Behandel Erfrierung</RepairFrostbite.label>
+  <RepairFrostbite.description>Behandel eine Erfrierung.</RepairFrostbite.description>
+  <RepairFrostbite.jobString>Behandelt Erfrierung.</RepairFrostbite.jobString>
+  <RepairFrostbite.successfullyRemovedHediffMessage>{0} hat erfolgreich die Erfrierung von {1} behandelt.</RepairFrostbite.successfullyRemovedHediffMessage>
+
+  <RepairChemicalBurn.label>Behandel Verätzung</RepairChemicalBurn.label>
+  <RepairChemicalBurn.description>Behandel eine Verätzung.</RepairChemicalBurn.description>
+  <RepairChemicalBurn.jobString>Behandelt eine Verätzung.</RepairChemicalBurn.jobString>
+  <RepairChemicalBurn.successfullyRemovedHediffMessage>{0} hat erfolgreich die Verätzung von {1} behandelt.</RepairChemicalBurn.successfullyRemovedHediffMessage>
+
+  <RepairShredded.label>Behandel Explosionsverletzung</RepairShredded.label>
+  <RepairShredded.description>Behandel eine Explosionsverletzung.</RepairShredded.description>
+  <RepairShredded.jobString>Behandelt Explosionsverletzung.</RepairShredded.jobString>
+  <RepairShredded.successfullyRemovedHediffMessage>{0} hat erfolgreich die Explosionsverletzung von {1} behandelt.</RepairShredded.successfullyRemovedHediffMessage>
+
+  <RepairCrush.label>Behandel Quetschung</RepairCrush.label>
+  <RepairCrush.description>Behandel eine Quetschung.</RepairCrush.description>
+  <RepairCrush.jobString>Behandelt Quetschung.</RepairCrush.jobString>
+  <RepairCrush.successfullyRemovedHediffMessage>{0} hat erfolgreich die Quetschung von {1} behandelt.</RepairCrush.successfullyRemovedHediffMessage>
+
+
+  <!-- Neuromuscular framework -->
+
+  <SurgeryRemoveFrailty.label>Behandel Gebrechlichkeit</SurgeryRemoveFrailty.label>
+  <SurgeryRemoveFrailty.description>Implantiere ein Neuromuskuläres-Netzwerk um die Gebrechlichkeit zu behandeln.</SurgeryRemoveFrailty.description>
+  <SurgeryRemoveFrailty.jobString>Behandelt Gebrechlichkeit.</SurgeryRemoveFrailty.jobString>
+  <SurgeryRemoveFrailty.successfullyRemovedHediffMessage>{0} hat erfolgreich die Gebrechlichkeit von {1} behandelt.</SurgeryRemoveFrailty.successfullyRemovedHediffMessage>
+
+  <SurgeryRemoveBadBack.label>Behandel Rückenschmerzen</SurgeryRemoveBadBack.label>
+  <SurgeryRemoveBadBack.description>Implantiere ein Neuromuskuläres-Netzwerk um die Rückenschmerzen zu behandeln.</SurgeryRemoveBadBack.description>
+  <SurgeryRemoveBadBack.jobString>Behandelt Rückenschmerzen.</SurgeryRemoveBadBack.jobString>
+  <SurgeryRemoveBadBack.successfullyRemovedHediffMessage>{0} hat erfolgreich die Rückenschmerzen von {1} behandelt.</SurgeryRemoveBadBack.successfullyRemovedHediffMessage>
+
+
+  <!-- Neuro-cure framework -->
+
+  <EPOE_SurgeryRemoveDementia.label>Behandel Demenz</EPOE_SurgeryRemoveDementia.label>
+  <EPOE_SurgeryRemoveDementia.description>Implantiere ein Neuroreparatur-Netzwerk um die Demenz zu behandeln.</EPOE_SurgeryRemoveDementia.description>.
+  <EPOE_SurgeryRemoveDementia.jobString>Behandelt Demenz.</EPOE_SurgeryRemoveDementia.jobString>
+  <EPOE_SurgeryRemoveDementia.successfullyRemovedHediffMessage>{0} hat erfolgreich die Demenz von {1} behandelt.</EPOE_SurgeryRemoveDementia.successfullyRemovedHediffMessage>
+
+  <EPOE_SurgeryRemoveAlzheimers.label>Behandel Alzheimer</EPOE_SurgeryRemoveAlzheimers.label>
+  <EPOE_SurgeryRemoveAlzheimers.description>Implantiere ein Neuroreparatur-Netzwerk um das Alzheimer zu behandeln.</EPOE_SurgeryRemoveAlzheimers.description>
+  <EPOE_SurgeryRemoveAlzheimers.jobString>Behandelt Alzheimer.</EPOE_SurgeryRemoveAlzheimers.jobString>
+  <EPOE_SurgeryRemoveAlzheimers.successfullyRemovedHediffMessage>{0} hat erfolgreich das Alzheimer von {1} behandelt.</EPOE_SurgeryRemoveAlzheimers.successfullyRemovedHediffMessage>
+
+
+
+  <EPIA_RepairBrainBurn.label>Behandel Verbrennung</EPIA_RepairBrainBurn.label>
+  <EPIA_RepairBrainBurn.description>Behandel eine Verbrennung.</EPIA_RepairBrainBurn.description>
+  <EPIA_RepairBrainBurn.jobString>Behandelt eine Verbrennung.</EPIA_RepairBrainBurn.jobString>
+  <EPIA_RepairBrainBurn.successfullyRemovedHediffMessage>{0} hat erfolgreich die Verbrennung von {1} behandelt.</EPIA_RepairBrainBurn.successfullyRemovedHediffMessage>
+
+  <EPIA_RepairBrainCut.label>Behandel Schnitt</EPIA_RepairBrainCut.label>
+  <EPIA_RepairBrainCut.description>Behandel eine Schnittverletzung.</EPIA_RepairBrainCut.description>
+  <EPIA_RepairBrainCut.jobString>Behandelt Schnittverletzung.</EPIA_RepairBrainCut.jobString>
+  <EPIA_RepairBrainCut.successfullyRemovedHediffMessage>{0} hat erfolgreich die Schnittverletzung von {1} behandelt.</EPIA_RepairBrainCut.successfullyRemovedHediffMessage>
+
+  <EPIA_RepairBrainSurgicalCut.label>Behandel Chirurgischer Schnitt</EPIA_RepairBrainSurgicalCut.label>
+  <EPIA_RepairBrainSurgicalCut.description>Behandel einen Chirurgische Schnittverletzung.</EPIA_RepairBrainSurgicalCut.description>
+  <EPIA_RepairBrainSurgicalCut.jobString>Behandelt Chirurgischer Schnitt.</EPIA_RepairBrainSurgicalCut.jobString>
+  <EPIA_RepairBrainSurgicalCut.successfullyRemovedHediffMessage>{0} hat erfolgreich die Chirurgische Schnittverletzung von {1} behandelt.</EPIA_RepairBrainSurgicalCut.successfullyRemovedHediffMessage>
+
+  <EPIA_RepairBrainScratch.label>Behandel Kratzer</EPIA_RepairBrainScratch.label>
+  <EPIA_RepairBrainScratch.description>Behandel einen Kratzer.</EPIA_RepairBrainScratch.description>
+  <EPIA_RepairBrainScratch.jobString>Behandelt Kratzer.</EPIA_RepairBrainScratch.jobString>
+  <EPIA_RepairBrainScratch.successfullyRemovedHediffMessage>{0} hat erfolgreich den Kratzer von {1} behandelt.</EPIA_RepairBrainScratch.successfullyRemovedHediffMessage>
+
+  <EPIA_RepairBrainBite.label>Behandel Biss</EPIA_RepairBrainBite.label>
+  <EPIA_RepairBrainBite.description>Behandel eine Bissverletzung.</EPIA_RepairBrainBite.description>
+  <EPIA_RepairBrainBite.jobString>Behandelt Biss.</EPIA_RepairBrainBite.jobString>
+  <EPIA_RepairBrainBite.successfullyRemovedHediffMessage>{0} hat erfolgreich die Bissverletzung von {1} behandelt.</EPIA_RepairBrainBite.successfullyRemovedHediffMessage>
+
+  <EPIA_RepairBrainStab.label>Behandel Stich</EPIA_RepairBrainStab.label>
+  <EPIA_RepairBrainStab.description>Behandel eine Stichverletzung.</EPIA_RepairBrainStab.description>
+  <EPIA_RepairBrainStab.jobString>Behandelt Stich.</EPIA_RepairBrainStab.jobString>
+  <EPIA_RepairBrainStab.successfullyRemovedHediffMessage>{0} hat erfolgreich die Stichverletzung von {1} behandelt.</EPIA_RepairBrainStab.successfullyRemovedHediffMessage>
+
+  <EPIA_RepairBrainGunshot.label>Behandel Schussverletzung</EPIA_RepairBrainGunshot.label>
+  <EPIA_RepairBrainGunshot.description>Behandel eine Schussverletzung.</EPIA_RepairBrainGunshot.description>
+  <EPIA_RepairBrainGunshot.jobString>Behandelt Schussverletzung.</EPIA_RepairBrainGunshot.jobString>
+  <EPIA_RepairBrainGunshot.successfullyRemovedHediffMessage>{0} hat erfolgreich die Schussverletzung von {1} behandelt.</EPIA_RepairBrainGunshot.successfullyRemovedHediffMessage>
+
+  <EPIA_RepairBrainFrostbite.label>Behandel Erfrierung</EPIA_RepairBrainFrostbite.label>
+  <EPIA_RepairBrainFrostbite.description>Behandel eine Erfrierung.</EPIA_RepairBrainFrostbite.description>
+  <EPIA_RepairBrainFrostbite.jobString>Behandelt Erfrierung.</EPIA_RepairBrainFrostbite.jobString>
+  <EPIA_RepairBrainFrostbite.successfullyRemovedHediffMessage>{0} hat erfolgreich die Erfrierung von {1} behandelt.</EPIA_RepairBrainFrostbite.successfullyRemovedHediffMessage>
+
+  <EPIA_RepairBrainChemicalBurn.label>Behandel Verätzung</EPIA_RepairBrainChemicalBurn.label>
+  <EPIA_RepairBrainChemicalBurn.description>Behandel eine Verätzung.</EPIA_RepairBrainChemicalBurn.description>
+  <EPIA_RepairBrainChemicalBurn.jobString>Behandelt Verätzung.</EPIA_RepairBrainChemicalBurn.jobString>
+  <EPIA_RepairBrainChemicalBurn.successfullyRemovedHediffMessage>{0} hat erfolgreich die Verätzung von {1} behandelt.</EPIA_RepairBrainChemicalBurn.successfullyRemovedHediffMessage>
+
+  <EPIA_RepairBrainShredded.label>Behandel Explosionsverletzung</EPIA_RepairBrainShredded.label>
+  <EPIA_RepairBrainShredded.description>Behandel eine Explosionsverletzung.</EPIA_RepairBrainShredded.description>
+  <EPIA_RepairBrainShredded.jobString>Behandelt Explosionsverletzung.</EPIA_RepairBrainShredded.jobString>
+  <EPIA_RepairBrainShredded.successfullyRemovedHediffMessage>{0} hat erfolgreich die Explosionsverletzung von {1} behandelt.</EPIA_RepairBrainShredded.successfullyRemovedHediffMessage>
+
+  <EPIA_RepairBrainCrush.label>Behandel Quetschung</EPIA_RepairBrainCrush.label>
+  <EPIA_RepairBrainCrush.description>Behandel eine Quetschung.</EPIA_RepairBrainCrush.description>
+  <EPIA_RepairBrainCrush.jobString>Behandelt Quetschung.</EPIA_RepairBrainCrush.jobString>
+  <EPIA_RepairBrainCrush.successfullyRemovedHediffMessage>{0} hat erfolgreich die Quetschung von {1} behandelt.</EPIA_RepairBrainCrush.successfullyRemovedHediffMessage>
+  
+
+</LanguageData>

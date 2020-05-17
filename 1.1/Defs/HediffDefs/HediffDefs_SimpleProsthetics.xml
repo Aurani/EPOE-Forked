@@ -5,6 +5,7 @@
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
 		<defaultLabelColor>(102,178,255)</defaultLabelColor>
+		<priceImpact>true</priceImpact>
 	</HediffDef>
 
 	<!-- Vanilla overwrites, for now. -->

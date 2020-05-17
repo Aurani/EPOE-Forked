@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Special mental states not from mental breaks -->
+
+  <WanderConfusedCore.label>Verwirrt wandern</WanderConfusedCore.label>
+  <WanderConfusedCore.beginLetter>{0}'s Gedanken werden vom Persona-Kern mit schrecklichen Bildern und Tönen überflutet.</WanderConfusedCore.beginLetter>
+  <WanderConfusedCore.beginLetterLabel>Verwirrung</WanderConfusedCore.beginLetterLabel>
+  <WanderConfusedCore.recoveryMessage>{0}'s Persona-Kern hat sich wieder beruhigt.</WanderConfusedCore.recoveryMessage>
+  <WanderConfusedCore.baseInspectLine>Geisteszustand: Verwirrt wandern</WanderConfusedCore.baseInspectLine>
+
+  <BerserkCore.label>KI Übernahme</BerserkCore.label>
+  <BerserkCore.beginLetter>{0}'s Persona-Kern hat die direkte Kontrolle übernommen!\n\n[PAWN_pronoun] wird jeden im Sichtbereich angreifen.</BerserkCore.beginLetter>
+  <BerserkCore.recoveryMessage>{0}'s Persona-Kern hat sich wieder beruhigt.</BerserkCore.recoveryMessage>
+  <BerserkCore.baseInspectLine>Geisteszustand: KI Übernahme</BerserkCore.baseInspectLine>
+
+
+</LanguageData>

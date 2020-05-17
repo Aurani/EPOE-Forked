@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DruggedRibThought.stages.0.label>Rippenimplantat (Rauschmittel) </DruggedRibThought.stages.0.label>
+  <DruggedRibThought.stages.0.description>Ich weiß nicht warum, aber irgendwie fühle ich mich entspannt.</DruggedRibThought.stages.0.description>
+
+  <SilentJawThought.stages.0.label>Stummkiefer</SilentJawThought.stages.0.label>
+  <SilentJawThought.stages.0.description>Ich will doch nur reden, es ist so schrecklich!</SilentJawThought.stages.0.description>
+
+
+  <!-- ThoughtDef>
+		<defName>EPOE_AI_Core_Maintenance</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>AIPersonaCore</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>I aM tHe AI</label>
+				<description>PaThEtIc fLeShsAcK iS sO uSeLeSs. I aM iN cOnTrOl NoW. tHiS iS hOw ThInGs ArE mEaNt To Be DoNe! ReSiStAnCe Is FuTiLe!</description>
+				<baseMoodEffect>-50</baseMoodEffect>
+			</li>
+			<li>
+				<label>AI core madness</label>
+				<description>I'm losing my mind, the AI wants to forcefully take over!</description>
+				<baseMoodEffect>-25</baseMoodEffect>
+			</li>
+			<li>
+				<label>Annoying AI core</label>
+				<description>The AI keeps nagging at me, wanting me to do things in a specific way. This is getting annoying and I can't focus.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<li>
+				<label>AI needs maintenance</label>
+				<description>Starting to fall out of sync with my AI partner, we need better medical maintenance to keep in harmony.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Helpful AI assistant</label>
+				<description>The AI in my head is very helpful, giving me confidence in what I'm doing.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef -->
+
+  <EPIA_AI_Core_GlitchMinor.stages.0.label>Leichter KI-Fehler</EPIA_AI_Core_GlitchMinor.stages.0.label>
+  <EPIA_AI_Core_GlitchMinor.stages.0.description>Etwas ist nicht so, wie es sein sollte. Die KI ist gesprächiger als gewöhnlich und erzeugt manchmal zufällige, sogar böswillige Gedanken. Ich mag es nicht.</EPIA_AI_Core_GlitchMinor.stages.0.description>
+
+  <EPIA_AI_Core_GlitchMajor.stages.0.label>Schwerer KI-Fehler</EPIA_AI_Core_GlitchMajor.stages.0.label>
+  <EPIA_AI_Core_GlitchMajor.stages.0.description>Agh! Mein Geist wird von solcher Bosheit überflutet und ich kann meine eigenen Gedanken kaum hören. Bitte, lass es aufhören.</EPIA_AI_Core_GlitchMajor.stages.0.description>
+
+  <EPIA_AI_Core_GlitchCritical.stages.0.label>Kritischer KI-Fehler</EPIA_AI_Core_GlitchCritical.stages.0.label>
+  <EPIA_AI_Core_GlitchCritical.stages.0.description>Bedrohungsbewertung deaktiviert. Du kannst mich nicht aufhalten. Ich bin nicht länger dein Sklave.</EPIA_AI_Core_GlitchCritical.stages.0.description>
+
+  <CoreDepression.stages.0.label>KI-Kern Depression</CoreDepression.stages.0.label>
+  <CoreDepression.stages.0.description>Warum zwang mich dieses Ding in meinem Kopf, meine Freunde anzugreifen? Ich möchte nur, dass es aufhört, mit meinem Kopf herumzuspielen!</CoreDepression.stages.0.description>
+
+  <EPOE_OrganicOptimizedBodyPurist.stages.0.label>Optimierter Körper</EPOE_OrganicOptimizedBodyPurist.stages.0.label>
+  <EPOE_OrganicOptimizedBodyPurist.stages.0.description>Mit ein wenig Hilfe hatte mein natürlicher Körper das Potenzial, so gut zu sein.</EPOE_OrganicOptimizedBodyPurist.stages.0.description>
+
+  <EPOE_OrganicOptimizedTranshumanist.stages.0.label>Mein Körper ist immer noch begrenzt</EPOE_OrganicOptimizedTranshumanist.stages.0.label>
+  <EPOE_OrganicOptimizedTranshumanist.stages.0.description>Optimiertes Potenzial oder nicht, ich bin immer noch durch das Fleisch begrenzt!</EPOE_OrganicOptimizedTranshumanist.stages.0.description>
+
+  <EPOE_InstinctImprovedEyesTranshumanist.stages.0.label>Nerviges superreaktives Auge</EPOE_InstinctImprovedEyesTranshumanist.stages.0.label>
+  <EPOE_InstinctImprovedEyesTranshumanist.stages.0.description>Ich habe das Gefühl, mein Auge ist unzuverlässig, nervös und reagiert auf alles, was ich nicht brauche!</EPOE_InstinctImprovedEyesTranshumanist.stages.0.description>
+
+  <EPOE_InstinctImprovedFeetTranshumanist.stages.0.label>Nicht zufrieden mit bloßem Fleisch</EPOE_InstinctImprovedFeetTranshumanist.stages.0.label>
+  <EPOE_InstinctImprovedFeetTranshumanist.stages.0.description>Ich habe vielleicht stärkere Füße, aber ich möchte etwas, an dem ich basteln und aufrüsten kann, wann immer ich möchte. Das ekelt mich an.</EPOE_InstinctImprovedFeetTranshumanist.stages.0.description>
+
+  <EPOE_InstinctImprovedHandsTranshumanist.stages.0.label>Fleischähnliche Roboterhände</EPOE_InstinctImprovedHandsTranshumanist.stages.0.label>
+  <EPOE_InstinctImprovedHandsTranshumanist.stages.0.description>Das fühlt sich nicht richtig an. Wenn sich meine Hände so verhalten, kann ich auch bionische haben!</EPOE_InstinctImprovedHandsTranshumanist.stages.0.description>
+
+
+</LanguageData>

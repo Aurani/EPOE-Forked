@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tactical cornea implant -->
+
+  <InstallTacticalCorneaImplant.label>Implantiere Taktisches Hornhautimplantat</InstallTacticalCorneaImplant.label>
+  <InstallTacticalCorneaImplant.description>Implantiere ein taktisches Hornhautimplantat.</InstallTacticalCorneaImplant.description>
+  <InstallTacticalCorneaImplant.jobString>Implantiert Taktisches Hornhautimplantat.</InstallTacticalCorneaImplant.jobString>
+
+  <RemoveTacticalCorneaImplant.label>Entferne Taktisches Hornhautimplantat</RemoveTacticalCorneaImplant.label>
+  <RemoveTacticalCorneaImplant.description>Entferne ein taktisches Hornhautimplantat. Aufgrund der ausgeklügelten Natur des Implantats kann beim Entfernen nur ein Basisteil des Implantats (ein MA-KI-Chip) geborgen werden.</RemoveTacticalCorneaImplant.description>
+  <RemoveTacticalCorneaImplant.jobString>Entfernt Taktisches Hornhautimplantat.</RemoveTacticalCorneaImplant.jobString>
+
+
+  <!-- Auxiliary AI (construction) -->
+
+  <InstallConstructorCore.label>Implantiere Hilfs-KI: Konstruktion</InstallConstructorCore.label>
+  <InstallConstructorCore.description>Implantiere eine Hilfs-KI Konstruktion.</InstallConstructorCore.description>
+  <InstallConstructorCore.jobString>Implantiert Hilfs-KI Konstruktion.</InstallConstructorCore.jobString>
+
+  <RemoveConstructorCore.label>Entferne Hilfs-KI: Konstruktion</RemoveConstructorCore.label>
+  <RemoveConstructorCore.description>Entferne eine Hilfs-KI Konstruktion. Aufgrund der ausgeklügelten Natur des Implantats kann beim Entfernen nur ein Basisteil des Implantats (ein MA-KI-Chip) geborgen werden.</RemoveConstructorCore.description>
+  <RemoveConstructorCore.jobString>Entfernt Hilfs-KI Konstruktion.</RemoveConstructorCore.jobString>
+
+
+  <!-- Auxiliary AI (agricultural) -->
+
+  <InstallFarmerCore.label>Implantiere Hilfs-KI: Pflanzen</InstallFarmerCore.label>
+  <InstallFarmerCore.description>Implantiere eine Hilfs-KI: Pflanzen.</InstallFarmerCore.description>
+  <InstallFarmerCore.jobString>Implantiert Hilfs-KI: Pflanzen.</InstallFarmerCore.jobString>
+
+  <RemoveFarmerCore.label>Entferne Hilfs-KI: Pflanzen</RemoveFarmerCore.label>
+  <RemoveFarmerCore.description>Entferne eine Hilfs-KI: Pflanzen. Aufgrund der ausgeklügelten Natur des Implantats kann beim Entfernen nur ein Basisteil des Implantats (ein MA-KI-Chip) geborgen werden.</RemoveFarmerCore.description>
+  <RemoveFarmerCore.jobString>Entfernt Hilfs-KI: Pflanzen.</RemoveFarmerCore.jobString>
+
+
+  <!-- Auxiliary AI (mining) -->
+
+  <InstallMinerCore.label>Implantiere Hilfs-KI: Bergbau</InstallMinerCore.label>
+  <InstallMinerCore.description>Implantiere eine Hilfs-KI: Bergbau.</InstallMinerCore.description>
+  <InstallMinerCore.jobString>Implantiert Hilfs-KI: Bergbau.</InstallMinerCore.jobString>
+
+  <RemoveMinerCore.label>Entferne Hilfs-KI: Bergbau</RemoveMinerCore.label>
+  <RemoveMinerCore.description>Entferne eine Hilfs-KI: Bergbau. Aufgrund der ausgeklügelten Natur des Implantats kann beim Entfernen nur ein Basisteil des Implantats (ein MA-KI-Chip) geborgen werden.</RemoveMinerCore.description>
+  <RemoveMinerCore.jobString>Entfernt Hilfs-KI: Bergbau.</RemoveMinerCore.jobString>
+
+
+  <!-- Auxiliary AI (medical) -->
+
+  <InstallDoctorCore.label>Implantiere Hilfs-KI: Medizin</InstallDoctorCore.label>
+  <InstallDoctorCore.description>Implantiere eine Hilfs-KI: Medizin.</InstallDoctorCore.description>
+  <InstallDoctorCore.jobString>Implantiert Hilfs-KI: Medizin.</InstallDoctorCore.jobString>
+
+  <RemoveDoctorCore.label>Entferne Hilfs-KI: Medizin</RemoveDoctorCore.label>
+  <RemoveDoctorCore.description>Entferne eine Hilfs-KI: Medizin. Aufgrund der ausgeklügelten Natur des Implantats kann beim Entfernen nur ein Basisteil des Implantats (ein MA-KI-Chip) geborgen werden.</RemoveDoctorCore.description>
+  <RemoveDoctorCore.jobString>Entfernt Hilfs-KI: Medizin.</RemoveDoctorCore.jobString>
+
+
+  <!-- Auxiliary AI (diplomatic) -->
+
+  <InstallDiplomatCore.label>Implantiere Hilfs-KI: Sozial</InstallDiplomatCore.label>
+  <InstallDiplomatCore.description>Implantiere eine Hilfs-KI: Sozial.</InstallDiplomatCore.description>
+  <InstallDiplomatCore.jobString>Implantiert Hilfs-KI: Sozial.</InstallDiplomatCore.jobString>
+
+  <RemoveDiplomatCore.label>Entferne Hilfs-KI: Sozial</RemoveDiplomatCore.label>
+  <RemoveDiplomatCore.description>Entferne eine Hilfs-KI: Sozial. Aufgrund der ausgeklügelten Natur des Implantats kann beim Entfernen nur ein Basisteil des Implantats (ein MA-KI-Chip) geborgen werden.</RemoveDiplomatCore.description>
+  <RemoveDiplomatCore.jobString>Entfernt Hilfs-KI: Sozial.</RemoveDiplomatCore.jobString>
+
+
+  <!-- Auxiliary AI (sharpshooter) -->
+
+  <EPIA_InstallAuxiliaryAI_Sharpshooter.label>Implantiere Hilfs-KI: Fernkampf</EPIA_InstallAuxiliaryAI_Sharpshooter.label>
+  <EPIA_InstallAuxiliaryAI_Sharpshooter.description>Implantiere eine Hilfs-KI: Fernkampf.</EPIA_InstallAuxiliaryAI_Sharpshooter.description>
+  <EPIA_InstallAuxiliaryAI_Sharpshooter.jobString>Implantiert Hilfs-KI: Fernkampf.</EPIA_InstallAuxiliaryAI_Sharpshooter.jobString>
+
+  <EPIA_RemoveAuxiliaryAI_Sharpshooter.label>Entferne Hilfs-KI: Fernkampf</EPIA_RemoveAuxiliaryAI_Sharpshooter.label>
+  <EPIA_RemoveAuxiliaryAI_Sharpshooter.description>Entferne eine Hilfs-KI: Fernkampf.Aufgrund der ausgeklügelten Natur des Implantats kann beim Entfernen nur ein Basisteil des Implantats (ein MA-KI-Chip) geborgen werden.</EPIA_RemoveAuxiliaryAI_Sharpshooter.description>
+  <EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>Entfernt Hilfs-KI: Fernkampf.</EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>
+
+
+  <!-- Auxiliary AI (commando) -->
+
+  <EPIA_InstallAuxiliaryAI_Commando.label>Implantiere Hilfs-KI: Kommando</EPIA_InstallAuxiliaryAI_Commando.label>
+  <EPIA_InstallAuxiliaryAI_Commando.description>Implantiere eine Hilfs-KI: Kommando.</EPIA_InstallAuxiliaryAI_Commando.description>
+  <EPIA_InstallAuxiliaryAI_Commando.jobString>Implantiert Hilfs-KI: Kommando.</EPIA_InstallAuxiliaryAI_Commando.jobString>
+
+  <EPIA_RemoveAuxiliaryAI_Commando.label>Entferne Hilfs-KI: Kommando</EPIA_RemoveAuxiliaryAI_Commando.label>
+  <EPIA_RemoveAuxiliaryAI_Commando.description>Entferne eine Hilfs-KI: Kommando. Aufgrund der ausgeklügelten Natur des Implantats kann beim Entfernen nur ein Basisteil des Implantats (ein MA-KI-Chip) geborgen werden.</EPIA_RemoveAuxiliaryAI_Commando.description>
+  <EPIA_RemoveAuxiliaryAI_Commando.jobString>Entfernt Hilfs-KI: Kommando.</EPIA_RemoveAuxiliaryAI_Commando.jobString>
+
+
+  <!-- Auxiliary AI (brawler) -->
+
+  <EPIA_InstallAuxiliaryAI_Brawler.label>Implantiere Hilfs-KI: Nahkampf</EPIA_InstallAuxiliaryAI_Brawler.label>
+  <EPIA_InstallAuxiliaryAI_Brawler.description>Implantiere eine Hilfs-KI: Nahkampf.</EPIA_InstallAuxiliaryAI_Brawler.description>
+  <EPIA_InstallAuxiliaryAI_Brawler.jobString>Implantiert Hilfs-KI: Nahkampf.</EPIA_InstallAuxiliaryAI_Brawler.jobString>
+
+  <EPIA_RemoveAuxiliaryAI_Brawler.label>Entferne Hilfs-KI: Nahkampf</EPIA_RemoveAuxiliaryAI_Brawler.label>
+  <EPIA_RemoveAuxiliaryAI_Brawler.description>Entferne eine Hilfs-KI: Nahkampf. Aufgrund der ausgeklügelten Natur des Implantats kann beim Entfernen nur ein Basisteil des Implantats (ein MA-KI-Chip) geborgen werden.</EPIA_RemoveAuxiliaryAI_Brawler.description>
+  <EPIA_RemoveAuxiliaryAI_Brawler.jobString>Entfernt Hilfs-KI: Nahkampf.</EPIA_RemoveAuxiliaryAI_Brawler.jobString>
+
+
+  <!-- AI persona core -->
+
+  <InstallAIPersonaCore.label>Implantiere Persona-Kern</InstallAIPersonaCore.label>
+  <InstallAIPersonaCore.description>Implantiere einen Persona-Kern.</InstallAIPersonaCore.description>
+  <InstallAIPersonaCore.jobString>Implantiert Persona-Kern.</InstallAIPersonaCore.jobString>
+
+
+</LanguageData>

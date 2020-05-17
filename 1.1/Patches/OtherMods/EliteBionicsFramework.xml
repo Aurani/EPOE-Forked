@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+    	<mods>
+        	<li>Elite Bionics Framework</li>
+    	</mods>		
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/HediffDef[@Name="addedPartBionics"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[@Name="addedPartBionics"]</xpath>
+						<value>
+							<comps>
+								<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+									<scaleAdjustment>0.20</scaleAdjustment>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[@Name="addedPartBionics"]/comps</xpath>
+						<value>
+							<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+								<scaleAdjustment>0.20</scaleAdjustment>
+							</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/HediffDef[@Name="addedPartAdvanced"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[@Name="addedPartAdvanced"]</xpath>
+						<value>
+							<comps>
+								<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+									<scaleAdjustment>0.40</scaleAdjustment>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[@Name="addedPartAdvanced"]/comps</xpath>
+						<value>
+							<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+								<scaleAdjustment>0.40</scaleAdjustment>
+							</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/HediffDef[defName="SyntheticLung"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[defName="SyntheticLung"]</xpath>
+						<value>
+							<comps>
+								<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+									<scaleAdjustment>0.20</scaleAdjustment>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[defName="SyntheticLung"]/comps</xpath>
+						<value>
+							<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+								<scaleAdjustment>0.20</scaleAdjustment>
+							</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/HediffDef[defName="SyntheticLiver"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[defName="SyntheticLiver"]</xpath>
+						<value>
+							<comps>
+								<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+									<scaleAdjustment>0.20</scaleAdjustment>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[defName="SyntheticLiver"]/comps</xpath>
+						<value>
+							<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+								<scaleAdjustment>0.20</scaleAdjustment>
+							</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/HediffDef[defName="SyntheticKidney"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[defName="SyntheticKidney"]</xpath>
+						<value>
+							<comps>
+								<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+									<scaleAdjustment>0.20</scaleAdjustment>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[defName="SyntheticKidney"]/comps</xpath>
+						<value>
+							<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+								<scaleAdjustment>0.20</scaleAdjustment>
+							</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Medical System Expansion - Revived</li>
+					</mods>
+					<nomatch Class="PatchOperationSequence">
+						<operations>
+							<li Class="PatchOperationConditional">
+								<xpath>Defs/HediffDef[defName="BionicHeart"]/comps</xpath>
+								<nomatch Class="PatchOperationAdd">
+									<xpath>Defs/HediffDef[defName="BionicHeart"]</xpath>
+									<value>
+										<comps>
+											<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+												<scaleAdjustment>0.20</scaleAdjustment>
+											</li>
+										</comps>
+									</value>
+								</nomatch>
+								<match Class="PatchOperationAdd">
+									<xpath>Defs/HediffDef[defName="BionicHeart"]/comps</xpath>
+									<value>
+										<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+											<scaleAdjustment>0.20</scaleAdjustment>
+										</li>
+									</value>
+								</match>
+							</li>
+							<li Class="PatchOperationConditional">
+								<xpath>Defs/HediffDef[defName="BionicStomach"]/comps</xpath>
+								<nomatch Class="PatchOperationAdd">
+									<xpath>Defs/HediffDef[defName="BionicStomach"]</xpath>
+									<value>
+										<comps>
+											<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+												<scaleAdjustment>0.20</scaleAdjustment>
+											</li>
+										</comps>
+									</value>
+								</nomatch>
+								<match Class="PatchOperationAdd">
+									<xpath>Defs/HediffDef[defName="BionicStomach"]/comps</xpath>
+									<value>
+										<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+											<scaleAdjustment>0.20</scaleAdjustment>
+										</li>
+									</value>
+								</match>
+							</li>
+							
+							<li Class="PatchOperationConditional">
+								<xpath>Defs/HediffDef[defName="BionicEye"]/comps</xpath>
+								<nomatch Class="PatchOperationAdd">
+									<xpath>Defs/HediffDef[defName="BionicEye"]</xpath>
+									<value>
+										<comps>
+											<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+												<scaleAdjustment>0.20</scaleAdjustment>
+											</li>
+										</comps>
+									</value>
+								</nomatch>
+								<match Class="PatchOperationAdd">
+									<xpath>Defs/HediffDef[defName="BionicEye"]/comps</xpath>
+									<value>
+										<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+											<scaleAdjustment>0.20</scaleAdjustment>
+										</li>
+									</value>
+								</match>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs/HediffDef[defName="BionicArm"]/comps</xpath>
+								<value>
+									<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+										<scaleAdjustment>0.20</scaleAdjustment>
+									</li>
+								</value>
+							</li>
+							<li Class="PatchOperationConditional">
+								<xpath>Defs/HediffDef[defName="BionicLeg"]/comps</xpath>
+								<nomatch Class="PatchOperationAdd">
+									<xpath>Defs/HediffDef[defName="BionicLeg"]</xpath>
+									<value>
+										<comps>
+											<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+												<scaleAdjustment>0.20</scaleAdjustment>
+											</li>
+										</comps>
+									</value>
+								</nomatch>
+								<match Class="PatchOperationAdd">
+									<xpath>Defs/HediffDef[defName="BionicLeg"]/comps</xpath>
+									<value>
+										<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+											<scaleAdjustment>0.20</scaleAdjustment>
+										</li>
+									</value>
+								</match>
+							</li>
+							<li Class="PatchOperationConditional">
+								<xpath>Defs/HediffDef[defName="BionicEar"]/comps</xpath>
+								<nomatch Class="PatchOperationAdd">
+									<xpath>Defs/HediffDef[defName="BionicEar"]</xpath>
+									<value>
+										<comps>
+											<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+												<scaleAdjustment>0.20</scaleAdjustment>
+											</li>
+										</comps>
+									</value>
+								</nomatch>
+								<match Class="PatchOperationAdd">
+									<xpath>Defs/HediffDef[defName="BionicEar"]/comps</xpath>
+									<value>
+										<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+											<scaleAdjustment>0.20</scaleAdjustment>
+										</li>
+									</value>
+								</match>
+							</li>
+						</operations>
+					</nomatch>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

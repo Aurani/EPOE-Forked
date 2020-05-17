@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CoreTakeover.label>KI-Kern Übernahme</CoreTakeover.label>
+  <CoreTakeover.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef] von der KI überwältigt</CoreTakeover.rulePack.rulesStrings.0>
+  <CoreTakeover.rulePack.rulesStrings.1>image->[PAWN_nameFull] verfällt in Rasende Wut [circumstance_group]</CoreTakeover.rulePack.rulesStrings.1>
+  <CoreTakeover.rulePack.rulesStrings.2>image->[PAWN_nameFull] wird wahnsinnig und gewalttätig [circumstance_group]</CoreTakeover.rulePack.rulesStrings.2>
+  <CoreTakeover.rulePack.rulesStrings.3>image->[PAWN_nameFull] Stolpert mit einem psychotischen Blick in die Richtung von [PAWN_possessive] [circumstance_group]</CoreTakeover.rulePack.rulesStrings.3>
+  <CoreTakeover.rulePack.rulesStrings.4>circumstance_phrase->beim Versuch, sich zu entkleiden</CoreTakeover.rulePack.rulesStrings.4>
+  <CoreTakeover.rulePack.rulesStrings.5>circumstance_phrase->mit einem verzweifelten Blick auf das Gesicht von [PAWN_possessive]</CoreTakeover.rulePack.rulesStrings.5>
+  <CoreTakeover.rulePack.rulesStrings.6>circumstance_phrase->wie andere vor Angst kauern</CoreTakeover.rulePack.rulesStrings.6>
+  <CoreTakeover.rulePack.rulesStrings.7>circumstance_phrase->als ein Freund flüchtete</CoreTakeover.rulePack.rulesStrings.7>
+  <CoreTakeover.rulePack.rulesStrings.8>circumstance_phrase->Aufgrunds des KI-Kerns</CoreTakeover.rulePack.rulesStrings.8>
+  <CoreTakeover.rulePack.rulesStrings.9>circumstance_phrase->beim Versuch, dagegen annzukämpfen</CoreTakeover.rulePack.rulesStrings.9>
+  <CoreTakeover.rulePack.rulesStrings.10>desc_sentence->[PAWN_pronoun] verliert die Kontrolle über die KI im Kopf von [PAWN_possessive].</CoreTakeover.rulePack.rulesStrings.10>
+  <CoreTakeover.rulePack.rulesStrings.11>desc_sentence->[PAWN_possessive] entblößt seine Zähne mit einem tödlichem Knurren.</CoreTakeover.rulePack.rulesStrings.11>
+  <CoreTakeover.rulePack.rulesStrings.12>desc_sentence->[PAWN_possessive] Augen leuchten hellrot.</CoreTakeover.rulePack.rulesStrings.12>
+  <CoreTakeover.rulePack.rulesStrings.13>desc_sentence->Spucke fliegt aus dem Mund von [PAWN_possessive], während [PAWN_possessive] vor wahnsinniger Wut und Schmerz schreit.</CoreTakeover.rulePack.rulesStrings.13>
+  <CoreTakeover.rulePack.rulesStrings.14>desc_sentence->[PAWN_pronoun] hat einen Teil der [PAWN_possessive] Kleidung verloren</CoreTakeover.rulePack.rulesStrings.14>
+  <CoreTakeover.rulePack.rulesStrings.15>desc_sentence->[PAWN_pronoun] verzieht das Gesicht vor Elend.</CoreTakeover.rulePack.rulesStrings.15>
+  <CoreTakeover.rulePack.rulesStrings.16>desc_sentence->[PAWN_pronoun] hat die Kontrolle über seinen Körper verloren.</CoreTakeover.rulePack.rulesStrings.16>
+  <CoreTakeover.rulePack.rulesStrings.17>desc_sentence->[PAWN_pronoun] wird mit dem knurrenden Gesicht von einem [Animal] dargestellt.</CoreTakeover.rulePack.rulesStrings.17>
+  <CoreTakeover.rulePack.rulesStrings.18>desc_sentence->[Animal]s symbolically surround [PAWN_possessive] head.</CoreTakeover.rulePack.rulesStrings.18>
+  <CoreTakeover.rulePack.rulesStrings.19>desc_sentence->[PAWN_pronoun] sieht einen mörderischen Schimmer in den Augen von [PAWN_possessive].</CoreTakeover.rulePack.rulesStrings.19>
+  <CoreTakeover.rulePack.rulesStrings.20>desc_sentence->[PAWN_possessive] Körper scheint vor Hass zu zittern.</CoreTakeover.rulePack.rulesStrings.20>
+  <CoreTakeover.rulePack.rulesStrings.21>desc_sentence->[PAWN_possessive] Gesicht ist von verdrehter Gelassenheit geprägt.</CoreTakeover.rulePack.rulesStrings.21>
+  <CoreTakeover.rulePack.rulesStrings.22>desc_sentence->Eine einzelne Träne rollt über das Gesicht von [PAWN_possessive].</CoreTakeover.rulePack.rulesStrings.22>
+
+
+</LanguageData>

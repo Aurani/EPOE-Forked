@@ -151,8 +151,7 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
-			<li>EPOE_SyntheticRepair</li>
-			<li>EPOE_Glitterworld_Implants</li>
+				<li>EPOE_SyntheticRepair</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
@@ -161,6 +160,8 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		<tab>EPOE</tab>
 		<researchViewX>5</researchViewX>
 		<researchViewY>0</researchViewY>
+		<discoveredLetterTitle>About: Neuro-cure Framework</discoveredLetterTitle>
+		<discoveredLetterText>You now have the technology to print Neuro-cure Framework - but to use it for surgery operations involving the brain, it will require the Brain Surgery research.</discoveredLetterText>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>

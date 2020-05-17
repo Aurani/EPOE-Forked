@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Redundant Synthetic Heart version -->
+
+  <SyntheticHeart.label>Synthetisches Herz</SyntheticHeart.label>
+  <SyntheticHeart.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticHeart.description>
+
+
+  <!-- Redundant Synthetic stomach version -->
+
+  <SyntheticStomach.label>Synthetischer Magen</SyntheticStomach.label>
+  <SyntheticStomach.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticStomach.description>
+
+
+  <!-- Vanilla overwrites, for now.
+  
+  <Joywire.label>Glücklichmacher</Joywire.label>
+  <Joywire.description>Mit diesem kleinen Gehirnimplantat fühlen Sie sich glücklich und entspannt.</Joywire.description> 
+  
+  <Painstopper.label>Schmerzstopper</Painstopper.label>
+  <Painstopper.description>Mit diesem Gehirnimplantat fühlt man keine Schmerzen.</Painstopper.description> -->
+
+
+  <!-- Synthetic heart -->
+  <!--
+  <BionicHeart.label>Synthetisches Herz</BionicHeart.label>
+  <BionicHeart.description>Ein erstklassiger Herzersatz. Kann mit einer einzigen Ladung über 30 Jahre halten.</BionicHeart.description> -->
+
+
+  <!-- Synthetic lung -->
+
+  <SyntheticLung.label>Synthetische Lunge</SyntheticLung.label>
+  <SyntheticLung.description>Ein Hightech-Atemersatz. Erzeugt ein leises Surren.</SyntheticLung.description>
+
+
+  <!-- Synthetic stomach -->
+  <!--
+  <BionicStomach.label>Synthetischer Magen</BionicStomach.label>
+  <BionicStomach.description>Ein verbesserter Magen, ergänzt durch chemische Synthesizer, die nahezu alle energietragenden Lebensmittel effizient verdauen. Unberührt von seiner eigenen Magensäure.</BionicStomach.description> -->
+
+
+  <!-- Synthetic liver -->
+
+  <SyntheticLiver.label>Synthetische Leber</SyntheticLiver.label>
+  <SyntheticLiver.description>Eine verbesserte Leber, die mit synthetischen Fasern angereichert ist, um die Abstoßungsrate zu verringern.</SyntheticLiver.description>
+
+
+  <!-- Synthetic kidney -->
+
+  <SyntheticKidney.label>Synthetische Niere</SyntheticKidney.label>
+  <SyntheticKidney.description>Eine verbesserte Niere, die mit synthetischen Fasern angereichert ist, um die Abstoßungsrate zu verringern.</SyntheticKidney.description>
+
+
+  <!-- Muscle stimulator -->
+
+  <MuscleStimulator.label>Muskelstimulator</MuscleStimulator.label>
+  <MuscleStimulator.description>Durch spezielle Chemikalien und Elektroschocks kann dieser kleine Chip die Muskeln stimulieren, sodass sie über der maximalen Leistung arbeiten können.</MuscleStimulator.description>
+
+
+  <!-- AI chip -->
+
+  <AIChip.label>KI-Chip</AIChip.label>
+  <AIChip.description>Durch spezielle Chemikalien und Elektroschocks kann dieser kleine Chip das Bewusstsein und die Mobilität des Benutzers vollständig wiederherstellen. Erfordert vor der Installation die Erforschung der Gehirnchirurgie.</AIChip.description>
+
+
+</LanguageData>

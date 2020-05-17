@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Invisible debug recipes for swapping versions to look seamless -->
+
+  <CreateJoywire.label>make joywire</CreateJoywire.label>
+  <CreateJoywire.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateJoywire.description>
+  <CreateJoywire.jobString>Creating synthetic organ.</CreateJoywire.jobString>
+
+  <CreatePainstopper.label>make painstopper</CreatePainstopper.label>
+  <CreatePainstopper.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreatePainstopper.description>
+  <CreatePainstopper.jobString>Creating synthetic organ.</CreatePainstopper.jobString>
+
+
+</LanguageData>

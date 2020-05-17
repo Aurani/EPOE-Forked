@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Invisible debug recipes for swapping versions to look seamless -->
+
+  <CreateSurrogateHeart.label>make surrogate heart</CreateSurrogateHeart.label>
+  <CreateSurrogateHeart.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateSurrogateHeart.description>
+  <CreateSurrogateHeart.jobString>Creating surrogate organ.</CreateSurrogateHeart.jobString>
+
+  <CreateSurrogateLung.label>make surrogate lung</CreateSurrogateLung.label>
+  <CreateSurrogateLung.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateSurrogateLung.description>
+  <CreateSurrogateLung.jobString>Creating surrogate organ.</CreateSurrogateLung.jobString>
+
+  <CreateSurrogateStomach.label>make surrogate stomach</CreateSurrogateStomach.label>
+  <CreateSurrogateStomach.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateSurrogateStomach.description>
+  <CreateSurrogateStomach.jobString>Creating surrogate organ.</CreateSurrogateStomach.jobString>
+
+  <CreateSurrogateLiver.label>make surrogate liver</CreateSurrogateLiver.label>
+  <CreateSurrogateLiver.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateSurrogateLiver.description>
+  <CreateSurrogateLiver.jobString>Creating surrogate organ.</CreateSurrogateLiver.jobString>
+
+  <CreateSurrogateKidney.label>make surrogate kidney</CreateSurrogateKidney.label>
+  <CreateSurrogateKidney.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateSurrogateKidney.description>
+  <CreateSurrogateKidney.jobString>Creating surrogate organ.</CreateSurrogateKidney.jobString>
+
+  <CreateBrainStimulator.label>make brain stimulator</CreateBrainStimulator.label>
+  <CreateBrainStimulator.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateBrainStimulator.description>
+  <CreateBrainStimulator.jobString>Creating surrogate organ.</CreateBrainStimulator.jobString>
+
+
+</LanguageData>

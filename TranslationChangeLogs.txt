@@ -1,3 +1,16 @@
+***Changes since ***
+
+= New additions =
+
+ResearchProjectDefs\ProstheticsResearch - <EPOE_NeurologicalTreatment.discoveredLetterTitle>
+ResearchProjectDefs\ProstheticsResearch - <EPOE_NeurologicalTreatment.discoveredLetterText>
+
+= Description changes =
+
+ThingDefs\Item_BodyPartsSynthetics - <NeurocureFramework.description>
+
+
+
 ***Changes since (26.3.2020)***
 
 = New additions =

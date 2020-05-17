@@ -5,6 +5,7 @@
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
 		<defaultLabelColor>(148,117,14)</defaultLabelColor>
+		<priceImpact>true</priceImpact>
 	</HediffDef>
 
 	<ThingDef Name="BodyPartBasicBase" ParentName="BodyPartProstheticMakeableBase" Abstract="True">

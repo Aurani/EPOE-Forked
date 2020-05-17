@@ -1,12 +1,96 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-		
-	<GoldenEye.label>Goldenes Auge</GoldenEye.label>
-	<SimpleProstheticHand.label>Einfache Handprothese</SimpleProstheticHand.label>
-	<SimpleProstheticFoot.label>Einfache Fußprothese</SimpleProstheticFoot.label>
-	<ArtificialPelvis.label>Künstliches Becken</ArtificialPelvis.label>
-	<ArtificialNose.label>Künstliche Nase</ArtificialNose.label>
-	<HydraulicJaw.label>Hydraulischer Kiefer</HydraulicJaw.label>
-	<LightRezeptor.label>Lichtrezeptor</LightRezeptor.label>
+
+  <!-- Prosthetic leg 
+
+  <SimpleProstheticLeg.label>Beinprothese</SimpleProstheticLeg.label>
+  <SimpleProstheticLeg.description>Eine installierte Beinprothese.</SimpleProstheticLeg.description>
+  <SimpleProstheticLeg.labelNoun>Eine Beinprothese</SimpleProstheticLeg.labelNoun> -->
+
+
+  <!-- Prosthetic arm 
+
+  <SimpleProstheticArm.label>Armprothese</SimpleProstheticArm.label>
+  <SimpleProstheticArm.description>Eine installierte Armprothese.</SimpleProstheticArm.description>
+  <SimpleProstheticArm.comps.0.tools.0.label>Faust</SimpleProstheticArm.comps.0.tools.0.label>
+  <SimpleProstheticArm.labelNoun>Eine Armprothese</SimpleProstheticArm.labelNoun> -->
+
+
+  <!-- Cochlear implant 
+
+  <CochlearImplant.label>Cochlea-Implantant</CochlearImplant.label>
+  <CochlearImplant.description>Ein installiertes Cochlea-Implantant.</CochlearImplant.description>
+  <CochlearImplant.labelNoun>Ein Cochlea-Implantant</CochlearImplant.labelNoun> -->
+
+
+  <!-- Golden eye -->
+
+  <GoldenEye.label>Goldenes Auge</GoldenEye.label>
+  <GoldenEye.description>Ein installiertes Goldenes Auge.</GoldenEye.description>
+
+
+  <!-- Light receptor -->
+
+  <LightReceptor.label>Lichtrezeptor</LightReceptor.label>
+  <LightReceptor.description>Ein installierter Lichtrezeptor.</LightReceptor.description>
+
+
+  <!-- Simple spine replacement -->
+
+  <SimpleSpine.label>Ersatzwirbelsäule</SimpleSpine.label>
+  <SimpleSpine.description>Eine installierte Ersatzwirbelsäule.</SimpleSpine.description>
+
+
+  <!-- Prosthetic hand -->
+
+  <SimpleProstheticHand.label>Handprothese</SimpleProstheticHand.label>
+  <SimpleProstheticHand.description>Eine installierte Handprothese.</SimpleProstheticHand.description>
+  <SimpleProstheticHand.comps.0.tools.0.label>Faust</SimpleProstheticHand.comps.0.tools.0.label>
+
+
+  <!-- Prosthetic foot -->
+
+  <SimpleProstheticFoot.label>Fußprothese</SimpleProstheticFoot.label>
+  <SimpleProstheticFoot.description>Eine installierte Fußprothese.</SimpleProstheticFoot.description>
+
+
+  <!-- Prosthetic finger -->
+
+  <SimpleProstheticFinger.label>Fingerprothese</SimpleProstheticFinger.label>
+  <SimpleProstheticFinger.description>Eine installierte Fingerprothese.</SimpleProstheticFinger.description>
+  <SimpleProstheticFinger.labelNoun>Eine Fingerprothese</SimpleProstheticFinger.labelNoun>
+
+
+  <!-- Prosthetic toe -->
+
+  <SimpleProstheticToe.label>Zehprothese</SimpleProstheticToe.label>
+  <SimpleProstheticToe.description>Eine installierte Zehprothese.</SimpleProstheticToe.description>
+  <SimpleProstheticToe.labelNoun>Eine Zehprothese</SimpleProstheticToe.labelNoun>
+
+
+  <!-- Hydraulic jaw -->
+
+  <HydraulicJaw.label>Hydraulischer Kiefer</HydraulicJaw.label>
+  <HydraulicJaw.description>Ein installierter Hydraulischer Kiefer.</HydraulicJaw.description>
+
+
+  <!-- Artificial nose -->
+
+  <ArtificialNose.label>Künstliche Nase</ArtificialNose.label>
+  <ArtificialNose.description>Eine installierte Künstliche Nase.</ArtificialNose.description>
+
+
+  <!-- Replacement radius -->
+
+  <ReplacementRadius.label>Radiusersatz</ReplacementRadius.label>
+  <ReplacementRadius.description>Ein installierter Radiusersatz.</ReplacementRadius.description>
+
+
+  <!-- Scyther blade -->
+
+  <EPOE_ScytherBlade.label>Schnitterklinge</EPOE_ScytherBlade.label>
+  <EPOE_ScytherBlade.description>Eine installierte Schnitterklinge.</EPOE_ScytherBlade.description>
+  <EPOE_ScytherBlade.comps.0.tools.0.label>Klinge</EPOE_ScytherBlade.comps.0.tools.0.label>
+
 
 </LanguageData>

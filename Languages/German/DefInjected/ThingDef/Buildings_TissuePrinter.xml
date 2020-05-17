@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TableOrgans.label>Gewebedrucker</TableOrgans.label>
+  <TableOrgans.description>Eine Arbeitsstation, die mit einem 3D-Drucker zum Herstellen von Organen ausgestattet ist. Diese fortschrittliche Werkbank kann bestimmte Arbeitsstationen unterstützen, indem sie einen Teil ihres speziellen Fertigungssystems zur Verfügung stellt, wenn sie in ihrer Nähe platziert werden.\n\nWenn diese Werkbank in der Nähe einer Bionik-Werkbank oder einer Fertigungsbank aufgestellt wird, kann sie ihre Produktionsgeschwindigkeit erhöhen. Es kann maximal eine Verbindung zu einem Gewebedrucker hergestellt werden.</TableOrgans.description>
+
+
+</LanguageData>

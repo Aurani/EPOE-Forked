@@ -1,11 +1,46 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-		
-	<BrainStimulator.label>Gehirnstimulator</BrainStimulator.label>
-	<SurrogateStomach.label>Magenersatz</SurrogateStomach.label>
-	<SurrogateLung.label>Lungenersatz</SurrogateLung.label>
-	<SurrogateLiver.label>Leberersatz</SurrogateLiver.label>
-	<SurrogateKidney.label>Nierenersatz</SurrogateKidney.label>
-	<SurrogateHeart.label>Herzersatz</SurrogateHeart.label>
-	
+
+  <!-- Redundant original Surrogate Heart, if ever upgrading from 1.0 to 1.1 midsave -->
+
+  <SurrogateHeart.label>Herzersatz</SurrogateHeart.label>
+  <SurrogateHeart.description>Ein installierter Herzersatz.</SurrogateHeart.description>
+
+
+  <!-- Surrogate heart 
+
+  <SimpleProstheticHeart.label>Herzersatz</SimpleProstheticHeart.label>
+  <SimpleProstheticHeart.description>Ein installierter Herzersatz.</SimpleProstheticHeart.description> -->
+
+
+  <!-- Surrogate lung -->
+
+  <SurrogateLung.label>Lungenersatz</SurrogateLung.label>
+  <SurrogateLung.description>Ein installierter Lungenersatz.</SurrogateLung.description>
+
+
+  <!-- Surrogate stomach -->
+
+  <SurrogateStomach.label>Magenersatz</SurrogateStomach.label>
+  <SurrogateStomach.description>Ein installierter Magenersatz.</SurrogateStomach.description>
+
+
+  <!-- Surrogate liver -->
+
+  <SurrogateLiver.label>Leberersatz</SurrogateLiver.label>
+  <SurrogateLiver.description>Eine installierter Leberersatz.</SurrogateLiver.description>
+
+
+  <!-- Surrogate kidney -->
+
+  <SurrogateKidney.label>Nierenersatz</SurrogateKidney.label>
+  <SurrogateKidney.description>Eine installierter Nierenersatz.</SurrogateKidney.description>
+
+
+  <!-- Brain stimulator -->
+
+  <BrainStimulator.label>Gehirnstimulator</BrainStimulator.label>
+  <BrainStimulator.description>Ein installierter Gehirnstimulator.</BrainStimulator.description>
+
+
 </LanguageData>

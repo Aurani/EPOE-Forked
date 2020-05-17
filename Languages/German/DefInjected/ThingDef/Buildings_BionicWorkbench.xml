@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TableBionics.label>Bionik-Werkbank</TableBionics.label>
+  <TableBionics.description>Eine Werkbank für die Herstellung von High-Tech-Bionik und Implantaten. Diese fortschrittliche Werkbank kann bestimmte Arbeitsstationen unterstützen, indem sie einen Teil ihres speziellen Fertigungssystems zur Verfügung stellt, wenn sie in ihrer Nähe platziert werden.\n\nWenn sie in der Nähe der Prothesen-Werkbank, des Gewebedruckers oder der Fertigungsbank platziert wird, kann diese Werkbank ihre Produktionsgeschwindigkeit erhöhen. Es kann maximal eine Verbindung zu einer Bionik-Werkbank hergestellt werden.</TableBionics.description>
+
+
+</LanguageData>

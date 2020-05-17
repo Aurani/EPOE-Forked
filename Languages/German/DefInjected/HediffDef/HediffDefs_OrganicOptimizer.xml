@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Organic optimizing nanobots -->
+
+  <EPOE_OrganicOptimized.label>Optimiertes Körperteil</EPOE_OrganicOptimized.label>
+  <EPOE_OrganicOptimized.description>Ein optimiertes natürliches Körperteil mit organisch optimierenden Nanorobotern.</EPOE_OrganicOptimized.description>
+  <EPOE_OrganicOptimized.stages.0.label>Frisch</EPOE_OrganicOptimized.stages.0.label>
+  <EPOE_OrganicOptimized.stages.1.label>Anpassung</EPOE_OrganicOptimized.stages.1.label>
+  <EPOE_OrganicOptimized.stages.2.label>Optimierung</EPOE_OrganicOptimized.stages.2.label>
+
+
+  <!-- Eyes: Improved reactive pupil -->
+
+  <EPOE_InstinctOptimizedEyes.label>Instinktoptimierte Augen</EPOE_InstinctOptimizedEyes.label>
+  <EPOE_InstinctOptimizedEyes.description>Die natürlichen Augen werden mithilfe instinktoptimierender Nanorobotern optimiert.</EPOE_InstinctOptimizedEyes.description>
+  <EPOE_InstinctOptimizedEyes.stages.0.label>Frisch</EPOE_InstinctOptimizedEyes.stages.0.label>
+  <EPOE_InstinctOptimizedEyes.stages.1.label>Anpassung</EPOE_InstinctOptimizedEyes.stages.1.label>
+  <EPOE_InstinctOptimizedEyes.stages.2.label>Optimierung</EPOE_InstinctOptimizedEyes.stages.2.label>
+
+
+  <!-- Hand: Improved hand reflex -->
+
+  <EPOE_InstinctOptimizedHand.label>Instinktoptimierte Hand</EPOE_InstinctOptimizedHand.label>
+  <EPOE_InstinctOptimizedHand.description>Die natürlichen Hände werden mithilfe instinktoptimierender Nanorobotern optimiert.</EPOE_InstinctOptimizedHand.description>
+  <EPOE_InstinctOptimizedHand.stages.0.label>Frisch</EPOE_InstinctOptimizedHand.stages.0.label>
+  <EPOE_InstinctOptimizedHand.stages.1.label>Anpassung</EPOE_InstinctOptimizedHand.stages.1.label>
+  <EPOE_InstinctOptimizedHand.stages.2.label>Optimierung</EPOE_InstinctOptimizedHand.stages.2.label>
+
+
+  <!-- Foot: nimble instinct -->
+
+  <EPOE_InstinctOptimizedFoot.label>Instinktoptimierter Fuß</EPOE_InstinctOptimizedFoot.label>
+  <EPOE_InstinctOptimizedFoot.description>Die natürlichen Füße werden mithilfe instinktoptimierender Nanorobotern optimiert.</EPOE_InstinctOptimizedFoot.description>
+  <EPOE_InstinctOptimizedFoot.stages.0.label>Frisch</EPOE_InstinctOptimizedFoot.stages.0.label>
+  <EPOE_InstinctOptimizedFoot.stages.1.label>Anpassung</EPOE_InstinctOptimizedFoot.stages.1.label>
+  <EPOE_InstinctOptimizedFoot.stages.2.label>Optimierung</EPOE_InstinctOptimizedFoot.stages.2.label>
+
+
+</LanguageData>

@@ -1,3 +1,20 @@
+3.3.5 (1.5.2020)
+* Rebalanced Exoskeleton costs. Seems I derped much earlier and now it should be more consistent with the balance and benefits.
+* Neurological Treatment research no longer requires Glitterworld Implants
+* Added reminders that Neuro-cure Framework needs Brain Surgery research in order for it to be used.
+* Improved the Scar Removal Plus interaction patch. It was done kind of half-heartedly and very indecisive.
+* Removed the duplicate surrogate heart, synthetic heart and synthetic stomach that were used as placeholders when migrating from EPOE-original. No longer needed.
+* Updated German translation, thanks to Erdnussbrot contributions.
+
+3.3.4 (20.4.2020)
+* Adjusted some patches for MSE 2 so everyone can play nicely.
+* Added a patch for Scar Removal Plus, disabling our own scar removal surgery for now, to avoid duplicate. That mod handles scar removal better.
+
+3.3.3 (2.4.2020)
+* Added patch for Elite Bionic Framework.
+* Added quick support for Combat Extended. If CE has the native patch added later on, our own patch is disabled if EPOE-Forked is loaded after CE.
+* Added a modder's readme file.
+
 3.3.2 (26.3.2020)
 * Fixed the missing follow up procedure of removing scars. It only looked if it was possible to perform it, but then does nothing.
 * Minor correction to a translation tag.

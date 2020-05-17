@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Invisible debug recipes for swapping versions to look seamless -->
+
+  <CreateDenture.label>remove this recipe</CreateDenture.label>
+  <CreateDenture.description>A debug recipe to prevent glitches due to removal of needing to craft dentures. Safe to delete this recipe, and you will not see it again. Wood logs will be partially refunded as the debugged product of this recipe if continued use.</CreateDenture.description>
+  <CreateDenture.jobString>Working on a removed recipe.</CreateDenture.jobString>
+
+  <CreatePegLeg.label>remove this recipe</CreatePegLeg.label>
+  <CreatePegLeg.description>A debug recipe to prevent glitches due to removal of needing to craft peg legs. Safe to delete this recipe, and you will not see it again. Wood logs will be partially refunded as the debugged product of this recipe if continued use.</CreatePegLeg.description>
+  <CreatePegLeg.jobString>Working on a removed recipe.</CreatePegLeg.jobString>
+
+  <CreateWoodenFoot.label>remove this recipe</CreateWoodenFoot.label>
+  <CreateWoodenFoot.description>A debug recipe to prevent glitches due to removal of needing to craft wooden foot. Safe to delete this recipe, and you will not see it again. Wood logs will be partially refunded as the debugged product of this recipe if continued use.</CreateWoodenFoot.description>
+  <CreateWoodenFoot.jobString>Working on a removed recipe.</CreateWoodenFoot.jobString>
+
+  <CreateSteelArm.label>make steel arm</CreateSteelArm.label>
+  <CreateSteelArm.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateSteelArm.description>
+  <CreateSteelArm.jobString>Crafting prosthesis.</CreateSteelArm.jobString>
+
+  <CreateEyePatch.label>remove this recipe</CreateEyePatch.label>
+  <CreateEyePatch.description>A debug recipe to prevent glitches due to removal of needing to craft eye patch. Safe to delete this recipe, and you will not see it again. Cloth will be partially refunded as the debugged product of this recipe if continued use.</CreateEyePatch.description>
+  <CreateEyePatch.jobString>Working on a removed recipe.</CreateEyePatch.jobString>
+
+  <CreateHookHand.label>make hook hand</CreateHookHand.label>
+  <CreateHookHand.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreateHookHand.description>
+  <CreateHookHand.jobString>Crafting prosthesis.</CreateHookHand.jobString>
+
+  <CreateEarBandage.label>remove this recipe</CreateEarBandage.label>
+  <CreateEarBandage.description>A debug recipe to prevent glitches due to removal of needing to craft ear bandage. Safe to delete this recipe, and you will not see it again. Cloth will be partially refunded as the debugged product of this recipe if continued use.</CreateEarBandage.description>
+  <CreateEarBandage.jobString>Working on a removed recipe.</CreateEarBandage.jobString>
+
+  <CreateWoodenHand.label>remove this recipe</CreateWoodenHand.label>
+  <CreateWoodenHand.description>A debug recipe to prevent glitches due to removal of needing to craft wooden hand. Safe to delete this recipe, and you will not see it again. Wood logs will be partially refunded as the debugged product of this recipe if continued use.</CreateWoodenHand.description>
+  <CreateWoodenHand.jobString>Working on a removed recipe.</CreateWoodenHand.jobString>
+
+
+</LanguageData>

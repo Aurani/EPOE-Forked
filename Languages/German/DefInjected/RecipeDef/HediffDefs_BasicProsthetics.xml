@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Hook hand -->
+
+  <InstallHookHand.label>Implantiere Handhaken</InstallHookHand.label>
+  <InstallHookHand.description>Implantiere einen Handhaken.</InstallHookHand.description>
+  <InstallHookHand.jobString>Implantiert Handhaken.</InstallHookHand.jobString>
+
+
+  <!-- Steel arm -->
+
+  <InstallSteelArm.label>Implantiere Stahlarm</InstallSteelArm.label>
+  <InstallSteelArm.description>Implantiere einen Stahlarm.</InstallSteelArm.description>
+  <InstallSteelArm.jobString>Implantiert Stahlarm.</InstallSteelArm.jobString>
+
+
+  <!-- Eye patch -->
+
+  <InstallEyePatch.label>Implantiere Augenklappe</InstallEyePatch.label>
+  <InstallEyePatch.description>Implantiere eine Augenklappe.</InstallEyePatch.description>
+  <InstallEyePatch.jobString>Implantiert Augenklappe.</InstallEyePatch.jobString>
+
+
+  <!-- Ear Bandage -->
+
+  <InstallEarBandage.label>Implantiere Ohrverband</InstallEarBandage.label>
+  <InstallEarBandage.description>Implantiere einen Ohrverband.</InstallEarBandage.description>
+  <InstallEarBandage.jobString>Implantiert Ohrverband.</InstallEarBandage.jobString>
+
+
+</LanguageData>

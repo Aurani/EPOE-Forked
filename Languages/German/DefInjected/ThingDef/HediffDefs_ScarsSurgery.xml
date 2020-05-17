@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Synthetic tissue -->
+
+  <SyntheticSkin.label>Synthetische Haut</SyntheticSkin.label>
+  <SyntheticSkin.description>Ein Stück organosynthetisches Gewebe, das beschädigte Bereiche ersetzen kann.</SyntheticSkin.description>
+
+
+  <!-- Neuromuscular framework -->
+
+  <NeuromuscularFramework.label>Neuromuskuläres-Netzwerk</NeuromuscularFramework.label>
+  <NeuromuscularFramework.description>Eine Reihe von synthetischen Muskeln und künstlichen Nerven, die die Funktion eines gesunden Torsos perfekt wiederherstellen können.</NeuromuscularFramework.description>
+
+
+  <!-- Neuro-cure framework -->
+
+  <NeurocureFramework.label>Neuroreparatur-Netzwerk</NeurocureFramework.label>
+  <NeurocureFramework.description>Eine Reihe hochentwickelter Nanomaschinen, synthetisches Hirngewebe und künstliche Nerven, die die Funktion eines Gehirns wiederherstellen können. Zur Heilung von Hirnverletzungen, Demenz und Alzheimer.\n\nErfordert die Erfoschung von Gehirnchirurgie.</NeurocureFramework.description>
+
+<EPOE_NeurologicalTreatment.discoveredLetterText>Du hast jetzt die Technologie, um das Neuroreparatur-Netzwerk zu drucken. Um es jedoch für chirurgische Eingriffe am Gehirn verwenden zu können, ist die Erforschung der Gehirnchirurgie erforderlich.</EPOE_NeurologicalTreatment.discoveredLetterText>
+
+</LanguageData>

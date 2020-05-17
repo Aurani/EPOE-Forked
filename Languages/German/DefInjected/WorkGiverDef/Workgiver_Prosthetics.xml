@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsBionicWorkbench.label>Stelle Bionische Prothese her</DoBillsBionicWorkbench.label>
+  <DoBillsBionicWorkbench.verb>Herstellen</DoBillsBionicWorkbench.verb>
+  <DoBillsBionicWorkbench.gerund>stellt her</DoBillsBionicWorkbench.gerund>
+
+  <DoBillsTableOrgans.label>Drucke Gewebe</DoBillsTableOrgans.label>
+  <DoBillsTableOrgans.verb>Drucken</DoBillsTableOrgans.verb>
+  <DoBillsTableOrgans.gerund>Druckt</DoBillsTableOrgans.gerund>
+
+  <DoBillsSimpleProstheticWorkbench.label>Stelle Einfache Prothese her</DoBillsSimpleProstheticWorkbench.label>
+  <DoBillsSimpleProstheticWorkbench.verb>Herstellen</DoBillsSimpleProstheticWorkbench.verb>
+  <DoBillsSimpleProstheticWorkbench.gerund>stellt her</DoBillsSimpleProstheticWorkbench.gerund>
+
+
+</LanguageData>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BasicProsthetics.label>Einfache Prothesen</BasicProsthetics.label>
+  <BasicProsthetics.description>Wenn du die Grundform verschiedener Körperteile verstehst und dieses Wissen mit der grundlegenden Holzbearbeitung kombinierst, kannst du jetzt einfache Prothesen herstellen.
+
+Klammerbeine, Holzfüße, Holzhände, Zahnersatz, Augenklappe und Ohrbinden sind direkte Operationen mit einem einzigen Holzklotz oder Textilien.
+
+Die Hakenhand und  der Stahlarm werden in einer Schmiede gefertigt.</BasicProsthetics.description>
+
+  <!--
+  <Prosthetics.label>Prothesen</Prosthetics.label>
+  <Prosthetics.description>Baue kostengünstige Körperprothesenteile, um verlorene Gliedmaßen zu ersetzen. Zum Anbringen ist ein qualifizierter Arzt erforderlich.</Prosthetics.description> -->
+
+  <!--
+  <Bionics.label>Bionische Austauschteile</Bionics.label>
+  <Bionics.description>Wenn du das Konzept sehr kleiner Motoren und Schaltkreise entdeckst, stehen dir jetzt neue Möglichkeiten für bessere Prothesen offen.</Bionics.description> -->
+
+  <AdvancedBionics.label>Fortschrittliche Bionik</AdvancedBionics.label>
+  <AdvancedBionics.description>Upgrade regular bionics to make them even better. Unlocks new recipes on the bionics workbench.</AdvancedBionics.description>
+
+  <RibReplacements.label>Rippenimplantate</RibReplacements.label>
+  <RibReplacements.description>Wenn du das Konzept sehr kleiner Spender entdeckt hast, denke darüber nach, sie in Rippen zu implantieren. Du kannst jetzt Rippenimplantate herstellen und installieren.</RibReplacements.description>
+
+  <SurrogateOrgans.label>Ersatzorgane</SurrogateOrgans.label>
+  <SurrogateOrgans.description>Durch die Erlangung höherer medizinischer und technischer Kenntnisse wird die Erstellung eines 3D-Druckers zur Herstellung einfacher Ersatzorgane möglich.</SurrogateOrgans.description>
+
+  <SyntheticOrgans.label>Synthetische Organe</SyntheticOrgans.label>
+  <SyntheticOrgans.description>Weitere Forschungen in der Nanotechnologie ermöglichen es dir, unglaublich ausgereifte künstliche Organe zu drucken. Schaltet neue Rezepte für den Gewebedrucker frei.</SyntheticOrgans.description>
+
+  <EPOE_SyntheticRepair.label>Synthetische Reparatur</EPOE_SyntheticRepair.label>
+  <EPOE_SyntheticRepair.description>Weitere Forschungen in der Nanotechnologie ermöglichen es dir, unglaublich ausgereifte künstliche Gewebe und Nerven zu drucken, um Narben, Gebrechlichkeit und schlechten Rücken zu heilen. Schaltet Rezepte für synthetisches Gewebe und neuromuskuläre Gerüste für den Gewebedrucker frei.</EPOE_SyntheticRepair.description>
+
+  <EPOE_NeurologicalTreatment.label>Neurologische Behandlung</EPOE_NeurologicalTreatment.label>
+  <EPOE_NeurologicalTreatment.description>Umfangreiche Forschungen in der Nanotechnologie ermöglichen es dir, ein unglaublich ausgereiftes Framework-Kit zu drucken, das aus künstlich anpassbaren Hirngeweben, Nerven und Nanomaschinen besteht, um Demenz und Alzheimer entgegenzuwirken. Schaltet das Rezept der Neuroheilung für den Gewebedrucker frei.\n\nDie Neuroheilung heilt nur Demenz und Alzheimer und verhindert nicht, dass es erneut auftritt.</EPOE_NeurologicalTreatment.description>
+
+  <BrainSurgery.label>Gehirnchirurgie</BrainSurgery.label>
+  <BrainSurgery.description>Ermöglicht die Durchführung von Gehirnoperationen.</BrainSurgery.description>
+
+  <EPOE_Glitterworld_Implants.label>Glittzerweltimplantate</EPOE_Glitterworld_Implants.label>
+  <EPOE_Glitterworld_Implants.description>Ermöglicht die Herstellung von Glitterworld-Implantaten.</EPOE_Glitterworld_Implants.description>
+
+  <EPOE_AIPersonaCoreImplant.label>Persona-Kernimplantant</EPOE_AIPersonaCoreImplant.label>
+  <EPOE_AIPersonaCoreImplant.description>Ermöglicht die Durchführung einer Operation, um einen Persona-Kern in das Gehirn zu implantieren. Er bietet einen starken Bewusstseinsschub mit Hilfe einer KI, erfordert jedoch regelmäßige medizinische Wartung, um zu vermeiden, dass die KI den Benutzer zum Feind macht.</EPOE_AIPersonaCoreImplant.description>
+
+  <EPOE_OrganicOptimizer.label>Organische Optimierung</EPOE_OrganicOptimizer.label>
+  <EPOE_OrganicOptimizer.description>Ermöglicht die Entwicklung von Nanorobotern zur Optimierung und Ausschöpfung des vollen Potenzials des natürlichen Körpers, die speziell zur Unterstützung von Körperpuristen entwickelt wurden.</EPOE_OrganicOptimizer.description>
+
+  <EPOE_MAAIChip.label>MA-KI-Chip</EPOE_MAAIChip.label>
+  <EPOE_MAAIChip.description>Ermöglicht die Herstellung Ihres eigenen MA-KI-Chips (Medizischer Assistenz-KI-Chip), ohne dass Sie einen Personk-Kern finden müssen.</EPOE_MAAIChip.description>
+
+
+</LanguageData>

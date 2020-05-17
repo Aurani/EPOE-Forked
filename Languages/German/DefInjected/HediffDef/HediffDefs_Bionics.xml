@@ -1,15 +1,62 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-		
-	<BionicHand.label>Bionische Hand</BionicHand.label>
-	<BionicFoot.label>Bionischer Fuß</BionicFoot.label>
-	<BionicSpine.label>Künstliche Wirbelsäule</BionicSpine.label>
-	<MedicalRib.label>Medizinisches Rippen-Implantat</MedicalRib.label>
-	<BionicJaw.label>Bionischer Kiefer</BionicJaw.label>
-	<SilentJaw.label>Stummgeschalteter Kiefer</SilentJaw.label>
-	<BionicEar.label>Bionisches Ohr</BionicEar.label>
-	<PowerArm.label>Powerarm</PowerArm.label>
-	<DruggedRib.label>Betäubendes Rippen-Implantat</DruggedRib.label>
-	<AdrenalineRib.label>Aufputschendes Rippen-Implantat</AdrenalineRib.label>
-	
+
+  <!-- Bionic spine 
+
+  <BionicSpine.label>Bionische Wirbelsäule</BionicSpine.label>
+  <BionicSpine.description>Eine installierte bionische Wirbelsäule.</BionicSpine.description>
+  <BionicSpine.labelNoun>Eine bionische Wirbelsäule</BionicSpine.labelNoun> -->
+
+
+  <!-- Bionic hand -->
+
+  <BionicHand.label>Bionische Hand</BionicHand.label>
+  <BionicHand.description>Eine installierte bionische Hand.</BionicHand.description>
+  <BionicHand.comps.0.tools.0.label>Faust</BionicHand.comps.0.tools.0.label>
+  <BionicHand.labelNoun>Eine bionische Hand</BionicHand.labelNoun>
+
+
+  <!-- Bionic FOot -->
+
+  <BionicFoot.label>Bionischer Fuß</BionicFoot.label>
+  <BionicFoot.description>Ein installierter bionischer Fuß.</BionicFoot.description>
+  <BionicFoot.labelNoun>Ein bionischer Fuß</BionicFoot.labelNoun>
+
+
+  <!-- Bionic finger -->
+
+  <BionicFinger.label>Bionischer Finger</BionicFinger.label>
+  <BionicFinger.description>Ein installierter bionischer Finger.</BionicFinger.description>
+  <BionicFinger.labelNoun>Ein bionischer Finger</BionicFinger.labelNoun>
+
+
+  <!-- Bionic toe -->
+
+  <BionicToe.label>Bionischer Zeh</BionicToe.label>
+  <BionicToe.description>Ein installierter bionischer Zeh.</BionicToe.description>
+  <BionicToe.labelNoun>Ein bionischer Zeh</BionicToe.labelNoun>
+
+
+  <!-- Bionic Jaw -->
+
+  <BionicJaw.label>Bionischer Kiefer</BionicJaw.label>
+  <BionicJaw.description>Ein installierter bionischer Kiefer.</BionicJaw.description>
+  <BionicJaw.labelNoun>Ein bionischer Kiefer</BionicJaw.labelNoun>
+
+
+  <!-- Silent jaw -->
+
+  <SilentJaw.label>Stummkiefer</SilentJaw.label>
+  <SilentJaw.description>Ein installierter Stummkiefer.</SilentJaw.description>
+  <SilentJaw.labelNoun>Ein Stummkiefer</SilentJaw.labelNoun>
+
+
+  <!-- Power arm -->
+
+  <PowerArm.label>Powerarm</PowerArm.label>
+  <PowerArm.description>Ein installierter Powerarm.</PowerArm.description>
+  <PowerArm.comps.0.tools.0.label>Kralle</PowerArm.comps.0.tools.0.label>
+  <PowerArm.labelNoun>Ein Powerarm</PowerArm.labelNoun>
+
+
 </LanguageData>

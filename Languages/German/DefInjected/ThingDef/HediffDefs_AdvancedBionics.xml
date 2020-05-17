@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced bionic eye -->
+
+  <AdvancedBionicEye.label>Fortschrittliches bionisches Auge</AdvancedBionicEye.label>
+  <AdvancedBionicEye.description>Diese fortschrittliche Technologie ermöglicht es dem Benutzer, sowohl im Dunkeln als auch durch Wände perfekt zu sehen und natürlich auch die die Kleidung anderer Kolonisten.</AdvancedBionicEye.description>
+
+
+  <!-- Advanced bionic arm -->
+
+  <AdvancedBionicArm.label>Fortschrittlicher Bionischer Arm</AdvancedBionicArm.label>
+  <AdvancedBionicArm.description>Erinnerst du dich, als du mit dem Öffnen von Gläsern zu kämpfen hattest? Jetzt hast du Probleme damit, sie nicht sofort zu zerstören.</AdvancedBionicArm.description>
+
+
+  <!-- Advanced Bionic Leg -->
+
+  <AdvancedBionicLeg.label>Fortschrittliches bionisches Bein</AdvancedBionicLeg.label>
+  <AdvancedBionicLeg.description>Muss schnell los!</AdvancedBionicLeg.description>
+
+
+  <!-- Advanced bionic spine -->
+
+  <AdvancedBionicSpine.label>Fortschrittliche bionische Wirbelsäule</AdvancedBionicSpine.label>
+  <AdvancedBionicSpine.description>Dieses langlebige Gerät stützt den Rücken und erleichtert das Arbeiten und Gehen erheblich.</AdvancedBionicSpine.description>
+
+
+  <!-- Advanced bionic ear -->
+
+  <AdvancedBionicEar.label>Fortschrittliches bionisches Ohr</AdvancedBionicEar.label>
+  <AdvancedBionicEar.description>Mit diesem Gerät kann der Benutzer besser hören als Fledermäuse.</AdvancedBionicEar.description>
+
+
+  <!-- Advanced bionic hand -->
+
+  <AdvancedBionicHand.label>Fortschrittliche bionische Hand</AdvancedBionicHand.label>
+  <AdvancedBionicHand.description>Einige Leute würden ihre eigenen Hände abhacken, nur um dieses wunderschöne Stück Technik zu bekommen.</AdvancedBionicHand.description>
+
+
+  <!-- Advanced bionic foot -->
+
+  <AdvancedBionicFoot.label>Fortschrittlicher bionischer Fuß</AdvancedBionicFoot.label>
+  <AdvancedBionicFoot.description>Dutzende Servomotoren sorgen für schnellere Bewegungen und ultimativen Komfort.</AdvancedBionicFoot.description>
+
+
+  <!-- Advanced bionic finger -->
+
+  <AdvancedBionicFinger.label>Fortschrittlicher bionischer Finger</AdvancedBionicFinger.label>
+  <AdvancedBionicFinger.description>Fortgeschrittener bionischer Finger. Empfindliche Glitzerwelt-Sensoren und drahtlose Hochgeschwindigkeitssender, die durch das dicke und dennoch leichte Plastahlgehäuse laufen, sorgen für beste Präzision und Griffigkeit und übertreffen die eines natürlichen oder bionischen Fingers bei weitem. Kraftvoll genug, um Steine ​​wie reife Tomaten zu zerdrücken.</AdvancedBionicFinger.description>
+
+
+  <!-- Advanced bionic toe -->
+
+  <AdvancedBionicToe.label>Fortschrittlicher bionischer Zeh</AdvancedBionicToe.label>
+  <AdvancedBionicToe.description>Fortgeschrittener bionischer Zeh. Empfindliche Glitzerwelt-Sensoren-Sensoren und drahtlose Hochgeschwindigkeitssender, die durch das dicke, aber leichte Plastahlgehäuse laufen, machen diese Zehen in Bezug auf Bewegung und Kontrolle konkurrenzlos und übertreffen die natürlichen oder bionischen Zehen bei weitem. Die Mechanitentraktionstechnologie von der Glitzerwelt sorgt für extreme Geschwindigkeiten auch in normalerweise ungünstigem Gelände wie Wasser.</AdvancedBionicToe.description>
+
+
+  <!-- Advanced bionic jaw -->
+
+  <AdvancedBionicJaw.label>Fortschrittlicher bionischer Kiefer</AdvancedBionicJaw.label>
+  <AdvancedBionicJaw.description>Die Stimme, die dieser Kiefer erzeugt, ist so schön, dass sogar Mechanoiden vorbeischauen, um zuzuhören.</AdvancedBionicJaw.description>
+
+
+  <!-- Advanced power arm -->
+
+  <AdvancedPowerArm.label>Fortschrittlicher Powerarm</AdvancedPowerArm.label>
+  <AdvancedPowerArm.description>Unvergleichlichere Kraft und Geschicklichkeit und mit scharfen, einziehbaren Krallen. Jetzt ist es das ultimative Arm-Upgrade!</AdvancedPowerArm.description>
+
+
+  <!-- Exoskeleton suit -->
+
+  <ExoskeletonSuit.label>Exoskelett</ExoskeletonSuit.label>
+  <ExoskeletonSuit.description>Ein High-Tech-Gerät aus zwei Komponenten: eine leichte Skelettstruktur zur Entlastung des Rückens und Servomotoren zur Stärkung des Benutzers.</ExoskeletonSuit.description>
+
+
+  <!-- Protective exoskeleton -->
+
+  <EPIA_ProtectiveExoskeleton.label>Schützendes Exoskelett</EPIA_ProtectiveExoskeleton.label>
+  <EPIA_ProtectiveExoskeleton.description>Ein High-Tech-Gerät aus einer leichten Skelettstruktur und Servomotoren, die sich selbst und das zum Schutz des Benutzers verwendete Schadensminderungssystem integriert hat.</EPIA_ProtectiveExoskeleton.description>
+
+
+</LanguageData>

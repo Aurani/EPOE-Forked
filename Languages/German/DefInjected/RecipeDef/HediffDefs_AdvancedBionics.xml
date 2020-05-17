@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced bionic eye -->
+
+  <CreateAdvancedBionicEye.label>Stelle Fortschrittliches bionisches Auge her</CreateAdvancedBionicEye.label>
+  <CreateAdvancedBionicEye.description>Verbessere ein Bionisches Auge zu einem Fortschrittlichen bionischen Auge.</CreateAdvancedBionicEye.description>
+  <CreateAdvancedBionicEye.jobString>Stellt Fortschrittliches bionisches Auge her.</CreateAdvancedBionicEye.jobString>
+
+  <InstallAdvancedBionicEye.label>Implantiere Fortschrittliches bionisches Auge</InstallAdvancedBionicEye.label>
+  <InstallAdvancedBionicEye.description>Implantiere ein fortschrittliches bionisches Auge.</InstallAdvancedBionicEye.description>
+  <InstallAdvancedBionicEye.jobString>Implantiert Fortschrittliches bionisches Auge.</InstallAdvancedBionicEye.jobString>
+
+
+  <!-- Advanced bionic arm -->
+
+  <CreateAdvancedBionicArm.label>Stelle Fortschrittlicher bionischer Arm her</CreateAdvancedBionicArm.label>
+  <CreateAdvancedBionicArm.description>Verbessere einen Bionischen Arm zu einem Fortschrittlichen bionischen Arm.</CreateAdvancedBionicArm.description>
+  <CreateAdvancedBionicArm.jobString>Stelle Fortschrittlicher bionischer Arm her.</CreateAdvancedBionicArm.jobString>
+
+  <InstallAdvancedBionicArm.label>Implantiere Fortschrittlicher bionischer Arm</InstallAdvancedBionicArm.label>
+  <InstallAdvancedBionicArm.description>Implantiere einen fortschrittlichen bionischen Arm.</InstallAdvancedBionicArm.description>
+  <InstallAdvancedBionicArm.jobString>Implantiert Fortschrittlicher bionischer Arm.</InstallAdvancedBionicArm.jobString>
+
+
+  <!-- Advanced Bionic Leg -->
+
+  <CreateAdvancedBionicLeg.label>Stelle Fortschrittliches bionisches Bein her</CreateAdvancedBionicLeg.label>
+  <CreateAdvancedBionicLeg.description>Verbessere ein Bionisches Bein zu einem Fortschrittlichen bionischen Bein.</CreateAdvancedBionicLeg.description>
+  <CreateAdvancedBionicLeg.jobString>Stellt Fortschrittliches bionisches Bein her.</CreateAdvancedBionicLeg.jobString>
+
+  <InstallAdvancedBionicLeg.label>Implantiere Fortschrittliches bionisches Bein</InstallAdvancedBionicLeg.label>
+  <InstallAdvancedBionicLeg.description>Implantiere ein fortschrittliches bionisches Bein.</InstallAdvancedBionicLeg.description>
+  <InstallAdvancedBionicLeg.jobString>Implantiert Fortschrittliches bionisches Bein.</InstallAdvancedBionicLeg.jobString>
+
+
+  <!-- Advanced bionic spine -->
+
+  <CreateAdvancedBionicSpine.label>Stelle Fortschrittliche bionische Wirbelsäule her</CreateAdvancedBionicSpine.label>
+  <CreateAdvancedBionicSpine.description>Verbessere eine Bionische Wirbelsäule zu einer Fortschrittlichen bionischen Wirbelsäule.</CreateAdvancedBionicSpine.description>
+  <CreateAdvancedBionicSpine.jobString>Stellt Fortschrittliche bionische Wirbelsäule her.</CreateAdvancedBionicSpine.jobString>
+
+  <InstallAdvancedBionicSpine.label>Implantiere Fortschrittliche bionische Wirbelsäule</InstallAdvancedBionicSpine.label>
+  <InstallAdvancedBionicSpine.description>Implantiere eine fortschrittliche bionische Wirbelsäule.</InstallAdvancedBionicSpine.description>
+  <InstallAdvancedBionicSpine.jobString>Implantiert Fortschrittliche bionische Wirbelsäule.</InstallAdvancedBionicSpine.jobString>
+
+
+  <!-- Advanced bionic ear -->
+
+  <CreateAdvancedBionicEar.label>Stelle Fortschrittliches bionisches Ohr her</CreateAdvancedBionicEar.label>
+  <CreateAdvancedBionicEar.description>Verbessere ein Bionisches Ohr zu einem Fortschrittlichen bionischen Ohr.</CreateAdvancedBionicEar.description>
+  <CreateAdvancedBionicEar.jobString>Stellt Fortschrittliches bionisches Ohr her.</CreateAdvancedBionicEar.jobString>
+
+  <InstallAdvancedBionicEar.label>Implantiere Fortschrittliches bionisches Ohr</InstallAdvancedBionicEar.label>
+  <InstallAdvancedBionicEar.description>Implantiere ein fortschrittliches bionisches Ohr.</InstallAdvancedBionicEar.description>
+  <InstallAdvancedBionicEar.jobString>Implantiert Fortschrittliches bionisches Ohr.</InstallAdvancedBionicEar.jobString>
+
+
+  <!-- Advanced bionic hand -->
+
+  <CreateAdvancedBionicHand.label>Stelle Fortschrittliche bionische Hand her</CreateAdvancedBionicHand.label>
+  <CreateAdvancedBionicHand.description>Verbessere eine Bionische Hand zu einer Fortschrittlichen bionischen Hand.</CreateAdvancedBionicHand.description>
+  <CreateAdvancedBionicHand.jobString>Stellt Fortschrittliche bionische Hand her.</CreateAdvancedBionicHand.jobString>
+
+  <InstallAdvancedBionicHand.label>Implantiere Fortschrittliche bionische Hand</InstallAdvancedBionicHand.label>
+  <InstallAdvancedBionicHand.description>Implantiere eine fortschrittliche bionische Hand.</InstallAdvancedBionicHand.description>
+  <InstallAdvancedBionicHand.jobString>Implantiert Fortschrittliche bionische Hand.</InstallAdvancedBionicHand.jobString>
+
+
+  <!-- Advanced bionic foot -->
+
+  <CreateAdvancedBionicFoot.label>Stelle Fortschrittlicher bionischer Fuß her</CreateAdvancedBionicFoot.label>
+  <CreateAdvancedBionicFoot.description>Verbessere einen Bionischen Fuß zu einem Fortschrittlichen bionischen Fuß.</CreateAdvancedBionicFoot.description>
+  <CreateAdvancedBionicFoot.jobString>Stellt Fortschrittlicher bionischer Fuß her.</CreateAdvancedBionicFoot.jobString>
+
+  <InstallAdvancedBionicFoot.label>Implantiere Fortschrittlicher bionischer Fuß</InstallAdvancedBionicFoot.label>
+  <InstallAdvancedBionicFoot.description>Implantiere einen fortschrittlichen bionischen Fuß.</InstallAdvancedBionicFoot.description>
+  <InstallAdvancedBionicFoot.jobString>Implantiert Fortschrittlicher bionischer Fuß.</InstallAdvancedBionicFoot.jobString>
+
+
+  <!-- Advanced bionic finger -->
+
+  <EPIA_UpgradeAdvancedBionicFinger.label>Stelle Fortschrittlicher bionischer Finger her</EPIA_UpgradeAdvancedBionicFinger.label>
+  <EPIA_UpgradeAdvancedBionicFinger.description>Verbessere einen Bionischen Finger zu einem Fortschrittlichen bionischen Finger.</EPIA_UpgradeAdvancedBionicFinger.description>
+  <EPIA_UpgradeAdvancedBionicFinger.jobString>Stellt Fortschrittlicher bionischer Finger her.</EPIA_UpgradeAdvancedBionicFinger.jobString>
+
+  <InstallAdvancedBionicFinger.label>Implantiere Fortschrittlicher bionischer Finger</InstallAdvancedBionicFinger.label>
+  <InstallAdvancedBionicFinger.description>Implantiere einen fortschrittlichen bionischen Finger.</InstallAdvancedBionicFinger.description>
+  <InstallAdvancedBionicFinger.jobString>Implantiert Fortschrittlicher bionischer Finger.</InstallAdvancedBionicFinger.jobString>
+
+
+  <!-- Advanced bionic toe -->
+
+  <EPIA_UpgradeAdvancedBionicToe.label>Stelle Fortschrittlicher bionischer Zeh her</EPIA_UpgradeAdvancedBionicToe.label>
+  <EPIA_UpgradeAdvancedBionicToe.description>Verbessere einen Bionischen Zeh zu einem Fortschrittlichen bionischen Zeh.</EPIA_UpgradeAdvancedBionicToe.description>
+  <EPIA_UpgradeAdvancedBionicToe.jobString>Stellt Fortschrittlicher bionischer Zeh her.</EPIA_UpgradeAdvancedBionicToe.jobString>
+
+  <InstallAdvancedBionicToe.label>Implantiere Fortschrittlicher bionischer Zeh</InstallAdvancedBionicToe.label>
+  <InstallAdvancedBionicToe.description>Implantiere einen fortschrittlichen bionischen Zeh.</InstallAdvancedBionicToe.description>
+  <InstallAdvancedBionicToe.jobString>Implantiert Fortschrittlicher bionischer Zeh.</InstallAdvancedBionicToe.jobString>
+
+
+  <!-- Advanced bionic jaw -->
+
+  <CreateAdvancedBionicJaw.label>Stelle Fortschrittlicher bionischer Kiefer her</CreateAdvancedBionicJaw.label>
+  <CreateAdvancedBionicJaw.description>Verbessere einen Bionischen Kiefer zu einem Fortschrittlichen bionischen Kiefer.</CreateAdvancedBionicJaw.description>
+  <CreateAdvancedBionicJaw.jobString>Stellt Fortschrittlicher bionischer Kiefer her.</CreateAdvancedBionicJaw.jobString>
+
+  <InstallAdvancedBionicJaw.label>Implantiere Fortschrittlicher bionischer Kiefer</InstallAdvancedBionicJaw.label>
+  <InstallAdvancedBionicJaw.description>Implantiere einen fortschrittlichen bionischen Kiefer.</InstallAdvancedBionicJaw.description>
+  <InstallAdvancedBionicJaw.jobString>Implantiert Fortschrittlicher bionischer Kiefer.</InstallAdvancedBionicJaw.jobString>
+
+
+  <!-- Advanced power arm -->
+
+  <CreateAdvancedPowerArm.label>Stelle Fortschrittlicher Powerarm her</CreateAdvancedPowerArm.label>
+  <CreateAdvancedPowerArm.description>Verbessere einen Powerarm zu einem Fortschrittlichen Powerarm.</CreateAdvancedPowerArm.description>
+  <CreateAdvancedPowerArm.jobString>Stellt Fortschrittlicher Powerarm her.</CreateAdvancedPowerArm.jobString>
+
+  <InstallAdvancedPowerArm.label>Implantiere Fortschrittlicher Powerarm</InstallAdvancedPowerArm.label>
+  <InstallAdvancedPowerArm.description>Implantiere einen fortschrittlichen Powerarm.</InstallAdvancedPowerArm.description>
+  <InstallAdvancedPowerArm.jobString>Implantiert Fortschrittlicher Powerarm.</InstallAdvancedPowerArm.jobString>
+
+
+  <!-- Exoskeleton suit -->
+
+  <InstallExoskeletonSuit.label>Implantiere Exoskelett</InstallExoskeletonSuit.label>
+  <InstallExoskeletonSuit.description>Implantiere ein Exoskelett.</InstallExoskeletonSuit.description>
+  <InstallExoskeletonSuit.jobString>Implantiert Exoskelett.</InstallExoskeletonSuit.jobString>
+
+  <RemoveExoskeletonSuit.label>Entferne Exoskelett</RemoveExoskeletonSuit.label>
+  <RemoveExoskeletonSuit.description>Entferne ein Exoskelett.</RemoveExoskeletonSuit.description>
+  <RemoveExoskeletonSuit.jobString>Entfernt Exoskelett.</RemoveExoskeletonSuit.jobString>
+
+
+  <!-- Protective exoskeleton -->
+
+  <EPIA_InstallProtectiveExoskeleton.label>Implantiere Schützendes Exoskelett</EPIA_InstallProtectiveExoskeleton.label>
+  <EPIA_InstallProtectiveExoskeleton.description>Implantiere ein schützendes Exoskelett.</EPIA_InstallProtectiveExoskeleton.description>
+  <EPIA_InstallProtectiveExoskeleton.jobString>Implantiert Schützendes Exoskelett.</EPIA_InstallProtectiveExoskeleton.jobString>
+
+  <EPIA_RemoveProtectiveExoskeleton.label>Entferne Schützendes Exoskelett</EPIA_RemoveProtectiveExoskeleton.label>
+  <EPIA_RemoveProtectiveExoskeleton.description>Entferne ein schützendes Exoskelett.</EPIA_RemoveProtectiveExoskeleton.description>
+  <EPIA_RemoveProtectiveExoskeleton.jobString>Entfernt Schützendes Exoskelett.</EPIA_RemoveProtectiveExoskeleton.jobString>
+
+
+</LanguageData>

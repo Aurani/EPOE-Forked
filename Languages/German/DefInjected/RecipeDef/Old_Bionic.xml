@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Invisible debug recipes for swapping versions to look seamless -->
+
+  <CreatePowerClaw.label>make power claw</CreatePowerClaw.label>
+  <CreatePowerClaw.description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</CreatePowerClaw.description>
+  <CreatePowerClaw.jobString>Upgrading bionic.</CreatePowerClaw.jobString>
+
+
+</LanguageData>

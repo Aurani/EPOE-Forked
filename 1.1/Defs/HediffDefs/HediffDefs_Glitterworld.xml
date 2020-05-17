@@ -5,6 +5,7 @@
 		<hediffClass>Hediff_Implant</hediffClass>
 		<defaultLabelColor>(244,210,131)</defaultLabelColor>
 		<isBad>false</isBad>
+		<priceImpact>true</priceImpact>
 	</HediffDef>
 
 	<ThingDef Name="EPIAGlitterworldImplantBase" ParentName="BodyPartAdvancedBionicBase" Abstract="True">

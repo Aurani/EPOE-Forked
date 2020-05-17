@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tactical cornea implant -->
+
+  <TacticalCorneaImplant.label>Taktisches Hornhautimplantat</TacticalCorneaImplant.label>
+  <TacticalCorneaImplant.description>Ein verbessertes Implantat, das dem Benutzer zusätzliche Informationen über potenzielle Ziele liefert und einen perfekten Schusswinkel vorschlägt.</TacticalCorneaImplant.description>
+
+
+  <!-- Auxiliary AI (construction) -->
+
+  <ConstructorCore.label>Hilfs-KI: Konstruktion</ConstructorCore.label>
+  <ConstructorCore.description>In den Glitzerwelten sind Bildung und Ausbildung nicht mehr erforderlich, auch nicht für komplexe Aufgaben. Im Gehirn installierte KIs kommunizieren permanent mit dem Benutzer und dienen als Leitfaden. Erfordert vor der Installation die Erforschung der Gehirnchirurgie.</ConstructorCore.description>
+
+
+  <!-- Auxiliary AI (agricultural) -->
+
+  <FarmerCore.label>Hilfs-KI: Pflanzen</FarmerCore.label>
+  <FarmerCore.description>In den Glitzerwelten sind Bildung und Ausbildung nicht mehr erforderlich, auch nicht für komplexe Aufgaben. Im Gehirn installierte KIs kommunizieren permanent mit dem Benutzer und dienen als Leitfaden. Erfordert vor der Installation die Erforschung der Gehirnchirurgie.</FarmerCore.description>
+
+
+  <!-- Auxiliary AI (mining) -->
+
+  <MinerCore.label>Hilfs-KI: Bergbau</MinerCore.label>
+  <MinerCore.description>In den Glitzerwelten sind Bildung und Ausbildung nicht mehr erforderlich, auch nicht für komplexe Aufgaben. Im Gehirn installierte KIs kommunizieren permanent mit dem Benutzer und dienen als Leitfaden. Erfordert vor der Installation die Erforschung der Gehirnchirurgie.</MinerCore.description>
+
+
+  <!-- Auxiliary AI (medical) -->
+
+  <DoctorCore.label>Hilfs-KI: Medizin</DoctorCore.label>
+  <DoctorCore.description>In den Glitzerwelten sind Bildung und Ausbildung nicht mehr erforderlich, auch nicht für komplexe Aufgaben. Im Gehirn installierte KIs kommunizieren permanent mit dem Benutzer und dienen als Leitfaden. Erfordert vor der Installation die Erforschung der Gehirnchirurgie.</DoctorCore.description>
+
+
+  <!-- Auxiliary AI (diplomatic) -->
+
+  <DiplomatCore.label>Hilfs-KI: Sozial</DiplomatCore.label>
+  <DiplomatCore.description>In den Glitzerwelten sind Bildung und Ausbildung nicht mehr erforderlich, auch nicht für komplexe Aufgaben. Im Gehirn installierte KIs kommunizieren permanent mit dem Benutzer und dienen als Leitfaden. Erfordert vor der Installation die Erforschung der Gehirnchirurgie.</DiplomatCore.description>
+
+
+  <!-- Auxiliary AI (sharpshooter) -->
+
+  <EPIA_AuxiliaryAI_Sharpshooter.label>Hilfs-KI: (Fernkampf)</EPIA_AuxiliaryAI_Sharpshooter.label>
+  <EPIA_AuxiliaryAI_Sharpshooter.description>Ein spezielles KI-Assistenzsystem für den Kampf, das die Genauigkeit des Benutzers erheblich erhöht und Langstreckenwaffen bevorzugt. Aufgrund der ausgefeilten Natur des Systems, das die meisten zerebralen Prozesse fokussiert und rationalisiert, kann es nicht mit anderen Hilfs-KIs verwendet werden.</EPIA_AuxiliaryAI_Sharpshooter.description>
+
+
+  <!-- Auxiliary AI (commando) -->
+
+  <EPIA_AuxiliaryAI_Commando.label>Hilfs-KI: (Kommando)</EPIA_AuxiliaryAI_Commando.label>
+  <EPIA_AuxiliaryAI_Commando.description>Ein spezielles KI-Assistenzsystem für den Kampf, das den Benutzer bei der Bewältigung des Kampfdrucks unterstützt. Aufgrund der ausgefeilten Natur des Systems, das die meisten zerebralen Prozesse fokussiert und rationalisiert, kann es nicht mit anderen Hilfs-KIs verwendet werden.</EPIA_AuxiliaryAI_Commando.description>
+
+
+  <!-- Auxiliary AI (brawler) -->
+
+  <EPIA_AuxiliaryAI_Brawler.label>Hilfs-KI: (Nahkampf)</EPIA_AuxiliaryAI_Brawler.label>
+  <EPIA_AuxiliaryAI_Brawler.description>Ein spezielles KI-System, das für Kampfzwecke entwickelt wurde und dem Benutzer hilft, irrelevante elektrische und chemische Signale zu filtern, die in Situationen mit hoher Bedrohung an das Gehirn gesendet werden, wodurch die allgemeinen Kampffähigkeiten erhöht werden. Aufgrund der ausgefeilten Natur des Systems, das die meisten zerebralen Prozesse fokussiert und rationalisiert, kann es nicht mit anderen Hilfs-KIs verwendet werden.</EPIA_AuxiliaryAI_Brawler.description>
+
+
+</LanguageData>

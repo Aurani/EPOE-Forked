@@ -1,17 +1,97 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-		
-	<AdvancedBionicHand.label>Verbesserte bionische Hand</AdvancedBionicHand.label>
-	<AdvancedBionicFoot.label>Verbesserter bionischer Fuß</AdvancedBionicFoot.label>
-	<AdvancedBionicSpine.label>Verbesserte bionische Wirbelsäule</AdvancedBionicSpine.label>
-	<AdvancedBionicJaw.label>Verbesserter bionischer Kiefer</AdvancedBionicJaw.label>
-	<AdvancedBionicEar.label>Verbessertes bionisches Ohr</AdvancedBionicEar.label>
-	<AdvancedPowerArm.label>Verbesserter Powerarm</AdvancedPowerArm.label>
-	<AdvancedBionicLeg.label>Verbessertes bionisches Bein</AdvancedBionicLeg.label>
-	
-	<AdvancedBionicArm.label>Verbesserter bionischer Arm</AdvancedBionicArm.label>
-	<AdvancedBionicArm.description>Installierter erweiterter bionischer Arm</AdvancedBionicArm.description>
 
-	<AdvancedBionicEye.label>Verbessertes bionisches Auge</AdvancedBionicEye.label>
-	
+  <!-- Advanced bionic eye -->
+
+  <AdvancedBionicEye.label>Fortschrittliches bionisches Auge</AdvancedBionicEye.label>
+  <AdvancedBionicEye.description>Ein installiertes fortschrittliches bionisches Auge.</AdvancedBionicEye.description>
+  <AdvancedBionicEye.labelNoun>Ein fortschrittliches bionisches Auge</AdvancedBionicEye.labelNoun>
+
+
+  <!-- Advanced bionic arm -->
+
+  <AdvancedBionicArm.label>Fortschrittlicher bionischer Arm</AdvancedBionicArm.label>
+  <AdvancedBionicArm.description>Ein installierter fortschrittlicher bionischer Arm.</AdvancedBionicArm.description>
+  <AdvancedBionicArm.comps.0.tools.0.label>Faust</AdvancedBionicArm.comps.0.tools.0.label>
+  <AdvancedBionicArm.labelNoun>Ein fortschrittlicher bionischer Arm</AdvancedBionicArm.labelNoun>
+
+
+  <!-- Advanced Bionic Leg -->
+
+  <AdvancedBionicLeg.label>Fortschrittliches bionisches Bein</AdvancedBionicLeg.label>
+  <AdvancedBionicLeg.description>Ein installiertes fortschrittliches bioisches Bein.</AdvancedBionicLeg.description>
+  <AdvancedBionicLeg.labelNoun>Ein fortschrittliches Bein</AdvancedBionicLeg.labelNoun>
+
+
+  <!-- Advanced bionic spine -->
+
+  <AdvancedBionicSpine.label>Fortschrittliche bionische Wirbelsäule</AdvancedBionicSpine.label>
+  <AdvancedBionicSpine.description>Eine installierte fortschrittliche bionische Wirbelsäule.</AdvancedBionicSpine.description>
+  <AdvancedBionicSpine.labelNoun>Eine fortschrittliche bionische Wirbelsäule</AdvancedBionicSpine.labelNoun>
+
+
+  <!-- Advanced bionic ear -->
+
+  <AdvancedBionicEar.label>Fortschrittliches bionisches Ohr</AdvancedBionicEar.label>
+  <AdvancedBionicEar.description>Ein installiertes fortschrittliches bionisches Ohr.</AdvancedBionicEar.description>
+  <AdvancedBionicEar.labelNoun>Ein fortschrittliches bionisches Ohr</AdvancedBionicEar.labelNoun>
+
+
+  <!-- Advanced bionic hand -->
+
+  <AdvancedBionicHand.label>Fortschrittliche bionische Hand</AdvancedBionicHand.label>
+  <AdvancedBionicHand.description>Eine installierte fortschrittliche bionische Hand.</AdvancedBionicHand.description>
+  <AdvancedBionicHand.comps.0.tools.0.label>Faust</AdvancedBionicHand.comps.0.tools.0.label>
+  <AdvancedBionicHand.labelNoun>Eine fortschrittliche bionische Hand</AdvancedBionicHand.labelNoun>
+
+
+  <!-- Advanced bionic foot -->
+
+  <AdvancedBionicFoot.label>Fortschrittlicher bionischer Fuß</AdvancedBionicFoot.label>
+  <AdvancedBionicFoot.description>Ein installierter fortschrittlicher bionischer Fuß.</AdvancedBionicFoot.description>
+  <AdvancedBionicFoot.labelNoun>Ein fortschrittlicher bionischer Fuß</AdvancedBionicFoot.labelNoun>
+
+
+  <!-- Advanced bionic finger -->
+
+  <AdvancedBionicFinger.label>Fortschrittlicher bionischer Finger</AdvancedBionicFinger.label>
+  <AdvancedBionicFinger.description>Ein installierter fortschrittlicher bionischer Finger.</AdvancedBionicFinger.description>
+  <AdvancedBionicFinger.labelNoun>Ein fortschrittlicher bionischer Finger</AdvancedBionicFinger.labelNoun>
+
+
+  <!-- Advanced bionic toe -->
+
+  <AdvancedBionicToe.label>Fortschrittlicher bionischer Zeh</AdvancedBionicToe.label>
+  <AdvancedBionicToe.description>Ein installierter fortschrittlicher bionischer Zeh.</AdvancedBionicToe.description>
+  <AdvancedBionicToe.labelNoun>Ein fortschrittlicher bionischer Zeh</AdvancedBionicToe.labelNoun>
+
+
+  <!-- Advanced bionic jaw -->
+
+  <AdvancedBionicJaw.label>Fortschrittlicher bionischer Kiefer</AdvancedBionicJaw.label>
+  <AdvancedBionicJaw.description>Ein installierter fortschrittlicher bionischer Kiefer.</AdvancedBionicJaw.description>
+  <AdvancedBionicJaw.labelNoun>Ein Fortschrittlicher Kiefer.</AdvancedBionicJaw.labelNoun>
+
+
+  <!-- Advanced power arm -->
+
+  <AdvancedPowerArm.label>Fortschrittlicher Powerarm</AdvancedPowerArm.label>
+  <AdvancedPowerArm.description>Ein installierter fortschrittlicher Powerarm.</AdvancedPowerArm.description>
+  <AdvancedPowerArm.comps.0.tools.0.label>Kralle</AdvancedPowerArm.comps.0.tools.0.label>
+  <AdvancedPowerArm.labelNoun>Ein fortschrittlicher Powerarm</AdvancedPowerArm.labelNoun>
+
+
+  <!-- Exoskeleton suit -->
+
+  <ExoskeletonSuit.label>Exoskelett</ExoskeletonSuit.label>
+  <ExoskeletonSuit.description>Ein installiertes Exoskelett.</ExoskeletonSuit.description>
+  <ExoskeletonSuit.labelNoun>Ein Exoskelett</ExoskeletonSuit.labelNoun>
+
+
+  <!-- Protective exoskeleton -->
+
+  <EPIA_ProtectiveExoskeleton.label>Schützendes Exoskelett</EPIA_ProtectiveExoskeleton.label>
+  <EPIA_ProtectiveExoskeleton.description>Ein installiertes schützendes Exoskelett.</EPIA_ProtectiveExoskeleton.description>
+
+
 </LanguageData>

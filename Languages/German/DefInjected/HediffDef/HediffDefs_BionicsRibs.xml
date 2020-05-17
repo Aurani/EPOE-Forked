@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Medical rib -->
+
+  <MedicalRib.label>Rippenimplantat (Medizinisch)</MedicalRib.label>
+  <MedicalRib.description>Ein installiertes Rippenimplantat (Medizinisch).</MedicalRib.description>
+  <MedicalRib.labelNoun>Ein Rippenimplantat (Medizinisch)</MedicalRib.labelNoun>
+
+
+  <!-- Drugged rib -->
+
+  <DruggedRib.label>Rippenimplantat (Rauschmittel)</DruggedRib.label>
+  <DruggedRib.description>Ein installiertes Rippenimplantat (Rauschmittel).</DruggedRib.description>
+  <DruggedRib.labelNoun>Ein Rippenimplantat (Rauschmittel)</DruggedRib.labelNoun>
+
+
+  <!-- Adrenaline rib -->
+
+  <AdrenalineRib.label>Rippenimplantat (Adrenalin)</AdrenalineRib.label>
+  <AdrenalineRib.description>Ein installiertes Rippenimplantat (Adrenalin).</AdrenalineRib.description>
+  <AdrenalineRib.labelNoun>Ein Rippenimplantat (Adrenalin)</AdrenalineRib.labelNoun>
+
+
+  <!-- Painkiller rib -->
+
+  <PainkillerRib.label>Rippenimplantat (Schmerzlinderung)</PainkillerRib.label>
+  <PainkillerRib.description>Ein installiertes Rippenimplantat (Schmerzlinderung).</PainkillerRib.description>
+  <PainkillerRib.labelNoun>Ein Rippenimplantat (Schmerzlinderung)</PainkillerRib.labelNoun>
+
+
+  <!-- Heater rib -->
+
+  <HeaterRib.label>Rippenimplantat (Erwärmung)</HeaterRib.label>
+  <HeaterRib.description>Ein installiertes Rippenimplantat (Erwärmung).</HeaterRib.description>
+
+
+  <!-- Cooler rib -->
+
+  <CoolerRib.label>Rippenimplantat (Kühlung)</CoolerRib.label>
+  <CoolerRib.description>Ein installiertes Rippenimplantat (Kühlung).</CoolerRib.description>
+  <CoolerRib.labelNoun>Ein Rippenimplantat (Kühlung)</CoolerRib.labelNoun>
+
+
+  <!-- Coagulator rib -->
+
+  <CoagulatorRib.label>Rippenimplantat (Koagulator)</CoagulatorRib.label>
+  <CoagulatorRib.description>Ein installiertes Rippenimplantat (Koagulator).</CoagulatorRib.description>
+  <CoagulatorRib.labelNoun>Ein Rippenimplantat (Koagulator)</CoagulatorRib.labelNoun>
+
+
+</LanguageData>

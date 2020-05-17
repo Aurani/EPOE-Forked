@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Eye -->
+
+  <InstallNaturalEye.label>Implantiere Auge</InstallNaturalEye.label>
+  <InstallNaturalEye.description>Implantiere ein Auge.</InstallNaturalEye.description>
+  <InstallNaturalEye.jobString>Implantiert Auge.</InstallNaturalEye.jobString>
+
+
+  <!-- Nose -->
+
+  <InstallNaturalNose.label>Implantiere Nase</InstallNaturalNose.label>
+  <InstallNaturalNose.description>Implantiere eine Nase.</InstallNaturalNose.description>
+  <InstallNaturalNose.jobString>Implantiert Nase.</InstallNaturalNose.jobString>
+
+
+  <!-- Ear -->
+
+  <InstallNaturalEar.label>Implantiere Ohr</InstallNaturalEar.label>
+  <InstallNaturalEar.description>Implantiere ein Ohr.</InstallNaturalEar.description>
+  <InstallNaturalEar.jobString>Implantiert Ohr.</InstallNaturalEar.jobString>
+
+
+  <!-- Jaw -->
+
+  <InstallNaturalJaw.label>Implantiere Kiefer</InstallNaturalJaw.label>
+  <InstallNaturalJaw.description>Implantiere einen Kiefer.</InstallNaturalJaw.description>
+  <InstallNaturalJaw.jobString>Implantiert Kiefer.</InstallNaturalJaw.jobString>
+
+
+  <!-- Stomach -->
+
+  <InstallNaturalStomach.label>Implantiere Magen</InstallNaturalStomach.label>
+  <InstallNaturalStomach.description>Implantiere einen Magen.</InstallNaturalStomach.description>
+  <InstallNaturalStomach.jobString>Implantiert Magen.</InstallNaturalStomach.jobString>
+
+
+  <!-- Arm -->
+
+  <InstallNaturalArm.label>Implantiere Arm</InstallNaturalArm.label>
+  <InstallNaturalArm.description>Implantiere einen Arm.</InstallNaturalArm.description>
+  <InstallNaturalArm.jobString>Implantiert Arm.</InstallNaturalArm.jobString>
+
+
+  <!-- Leg -->
+
+  <InstallNaturalLeg.label>Implantiere Bein</InstallNaturalLeg.label>
+  <InstallNaturalLeg.description>Implantiere ein Bein.</InstallNaturalLeg.description>
+  <InstallNaturalLeg.jobString>Implantiert Bein.</InstallNaturalLeg.jobString>
+
+
+</LanguageData>

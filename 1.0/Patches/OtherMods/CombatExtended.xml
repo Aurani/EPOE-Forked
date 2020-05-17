@@ -8,6 +8,10 @@
 	<match Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedEyes"]/stages/li[minSeverity="0.99"]/statOffsets/MeleeCritChance</xpath>
+				<success>Invert</success>
+			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/HediffDef[defName="EPOE_ScytherBlade"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
 				<value>
@@ -15,7 +19,7 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>blade</label>
 							<capacities>
-								<li>Slash</li>
+								<li>Cut</li>
 							</capacities>
 							<power>16</power>
 							<armorPenetrationBlunt>4</armorPenetrationBlunt>
@@ -26,12 +30,90 @@
 					</tools>
 				</value>
 			</li>
-			<!--li Class="PatchOperationReplace">
-				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedEyes"]/stages/li[label="Optimizing"]/statOffsets/ShootingAccuracyPawn</xpath>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="HookHand"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
 				<value>
-					<ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>hook hand</label>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>
+							<power>5</power>
+							<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.01</armorPenetrationSharp>
+							<cooldownTime>1.26</cooldownTime>
+						</li>
+					</tools>
 				</value>
-			</li-->
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="BionicHand"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>fist</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>5</power>
+							<cooldownTime>1.11</cooldownTime>
+							<armorPenetrationBlunt>1.688</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="AdvancedBionicArm" or defName="AdvancedBionicHand"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>fist</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>6</power>
+							<cooldownTime>1.11</cooldownTime>
+							<armorPenetrationBlunt>1.988</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="PowerArm"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>claw</label>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>
+							<power>21</power>
+							<cooldownTime>0.89</cooldownTime>
+							<armorPenetrationSharp>0.8</armorPenetrationSharp>
+							<armorPenetrationBlunt>4</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="AdvancedPowerArm"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>claw</label>
+							<capacities>
+								<li>Scratch</li>
+							</capacities>
+							<power>24</power>
+							<cooldownTime>0.89</cooldownTime>
+							<armorPenetrationSharp>0.96</armorPenetrationSharp>
+							<armorPenetrationBlunt>4.75</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/HediffDef[defName="TacticalCorneaImplant"]/stages/li/statOffsets/MeleeDodgeChance</xpath>
 				<value>
@@ -51,6 +133,20 @@
 					<MeleeParryChance>0.075</MeleeParryChance>
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedHand"]/stages/li[label="Optimizing"]/statOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.15</MeleeCritChance>
+					<MeleeParryChance>0.15</MeleeParryChance>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedHand"]/stages/li[minSeverity="0.99"]/statOffsets</xpath>
+				<value>
+					<MeleeCritChance>0.25</MeleeCritChance>
+					<MeleeParryChance>0.25</MeleeParryChance>
+				</value>
+			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedFoot"]/stages/li[label="Optimizing"]/statOffsets/MeleeDodgeChance</xpath>
 				<value>
@@ -62,6 +158,25 @@
 				<value>
 					<MeleeDodgeChance>0.15</MeleeDodgeChance>
 				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="SimpleProstheticHand"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>fist</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>1</power>
+							<cooldownTime>1.26</cooldownTime>
+							<armorPenetrationBlunt>0.250</armorPenetrationBlunt>
+						</li>
+					</tools>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/HediffDef[defName="SteelArm"]/comps/li[@Class="HediffCompProperties_VerbGiver"]</xpath>
 			</li>
 		</operations>
 	</match>

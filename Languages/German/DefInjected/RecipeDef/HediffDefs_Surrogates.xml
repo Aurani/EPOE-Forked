@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Redundant original Surrogate Heart, if ever upgrading from 1.0 to 1.1 midsave -->
+
+  <InstallSurrogateHeart.label>Implantiere Herzersatz</InstallSurrogateHeart.label>
+  <InstallSurrogateHeart.description>Implantiere einen Herzersatz.</InstallSurrogateHeart.description>
+  <InstallSurrogateHeart.jobString>Implantiert Herzersatz.</InstallSurrogateHeart.jobString>
+
+
+  <!-- Surrogate heart 
+
+  <InstallSimpleProstheticHeart.label>Implantiere Herzersatz</InstallSimpleProstheticHeart.label>
+  <InstallSimpleProstheticHeart.description>Implantiere einen Herzersatz.</InstallSimpleProstheticHeart.description>
+  <InstallSimpleProstheticHeart.jobString>Implantiert Herzersatz.</InstallSimpleProstheticHeart.jobString> -->
+
+
+  <!-- Surrogate lung -->
+
+  <InstallSurrogateLung.label>Implantiere Lungenersatz</InstallSurrogateLung.label>
+  <InstallSurrogateLung.description>Implantiere einen Lungenersatz.</InstallSurrogateLung.description>
+  <InstallSurrogateLung.jobString>Implantiert Lungenersatz.</InstallSurrogateLung.jobString>
+
+
+  <!-- Surrogate stomach -->
+
+  <InstallSurrogateStomach.label>Implantiere Magenersatz</InstallSurrogateStomach.label>
+  <InstallSurrogateStomach.description>Implantiere einen Magenersatz.</InstallSurrogateStomach.description>
+  <InstallSurrogateStomach.jobString>Implantiert Magenersatz.</InstallSurrogateStomach.jobString>
+
+
+  <!-- Surrogate liver -->
+
+  <InstallSurrogateLiver.label>Implantiere Leberersatz</InstallSurrogateLiver.label>
+  <InstallSurrogateLiver.description>Implantiere einen Leberersatz.</InstallSurrogateLiver.description>
+  <InstallSurrogateLiver.jobString>Implantiert Leberersatz.</InstallSurrogateLiver.jobString>
+
+
+  <!-- Surrogate kidney -->
+
+  <InstallSurrogateKidney.label>Implantiere Nierenersatz</InstallSurrogateKidney.label>
+  <InstallSurrogateKidney.description>Implantiere einen Nierenersatz.</InstallSurrogateKidney.description>
+  <InstallSurrogateKidney.jobString>Implantiert Nierenersatz.</InstallSurrogateKidney.jobString>
+
+
+  <!-- Brain stimulator -->
+
+  <InstallBrainStimulator.label>Implantiere Gehirnstimulator</InstallBrainStimulator.label>
+  <InstallBrainStimulator.description>Implantiere einen Gehirnstimulator.</InstallBrainStimulator.description>
+  <InstallBrainStimulator.jobString>Implantiert Gehirnstimulator.</InstallBrainStimulator.jobString>
+
+  <RemoveBrainStimulator.label>Entferne Gehirnstimulator</RemoveBrainStimulator.label>
+  <RemoveBrainStimulator.description>Entferne einen Gehirnstimulator.</RemoveBrainStimulator.description>
+  <RemoveBrainStimulator.jobString>Entfernt Gehirnstimulator.</RemoveBrainStimulator.jobString>
+  <RemoveBrainStimulator.successfullyRemovedHediffMessage>{0} hat erfolgreich den Gehirnstimulator von {1} entfernt.</RemoveBrainStimulator.successfullyRemovedHediffMessage>
+
+
+</LanguageData>

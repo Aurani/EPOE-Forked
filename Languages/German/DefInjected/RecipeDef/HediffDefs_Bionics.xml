@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bionic eye -->
+
+  <CreateBionicEye.label>Stelle Bionisches Auge her</CreateBionicEye.label>
+  <CreateBionicEye.description>Verbessere einen Lichtrezeptor zu einem bionischen Auge.</CreateBionicEye.description>
+  <CreateBionicEye.jobString>Stellt Bionisches Auge her.</CreateBionicEye.jobString>
+  
+  <!--
+  <InstallBionicEye.label>Implantiere Bionisches Auge</InstallBionicEye.label>
+  <InstallBionicEye.description>Implantiere ein bionisches Auge.</InstallBionicEye.description>
+  <InstallBionicEye.jobString>Implantiert Bionisches Auge.</InstallBionicEye.jobString> -->
+
+  <!-- Bionic leg -->
+
+  <CreateBionicLeg.label>Stelle Bionisches Bein her</CreateBionicLeg.label>
+  <CreateBionicLeg.description>Verbessere eine Beinprothese zu einem bionischen Bein.</CreateBionicLeg.description>
+  <CreateBionicLeg.jobString>Stellt Bionisches Bein her.</CreateBionicLeg.jobString>
+  
+  <!-- Bionic arm -->
+
+  <CreateBionicArm.label>Stelle Bionischer Arm her</CreateBionicArm.label>
+  <CreateBionicArm.description>Verbessere eine Armprothese zu einem bionischen Arm.</CreateBionicArm.description>
+  <CreateBionicArm.jobString>Stellt Bionischer Arm her.</CreateBionicArm.jobString>
+
+  <!-- Bionic spine -->
+
+  <CreateBionicSpine.label>Stelle Bionische Wirbelsäule her</CreateBionicSpine.label>
+  <CreateBionicSpine.description>Verbessere eine Ersatzwirbelsäule zu einer bionischen Wirbelsäule.</CreateBionicSpine.description>
+  <CreateBionicSpine.jobString>Stellt Bionische Wirbelsäule her.</CreateBionicSpine.jobString>
+
+  <!-- Bionic ear -->
+
+  <CreateBionicEar.label>Stelle Bionisches Ohr her</CreateBionicEar.label>
+  <CreateBionicEar.description>Verbessere ein Cochlea-Implantant zu einem bionischen Ohr.</CreateBionicEar.description>
+  <CreateBionicEar.jobString>Stellt Bionisches Ohr her.</CreateBionicEar.jobString>
+
+  <!-- Bionic hand -->
+
+  <CreateBionicHand.label>Stelle Bionische Hand her</CreateBionicHand.label>
+  <CreateBionicHand.description>Verbessere eine Handprothese zu einer bionischen Hand.</CreateBionicHand.description>
+  <CreateBionicHand.jobString>Stellt Bionische Hand her.</CreateBionicHand.jobString>
+
+  <InstallBionicHand.label>Implantiere Bionische Hand</InstallBionicHand.label>
+  <InstallBionicHand.description>Implantiere eine Bionische Hand.</InstallBionicHand.description>
+  <InstallBionicHand.jobString>Implantiert Bionische Hand.</InstallBionicHand.jobString>
+
+  <!-- Bionic FOot -->
+
+  <CreateBionicFoot.label>Stelle Bionischer Fuß her</CreateBionicFoot.label>
+  <CreateBionicFoot.description>Verbessere eine Fußprothese zu einem bionischem Fuß.</CreateBionicFoot.description>
+  <CreateBionicFoot.jobString>Stellt Bionischer Fuß her.</CreateBionicFoot.jobString>
+
+  <InstallBionicFoot.label>Implantiere Bionischer Fuß</InstallBionicFoot.label>
+  <InstallBionicFoot.description>Implantiere einen bionischen Fuß.</InstallBionicFoot.description>
+  <InstallBionicFoot.jobString>Implantiert Bionischer Fuß.</InstallBionicFoot.jobString>
+
+  <!-- Bionic finger -->
+
+  <EPIA_UpgradeBionicFinger.label>Stelle Bionischer Finger her</EPIA_UpgradeBionicFinger.label>
+  <EPIA_UpgradeBionicFinger.description>Verbessere eine Fingerprothese zu einem bionischem Finger.</EPIA_UpgradeBionicFinger.description>
+  <EPIA_UpgradeBionicFinger.jobString>Stellt Bionischer Finger her.</EPIA_UpgradeBionicFinger.jobString>
+
+  <InstallBionicFinger.label>Implantiere Bionischer Finger</InstallBionicFinger.label>
+  <InstallBionicFinger.description>Implantiere einen bionischen Finger.</InstallBionicFinger.description>
+  <InstallBionicFinger.jobString>Implantiert Bionischer Finger.</InstallBionicFinger.jobString>
+
+  <!-- Bionic toe -->
+
+  <EPIA_UpgradeBionicToe.label>Stelle Bionischer Zeh her</EPIA_UpgradeBionicToe.label>
+  <EPIA_UpgradeBionicToe.description>Verbessere eine Zehprothese zu einem bionischem Zeh.</EPIA_UpgradeBionicToe.description>
+  <EPIA_UpgradeBionicToe.jobString>Stellt Bionischer Zeh her.</EPIA_UpgradeBionicToe.jobString>
+
+  <InstallBionicToe.label>Implantiere Bionischer Zeh</InstallBionicToe.label>
+  <InstallBionicToe.description>Implantiere einen bionischen Zeh.</InstallBionicToe.description>
+  <InstallBionicToe.jobString>Implantiert Bionischer Zeh.</InstallBionicToe.jobString>
+
+  <!-- Bionic Jaw -->
+
+  <CreateBionicJaw.label>Stelle Bionischer Kiefer her</CreateBionicJaw.label>
+  <CreateBionicJaw.description>Verbessere einen Hydraulischen Kiefer zu einem bionischem Kiefer.</CreateBionicJaw.description>
+  <CreateBionicJaw.jobString>Stellt Bionischer Kiefer her.</CreateBionicJaw.jobString>
+
+  <InstallBionicJaw.label>Implantiere Bionischer Kiefer</InstallBionicJaw.label>
+  <InstallBionicJaw.description>Implantiere einen bionischen Kiefer.</InstallBionicJaw.description>
+  <InstallBionicJaw.jobString>Implantiert Bionischer Kiefer.</InstallBionicJaw.jobString>
+
+  <!-- Silent jaw -->
+
+  <CreateSilentJaw.label>Stelle Stummkiefer her</CreateSilentJaw.label>
+  <CreateSilentJaw.description>Verbessere einen Hydraulischen Kiefer zu einem Stummkiefer.</CreateSilentJaw.description>
+  <CreateSilentJaw.jobString>Stellt Stummkiefer her.</CreateSilentJaw.jobString>
+
+  <InstallSilentJaw.label>Implantiere Stummkiefer</InstallSilentJaw.label>
+  <InstallSilentJaw.description>Implantiere einen Stummkiefer.</InstallSilentJaw.description>
+  <InstallSilentJaw.jobString>Implantiert Stummkiefer.</InstallSilentJaw.jobString>
+
+  <!-- Power arm -->
+
+  <CreatePowerArm.label>Stelle Powerarm her</CreatePowerArm.label>
+  <CreatePowerArm.description>Verbessere eine Powerkralle zu einem Powerarm.</CreatePowerArm.description>
+  <CreatePowerArm.jobString>Stellt Powerarm her.</CreatePowerArm.jobString>
+
+  <InstallPowerArm.label>Implantiere Powerarm</InstallPowerArm.label>
+  <InstallPowerArm.description>Implantiere einen Powerarm.</InstallPowerArm.description>
+  <InstallPowerArm.jobString>Implantiert Powerarm.</InstallPowerArm.jobString>
+
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Smelt_EPOE_DamagedScytherBlade.label>Schmelze Beschädigte Schnitterklinge</Smelt_EPOE_DamagedScytherBlade.label>
+  <Smelt_EPOE_DamagedScytherBlade.description>Use heat and strong electromagnets to extract useful metal from a damaged scyther blade.</Smelt_EPOE_DamagedScytherBlade.description>
+  <Smelt_EPOE_DamagedScytherBlade.jobString>Schmiltz Beschädigte Schnitterklinge.</Smelt_EPOE_DamagedScytherBlade.jobString>
+
+  <EPIA_ScrapProsthesis.label>Zerlege Prothese</EPIA_ScrapProsthesis.label>
+  <EPIA_ScrapProsthesis.description>Verschrotte und zerlege eine unerwünschte Prothesen für Materialien.</EPIA_ScrapProsthesis.description>
+  <EPIA_ScrapProsthesis.jobString>Zerlegt Prothese.</EPIA_ScrapProsthesis.jobString>
+
+  <Make_EPOE_MAAI_Chip_UseAICore.label>Stelle 5 MA-KI Chips her</Make_EPOE_MAAI_Chip_UseAICore.label>
+  <Make_EPOE_MAAI_Chip_UseAICore.description>Stelle 5 MA-KI-Chips aus einem Persona-Kern her.</Make_EPOE_MAAI_Chip_UseAICore.description>
+  <Make_EPOE_MAAI_Chip_UseAICore.jobString>Stellt MA-KI-Chips her.</Make_EPOE_MAAI_Chip_UseAICore.jobString>
+
+
+</LanguageData>
