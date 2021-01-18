@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+	<RecipeDef Name="EPIA_SurgerySyntheticRepair" ParentName="SurgeryFlesh" Abstract="True">
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="EPIA_SurgerySyntheticRepair_SRP" ParentName="SurgeryFlesh" Abstract="True">
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
 	<!-- Synthetic tissue -->
 
 	<ThingDef ParentName="EPIASyntheticBase">
 		<defName>SyntheticSkin</defName>
 		<label>synthetic tissue</label>
 		<description>A patch of organo-synthetic tissue which can replace damaged areas.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>RepairBurn</RecipeDef>
+			<RecipeDef>RepairCut</RecipeDef>
+			<RecipeDef>RepairSurgicalCut</RecipeDef>
+			<RecipeDef>RepairScratch</RecipeDef>
+			<RecipeDef>RepairBite</RecipeDef>
+			<RecipeDef>RepairStab</RecipeDef>
+			<RecipeDef>RepairGunshot</RecipeDef>
+			<RecipeDef>RepairFrostbite</RecipeDef>
+			<RecipeDef>RepairChemicalBurn</RecipeDef>
+			<RecipeDef>RepairShredded</RecipeDef>
+			<RecipeDef>RepairCrush</RecipeDef>
+			<RecipeDef>EPIA_RepairCrack</RecipeDef>
+		</descriptionHyperlinks>
 		<isTechHediff>false</isTechHediff>
 		<recipeMaker>
 			<researchPrerequisite>EPOE_SyntheticRepair</researchPrerequisite>
@@ -21,20 +47,17 @@
 		</statBases>
 	</ThingDef>
 
-	<RecipeDef Name="EPIA_SurgeryRepairScar" ParentName="SurgeryFlesh" Abstract="True">
+	<RecipeDef Name="EPIA_SurgeryRepairScar" ParentName="EPIA_SurgerySyntheticRepair" Abstract="True">
+		<descriptionHyperlinks><ThingDef>SyntheticSkin</ThingDef></descriptionHyperlinks>
 		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
-		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
 		<workerClass>EPIA.Recipe_RemoveScarHediff</workerClass>
 		<workAmount>2500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>MedicineUltratech</li>
-					</thingDefs>
+					<categories>
+						<li>Medicine</li>
+					</categories>
 				</filter>
 				<count>1</count>
 			</li>
@@ -48,23 +71,23 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
 			<thingDefs>
-				<li>MedicineUltratech</li>
 				<li>SyntheticSkin</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<skillRequirements>
 			<Medicine>7</Medicine>
 		</skillRequirements>
-		<appliedOnFixedBodyParts>
-			<li>Torso</li> 
-		</appliedOnFixedBodyParts>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
 		<defName>RepairBurn</defName>
 		<label>mend burn</label>
 		<description>Mend a burn scar.</description>
+		<descriptionHyperlinks><HediffDef>Burn</HediffDef></descriptionHyperlinks>
 		<jobString>Mending burn scar.</jobString>
 		<removesHediff>Burn</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s burn scar.</successfullyRemovedHediffMessage>
@@ -74,6 +97,7 @@
 		<defName>RepairCut</defName>
 		<label>mend cut</label>
 		<description>Mend a cut scar.</description>
+		<descriptionHyperlinks><HediffDef>Cut</HediffDef></descriptionHyperlinks>
 		<jobString>Mending cut scar.</jobString>
 		<removesHediff>Cut</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cut scar.</successfullyRemovedHediffMessage>
@@ -83,6 +107,7 @@
 		<defName>RepairSurgicalCut</defName>
 		<label>mend surgical cut</label>
 		<description>Mend a surgical cut scar.</description>
+		<descriptionHyperlinks><HediffDef>SurgicalCut</HediffDef></descriptionHyperlinks>
 		<jobString>Mending surgical cut scar.</jobString>
 		<removesHediff>SurgicalCut</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s surgical cut scar.</successfullyRemovedHediffMessage>
@@ -92,6 +117,7 @@
 		<defName>RepairScratch</defName>
 		<label>mend scratch</label>
 		<description>Mend a scratch scar.</description>
+		<descriptionHyperlinks><HediffDef>Scratch</HediffDef></descriptionHyperlinks>
 		<jobString>Mending scratch scar.</jobString>
 		<removesHediff>Scratch</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</successfullyRemovedHediffMessage>
@@ -101,6 +127,7 @@
 		<defName>RepairBite</defName>
 		<label>mend bite</label>
 		<description>Mend a bite scar.</description>
+		<descriptionHyperlinks><HediffDef>Bite</HediffDef></descriptionHyperlinks>
 		<jobString>Mending bite scar.</jobString>
 		<removesHediff>Bite</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s bite scar.</successfullyRemovedHediffMessage>
@@ -110,6 +137,7 @@
 		<defName>RepairStab</defName>
 		<label>mend stab</label>
 		<description>Mend a stab scar.</description>
+		<descriptionHyperlinks><HediffDef>Stab</HediffDef></descriptionHyperlinks>
 		<jobString>Mending stab scar.</jobString>
 		<removesHediff>Stab</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s stab scar.</successfullyRemovedHediffMessage>
@@ -119,6 +147,7 @@
 		<defName>RepairGunshot</defName>
 		<label>mend gunshot</label>
 		<description>Mend a gunshot scar.</description>
+		<descriptionHyperlinks><HediffDef>Gunshot</HediffDef></descriptionHyperlinks>
 		<jobString>Mending gunshot scar.</jobString>
 		<removesHediff>Gunshot</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s gunshot scar.</successfullyRemovedHediffMessage>
@@ -128,6 +157,7 @@
 		<defName>RepairFrostbite</defName>
 		<label>mend frostbite</label>
 		<description>Mend a frostbite scar.</description>
+		<descriptionHyperlinks><HediffDef>Frostbite</HediffDef></descriptionHyperlinks>
 		<jobString>Mending frostbite scar.</jobString>
 		<removesHediff>Frostbite</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</successfullyRemovedHediffMessage>
@@ -137,6 +167,7 @@
 		<defName>RepairChemicalBurn</defName>
 		<label>mend chemical burn</label>
 		<description>Mend a chemical burn scar.</description>
+		<descriptionHyperlinks><HediffDef>ChemicalBurn</HediffDef></descriptionHyperlinks>
 		<jobString>Mending chemical burn scar.</jobString>
 		<removesHediff>ChemicalBurn</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s chemical burn scar.</successfullyRemovedHediffMessage>
@@ -146,6 +177,7 @@
 		<defName>RepairShredded</defName>
 		<label>mend shredded</label>
 		<description>Mend a shredded scar.</description>
+		<descriptionHyperlinks><HediffDef>Shredded</HediffDef></descriptionHyperlinks>
 		<jobString>Mending shredded scar.</jobString>
 		<removesHediff>Shredded</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</successfullyRemovedHediffMessage>
@@ -155,9 +187,20 @@
 		<defName>RepairCrush</defName>
 		<label>mend mangled scar</label>
 		<description>Mend a mangled scar.</description>
+		<descriptionHyperlinks><HediffDef>Crush</HediffDef></descriptionHyperlinks>
 		<jobString>Mending mangled scar.</jobString>
 		<removesHediff>Crush</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s mangled scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
+		<defName>EPIA_RepairCrack</defName>
+		<label>mend cracked scar</label>
+		<description>Mend a cracked scar.</description>
+		<descriptionHyperlinks><HediffDef>Crack</HediffDef></descriptionHyperlinks>
+		<jobString>Mending cracked scar.</jobString>
+		<removesHediff>Crack</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cracked scar.</successfullyRemovedHediffMessage>
 	</RecipeDef>
 
 	<!-- Neuromuscular framework -->
@@ -173,13 +216,20 @@
 		<defName>NeuromuscularFramework</defName>
 		<label>neuromuscular framework</label>
 		<description>A set of synthetic muscles and artificial nerves capable of perfectly recreating the function of a healthy torso.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>SurgeryRemoveFrailty</RecipeDef>
+			<RecipeDef>SurgeryRemoveBadBack</RecipeDef>
+			<RecipeDef>EPIA_SurgeryRemoveChemicalDamageModerate</RecipeDef>
+			<RecipeDef>EPIA_SurgeryRemoveChemicalDamageSevere</RecipeDef>
+			<RecipeDef>EPIA_RestoreTorsoBones</RecipeDef>
+		</descriptionHyperlinks>
 		<isTechHediff>false</isTechHediff>
 		<recipeMaker>
 			<researchPrerequisite>EPOE_SyntheticRepair</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<MedicineUltratech>5</MedicineUltratech>
-			<Hyperweave>50</Hyperweave>
+			<Hyperweave>25</Hyperweave>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
@@ -188,26 +238,27 @@
 		<generateAllowChance>0.5</generateAllowChance>
 	</ThingDef>
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="EPIA_SurgerySyntheticRepair">
 		<defName>SurgeryRemoveFrailty</defName>
 		<label>heal frailty</label>
 		<description>Install a neuromuscular framework to repair frailty.</description>
+		<descriptionHyperlinks>
+			<ThingDef>NeuromuscularFramework</ThingDef>
+			<HediffDef>Frail</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Healing frailty.</jobString>
 		<removesHediff>Frail</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully healed {1}'s frailty.</successfullyRemovedHediffMessage>
 		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
 		<workerClass>Recipe_RemoveHediff</workerClass>
 		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>MedicineUltratech</li>
-					</thingDefs>
+					<categories>
+						<li>Medicine</li>
+					</categories>
 				</filter>
 				<count>1</count>
 			</li>
@@ -221,9 +272,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
 			<thingDefs>
 				<li>NeuromuscularFramework</li>
-				<li>MedicineUltratech</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<skillRequirements>
@@ -234,18 +287,19 @@
 		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="EPIA_SurgerySyntheticRepair">
 		<defName>SurgeryRemoveBadBack</defName>
 		<label>heal bad back</label>
 		<description>Install a neuromuscular framework to repair a bad back.</description>
+		<descriptionHyperlinks>
+			<ThingDef>NeuromuscularFramework</ThingDef>
+			<HediffDef>BadBack</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Healing bad back.</jobString>
 		<removesHediff>BadBack</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully healed {1}'s bad back.</successfullyRemovedHediffMessage>
 		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
 		<workerClass>Recipe_RemoveHediff</workerClass>
 		<workAmount>3000</workAmount>
 		<ingredients>
@@ -282,12 +336,119 @@
 		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
+	<RecipeDef Name="EPIA_HealChemicalDamage" ParentName="EPIA_SurgerySyntheticRepair">
+		<defName>EPIA_SurgeryRemoveChemicalDamageModerate</defName>
+		<label>heal chemical damage</label>
+		<description>Install a neuromuscular framework to repair chemical damage.</description>
+		<descriptionHyperlinks>
+			<ThingDef>NeuromuscularFramework</ThingDef>
+			<HediffDef>ChemicalDamageModerate</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Healing chemical damage.</jobString>
+		<removesHediff>ChemicalDamageModerate</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully healed {1}'s chemical damage.</successfullyRemovedHediffMessage>
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<workerClass>EPIA.Recipe_RemoveScarHediff</workerClass>
+		<workAmount>3000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NeuromuscularFramework</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>NeuromuscularFramework</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_HealChemicalDamage">
+		<defName>EPIA_SurgeryRemoveChemicalDamageSevere</defName>
+		<descriptionHyperlinks Inherit="False">
+			<ThingDef>NeuromuscularFramework</ThingDef>
+			<HediffDef>ChemicalDamageSevere</HediffDef>
+		</descriptionHyperlinks>
+		<removesHediff>ChemicalDamageSevere</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+		<defName>EPIA_RestoreTorsoBones</defName>
+		<label>Restore torso associated bones</label>
+		<description>Restores bone structures associated with the torso, such as the pelvis, sternum and clavicle.</description>
+		<descriptionHyperlinks>
+			<ThingDef>NeuromuscularFramework</ThingDef>
+		</descriptionHyperlinks>
+		<jobString>Restoring body part.</jobString>
+		<workAmount>4500</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NeuromuscularFramework</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>NeuromuscularFramework</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Clavicle</li>
+			<li>Sternum</li>
+			<li>Pelvis</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
 	<!-- Neuro-cure framework -->
 
 	<ThingDef ParentName="EPIANeuroGraphicBase">
 		<defName>NeurocureFramework</defName>
 		<label>neuro-cure framework</label>
 		<description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain. Used for curing brain injuries, dementia and alzheimer.\n\nRequires Brain Surgery research to use.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>EPOE_SurgeryRemoveDementia</RecipeDef>
+			<RecipeDef>EPOE_SurgeryRemoveAlzheimers</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainBurn</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainCut</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainSurgicalCut</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainScratch</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainBite</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainStab</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainGunshot</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainFrostbite</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainChemicalBurn</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainShredded</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainCrush</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainCrack</RecipeDef>
+			<RecipeDef>EPIA_SurgeryBrainRemoveChemicalDamageModerate</RecipeDef>
+			<RecipeDef>EPIA_SurgeryBrainRemoveChemicalDamageSevere</RecipeDef>
+		</descriptionHyperlinks>
 		<isTechHediff>false</isTechHediff>
 		<thingCategories Inherit="False">
 			<li>BodyPartsUltra</li>
@@ -310,26 +471,27 @@
 		<generateAllowChance>0.5</generateAllowChance>
 	</ThingDef>
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="EPIA_SurgerySyntheticRepair">
 		<defName>EPOE_SurgeryRemoveDementia</defName>
 		<label>heal dementia</label>
 		<description>Install a neuro-cure framework to treat dementia.</description>
+		<descriptionHyperlinks>
+			<ThingDef>NeurocureFramework</ThingDef>
+			<HediffDef>Dementia</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Treating dementia.</jobString>
 		<removesHediff>Dementia</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s dementia.</successfullyRemovedHediffMessage>
 		<surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
 		<workerClass>Recipe_RemoveHediff</workerClass>
 		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>MedicineUltratech</li>
-					</thingDefs>
+					<categories>
+						<li>Medicine</li>
+					</categories>
 				</filter>
 				<count>3</count>
 			</li>
@@ -343,9 +505,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
 			<thingDefs>
 				<li>NeurocureFramework</li>
-				<li>MedicineUltratech</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<skillRequirements>
@@ -357,26 +521,27 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="EPIA_SurgerySyntheticRepair">
 		<defName>EPOE_SurgeryRemoveAlzheimers</defName>
 		<label>heal alzheimers</label>
 		<description>Install a neuro-cure framework to treat alzheimers.</description>
+		<descriptionHyperlinks>
+			<ThingDef>NeurocureFramework</ThingDef>
+			<HediffDef>Alzheimers</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Treating alzheimers.</jobString>
 		<removesHediff>Alzheimers</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully treated {1}'s alzheimers.</successfullyRemovedHediffMessage>
 		<surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
 		<workerClass>Recipe_RemoveHediff</workerClass>
 		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>MedicineUltratech</li>
-					</thingDefs>
+					<categories>
+						<li>Medicine</li>
+					</categories>
 				</filter>
 				<count>3</count>
 			</li>
@@ -390,9 +555,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
 			<thingDefs>
 				<li>NeurocureFramework</li>
-				<li>MedicineUltratech</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<skillRequirements>
@@ -404,20 +571,18 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef Name="EPIA_SurgeryBrainRepairScar" ParentName="SurgeryFlesh" Abstract="True">
+	<RecipeDef Name="EPIA_SurgeryBrainRepairScar" ParentName="EPIA_SurgerySyntheticRepair" Abstract="True">
+		<descriptionHyperlinks><ThingDef>NeurocureFramework</ThingDef></descriptionHyperlinks>
 		<surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
 		<workerClass>EPIA.Recipe_RemoveBrainScarHediff</workerClass>
 		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>MedicineUltratech</li>
-					</thingDefs>
+					<categories>
+						<li>Medicine</li>
+					</categories>
 				</filter>
 				<count>3</count>
 			</li>
@@ -431,8 +596,10 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
 			<thingDefs>
-				<li>MedicineUltratech</li>
 				<li>NeurocureFramework</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -449,6 +616,7 @@
 		<defName>EPIA_RepairBrainBurn</defName>
 		<label>mend burn</label>
 		<description>Mend a burn scar.</description>
+		<descriptionHyperlinks><HediffDef>Burn</HediffDef></descriptionHyperlinks>
 		<jobString>Mending burn scar.</jobString>
 		<removesHediff>Burn</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s burn scar.</successfullyRemovedHediffMessage>
@@ -458,6 +626,7 @@
 		<defName>EPIA_RepairBrainCut</defName>
 		<label>mend cut</label>
 		<description>Mend a cut scar.</description>
+		<descriptionHyperlinks><HediffDef>Cut</HediffDef></descriptionHyperlinks>
 		<jobString>Mending cut scar.</jobString>
 		<removesHediff>Cut</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cut scar.</successfullyRemovedHediffMessage>
@@ -467,6 +636,7 @@
 		<defName>EPIA_RepairBrainSurgicalCut</defName>
 		<label>mend surgical cut</label>
 		<description>Mend a surgical cut scar.</description>
+		<descriptionHyperlinks><HediffDef>SurgicalCut</HediffDef></descriptionHyperlinks>
 		<jobString>Mending surgical cut scar.</jobString>
 		<removesHediff>SurgicalCut</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s surgical cut scar.</successfullyRemovedHediffMessage>
@@ -476,6 +646,7 @@
 		<defName>EPIA_RepairBrainScratch</defName>
 		<label>mend scratch</label>
 		<description>Mend a scratch scar.</description>
+		<descriptionHyperlinks><HediffDef>Scratch</HediffDef></descriptionHyperlinks>
 		<jobString>Mending scratch scar.</jobString>
 		<removesHediff>Scratch</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</successfullyRemovedHediffMessage>
@@ -485,6 +656,7 @@
 		<defName>EPIA_RepairBrainBite</defName>
 		<label>mend bite</label>
 		<description>Mend a bite scar.</description>
+		<descriptionHyperlinks><HediffDef>Bite</HediffDef></descriptionHyperlinks>
 		<jobString>Mending bite scar.</jobString>
 		<removesHediff>Bite</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s bite scar.</successfullyRemovedHediffMessage>
@@ -494,6 +666,7 @@
 		<defName>EPIA_RepairBrainStab</defName>
 		<label>mend stab</label>
 		<description>Mend a stab scar.</description>
+		<descriptionHyperlinks><HediffDef>Stab</HediffDef></descriptionHyperlinks>
 		<jobString>Mending stab scar.</jobString>
 		<removesHediff>Stab</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s stab scar.</successfullyRemovedHediffMessage>
@@ -503,6 +676,7 @@
 		<defName>EPIA_RepairBrainGunshot</defName>
 		<label>mend gunshot</label>
 		<description>Mend a gunshot scar.</description>
+		<descriptionHyperlinks><HediffDef>Gunshot</HediffDef></descriptionHyperlinks>
 		<jobString>Mending gunshot scar.</jobString>
 		<removesHediff>Gunshot</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s gunshot scar.</successfullyRemovedHediffMessage>
@@ -512,6 +686,7 @@
 		<defName>EPIA_RepairBrainFrostbite</defName>
 		<label>mend frostbite</label>
 		<description>Mend a frostbite scar.</description>
+		<descriptionHyperlinks><HediffDef>Frostbite</HediffDef></descriptionHyperlinks>
 		<jobString>Mending frostbite scar.</jobString>
 		<removesHediff>Frostbite</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</successfullyRemovedHediffMessage>
@@ -521,6 +696,7 @@
 		<defName>EPIA_RepairBrainChemicalBurn</defName>
 		<label>mend chemical burn</label>
 		<description>Mend a chemical burn scar.</description>
+		<descriptionHyperlinks><HediffDef>ChemicalBurn</HediffDef></descriptionHyperlinks>
 		<jobString>Mending chemical burn scar.</jobString>
 		<removesHediff>ChemicalBurn</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s chemical burn scar.</successfullyRemovedHediffMessage>
@@ -530,6 +706,7 @@
 		<defName>EPIA_RepairBrainShredded</defName>
 		<label>mend shredded</label>
 		<description>Mend a shredded scar.</description>
+		<descriptionHyperlinks><HediffDef>Shredded</HediffDef></descriptionHyperlinks>
 		<jobString>Mending shredded scar.</jobString>
 		<removesHediff>Shredded</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</successfullyRemovedHediffMessage>
@@ -539,9 +716,73 @@
 		<defName>EPIA_RepairBrainCrush</defName>
 		<label>mend mangled scar</label>
 		<description>Mend a mangled scar.</description>
+		<descriptionHyperlinks><HediffDef>Crush</HediffDef></descriptionHyperlinks>
 		<jobString>Mending mangled scar.</jobString>
 		<removesHediff>Crush</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s mangled scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
+		<defName>EPIA_RepairBrainCrack</defName>
+		<label>mend cracked scar</label>
+		<description>Mend a cracked scar.</description>
+		<descriptionHyperlinks><HediffDef>Crack</HediffDef></descriptionHyperlinks>
+		<jobString>Mending cracked scar.</jobString>
+		<removesHediff>Crack</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cracked scar.</successfullyRemovedHediffMessage>
+	</RecipeDef>
+
+	<RecipeDef Name="EPIA_HealChemicalDamageBrain" ParentName="EPIA_SurgerySyntheticRepair">
+		<defName>EPIA_SurgeryBrainRemoveChemicalDamageModerate</defName>
+		<label>heal chemical damage</label>
+		<description>Install a neuro-cure framework to repair chemical damage in the brain.</description>
+		<descriptionHyperlinks><HediffDef>ChemicalDamageModerate</HediffDef></descriptionHyperlinks>
+		<jobString>Healing chemical damage.</jobString>
+		<removesHediff>ChemicalDamageModerate</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully healed {1}'s chemical damage.</successfullyRemovedHediffMessage>
+		<surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
+		<workerClass>EPIA.Recipe_RemoveBrainScarHediff</workerClass>
+		<workAmount>3000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NeurocureFramework</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>NeurocureFramework</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Medicine>13</Medicine>
+		</skillRequirements>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIA_HealChemicalDamageBrain">
+		<defName>EPIA_SurgeryBrainRemoveChemicalDamageSevere</defName>
+		<descriptionHyperlinks><HediffDef>ChemicalDamageSevere</HediffDef></descriptionHyperlinks>
+		<removesHediff>ChemicalDamageSevere</removesHediff>
 	</RecipeDef>
 
 </Defs>

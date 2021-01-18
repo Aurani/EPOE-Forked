@@ -45,7 +45,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ScytherBlade</li>
+						<li>EPIA_ScytherBlade</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -69,7 +69,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ScytherBlade</li>
+				<li>EPIA_ScytherBlade</li>
 				<li>Plasteel</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>

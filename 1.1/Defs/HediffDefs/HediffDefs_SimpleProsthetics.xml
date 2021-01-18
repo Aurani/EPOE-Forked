@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<HediffDef Name="addedPartSimple" Abstract="True">
+	<HediffDef Name="addedPartSimple" ParentName="AddedBodyPartBase" Abstract="True">
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
 		<defaultLabelColor>(102,178,255)</defaultLabelColor>
@@ -164,7 +164,10 @@
 		<defName>InstallGoldenEye</defName>
 		<label>install golden eye</label>
 		<description>Installs golden eye.</description>
-		<descriptionHyperlinks><ThingDef>GoldenEye</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>GoldenEye</ThingDef>
+			<HediffDef>GoldenEye</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing golden eye.</jobString>
 		<ingredients>
 			<li>
@@ -222,7 +225,10 @@
 		<defName>InstallLightReceptor</defName>
 		<label>install light receptor</label>
 		<description>Installs light receptor.</description>
-		<descriptionHyperlinks><ThingDef>LightReceptor</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>LightReceptor</ThingDef>
+			<HediffDef>LightReceptor</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing light receptor.</jobString>
 		<ingredients>
 			<li>
@@ -280,7 +286,10 @@
 		<defName>InstallSimpleSpine</defName>
 		<label>install replacement spine</label>
 		<description>Installs a replacement spine.</description>
-		<descriptionHyperlinks><ThingDef>SimpleSpine</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleSpine</ThingDef>
+			<HediffDef>SimpleSpine</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing a replacement spine.</jobString>
 		<ingredients>
 			<li>
@@ -352,7 +361,10 @@
 		<defName>InstallSimpleProstheticHand</defName>
 		<label>install prosthetic hand</label>
 		<description>Installs a prosthetic hand.</description>
-		<descriptionHyperlinks><ThingDef>SimpleProstheticHand</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticHand</ThingDef>
+			<HediffDef>SimpleProstheticHand</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing prosthetic hand.</jobString>
 		<ingredients>
 			<li>
@@ -410,7 +422,10 @@
 		<defName>InstallSimpleProstheticFoot</defName>
 		<label>install prosthetic foot</label>
 		<description>Installs a prosthetic foot.</description>
-		<descriptionHyperlinks><ThingDef>SimpleProstheticFoot</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticFoot</ThingDef>
+			<HediffDef>SimpleProstheticFoot</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing prosthetic foot.</jobString>
 		<ingredients>
 			<li>
@@ -469,7 +484,10 @@
 		<defName>InstallSimpleProstheticFinger</defName>
 		<label>install prosthetic finger</label>
 		<description>Installs prosthetic finger.</description>
-		<descriptionHyperlinks><ThingDef>SimpleProstheticFinger</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticFinger</ThingDef>
+			<HediffDef>SimpleProstheticFinger</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing prosthetic finger.</jobString>
 		<workAmount>1500</workAmount>
 		<ingredients>
@@ -529,7 +547,10 @@
 		<defName>InstallSimpleProstheticToe</defName>
 		<label>install prosthetic toe</label>
 		<description>Installs prosthetic toe.</description>
-		<descriptionHyperlinks><ThingDef>SimpleProstheticToe</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticToe</ThingDef>
+			<HediffDef>SimpleProstheticToe</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing prosthetic toe.</jobString>
 		<workAmount>1500</workAmount>
 		<ingredients>
@@ -579,6 +600,21 @@
 				</capMods>
 			</li>	 
 		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>teeth</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>9.2</power>
+						<cooldownTime>2</cooldownTime>
+						<chanceFactor>0.07</chanceFactor>
+					</li>
+				</tools>
+			</li>
+		</comps>
 	</HediffDef>
 
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
@@ -602,7 +638,10 @@
 		<defName>InstallHydraulicJaw</defName>
 		<label>install hydraulic jaw</label>
 		<description>Installs hydraulic jaw.</description>
-		<descriptionHyperlinks><ThingDef>HydraulicJaw</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>HydraulicJaw</ThingDef>
+			<HediffDef>HydraulicJaw</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing hydraulic jaw.</jobString>
 		<ingredients>
 			<li>
@@ -659,7 +698,10 @@
 		<defName>InstallArtificialNose</defName>
 		<label>install artificial nose</label>
 		<description>Installs artificial nose.</description>
-		<descriptionHyperlinks><ThingDef>ArtificialNose</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>ArtificialNose</ThingDef>
+			<HediffDef>ArtificialNose</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing artificial nose.</jobString>
 		<workAmount>1500</workAmount>
 		<ingredients>
@@ -717,7 +759,10 @@
 		<defName>InstallReplacementRadius</defName>
 		<label>install replacement radius</label>
 		<description>Installs a replacement radius.</description>
-		<descriptionHyperlinks><ThingDef>ReplacementRadius</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>ReplacementRadius</ThingDef>
+			<HediffDef>ReplacementRadius</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing a replacement radius.</jobString>
 		<ingredients>
 			<li>
@@ -746,8 +791,8 @@
 		<defName>EPOE_ScytherBlade</defName>
 		<label>scyther blade</label>
 		<description>An installed scyther blade.</description>
-		<descriptionHyperlinks><ThingDef>ScytherBlade</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>ScytherBlade</spawnThingOnRemoved>
+		<descriptionHyperlinks><ThingDef>EPIA_ScytherBlade</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPIA_ScytherBlade</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>0.25</partEfficiency>
@@ -770,7 +815,7 @@
 	</HediffDef>
 
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
-		<defName>ScytherBlade</defName>
+		<defName>EPIA_ScytherBlade</defName>
 		<label>scyther blade</label>
 		<description>Hand replacement with a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</description>
 		<descriptionHyperlinks><RecipeDef>InstallScytherBlade</RecipeDef></descriptionHyperlinks>
@@ -793,13 +838,16 @@
 		<defName>InstallScytherBlade</defName>
 		<label>install scyther blade</label>
 		<description>Installs a scyther blade at where the hand is.</description>
-		<descriptionHyperlinks><ThingDef>ScytherBlade</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_ScytherBlade</ThingDef>
+			<HediffDef>EPOE_ScytherBlade</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing scyther blade.</jobString>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ScytherBlade</li>
+						<li>EPIA_ScytherBlade</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -807,7 +855,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ScytherBlade</li>
+				<li>EPIA_ScytherBlade</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>

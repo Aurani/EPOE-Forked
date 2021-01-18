@@ -85,10 +85,11 @@
 		<defName>Make_EPOE_MAAI_Chip_UseAICore</defName>
 		<label>make 5 MA-AI chip from AI persona core</label>
 		<description>Make 5 MA-AI chip from AI persona core.</description>
+		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
 		<jobString>Making MA-AI chip.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
-		<soundWorking>EPOEAssembling</soundWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
 		<workSkill>Crafting</workSkill>
 		<skillRequirements>
 			<Crafting>10</Crafting>

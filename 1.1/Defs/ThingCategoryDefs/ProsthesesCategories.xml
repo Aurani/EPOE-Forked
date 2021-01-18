@@ -13,4 +13,12 @@
       <parent>BodyParts</parent>
     </ThingCategoryDef>
 
+	<!-- Won't see if nothing exists in the list -->
+
+    <ThingCategoryDef>
+      <defName>EPIA_TailRedundancy</defName>
+      <label>alien tails (original)</label>
+      <parent>EPOE_Redundancy</parent>
+    </ThingCategoryDef>
+
 </Defs>

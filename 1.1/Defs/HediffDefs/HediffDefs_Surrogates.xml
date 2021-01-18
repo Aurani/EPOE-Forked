@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<HediffDef Name="addedPartSurrogate" Abstract="True">
+	<HediffDef Name="addedPartSurrogate" ParentName="AddedBodyPartBase" Abstract="True">
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
 		<defaultLabelColor>(233,129,69)</defaultLabelColor>
@@ -71,7 +71,10 @@
 		<defName>InstallSimpleProstheticHeart</defName>
 		<label>install surrogate heart</label>
 		<description>Installs an surrogate heart.</description>
-		<descriptionHyperlinks><ThingDef>SimpleProstheticHeart</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticHeart</ThingDef>
+			<HediffDef>SimpleProstheticHeart</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing surrogate heart.</jobString>
 		<ingredients>
 			<li>
@@ -128,7 +131,10 @@
 		<defName>InstallSurrogateLung</defName>
 		<label>install surrogate lung</label>
 		<description>Installs surrogate lung.</description>
-		<descriptionHyperlinks><ThingDef>SurrogateLung</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SurrogateLung</ThingDef>
+			<HediffDef>SurrogateLung</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing surrogate lung.</jobString>
 		<ingredients>
 			<li>
@@ -185,7 +191,10 @@
 		<defName>InstallSurrogateStomach</defName>
 		<label>install surrogate stomach</label>
 		<description>Installs a surrogate stomach.</description>
-		<descriptionHyperlinks><ThingDef>SurrogateStomach</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SurrogateStomach</ThingDef>
+			<HediffDef>SurrogateStomach</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing surrogate stomach.</jobString>
 		<ingredients>
 			<li>
@@ -242,7 +251,10 @@
 		<defName>InstallSurrogateLiver</defName>
 		<label>install surrogate liver</label>
 		<description>Installs a surrogate liver.</description>
-		<descriptionHyperlinks><ThingDef>SurrogateLiver</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SurrogateLiver</ThingDef>
+			<HediffDef>SurrogateLiver</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing surrogate liver.</jobString>
 		<ingredients>
 			<li>
@@ -299,7 +311,10 @@
 		<defName>InstallSurrogateKidney</defName>
 		<label>install surrogate kidney</label>
 		<description>Installs a surrogate kidney.</description>
-		<descriptionHyperlinks><ThingDef>SurrogateKidney</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SurrogateKidney</ThingDef>
+			<HediffDef>SurrogateKidney</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing surrogate kidney.</jobString>
 		<ingredients>
 			<li>

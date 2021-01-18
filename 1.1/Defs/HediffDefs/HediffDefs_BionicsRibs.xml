@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<HediffDef Name="addedPartBionicsRib" Abstract="True">
+	<HediffDef Name="addedPartBionicsRib" ParentName="AddedBodyPartBase" Abstract="True">
 		<hediffClass>Hediff_Implant</hediffClass>
 		<isBad>false</isBad>
 		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
@@ -107,6 +107,7 @@
 		<defName>CreateMedicalRib</defName>
 		<label>assemble medical rib</label>
 		<description>Fill a blank rib replacement to complete a medical rib replacement.</description>
+		<descriptionHyperlinks><ThingDef>MedicalRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling medical rib.</jobString>
 		<products>
 			<MedicalRib>1</MedicalRib>
@@ -150,7 +151,10 @@
 		<defName>InstallMedicalRib</defName>
 		<label>install medical rib replacement</label>
 		<description>Installs a medical rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>MedicalRib</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>MedicalRib</ThingDef>
+			<HediffDef>MedicalRib</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing a medical rib replacement.</jobString>
 		<ingredients>
 			<li>
@@ -230,6 +234,7 @@
 		<defName>CreateDruggedRib</defName>
 		<label>assemble drugged rib</label>
 		<description>Fill a blank rib replacement to complete a drugged rib replacement.</description>
+		<descriptionHyperlinks><ThingDef>DruggedRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling drugged rib.</jobString>
 		<products>
 			<DruggedRib>1</DruggedRib>
@@ -273,7 +278,10 @@
 		<defName>InstallDruggedRib</defName>
 		<label>install drugged rib</label>
 		<description>Installs a drugged rib.</description>
-		<descriptionHyperlinks><ThingDef>DruggedRib</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>DruggedRib</ThingDef>
+			<HediffDef>DruggedRib</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing a drugged rib.</jobString>
 		<ingredients>
 			<li>
@@ -353,6 +361,7 @@
 		<defName>CreateAdrenalineRib</defName>
 		<label>assemble adrenaline rib</label>
 		<description>Fill a blank rib replacement to complete a adrenaline rib replacement.</description>
+		<descriptionHyperlinks><ThingDef>AdrenalineRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling adrenaline rib.</jobString>
 		<products>
 			<AdrenalineRib>1</AdrenalineRib>
@@ -396,7 +405,10 @@
 		<defName>InstallAdrenalineRib</defName>
 		<label>install adrenaline rib</label>
 		<description>Installs an adrenaline rib.</description>
-		<descriptionHyperlinks><ThingDef>AdrenalineRib</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>AdrenalineRib</ThingDef>
+			<HediffDef>AdrenalineRib</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing an adrenaline rib.</jobString>
 		<ingredients>
 			<li>
@@ -472,6 +484,7 @@
 		<defName>CreatePainkillerRib</defName>
 		<label>assemble painkiller rib</label>
 		<description>Fill a blank rib replacement to complete a painkiller rib replacement.</description>
+		<descriptionHyperlinks><ThingDef>PainkillerRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling painkiller rib.</jobString>
 		<products>
 			<PainkillerRib>1</PainkillerRib>
@@ -515,7 +528,10 @@
 		<defName>InstallPainkillerRib</defName>
 		<label>install painkiller rib</label>
 		<description>Installs a painkiller rib.</description>
-		<descriptionHyperlinks><ThingDef>PainkillerRib</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>PainkillerRib</ThingDef>
+			<HediffDef>PainkillerRib</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing a painkiller rib.</jobString>
 		<ingredients>
 			<li>
@@ -591,6 +607,7 @@
 		<defName>EPIA_UpgradeHeatingRib</defName>
 		<label>assemble heating rib</label>
 		<description>Fill a blank rib replacement to complete a heating rib replacement.</description>
+		<descriptionHyperlinks><ThingDef>HeaterRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling heating rib.</jobString>
 		<products>
 			<HeaterRib>1</HeaterRib>
@@ -634,7 +651,10 @@
 		<defName>InstallHeaterRib</defName>
 		<label>install heating rib</label>
 		<description>Installs a heating rib.</description>
-		<descriptionHyperlinks><ThingDef>HeaterRib</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>HeaterRib</ThingDef>
+			<HediffDef>HeaterRib</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing a heating rib.</jobString>
 		<ingredients>
 			<li>
@@ -710,6 +730,7 @@
 		<defName>EPIA_UpgradeCoolingRib</defName>
 		<label>assemble cooling rib</label>
 		<description>Fill a blank rib replacement to complete a cooling rib implant.</description>
+		<descriptionHyperlinks><ThingDef>CoolerRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling cooling rib.</jobString>
 		<products>
 			<CoolerRib>1</CoolerRib>
@@ -753,7 +774,10 @@
 		<defName>InstallCoolerRib</defName>
 		<label>install cooling rib</label>
 		<description>Installs a cooling rib.</description>
-		<descriptionHyperlinks><ThingDef>CoolerRib</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>CoolerRib</ThingDef>
+			<HediffDef>CoolerRib</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing a cooling rib.</jobString>
 		<ingredients>
 			<li>
@@ -827,6 +851,7 @@
 		<defName>CreateCoagulatorRib</defName>
 		<label>assemble coagulator rib</label>
 		<description>Fill a blank rib replacement to complete a coagulator rib replacement.</description>
+		<descriptionHyperlinks><ThingDef>CoagulatorRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling coagulator rib.</jobString>
 		<products>
 			<CoagulatorRib>1</CoagulatorRib>
@@ -870,7 +895,10 @@
 		<defName>InstallCoagulatorRib</defName>
 		<label>install coagulator rib replacement</label>
 		<description>Installs a coagulator rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>CoagulatorRib</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>CoagulatorRib</ThingDef>
+			<HediffDef>CoagulatorRib</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing a coagulator rib replacement.</jobString>
 		<ingredients>
 			<li>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<HediffDef Name="addedPartBasic" Abstract="True">
+	<HediffDef Name="addedPartBasic" ParentName="AddedBodyPartBase" Abstract="True">
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
 		<defaultLabelColor>(148,117,14)</defaultLabelColor>

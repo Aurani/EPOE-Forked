@@ -26,7 +26,7 @@
 
 	<RecipeDef Abstract="True" Name="RecipeSimpleProsthesis">
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<soundWorking>EPOEAssembling</soundWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
 		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 		<workSkill>Crafting</workSkill>
 		<workAmount>5000</workAmount>
@@ -394,5 +394,38 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>
+
+	<ThingDef Name="EPIA_ScytherBladeDebug" ParentName="BodyPartProstheticMakeableBase" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>EPOE_Redundancy</li>
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<generateAllowChance>0</generateAllowChance>
+		<recipeMaker>
+			<factionPrerequisiteTags>
+				<li>EPOE_Redundancy_Debug</li>
+			</factionPrerequisiteTags>
+			<recipeUsers Inherit="False" />
+			<researchPrerequisite Inherit="False" />
+		</recipeMaker>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+		<tradeTags Inherit="False"></tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIA_ScytherBladeDebug">
+		<defName>ScytherBlade</defName>
+		<label>scyther blade (old)</label>
+		<description>Debug version of the scyther blade. It cannot be used, but it can be sold or disassembled for resources.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<EPOE_DamagedScytherBlade>1</EPOE_DamagedScytherBlade>
+			<Steel>5</Steel>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>3</Mass>
+		</statBases>
+	</ThingDef>
 
 </Defs>

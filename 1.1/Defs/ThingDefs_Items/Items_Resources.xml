@@ -51,7 +51,7 @@
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
 			<effectWorking>Smith</effectWorking>
-			<soundWorking>EPOEAssembling</soundWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
 			<recipeUsers>
 				<li>FabricationBench</li>
 			</recipeUsers>

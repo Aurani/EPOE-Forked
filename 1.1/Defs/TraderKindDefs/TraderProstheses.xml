@@ -54,6 +54,12 @@
 				<thingDefCountRange>3~12</thingDefCountRange>
 				<countRange>1~1</countRange>
 			</li>
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
 		</stockGenerators>	  
 	</TraderKindDef>
 

@@ -20,7 +20,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<soundWorking>EPOEAssembling</soundWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -130,7 +130,10 @@
 		<defName>EPOE_OrganicOptimizing</defName>
 		<label>Optimize natural body part</label>
 		<description>Improve and bring out the potential of a natural body part with the organic optimizing nanobots, with the surgeon carefully monitoring the initial application and progress.</description>
-		<descriptionHyperlinks><ThingDef>EPOE_OrganicOptimizingNanobots</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPOE_OrganicOptimizingNanobots</ThingDef>
+			<HediffDef>EPOE_OrganicOptimized</HediffDef>
+		</descriptionHyperlinks>
 		<ingredients>
 			<li>
 				<filter>
@@ -275,6 +278,9 @@ Feet: +5% part efficiency, +0.1 c/s move speed, +5 melee dodge chance.</descript
 		<defName>EPOE_InstinctOptimizingEyes</defName>
 		<label>Improve reactive pupil</label>
 		<description>Improve the instinctual reaction of the eyes with instinct optimizing nanobots, improving hit and aim accuracy. The surgeon carefully monitoring the initial application and progress.</description>
+		<descriptionHyperlinks>
+			<HediffDef>EPOE_InstinctOptimizedEyes</HediffDef>
+		</descriptionHyperlinks>
 		<appliedOnFixedBodyParts>
 			<li>Eye</li>  
 		</appliedOnFixedBodyParts>
@@ -348,6 +354,9 @@ Feet: +5% part efficiency, +0.1 c/s move speed, +5 melee dodge chance.</descript
 		<defName>EPOE_InstinctOptimizingHands</defName>
 		<label>Improve hand reflex</label>
 		<description>Improve the instinctual reaction of the hands with instinct optimizing nanobots, improving the speed of aiming, striking with a melee weapon and general repetative work. with the surgeon carefully monitoring the initial application and progress.</description>
+		<descriptionHyperlinks>
+			<HediffDef>EPOE_InstinctOptimizedHand</HediffDef>
+		</descriptionHyperlinks>
 		<appliedOnFixedBodyParts>
 			<li>Hand</li> 
 		</appliedOnFixedBodyParts>
@@ -418,6 +427,9 @@ Feet: +5% part efficiency, +0.1 c/s move speed, +5 melee dodge chance.</descript
 		<defName>EPOE_InstinctOptimizingFoot</defName>
 		<label>Improve nimble instinct</label>
 		<description>Improve the instinctual reaction of the feet with instinct optimizing nanobots, improving the ability to dodge incoming melee attacks. The surgeon carefully monitoring the initial application and progress.</description>
+		<descriptionHyperlinks>
+			<HediffDef>EPOE_InstinctOptimizedFoot</HediffDef>
+		</descriptionHyperlinks>
 		<appliedOnFixedBodyParts>
 			<li>Foot</li>
 		</appliedOnFixedBodyParts>

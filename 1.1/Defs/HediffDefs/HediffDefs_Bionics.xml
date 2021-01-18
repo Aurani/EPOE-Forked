@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<HediffDef Name="addedPartBionics" Abstract="True">
+	<HediffDef Name="addedPartBionics" ParentName="AddedBodyPartBase" Abstract="True">
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
 		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
@@ -16,7 +16,7 @@
 
 	<RecipeDef Name="EPIA_RecipeBaseProsthesis" Abstract="True">
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<soundWorking>EPOEAssembling</soundWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
 		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
@@ -91,6 +91,7 @@
 		<defName>CreateBionicEye</defName>
 		<label>assemble bionic eye</label>
 		<description>Upgrade light receptor into bionic eye.</description>
+		<descriptionHyperlinks><ThingDef>BionicEye</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading light receptor.</jobString>
 		<products>
 			<BionicEye>1</BionicEye>
@@ -154,6 +155,7 @@
 		<defName>CreateBionicLeg</defName>
 		<label>assemble bionic leg</label>
 		<description>Upgrade prosthetic leg into bionic leg.</description>
+		<descriptionHyperlinks><ThingDef>BionicLeg</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading prosthetic leg.</jobString>
 		<products>
 			<BionicLeg>1</BionicLeg>
@@ -217,6 +219,7 @@
 		<defName>CreateBionicArm</defName>
 		<label>assemble bionic arm</label>
 		<description>Upgrade prosthetic arm into bionic arm.</description>
+		<descriptionHyperlinks><ThingDef>BionicArm</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading prosthetic arm.</jobString>
 		<products>
 			<BionicArm>1</BionicArm>
@@ -297,6 +300,7 @@
 		<defName>CreateBionicSpine</defName>
 		<label>assemble bionic spine</label>
 		<description>Upgrade replacement spine into bionic spine.</description>
+		<descriptionHyperlinks><ThingDef>BionicSpine</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading replacement spine.</jobString>
 		<products>
 			<BionicSpine>1</BionicSpine>
@@ -357,6 +361,7 @@
 		<defName>CreateBionicEar</defName>
 		<label>assemble bionic ear</label>
 		<description>Upgrade cochlear implant into bionic ear.</description>
+		<descriptionHyperlinks><ThingDef>BionicEar</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading cochlear implant.</jobString>
 		<products>
 			<BionicEar>1</BionicEar>
@@ -404,7 +409,7 @@
 		<description>Powerful hand replacement consisting of three deadly claws.</description>
 		<descriptionHyperlinks><RecipeDef>InstallPowerClaw</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<ScytherBlade>3</ScytherBlade>
+			<EPIA_ScytherBlade>3</EPIA_ScytherBlade>
 			<Plasteel>25</Plasteel>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
@@ -445,6 +450,8 @@
 						</capacities>
 						<power>12</power>
 						<cooldownTime>2</cooldownTime>
+						<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
 					</li>
 				</tools>
 			</li>
@@ -470,6 +477,7 @@
 		<defName>CreateBionicHand</defName>
 		<label>assemble bionic hand</label>
 		<description>Upgrade prosthetic hand into bionic hand.</description>
+		<descriptionHyperlinks><ThingDef>BionicHand</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading prosthetic hand.</jobString>
 		<products>
 			<BionicHand>1</BionicHand>
@@ -513,7 +521,10 @@
 		<defName>InstallBionicHand</defName>
 		<label>install bionic hand</label>
 		<description>Installs bionic hand.</description>
-		<descriptionHyperlinks><ThingDef>BionicHand</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>BionicHand</ThingDef>
+			<HediffDef>BionicHand</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing bionic hand.</jobString>
 		<ingredients>
 			<li>
@@ -571,6 +582,7 @@
 		<defName>CreateBionicFoot</defName>
 		<label>assemble bionic foot</label>
 		<description>Upgrade prosthetic foot into bionic foot.</description>
+		<descriptionHyperlinks><ThingDef>BionicFoot</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading prosthetic foot.</jobString>
 		<products>
 			<BionicFoot>1</BionicFoot>
@@ -614,7 +626,10 @@
 		<defName>InstallBionicFoot</defName>
 		<label>install bionic foot</label>
 		<description>Installs bionic foot.</description>
-		<descriptionHyperlinks><ThingDef>BionicFoot</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>BionicFoot</ThingDef>
+			<HediffDef>BionicFoot</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing bionic foot.</jobString>
 		<ingredients>
 			<li>
@@ -671,6 +686,7 @@
 		<defName>EPIA_UpgradeBionicFinger</defName>
 		<label>assemble bionic finger</label>
 		<description>Upgrade prosthetic finger into bionic finger.</description>
+		<descriptionHyperlinks><ThingDef>BionicFinger</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading prosthetic finger.</jobString>
 		<workAmount>2300</workAmount>
 		<products>
@@ -715,7 +731,10 @@
 		<defName>InstallBionicFinger</defName>
 		<label>install bionic finger</label>
 		<description>Installs bionic finger.</description>
-		<descriptionHyperlinks><ThingDef>BionicFinger</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>BionicFinger</ThingDef>
+			<HediffDef>BionicFinger</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing bionic finger.</jobString>
 		<workAmount>1500</workAmount>
 		<ingredients>
@@ -773,6 +792,7 @@
 		<defName>EPIA_UpgradeBionicToe</defName>
 		<label>assemble bionic toe</label>
 		<description>Upgrade prosthetic toe into bionic toe.</description>
+		<descriptionHyperlinks><ThingDef>BionicToe</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading prosthetic toe.</jobString>
 		<workAmount>2300</workAmount>
 		<products>
@@ -817,7 +837,10 @@
 		<defName>InstallBionicToe</defName>
 		<label>install bionic toe</label>
 		<description>Installs bionic toe.</description>
-		<descriptionHyperlinks><ThingDef>BionicToe</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>BionicToe</ThingDef>
+			<HediffDef>BionicToe</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing bionic toe.</jobString>
 		<workAmount>1500</workAmount>
 		<ingredients>
@@ -855,6 +878,21 @@
 			<partEfficiency>1.2</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>teeth</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>9.7</power>
+						<cooldownTime>2</cooldownTime>
+						<chanceFactor>0.07</chanceFactor>
+					</li>
+				</tools>
+			</li>
+		</comps>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
@@ -876,6 +914,7 @@
 		<defName>CreateBionicJaw</defName>
 		<label>assemble bionic jaw</label>
 		<description>Upgrade hydraulic jaw into bionic jaw.</description>
+		<descriptionHyperlinks><ThingDef>BionicJaw</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading hydraulic jaw.</jobString>
 		<products>
 			<BionicJaw>1</BionicJaw>
@@ -919,7 +958,10 @@
 		<defName>InstallBionicJaw</defName>
 		<label>install bionic jaw</label>
 		<description>Installs a bionic jaw.</description>
-		<descriptionHyperlinks><ThingDef>BionicJaw</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>BionicJaw</ThingDef>
+			<HediffDef>BionicJaw</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing a bionic jaw.</jobString>
 		<ingredients>
 			<li>
@@ -966,6 +1008,21 @@
 				</capMods>
 			</li>	 
 		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>teeth</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>9.7</power>
+						<cooldownTime>2</cooldownTime>
+						<chanceFactor>0.21</chanceFactor>
+					</li>
+				</tools>
+			</li>
+		</comps>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
@@ -987,6 +1044,7 @@
 		<defName>CreateSilentJaw</defName>
 		<label>assemble silent jaw</label>
 		<description>Upgrade hydraulic jaw into silent jaw.</description>
+		<descriptionHyperlinks><ThingDef>SilentJaw</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading hydraulic jaw.</jobString>
 		<products>
 			<SilentJaw>1</SilentJaw>
@@ -1030,7 +1088,10 @@
 		<defName>InstallSilentJaw</defName>
 		<label>install silent jaw</label>
 		<description>Installs a silent jaw.</description>
-		<descriptionHyperlinks><ThingDef>SilentJaw</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SilentJaw</ThingDef>
+			<HediffDef>SilentJaw</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing a silent jaw.</jobString>
 		<workAmount>2000</workAmount>
 		<ingredients>
@@ -1077,9 +1138,11 @@
 						<capacities>
 							<li>Scratch</li>
 						</capacities>
-						<power>18</power>
+						<power>22</power>
 						<cooldownTime>2</cooldownTime>
 						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>Pawn_Melee_PowerClaw_Hit</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_PowerClaw_Miss</soundMeleeMiss>
 					</li>
 				</tools>
 			</li>
@@ -1092,7 +1155,7 @@
 		<description>Unparalleled strength and dexterity, and with retractable claws. This is the ultimate arm upgrade!</description>
 		<descriptionHyperlinks><RecipeDef>InstallPowerArm</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<ScytherBlade>3</ScytherBlade>
+			<EPIA_ScytherBlade>3</EPIA_ScytherBlade>
 			<Steel>55</Steel>
 			<Plasteel>120</Plasteel>
 			<ComponentIndustrial>8</ComponentIndustrial>
@@ -1100,6 +1163,7 @@
 		</costList>
 		<statBases>
 			<Mass>6</Mass>
+			<WorkToMake>66000</WorkToMake>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedWeapon</li>
@@ -1110,6 +1174,7 @@
 		<defName>CreatePowerArm</defName>
 		<label>assemble power arm</label>
 		<description>Upgrade power claw into power arm.</description>
+		<descriptionHyperlinks><ThingDef>PowerArm</ThingDef></descriptionHyperlinks>
 		<jobString>Upgrading power claw.</jobString>
 		<products>
 			<PowerArm>1</PowerArm>
@@ -1153,7 +1218,10 @@
 		<defName>InstallPowerArm</defName>
 		<label>install power arm</label>
 		<description>Installs power arm.</description>
-		<descriptionHyperlinks><ThingDef>PowerArm</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>PowerArm</ThingDef>
+			<HediffDef>PowerArm</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing power arm.</jobString>
 		<ingredients>
 			<li>

@@ -126,7 +126,7 @@
 		<label>make steel arm</label>
 		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
 		<jobString>Crafting prosthesis.</jobString>
-		<soundWorking>EPOEAssembling</soundWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
 		<products>
 			<SteelArm>1</SteelArm>
 		</products>

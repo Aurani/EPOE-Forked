@@ -204,7 +204,7 @@
 		<defName>Arm</defName>
 		<label>arm</label>
 		<description>Arms are like legs, except you can carry stuff with them.</description>
-		<descriptionHyperlinks><RecipeDef>InstallNaturalLeg</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks><RecipeDef>InstallNaturalArm</RecipeDef></descriptionHyperlinks>
 		<statBases>
 			<MarketValue>750</MarketValue>
 			<Mass>5</Mass>
@@ -244,7 +244,7 @@
 		<defName>Leg</defName>
 		<label>leg</label>
 		<description>Basically long meaty sticks that let you move around.</description>
-		<descriptionHyperlinks><RecipeDef>InstallNaturalArm</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks><RecipeDef>InstallNaturalLeg</RecipeDef></descriptionHyperlinks>
 		<statBases>
 			<MarketValue>750</MarketValue>
 			<Mass>8</Mass>

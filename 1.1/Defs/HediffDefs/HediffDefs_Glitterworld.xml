@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<HediffDef Name="addedPartGlitteryImplants" Abstract="True">
+	<HediffDef Name="addedPartGlitteryImplants" ParentName="AddedBodyPartBase" Abstract="True">
 		<hediffClass>Hediff_Implant</hediffClass>
 		<defaultLabelColor>(244,210,131)</defaultLabelColor>
 		<isBad>false</isBad>
@@ -105,7 +105,10 @@
 		<defName>InstallTacticalCorneaImplant</defName>
 		<label>install tactical cornea implant</label>
 		<description>Installs tactical cornea implant.</description>
-		<descriptionHyperlinks><ThingDef>TacticalCorneaImplant</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>TacticalCorneaImplant</ThingDef>
+			<HediffDef>TacticalCorneaImplant</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing tactical cornea implant.</jobString>
 		<ingredients>
 			<li>
@@ -148,8 +151,10 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<ConstructionSpeed>+0.25</ConstructionSpeed>
+					<ConstructionSpeed>0.25</ConstructionSpeed>
 					<ConstructSuccessChance>0.15</ConstructSuccessChance>
+					<FixBrokenDownBuildingSuccessChance>0.15</FixBrokenDownBuildingSuccessChance>
+					<SmoothingSpeed>0.25</SmoothingSpeed>
 				</statOffsets>
 			</li>
 		</stages>
@@ -181,7 +186,10 @@
 		<defName>InstallConstructorCore</defName>
 		<label>install auxiliary AI (constructing)</label>
 		<description>Installs auxiliary AI (constructing).</description>
-		<descriptionHyperlinks><ThingDef>ConstructorCore</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>ConstructorCore</ThingDef>
+			<HediffDef>ConstructorCore</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing auxiliary AI (constructing).</jobString>
 		<ingredients>
 			<li>
@@ -229,7 +237,7 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<PlantWorkSpeed>+0.25</PlantWorkSpeed>
+					<PlantWorkSpeed>0.25</PlantWorkSpeed>
 					<PlantHarvestYield>0.15</PlantHarvestYield>
 				</statOffsets>
 			</li>
@@ -262,7 +270,10 @@
 		<defName>InstallFarmerCore</defName>
 		<label>install auxiliary AI (agricultural)</label>
 		<description>Installs auxiliary AI (agricultural).</description>
-		<descriptionHyperlinks><ThingDef>FarmerCore</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>FarmerCore</ThingDef>
+			<HediffDef>FarmerCore</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing auxiliary AI (agricultural).</jobString>
 		<ingredients>
 			<li>
@@ -310,9 +321,10 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<MiningSpeed>+0.25</MiningSpeed>
-					<MiningYield>+0.15</MiningYield>
-					<SmoothingSpeed>+0.15</SmoothingSpeed>
+					<MiningSpeed>0.25</MiningSpeed>
+					<MiningYield>0.15</MiningYield>
+					<DeepDrillingSpeed>0.25</DeepDrillingSpeed>
+					<SmoothingSpeed>0.1</SmoothingSpeed>
 				</statOffsets>
 			</li>
 		</stages>
@@ -344,7 +356,10 @@
 		<defName>InstallMinerCore</defName>
 		<label>install auxiliary AI (mining)</label>
 		<description>Installs auxiliary AI (mining).</description>
-		<descriptionHyperlinks><ThingDef>MinerCore</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>MinerCore</ThingDef>
+			<HediffDef>MinerCore</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing auxiliary AI (mining).</jobString>
 		<ingredients>
 			<li>
@@ -392,9 +407,9 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<MedicalSurgerySuccessChance>+0.20</MedicalSurgerySuccessChance>
-					<MedicalTendQuality>+0.15</MedicalTendQuality>
-					<MedicalTendSpeed>+0.15</MedicalTendSpeed>
+					<MedicalSurgerySuccessChance>0.20</MedicalSurgerySuccessChance>
+					<MedicalTendQuality>0.15</MedicalTendQuality>
+					<MedicalTendSpeed>0.15</MedicalTendSpeed>
 				</statOffsets>
 			</li>
 		</stages>
@@ -426,7 +441,10 @@
 		<defName>InstallDoctorCore</defName>
 		<label>install auxiliary AI (medical)</label>
 		<description>Installs auxiliary AI (medical).</description>
-		<descriptionHyperlinks><ThingDef>DoctorCore</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>DoctorCore</ThingDef>
+			<HediffDef>DoctorCore</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing auxiliary AI (medical).</jobString>
 		<ingredients>
 			<li>
@@ -468,14 +486,15 @@
 	<HediffDef ParentName="addedPartGlitteryImplants">
 		<defName>DiplomatCore</defName>
 		<label>auxiliary AI: diplomatic</label>
-		<description>An installed auxiliary AI that aids with diplomatic conversations.</description>
+		<description>An installed auxiliary AI that aids with diplomatic conversations. Chances to fall into a social fight is significantly reduced.</description>
 		<descriptionHyperlinks><ThingDef>DiplomatCore</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
 		<stages>
 			<li>
+				<socialFightChanceFactor>0.5</socialFightChanceFactor>
 				<statOffsets>
-					<NegotiationAbility>+0.20</NegotiationAbility>
-					<SocialImpact>+0.1</SocialImpact>
+					<NegotiationAbility>0.20</NegotiationAbility>
+					<SocialImpact>0.1</SocialImpact>
 				</statOffsets>
 			</li>
 		</stages>
@@ -487,7 +506,7 @@
 	<ThingDef ParentName="EPIAGlitterworldImplantBase">
 		<defName>DiplomatCore</defName>
 		<label>auxiliary AI (diplomatic)</label>
-		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
+		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Chances to fall into a social fight is significantly reduced. Requires brain surgery research before installing.</description>
 		<descriptionHyperlinks><RecipeDef>InstallDiplomatCore</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
@@ -507,7 +526,10 @@
 		<defName>InstallDiplomatCore</defName>
 		<label>install auxiliary AI (diplomatic)</label>
 		<description>Installs auxiliary AI (diplomatic).</description>
-		<descriptionHyperlinks><ThingDef>DiplomatCore</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>DiplomatCore</ThingDef>
+			<HediffDef>DiplomatCore</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing auxiliary AI (diplomatic).</jobString>
 		<ingredients>
 			<li>
@@ -556,7 +578,6 @@
 			<li>
 				<statOffsets>
 					<ShootingAccuracyPawn>+15</ShootingAccuracyPawn>
-					<AimingDelayFactor>0.20</AimingDelayFactor>
 					<MeleeHitChance>-3</MeleeHitChance>
 					<MeleeDodgeChance>-8</MeleeDodgeChance>
 				</statOffsets>
@@ -596,7 +617,10 @@
 		<defName>EPIA_InstallAuxiliaryAI_Sharpshooter</defName>
 		<label>install auxiliary AI (sharpshooter)</label>
 		<description>Installs auxiliary AI (sharpshooter).</description>
-		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Sharpshooter</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_AuxiliaryAI_Sharpshooter</ThingDef>
+			<HediffDef>EPIA_AuxiliaryAI_Sharpshooter</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing auxiliary AI (sharpshooter).</jobString>
 		<ingredients>
 			<li>
@@ -686,7 +710,10 @@
 		<defName>EPIA_InstallAuxiliaryAI_Commando</defName>
 		<label>install auxiliary AI (commando)</label>
 		<description>Installs auxiliary AI (commando).</description>
-		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Commando</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_AuxiliaryAI_Commando</ThingDef>
+			<HediffDef>EPIA_AuxiliaryAI_Commando</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing auxiliary AI (commando).</jobString>
 		<ingredients>
 			<li>
@@ -777,7 +804,10 @@
 		<defName>EPIA_InstallAuxiliaryAI_Brawler</defName>
 		<label>install auxiliary AI (brawler)</label>
 		<description>Installs auxiliary AI (brawler).</description>
-		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Brawler</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_AuxiliaryAI_Brawler</ThingDef>
+			<HediffDef>EPIA_AuxiliaryAI_Brawler</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing auxiliary AI (brawler).</jobString>
 		<ingredients>
 			<li>
@@ -976,7 +1006,10 @@
 		<defName>InstallAIPersonaCore</defName>
 		<label>install AI persona core</label>
 		<description>Installs AI persona core.</description>
-		<descriptionHyperlinks><ThingDef>AIPersonaCore</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>AIPersonaCore</ThingDef>
+			<HediffDef>AIPersonaCore</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing AI persona core.</jobString>
 		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
 		<workAmount>3700</workAmount>

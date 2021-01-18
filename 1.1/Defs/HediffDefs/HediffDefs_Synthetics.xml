@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<HediffDef Name="addedPartSynthetic" Abstract="True">
+	<HediffDef Name="addedPartSynthetic" ParentName="AddedBodyPartBase" Abstract="True">
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<isBad>false</isBad>
 		<defaultLabelColor>(188,39,242)</defaultLabelColor>
@@ -209,7 +209,10 @@
 		<defName>InstallBionicHeart</defName>
 		<label>install synthetic heart</label>
 		<description>Installs a synthetic heart.</description>
-		<descriptionHyperlinks><ThingDef>BionicHeart</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>BionicHeart</ThingDef>
+			<HediffDef>BionicHeart</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing synthetic heart.</jobString>
 		<ingredients>
 			<li>
@@ -323,7 +326,10 @@
 		<defName>InstallSyntheticLung</defName>
 		<label>install synthetic lung</label>
 		<description>Installs a synthetic lung.</description>
-		<descriptionHyperlinks><ThingDef>SyntheticLung</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLung</ThingDef>
+			<HediffDef>SyntheticLung</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing synthetic lung.</jobString>
 		<ingredients>
 			<li>
@@ -437,7 +443,10 @@
 		<defName>InstallBionicStomach</defName>
 		<label>install synthetic stomach</label>
 		<description>Installs a synthetic stomach.</description>
-		<descriptionHyperlinks><ThingDef>BionicStomach</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>BionicStomach</ThingDef>
+			<HediffDef>BionicStomach</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing synthetic stomach.</jobString>
 		<ingredients>
 			<li>
@@ -551,7 +560,10 @@
 		<defName>InstallSyntheticLiver</defName>
 		<label>install synthetic liver</label>
 		<description>Installs a synthetic liver.</description>
-		<descriptionHyperlinks><ThingDef>SyntheticLiver</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLiver</ThingDef>
+			<HediffDef>SyntheticLiver</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing synthetic liver.</jobString>
 		<ingredients>
 			<li>
@@ -665,7 +677,10 @@
 		<defName>InstallSyntheticKidney</defName>
 		<label>install synthetic kidney</label>
 		<description>Installs a synthetic kidney.</description>
-		<descriptionHyperlinks><ThingDef>SyntheticKidney</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticKidney</ThingDef>
+			<HediffDef>SyntheticKidney</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing synthetic kidney.</jobString>
 		<ingredients>
 			<li>
@@ -748,7 +763,10 @@
 		<defName>InstallMuscleStimulatorArms</defName>
 		<label>install muscle stimulator</label>
 		<description>Installs muscle stimulator in the arm.</description>
-		<descriptionHyperlinks><ThingDef>MuscleStimulator</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>MuscleStimulator</ThingDef>
+			<HediffDef>MuscleStimulatorArms</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing muscle stimulator.</jobString>
 		<ingredients>
 			<li>
@@ -775,7 +793,10 @@
 		<defName>InstallMuscleStimulatorLegs</defName>
 		<label>install muscle stimulator</label>
 		<description>Installs muscle stimulator in the leg.</description>
-		<descriptionHyperlinks><ThingDef>MuscleStimulator</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>MuscleStimulator</ThingDef>
+			<HediffDef>MuscleStimulatorLegs</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Installing muscle stimulator.</jobString>
 		<ingredients>
 			<li>
@@ -911,7 +932,10 @@
 		<defName>InstallAIChip</defName>
 		<label>install AI chip</label>
 		<description>Installs AI chip.</description>
-		<descriptionHyperlinks><ThingDef>AIChip</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>AIChip</ThingDef>
+			<HediffDef>AIChip</HediffDef>
+		</descriptionHyperlinks>
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<jobString>Installing AI chip.</jobString>
 		<workAmount>3700</workAmount>
