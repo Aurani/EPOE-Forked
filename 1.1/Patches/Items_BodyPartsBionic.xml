@@ -21,12 +21,12 @@
 					</recipeUsers>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+			<!--li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/soundWorking</xpath>
 				<value>
 					<soundWorking>EPOEAssembling</soundWorking>
 				</value>
-			</li>
+			</li-->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/unfinishedThingDef</xpath>
 				<value>

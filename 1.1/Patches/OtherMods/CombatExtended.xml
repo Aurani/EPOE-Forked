@@ -126,7 +126,6 @@
 				<value>
 					<statOffsets>
 						<ShootingAccuracyPawn>+15</ShootingAccuracyPawn>
-						<AimingDelayFactor>0.20</AimingDelayFactor>
 						<MeleeHitChance>-3</MeleeHitChance>
 						<MeleeCritChance>-0.15</MeleeCritChance>
 						<MeleeParryChance>-0.15</MeleeParryChance>
