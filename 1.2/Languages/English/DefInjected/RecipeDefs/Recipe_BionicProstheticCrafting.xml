@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<CreateBionicEye.label>assemble bionic eye</CreateBionicEye.label>
+<CreateBionicEye.description>Upgrade light receptor into bionic eye.</CreateBionicEye.description>
+<CreateBionicEye.jobString>Upgrading light receptor.</CreateBionicEye.jobString>
+
+<CreateBionicLeg.label>assemble bionic leg</CreateBionicLeg.label>
+<CreateBionicLeg.description>Upgrade prosthetic leg into bionic leg.</CreateBionicLeg.description>
+<CreateBionicLeg.jobString>Upgrading prosthetic leg.</CreateBionicLeg.jobString>
+
+<CreateBionicArm.label>assemble bionic arm</CreateBionicArm.label>
+<CreateBionicArm.description>Upgrade prosthetic arm into bionic arm.</CreateBionicArm.description>
+<CreateBionicArm.jobString>Upgrading prosthetic arm.</CreateBionicArm.jobString>
+
+<CreateBionicSpine.label>assemble bionic spine</CreateBionicSpine.label>
+<CreateBionicSpine.description>Upgrade replacement spine into bionic spine.</CreateBionicSpine.description>
+<CreateBionicSpine.jobString>Upgrading replacement spine.</CreateBionicSpine.jobString>
+
+<CreateBionicEar.label>assemble bionic ear</CreateBionicEar.label>
+<CreateBionicEar.description>Upgrade cochlear implant into bionic ear.</CreateBionicEar.description>
+<CreateBionicEar.jobString>Upgrading cochlear implant.</CreateBionicEar.jobString>
+
+<CreateBionicHand.label>assemble bionic hand</CreateBionicHand.label>
+<CreateBionicHand.description>Upgrade prosthetic hand into bionic hand.</CreateBionicHand.description>
+<CreateBionicHand.jobString>Upgrading prosthetic hand.</CreateBionicHand.jobString>
+
+<CreateBionicFoot.label>assemble bionic foot</CreateBionicFoot.label>
+<CreateBionicFoot.description>Upgrade prosthetic foot into bionic foot.</CreateBionicFoot.description>
+<CreateBionicFoot.jobString>Upgrading prosthetic foot.</CreateBionicFoot.jobString>
+
+<EPIA_UpgradeBionicFinger.label>assemble bionic finger</EPIA_UpgradeBionicFinger.label>
+<EPIA_UpgradeBionicFinger.description>Upgrade prosthetic finger into bionic finger.</EPIA_UpgradeBionicFinger.description>
+<EPIA_UpgradeBionicFinger.jobString>Upgrading prosthetic finger.</EPIA_UpgradeBionicFinger.jobString>
+
+<EPIA_UpgradeBionicToe.label>assemble bionic toe</EPIA_UpgradeBionicToe.label>
+<EPIA_UpgradeBionicToe.description>Upgrade prosthetic toe into bionic toe.</EPIA_UpgradeBionicToe.description>
+<EPIA_UpgradeBionicToe.jobString>Upgrading prosthetic toe.</EPIA_UpgradeBionicToe.jobString>
+
+<CreateBionicJaw.label>assemble bionic jaw</CreateBionicJaw.label>
+<CreateBionicJaw.description>Upgrade hydraulic jaw into bionic jaw.</CreateBionicJaw.description>
+<CreateBionicJaw.jobString>Upgrading hydraulic jaw.</CreateBionicJaw.jobString>
+
+<CreateSilentJaw.label>assemble silent jaw</CreateSilentJaw.label>
+<CreateSilentJaw.description>Upgrade hydraulic jaw into silent jaw.</CreateSilentJaw.description>
+<CreateSilentJaw.jobString>Upgrading hydraulic jaw.</CreateSilentJaw.jobString>
+
+<CreatePowerArm.label>assemble power arm</CreatePowerArm.label>
+<CreatePowerArm.description>Upgrade power claw into power arm.</CreatePowerArm.description>
+<CreatePowerArm.jobString>Upgrading power claw.</CreatePowerArm.jobString>
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPOE_OrganicOptimizing.label>Optimize natural body part</EPOE_OrganicOptimizing.label>
+<EPOE_OrganicOptimizing.description>Improve and bring out the potential of a natural body part with the organic optimizing nanobots, with the surgeon carefully monitoring the initial application and progress.</EPOE_OrganicOptimizing.description>
+<EPOE_OrganicOptimizing.jobString>Optimizing natural body part.</EPOE_OrganicOptimizing.jobString>
+
+<EPOE_InstinctOptimizingEyes.label>Improve reactive pupil</EPOE_InstinctOptimizingEyes.label>
+<EPOE_InstinctOptimizingEyes.description>Improve the instinctual reaction of the eyes with instinct optimizing nanobots, improving hit and aim accuracy. The surgeon carefully monitoring the initial application and progress.</EPOE_InstinctOptimizingEyes.description>
+<EPOE_InstinctOptimizingEyes.jobString>Optimizing natural body part.</EPOE_InstinctOptimizingEyes.jobString>
+
+<EPOE_InstinctOptimizingHands.label>Improve hand reflex</EPOE_InstinctOptimizingHands.label>
+<EPOE_InstinctOptimizingHands.description>Improve the instinctual reaction of the hands with instinct optimizing nanobots, improving the speed of aiming, striking with a melee weapon and general repetative work. with the surgeon carefully monitoring the initial application and progress.</EPOE_InstinctOptimizingHands.description>
+<EPOE_InstinctOptimizingHands.jobString>Optimizing natural body part.</EPOE_InstinctOptimizingHands.jobString>
+
+<EPOE_InstinctOptimizingFoot.label>Improve nimble instinct</EPOE_InstinctOptimizingFoot.label>
+<EPOE_InstinctOptimizingFoot.description>Improve the instinctual reaction of the feet with instinct optimizing nanobots, improving the ability to dodge incoming melee attacks. The surgeon carefully monitoring the initial application and progress.</EPOE_InstinctOptimizingFoot.description>
+<EPOE_InstinctOptimizingFoot.jobString>Optimizing natural body part.</EPOE_InstinctOptimizingFoot.jobString>
+
+</LanguageData>

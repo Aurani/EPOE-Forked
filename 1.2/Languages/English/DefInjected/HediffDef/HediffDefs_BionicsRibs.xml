@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<MedicalRib.label>medical rib</MedicalRib.label>
+<MedicalRib.labelNoun>a medical rib</MedicalRib.labelNoun>
+<MedicalRib.description>An installed medical rib implant.</MedicalRib.description>
+
+<DruggedRib.label>drugged rib</DruggedRib.label>
+<DruggedRib.labelNoun>a drugged rib</DruggedRib.labelNoun>
+<DruggedRib.description>An installed drugged rib implant.</DruggedRib.description>
+
+<AdrenalineRib.label>adrenaline rib</AdrenalineRib.label>
+<AdrenalineRib.labelNoun>an adrenaline rib</AdrenalineRib.labelNoun>
+<AdrenalineRib.description>An installed adrenaline rib implant.</AdrenalineRib.description>
+
+<PainkillerRib.label>painkiller rib</PainkillerRib.label>
+<PainkillerRib.labelNoun>a painkiller rib</PainkillerRib.labelNoun>
+<PainkillerRib.description>An installed painkiller rib implant.</PainkillerRib.description>
+
+<HeaterRib.label>heating rib</HeaterRib.label>
+<HeaterRib.description>An installed heater rib implant.</HeaterRib.description>
+
+<CoolerRib.label>cooling rib</CoolerRib.label>
+<CoolerRib.description>An installed cooler rib implant.</CoolerRib.description>
+
+<CoagulatorRib.label>coagulator rib</CoagulatorRib.label>
+<CoagulatorRib.description>An installed coagulator rib implant.</CoagulatorRib.description>
+
+</LanguageData>

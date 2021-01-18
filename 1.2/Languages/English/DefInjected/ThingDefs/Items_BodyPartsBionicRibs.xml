@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<SimpleRib.label>blank rib replacement</SimpleRib.label>
+<SimpleRib.description>A hollow artificial rib, with a tiny dispenser system. Ready to be filled to complete a rib replacement implant of choice.</SimpleRib.description>
+
+<MedicalRib.label>medical rib replacement</MedicalRib.label>
+<MedicalRib.description>An artificial rib, equipped with little blood filters and antibiotics-dispensers to keep the user healthy.</MedicalRib.description>
+
+<DruggedRib.label>drugged rib replacement</DruggedRib.label>
+<DruggedRib.description>An artificial rib, equipped with little flake-dispensers to keep the user happy. Synthetic liver highly recommended.</DruggedRib.description>
+
+<AdrenalineRib.label>adrenaline rib replacement</AdrenalineRib.label>
+<AdrenalineRib.description>An artificial rib, equipped with little adrenaline-dispensers to keep the user fit and awake.</AdrenalineRib.description>
+
+<PainkillerRib.label>painkiller rib replacement</PainkillerRib.label>
+<PainkillerRib.description>An artificial rib, equipped with little morphine-dispensers to numb the user's pain.</PainkillerRib.description>
+
+<HeaterRib.label>heating rib replacement</HeaterRib.label>
+<HeaterRib.description>An artificial rib, containing a micro-reactor powered, heat inducing spiral to warm the body from the inside.</HeaterRib.description>
+
+<CoolerRib.label>cooling rib replacement</CoolerRib.label>
+<CoolerRib.description>An artificial rib with a micro coolant system, increasing the effectiveness of heat exchange via dermal exhausts.</CoolerRib.description>
+
+<CoagulatorRib.label>coagulator rib replacement</CoagulatorRib.label>
+<CoagulatorRib.description>An artificial rib, equipped with little coagulator-dispensers that responds to blood loss, which will make the blood clot easier, in an effort to reduce bleeding.</CoagulatorRib.description>
+
+</LanguageData>

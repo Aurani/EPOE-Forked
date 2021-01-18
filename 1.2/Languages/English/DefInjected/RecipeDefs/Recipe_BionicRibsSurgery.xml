@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallMedicalRib.label>install medical rib replacement</InstallMedicalRib.label>
+<InstallMedicalRib.description>Installs a medical rib replacement.</InstallMedicalRib.description>
+<InstallMedicalRib.jobString>Installing a medical rib replacement.</InstallMedicalRib.jobString>
+
+<InstallDruggedRib.label>install drugged rib</InstallDruggedRib.label>
+<InstallDruggedRib.description>Installs a drugged rib.</InstallDruggedRib.description>
+<InstallDruggedRib.jobString>Installing a drugged rib.</InstallDruggedRib.jobString>
+
+<InstallAdrenalineRib.label>install adrenaline rib</InstallAdrenalineRib.label>
+<InstallAdrenalineRib.description>Installs an adrenaline rib.</InstallAdrenalineRib.description>
+<InstallAdrenalineRib.jobString>Installing an adrenaline rib.</InstallAdrenalineRib.jobString>
+
+<InstallPainkillerRib.label>install painkiller rib</InstallPainkillerRib.label>
+<InstallPainkillerRib.description>Installs a painkiller rib.</InstallPainkillerRib.description>
+<InstallPainkillerRib.jobString>Installing a painkiller rib.</InstallPainkillerRib.jobString>
+
+<InstallHeaterRib.label>install heating rib</InstallHeaterRib.label>
+<InstallHeaterRib.description>Installs a heating rib.</InstallHeaterRib.description>
+<InstallHeaterRib.jobString>Installing a heating rib.</InstallHeaterRib.jobString>
+
+<InstallCoolerRib.label>install cooling rib</InstallCoolerRib.label>
+<InstallCoolerRib.description>Installs a cooling rib.</InstallCoolerRib.description>
+<InstallCoolerRib.jobString>Installing a cooling rib.</InstallCoolerRib.jobString>
+
+<InstallCoagulatorRib.label>install coagulator rib replacement</InstallCoagulatorRib.label>
+<InstallCoagulatorRib.description>Installs a coagulator rib replacement.</InstallCoagulatorRib.description>
+<InstallCoagulatorRib.jobString>Installing a coagulator rib replacement.</InstallCoagulatorRib.jobString>
+
+<RemoveMedicalRib.label>remove medical rib replacement</RemoveMedicalRib.label>
+<RemoveMedicalRib.description>Remove a medical rib replacement.</RemoveMedicalRib.description>
+<RemoveMedicalRib.jobString>Removing rib replacement.</RemoveMedicalRib.jobString>
+
+<RemoveDruggedRib.label>remove drugged rib replacement</RemoveDruggedRib.label>
+<RemoveDruggedRib.description>Remove a drugged rib replacement.</RemoveDruggedRib.description>
+<RemoveDruggedRib.jobString>Removing rib replacement.</RemoveDruggedRib.jobString>
+
+<RemoveAdrenalineRib.label>remove adrenaline rib replacement</RemoveAdrenalineRib.label>
+<RemoveAdrenalineRib.description>Remove a adrenaline rib replacement.</RemoveAdrenalineRib.description>
+<RemoveAdrenalineRib.jobString>Removing rib replacement.</RemoveAdrenalineRib.jobString>
+
+<RemovePainkillerRib.label>remove painkiller rib replacement</RemovePainkillerRib.label>
+<RemovePainkillerRib.description>Remove a painkiller rib replacement.</RemovePainkillerRib.description>
+<RemovePainkillerRib.jobString>Removing rib replacement.</RemovePainkillerRib.jobString>
+
+<RemoveHeaterRib.label>remove heating rib replacement</RemoveHeaterRib.label>
+<RemoveHeaterRib.description>Remove a heating rib replacement.</RemoveHeaterRib.description>
+<RemoveHeaterRib.jobString>Removing rib replacement.</RemoveHeaterRib.jobString>
+
+<RemoveCoolerRib.label>remove cooling rib replacement</RemoveCoolerRib.label>
+<RemoveCoolerRib.description>Remove a cooling rib replacement.</RemoveCoolerRib.description>
+<RemoveCoolerRib.jobString>Removing rib replacement.</RemoveCoolerRib.jobString>
+
+<RemoveCoagulatorRib.label>remove coagulator rib replacement</RemoveCoagulatorRib.label>
+<RemoveCoagulatorRib.description>Remove a coagulator rib replacement.</RemoveCoagulatorRib.description>
+<RemoveCoagulatorRib.jobString>Removing rib replacement.</RemoveCoagulatorRib.jobString>
+
+</LanguageData>

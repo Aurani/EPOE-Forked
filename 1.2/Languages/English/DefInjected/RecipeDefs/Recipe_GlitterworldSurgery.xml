@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallTacticalCorneaImplant.label>install tactical cornea implant</InstallTacticalCorneaImplant.label>
+<InstallTacticalCorneaImplant.description>Installs tactical cornea implant.</InstallTacticalCorneaImplant.description>
+<InstallTacticalCorneaImplant.jobString>Installing tactical cornea implant.</InstallTacticalCorneaImplant.jobString>
+
+<InstallConstructorCore.label>install auxiliary AI (constructing)</InstallConstructorCore.label>
+<InstallConstructorCore.description>Installs auxiliary AI (constructing).</InstallConstructorCore.description>
+<InstallConstructorCore.jobString>Installing auxiliary AI (constructing).</InstallConstructorCore.jobString>
+
+<InstallFarmerCore.label>install auxiliary AI (agricultural)</InstallFarmerCore.label>
+<InstallFarmerCore.description>Installs auxiliary AI (agricultural).</InstallFarmerCore.description>
+<InstallFarmerCore.jobString>Installing auxiliary AI (agricultural).</InstallFarmerCore.jobString>
+
+<InstallMinerCore.label>install auxiliary AI (mining)</InstallMinerCore.label>
+<InstallMinerCore.description>Installs auxiliary AI (mining).</InstallMinerCore.description>
+<InstallMinerCore.jobString>Installing auxiliary AI (mining).</InstallMinerCore.jobString>
+
+<InstallDoctorCore.label>install auxiliary AI (medical)</InstallDoctorCore.label>
+<InstallDoctorCore.description>Installs auxiliary AI (medical).</InstallDoctorCore.description>
+<InstallDoctorCore.jobString>Installing auxiliary AI (medical).</InstallDoctorCore.jobString>
+
+<InstallDiplomatCore.label>install auxiliary AI (diplomatic)</InstallDiplomatCore.label>
+<InstallDiplomatCore.description>Installs auxiliary AI (diplomatic).</InstallDiplomatCore.description>
+<InstallDiplomatCore.jobString>Installing auxiliary AI (diplomatic).</InstallDiplomatCore.jobString>
+
+<EPIA_InstallAuxiliaryAI_Sharpshooter.label>install auxiliary AI (sharpshooter)</EPIA_InstallAuxiliaryAI_Sharpshooter.label>
+<EPIA_InstallAuxiliaryAI_Sharpshooter.description>Installs auxiliary AI (sharpshooter).</EPIA_InstallAuxiliaryAI_Sharpshooter.description>
+<EPIA_InstallAuxiliaryAI_Sharpshooter.jobString>Installing auxiliary AI (sharpshooter).</EPIA_InstallAuxiliaryAI_Sharpshooter.jobString>
+
+<EPIA_InstallAuxiliaryAI_Commando.label>install auxiliary AI (commando)</EPIA_InstallAuxiliaryAI_Commando.label>
+<EPIA_InstallAuxiliaryAI_Commando.description>Installs auxiliary AI (commando).</EPIA_InstallAuxiliaryAI_Commando.description>
+<EPIA_InstallAuxiliaryAI_Commando.jobString>Installing auxiliary AI (commando).</EPIA_InstallAuxiliaryAI_Commando.jobString>
+
+<EPIA_InstallAuxiliaryAI_Brawler.label>install auxiliary AI (brawler)</EPIA_InstallAuxiliaryAI_Brawler.label>
+<EPIA_InstallAuxiliaryAI_Brawler.description>Installs auxiliary AI (brawler).</EPIA_InstallAuxiliaryAI_Brawler.description>
+<EPIA_InstallAuxiliaryAI_Brawler.jobString>Installing auxiliary AI (brawler).</EPIA_InstallAuxiliaryAI_Brawler.jobString>
+
+<InstallAIPersonaCore.label>install AI persona core</InstallAIPersonaCore.label>
+<InstallAIPersonaCore.description>Installs AI persona core.</InstallAIPersonaCore.description>
+<InstallAIPersonaCore.jobString>Installing AI persona core.</InstallAIPersonaCore.jobString>
+
+<RemoveTacticalCorneaImplant.label>remove tactical cornea implant</RemoveTacticalCorneaImplant.label>
+<RemoveTacticalCorneaImplant.description>Remove a tactical cornea implant. Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveTacticalCorneaImplant.description>
+<RemoveTacticalCorneaImplant.jobString>Removing tactical cornea implant.</RemoveTacticalCorneaImplant.jobString>
+
+<RemoveConstructorCore.label>remove auxiliary AI (constructing)</RemoveConstructorCore.label>
+<RemoveConstructorCore.description>Remove auxiliary AI (constructing). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveConstructorCore.description>
+<RemoveConstructorCore.jobString>Removing auxiliary AI.</RemoveConstructorCore.jobString>
+
+<RemoveFarmerCore.label>remove auxiliary AI (agricultural)</RemoveFarmerCore.label>
+<RemoveFarmerCore.description>Remove auxiliary AI (agricultural). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveFarmerCore.description>
+<RemoveFarmerCore.jobString>Removing auxiliary AI.</RemoveFarmerCore.jobString>
+
+<RemoveMinerCore.label>remove auxiliary AI (mining)</RemoveMinerCore.label>
+<RemoveMinerCore.description>Remove auxiliary AI (mining). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveMinerCore.description>
+<RemoveMinerCore.jobString>Removing auxiliary AI.</RemoveMinerCore.jobString>
+
+<RemoveDoctorCore.label>remove auxiliary AI (medical)</RemoveDoctorCore.label>
+<RemoveDoctorCore.description>Remove auxiliary AI (medical). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveDoctorCore.description>
+<RemoveDoctorCore.jobString>Removing auxiliary AI.</RemoveDoctorCore.jobString>
+
+<RemoveDiplomatCore.label>remove auxiliary AI (diplomatic)</RemoveDiplomatCore.label>
+<RemoveDiplomatCore.description>Remove auxiliary AI (diplomatic). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveDiplomatCore.description>
+<RemoveDiplomatCore.jobString>Removing auxiliary AI.</RemoveDiplomatCore.jobString>
+
+<EPIA_RemoveAuxiliaryAI_Sharpshooter.label>remove auxiliary AI (sharpshooter)</EPIA_RemoveAuxiliaryAI_Sharpshooter.label>
+<EPIA_RemoveAuxiliaryAI_Sharpshooter.description>Remove auxiliary AI (sharpshooter). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</EPIA_RemoveAuxiliaryAI_Sharpshooter.description>
+<EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>Removing auxiliary AI.</EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>
+
+<EPIA_RemoveAuxiliaryAI_Commando.label>remove auxiliary AI (commando)</EPIA_RemoveAuxiliaryAI_Commando.label>
+<EPIA_RemoveAuxiliaryAI_Commando.description>Remove auxiliary AI (commando). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</EPIA_RemoveAuxiliaryAI_Commando.description>
+<EPIA_RemoveAuxiliaryAI_Commando.jobString>Removing auxiliary AI.</EPIA_RemoveAuxiliaryAI_Commando.jobString>
+
+<EPIA_RemoveAuxiliaryAI_Brawler.label>remove auxiliary AI (brawler)</EPIA_RemoveAuxiliaryAI_Brawler.label>
+<EPIA_RemoveAuxiliaryAI_Brawler.description>Remove auxiliary AI (brawler). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</EPIA_RemoveAuxiliaryAI_Brawler.description>
+<EPIA_RemoveAuxiliaryAI_Brawler.jobString>Removing auxiliary AI.</EPIA_RemoveAuxiliaryAI_Brawler.jobString>
+
+</LanguageData>

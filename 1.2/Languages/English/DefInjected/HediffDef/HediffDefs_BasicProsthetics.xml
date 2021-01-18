@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<HookHand.label>Hook hand</HookHand.label>
+<HookHand.labelNoun>a hook hand</HookHand.labelNoun>
+<HookHand.description>An installed hook hand.</HookHand.description>
+<HookHand.comps.0.tools.0.label>hook hand</HookHand.comps.0.tools.0.label>
+
+<SteelArm.label>steel arm</SteelArm.label>
+<SteelArm.labelNoun>a steel arm</SteelArm.labelNoun>
+<SteelArm.description>An installed steel arm.</SteelArm.description>
+<SteelArm.comps.0.tools.0.label>fist</SteelArm.comps.0.tools.0.label>
+
+<EyePatch.label>eye patch</EyePatch.label>
+<EyePatch.labelNoun>an eye patch</EyePatch.labelNoun>
+<EyePatch.description>An installed eye patch.</EyePatch.description>
+
+<EarBandage.label>ear bandage</EarBandage.label>
+<EarBandage.labelNoun>an ear bandage</EarBandage.labelNoun>
+<EarBandage.description>An installed ear bandage.</EarBandage.description>
+
+</LanguageData>

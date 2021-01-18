@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallAdvancedBionicEye.label>install advanced bionic eye</InstallAdvancedBionicEye.label>
+<InstallAdvancedBionicEye.description>Installs advanced bionic eye.</InstallAdvancedBionicEye.description>
+<InstallAdvancedBionicEye.jobString>Installing advanced bionic eye.</InstallAdvancedBionicEye.jobString>
+
+<InstallAdvancedBionicArm.label>install advanced bionic arm</InstallAdvancedBionicArm.label>
+<InstallAdvancedBionicArm.description>Installs advanced bionic arm.</InstallAdvancedBionicArm.description>
+<InstallAdvancedBionicArm.jobString>Installing advanced bionic arm.</InstallAdvancedBionicArm.jobString>
+
+<InstallAdvancedBionicLeg.label>install advanced bionic leg</InstallAdvancedBionicLeg.label>
+<InstallAdvancedBionicLeg.description>Installs advanced bionic leg.</InstallAdvancedBionicLeg.description>
+<InstallAdvancedBionicLeg.jobString>Installing advanced bionic leg.</InstallAdvancedBionicLeg.jobString>
+
+<InstallAdvancedBionicSpine.label>install advanced bionic spine</InstallAdvancedBionicSpine.label>
+<InstallAdvancedBionicSpine.description>Installs advanced bionic spine.</InstallAdvancedBionicSpine.description>
+<InstallAdvancedBionicSpine.jobString>Installing advanced bionic spine.</InstallAdvancedBionicSpine.jobString>
+
+<InstallAdvancedBionicEar.label>install advanced bionic ear</InstallAdvancedBionicEar.label>
+<InstallAdvancedBionicEar.description>Installs an advanced bionic ear.</InstallAdvancedBionicEar.description>
+<InstallAdvancedBionicEar.jobString>Installing an advanced bionic ear.</InstallAdvancedBionicEar.jobString>
+
+<InstallAdvancedBionicHand.label>install advanced bionic hand</InstallAdvancedBionicHand.label>
+<InstallAdvancedBionicHand.description>Installs advanced bionic hand.</InstallAdvancedBionicHand.description>
+<InstallAdvancedBionicHand.jobString>Installing advanced bionic hand.</InstallAdvancedBionicHand.jobString>
+
+<InstallAdvancedBionicFoot.label>install advanced bionic foot</InstallAdvancedBionicFoot.label>
+<InstallAdvancedBionicFoot.description>Installs bionic foot.</InstallAdvancedBionicFoot.description>
+<InstallAdvancedBionicFoot.jobString>Installing advanced bionic foot.</InstallAdvancedBionicFoot.jobString>
+
+<InstallAdvancedBionicFinger.label>install advanced bionic finger</InstallAdvancedBionicFinger.label>
+<InstallAdvancedBionicFinger.description>Installs advanced bionic finger.</InstallAdvancedBionicFinger.description>
+<InstallAdvancedBionicFinger.jobString>Installing advanced bionic finger.</InstallAdvancedBionicFinger.jobString>
+
+<InstallAdvancedBionicToe.label>install advanced bionic toe</InstallAdvancedBionicToe.label>
+<InstallAdvancedBionicToe.description>Installs advanced bionic toe.</InstallAdvancedBionicToe.description>
+<InstallAdvancedBionicToe.jobString>Installing advanced bionic toe.</InstallAdvancedBionicToe.jobString>
+
+<InstallAdvancedBionicJaw.label>install advanced bionic jaw implant</InstallAdvancedBionicJaw.label>
+<InstallAdvancedBionicJaw.description>Installs advanced bionic jaw.</InstallAdvancedBionicJaw.description>
+<InstallAdvancedBionicJaw.jobString>Installing advanced bionic jaw.</InstallAdvancedBionicJaw.jobString>
+
+<InstallAdvancedPowerArm.label>install advanced power arm</InstallAdvancedPowerArm.label>
+<InstallAdvancedPowerArm.description>Installs advanced power arm.</InstallAdvancedPowerArm.description>
+<InstallAdvancedPowerArm.jobString>Installing advanced power arm.</InstallAdvancedPowerArm.jobString>
+
+<InstallExoskeletonSuit.label>install exoskeleton suit</InstallExoskeletonSuit.label>
+<InstallExoskeletonSuit.description>Installs exoskeleton suit.</InstallExoskeletonSuit.description>
+<InstallExoskeletonSuit.jobString>Installing exoskeleton suit.</InstallExoskeletonSuit.jobString>
+
+<EPIA_InstallProtectiveExoskeleton.label>install protective exoskeleton</EPIA_InstallProtectiveExoskeleton.label>
+<EPIA_InstallProtectiveExoskeleton.description>Installs protective exoskeleton.</EPIA_InstallProtectiveExoskeleton.description>
+<EPIA_InstallProtectiveExoskeleton.jobString>Installing protective exoskeleton.</EPIA_InstallProtectiveExoskeleton.jobString>
+
+<RemoveExoskeletonSuit.label>remove exoskeleton suit</RemoveExoskeletonSuit.label>
+<RemoveExoskeletonSuit.description>Remove exoskeleton suit.</RemoveExoskeletonSuit.description>
+<RemoveExoskeletonSuit.jobString>Removing exoskeleton suit.</RemoveExoskeletonSuit.jobString>
+
+<EPIA_RemoveProtectiveExoskeleton.label>remove protective exoskeleton</EPIA_RemoveProtectiveExoskeleton.label>
+<EPIA_RemoveProtectiveExoskeleton.description>Remove protective exoskeleton.</EPIA_RemoveProtectiveExoskeleton.description>
+<EPIA_RemoveProtectiveExoskeleton.jobString>Removing protective exoskeleton.</EPIA_RemoveProtectiveExoskeleton.jobString>
+
+</LanguageData>
