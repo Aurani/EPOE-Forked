@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffDef Name="addedPartSurrogate" ParentName="AddedBodyPartBase" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(233,129,69)</defaultLabelColor>
+		<priceImpact>true</priceImpact>
+	</HediffDef>
+
+	<ThingDef Name="EPIASurrogateBase" ParentName="BodyPartProstheticMakeableBase" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>BodyPartsProsthetic</li>
+		</thingCategories>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/SurrogatePart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers Inherit="False">
+				<li>TableOrgans</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+			<researchPrerequisite>SurrogateOrgans</researchPrerequisite>
+		</recipeMaker>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- New EPOE body parts -->
+
+	<!-- Surrogate heart -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SimpleProstheticHeart</defName>
+		<label>surrogate heart</label>
+		<description>An installed surrogate heart.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticHeart</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIASurrogateBase">
+		<defName>SimpleProstheticHeart</defName>
+		<label>surrogate heart</label>
+		<description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticHeart</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>20</Cloth>
+			<Steel>30</Steel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSimpleProstheticHeart</defName>
+		<label>install surrogate heart</label>
+		<description>Installs an surrogate heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticHeart</ThingDef>
+			<HediffDef>SimpleProstheticHeart</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing surrogate heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticHeart</addsHediff>
+	</RecipeDef>
+
+	<!-- Surrogate lung -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateLung</defName>
+		<label>surrogate lung</label>
+		<description>An installed surrogate lung.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateLung</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SurrogateLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIASurrogateBase">
+		<defName>SurrogateLung</defName>
+		<label>surrogate lung</label>
+		<description>A rudimentary lung replacement. Makes a deep, clicking noise.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSurrogateLung</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>15</Cloth>
+			<Steel>25</Steel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSurrogateLung</defName>
+		<label>install surrogate lung</label>
+		<description>Installs surrogate lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SurrogateLung</ThingDef>
+			<HediffDef>SurrogateLung</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing surrogate lung.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SurrogateLung</addsHediff>
+	</RecipeDef>
+
+	<!-- Surrogate stomach -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateStomach</defName>
+		<label>surrogate stomach</label>
+		<description>An installed surrogate stomach.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateStomach</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SurrogateStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIASurrogateBase">
+		<defName>SurrogateStomach</defName>
+		<label>surrogate stomach</label>
+		<description>A rudimentary stomach replacement. Produces unpleasant smelling bowel gas.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSurrogateStomach</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>15</Cloth>
+			<Steel>25</Steel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSurrogateStomach</defName>
+		<label>install surrogate stomach</label>
+		<description>Installs a surrogate stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SurrogateStomach</ThingDef>
+			<HediffDef>SurrogateStomach</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing surrogate stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SurrogateStomach</addsHediff>
+	</RecipeDef>
+
+	<!-- Surrogate liver -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateLiver</defName>
+		<label>surrogate liver</label>
+		<description>An installed surrogate liver.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateLiver</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SurrogateLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIASurrogateBase">
+		<defName>SurrogateLiver</defName>
+		<label>surrogate liver</label>
+		<description>A rudimentary blood filter. Has problems with keeping the blood sugar level constant.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSurrogateLiver</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>15</Cloth>
+			<Steel>25</Steel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSurrogateLiver</defName>
+		<label>install surrogate liver</label>
+		<description>Installs a surrogate liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SurrogateLiver</ThingDef>
+			<HediffDef>SurrogateLiver</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing surrogate liver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SurrogateLiver</addsHediff>
+	</RecipeDef>
+
+	<!-- Surrogate kidney -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>SurrogateKidney</defName>
+		<label>surrogate kidney</label>
+		<description>An installed surrogate kidney.</description>
+		<descriptionHyperlinks><ThingDef>SurrogateKidney</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SurrogateKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.65</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIASurrogateBase">
+		<defName>SurrogateKidney</defName>
+		<label>surrogate kidney</label>
+		<description>A rudimentary kidney replacement. One of its possible side effects is getting pale.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSurrogateKidney</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>15</Cloth>
+			<Steel>25</Steel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSurrogateKidney</defName>
+		<label>install surrogate kidney</label>
+		<description>Installs a surrogate kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SurrogateKidney</ThingDef>
+			<HediffDef>SurrogateKidney</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing surrogate kidney.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SurrogateKidney</addsHediff>
+	</RecipeDef>
+
+	<!-- Brain implants -->
+
+	<RecipeDef Name="EPIASurgerySurrogateImplant" ParentName="SurgeryFlesh" Abstract="True">
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<!-- Brain stimulator -->
+
+	<HediffDef ParentName="addedPartSurrogate">
+		<defName>BrainStimulator</defName>
+		<label>brain stimulator</label>
+		<description>An installed brain stimulator.</description>
+		<descriptionHyperlinks><ThingDef>BrainStimulator</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BrainStimulator</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.7</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.85</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIASurrogateBase">
+		<defName>BrainStimulator</defName>
+		<label>brain stimulator</label>
+		<description>A small device that does its best to stimulate the remaining areas of the brain. Recommended for severe brain damage only. Requires brain surgery research before installing.</description>
+		<descriptionHyperlinks><RecipeDef>InstallBrainStimulator</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Silver>3</Silver>
+			<Neutroamine>10</Neutroamine>
+			<Steel>50</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIASurgerySurrogateImplant">
+		<defName>InstallBrainStimulator</defName>
+		<label>install brain stimulator</label>
+		<description>Installs brain stimulator.</description>
+		<descriptionHyperlinks><ThingDef>BrainStimulator</ThingDef></descriptionHyperlinks>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing brain stimulator.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BrainStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BrainStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BrainStimulator</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySurrogateImplant">
+		<defName>RemoveBrainStimulator</defName>
+		<label>remove brain stimulator</label>
+		<description>Removes brain stimulator.</description>
+		<workerClass>Recipe_RemoveImplant</workerClass>
+		<jobString>Removing brain stimulator.</jobString>
+		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</successfullyRemovedHediffMessage>
+		<workAmount>3700</workAmount>
+		<removesHediff>BrainStimulator</removesHediff>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		<disallowedThingDefs>
+			<li>MedicineHerbal</li>
+		</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

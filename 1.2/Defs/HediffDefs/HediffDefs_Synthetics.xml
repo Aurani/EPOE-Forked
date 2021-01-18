@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffDef Name="addedPartSynthetic" ParentName="AddedBodyPartBase" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(188,39,242)</defaultLabelColor>
+		<priceImpact>true</priceImpact>
+	</HediffDef>
+
+	<ThingDef Name="EPIASyntheticBase" ParentName="EPIASurrogateBase" Abstract="True">
+	    <techLevel>Spacer</techLevel>
+		<thingCategories Inherit="False">
+			<li>BodyPartsBionic</li>
+		</thingCategories>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/SyntheticPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>11</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>SyntheticOrgans</researchPrerequisite>
+		</recipeMaker>
+		<techHediffsTags Inherit="False">
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef Name="EPIA_UpgradeSyntheticBase" ParentName="EPIASyntheticBase" Abstract="True">
+		<recipeMaker>
+			<recipeUsers Inherit="False" />
+		</recipeMaker>
+	</ThingDef>
+
+	<RecipeDef Name="RecipeSyntheticOrgan" ParentName="EPIA_RecipeBaseProsthesis"  Abstract="True">
+		<researchPrerequisite>SyntheticOrgans</researchPrerequisite>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>20000</workAmount>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>TableOrgans</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="EPIA_RecipeUpgradeSynthetic" ParentName="RecipeSyntheticOrgan"  Abstract="True">
+		<workAmount>14000</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+	<!-- Vanilla overwrites, for now. -->
+
+	<ThingDef ParentName="EPIASyntheticBase">
+		<defName>Joywire</defName>
+		<label>joywire</label>
+		<description>This little brain implant will make you feel happy and relaxed.</description>
+		<descriptionHyperlinks><RecipeDef>InstallJoywire</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Gold>1</Gold>
+			<Silver>3</Silver>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>BodyPartsUltra</li>
+		</thingCategories>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveJoywire</defName>
+		<label>remove joywire</label>
+		<description>Remove the joywire.</description>
+		<descriptionHyperlinks><ThingDef>Joywire</ThingDef></descriptionHyperlinks>
+		<jobString>Removing joywire.</jobString>
+		<removesHediff>Joywire</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<ThingDef ParentName="EPIASyntheticBase">
+		<defName>Painstopper</defName>
+		<label>painstopper</label>
+		<description>This brain implant will make you not feel pain.</description>
+		<descriptionHyperlinks><RecipeDef>InstallPainstopper</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Gold>1</Gold>
+			<Silver>3</Silver>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>		
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>BodyPartsUltra</li>
+		</thingCategories>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemovePainstopper</defName>
+		<label>remove painstopper</label>
+		<description>Remove the painstopper.</description>
+		<descriptionHyperlinks><ThingDef>Painstopper</ThingDef></descriptionHyperlinks>
+		<jobString>Removing painstopper.</jobString>
+		<removesHediff>Painstopper</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- New EPOE body parts -->
+
+	<!-- Synthetic heart -->
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>BionicHeart</defName>
+		<label>synthetic heart</label>
+		<labelNoun>a synthetic heart</labelNoun>
+		<description>An installed synthetic heart.</description>
+		<descriptionHyperlinks><ThingDef>BionicHeart</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+		  <betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>BionicHeart</defName>
+		<label>synthetic heart</label>
+		<description>A top-of-the-line heart replacement. Can last for over 30 years on a single charge.</description>
+		<descriptionHyperlinks><RecipeDef>InstallBionicHeart</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>20</Cloth>
+			<Hyperweave>15</Hyperweave>
+			<Steel>30</Steel>
+			<Plasteel>30</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateSyntheticHeart</defName>
+		<label>assemble synthetic heart</label>
+		<description>Upgrade surrogate heart into synthetic heart.</description>
+		<jobString>Upgrading surrogate heart.</jobString>
+		<products>
+			<BionicHeart>1</BionicHeart>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticHeart</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallBionicHeart</defName>
+		<label>install synthetic heart</label>
+		<description>Installs a synthetic heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicHeart</ThingDef>
+			<HediffDef>BionicHeart</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicHeart</addsHediff>
+	</RecipeDef>
+
+	<!-- Synthetic lung -->
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>SyntheticLung</defName>
+		<label>synthetic lung</label>
+		<labelNoun>a synthetic lung</labelNoun>
+		<description>An installed synthetic lung.</description>
+		<descriptionHyperlinks><ThingDef>SyntheticLung</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+		  <betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>SyntheticLung</defName>
+		<label>synthetic lung</label>
+		<description>A high-tech breathing replacement. Makes a soft whirring sound.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSyntheticLung</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>20</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateSyntheticLung</defName>
+		<label>assemble synthetic lung</label>
+		<description>Upgrade surrogate lung into synthetic lung.</description>
+		<jobString>Upgrading surrogate lung.</jobString>
+		<products>
+			<SyntheticLung>1</SyntheticLung>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateLung</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticLung</defName>
+		<label>install synthetic lung</label>
+		<description>Installs a synthetic lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLung</ThingDef>
+			<HediffDef>SyntheticLung</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic lung.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticLung</addsHediff>
+	</RecipeDef>
+
+	<!-- Synthetic stomach -->
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>BionicStomach</defName>
+		<label>synthetic stomach</label>
+		<labelNoun>a synthetic stomach</labelNoun>
+		<description>An installed synthetic stomach.</description>
+		<descriptionHyperlinks><ThingDef>BionicStomach</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>BionicStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+		  <betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>BionicStomach</defName>
+		<label>synthetic stomach</label>
+		<description>An enhanced stomach augmented with chemical synthesizers that efficiently digest nearly any energy-bearing foodstuff. Unaffected by its own stomach acid.</description>
+		<descriptionHyperlinks><RecipeDef>InstallBionicStomach</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>20</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateSyntheticStomach</defName>
+		<label>assemble synthetic stomach</label>
+		<description>Upgrade surrogate stomach into synthetic stomach.</description>
+		<jobString>Upgrading surrogate stomach.</jobString>
+		<products>
+			<BionicStomach>1</BionicStomach>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateStomach</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallBionicStomach</defName>
+		<label>install synthetic stomach</label>
+		<description>Installs a synthetic stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BionicStomach</ThingDef>
+			<HediffDef>BionicStomach</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicStomach</addsHediff>
+	</RecipeDef>
+
+	<!-- Synthetic liver -->
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>SyntheticLiver</defName>
+		<label>synthetic liver</label>
+		<labelNoun>a synthetic liver</labelNoun>
+		<description>An installed synthetic liver.</description>
+		<descriptionHyperlinks><ThingDef>SyntheticLiver</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+		  <betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>SyntheticLiver</defName>
+		<label>synthetic liver</label>
+		<description>An enhanced liver augmented with synthetic fibres to decrease rejection rate.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSyntheticLiver</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>20</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateSyntheticLiver</defName>
+		<label>assemble synthetic liver</label>
+		<description>Upgrade surrogate liver into synthetic liver.</description>
+		<jobString>Upgrading surrogate liver.</jobString>
+		<products>
+			<SyntheticLiver>1</SyntheticLiver>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateLiver</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticLiver</defName>
+		<label>install synthetic liver</label>
+		<description>Installs a synthetic liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticLiver</ThingDef>
+			<HediffDef>SyntheticLiver</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic liver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticLiver</addsHediff>
+	</RecipeDef>
+
+	<!-- Synthetic kidney -->
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>SyntheticKidney</defName>
+		<label>synthetic kidney</label>
+		<labelNoun>a synthetic kidney</labelNoun>
+		<description>An installed synthetic kidney.</description>
+		<descriptionHyperlinks><ThingDef>SyntheticKidney</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SyntheticKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.2</partEfficiency>
+		  <betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>SyntheticKidney</defName>
+		<label>synthetic kidney</label>
+		<description>An enhanced kidney augmented with synthetic fibres to decrease rejection rate.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSyntheticKidney</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Cloth>15</Cloth>
+			<Hyperweave>10</Hyperweave>
+			<Steel>20</Steel>
+			<Plasteel>20</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateSyntheticKidney</defName>
+		<label>assemble synthetic kidney</label>
+		<description>Upgrade surrogate kidney into synthetic kidney.</description>
+		<jobString>Upgrading surrogate kidney.</jobString>
+		<products>
+			<SyntheticKidney>1</SyntheticKidney>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SurrogateKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hyperweave</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SurrogateKidney</li>
+				<li>Hyperweave</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallSyntheticKidney</defName>
+		<label>install synthetic kidney</label>
+		<description>Installs a synthetic kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SyntheticKidney</ThingDef>
+			<HediffDef>SyntheticKidney</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing synthetic kidney.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SyntheticKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SyntheticKidney</addsHediff>
+	</RecipeDef>
+
+	<!-- Muscle stimulator -->
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>MuscleStimulatorArms</defName>
+		<label>muscle stimulator</label>
+		<description>An installed muscle stimulator in the arms.</description>
+		<descriptionHyperlinks><ThingDef>MuscleStimulator</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>MuscleStimulator</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.10</partEfficiencyOffset>
+				<statOffsets>
+					<CarryingCapacity>+50</CarryingCapacity>
+					<MeleeHitChance>3</MeleeHitChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>MuscleStimulatorLegs</defName>
+		<label>muscle stimulator</label>
+		<description>An installed muscle stimulator in the legs.</description>
+		<descriptionHyperlinks><ThingDef>MuscleStimulator</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>MuscleStimulator</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<partEfficiencyOffset>0.10</partEfficiencyOffset>
+				<statOffsets>
+					<MoveSpeed>0.2</MoveSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIASyntheticBase">
+		<defName>MuscleStimulator</defName>
+		<label>muscle stimulator</label>
+		<description>Through special chemicals and electric shocks this little chip is able to stimulate the muscles so they can operate at above maximum performance.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallMuscleStimulatorArms</RecipeDef>
+			<RecipeDef>InstallMuscleStimulatorLegs</RecipeDef>
+		</descriptionHyperlinks>
+		<costList>
+			<Gold>2</Gold>
+			<Neutroamine>5</Neutroamine>
+			<Plasteel>35</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallMuscleStimulatorArms</defName>
+		<label>install muscle stimulator</label>
+		<description>Installs muscle stimulator in the arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>MuscleStimulator</ThingDef>
+			<HediffDef>MuscleStimulatorArms</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing muscle stimulator.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MuscleStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MuscleStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>MuscleStimulatorArms</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallMuscleStimulatorLegs</defName>
+		<label>install muscle stimulator</label>
+		<description>Installs muscle stimulator in the leg.</description>
+		<descriptionHyperlinks>
+			<ThingDef>MuscleStimulator</ThingDef>
+			<HediffDef>MuscleStimulatorLegs</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing muscle stimulator.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MuscleStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MuscleStimulator</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>MuscleStimulatorLegs</addsHediff>
+	</RecipeDef>
+
+	<!-- Brain implants -->
+
+	<RecipeDef Name="EPIASurgerySyntheticImplant" ParentName="SurgeryFlesh" Abstract="True">
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<!-- AI chip -->
+
+	<HediffDef ParentName="addedPartSynthetic">
+		<defName>AIChip</defName>
+		<label>AI Chip</label>
+		<labelNoun>an AI chip</labelNoun>
+		<description>An installed AI chip.</description>
+		<descriptionHyperlinks><ThingDef>AIChip</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AIChip</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>1</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>1</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_UpgradeSyntheticBase">
+		<defName>AIChip</defName>
+		<label>AI chip</label>
+		<description>Through special chemicals and electric shocks this little chip is able to completely restore the user's consciousness and mobility. Requires brain surgery research before installing.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAIChip</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Silver>3</Silver>
+			<Gold>1</Gold>
+			<Steel>50</Steel>
+			<Plasteel>30</Plasteel>
+			<Neutroamine>10</Neutroamine>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeSynthetic">
+		<defName>CreateAIChip</defName>
+		<label>assemble AI chip</label>
+		<description>Upgrade brain stimulator into AI chip brain implant.</description>
+		<jobString>Upgrading brain stimulator.</jobString>
+		<products>
+			<AIChip>1</AIChip>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BrainStimulator</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_MAAI_Chip</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BrainStimulator</li>
+				<li>Gold</li>
+				<li>Plasteel</li>
+				<li>EPOE_MAAI_Chip</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySyntheticImplant">
+		<defName>InstallAIChip</defName>
+		<label>install AI chip</label>
+		<description>Installs AI chip.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AIChip</ThingDef>
+			<HediffDef>AIChip</HediffDef>
+		</descriptionHyperlinks>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Installing AI chip.</jobString>
+		<workAmount>3700</workAmount>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AIChip</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>AIChip</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>AIChip</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgerySurrogateImplant">
+		<defName>RemoveAIChip</defName>
+		<label>remove AI chip implant</label>
+		<description>Removes Ai chip implant.</description>
+		<descriptionHyperlinks><ThingDef>AIChip</ThingDef></descriptionHyperlinks>
+		<jobString>Removing AI chip implant.</jobString>
+		<workerClass>Recipe_RemoveImplant</workerClass>
+		<workAmount>3700</workAmount>
+		<removesHediff>AIChip</removesHediff>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		<disallowedThingDefs>
+			<li>MedicineHerbal</li>
+		</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraderKindDef>
+		<defName>ProsthesesTrader</defName>
+		<label>prosthesis trader</label>
+		<orbital>true</orbital>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>10000~15000</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>10~30</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineUltratech</thingDef>
+				<countRange>-3~15</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Medicine</categoryDef>
+				<thingDefCountRange>2~6</thingDefCountRange>
+				<countRange>5~50</countRange>
+				<totalPriceRange>50~750</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BodyPartsProsthetic</categoryDef>
+				<thingDefCountRange>4~6</thingDefCountRange>
+				<countRange>1~3</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BodyPartsBionic</categoryDef>
+				<thingDefCountRange>3~6</thingDefCountRange>
+				<countRange>1~2</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BodyPartsUltra</categoryDef>
+				<thingDefCountRange>1~3</thingDefCountRange>
+				<countRange>1~1</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BodyPartsArchotech</categoryDef>
+				<thingDefCountRange>0~2</thingDefCountRange>
+				<countRange>1~1</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>EPIA_OrganicOptimizer</categoryDef>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<countRange>0~2</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TechHediff</tradeTag>
+				<thingDefCountRange>3~12</thingDefCountRange>
+				<countRange>1~1</countRange>
+			</li>
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>

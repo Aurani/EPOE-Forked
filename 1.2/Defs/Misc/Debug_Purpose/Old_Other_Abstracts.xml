@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Old abstracts for sake of old compatibility patches -->
+	<!-- And any other old stuff for debug reasons -->
+
+	<RecipeDef Name="SurgeryGlitterworld" ParentName="SurgeryFlesh" Abstract="True">
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<workAmount>3700</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="SurgeryNatural" ParentName="SurgeryFlesh" Abstract="True">
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MinceLimbs</defName>
+		<label>mince natural body parts</label>
+		<description>Minces natural body parts to obtain edible meat.</description>
+		<jobString>Butchering.</jobString>
+		<workAmount>250</workAmount>
+		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>BodyPartsNatural</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>BodyPartsNatural</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Meat_Human>10</Meat_Human>
+		</products>
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+	</RecipeDef>
+
+</Defs>
