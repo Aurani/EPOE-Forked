@@ -6,6 +6,7 @@
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
 	<packageId>vat.epoeforked</packageId>
 	<loadAfter>
@@ -14,5 +15,5 @@
 	<incompatibleWith>
 		<li>Ykara.EPOE</li>
 	</incompatibleWith>
-	<description>Adds the ability to craft tons of prosthesis and artificial organs in various forms and shapes. Version 3.3.5.</description>
+	<description>Adds the ability to craft tons of prosthesis and artificial organs in various forms and shapes. Version 3.3.12.</description>
 </ModMetaData>
