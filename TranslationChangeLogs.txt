@@ -1,3 +1,102 @@
+***Changes since (18.1.2021)***
+
+= Changes =
+ResearchProjectDefs\ProstheticsResearch - <EPOE_NeurologicalTreatment.description>
+
+
+
+***Changes since (16.10.2020)***
+
+= Changes =
+HediffDef\Hediffs_Injuries - <EPIA_EMP_ExoskeletonShielder.label> changed to <EPIA_EMP_ProtectiveExoskeleton.label>
+HediffDef\Hediffs_Injuries - <EPIA_EMP_ExoskeletonShielder.description> changed to <EPIA_EMP_ProtectiveExoskeleton.description>
+RecipeDefs\Recipe_BionicRibsCrafting - <EPIA_CreateCoagulatorRib.label> changed to <CreateCoagulatorRib.label>
+RecipeDefs\Recipe_BionicRibsCrafting - <EPIA_CreateCoagulatorRib.description> changed to <CreateCoagulatorRib.description>
+RecipeDefs\Recipe_BionicRibsCrafting - <EPIA_CreateCoagulatorRib.jobString> changed to <CreateCoagulatorRib.jobString>
+
+= Additions =
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RestoreTorsoBones.label>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RestoreTorsoBones.description>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_RestoreTorsoBones.jobString>
+
+= Removed =
+HediffDef\HediffDefs_Surrogates - <SurrogateHeart.label>
+HediffDef\HediffDefs_Surrogates - <SurrogateHeart.description>
+HediffDef\HediffDefs_Synthetics - <SyntheticHeart.label>
+HediffDef\HediffDefs_Synthetics - <SyntheticHeart.labelNoun>
+HediffDef\HediffDefs_Synthetics - <SyntheticHeart.description>
+HediffDef\HediffDefs_Synthetics - <SyntheticStomach.label>
+HediffDef\HediffDefs_Synthetics - <SyntheticStomach.labelNoun>
+HediffDef\HediffDefs_Synthetics - <SyntheticStomach.description>
+RecipeDefs\Recipe_SurrogatesSurgery - <InstallSurrogateHeart.label>
+RecipeDefs\Recipe_SurrogatesSurgery - <InstallSurrogateHeart.description>
+RecipeDefs\Recipe_SurrogatesSurgery - <InstallSurrogateHeart.jobString>
+RecipeDefs\Recipe_SyntheticsSurgery - <InstallSyntheticHeart.label>
+RecipeDefs\Recipe_SyntheticsSurgery - <InstallSyntheticHeart.description>
+RecipeDefs\Recipe_SyntheticsSurgery - <InstallSyntheticHeart.jobString>
+RecipeDefs\Recipe_SyntheticsSurgery - <InstallSyntheticStomach.label>
+RecipeDefs\Recipe_SyntheticsSurgery - <InstallSyntheticStomach.description>
+RecipeDefs\Recipe_SyntheticsSurgery - <InstallSyntheticStomach.jobString>
+ThingDefs\Items_BodyPartsSurrogate - <SurrogateHeart.label>
+ThingDefs\Items_BodyPartsSurrogate - <SurrogateHeart.description>
+ThingDefs\Items_BodyPartsSynthetics - <SyntheticHeart.label>
+ThingDefs\Items_BodyPartsSynthetics - <SyntheticHeart.description>
+ThingDefs\Items_BodyPartsSynthetics - <SyntheticStomach.label>
+ThingDefs\Items_BodyPartsSynthetics - <SyntheticStomach.description>
+
+
+***Changes since (8.9.2020)***
+
+= Changes =
+ThingCategoryDefs\ProsthesesCatgeories - <EPOE_OrganicOptimizer.label> changed to <EPIA_OrganicOptimizer.label>
+
+= Additions =
+ThingCategoryDefs\ProsthesesCatgeories - <EPIA_TailRedundancy.label>
+
+
+
+***Changes since (23.8.2020)***
+
+= Changes =
+
+ThingDefs\Items_BodypartsSimple - <ScytherBlade.label> changed into <EPIA_ScytherBlade.label>
+ThingDefs\Items_BodypartsSimple - <ScytherBlade.description> changed into <EPIA_ScytherBlade.description>
+
+Looks like vanilla is forcefully "auto-correcting" an old def and overriding it into the Power Claw, instead of
+doing the correct translation of what we intend it for.
+
+
+***Changes since (11.8.2020)***
+
+= New additions =
+
+HediffDef\HediffDefs_AdvancedBionics - <AdvancedBionicJaw.comps.0.tools.0.label>
+HediffDef\HediffDefs_Bionics - <BionicJaw.comps.0.tools.0.label>
+HediffDef\HediffDefs_Bionics - <SilentJaw.comps.0.tools.0.label>
+HediffDef\HediffDefs_SimpleProsthetics - <HydraulicJaw.comps.0.tools.0.label>
+
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryRemoveChemicalDamageModerate.label>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryRemoveChemicalDamageModerate.description>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryRemoveChemicalDamageModerate.jobString>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>
+
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryRemoveChemicalDamageSevere.label>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryRemoveChemicalDamageSevere.description>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryRemoveChemicalDamageSevere.jobString>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>
+
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryBrainRemoveChemicalDamageModerate.label>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryBrainRemoveChemicalDamageModerate.description>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryBrainRemoveChemicalDamageModerate.jobString>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryBrainRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>
+
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryBrainRemoveChemicalDamageSevere.label>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryBrainRemoveChemicalDamageSevere.description>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryBrainRemoveChemicalDamageSevere.jobString>
+RecipeDefs\Recipe_ScarsSurgery - <EPIA_SurgeryBrainRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>
+
+
+
 ***Changes since ***
 
 = New additions =

@@ -1,3 +1,45 @@
+3.3.12 (18.1.21)
+* Changed scar repairing related surgeries to use any medicines, no longer hard locked to glitterworld medicines.
+* Removed the 1% death chance on fail from scar repair surgery that do not involve the brain.
+* Corrected research description of Neurological treatment.
+* Auxiliary AI (diplomatic) now reduces social fight chance factor by 50%.
+* Auxiliary AI (construction) added fix broken building success chance 15%, and smoothing speed bonus 25%. 
+* Auxiliary AI (mining) increased deep drilling speed bonus from 20% to 25%.
+* Auxiliary AI (mining) reduced smoothing speed bonus from 15% to 10%.
+* Auxiliary AI (sharpshooter) removed aiming delay increase.
+
+
+3.3.11 (16.10.20)
+* Neuromuscular framework material cost reduced. From 50 Hyperweave to 25 Hyperweave.
+* Added a check before applying <defaultLabelColor> to certain vanilla hediff body parts.
+* Added debug for Advanced Power Claw if switching over from original EPOE.
+* New surgery to restore Clavicle, Sternum and Pelvis.
+
+3.3.10 (12.9.20)
+* Adjusted description hyperlinks to vanilla standard.
+
+3.3.9 (8.9.20)
+* Updated orbital traders able to purchase miscellaneous items such as art, instruments, etc, like other orbital traders.
+* Added an abstract that another module mod (alien expansion + patcher) will use. 
+
+3.3.8 (23.8.20)
+* Changed ScytherBlade defname to EPIA_ScytherBlade. Some vanilla's translation mechanic is messing about with intended translation.
+* Due to changing defname of scyther blade, any existing ones will disappear, but power claw will no longer be mistakenly translated as scyther blade.
+* Adjusted the power arm series WorkToMake tag to match the total work when making it from scratch through tiering.
+
+3.3.7 (21.8.20)
+* Fixed the Scar Removal Plus patch, where chemical damage surgery option would become missing.
+* Updated Power Arm to match the new vanilla's power claw attack power, and adjusted the Advanced Power Arm accordingly.
+* Added combat sound effects associated with some bionic arm and power arm, to match with vanilla.
+* Reverted crafting sounds to vanilla ones.
+* Some clean up of unused green texted defs in 1.2 folder.
+
+3.3.6 (11.8.20)
+* Added RimWorld 1.2 tag. Fixed added parts to satisfy transhumanists as intended.
+* Hydraulic, Bionic, Silent and Advanced Bionic jaws now have a bite attack enabled. Natural bite attacks are removed when given an artificial body part there, this gives it back.
+* Now able to cure chemical damage using Neuromuscular Framework. Neuro-cure Framework used instead for chemical damage in the brain.
+* For 1.2, it is now possible for body purists to not treat eye patches and ear bandages as artificial body parts.
+
 3.3.5 (1.5.2020)
 * Rebalanced Exoskeleton costs. Seems I derped much earlier and now it should be more consistent with the balance and benefits.
 * Neurological Treatment research no longer requires Glitterworld Implants
