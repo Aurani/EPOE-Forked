@@ -1,12 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-<SyntheticHeart.label>synthetic heart</SyntheticHeart.label>
-<SyntheticHeart.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticHeart.description>
-
-<SyntheticStomach.label>synthetic stomach</SyntheticStomach.label>
-<SyntheticStomach.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticStomach.description>
-
 <BionicHeart.label>synthetic heart</BionicHeart.label>
 <BionicHeart.description>A top-of-the-line heart replacement. Can last for over 30 years on a single charge.</BionicHeart.description>
 

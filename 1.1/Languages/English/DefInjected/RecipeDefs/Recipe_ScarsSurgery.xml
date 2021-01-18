@@ -131,4 +131,28 @@
 <EPIA_RepairBrainCrush.jobString>Mending mangled scar.</EPIA_RepairBrainCrush.jobString>
 <EPIA_RepairBrainCrush.successfullyRemovedHediffMessage>{0} has successfully mended {1}'s mangled scar.</EPIA_RepairBrainCrush.successfullyRemovedHediffMessage>
 
+<EPIA_SurgeryRemoveChemicalDamageModerate.label>heal chemical damage</EPIA_SurgeryRemoveChemicalDamageModerate.label>
+<EPIA_SurgeryRemoveChemicalDamageModerate.description>Install a neuromuscular framework to repair chemical damage.</EPIA_SurgeryRemoveChemicalDamageModerate.description>
+<EPIA_SurgeryRemoveChemicalDamageModerate.jobString>Healing chemical damage.</EPIA_SurgeryRemoveChemicalDamageModerate.jobString>
+<EPIA_SurgeryRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>{0} has successfully healed {1}'s chemical damage.</EPIA_SurgeryRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>
+
+<EPIA_SurgeryRemoveChemicalDamageSevere.label>heal chemical damage</EPIA_SurgeryRemoveChemicalDamageSevere.label>
+<EPIA_SurgeryRemoveChemicalDamageSevere.description>Install a neuromuscular framework to repair chemical damage.</EPIA_SurgeryRemoveChemicalDamageSevere.description>
+<EPIA_SurgeryRemoveChemicalDamageSevere.jobString>Healing chemical damage.</EPIA_SurgeryRemoveChemicalDamageSevere.jobString>
+<EPIA_SurgeryRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>{0} has successfully healed {1}'s chemical damage.</EPIA_SurgeryRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>
+
+<EPIA_SurgeryBrainRemoveChemicalDamageModerate.label>heal chemical damage</EPIA_SurgeryBrainRemoveChemicalDamageModerate.label>
+<EPIA_SurgeryBrainRemoveChemicalDamageModerate.description>Install a neuro-cure framework to repair chemical damage in the brain.</EPIA_SurgeryBrainRemoveChemicalDamageModerate.description>
+<EPIA_SurgeryBrainRemoveChemicalDamageModerate.jobString>Healing chemical damage.</EPIA_SurgeryBrainRemoveChemicalDamageModerate.jobString>
+<EPIA_SurgeryBrainRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>{0} has successfully healed {1}'s chemical damage.</EPIA_SurgeryBrainRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>
+
+<EPIA_SurgeryBrainRemoveChemicalDamageSevere.label>heal chemical damage</EPIA_SurgeryBrainRemoveChemicalDamageSevere.label>
+<EPIA_SurgeryBrainRemoveChemicalDamageSevere.description>Install a neuro-cure framework to repair chemical damage in the brain.</EPIA_SurgeryBrainRemoveChemicalDamageSevere.description>
+<EPIA_SurgeryBrainRemoveChemicalDamageSevere.jobString>Healing chemical damage.</EPIA_SurgeryBrainRemoveChemicalDamageSevere.jobString>
+<EPIA_SurgeryBrainRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>{0} has successfully healed {1}'s chemical damage.</EPIA_SurgeryBrainRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>
+
+<EPIA_RestoreTorsoBones.label>Restore torso associated bones</RepairBite.label>
+<EPIA_RestoreTorsoBones.description>Restores bone structures associated with the torso, such as the pelvis, sternum and clavicle.</RepairBite.description>
+<EPIA_RestoreTorsoBones.jobString>Restoring body part.</RepairBite.jobString>
+
 </LanguageData>

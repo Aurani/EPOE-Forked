@@ -42,6 +42,7 @@
 <AdvancedBionicJaw.label>advanced bionic jaw</AdvancedBionicJaw.label>
 <AdvancedBionicJaw.labelNoun>an advanced bionic jaw</AdvancedBionicJaw.labelNoun>
 <AdvancedBionicJaw.description>An installed advanced bionic jaw.</AdvancedBionicJaw.description>
+<AdvancedBionicJaw.comps.0.tools.0.label>teeth</AdvancedBionicJaw.comps.0.tools.0.label>
 
 <AdvancedPowerArm.label>advanced power arm</AdvancedPowerArm.label>
 <AdvancedPowerArm.labelNoun>an advanced power arm</AdvancedPowerArm.labelNoun>

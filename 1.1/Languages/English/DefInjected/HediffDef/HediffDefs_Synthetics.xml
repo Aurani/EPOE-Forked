@@ -1,14 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-<SyntheticHeart.label>synthetic heart</SyntheticHeart.label>
-<SyntheticHeart.labelNoun>a synthetic heart</SyntheticHeart.labelNoun>
-<SyntheticHeart.description>An installed synthetic heart.</SyntheticHeart.description>
-
-<SyntheticStomach.label>synthetic stomach</SyntheticStomach.label>
-<SyntheticStomach.labelNoun>a synthetic stomach</SyntheticStomach.labelNoun>
-<SyntheticStomach.description>An installed synthetic stomach.</SyntheticStomach.description>
-
 <BionicHeart.label>synthetic heart</BionicHeart.label>
 <BionicHeart.labelNoun>a synthetic heart</BionicHeart.labelNoun>
 <BionicHeart.description>An installed synthetic heart.</BionicHeart.description>

@@ -17,7 +17,7 @@
 <DoctorCore.description>An installed auxiliary AI that aids with medical procedures.</DoctorCore.description>
 
 <DiplomatCore.label>auxiliary AI: diplomatic</DiplomatCore.label>
-<DiplomatCore.description>An installed auxiliary AI that aids with diplomatic conversations.</DiplomatCore.description>
+<DiplomatCore.description>An installed auxiliary AI that aids with diplomatic conversations. Chances to fall into a social fight is significantly reduced.</DiplomatCore.description>
 
 <EPIA_AuxiliaryAI_Sharpshooter.label>auxiliary AI: sharpshooter</EPIA_AuxiliaryAI_Sharpshooter.label>
 <EPIA_AuxiliaryAI_Sharpshooter.description>An installed auxiliary AI that aids combat, specializing in accuracy and long distance fire. Cannot be installed with other auxiliary AI.</EPIA_AuxiliaryAI_Sharpshooter.description>

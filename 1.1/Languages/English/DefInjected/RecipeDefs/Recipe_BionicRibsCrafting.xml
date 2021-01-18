@@ -25,8 +25,8 @@
 <EPIA_UpgradeCoolingRib.description>Fill a blank rib replacement to complete a cooling rib implant.</EPIA_UpgradeCoolingRib.description>
 <EPIA_UpgradeCoolingRib.jobString>Assembling cooling rib.</EPIA_UpgradeCoolingRib.jobString>
 
-<EPIA_CreateCoagulatorRib.label>assemble coagulator rib</EPIA_CreateCoagulatorRib.label>
-<EPIA_CreateCoagulatorRib.description>Fill a blank rib replacement to complete a coagulator rib replacement.</EPIA_CreateCoagulatorRib.description>
-<EPIA_CreateCoagulatorRib.jobString>Assembling coagulator rib.</EPIA_CreateCoagulatorRib.jobString>
+<CreateCoagulatorRib.label>assemble coagulator rib</CreateCoagulatorRib.label>
+<CreateCoagulatorRib.description>Fill a blank rib replacement to complete a coagulator rib replacement.</CreateCoagulatorRib.description>
+<CreateCoagulatorRib.jobString>Assembling coagulator rib.</CreateCoagulatorRib.jobString>
 
 </LanguageData>

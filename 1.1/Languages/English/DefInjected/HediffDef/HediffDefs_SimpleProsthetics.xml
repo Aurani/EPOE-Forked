@@ -27,6 +27,7 @@
 
 <HydraulicJaw.label>hydraulic jaw</HydraulicJaw.label>
 <HydraulicJaw.description>An installed hydraulic jaw.</HydraulicJaw.description>
+<HydraulicJaw.comps.0.tools.0.label>teeth</HydraulicJaw.comps.0.tools.0.label>
 
 <ArtificialNose.label>artificial nose</ArtificialNose.label>
 <ArtificialNose.description>An installed artificial nose.</ArtificialNose.description>

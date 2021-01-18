@@ -1,14 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-<InstallSyntheticHeart.label>install synthetic heart</InstallSyntheticHeart.label>
-<InstallSyntheticHeart.description>Installs a synthetic heart.</InstallSyntheticHeart.description>
-<InstallSyntheticHeart.jobString>Installing synthetic heart.</InstallSyntheticHeart.jobString>
-
-<InstallSyntheticStomach.label>install synthetic stomach</InstallSyntheticStomach.label>
-<InstallSyntheticStomach.description>Installs a synthetic stomach.</InstallSyntheticStomach.description>
-<InstallSyntheticStomach.jobString>Installing synthetic stomach.</InstallSyntheticStomach.jobString>
-
 <InstallBionicHeart.label>install synthetic heart</InstallBionicHeart.label>
 <InstallBionicHeart.description>Installs a synthetic heart.</InstallBionicHeart.description>
 <InstallBionicHeart.jobString>Installing synthetic heart.</InstallBionicHeart.jobString>

@@ -40,7 +40,7 @@
 <ReplacementRadius.label>replacement radius</ReplacementRadius.label>
 <ReplacementRadius.description>A replacement for the radius, a bone in the lower arm.</ReplacementRadius.description>
 
-<ScytherBlade.label>scyther blade</ScytherBlade.label>
-<ScytherBlade.description>Hand replacement with a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</ScytherBlade.description>
+<EPIA_ScytherBlade.label>scyther blade</EPIA_ScytherBlade.label>
+<EPIA_ScytherBlade.description>Hand replacement with a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</EPIA_ScytherBlade.description>
 
 </LanguageData>

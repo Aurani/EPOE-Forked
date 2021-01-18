@@ -21,10 +21,12 @@
 <BionicJaw.label>bionic jaw</BionicJaw.label>
 <BionicJaw.labelNoun>a bionic jaw</BionicJaw.labelNoun>
 <BionicJaw.description>An installed bionic jaw.</BionicJaw.description>
+<BionicJaw.comps.0.tools.0.label>teeth</BionicJaw.comps.0.tools.0.label>
 
 <SilentJaw.label>silent jaw</SilentJaw.label>
 <SilentJaw.labelNoun>a silent jaw</SilentJaw.labelNoun>
 <SilentJaw.description>An installed silent jaw.</SilentJaw.description>
+<SilentJaw.comps.0.tools.0.label>teeth</SilentJaw.comps.0.tools.0.label>
 
 <PowerArm.label>power arm</PowerArm.label>
 <PowerArm.labelNoun>a power arm</PowerArm.labelNoun>

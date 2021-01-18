@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-<InstallSurrogateHeart.label>install surrogate heart</InstallSurrogateHeart.label>
-<InstallSurrogateHeart.description>Installs an surrogate heart.</InstallSurrogateHeart.description>
-<InstallSurrogateHeart.jobString>Installing surrogate heart.</InstallSurrogateHeart.jobString>
-
 <InstallSimpleProstheticHeart.label>install surrogate heart</InstallSimpleProstheticHeart.label>
 <InstallSimpleProstheticHeart.description>Installs an surrogate heart.</InstallSimpleProstheticHeart.description>
 <InstallSimpleProstheticHeart.jobString>Installing surrogate heart.</InstallSimpleProstheticHeart.jobString>
