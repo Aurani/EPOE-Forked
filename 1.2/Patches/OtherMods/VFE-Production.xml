@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Furniture Expanded - Production</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="TableSimpleProsthetic"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+				<value>
+					<li>VFE_MachiningCabinet</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="TableBionics" or defName="TableOrgans"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+				<value>
+					<li>VFE_FabricationCabinet</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TipSetDef[defName="EPOEForkedTips"]/tips</xpath>
+				<value>
+					<li>Prosthetic workbench can be linked with machining cabinets, and the bionic workbench and tissue printer can be linked with fabrication cabinets for increased production speed.</li>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

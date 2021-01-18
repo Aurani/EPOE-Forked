@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/HediffDef[defName="BionicEye"]/defaultLabelColor</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/HediffDef[defName="BionicEye"]</xpath>
+					<value>
+						<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/HediffDef[defName="BionicArm"]/defaultLabelColor</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/HediffDef[defName="BionicArm"]</xpath>
+					<value>
+						<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/HediffDef[defName="BionicLeg"]/defaultLabelColor</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/HediffDef[defName="BionicLeg"]</xpath>
+					<value>
+						<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/HediffDef[defName="BionicEar"]/defaultLabelColor</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/HediffDef[defName="BionicEar"]</xpath>
+					<value>
+						<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="BionicEye"]/addedPartProps/partEfficiency</xpath>
+				<value>
+					<partEfficiency>1.2</partEfficiency>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="BionicArm"]/addedPartProps/partEfficiency</xpath>
+				<value>
+					<partEfficiency>1.2</partEfficiency>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="BionicLeg"]/addedPartProps/partEfficiency</xpath>
+				<value>
+					<partEfficiency>1.2</partEfficiency>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="BionicEar"]/addedPartProps/partEfficiency</xpath>
+				<value>
+					<partEfficiency>1.2</partEfficiency>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
