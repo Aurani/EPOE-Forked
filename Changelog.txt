@@ -1,3 +1,13 @@
+3.3.13 (21.4.21)
+* Revamped the scar repair system. Cleaner and can now work on modded permanent injuries. Special thanks to Syrchalis.
+* Bionic table plasteel cost reduced from 150 to 120.
+* Synthetic organ part efficiency increased from 120% to 125%.
+* Corrected adrenaline rib's yayo cost when direct crafting to 5.
+* New respiration rib. Improves breathing and mental break threshold.
+* New wake-up rib. Improves consciousness, reduces rest fall factor, but increased mental break threshold.
+* Organic optimizing nanobots can now be applied on organs, but success rate is lower.
+* Removed a duplicate scyther blade that was left for debug purpose in the past.
+
 3.3.12 (18.1.21)
 * Changed scar repairing related surgeries to use any medicines, no longer hard locked to glitterworld medicines.
 * Removed the 1% death chance on fail from scar repair surgery that do not involve the brain.

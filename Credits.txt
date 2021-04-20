@@ -5,6 +5,7 @@
 Author of EPOE: Ykara
 Author of EPOE Expanded: dninemfive
 
+
 *************************************
 ******** Translation Credits ********
 *************************************
@@ -23,6 +24,14 @@ French: Jozay
 Polish: Dawidienko1
 Portuguese: homerbra
 Spanish: Mike2611
+
+
+*************************************
+*********** Special Thanks **********
+*************************************
+
+Scar removal code reference: Syrchalis
+
 
 *************************************
 *********** Sound Credits ***********
