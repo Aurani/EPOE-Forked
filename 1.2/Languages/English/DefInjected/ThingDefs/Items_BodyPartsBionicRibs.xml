@@ -25,4 +25,10 @@
 <CoagulatorRib.label>coagulator rib replacement</CoagulatorRib.label>
 <CoagulatorRib.description>An artificial rib, equipped with little coagulator-dispensers that responds to blood loss, which will make the blood clot easier, in an effort to reduce bleeding.</CoagulatorRib.description>
 
+<RespirationRib.label>respiration rib replacement</RespirationRib.label>
+<RespirationRib.description>An artificial rib, that works with the diaphragm to assist with regulating breathing pattern for increased efficiency and coping with stress.</RespirationRib.description>
+
+<WakeUpRib.label>wake-up rib replacement</WakeUpRib.label>
+<WakeUpRib.description>An artificial rib, equipped with little wake-up-dispensers to keep the user awake and focused.</WakeUpRib.description>
+
 </LanguageData>
