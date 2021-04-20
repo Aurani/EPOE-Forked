@@ -26,4 +26,10 @@
 <CoagulatorRib.label>coagulator rib</CoagulatorRib.label>
 <CoagulatorRib.description>An installed coagulator rib implant.</CoagulatorRib.description>
 
+<RespirationRib.label>respiration rib</RespirationRib.label>
+<RespirationRib.description>An installed respiration rib implant.</RespirationRib.description>
+
+<WakeUpRib.label>wake-up rib</WakeUpRib.label>
+<WakeUpRib.description>An installed wake-up rib implant.</WakeUpRib.description>
+
 </LanguageData>

@@ -29,4 +29,12 @@
 <CreateCoagulatorRib.description>Fill a blank rib replacement to complete a coagulator rib replacement.</CreateCoagulatorRib.description>
 <CreateCoagulatorRib.jobString>Assembling coagulator rib.</CreateCoagulatorRib.jobString>
 
+<CreateRespirationRib.label>assemble respiration rib</CreateRespirationRib.label>
+<CreateRespirationRib.description>Assemble two blank rib replacement to complete a respiration rib replacement.</CreateRespirationRib.description>
+<CreateRespirationRib.jobString>Assembling respiration rib.</CreateRespirationRib.jobString>
+
+<CreateWakeUpRib.label>assemble wake-up rib</CreateWakeUpRib.label>
+<CreateWakeUpRib.description>Fill a blank rib replacement to complete a wake-up rib replacement.</CreateWakeUpRib.description>
+<CreateWakeUpRib.jobString>Assembling wake-up rib.</CreateWakeUpRib.jobString>
+
 </LanguageData>

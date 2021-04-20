@@ -29,6 +29,14 @@
 <InstallCoagulatorRib.description>Installs a coagulator rib replacement.</InstallCoagulatorRib.description>
 <InstallCoagulatorRib.jobString>Installing a coagulator rib replacement.</InstallCoagulatorRib.jobString>
 
+<InstallRespirationRib.label>install respiration rib replacement</InstallRespirationRib.label>
+<InstallRespirationRib.description>Installs a respiration rib replacement.</InstallRespirationRib.description>
+<InstallRespirationRib.jobString>Installing a respiration rib replacement.</InstallRespirationRib.jobString>
+
+<InstallWakeUpRib.label>install wake-up rib replacement</InstallWakeUpRib.label>
+<InstallWakeUpRib.description>Installs a wake-up rib replacement.</InstallWakeUpRib.description>
+<InstallWakeUpRib.jobString>Installing a wake-up rib replacement.</InstallWakeUpRib.jobString>
+
 <RemoveMedicalRib.label>remove medical rib replacement</RemoveMedicalRib.label>
 <RemoveMedicalRib.description>Remove a medical rib replacement.</RemoveMedicalRib.description>
 <RemoveMedicalRib.jobString>Removing rib replacement.</RemoveMedicalRib.jobString>
@@ -56,5 +64,13 @@
 <RemoveCoagulatorRib.label>remove coagulator rib replacement</RemoveCoagulatorRib.label>
 <RemoveCoagulatorRib.description>Remove a coagulator rib replacement.</RemoveCoagulatorRib.description>
 <RemoveCoagulatorRib.jobString>Removing rib replacement.</RemoveCoagulatorRib.jobString>
+
+<RemoveRespirationRib.label>remove respiration rib replacement</RemoveRespirationRib.label>
+<RemoveRespirationRib.description>Remove a respiration rib replacement.</RemoveRespirationRib.description>
+<RemoveRespirationRib.jobString>Removing rib replacement.</RemoveRespirationRib.jobString>
+
+<RemoveWakeUpRib.label>remove wake-up rib replacement</RemoveWakeUpRib.label>
+<RemoveWakeUpRib.description>Remove a wake-up rib replacement.</RemoveWakeUpRib.description>
+<RemoveWakeUpRib.jobString>Removing rib replacement.</RemoveWakeUpRib.jobString>
 
 </LanguageData>
