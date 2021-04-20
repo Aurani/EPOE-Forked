@@ -19,7 +19,7 @@
 		</graphicData>
 		<costList>
 			<Steel>250</Steel>
-			<Plasteel>150</Plasteel>
+			<Plasteel>120</Plasteel>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>

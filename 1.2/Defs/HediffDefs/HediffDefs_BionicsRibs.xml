@@ -73,6 +73,7 @@
 		</stages>
 		<tags>
 			<li>MedicalRib</li>
+			<li>EPIA_NormalRib</li>
 		</tags>
 	</HediffDef>
 
@@ -166,6 +167,7 @@
 		<addsHediff>MedicalRib</addsHediff>
 		<incompatibleWithHediffTags>
 			<li>MedicalRib</li>
+			<li>LuciferiumRib</li>
 		</incompatibleWithHediffTags>
 	</RecipeDef>
 
@@ -200,6 +202,7 @@
 		</stages>
 		<tags>
 			<li>DruggedRib</li>
+			<li>EPIA_NormalRib</li>
 		</tags>
 	</HediffDef>
 
@@ -293,6 +296,7 @@
 		<addsHediff>DruggedRib</addsHediff>
 		<incompatibleWithHediffTags>
 			<li>DruggedRib</li>
+			<li>LuciferiumRib</li>
 		</incompatibleWithHediffTags>
 	</RecipeDef>
 
@@ -327,6 +331,7 @@
 		</stages>
 		<tags>
 			<li>AdrenalineRib</li>
+			<li>EPIA_NormalRib</li>
 		</tags>
 	</HediffDef>
 
@@ -339,7 +344,7 @@
 			<Plasteel>25</Plasteel>
 			<ComponentIndustrial>3</ComponentIndustrial>
 			<Neutroamine>3</Neutroamine>
-			<Yayo>10</Yayo>
+			<Yayo>5</Yayo>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -420,6 +425,7 @@
 		<addsHediff>AdrenalineRib</addsHediff>
 		<incompatibleWithHediffTags>
 			<li>AdrenalineRib</li>
+			<li>LuciferiumRib</li>
 		</incompatibleWithHediffTags>
 	</RecipeDef>
 
@@ -450,6 +456,7 @@
 		</stages>
 		<tags>
 			<li>PainkillerRib</li>
+			<li>EPIA_NormalRib</li>
 		</tags>
 	</HediffDef>
 
@@ -543,6 +550,7 @@
 		<addsHediff>PainkillerRib</addsHediff>
 		<incompatibleWithHediffTags>
 			<li>PainkillerRib</li>
+			<li>LuciferiumRib</li>
 		</incompatibleWithHediffTags>
 	</RecipeDef>
 
@@ -574,6 +582,7 @@
 		</stages>
 		<tags>
 			<li>HeaterRib</li>
+			<li>EPIA_NormalRib</li>
 		</tags>
 	</HediffDef>
 
@@ -666,6 +675,7 @@
 		<addsHediff>HeaterRib</addsHediff>
 		<incompatibleWithHediffTags>
 			<li>HeaterRib</li>
+			<li>LuciferiumRib</li>
 		</incompatibleWithHediffTags>
 	</RecipeDef>
 
@@ -697,6 +707,7 @@
 		</stages>
 		<tags>
 			<li>CoolerRib</li>
+			<li>EPIA_NormalRib</li>
 		</tags>
 	</HediffDef>
 
@@ -789,6 +800,7 @@
 		<addsHediff>CoolerRib</addsHediff>
 		<incompatibleWithHediffTags>
 			<li>CoolerRib</li>
+			<li>LuciferiumRib</li>
 		</incompatibleWithHediffTags>
 	</RecipeDef>
 
@@ -817,6 +829,7 @@
 		</stages>
 		<tags>
 			<li>CoagulatorRib</li>
+			<li>EPIA_NormalRib</li>
 		</tags>
 	</HediffDef>
 
@@ -910,6 +923,7 @@
 		<addsHediff>CoagulatorRib</addsHediff>
 		<incompatibleWithHediffTags>
 			<li>CoagulatorRib</li>
+			<li>LuciferiumRib</li>
 		</incompatibleWithHediffTags>
 	</RecipeDef>
 
@@ -920,6 +934,260 @@
 		<descriptionHyperlinks><ThingDef>CoagulatorRib</ThingDef></descriptionHyperlinks>
 		<jobString>Removing rib replacement.</jobString>
 		<removesHediff>CoagulatorRib</removesHediff>
+	</RecipeDef>
+
+	<!-- Respiration rib -->
+
+	<HediffDef ParentName="addedPartBionicsRib">
+		<defName>RespirationRib</defName>
+		<label>respiration rib</label>
+		<description>An installed respiration rib implant.</description>
+		<descriptionHyperlinks><ThingDef>RespirationRib</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>RespirationRib</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<MentalBreakThreshold>-0.06</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<tags>
+			<li>RespirationRib</li>
+			<li>EPIA_NormalRib</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
+		<defName>RespirationRib</defName>
+		<label>respiration rib replacement</label>
+		<description>An artificial rib, that works with the diaphragm to assist with regulating breathing pattern for increased efficiency and coping with stress.</description>
+		<descriptionHyperlinks><RecipeDef>InstallRespirationRib</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.6</Mass>
+			<WorkToMake>43000</WorkToMake>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>CreateRespirationRib</defName>
+		<label>assemble respiration rib</label>
+		<description>Assemble two blank rib replacement to complete a respiration rib replacement.</description>
+		<descriptionHyperlinks><ThingDef>RespirationRib</ThingDef></descriptionHyperlinks>
+		<jobString>Assembling respiration rib.</jobString>
+		<products>
+			<RespirationRib>1</RespirationRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallRespirationRib</defName>
+		<label>install respiration rib replacement</label>
+		<description>Installs a respiration rib replacement.</description>
+		<descriptionHyperlinks>
+			<ThingDef>RespirationRib</ThingDef>
+			<HediffDef>RespirationRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing a respiration rib replacement.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RespirationRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RespirationRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>RespirationRib</addsHediff>
+		<incompatibleWithHediffTags>
+			<li>RespirationRib</li>
+			<li>LuciferiumRib</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveRespirationRib</defName>
+		<label>remove respiration rib replacement</label>
+		<description>Remove a respiration rib replacement.</description>
+		<descriptionHyperlinks><ThingDef>RespirationRib</ThingDef></descriptionHyperlinks>
+		<jobString>Removing rib replacement.</jobString>
+		<removesHediff>RespirationRib</removesHediff>
+	</RecipeDef>
+
+	<!-- Wake-up rib -->
+
+	<HediffDef ParentName="addedPartBionicsRib">
+		<defName>WakeUpRib</defName>
+		<label>wake-up rib</label>
+		<description>An installed wake-up rib implant.</description>
+		<descriptionHyperlinks><ThingDef>WakeUpRib</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>WakeUpRib</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<stages>
+			<li>
+				<restFallFactor>0.9</restFallFactor>
+				<statOffsets>
+					<MentalBreakThreshold>0.04</MentalBreakThreshold>
+				</statOffsets>
+				<capMods>
+					<li>
+					  <capacity>Consciousness</capacity>
+					  <offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<tags>
+			<li>WakeUpRib</li>
+			<li>EPIA_NormalRib</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
+		<defName>WakeUpRib</defName>
+		<label>wake-up rib replacement</label>
+		<description>An artificial rib, equipped with little wake-up-dispensers to keep the user awake and focused.</description>
+		<descriptionHyperlinks><RecipeDef>InstallWakeUpRib</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Neutroamine>3</Neutroamine>
+			<WakeUp>5</WakeUp>
+		</costList>
+		<statBases>
+			<Mass>0.6</Mass>
+		</statBases>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
+		<defName>CreateWakeUpRib</defName>
+		<label>assemble wake-up rib</label>
+		<description>Fill a blank rib replacement to complete a wake-up rib replacement.</description>
+		<descriptionHyperlinks><ThingDef>WakeUpRib</ThingDef></descriptionHyperlinks>
+		<jobString>Assembling wake-up rib.</jobString>
+		<products>
+			<WakeUpRib>1</WakeUpRib>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WakeUp</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleRib</li>
+				<li>Neutroamine</li>
+				<li>WakeUp</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallWakeUpRib</defName>
+		<label>install wake-up rib replacement</label>
+		<description>Installs a wake-up rib replacement.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WakeUpRib</ThingDef>
+			<HediffDef>WakeUpRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing a wake-up rib replacement.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WakeUpRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WakeUpRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>WakeUpRib</addsHediff>
+		<incompatibleWithHediffTags>
+			<li>WakeUpRib</li>
+			<li>LuciferiumRib</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveWakeUpRib</defName>
+		<label>remove wake-up rib replacement</label>
+		<description>Remove a wake-up rib replacement.</description>
+		<descriptionHyperlinks><ThingDef>WakeUpRib</ThingDef></descriptionHyperlinks>
+		<jobString>Removing rib replacement.</jobString>
+		<removesHediff>WakeUpRib</removesHediff>
 	</RecipeDef>
 
 </Defs>

@@ -20,18 +20,7 @@
 		<label>synthetic tissue</label>
 		<description>A patch of organo-synthetic tissue which can replace damaged areas.</description>
 		<descriptionHyperlinks>
-			<RecipeDef>RepairBurn</RecipeDef>
-			<RecipeDef>RepairCut</RecipeDef>
-			<RecipeDef>RepairSurgicalCut</RecipeDef>
-			<RecipeDef>RepairScratch</RecipeDef>
-			<RecipeDef>RepairBite</RecipeDef>
-			<RecipeDef>RepairStab</RecipeDef>
-			<RecipeDef>RepairGunshot</RecipeDef>
-			<RecipeDef>RepairFrostbite</RecipeDef>
-			<RecipeDef>RepairChemicalBurn</RecipeDef>
-			<RecipeDef>RepairShredded</RecipeDef>
-			<RecipeDef>RepairCrush</RecipeDef>
-			<RecipeDef>EPIA_RepairCrack</RecipeDef>
+			<RecipeDef>EPIA_RepairScar</RecipeDef>
 		</descriptionHyperlinks>
 		<isTechHediff>false</isTechHediff>
 		<recipeMaker>
@@ -47,7 +36,12 @@
 		</statBases>
 	</ThingDef>
 
-	<RecipeDef Name="EPIA_SurgeryRepairScar" ParentName="EPIA_SurgerySyntheticRepair" Abstract="True">
+	<RecipeDef ParentName="EPIA_SurgerySyntheticRepair">
+		<defName>EPIA_RepairScar</defName>
+		<label>mend scar</label>
+		<description>Mend and remove a scar.</description>
+		<jobString>Removing scar.</jobString>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scar.</successfullyRemovedHediffMessage>
 		<descriptionHyperlinks><ThingDef>SyntheticSkin</ThingDef></descriptionHyperlinks>
 		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
 		<workerClass>EPIA.Recipe_RemoveScarHediff</workerClass>
@@ -81,126 +75,6 @@
 		<skillRequirements>
 			<Medicine>7</Medicine>
 		</skillRequirements>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>RepairBurn</defName>
-		<label>mend burn</label>
-		<description>Mend a burn scar.</description>
-		<descriptionHyperlinks><HediffDef>Burn</HediffDef></descriptionHyperlinks>
-		<jobString>Mending burn scar.</jobString>
-		<removesHediff>Burn</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s burn scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>RepairCut</defName>
-		<label>mend cut</label>
-		<description>Mend a cut scar.</description>
-		<descriptionHyperlinks><HediffDef>Cut</HediffDef></descriptionHyperlinks>
-		<jobString>Mending cut scar.</jobString>
-		<removesHediff>Cut</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cut scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-		
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>RepairSurgicalCut</defName>
-		<label>mend surgical cut</label>
-		<description>Mend a surgical cut scar.</description>
-		<descriptionHyperlinks><HediffDef>SurgicalCut</HediffDef></descriptionHyperlinks>
-		<jobString>Mending surgical cut scar.</jobString>
-		<removesHediff>SurgicalCut</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s surgical cut scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>RepairScratch</defName>
-		<label>mend scratch</label>
-		<description>Mend a scratch scar.</description>
-		<descriptionHyperlinks><HediffDef>Scratch</HediffDef></descriptionHyperlinks>
-		<jobString>Mending scratch scar.</jobString>
-		<removesHediff>Scratch</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>RepairBite</defName>
-		<label>mend bite</label>
-		<description>Mend a bite scar.</description>
-		<descriptionHyperlinks><HediffDef>Bite</HediffDef></descriptionHyperlinks>
-		<jobString>Mending bite scar.</jobString>
-		<removesHediff>Bite</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s bite scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>RepairStab</defName>
-		<label>mend stab</label>
-		<description>Mend a stab scar.</description>
-		<descriptionHyperlinks><HediffDef>Stab</HediffDef></descriptionHyperlinks>
-		<jobString>Mending stab scar.</jobString>
-		<removesHediff>Stab</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s stab scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>RepairGunshot</defName>
-		<label>mend gunshot</label>
-		<description>Mend a gunshot scar.</description>
-		<descriptionHyperlinks><HediffDef>Gunshot</HediffDef></descriptionHyperlinks>
-		<jobString>Mending gunshot scar.</jobString>
-		<removesHediff>Gunshot</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s gunshot scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>RepairFrostbite</defName>
-		<label>mend frostbite</label>
-		<description>Mend a frostbite scar.</description>
-		<descriptionHyperlinks><HediffDef>Frostbite</HediffDef></descriptionHyperlinks>
-		<jobString>Mending frostbite scar.</jobString>
-		<removesHediff>Frostbite</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>RepairChemicalBurn</defName>
-		<label>mend chemical burn</label>
-		<description>Mend a chemical burn scar.</description>
-		<descriptionHyperlinks><HediffDef>ChemicalBurn</HediffDef></descriptionHyperlinks>
-		<jobString>Mending chemical burn scar.</jobString>
-		<removesHediff>ChemicalBurn</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s chemical burn scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>RepairShredded</defName>
-		<label>mend shredded</label>
-		<description>Mend a shredded scar.</description>
-		<descriptionHyperlinks><HediffDef>Shredded</HediffDef></descriptionHyperlinks>
-		<jobString>Mending shredded scar.</jobString>
-		<removesHediff>Shredded</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>RepairCrush</defName>
-		<label>mend mangled scar</label>
-		<description>Mend a mangled scar.</description>
-		<descriptionHyperlinks><HediffDef>Crush</HediffDef></descriptionHyperlinks>
-		<jobString>Mending mangled scar.</jobString>
-		<removesHediff>Crush</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s mangled scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryRepairScar">
-		<defName>EPIA_RepairCrack</defName>
-		<label>mend cracked scar</label>
-		<description>Mend a cracked scar.</description>
-		<descriptionHyperlinks><HediffDef>Crack</HediffDef></descriptionHyperlinks>
-		<jobString>Mending cracked scar.</jobString>
-		<removesHediff>Crack</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cracked scar.</successfullyRemovedHediffMessage>
 	</RecipeDef>
 
 	<!-- Neuromuscular framework -->
@@ -349,7 +223,7 @@
 		<successfullyRemovedHediffMessage>{0} has successfully healed {1}'s chemical damage.</successfullyRemovedHediffMessage>
 		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
-		<workerClass>EPIA.Recipe_RemoveScarHediff</workerClass>
+		<workerClass>EPIA.Recipe_RemoveAilmentHediff</workerClass>
 		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>
@@ -434,18 +308,7 @@
 		<descriptionHyperlinks>
 			<RecipeDef>EPOE_SurgeryRemoveDementia</RecipeDef>
 			<RecipeDef>EPOE_SurgeryRemoveAlzheimers</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainBurn</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainCut</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainSurgicalCut</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainScratch</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainBite</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainStab</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainGunshot</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainFrostbite</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainChemicalBurn</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainShredded</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainCrush</RecipeDef>
-			<RecipeDef>EPIA_RepairBrainCrack</RecipeDef>
+			<RecipeDef>EPIA_RepairBrainScar</RecipeDef>
 			<RecipeDef>EPIA_SurgeryBrainRemoveChemicalDamageModerate</RecipeDef>
 			<RecipeDef>EPIA_SurgeryBrainRemoveChemicalDamageSevere</RecipeDef>
 		</descriptionHyperlinks>
@@ -571,7 +434,13 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef Name="EPIA_SurgeryBrainRepairScar" ParentName="EPIA_SurgerySyntheticRepair" Abstract="True">
+	<RecipeDef ParentName="EPIA_SurgerySyntheticRepair">
+		<defName>EPIA_RepairBrainScar</defName>
+		<label>mend brain scar</label>
+		<description>Mend a remove a scar in the brain.</description>
+		<jobString>Removing brain scar.</jobString>
+		<removesHediff>Burn</removesHediff>
+		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s brain scar.</successfullyRemovedHediffMessage>
 		<descriptionHyperlinks><ThingDef>NeurocureFramework</ThingDef></descriptionHyperlinks>
 		<surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
@@ -612,126 +481,6 @@
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainBurn</defName>
-		<label>mend burn</label>
-		<description>Mend a burn scar.</description>
-		<descriptionHyperlinks><HediffDef>Burn</HediffDef></descriptionHyperlinks>
-		<jobString>Mending burn scar.</jobString>
-		<removesHediff>Burn</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s burn scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainCut</defName>
-		<label>mend cut</label>
-		<description>Mend a cut scar.</description>
-		<descriptionHyperlinks><HediffDef>Cut</HediffDef></descriptionHyperlinks>
-		<jobString>Mending cut scar.</jobString>
-		<removesHediff>Cut</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cut scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-		
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainSurgicalCut</defName>
-		<label>mend surgical cut</label>
-		<description>Mend a surgical cut scar.</description>
-		<descriptionHyperlinks><HediffDef>SurgicalCut</HediffDef></descriptionHyperlinks>
-		<jobString>Mending surgical cut scar.</jobString>
-		<removesHediff>SurgicalCut</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s surgical cut scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainScratch</defName>
-		<label>mend scratch</label>
-		<description>Mend a scratch scar.</description>
-		<descriptionHyperlinks><HediffDef>Scratch</HediffDef></descriptionHyperlinks>
-		<jobString>Mending scratch scar.</jobString>
-		<removesHediff>Scratch</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s scratch scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainBite</defName>
-		<label>mend bite</label>
-		<description>Mend a bite scar.</description>
-		<descriptionHyperlinks><HediffDef>Bite</HediffDef></descriptionHyperlinks>
-		<jobString>Mending bite scar.</jobString>
-		<removesHediff>Bite</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s bite scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainStab</defName>
-		<label>mend stab</label>
-		<description>Mend a stab scar.</description>
-		<descriptionHyperlinks><HediffDef>Stab</HediffDef></descriptionHyperlinks>
-		<jobString>Mending stab scar.</jobString>
-		<removesHediff>Stab</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s stab scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainGunshot</defName>
-		<label>mend gunshot</label>
-		<description>Mend a gunshot scar.</description>
-		<descriptionHyperlinks><HediffDef>Gunshot</HediffDef></descriptionHyperlinks>
-		<jobString>Mending gunshot scar.</jobString>
-		<removesHediff>Gunshot</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s gunshot scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainFrostbite</defName>
-		<label>mend frostbite</label>
-		<description>Mend a frostbite scar.</description>
-		<descriptionHyperlinks><HediffDef>Frostbite</HediffDef></descriptionHyperlinks>
-		<jobString>Mending frostbite scar.</jobString>
-		<removesHediff>Frostbite</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s frostbite scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainChemicalBurn</defName>
-		<label>mend chemical burn</label>
-		<description>Mend a chemical burn scar.</description>
-		<descriptionHyperlinks><HediffDef>ChemicalBurn</HediffDef></descriptionHyperlinks>
-		<jobString>Mending chemical burn scar.</jobString>
-		<removesHediff>ChemicalBurn</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s chemical burn scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainShredded</defName>
-		<label>mend shredded</label>
-		<description>Mend a shredded scar.</description>
-		<descriptionHyperlinks><HediffDef>Shredded</HediffDef></descriptionHyperlinks>
-		<jobString>Mending shredded scar.</jobString>
-		<removesHediff>Shredded</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s shredded scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainCrush</defName>
-		<label>mend mangled scar</label>
-		<description>Mend a mangled scar.</description>
-		<descriptionHyperlinks><HediffDef>Crush</HediffDef></descriptionHyperlinks>
-		<jobString>Mending mangled scar.</jobString>
-		<removesHediff>Crush</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s mangled scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIA_SurgeryBrainRepairScar">
-		<defName>EPIA_RepairBrainCrack</defName>
-		<label>mend cracked scar</label>
-		<description>Mend a cracked scar.</description>
-		<descriptionHyperlinks><HediffDef>Crack</HediffDef></descriptionHyperlinks>
-		<jobString>Mending cracked scar.</jobString>
-		<removesHediff>Crack</removesHediff>
-		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s cracked scar.</successfullyRemovedHediffMessage>
-	</RecipeDef>
-
 	<RecipeDef Name="EPIA_HealChemicalDamageBrain" ParentName="EPIA_SurgerySyntheticRepair">
 		<defName>EPIA_SurgeryBrainRemoveChemicalDamageModerate</defName>
 		<label>heal chemical damage</label>
@@ -742,7 +491,7 @@
 		<successfullyRemovedHediffMessage>{0} has successfully healed {1}'s chemical damage.</successfullyRemovedHediffMessage>
 		<surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
-		<workerClass>EPIA.Recipe_RemoveBrainScarHediff</workerClass>
+		<workerClass>EPIA.Recipe_RemoveAilmentBrainHediff</workerClass>
 		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>

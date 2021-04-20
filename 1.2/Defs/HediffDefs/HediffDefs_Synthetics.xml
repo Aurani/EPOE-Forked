@@ -129,7 +129,7 @@
 		<spawnThingOnRemoved>BionicHeart</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>1.2</partEfficiency>
+			<partEfficiency>1.25</partEfficiency>
 		  <betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 	</HediffDef>
@@ -246,7 +246,7 @@
 		<spawnThingOnRemoved>SyntheticLung</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>1.2</partEfficiency>
+			<partEfficiency>1.25</partEfficiency>
 		  <betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 	</HediffDef>
@@ -363,7 +363,7 @@
 		<spawnThingOnRemoved>BionicStomach</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>1.2</partEfficiency>
+			<partEfficiency>1.25</partEfficiency>
 		  <betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 	</HediffDef>
@@ -480,7 +480,7 @@
 		<spawnThingOnRemoved>SyntheticLiver</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>1.2</partEfficiency>
+			<partEfficiency>1.25</partEfficiency>
 		  <betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 	</HediffDef>
@@ -597,7 +597,7 @@
 		<spawnThingOnRemoved>SyntheticKidney</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>1.2</partEfficiency>
+			<partEfficiency>1.25</partEfficiency>
 		  <betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 	</HediffDef>

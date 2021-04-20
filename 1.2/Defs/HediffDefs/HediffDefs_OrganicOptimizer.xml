@@ -160,6 +160,40 @@
 		<addsHediff>EPOE_OrganicOptimized</addsHediff>
 	</RecipeDef>
 
+	<RecipeDef ParentName="EPIASurgeryOptimizer">
+		<defName>EPIA_OrganicOptimizing_Organ</defName>
+		<label>Optimize natural organ</label>
+		<description>Improve and bring out the potential of a natural organ with the organic optimizing nanobots, with the surgeon carefully monitoring the initial application and progress.</description>
+		<descriptionHyperlinks>
+			<ThingDef>EPOE_OrganicOptimizingNanobots</ThingDef>
+			<HediffDef>EPOE_OrganicOptimized</HediffDef>
+		</descriptionHyperlinks>
+		<surgerySuccessChanceFactor>0.85</surgerySuccessChanceFactor>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPOE_OrganicOptimizingNanobots</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPOE_OrganicOptimizingNanobots</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+			<li>Lung</li>
+			<li>Kidney</li>
+			<li>Liver</li>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_OrganicOptimized</addsHediff>
+	</RecipeDef>
+
 	<!-- Instinct optimizing nanobots -->
 
 	<ThingDef ParentName="EPIAOrganicOptimizer">

@@ -4,6 +4,9 @@
 	<ThingDef ParentName="UnfinishedBase">
 		<defName>UnfinishedProsthesis</defName>
 		<label>Unfinished prosthesis</label>
+		<statBases>
+			<Flammability>0.5</Flammability>
+		</statBases>
 		<graphicData>
 			<texPath>Things/Item/BodyPart/UnfinishedProsthesis</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
