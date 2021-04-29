@@ -17,7 +17,7 @@
 				<value>EPIA_SurgerySyntheticRepair_SRP</value>
 			</li>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/defName[@Name="EPIA_RepairBrainScar"]/researchPrerequisite</xpath>
+				<xpath>Defs/RecipeDef[defName="EPIA_RepairBrainScar"]/researchPrerequisite</xpath>
 			</li>
 			<li Class="PatchOperationInsert">
 				<xpath>Defs/RecipeDef[defName="RemoveScarBrain"]/ingredients/li/filter/categories</xpath>
