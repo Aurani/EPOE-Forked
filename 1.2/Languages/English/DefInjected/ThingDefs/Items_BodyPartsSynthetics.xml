@@ -1,20 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-<BionicHeart.label>synthetic heart</BionicHeart.label>
-<BionicHeart.description>A top-of-the-line heart replacement. Can last for over 30 years on a single charge.</BionicHeart.description>
-
 <SyntheticLung.label>synthetic lung</SyntheticLung.label>
-<SyntheticLung.description>A high-tech breathing replacement. Makes a soft whirring sound.</SyntheticLung.description>
-
-<BionicStomach.label>synthetic stomach</BionicStomach.label>
-<BionicStomach.description>An enhanced stomach augmented with chemical synthesizers that efficiently digest nearly any energy-bearing foodstuff. Unaffected by its own stomach acid.</BionicStomach.description>
+<SyntheticLung.description>An advanced artificial lung. It has synthetic muscle fibers for a realistic breathing, plus a high-flow pump for rapid deep breathes during intensive activities. It is better than a biological lung in almost every way.</SyntheticLung.description>
 
 <SyntheticLiver.label>synthetic liver</SyntheticLiver.label>
-<SyntheticLiver.description>An enhanced liver augmented with synthetic fibres to decrease rejection rate.</SyntheticLiver.description>
+<SyntheticLiver.description>An advanced artificial liver. A set of sensors and chemical synthesizers monitors and replicate the liver's role in metabolism, instantly adapting to changes in the body. It is better than a biological liver in almost every way.</SyntheticLiver.description>
 
 <SyntheticKidney.label>synthetic kidney</SyntheticKidney.label>
-<SyntheticKidney.description>An enhanced kidney augmented with synthetic fibres to decrease rejection rate.</SyntheticKidney.description>
+<SyntheticKidney.description>An advanced artificial kidney. A set of sensors and synthetic filters that efficiently removes waste products from the blood. It is better than a biological kidney in almost every way.</SyntheticKidney.description>
 
 <MuscleStimulator.label>muscle stimulator</MuscleStimulator.label>
 <MuscleStimulator.description>Through special chemicals and electric shocks this little chip is able to stimulate the muscles so they can operate at above maximum performance.</MuscleStimulator.description>

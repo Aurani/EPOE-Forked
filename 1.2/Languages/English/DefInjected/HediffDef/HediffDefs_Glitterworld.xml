@@ -36,4 +36,7 @@
 <AIPersonaCore.stages.2.label>Maintenance critical</AIPersonaCore.stages.2.label>
 <AIPersonaCore.stages.3.label>Maintenance required</AIPersonaCore.stages.3.label>
 
+<EPIA_TacticalBionicEye.label>tactical bionic eye</EPIA_TacticalBionicEye.label>
+<EPIA_TacticalBionicEye.description>An installed tactical bionic eye.</EPIA_TacticalBionicEye.description>
+
 </LanguageData>

@@ -42,7 +42,11 @@
 <InstallReplacementRadius.jobString>Installing a replacement radius.</InstallReplacementRadius.jobString>
 
 <InstallScytherBlade.label>install scyther blade</InstallScytherBlade.label>
-<InstallScytherBlade.description>Installs a scyther blade at where the hand is.</InstallScytherBlade.description>
+<InstallScytherBlade.description>Installs a scyther blade implant.</InstallScytherBlade.description>
 <InstallScytherBlade.jobString>Installing scyther blade.</InstallScytherBlade.jobString>
+
+<EPIA_RemoveScytherBlade.label>remove scyther blade</EPIA_RemoveScytherBlade.label>
+<EPIA_RemoveScytherBlade.description>Remove the scyther blade implant.</EPIA_RemoveScytherBlade.description>
+<EPIA_RemoveScytherBlade.jobString>Removing scyther blade.</EPIA_RemoveScytherBlade.jobString>
 
 </LanguageData>

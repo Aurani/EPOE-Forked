@@ -28,4 +28,7 @@
 <EPIA_AuxiliaryAI_Brawler.label>auxiliary AI (brawler)</EPIA_AuxiliaryAI_Brawler.label>
 <EPIA_AuxiliaryAI_Brawler.description>A specialized AI system designed for combat purposes, aiding the user by filtering irrelevant electrical and chemical signals sent to the brain in high-threat situations, thereby increasing overall combat capabilities. Due to the sophisticated nature of the system that focuses and streamlines most cerebral processes, it cannot be used with other auxiliary AI.</EPIA_AuxiliaryAI_Brawler.description>
 
+<EPIA_TacticalBionicEye.label>tactical bionic eye</EPIA_TacticalBionicEye.label>
+<EPIA_TacticalBionicEye.description>A Glitterworld combat orientated bionic eye which provides the user with additional information about potential targets and suggests a perfect firing angle.</EPIA_TacticalBionicEye.description>
+
 </LanguageData>

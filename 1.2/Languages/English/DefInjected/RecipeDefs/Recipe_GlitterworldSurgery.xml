@@ -41,6 +41,10 @@
 <InstallAIPersonaCore.description>Installs AI persona core.</InstallAIPersonaCore.description>
 <InstallAIPersonaCore.jobString>Installing AI persona core.</InstallAIPersonaCore.jobString>
 
+<EPIA_InstallTacticalBionicEye.label>install tactical bionic eye</EPIA_InstallTacticalBionicEye.label>
+<EPIA_InstallTacticalBionicEye.description>Installs tactical bionic eye.</EPIA_InstallTacticalBionicEye.description>
+<EPIA_InstallTacticalBionicEye.jobString>Installing tactical bionic eye.</EPIA_InstallTacticalBionicEye.jobString>
+
 <RemoveTacticalCorneaImplant.label>remove tactical cornea implant</RemoveTacticalCorneaImplant.label>
 <RemoveTacticalCorneaImplant.description>Remove a tactical cornea implant. Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveTacticalCorneaImplant.description>
 <RemoveTacticalCorneaImplant.jobString>Removing tactical cornea implant.</RemoveTacticalCorneaImplant.jobString>

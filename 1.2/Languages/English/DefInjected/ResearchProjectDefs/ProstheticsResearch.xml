@@ -11,20 +11,20 @@ Hook hand and steel arm are crafted at a smithy.</BasicProsthetics.description>
 <AdvancedBionics.label>advanced bionics</AdvancedBionics.label>
 <AdvancedBionics.description>Upgrade regular bionics to make them even better. Unlocks new recipes on the bionics workbench.</AdvancedBionics.description>
 
-<RibReplacements.label>rib replacements</RibReplacements.label>
-<RibReplacements.description>Discovering the concept of very small dispensers, you think about putting them in ribs. You can now craft and install rib implants.</RibReplacements.description>
+<RibReplacements.label>rib implants</RibReplacements.label>
+<RibReplacements.description>Utilizing the space in the ribcage, new concept of implants with dispensers to release their contents in controlled doses can be placed here.</RibReplacements.description>
 
 <SurrogateOrgans.label>surrogate organs</SurrogateOrgans.label>
-<SurrogateOrgans.description>Gaining higher medical and technical knowledge, creating a 3D printer to craft simple surrogate organs becomes possible.</SurrogateOrgans.description>
+<SurrogateOrgans.description>Build inexpensive prosthetic organs to replace lost or damaged ones. Requires a skilled doctor to transplant.</SurrogateOrgans.description>
 
 <SyntheticOrgans.label>synthetic organs</SyntheticOrgans.label>
-<SyntheticOrgans.description>Further research in nano-technology allows you to print incredibly well-engineered artificial organs. Unlocks new recipes on the tissue printer.</SyntheticOrgans.description>
+<SyntheticOrgans.description>Further research in nano-technology allows you to print incredibly well-engineered artificial organs.</SyntheticOrgans.description>
 
 <EPOE_SyntheticRepair.label>Synthetic repair</EPOE_SyntheticRepair.label>
-<EPOE_SyntheticRepair.description>Further research into nano technology allows you to print incredibly well-engineered artificial tissues and nerves to aid with healing scars, frailty and bad backs. Unlocks synthetic tissue and neuromuscular framework recipes on the tissue printer.</EPOE_SyntheticRepair.description>
+<EPOE_SyntheticRepair.description>Further research into nano technology allows you to print incredibly well-engineered artificial tissues and nerves to aid with healing scars, frailty and bad backs. Unlocks synthetic tissue and neuromuscular framework recipes on the synthetic nano printer.</EPOE_SyntheticRepair.description>
 
 <EPOE_NeurologicalTreatment.label>Neurological treatment</EPOE_NeurologicalTreatment.label>
-<EPOE_NeurologicalTreatment.description>Extensive research into nano technology allows you to print incredibly well-engineered framework kit consisting of artificial adaptable brain tissues, nerves and nanomachines to aid with countering dementia, alzheimer, chemical damage and scars in the brain. Unlocks neuro-cure framework recipe on the tissue printer.\n\nNeuro-cure framework only cures dementia and alzheimer, and does not prevent it from appearing again.</EPOE_NeurologicalTreatment.description>
+<EPOE_NeurologicalTreatment.description>Extensive research into nano technology allows you to print incredibly well-engineered framework kit consisting of artificial adaptable brain tissues, nerves and nanomachines to aid with countering dementia, alzheimer, chemical damage and scars in the brain. Unlocks neuro-cure framework recipe on the synthetic nano printer.\n\nNeuro-cure framework only cures dementia and alzheimer, and does not prevent it from appearing again.</EPOE_NeurologicalTreatment.description>
 <EPOE_NeurologicalTreatment.discoveredLetterTitle>About: Neuro-cure Framework</EPOE_NeurologicalTreatment.discoveredLetterTitle>
 <EPOE_NeurologicalTreatment.discoveredLetterText>You now have the technology to print Neuro-cure Framework - but to use it for surgery operations involving the brain, it will require the Brain Surgery research.</EPOE_NeurologicalTreatment.discoveredLetterText>
 

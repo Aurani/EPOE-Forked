@@ -4,31 +4,31 @@
 <SimpleRib.label>blank rib replacement</SimpleRib.label>
 <SimpleRib.description>A hollow artificial rib, with a tiny dispenser system. Ready to be filled to complete a rib replacement implant of choice.</SimpleRib.description>
 
-<MedicalRib.label>medical rib replacement</MedicalRib.label>
+<MedicalRib.label>medical rib implant</MedicalRib.label>
 <MedicalRib.description>An artificial rib, equipped with little blood filters and antibiotics-dispensers to keep the user healthy.</MedicalRib.description>
 
-<DruggedRib.label>drugged rib replacement</DruggedRib.label>
-<DruggedRib.description>An artificial rib, equipped with little flake-dispensers to keep the user happy. Synthetic liver highly recommended.</DruggedRib.description>
+<DruggedRib.label>drugged rib implant</DruggedRib.label>
+<DruggedRib.description>An artificial rib, equipped with little flake-dispensers to keep the user happy. Side effects of feeling high and unfocused.</DruggedRib.description>
 
-<AdrenalineRib.label>adrenaline rib replacement</AdrenalineRib.label>
+<AdrenalineRib.label>adrenaline rib implant</AdrenalineRib.label>
 <AdrenalineRib.description>An artificial rib, equipped with little adrenaline-dispensers to keep the user fit and awake.</AdrenalineRib.description>
 
-<PainkillerRib.label>painkiller rib replacement</PainkillerRib.label>
+<PainkillerRib.label>painkiller rib implant</PainkillerRib.label>
 <PainkillerRib.description>An artificial rib, equipped with little morphine-dispensers to numb the user's pain.</PainkillerRib.description>
 
-<HeaterRib.label>heating rib replacement</HeaterRib.label>
+<HeaterRib.label>heating rib implant</HeaterRib.label>
 <HeaterRib.description>An artificial rib, containing a micro-reactor powered, heat inducing spiral to warm the body from the inside.</HeaterRib.description>
 
-<CoolerRib.label>cooling rib replacement</CoolerRib.label>
+<CoolerRib.label>cooling rib implant</CoolerRib.label>
 <CoolerRib.description>An artificial rib with a micro coolant system, increasing the effectiveness of heat exchange via dermal exhausts.</CoolerRib.description>
 
-<CoagulatorRib.label>coagulator rib replacement</CoagulatorRib.label>
+<CoagulatorRib.label>coagulator rib implant</CoagulatorRib.label>
 <CoagulatorRib.description>An artificial rib, equipped with little coagulator-dispensers that responds to blood loss, which will make the blood clot easier, in an effort to reduce bleeding.</CoagulatorRib.description>
 
-<RespirationRib.label>respiration rib replacement</RespirationRib.label>
+<RespirationRib.label>respiration rib implant</RespirationRib.label>
 <RespirationRib.description>An artificial rib, that works with the diaphragm to assist with regulating breathing pattern for increased efficiency and coping with stress.</RespirationRib.description>
 
-<WakeUpRib.label>wake-up rib replacement</WakeUpRib.label>
+<WakeUpRib.label>wake-up rib implant</WakeUpRib.label>
 <WakeUpRib.description>An artificial rib, equipped with little wake-up-dispensers to keep the user awake and focused.</WakeUpRib.description>
 
 </LanguageData>

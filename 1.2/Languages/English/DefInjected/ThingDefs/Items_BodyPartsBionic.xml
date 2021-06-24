@@ -1,43 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-<BionicEye.label>bionic eye</BionicEye.label>
-<BionicEye.description>Advanced piece of technology made not only to fully replace natural eye, but also to give supernatural vision abilities.</BionicEye.description>
-
-<BionicLeg.label>bionic leg</BionicLeg.label>
-<BionicLeg.description>Bionic leg uses cutting-edge technology to give its owner extreme walking comfort and strength.</BionicLeg.description>
-
-<BionicArm.label>bionic arm</BionicArm.label>
-<BionicArm.description>One of the most sophisticated arm replacements. Gives extreme strength to its user.</BionicArm.description>
-
-<BionicSpine.label>bionic spine</BionicSpine.label>
-<BionicSpine.description>This light and impressing device can replace a damaged spine.</BionicSpine.description>
-
-<BionicEar.label>bionic ear</BionicEar.label>
-<BionicEar.description>An advanced device that expands upon the basic functions of the ear drum.</BionicEar.description>
-
-<PowerClaw.label>power claw</PowerClaw.label>
-<PowerClaw.description>Powerful hand replacement consisting of three deadly claws.</PowerClaw.description>
-
 <BionicHand.label>bionic hand</BionicHand.label>
-<BionicHand.description>Allows the user to perform tasks even faster than with regular hands.</BionicHand.description>
+<BionicHand.description>An advanced artificial hand. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological hand in almost every way.</BionicHand.description>
 
 <BionicFoot.label>bionic foot</BionicFoot.label>
-<BionicFoot.description>This prosthesis grants faster walking without stumbling all the time.</BionicFoot.description>
+<BionicFoot.description>An advanced artificial foot. With its biogel nerve-link, powerful mini-servos, and lattice-dust healing system, it is better than a biological foot in almost every way.</BionicFoot.description>
 
 <BionicFinger.label>bionic finger</BionicFinger.label>
-<BionicFinger.description>A replacement finger allowing for slightly faster and more precise movement.</BionicFinger.description>
+<BionicFinger.description>An advanced artificial finger. Delicate sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing ensure the best precision and grip, far surpassing that of a biological finger.</BionicFinger.description>
 
 <BionicToe.label>bionic toe</BionicToe.label>
-<BionicToe.description>A replacement toe which lets the wearer grip the ground slightly better.</BionicToe.description>
+<BionicToe.description>An advanced artificial toe. Delicate sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing make these toes unrivalled when it comes to movement and control, far surpassing that of biological toes.</BionicToe.description>
 
 <BionicJaw.label>bionic jaw</BionicJaw.label>
-<BionicJaw.description>Aside from a strong set of teeth, this also comes with a voice modulator.</BionicJaw.description>
+<BionicJaw.description>An advanced artificial jaw. Silenced mini-servos give great jaw strength, while a voice modulator gives exquisite fine tuning to speech. A lattice-dust healing system allows it to recover from damage. It is better than a biological jaw in almost every way.</BionicJaw.description>
 
 <SilentJaw.label>silent jaw</SilentJaw.label>
-<SilentJaw.description>This version of the bionic jaw comes without a voice modulator, useful for abrasive patients.</SilentJaw.description>
+<SilentJaw.description>An advanced artificial jaw. Silenced mini-servos give great jaw strength, but this version comes without a voice modulator. A lattice-dust healing system allows it to recover from damage. Useful for abrasive patients.</SilentJaw.description>
 
 <PowerArm.label>power arm</PowerArm.label>
-<PowerArm.description>Unparalleled strength and dexterity, and with retractable claws. This is the ultimate arm upgrade!</PowerArm.description>
+<PowerArm.description>A combat-oriented arm replacement consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks.</PowerArm.description>
 
 </LanguageData>

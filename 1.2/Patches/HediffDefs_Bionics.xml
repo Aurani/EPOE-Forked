@@ -40,30 +40,6 @@
 					</value>
 				</nomatch>
 			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/HediffDef[defName="BionicEye"]/addedPartProps/partEfficiency</xpath>
-				<value>
-					<partEfficiency>1.2</partEfficiency>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/HediffDef[defName="BionicArm"]/addedPartProps/partEfficiency</xpath>
-				<value>
-					<partEfficiency>1.2</partEfficiency>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/HediffDef[defName="BionicLeg"]/addedPartProps/partEfficiency</xpath>
-				<value>
-					<partEfficiency>1.2</partEfficiency>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/HediffDef[defName="BionicEar"]/addedPartProps/partEfficiency</xpath>
-				<value>
-					<partEfficiency>1.2</partEfficiency>
-				</value>
-			</li>
 		</operations>
 	</Operation>
 

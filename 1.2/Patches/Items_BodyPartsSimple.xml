@@ -21,12 +21,12 @@
 					</recipeUsers>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+			<!--li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="BodyPartProstheticBase"]/statBases/WorkToMake</xpath>
 				<value>
 					<WorkToMake>12000</WorkToMake>
 				</value>
-			</li>
+			</li-->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/unfinishedThingDef</xpath>
 				<value>
@@ -39,14 +39,11 @@
 	<!-- Trying a catch-all transfer to EPOE workbenches, hopefully this does not break something?! -->
 
 	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
 		<xpath>Defs/ThingDef[@ParentName="BodyPartProstheticMakeableBase"]/recipeMaker/recipeUsers[@Inherit="False"]</xpath>
 		<value>
 			<li>TableSimpleProsthetic</li>
 		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/ThingDef[@Name="EPIASurrogateBase"]/recipeMaker/recipeUsers/li[text() = "TableSimpleProsthetic"]</xpath>
 	</Operation>
 
 </Patch>
