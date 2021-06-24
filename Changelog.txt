@@ -1,5 +1,39 @@
+4.0.0 (23.6.21) Return to Vanilla
+Changes to the main mod:
+* Reverted bionic crafting method and cost to vanilla.
+* Prosthetic tier no longer upgrades into bionic tier.
+* Material cost changed across every tier. Most notable bionic no longer uses components and uses advanced components like vanilla.
+* Prosthetic workbench's steel cost reduced from 150 to 80.
+* Bionics workbench cost changed from 250 steel, 120 plasteel, 3 advanced components to 150 steel, 120 plasteel, 8 components, 2 advanced components
+* Tissue Printer now renamed to Synthetic Nano Printer. Cost changed from 250 Steel, 6 Components to 150 steel, 120 plasteel, 8 components, 2 advanced components.
+* Surrogate organs now crafted at the Prosthetic workbench.
+* Surrogate organs research requirements of Basic prosthetics changed to Prosthetics.
+* Surrogate organs research cost reduced from 600 to 300.
+* Surrogate organs efficiency improved from 65% to 75%.
+* Rib implants research requirements of Bionics changed to Synthetic organs.
+* Rib implants now crafted at the Synthetic nano printer.
+* Glitterworld implants now crafted at the Synthetic nano printer.
+* Bionic tier part efficiency restored to vanilla 125%, from 120%.
+* Salvaging industrial tier prosthesis should now yield 1 component if they have them in the material cost.
+* Salvaging bionic and above tier prosthesis should now yield 1 advanced component, if they inherit from the "BodyPartBionicBase" abstract.
+
+Changes that also affects Legacy version, which will be considered as version 3.4.0:
+* Rib replacements renamed to Rib implants.
+* Tissue Printer now renamed to Synthetic Nano Printer.
+* Prosthetic workbench can now receive a linkup for production speed from Synthetic nano printer.
+* Remove joywire implant surgery now requires level 13 medicine, and costs 5 medicine, added 10% chance of death on failure.
+* Scyther blade is now a weaponized hand implant with no penalties. Acts as a weaker variant to Royalty's Hand Talon.
+* New Glitterworld tier item: Tactical bionic eye. A bionic counterpart to the tactical cornea implant. Made at the bionic table.
+* Hook hands and steel arm can now be made at the prosthetic workbench.
+* Reduced silver stock of textile trader from 10000~15000 to 2000~4000.
+* Reduced silver stock of prothesis trader from 10000~15000 to 4000~6000.
+* Description changes for many items, to try match vanilla's style.
+* Patch for DE-Surgery added. Removes some overlapping surgeries and uses our one.
+* Texture updates for prothestic items. Special thanks to the Midworld Expanded team for providing them.
+
 3.3.13 (21.4.21)
 * Revamped the scar repair system. Cleaner and can now work on modded permanent injuries. Special thanks to Syrchalis.
+* When [SYR] Scar Removal Plus is active, our overlap surgeries are disabled.
 * Bionic table plasteel cost reduced from 150 to 120.
 * Synthetic organ part efficiency increased from 120% to 125%.
 * Corrected adrenaline rib's yayo cost when direct crafting to 5.
