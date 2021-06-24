@@ -76,13 +76,11 @@
 	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicEye</defName>
 		<label>advanced bionic eye</label>
-		<description>This advanced piece of technology allows the user to perfectly see in the dark as well as through walls. Also through clothes.</description>
+		<description>An ultra advanced artifical eye, further improved from the standard models. With its biogel nerve-link, internal signal pre-processor, and wide-spectrum sensors, it is better than a biological eye in almost every way. A lattice-dust healing system allows it to recover from damage.</description>
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicEye</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>35</Steel>
-			<Plasteel>45</Plasteel>
-			<ComponentIndustrial>8</ComponentIndustrial>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>8</ComponentSpacer>
 		</costList>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
@@ -113,10 +111,18 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>4</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -192,13 +198,11 @@
 	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicArm</defName>
 		<label>advanced bionic arm</label>
-		<description>Remember when you struggled with opening jars? Now you struggle with not breaking them instantly.</description>
+		<description>An ultra advanced artificial arm, further improved from the standard models. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way.</description>
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicArm</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>55</Steel>
-			<Plasteel>60</Plasteel>
-			<ComponentIndustrial>8</ComponentIndustrial>
-			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>8</ComponentSpacer>
 		</costList>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
@@ -229,10 +233,18 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentSpacer</li>
+						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -292,13 +304,11 @@
 	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicLeg</defName>
 		<label>advanced bionic leg</label>
-		<description>Gotta go fast!</description>
+		<description>An ultra advanced artificial leg, further improved from the standard models. With its biogel nerve-link, powerful mini-servos, and lattice-dust healing system, it is better than a biological leg in almost every way.</description>
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicLeg</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>55</Steel>
-			<Plasteel>60</Plasteel>
-			<ComponentIndustrial>8</ComponentIndustrial>
-			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>8</ComponentSpacer>
 		</costList>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
@@ -329,10 +339,18 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentSpacer</li>
+						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -399,13 +417,11 @@
 	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicSpine</defName>
 		<label>advanced bionic spine</label>
-		<description>This durable device supports the back and makes working and walking much easier.</description>
+		<description>An ultra advanced artificial spine, further improved from the standard models. A biogel nerve bundle runs down an articulated plasteel core, surrounded by a lattice-dust healing system. It is better than a biological spine in almost every way.</description>
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicSpine</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>55</Steel>
-			<Plasteel>60</Plasteel>
-			<ComponentIndustrial>8</ComponentIndustrial>
-			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>8</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>4</Mass>
@@ -433,10 +449,18 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentSpacer</li>
+						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -496,13 +520,11 @@
 	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicEar</defName>
 		<label>advanced bionic ear</label>
-		<description>This device allows the user to hear better than bats.</description>
+		<description>An ultra advanced artificial ear implant, further improved from the standard models. A collection of invisible subdermal microphones capture sound and transmit it to a biogel nerve interface that links directly with the auditory nerve. It's sensitive enough to hear a cat before you see it, can't be damaged by loud noise, and automatically tunes itself to pick out meaningful sounds in noisy environments.</description>
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicEar</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>20</Steel>
-			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -526,6 +548,14 @@
 					</thingDefs>
 				</filter>
 				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -609,13 +639,11 @@
 	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicHand</defName>
 		<label>advanced bionic hand</label>
-		<description>Some people would chop their own hands off just to get this gorgeous piece of tech.</description>
+		<description>An ultra advanced artificial hand, further improved from the standard models. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological hand in almost every way.</description>
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicHand</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>35</Steel>
-			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>3</Mass>
@@ -639,6 +667,14 @@
 					</thingDefs>
 				</filter>
 				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -706,13 +742,11 @@
 	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicFoot</defName>
 		<label>advanced bionic foot</label>
-		<description>Dozens of servomotors grant faster movement and ultimate comfort.</description>
+		<description>An ultra advanced artificial foot, further improved from the standard models. With its biogel nerve-link, powerful mini-servos, and lattice-dust healing system, it is better than a biological foot in almost every way.</description>
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicFoot</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>35</Steel>
-			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>5</ComponentIndustrial>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>3</Mass>
@@ -736,6 +770,14 @@
 					</thingDefs>
 				</filter>
 				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -803,13 +845,11 @@
 	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicFinger</defName>
 		<label>advanced bionic finger</label>
-		<description>Advanced bionic finger. Delicate glitterworld sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing ensure the best precision and grip, far surpassing that of a natural or bionic finger. Powerful enough to crush rocks like ripe tomatoes.</description>
+		<description>An ultra advanced artificial finger, further improved from the standard models. Delicate sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing ensure the best precision and grip, far surpassing that of a biological finger.</description>
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicFinger</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>7</Steel>
-			<Plasteel>7</Plasteel>
-			<ComponentIndustrial>1</ComponentIndustrial>
-			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>3</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<statBases>
 			<WorkToMake>6600</WorkToMake>
@@ -832,6 +872,14 @@
 				<filter>
 					<thingDefs>
 						<li>BionicFinger</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -903,13 +951,11 @@
 	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicToe</defName>
 		<label>advanced bionic toe</label>
-		<description>Advanced bionic toe. Delicate glitterworld sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing make these toes unrivalled when it comes to movement and control, far surpassing that of natural or bionic toes. Glitterworld mechanite-traction technology ensures extreme speeds even on normally unfavourable terrain, such as water.</description>
+		<description>An ultra advanced artificial toe, further improved from the standard models. Delicate sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing make these toes unrivalled when it comes to movement and control, far surpassing that of biological toes.</description>
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicToe</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>7</Steel>
-			<Plasteel>7</Plasteel>
-			<ComponentIndustrial>1</ComponentIndustrial>
-			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>3</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
 		<statBases>
 			<WorkToMake>6600</WorkToMake>
@@ -932,6 +978,14 @@
 				<filter>
 					<thingDefs>
 						<li>BionicToe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1018,13 +1072,11 @@
 	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
 		<defName>AdvancedBionicJaw</defName>
 		<label>advanced bionic jaw</label>
-		<description>The voice this jaw creates is so beautiful that even mechanoids stop by to listen.</description>
+		<description>An ultra advanced artificial jaw, further improved from the standard models. Silenced mini-servos give great jaw strength, while a voice modulator gives exquisite fine tuning to speech. A lattice-dust healing system allows it to recover from damage. It is better than a biological jaw in almost every way.</description>
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicJaw</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>45</Steel>
-			<Plasteel>40</Plasteel>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>8</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>2</Mass>
@@ -1052,10 +1104,18 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>4</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1094,126 +1154,6 @@
 			<li>Jaw</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicJaw</addsHediff>
-	</RecipeDef>
-
-	<!-- Advanced power arm -->
-
-	<HediffDef ParentName="addedPartAdvanced">
-		<defName>AdvancedPowerArm</defName>
-		<label>advanced power arm</label>
-		<labelNoun>an advanced power arm</labelNoun>
-		<description>An installed advanced power arm.</description>
-		<descriptionHyperlinks><ThingDef>AdvancedPowerArm</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>AdvancedPowerArm</spawnThingOnRemoved>
-		<addedPartProps>
-			<isGoodWeapon>true</isGoodWeapon>
-			<solid>true</solid>
-			<partEfficiency>1.25</partEfficiency>
-			<betterThanNatural>true</betterThanNatural>
-		</addedPartProps>
-		<comps>
-			<li Class="HediffCompProperties_VerbGiver">
-				<tools>
-					<li>
-						<label>claw</label>
-						<capacities>
-							<li>Scratch</li>
-						</capacities>
-						<power>25</power>
-						<cooldownTime>2</cooldownTime>
-						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-						<soundMeleeHit>Pawn_Melee_PowerClaw_Hit</soundMeleeHit>
-						<soundMeleeMiss>Pawn_Melee_PowerClaw_Miss</soundMeleeMiss>
-					</li>
-				</tools>
-			</li>
-		</comps>
-	</HediffDef>
-
-	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
-		<defName>AdvancedPowerArm</defName>
-		<label>advanced power arm</label>
-		<description>Even more unparalleled strength and dexterity, and with a sharp, retractable claws. Now it's the ultimate arm upgrade!</description>
-		<descriptionHyperlinks><RecipeDef>InstallAdvancedPowerArm</RecipeDef></descriptionHyperlinks>
-		<costList>
-			<EPIA_ScytherBlade>3</EPIA_ScytherBlade>
-			<Steel>55</Steel>
-			<Plasteel>120</Plasteel>
-			<ComponentIndustrial>8</ComponentIndustrial>
-			<ComponentSpacer>6</ComponentSpacer>
-		</costList>
-		<statBases>
-			<Mass>5</Mass>
-			<WorkToMake>80000</WorkToMake>
-		</statBases>
-		<techHediffsTags>
-			<li>AdvancedWeapon</li>
-		</techHediffsTags>
-	</ThingDef>
-
-	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
-		<defName>CreateAdvancedPowerArm</defName>
-		<label>assemble advanced power arm</label>
-		<description>Upgrade bionic power arm into advanced bionic power arm.</description>
-		<descriptionHyperlinks><ThingDef>AdvancedPowerArm</ThingDef></descriptionHyperlinks>
-		<jobString>Upgrading power arm.</jobString>
-		<products>
-			<AdvancedPowerArm>1</AdvancedPowerArm>
-		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>PowerArm</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentSpacer</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>PowerArm</li>
-				<li>ComponentSpacer</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-	</RecipeDef>
-
-	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
-		<defName>InstallAdvancedPowerArm</defName>
-		<label>install advanced power arm</label>
-		<description>Installs advanced power arm.</description>
-		<descriptionHyperlinks>
-			<ThingDef>AdvancedPowerArm</ThingDef>
-			<HediffDef>AdvancedPowerArm</HediffDef>
-		</descriptionHyperlinks>
-		<jobString>Installing advanced power arm.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>AdvancedPowerArm</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>AdvancedPowerArm</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Shoulder</li> 
-		</appliedOnFixedBodyParts>
-		<addsHediff>AdvancedPowerArm</addsHediff>
 	</RecipeDef>
 
 	<!-- Exoskeleton suit -->

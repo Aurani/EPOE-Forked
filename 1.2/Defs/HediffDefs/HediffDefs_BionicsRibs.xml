@@ -8,15 +8,9 @@
 		<priceImpact>true</priceImpact>
 	</HediffDef>
 
-	<ThingDef Name="EPIA_BodyPartBlankRibBase" ParentName="BodyPartBionicBase" Abstract="True">
-		<graphicData>
-			<texPath>Things/Item/BodyPart/SimplePart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+	<ThingDef Name="EPIA_BodyPartBlankRibBase" ParentName="EPIASyntheticBase" Abstract="True">
 		<recipeMaker>
-			<recipeUsers>
-				<li>TableSimpleProsthetic</li>
-			</recipeUsers>
+			<soundWorking>Recipe_Smith</soundWorking>
 			<researchPrerequisite>RibReplacements</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
@@ -24,14 +18,15 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef Name="EPIA_BodyPartBionicRibBase" ParentName="BodyPartBionicBase" Abstract="True">
+	<ThingDef Name="EPIA_BodyPartBionicRibBase" ParentName="EPIASyntheticBase" Abstract="True">
 		<recipeMaker>
+			<soundWorking>Recipe_Smith</soundWorking>
 			<recipeUsers Inherit="False" />
 			<researchPrerequisite>RibReplacements</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
-	<RecipeDef Name="EPIA_RecipeUpgradeBionicRib" ParentName="EPIA_RecipeUpgradeBionic" Abstract="True">
+	<RecipeDef Name="EPIA_RecipeUpgradeBionicRib" ParentName="EPIA_RecipeUpgradeSynthetic" Abstract="True">
 		<workAmount>9000</workAmount>
 		<researchPrerequisite>RibReplacements</researchPrerequisite>
 	</RecipeDef>
@@ -43,8 +38,8 @@
 		<label>blank rib replacement</label>
 		<description>A hollow artificial rib, with a tiny dispenser system. Ready to be filled to complete a rib replacement implant of choice.</description>
 		<costList>
-			<Plasteel>25</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -79,12 +74,12 @@
 
 	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>MedicalRib</defName>
-		<label>medical rib replacement</label>
+		<label>medical rib implant</label>
 		<description>An artificial rib, equipped with little blood filters and antibiotics-dispensers to keep the user healthy.</description>
 		<descriptionHyperlinks><RecipeDef>InstallMedicalRib</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Plasteel>25</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
 			<Neutroamine>3</Neutroamine>
 			<Penoxycyline>10</Penoxycyline>
 		</costList>
@@ -96,7 +91,7 @@
 	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
 		<defName>CreateMedicalRib</defName>
 		<label>assemble medical rib</label>
-		<description>Fill a blank rib replacement to complete a medical rib replacement.</description>
+		<description>Fill a blank rib replacement to complete a medical rib implant.</description>
 		<descriptionHyperlinks><ThingDef>MedicalRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling medical rib.</jobString>
 		<products>
@@ -139,13 +134,13 @@
 
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>InstallMedicalRib</defName>
-		<label>install medical rib replacement</label>
-		<description>Installs a medical rib replacement.</description>
+		<label>install medical rib implant</label>
+		<description>Installs a medical rib implant.</description>
 		<descriptionHyperlinks>
 			<ThingDef>MedicalRib</ThingDef>
 			<HediffDef>MedicalRib</HediffDef>
 		</descriptionHyperlinks>
-		<jobString>Installing a medical rib replacement.</jobString>
+		<jobString>Installing a medical rib.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -173,10 +168,13 @@
 
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveMedicalRib</defName>
-		<label>remove medical rib replacement</label>
-		<description>Remove a medical rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>MedicalRib</ThingDef></descriptionHyperlinks>
-		<jobString>Removing rib replacement.</jobString>
+		<label>remove medical rib implant</label>
+		<description>Remove a medical rib implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>MedicalRib</ThingDef>
+			<HediffDef>MedicalRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing rib implant.</jobString>
 		<removesHediff>MedicalRib</removesHediff>
 	</RecipeDef>
 
@@ -208,12 +206,12 @@
 
 	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>DruggedRib</defName>
-		<label>drugged rib replacement</label>
-		<description>An artificial rib, equipped with little flake-dispensers to keep the user happy. Synthetic liver highly recommended.</description>
+		<label>drugged rib implant</label>
+		<description>An artificial rib, equipped with little flake-dispensers to keep the user happy. Side effects of feeling high and unfocused.</description>
 		<descriptionHyperlinks><RecipeDef>InstallDruggedRib</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Plasteel>25</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
 			<Neutroamine>3</Neutroamine>
 			<Flake>10</Flake>
 		</costList>
@@ -225,7 +223,7 @@
 	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
 		<defName>CreateDruggedRib</defName>
 		<label>assemble drugged rib</label>
-		<description>Fill a blank rib replacement to complete a drugged rib replacement.</description>
+		<description>Fill a blank rib replacement to complete a drugged rib implant.</description>
 		<descriptionHyperlinks><ThingDef>DruggedRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling drugged rib.</jobString>
 		<products>
@@ -268,8 +266,8 @@
 
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>InstallDruggedRib</defName>
-		<label>install drugged rib</label>
-		<description>Installs a drugged rib.</description>
+		<label>install drugged rib implant</label>
+		<description>Installs a drugged rib implant.</description>
 		<descriptionHyperlinks>
 			<ThingDef>DruggedRib</ThingDef>
 			<HediffDef>DruggedRib</HediffDef>
@@ -302,10 +300,13 @@
 
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveDruggedRib</defName>
-		<label>remove drugged rib replacement</label>
-		<description>Remove a drugged rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>DruggedRib</ThingDef></descriptionHyperlinks>
-		<jobString>Removing rib replacement.</jobString>
+		<label>remove drugged rib implant</label>
+		<description>Remove a drugged rib implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DruggedRib</ThingDef>
+			<HediffDef>DruggedRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing rib implant.</jobString>
 		<removesHediff>DruggedRib</removesHediff>
 	</RecipeDef>
 
@@ -337,12 +338,12 @@
 
 	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>AdrenalineRib</defName>
-		<label>adrenaline rib replacement</label>
+		<label>adrenaline rib implant</label>
 		<description>An artificial rib, equipped with little adrenaline-dispensers to keep the user fit and awake.</description>
 		<descriptionHyperlinks><RecipeDef>InstallAdrenalineRib</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Plasteel>25</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
 			<Neutroamine>3</Neutroamine>
 			<Yayo>5</Yayo>
 		</costList>
@@ -354,7 +355,7 @@
 	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
 		<defName>CreateAdrenalineRib</defName>
 		<label>assemble adrenaline rib</label>
-		<description>Fill a blank rib replacement to complete a adrenaline rib replacement.</description>
+		<description>Fill a blank rib replacement to complete a adrenaline rib implant.</description>
 		<descriptionHyperlinks><ThingDef>AdrenalineRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling adrenaline rib.</jobString>
 		<products>
@@ -397,8 +398,8 @@
 
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>InstallAdrenalineRib</defName>
-		<label>install adrenaline rib</label>
-		<description>Installs an adrenaline rib.</description>
+		<label>install adrenaline rib implant</label>
+		<description>Installs an adrenaline rib implant.</description>
 		<descriptionHyperlinks>
 			<ThingDef>AdrenalineRib</ThingDef>
 			<HediffDef>AdrenalineRib</HediffDef>
@@ -431,10 +432,13 @@
 
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveAdrenalineRib</defName>
-		<label>remove adrenaline rib replacement</label>
-		<description>Remove a adrenaline rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>AdrenalineRib</ThingDef></descriptionHyperlinks>
-		<jobString>Removing rib replacement.</jobString>
+		<label>remove adrenaline rib implant</label>
+		<description>Remove a adrenaline rib implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AdrenalineRib</ThingDef>
+			<HediffDef>AdrenalineRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing rib implant.</jobString>
 		<removesHediff>AdrenalineRib</removesHediff>
 	</RecipeDef>
 
@@ -462,12 +466,12 @@
 
 	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>PainkillerRib</defName>
-		<label>painkiller rib replacement</label>
+		<label>painkiller rib implant</label>
 		<description>An artificial rib, equipped with little morphine-dispensers to numb the user's pain.</description>
 		<descriptionHyperlinks><RecipeDef>InstallPainkillerRib</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Plasteel>25</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
 			<Neutroamine>3</Neutroamine>
 			<GoJuice>5</GoJuice>
 		</costList>
@@ -479,7 +483,7 @@
 	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
 		<defName>CreatePainkillerRib</defName>
 		<label>assemble painkiller rib</label>
-		<description>Fill a blank rib replacement to complete a painkiller rib replacement.</description>
+		<description>Fill a blank rib replacement to complete a painkiller rib implant.</description>
 		<descriptionHyperlinks><ThingDef>PainkillerRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling painkiller rib.</jobString>
 		<products>
@@ -522,8 +526,8 @@
 
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>InstallPainkillerRib</defName>
-		<label>install painkiller rib</label>
-		<description>Installs a painkiller rib.</description>
+		<label>install painkiller rib implant</label>
+		<description>Installs a painkiller rib implant.</description>
 		<descriptionHyperlinks>
 			<ThingDef>PainkillerRib</ThingDef>
 			<HediffDef>PainkillerRib</HediffDef>
@@ -556,10 +560,13 @@
 
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemovePainkillerRib</defName>
-		<label>remove painkiller rib replacement</label>
-		<description>Remove a painkiller rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>PainkillerRib</ThingDef></descriptionHyperlinks>
-		<jobString>Removing rib replacement.</jobString>
+		<label>remove painkiller rib implant</label>
+		<description>Remove a painkiller rib implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>PainkillerRib</ThingDef>
+			<HediffDef>PainkillerRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing rib implant.</jobString>
 		<removesHediff>PainkillerRib</removesHediff>
 	</RecipeDef>
 
@@ -588,13 +595,13 @@
 
 	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>HeaterRib</defName>
-		<label>heating rib replacement</label>
+		<label>heating rib implant</label>
 		<description>An artificial rib, containing a micro-reactor powered, heat inducing spiral to warm the body from the inside.</description>
 		<descriptionHyperlinks><RecipeDef>InstallHeaterRib</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Plasteel>25</Plasteel>
-			<Steel>20</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+			<Steel>10</Steel>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -604,7 +611,7 @@
 	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
 		<defName>EPIA_UpgradeHeatingRib</defName>
 		<label>assemble heating rib</label>
-		<description>Fill a blank rib replacement to complete a heating rib replacement.</description>
+		<description>Fill a blank rib replacement to complete a heating rib implant.</description>
 		<descriptionHyperlinks><ThingDef>HeaterRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling heating rib.</jobString>
 		<products>
@@ -625,15 +632,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentIndustrial</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -647,8 +646,8 @@
 
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>InstallHeaterRib</defName>
-		<label>install heating rib</label>
-		<description>Installs a heating rib.</description>
+		<label>install heating rib implant</label>
+		<description>Installs a heating rib implant.</description>
 		<descriptionHyperlinks>
 			<ThingDef>HeaterRib</ThingDef>
 			<HediffDef>HeaterRib</HediffDef>
@@ -681,10 +680,13 @@
 
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveHeaterRib</defName>
-		<label>remove heating rib replacement</label>
-		<description>Remove a heating rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>HeaterRib</ThingDef></descriptionHyperlinks>
-		<jobString>Removing rib replacement.</jobString>
+		<label>remove heating rib implant</label>
+		<description>Remove a heating rib implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>HeaterRib</ThingDef>
+			<HediffDef>HeaterRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing rib implant.</jobString>
 		<removesHediff>HeaterRib</removesHediff>
 	</RecipeDef>
 
@@ -713,13 +715,13 @@
 
 	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>CoolerRib</defName>
-		<label>cooling rib replacement</label>
+		<label>cooling rib implant</label>
 		<description>An artificial rib with a micro coolant system, increasing the effectiveness of heat exchange via dermal exhausts.</description>
 		<descriptionHyperlinks><RecipeDef>InstallCoolerRib</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Plasteel>25</Plasteel>
-			<Steel>20</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+			<Steel>10</Steel>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -750,15 +752,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentIndustrial</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -772,8 +766,8 @@
 
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>InstallCoolerRib</defName>
-		<label>install cooling rib</label>
-		<description>Installs a cooling rib.</description>
+		<label>install cooling rib implant</label>
+		<description>Installs a cooling rib implant.</description>
 		<descriptionHyperlinks>
 			<ThingDef>CoolerRib</ThingDef>
 			<HediffDef>CoolerRib</HediffDef>
@@ -806,10 +800,13 @@
 
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveCoolerRib</defName>
-		<label>remove cooling rib replacement</label>
-		<description>Remove a cooling rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>CoolerRib</ThingDef></descriptionHyperlinks>
-		<jobString>Removing rib replacement.</jobString>
+		<label>remove cooling rib implant</label>
+		<description>Remove a cooling rib implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>CoolerRib</ThingDef>
+			<HediffDef>CoolerRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing rib implant.</jobString>
 		<removesHediff>CoolerRib</removesHediff>
 	</RecipeDef>
 
@@ -835,12 +832,12 @@
 
 	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>CoagulatorRib</defName>
-		<label>coagulator rib replacement</label>
+		<label>coagulator rib implant</label>
 		<description>An artificial rib, equipped with little coagulator-dispensers that responds to blood loss, which will make the blood clot easier, in an effort to reduce bleeding.</description>
 		<descriptionHyperlinks><RecipeDef>InstallCoagulatorRib</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Plasteel>25</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
 			<Neutroamine>3</Neutroamine>
 			<MedicineUltratech>5</MedicineUltratech>
 		</costList>
@@ -852,7 +849,7 @@
 	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
 		<defName>CreateCoagulatorRib</defName>
 		<label>assemble coagulator rib</label>
-		<description>Fill a blank rib replacement to complete a coagulator rib replacement.</description>
+		<description>Fill a blank rib replacement to complete a coagulator rib implant.</description>
 		<descriptionHyperlinks><ThingDef>CoagulatorRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling coagulator rib.</jobString>
 		<products>
@@ -895,13 +892,13 @@
 
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>InstallCoagulatorRib</defName>
-		<label>install coagulator rib replacement</label>
-		<description>Installs a coagulator rib replacement.</description>
+		<label>install coagulator rib implant</label>
+		<description>Installs a coagulator rib implant.</description>
 		<descriptionHyperlinks>
 			<ThingDef>CoagulatorRib</ThingDef>
 			<HediffDef>CoagulatorRib</HediffDef>
 		</descriptionHyperlinks>
-		<jobString>Installing a coagulator rib replacement.</jobString>
+		<jobString>Installing a coagulator rib.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -929,10 +926,13 @@
 
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveCoagulatorRib</defName>
-		<label>remove coagulator rib replacement</label>
-		<description>Remove a coagulator rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>CoagulatorRib</ThingDef></descriptionHyperlinks>
-		<jobString>Removing rib replacement.</jobString>
+		<label>remove coagulator rib implant</label>
+		<description>Remove a coagulator rib implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>CoagulatorRib</ThingDef>
+			<HediffDef>CoagulatorRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing rib implant.</jobString>
 		<removesHediff>CoagulatorRib</removesHediff>
 	</RecipeDef>
 
@@ -966,13 +966,12 @@
 
 	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>RespirationRib</defName>
-		<label>respiration rib replacement</label>
+		<label>respiration rib implant</label>
 		<description>An artificial rib, that works with the diaphragm to assist with regulating breathing pattern for increased efficiency and coping with stress.</description>
 		<descriptionHyperlinks><RecipeDef>InstallRespirationRib</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Plasteel>50</Plasteel>
-			<ComponentIndustrial>6</ComponentIndustrial>
-			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>7</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.6</Mass>
@@ -983,7 +982,7 @@
 	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
 		<defName>CreateRespirationRib</defName>
 		<label>assemble respiration rib</label>
-		<description>Assemble two blank rib replacement to complete a respiration rib replacement.</description>
+		<description>Assemble two blank rib replacement to complete a respiration rib implant.</description>
 		<descriptionHyperlinks><ThingDef>RespirationRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling respiration rib.</jobString>
 		<products>
@@ -1017,13 +1016,13 @@
 
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>InstallRespirationRib</defName>
-		<label>install respiration rib replacement</label>
-		<description>Installs a respiration rib replacement.</description>
+		<label>install respiration rib implant</label>
+		<description>Installs a respiration rib implant.</description>
 		<descriptionHyperlinks>
 			<ThingDef>RespirationRib</ThingDef>
 			<HediffDef>RespirationRib</HediffDef>
 		</descriptionHyperlinks>
-		<jobString>Installing a respiration rib replacement.</jobString>
+		<jobString>Installing a respiration rib.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1051,10 +1050,13 @@
 
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveRespirationRib</defName>
-		<label>remove respiration rib replacement</label>
-		<description>Remove a respiration rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>RespirationRib</ThingDef></descriptionHyperlinks>
-		<jobString>Removing rib replacement.</jobString>
+		<label>remove respiration rib implant</label>
+		<description>Remove a respiration rib implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>RespirationRib</ThingDef>
+			<HediffDef>RespirationRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing rib implant.</jobString>
 		<removesHediff>RespirationRib</removesHediff>
 	</RecipeDef>
 
@@ -1089,12 +1091,12 @@
 
 	<ThingDef ParentName="EPIA_BodyPartBionicRibBase">
 		<defName>WakeUpRib</defName>
-		<label>wake-up rib replacement</label>
+		<label>wake-up rib implant</label>
 		<description>An artificial rib, equipped with little wake-up-dispensers to keep the user awake and focused.</description>
 		<descriptionHyperlinks><RecipeDef>InstallWakeUpRib</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Plasteel>25</Plasteel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
 			<Neutroamine>3</Neutroamine>
 			<WakeUp>5</WakeUp>
 		</costList>
@@ -1106,7 +1108,7 @@
 	<RecipeDef ParentName="EPIA_RecipeUpgradeBionicRib">
 		<defName>CreateWakeUpRib</defName>
 		<label>assemble wake-up rib</label>
-		<description>Fill a blank rib replacement to complete a wake-up rib replacement.</description>
+		<description>Fill a blank rib replacement to complete a wake-up rib implant.</description>
 		<descriptionHyperlinks><ThingDef>WakeUpRib</ThingDef></descriptionHyperlinks>
 		<jobString>Assembling wake-up rib.</jobString>
 		<products>
@@ -1149,13 +1151,13 @@
 
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>InstallWakeUpRib</defName>
-		<label>install wake-up rib replacement</label>
-		<description>Installs a wake-up rib replacement.</description>
+		<label>install wake-up rib implant</label>
+		<description>Installs a wake-up rib implant.</description>
 		<descriptionHyperlinks>
 			<ThingDef>WakeUpRib</ThingDef>
 			<HediffDef>WakeUpRib</HediffDef>
 		</descriptionHyperlinks>
-		<jobString>Installing a wake-up rib replacement.</jobString>
+		<jobString>Installing a wake-up rib.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -1183,10 +1185,13 @@
 
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveWakeUpRib</defName>
-		<label>remove wake-up rib replacement</label>
-		<description>Remove a wake-up rib replacement.</description>
-		<descriptionHyperlinks><ThingDef>WakeUpRib</ThingDef></descriptionHyperlinks>
-		<jobString>Removing rib replacement.</jobString>
+		<label>remove wake-up rib implant</label>
+		<description>Remove a wake-up rib implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>WakeUpRib</ThingDef>
+			<HediffDef>WakeUpRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing rib implant.</jobString>
 		<removesHediff>WakeUpRib</removesHediff>
 	</RecipeDef>
 

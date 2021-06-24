@@ -28,11 +28,11 @@
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
 		<defName>SimpleProstheticLeg</defName>
 		<label>prosthetic leg</label>
-		<description>Simple prosthesis made to replace a missing leg. Not very comfortable but quite efficient.</description>
+		<description>A leg prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real leg.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticLeg</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>55</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Steel>40</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>8</Mass>
@@ -74,11 +74,11 @@
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
 		<defName>SimpleProstheticArm</defName>
 		<label>prosthetic arm</label>
-		<description>Simple but durable arm prosthesis.</description>
+		<description>An arm prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real arm.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticArm</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>55</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Steel>40</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>5</Mass>
@@ -109,7 +109,7 @@
 		<descriptionHyperlinks><RecipeDef>InstallCochlearImplant</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Steel>20</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 		  <Mass>0.1</Mass>
@@ -146,7 +146,7 @@
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
 		<defName>GoldenEye</defName>
 		<label>golden eye</label>
-		<description>Replaces missing eyes. So incredibly beautiful that it's a shame you can't see yourself in the mirror.</description>
+		<description>An eye prosthesis made out of gold. An exorbitant way to cover up a missing eye.</description>
 		<descriptionHyperlinks><RecipeDef>InstallGoldenEye</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Gold>1</Gold>
@@ -207,10 +207,10 @@
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
 		<defName>LightReceptor</defName>
 		<label>light receptor</label>
-		<description>Replaces a missing eye. Can detect light and even objects. Like looking through frosted glass but without the colors.</description>
+		<description>An eye prosthesis. The optic nerves recieve stimulation from the light sensors and signal processors, creating a sensation of vision. It's not as good as a natural eye, but it's a lot better than being blind.</description>
 		<descriptionHyperlinks><RecipeDef>InstallLightReceptor</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>35</Steel>
+			<Steel>25</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
@@ -268,11 +268,11 @@
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
 		<defName>SimpleSpine</defName>
 		<label>replacement spine</label>
-		<description>This simple but advanced device can almost perfectly replace a damaged spine.</description>
+		<description>A spine prosthesis. Highly advanced for its time, can be considered as an early bionic prototype with the first sophisticated application of neural interface in a prosthesis. Still, it is inferior to a real spine.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSimpleSpine</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>55</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Steel>40</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 		  <Mass>4</Mass>
@@ -343,11 +343,11 @@
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
 		<defName>SimpleProstheticHand</defName>
 		<label>prosthetic hand</label>
-		<description>Replaces missing hands. Way more comfortable and less frightening than the hook hand.</description>
+		<description>A hand prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real hand.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticHand</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>35</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>25</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>3</Mass>
@@ -404,11 +404,11 @@
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
 		<defName>SimpleProstheticFoot</defName>
 		<label>prosthetic foot</label>
-		<description>Replaces missing feet. Not as cheap as a wood log.</description>
+		<description>A foot prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real foot.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticFoot</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>35</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>25</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>3</Mass>
@@ -469,11 +469,11 @@
 		<description>Archaic and crude replacement for lost fingers. Not terribly efficient and certainly not comfortable, but gets the job done.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticFinger</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>7</Steel>
+			<Steel>5</Steel>
 		</costList>
 		<statBases>
 			<WorkToMake>2000</WorkToMake>
-			<Mass>0.6</Mass>
+			<Mass>0.1</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>Simple</li>
@@ -532,11 +532,11 @@
 		<description>Archaic and crude replacement for lost toes. Inefficient and uncomfortable, they generate a lot of noise while walking, but they get the job done.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticToe</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>7</Steel>
+			<Steel>5</Steel>
 		</costList>
 		<statBases>
 			<WorkToMake>2000</WorkToMake>
-			<Mass>0.6</Mass>
+			<Mass>0.1</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>Simple</li>
@@ -620,11 +620,11 @@
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
 		<defName>HydraulicJaw</defName>
 		<label>hydraulic jaw</label>
-		<description>Replaces a missing jaw. Be careful with the extremely efficient teeth!</description>
+		<description>A jaw prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Food is crushed and chewed more efficiently, but the finer details of speaking is slightly lacking.</description>
 		<descriptionHyperlinks><RecipeDef>InstallHydraulicJaw</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>45</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Steel>25</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>2</Mass>
@@ -681,10 +681,10 @@
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
 		<defName>ArtificialNose</defName>
 		<label>artificial nose</label>
-		<description>Replaces a missing nose. Covers the hole in the face.</description>
+		<description>A nose prosthesis. Used to cover where the missing nose was on the face.</description>
 		<descriptionHyperlinks><RecipeDef>InstallArtificialNose</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Steel>30</Steel>
+			<Steel>20</Steel>
 		</costList>
 		<statBases>
 			<Mass>0.2</Mass>
@@ -745,7 +745,7 @@
 		<description>A replacement for the radius, a bone in the lower arm.</description>
 		<descriptionHyperlinks><RecipeDef>InstallReplacementRadius</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Plasteel>30</Plasteel>
+			<Steel>25</Steel>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -793,9 +793,9 @@
 		<description>An installed scyther blade.</description>
 		<descriptionHyperlinks><ThingDef>EPIA_ScytherBlade</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>EPIA_ScytherBlade</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>0.25</partEfficiency>
 		</addedPartProps>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
@@ -817,9 +817,8 @@
 	<ThingDef ParentName="BodyPartProstheticMakeableBase">
 		<defName>EPIA_ScytherBlade</defName>
 		<label>scyther blade</label>
-		<description>Hand replacement with a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</description>
+		<description>Weaponized hand implant utilizing a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</description>
 		<descriptionHyperlinks><RecipeDef>InstallScytherBlade</RecipeDef></descriptionHyperlinks>
-		<techLevel>Spacer</techLevel>
 		<costList>
 			<EPOE_DamagedScytherBlade>1</EPOE_DamagedScytherBlade>
 			<Steel>5</Steel>
@@ -834,10 +833,10 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>InstallScytherBlade</defName>
 		<label>install scyther blade</label>
-		<description>Installs a scyther blade at where the hand is.</description>
+		<description>Installs a scyther blade implant.</description>
 		<descriptionHyperlinks>
 			<ThingDef>EPIA_ScytherBlade</ThingDef>
 			<HediffDef>EPOE_ScytherBlade</HediffDef>
@@ -862,6 +861,18 @@
 			<li>Hand</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>EPOE_ScytherBlade</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>EPIA_RemoveScytherBlade</defName>
+		<label>remove scyther blade</label>
+		<description>Remove the scyther blade implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_ScytherBlade</ThingDef>
+			<HediffDef>EPOE_ScytherBlade</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing scyther blade.</jobString>
+		<removesHediff>EPOE_ScytherBlade</removesHediff>
 	</RecipeDef>
 
 </Defs>

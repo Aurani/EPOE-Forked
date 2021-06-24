@@ -16,16 +16,10 @@
 			<texPath>Things/Item/BodyPart/SurrogatePart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<statBases>
-			<WorkToMake>6000</WorkToMake>
-		</statBases>
 		<recipeMaker>
 			<soundWorking>Recipe_Tailor</soundWorking>
-			<recipeUsers Inherit="False">
-				<li>TableOrgans</li>
-			</recipeUsers>
 			<skillRequirements>
-				<Crafting>7</Crafting>
+				<Crafting>5</Crafting>
 			</skillRequirements>
 			<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 			<researchPrerequisite>SurrogateOrgans</researchPrerequisite>
@@ -34,6 +28,16 @@
 			<li>Simple</li>
 		</techHediffsTags>
 	</ThingDef>
+
+	<RecipeDef Name="EPIASurgerySurrogateImplant" ParentName="SurgeryFlesh" Abstract="True">
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
 
 	<!-- New EPOE body parts -->
 
@@ -47,20 +51,18 @@
 		<spawnThingOnRemoved>SimpleProstheticHeart</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>0.65</partEfficiency>
+			<partEfficiency>0.75</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIASurrogateBase">
 		<defName>SimpleProstheticHeart</defName>
 		<label>surrogate heart</label>
-		<description>A more or less powerful pump to maintain the bloodstream. Patients feel exhausted from time to time.</description>
+		<description>A heart prosthesis. It contains an electric motor that pumps blood smoothly around the body. Users often report feeling tired, but it's better than the alternative.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticHeart</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Cloth>20</Cloth>
-			<Steel>30</Steel>
-			<Neutroamine>10</Neutroamine>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Steel>25</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>2</Mass>
@@ -107,20 +109,18 @@
 		<spawnThingOnRemoved>SurrogateLung</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>0.65</partEfficiency>
+			<partEfficiency>0.75</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIASurrogateBase">
 		<defName>SurrogateLung</defName>
 		<label>surrogate lung</label>
-		<description>A rudimentary lung replacement. Makes a deep, clicking noise.</description>
+		<description>A lung prosthesis. It contains an electric motor that expands and contracts the prosthesis for gas exchanges, simulating breathing. Users often report feeling tired, but it's better than the alternative.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSurrogateLung</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Cloth>15</Cloth>
 			<Steel>25</Steel>
-			<Neutroamine>10</Neutroamine>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>2</Mass>
@@ -167,20 +167,18 @@
 		<spawnThingOnRemoved>SurrogateStomach</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>0.65</partEfficiency>
+			<partEfficiency>0.75</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIASurrogateBase">
 		<defName>SurrogateStomach</defName>
 		<label>surrogate stomach</label>
-		<description>A rudimentary stomach replacement. Produces unpleasant smelling bowel gas.</description>
+		<description>A stomach prosthesis. It contains chemical synthesizers that can digest most foodstuff, the strength of them is limited as to not dissolve the prosthesis itself. It is rather inefficient at the job, but it is better than the alternative.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSurrogateStomach</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Cloth>15</Cloth>
 			<Steel>25</Steel>
-			<Neutroamine>10</Neutroamine>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>2</Mass>
@@ -227,20 +225,18 @@
 		<spawnThingOnRemoved>SurrogateLiver</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>0.65</partEfficiency>
+			<partEfficiency>0.75</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIASurrogateBase">
 		<defName>SurrogateLiver</defName>
 		<label>surrogate liver</label>
-		<description>A rudimentary blood filter. Has problems with keeping the blood sugar level constant.</description>
+		<description>A liver prosthesis. It contains chemical synthesizers to imitate the liver's role in metabolism. Users often report feeling slightly unwell, but it's better than the alternative.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSurrogateLiver</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Cloth>15</Cloth>
 			<Steel>25</Steel>
-			<Neutroamine>10</Neutroamine>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>2</Mass>
@@ -287,20 +283,18 @@
 		<spawnThingOnRemoved>SurrogateKidney</spawnThingOnRemoved>
 		<addedPartProps>
 			<solid>true</solid>
-			<partEfficiency>0.65</partEfficiency>
+			<partEfficiency>0.75</partEfficiency>
 		</addedPartProps>
 	</HediffDef>
 
 	<ThingDef ParentName="EPIASurrogateBase">
 		<defName>SurrogateKidney</defName>
 		<label>surrogate kidney</label>
-		<description>A rudimentary kidney replacement. One of its possible side effects is getting pale.</description>
+		<description>A kidney prosthesis. It contains artificial filters and removes waste products from the blood. Users often report feeling slightly unwell, but it's better than the alternative.</description>
 		<descriptionHyperlinks><RecipeDef>InstallSurrogateKidney</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Cloth>15</Cloth>
 			<Steel>25</Steel>
-			<Neutroamine>10</Neutroamine>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>2</Mass>
@@ -337,18 +331,6 @@
 		<addsHediff>SurrogateKidney</addsHediff>
 	</RecipeDef>
 
-	<!-- Brain implants -->
-
-	<RecipeDef Name="EPIASurgerySurrogateImplant" ParentName="SurgeryFlesh" Abstract="True">
-		<workerClass>Recipe_InstallImplant</workerClass>
-		<skillRequirements>
-			<Medicine>7</Medicine>
-		</skillRequirements>
-		<recipeUsers>
-			<li>Human</li>
-		</recipeUsers>
-	</RecipeDef>
-
 	<!-- Brain stimulator -->
 
 	<HediffDef ParentName="addedPartSurrogate">
@@ -363,11 +345,11 @@
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<offset>0.7</offset>
+						<offset>0.5</offset>
 					</li>
 					<li>
 						<capacity>Consciousness</capacity>
-						<setMax>0.85</setMax>
+						<setMax>0.8</setMax>
 					</li>
 				</capMods>
 			</li>
@@ -380,13 +362,14 @@
 		<description>A small device that does its best to stimulate the remaining areas of the brain. Recommended for severe brain damage only. Requires brain surgery research before installing.</description>
 		<descriptionHyperlinks><RecipeDef>InstallBrainStimulator</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<Silver>3</Silver>
+			<Silver>2</Silver>
 			<Neutroamine>10</Neutroamine>
-			<Steel>50</Steel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<Steel>25</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>0.1</Mass>
+			<WorkToMake>12000</WorkToMake>
 		</statBases>
 		<techHediffsTags Inherit="False"></techHediffsTags>
 	</ThingDef>
@@ -395,7 +378,10 @@
 		<defName>InstallBrainStimulator</defName>
 		<label>install brain stimulator</label>
 		<description>Installs brain stimulator.</description>
-		<descriptionHyperlinks><ThingDef>BrainStimulator</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>BrainStimulator</ThingDef>
+			<HediffDef>BrainStimulator</HediffDef>
+		</descriptionHyperlinks>
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<jobString>Installing brain stimulator.</jobString>
 		<workAmount>3700</workAmount>
@@ -437,6 +423,10 @@
 		<defName>RemoveBrainStimulator</defName>
 		<label>remove brain stimulator</label>
 		<description>Removes brain stimulator.</description>
+		<descriptionHyperlinks>
+			<ThingDef>BrainStimulator</ThingDef>
+			<HediffDef>BrainStimulator</HediffDef>
+		</descriptionHyperlinks>
 		<workerClass>Recipe_RemoveImplant</workerClass>
 		<jobString>Removing brain stimulator.</jobString>
 		<successfullyRemovedHediffMessage>{0} has successfully removed {1}'s brain stimulator.</successfullyRemovedHediffMessage>

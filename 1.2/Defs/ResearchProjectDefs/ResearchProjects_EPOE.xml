@@ -13,7 +13,7 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		<techLevel>Neolithic</techLevel>
 		<tab>EPOE</tab>
 		<researchViewX>0</researchViewX>
-		<researchViewY>1.5</researchViewY>
+		<researchViewY>2</researchViewY>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
@@ -31,13 +31,13 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		</prerequisites>
 		<tab>EPOE</tab>
 		<researchViewX>1</researchViewX>
-		<researchViewY>1.5</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>Bionics</defName>
 		<label>bionic replacements</label>
-		<description>Discovering the concept of very small motors and circuits, new possibilities of better prosthesis are now open for you.</description>
+		<description>Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -50,7 +50,7 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>2</researchViewX>
-		<researchViewY>1.5</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -69,17 +69,17 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
-		<researchViewY>1.5</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>RibReplacements</defName>
-		<label>rib replacements</label>
-		<description>Discovering the concept of very small dispensers, you think about putting them in ribs. You can now craft and install rib implants.</description>
+		<label>rib implants</label>
+		<description>Utilizing the space in the ribcage, new concept of implants with dispensers to release their contents in controlled doses can be placed here.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
-			<li>Bionics</li>
+			<li>SyntheticOrgans</li>
 			<li>MedicineProduction</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -88,29 +88,29 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
-		<researchViewY>2.5</researchViewY>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>SurrogateOrgans</defName>
 		<label>surrogate organs</label>
-		<description>Gaining higher medical and technical knowledge, creating a 3D printer to craft simple surrogate organs becomes possible.</description>
-		<baseCost>600</baseCost>
+		<description>Build inexpensive prosthetic organs to replace lost or damaged ones. Requires a skilled doctor to transplant.</description>
+		<baseCost>300</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>BasicProsthetics</li>
+			<li>Prosthetics</li>
 			<li>MicroelectronicsBasics</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<tab>EPOE</tab>
 		<researchViewX>1</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>SyntheticOrgans</defName>
 		<label>synthetic organs</label>
-		<description>Further research in nano-technology allows you to print incredibly well-engineered artificial organs. Unlocks new recipes on the tissue printer.</description>
+		<description>Further research in nano-technology allows you to print incredibly well-engineered artificial organs.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -123,13 +123,13 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>2</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>EPOE_SyntheticRepair</defName>
 		<label>Synthetic repair</label>
-		<description>Further research into nano technology allows you to print incredibly well-engineered artificial tissues and nerves to aid with healing scars, frailty and bad backs. Unlocks synthetic tissue and neuromuscular framework recipes on the tissue printer.</description>
+		<description>Further research into nano technology allows you to print incredibly well-engineered artificial tissues and nerves to aid with healing scars, frailty and bad backs. Unlocks synthetic tissue and neuromuscular framework recipes on the synthetic nano printer.</description>
 		<baseCost>300</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -147,7 +147,7 @@ Hook hand and steel arm are crafted at a smithy.</description>
 	<ResearchProjectDef>
 		<defName>EPOE_NeurologicalTreatment</defName>
 		<label>Neurological treatment</label>
-		<description>Extensive research into nano technology allows you to print incredibly well-engineered framework kit consisting of artificial adaptable brain tissues, nerves and nanomachines to aid with countering dementia, alzheimer, chemical damage and scars in the brain. Unlocks neuro-cure framework recipe on the tissue printer.\n\nNeuro-cure framework only cures dementia and alzheimer, and does not prevent it from appearing again.</description>
+		<description>Extensive research into nano technology allows you to print incredibly well-engineered framework kit consisting of artificial adaptable brain tissues, nerves and nanomachines to aid with countering dementia, alzheimer, chemical damage and scars in the brain. Unlocks neuro-cure framework recipe on the synthetic nano printer.\n\nNeuro-cure framework only cures dementia and alzheimer, and does not prevent it from appearing again.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
@@ -175,7 +175,7 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		</prerequisites>
 		<tab>EPOE</tab>
 		<researchViewX>3</researchViewX>
-		<researchViewY>2</researchViewY>
+		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -186,6 +186,7 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>AdvancedBionics</li>
+			<li>SyntheticOrgans</li>
 			<li>BrainSurgery</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -231,7 +232,7 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>4</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -251,7 +252,7 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		</requiredResearchFacilities>
 		<tab>EPOE</tab>
 		<researchViewX>4</researchViewX>
-		<researchViewY>1</researchViewY>
+		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>

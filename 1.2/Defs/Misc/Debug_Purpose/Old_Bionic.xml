@@ -33,47 +33,4 @@
 		<researchPrerequisite Inherit="False" />
 	</RecipeDef>
 
-	<RecipeDef ParentName="EPOEDebugRecipeBionic">
-		<defName>CreatePowerClaw</defName>
-		<label>make power claw</label>
-		<description>(Debug version of recipe when swapping from old EPOE to EPOE-forked to avoid workstation glitching. Can keep using as normal.)</description>
-		<jobString>Upgrading bionic.</jobString>
-		<products>
-			<PowerClaw>1</PowerClaw>
-		</products>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>EPIA_ScytherBlade</li>
-					</thingDefs>
-				</filter>
-				<count>3</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>25</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentSpacer</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>EPIA_ScytherBlade</li>
-				<li>Plasteel</li>
-				<li>ComponentSpacer</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-	</RecipeDef>
-
 </Defs>

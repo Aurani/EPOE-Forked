@@ -8,7 +8,11 @@
 		<priceImpact>true</priceImpact>
 	</HediffDef>
 
-	<ThingDef Name="EPIAGlitterworldImplantBase" ParentName="BodyPartAdvancedBionicBase" Abstract="True">
+	<HediffDef Name="addedPartGlitteryAddedBodyPart" ParentName="addedPartGlitteryImplants" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+	</HediffDef>
+
+	<ThingDef Name="EPIAGlitterworldImplantBase" ParentName="EPIASyntheticBase" Abstract="True">
 	    <techLevel>Spacer</techLevel>
 		<thingCategories Inherit="False">
 			<li>BodyPartsUltra</li>
@@ -19,6 +23,31 @@
 		</graphicData>
 		<statBases>
 			<WorkToMake>26000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>EPOE_Glitterworld_Implants</researchPrerequisite>
+		</recipeMaker>
+		<techHediffsTags Inherit="False" />
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef Name="EPIAGlitterworldBionicBase" ParentName="BodyPartAdvancedBionicBase" Abstract="True">
+	    <techLevel>Spacer</techLevel>
+		<thingCategories Inherit="False">
+			<li>BodyPartsUltra</li>
+		</thingCategories>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
 		</statBases>
 		<recipeMaker>
 			<skillRequirements>
@@ -90,7 +119,7 @@
 		<costList>
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
+			<Plasteel>15</Plasteel>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
@@ -135,7 +164,10 @@
 		<defName>RemoveTacticalCorneaImplant</defName>
 		<label>remove tactical cornea implant</label>
 		<description>Remove a tactical cornea implant. Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
-		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<HediffDef>TacticalCorneaImplant</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Removing tactical cornea implant.</jobString>
 		<removesHediff>TacticalCorneaImplant</removesHediff>
 	</RecipeDef>
@@ -171,7 +203,7 @@
 		<costList>
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
+			<Plasteel>15</Plasteel>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
@@ -220,7 +252,10 @@
 		<defName>RemoveConstructorCore</defName>
 		<label>remove auxiliary AI (constructing)</label>
 		<description>Remove auxiliary AI (constructing). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
-		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<HediffDef>ConstructorCore</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
 		<removesHediff>ConstructorCore</removesHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -255,7 +290,7 @@
 		<costList>
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
+			<Plasteel>15</Plasteel>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
@@ -304,7 +339,10 @@
 		<defName>RemoveFarmerCore</defName>
 		<label>remove auxiliary AI (agricultural)</label>
 		<description>Remove auxiliary AI (agricultural). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
-		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<HediffDef>FarmerCore</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
 		<removesHediff>FarmerCore</removesHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -341,7 +379,7 @@
 		<costList>
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
+			<Plasteel>15</Plasteel>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
@@ -390,7 +428,10 @@
 		<defName>RemoveMinerCore</defName>
 		<label>remove auxiliary AI (mining)</label>
 		<description>Remove auxiliary AI (mining). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
-		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<HediffDef>MinerCore</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
 		<removesHediff>MinerCore</removesHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -426,7 +467,7 @@
 		<costList>
 			<EPOE_MAAI_Chip>3</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
+			<Plasteel>15</Plasteel>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
@@ -475,7 +516,10 @@
 		<defName>RemoveDoctorCore</defName>
 		<label>remove auxiliary AI (medical)</label>
 		<description>Remove auxiliary AI (medical). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
-		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<HediffDef>DoctorCore</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
 		<removesHediff>DoctorCore</removesHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -511,7 +555,7 @@
 		<costList>
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
+			<Plasteel>15</Plasteel>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
@@ -560,7 +604,10 @@
 		<defName>RemoveDiplomatCore</defName>
 		<label>remove auxiliary AI (diplomatic)</label>
 		<description>Remove auxiliary AI (diplomatic). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
-		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<HediffDef>DiplomatCore</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
 		<removesHediff>DiplomatCore</removesHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -602,7 +649,7 @@
 		<costList>
 			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
+			<Plasteel>15</Plasteel>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
@@ -652,7 +699,10 @@
 		<defName>EPIA_RemoveAuxiliaryAI_Sharpshooter</defName>
 		<label>remove auxiliary AI (sharpshooter)</label>
 		<description>Remove auxiliary AI (sharpshooter). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
-		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<HediffDef>EPIA_AuxiliaryAI_Sharpshooter</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
 		<removesHediff>EPIA_AuxiliaryAI_Sharpshooter</removesHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -695,7 +745,7 @@
 		<costList>
 			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
+			<Plasteel>15</Plasteel>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
@@ -745,7 +795,10 @@
 		<defName>EPIA_RemoveAuxiliaryAI_Commando</defName>
 		<label>remove auxiliary AI (commando)</label>
 		<description>Remove auxiliary AI (commando). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
-		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<HediffDef>EPIA_AuxiliaryAI_Commando</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
 		<removesHediff>EPIA_AuxiliaryAI_Commando</removesHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -789,7 +842,7 @@
 		<costList>
 			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
-			<Plasteel>25</Plasteel>
+			<Plasteel>15</Plasteel>
 			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<statBases>
@@ -839,7 +892,10 @@
 		<defName>EPIA_RemoveAuxiliaryAI_Brawler</defName>
 		<label>remove auxiliary AI (brawler)</label>
 		<description>Remove auxiliary AI (brawler). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
-		<descriptionHyperlinks><ThingDef>EPOE_MAAI_Chip</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<HediffDef>EPIA_AuxiliaryAI_Brawler</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
 		<removesHediff>EPIA_AuxiliaryAI_Brawler</removesHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
@@ -1040,6 +1096,80 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>AIPersonaCore</addsHediff>
 		<researchPrerequisite>EPOE_AIPersonaCoreImplant</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Tactical bionic eye -->
+
+	<HediffDef ParentName="addedPartGlitteryAddedBodyPart">
+		<defName>EPIA_TacticalBionicEye</defName>
+		<label>tactical bionic eye</label>
+		<description>An installed tactical bionic eye.</description>
+		<descriptionHyperlinks><ThingDef>EPIA_TacticalBionicEye</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPIA_TacticalBionicEye</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.15</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ShootingAccuracyPawn>+7</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.15</AimingDelayFactor>
+					<MeleeHitChance>4</MeleeHitChance>
+					<MeleeDodgeChance>4</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIAGlitterworldBionicBase">
+		<defName>EPIA_TacticalBionicEye</defName>
+		<label>tactical bionic eye</label>
+		<description>A Glitterworld combat orientated bionic eye which provides the user with additional information about potential targets and suggests a perfect firing angle.</description>
+		<descriptionHyperlinks><RecipeDef>EPIA_InstallTacticalBionicEye</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
+		<defName>EPIA_InstallTacticalBionicEye</defName>
+		<label>install tactical bionic eye</label>
+		<description>Installs tactical bionic eye.</description>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_TacticalBionicEye</ThingDef>
+			<HediffDef>EPIA_TacticalBionicEye</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing tactical bionic eye.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPIA_TacticalBionicEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPIA_TacticalBionicEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPIA_TacticalBionicEye</addsHediff>
 	</RecipeDef>
 
 </Defs>

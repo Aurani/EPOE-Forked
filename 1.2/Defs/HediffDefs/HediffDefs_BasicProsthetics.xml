@@ -21,6 +21,7 @@
 			<recipeUsers>
 				<li>FueledSmithy</li>
 				<li>ElectricSmithy</li>
+				<li>TableSimpleProsthetic</li>
 			</recipeUsers>
 			<skillRequirements>
 				<Crafting>3</Crafting>
