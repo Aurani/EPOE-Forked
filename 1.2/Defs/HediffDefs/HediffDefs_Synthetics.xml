@@ -396,10 +396,8 @@
 			<RecipeDef>InstallMuscleStimulatorLegs</RecipeDef>
 		</descriptionHyperlinks>
 		<costList>
-			<Gold>2</Gold>
-			<Neutroamine>5</Neutroamine>
-			<Plasteel>35</Plasteel>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.1</Mass>

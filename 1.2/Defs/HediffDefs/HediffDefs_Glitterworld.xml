@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<HediffDef Name="addedPartGlitteryImplants" ParentName="AddedBodyPartBase" Abstract="True">
+	<HediffDef Name="addedPartGlitteryImplants" ParentName="ImplantHediffBase" Abstract="True">
 		<hediffClass>Hediff_Implant</hediffClass>
 		<defaultLabelColor>(244,210,131)</defaultLabelColor>
 		<isBad>false</isBad>
 		<priceImpact>true</priceImpact>
 	</HediffDef>
 
-	<HediffDef Name="addedPartGlitteryAddedBodyPart" ParentName="addedPartGlitteryImplants" Abstract="True">
+	<HediffDef Name="addedPartGlitteryAddedBodyPart" ParentName="AddedBodyPartBase" Abstract="True">
 		<hediffClass>Hediff_AddedPart</hediffClass>
+		<defaultLabelColor>(244,210,131)</defaultLabelColor>
+		<isBad>false</isBad>
+		<priceImpact>true</priceImpact>
 	</HediffDef>
 
 	<ThingDef Name="EPIAGlitterworldImplantBase" ParentName="EPIASyntheticBase" Abstract="True">
@@ -1114,10 +1117,10 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<ShootingAccuracyPawn>+7</ShootingAccuracyPawn>
+					<ShootingAccuracyPawn>+5</ShootingAccuracyPawn>
 					<AimingDelayFactor>-0.15</AimingDelayFactor>
-					<MeleeHitChance>4</MeleeHitChance>
-					<MeleeDodgeChance>4</MeleeDodgeChance>
+					<MeleeHitChance>3</MeleeHitChance>
+					<MeleeDodgeChance>3</MeleeDodgeChance>
 				</statOffsets>
 			</li>
 		</stages>
