@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<WanderConfusedCore.label>confused wandering</WanderConfusedCore.label>
+<WanderConfusedCore.beginLetterLabel>confusion</WanderConfusedCore.beginLetterLabel>
+<WanderConfusedCore.beginLetter>{0}'s mind is being flooded with terrible pictures and sounds by the AI persona core.</WanderConfusedCore.beginLetter>
+<WanderConfusedCore.recoveryMessage>{0}'s AI persona core has been contained.</WanderConfusedCore.recoveryMessage>
+<WanderConfusedCore.baseInspectLine>Mental state: Confused and wandering</WanderConfusedCore.baseInspectLine>
+
+<BerserkCore.label>AI takeover</BerserkCore.label>
+<BerserkCore.beginLetter>{0}'s AI persona core has assumed direct control!\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees.</BerserkCore.beginLetter>
+<BerserkCore.recoveryMessage>{0}'s AI persona core has been contained.</BerserkCore.recoveryMessage>
+<BerserkCore.baseInspectLine>Mental state: AI takeover</BerserkCore.baseInspectLine>
+
+</LanguageData>

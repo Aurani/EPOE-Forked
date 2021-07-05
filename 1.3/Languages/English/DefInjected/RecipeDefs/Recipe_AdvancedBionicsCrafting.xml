@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<CreateAdvancedBionicEye.label>assemble advanced bionic eye</CreateAdvancedBionicEye.label>
+<CreateAdvancedBionicEye.description>Upgrade bionic eye into advanced bionic eye.</CreateAdvancedBionicEye.description>
+<CreateAdvancedBionicEye.jobString>Upgrading bionic eye.</CreateAdvancedBionicEye.jobString>
+
+<CreateAdvancedBionicArm.label>assemble advanced bionic arm</CreateAdvancedBionicArm.label>
+<CreateAdvancedBionicArm.description>Upgrade bionic arm into advanced bionic arm.</CreateAdvancedBionicArm.description>
+<CreateAdvancedBionicArm.jobString>Upgrading bionic arm.</CreateAdvancedBionicArm.jobString>
+
+<CreateAdvancedBionicLeg.label>assemble advanced bionic leg</CreateAdvancedBionicLeg.label>
+<CreateAdvancedBionicLeg.description>Upgrade bionic leg into advanced bionic leg.</CreateAdvancedBionicLeg.description>
+<CreateAdvancedBionicLeg.jobString>Upgrading bionic leg.</CreateAdvancedBionicLeg.jobString>
+
+<CreateAdvancedBionicSpine.label>assemble advanced bionic spine</CreateAdvancedBionicSpine.label>
+<CreateAdvancedBionicSpine.description>Upgrade bionic spine into advanced bionic spine.</CreateAdvancedBionicSpine.description>
+<CreateAdvancedBionicSpine.jobString>Upgrading bionic spine.</CreateAdvancedBionicSpine.jobString>
+
+<CreateAdvancedBionicEar.label>assemble advanced bionic ear</CreateAdvancedBionicEar.label>
+<CreateAdvancedBionicEar.description>Upgrade bionic ear into advanced bionic ear.</CreateAdvancedBionicEar.description>
+<CreateAdvancedBionicEar.jobString>Upgrading bionic ear.</CreateAdvancedBionicEar.jobString>
+
+<CreateAdvancedBionicHand.label>assemble advanced bionic hand</CreateAdvancedBionicHand.label>
+<CreateAdvancedBionicHand.description>Upgrade bionic hand into advanced bionic hand.</CreateAdvancedBionicHand.description>
+<CreateAdvancedBionicHand.jobString>Upgrading bionic hand.</CreateAdvancedBionicHand.jobString>
+
+<CreateAdvancedBionicFoot.label>assemble advanced bionic foot</CreateAdvancedBionicFoot.label>
+<CreateAdvancedBionicFoot.description>Upgrade bionic foot into advanced bionic foot.</CreateAdvancedBionicFoot.description>
+<CreateAdvancedBionicFoot.jobString>Upgrading bionic foot.</CreateAdvancedBionicFoot.jobString>
+
+<EPIA_UpgradeAdvancedBionicFinger.label>assemble advanced bionic finger</EPIA_UpgradeAdvancedBionicFinger.label>
+<EPIA_UpgradeAdvancedBionicFinger.description>Upgrade bionic finger into advanced bionic finger.</EPIA_UpgradeAdvancedBionicFinger.description>
+<EPIA_UpgradeAdvancedBionicFinger.jobString>Upgrading bionic finger.</EPIA_UpgradeAdvancedBionicFinger.jobString>
+
+<EPIA_UpgradeAdvancedBionicToe.label>assemble advanced bionic toe</EPIA_UpgradeAdvancedBionicToe.label>
+<EPIA_UpgradeAdvancedBionicToe.description>Upgrade bionic toe into advanced bionic toe.</EPIA_UpgradeAdvancedBionicToe.description>
+<EPIA_UpgradeAdvancedBionicToe.jobString>Upgrading bionic toe.</EPIA_UpgradeAdvancedBionicToe.jobString>
+
+<CreateAdvancedBionicJaw.label>assemble advanced bionic jaw</CreateAdvancedBionicJaw.label>
+<CreateAdvancedBionicJaw.description>Upgrade bionic jaw into advanced bionic jaw.</CreateAdvancedBionicJaw.description>
+<CreateAdvancedBionicJaw.jobString>Upgrading bionic jaw.</CreateAdvancedBionicJaw.jobString>
+
+<CreateAdvancedPowerArm.label>assemble advanced power arm</CreateAdvancedPowerArm.label>
+<CreateAdvancedPowerArm.description>Upgrade bionic power arm into advanced bionic power arm.</CreateAdvancedPowerArm.description>
+<CreateAdvancedPowerArm.jobString>Upgrading power arm.</CreateAdvancedPowerArm.jobString>
+
+</LanguageData>

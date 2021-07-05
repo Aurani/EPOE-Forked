@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<!-- Debug recipes -->
+<!-- For the proper legacy translation version, check in Legacy\Languages\English\DefInjected\RecipeDefs\Recipe_Legacy -->
+
+<CreateBionicEye.label>make bionic eye</CreateBionicEye.label>
+<CreateBionicEye.description>Make a bionic eye.</CreateBionicEye.description>
+<CreateBionicEye.jobString>Crafting bionic eye.</CreateBionicEye.jobString>
+
+<CreateBionicLeg.label>make bionic leg</CreateBionicLeg.label>
+<CreateBionicLeg.description>Make a bionic leg.</CreateBionicLeg.description>
+<CreateBionicLeg.jobString>Crafting bionic leg.</CreateBionicLeg.jobString>
+
+<CreateBionicArm.label>make bionic arm</CreateBionicArm.label>
+<CreateBionicArm.description>Make a bionic arm.</CreateBionicArm.description>
+<CreateBionicArm.jobString>Crafting bionic arm.</CreateBionicArm.jobString>
+
+<CreateBionicSpine.label>make bionic spine</CreateBionicSpine.label>
+<CreateBionicSpine.description>Make a bionic spine.</CreateBionicSpine.description>
+<CreateBionicSpine.jobString>Crafting bionic spine.</CreateBionicSpine.jobString>
+
+<CreateBionicEar.label>make bionic ear</CreateBionicEar.label>
+<CreateBionicEar.description>Make a bionic ear.</CreateBionicEar.description>
+<CreateBionicEar.jobString>Crafting bionic ear.</CreateBionicEar.jobString>
+
+<CreateBionicHand.label>make bionic hand</CreateBionicHand.label>
+<CreateBionicHand.description>Make a bionic hand.</CreateBionicHand.description>
+<CreateBionicHand.jobString>Crafting bionic hand.</CreateBionicHand.jobString>
+
+<CreateBionicFoot.label>make bionic foot</CreateBionicFoot.label>
+<CreateBionicFoot.description>Make a bionic foot.</CreateBionicFoot.description>
+<CreateBionicFoot.jobString>Crafting bionic foot.</CreateBionicFoot.jobString>
+
+<EPIA_UpgradeBionicFinger.label>make bionic finger</EPIA_UpgradeBionicFinger.label>
+<EPIA_UpgradeBionicFinger.description>Make a bionic finger.</EPIA_UpgradeBionicFinger.description>
+<EPIA_UpgradeBionicFinger.jobString>Crafting bionic finger.</EPIA_UpgradeBionicFinger.jobString>
+
+<EPIA_UpgradeBionicToe.label>make bionic toe</EPIA_UpgradeBionicToe.label>
+<EPIA_UpgradeBionicToe.description>Make a bionic toe.</EPIA_UpgradeBionicToe.description>
+<EPIA_UpgradeBionicToe.jobString>Crafting bionic toe.</EPIA_UpgradeBionicToe.jobString>
+
+<CreateBionicJaw.label>make bionic jaw</CreateBionicJaw.label>
+<CreateBionicJaw.description>Make a bionic jaw.</CreateBionicJaw.description>
+<CreateBionicJaw.jobString>Crafting bionic jaw.</CreateBionicJaw.jobString>
+
+<CreateSilentJaw.label>make silent jaw</CreateSilentJaw.label>
+<CreateSilentJaw.description>Make a silent jaw.</CreateSilentJaw.description>
+<CreateSilentJaw.jobString>Crafting silent jaw.</CreateSilentJaw.jobString>
+
+<CreateSyntheticHeart.label>make synthetic heart</CreateSyntheticHeart.label>
+<CreateSyntheticHeart.description>Make a synthetic heart.</CreateSyntheticHeart.description>
+<CreateSyntheticHeart.jobString>Crafting synthetic heart.</CreateSyntheticHeart.jobString>
+
+<CreateSyntheticLung.label>make synthetic lung</CreateSyntheticLung.label>
+<CreateSyntheticLung.description>Make a synthetic lung.</CreateSyntheticLung.description>
+<CreateSyntheticLung.jobString>Crafting synthetic lung.</CreateSyntheticLung.jobString>
+
+<CreateSyntheticStomach.label>make synthetic stomach</CreateSyntheticStomach.label>
+<CreateSyntheticStomach.description>Make a synthetic stomach.</CreateSyntheticStomach.description>
+<CreateSyntheticStomach.jobString>Crafting synthetic stomach.</CreateSyntheticStomach.jobString>
+
+<CreateSyntheticLiver.label>make synthetic liver</CreateSyntheticLiver.label>
+<CreateSyntheticLiver.description>Make a synthetic liver.</CreateSyntheticLiver.description>
+<CreateSyntheticLiver.jobString>Crafting synthetic liver.</CreateSyntheticLiver.jobString>
+
+<CreateSyntheticKidney.label>make synthetic kidney</CreateSyntheticKidney.label>
+<CreateSyntheticKidney.description>Make a synthetic kidney.</CreateSyntheticKidney.description>
+<CreateSyntheticKidney.jobString>Crafting synthetic kidney.</CreateSyntheticKidney.jobString>
+
+</LanguageData>

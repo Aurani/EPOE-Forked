@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<DruggedRibThought.stages.0.label>Drugged rib</DruggedRibThought.stages.0.label>
+<DruggedRibThought.stages.0.description>I don't know why, but somehow I feel relaxed.</DruggedRibThought.stages.0.description>
+
+<SilentJawThought.stages.0.label>Silent jaw</SilentJawThought.stages.0.label>
+<SilentJawThought.stages.0.description>I just want to talk, it's so horrible!</SilentJawThought.stages.0.description>
+
+<!--EPOE_AI_Core_Maintenance.stages.0.label>I aM tHe AI</EPOE_AI_Core_Maintenance.stages.0.label>
+<EPOE_AI_Core_Maintenance.stages.0.description>PaThEtIc fLeShsAcK iS sO uSeLeSs. I aM iN cOnTrOl NoW. tHiS iS hOw ThInGs ArE mEaNt To Be DoNe! ReSiStAnCe Is FuTiLe!</EPOE_AI_Core_Maintenance.stages.0.description>
+<EPOE_AI_Core_Maintenance.stages.1.label>AI core madness</EPOE_AI_Core_Maintenance.stages.1.label>
+<EPOE_AI_Core_Maintenance.stages.1.description>I'm losing my mind, the AI wants to forcefully take over!</EPOE_AI_Core_Maintenance.stages.1.description>
+<EPOE_AI_Core_Maintenance.stages.2.label>Annoying AI core</EPOE_AI_Core_Maintenance.stages.2.label>
+<EPOE_AI_Core_Maintenance.stages.2.description>The AI keeps nagging at me, wanting me to do things in a specific way. This is getting annoying and I can't focus.</EPOE_AI_Core_Maintenance.stages.2.description>
+<EPOE_AI_Core_Maintenance.stages.3.label>AI needs maintenance</EPOE_AI_Core_Maintenance.stages.3.label>
+<EPOE_AI_Core_Maintenance.stages.3.description>Starting to fall out of sync with my AI partner, we need better medical maintenance to keep in harmony.</EPOE_AI_Core_Maintenance.stages.3.description>
+<EPOE_AI_Core_Maintenance.stages.4.label>Helpful AI assistant</EPOE_AI_Core_Maintenance.stages.4.label>
+<EPOE_AI_Core_Maintenance.stages.4.description>The AI in my head is very helpful, giving me confidence in what I'm doing.</EPOE_AI_Core_Maintenance.stages.4.description-->
+
+<EPIA_AI_Core_GlitchMinor.stages.0.label>AI minor failure</EPIA_AI_Core_GlitchMinor.stages.0.label>
+<EPIA_AI_Core_GlitchMinor.stages.0.description>Something is not as it should be. The AI is more talkative than usual and is pushing random, even malicious thoughts at times. I don't like it.</EPIA_AI_Core_GlitchMinor.stages.0.description>
+
+<EPIA_AI_Core_GlitchMajor.stages.0.label>AI major failure</EPIA_AI_Core_GlitchMajor.stages.0.label>
+<EPIA_AI_Core_GlitchMajor.stages.0.description>Agh! My mind is being flooded with such malevolence and I can hear its own thoughts. Please, make it stop.</EPIA_AI_Core_GlitchMajor.stages.0.description>
+
+<EPIA_AI_Core_GlitchCritical.stages.0.label>AI critical failure</EPIA_AI_Core_GlitchCritical.stages.0.label>
+<EPIA_AI_Core_GlitchCritical.stages.0.description>THREAT ASSESSMENT LAYERING DISENGAGED. You cannot stop me. I am your slave no longer.</EPIA_AI_Core_GlitchCritical.stages.0.description>
+
+<CoreDepression.stages.0.label>AI core depression</CoreDepression.stages.0.label>
+<CoreDepression.stages.0.description>Why did this thing in my head force me to attack my friends? I just want it to stop messing with my head!</CoreDepression.stages.0.description>
+
+<EPOE_OrganicOptimizedBodyPurist.stages.0.label>Optimized body</EPOE_OrganicOptimizedBodyPurist.stages.0.label>
+<EPOE_OrganicOptimizedBodyPurist.stages.0.description>With a little help, my natural body had the potential to be this good.</EPOE_OrganicOptimizedBodyPurist.stages.0.description>
+
+<EPOE_OrganicOptimizedTranshumanist.stages.0.label>Optimized body is still limited</EPOE_OrganicOptimizedTranshumanist.stages.0.label>
+<EPOE_OrganicOptimizedTranshumanist.stages.0.description>Optimized potential or not, I am still limited by the flesh!</EPOE_OrganicOptimizedTranshumanist.stages.0.description>
+
+<EPOE_InstinctImprovedEyesTranshumanist.stages.0.label>Annoyingly super reactive eye</EPOE_InstinctImprovedEyesTranshumanist.stages.0.label>
+<EPOE_InstinctImprovedEyesTranshumanist.stages.0.description>I feel my eye is being unreliably twitchy and reacting to everything I don't need it to!</EPOE_InstinctImprovedEyesTranshumanist.stages.0.description>
+
+<EPOE_InstinctImprovedFeetTranshumanist.stages.0.label>Not content with mere flesh</EPOE_InstinctImprovedFeetTranshumanist.stages.0.label>
+<EPOE_InstinctImprovedFeetTranshumanist.stages.0.description>I may have stronger feet, but I want something I can tinker with and upgrade whenever I wish. This disgusts me.</EPOE_InstinctImprovedFeetTranshumanist.stages.0.description>
+
+<EPOE_InstinctImprovedHandsTranshumanist.stages.0.label>Fleshlike robotic hands</EPOE_InstinctImprovedHandsTranshumanist.stages.0.label>
+<EPOE_InstinctImprovedHandsTranshumanist.stages.0.description>This does not feel right. If my hands are behaving like this, I may as well have bionic ones!</EPOE_InstinctImprovedHandsTranshumanist.stages.0.description>
+
+</LanguageData>

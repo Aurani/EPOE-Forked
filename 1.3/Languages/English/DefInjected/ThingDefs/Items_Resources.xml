@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPOE_DamagedScytherBlade.label>damaged scyther blade</EPOE_DamagedScytherBlade.label>
+<EPOE_DamagedScytherBlade.description>A damaged blade scavenged from a dead scyther mechanoid. Not very useful in its current state. Can be restored at a prosthetic workbench or smelted for some plasteel.</EPOE_DamagedScytherBlade.description>
+
+<EPOE_MAAI_Chip.label>MA-AI chip</EPOE_MAAI_Chip.label>
+<EPOE_MAAI_Chip.description>Medical Assistant AI chip. Used as a specialized component in advanced and delicate implants, with an AI system that can handle all the device's complex processes without burdening the user.</EPOE_MAAI_Chip.description>
+
+</LanguageData>

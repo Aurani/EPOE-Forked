@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<DoBillsBionicWorkbench.label>Craft bionic prosthesis</DoBillsBionicWorkbench.label>
+<DoBillsBionicWorkbench.verb>assemble</DoBillsBionicWorkbench.verb>
+<DoBillsBionicWorkbench.gerund>assembling</DoBillsBionicWorkbench.gerund>
+
+<DoBillsTableOrgans.label>Print organs</DoBillsTableOrgans.label>
+<DoBillsTableOrgans.verb>print</DoBillsTableOrgans.verb>
+<DoBillsTableOrgans.gerund>printing</DoBillsTableOrgans.gerund>
+
+<DoBillsSimpleProstheticWorkbench.label>Craft simple prosthesis</DoBillsSimpleProstheticWorkbench.label>
+<DoBillsSimpleProstheticWorkbench.verb>assemble</DoBillsSimpleProstheticWorkbench.verb>
+<DoBillsSimpleProstheticWorkbench.gerund>assembling</DoBillsSimpleProstheticWorkbench.gerund>
+
+</LanguageData>
