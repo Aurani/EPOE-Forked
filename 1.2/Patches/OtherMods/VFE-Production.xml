@@ -23,7 +23,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/TipSetDef[defName="EPOEForkedTips"]/tips</xpath>
 				<value>
-					<li>Prosthetic workbench can be linked with machining cabinets, and the bionic workbench and tissue printer can be linked with fabrication cabinets for increased production speed.</li>
+					<li>Prosthetic workbench can be linked with machining cabinets, and the bionic workbench and synthetic nano printer can be linked with fabrication cabinets for increased production speed.</li>
 				</value>
 			</li>
 		</operations>

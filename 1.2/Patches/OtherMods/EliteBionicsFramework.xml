@@ -50,6 +50,27 @@
 					</match>
 				</li>
 				<li Class="PatchOperationConditional">
+					<xpath>Defs/HediffDef[@Name="addedPartGlitteryAddedBodyPart"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[@Name="addedPartGlitteryAddedBodyPart"]</xpath>
+						<value>
+							<comps>
+								<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+									<scaleAdjustment>0.40</scaleAdjustment>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/HediffDef[@Name="addedPartGlitteryAddedBodyPart"]/comps</xpath>
+						<value>
+							<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+								<scaleAdjustment>0.40</scaleAdjustment>
+							</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
 					<xpath>Defs/HediffDef[defName="SyntheticLung"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
 						<xpath>Defs/HediffDef[defName="SyntheticLung"]</xpath>
