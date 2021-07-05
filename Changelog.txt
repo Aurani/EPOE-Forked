@@ -1,3 +1,13 @@
+4.1.0 (5.7.21)
+* Updated for RimWorld 1.3-Beta
+* Advanced and tactical bionic eye hediff given the tag to show visual overlay like the vanilla's bionic eye.
+* Basic prosthetics research cost reduced from 300 to 150.
+
+4.0.1 (27.6.21)
+* Tactical bionic eyes combat stats adjusted to be identical to Tactical corena implant.
+* Elite Bionic Framework patch added to work for Tactical bionic eyes to provide same bonus as Advanced Bionic tier.
+* Muscle Stimulator cost change was overlooked. Now simplified to 15 platseel and 4 advanced components.
+
 4.0.0 (23.6.21) Return to Vanilla
 Changes to the main mod:
 * Reverted bionic crafting method and cost to vanilla.
