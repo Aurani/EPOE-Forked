@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>MinceOrgans</defName>
+		<label>mince natural body parts</label>
+		<description>Minces natural body parts to obtain edible meat.</description>
+		<jobString>Butchering.</jobString>
+		<workAmount>250</workAmount>
+		<workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<recipeUsers>
+			<li>TableButcher</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>BodyPartsNatural</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>BodyPartsNatural</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Meat_Human>10</Meat_Human>
+		</products>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>DoBillsBionicWorkbench</defName>
+		<label>Craft bionic prosthesis</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Smithing</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>TableBionics</li>
+		</fixedBillGiverDefs>
+		<verb>assemble</verb>
+		<gerund>assembling</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>DoBillsTableOrgans</defName>
+		<label>Print organs</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Smithing</workType>
+		<priorityInType>90</priorityInType>
+		<fixedBillGiverDefs>
+			<li>TableOrgans</li>
+		</fixedBillGiverDefs>
+		<verb>print</verb>
+		<gerund>printing</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>DoBillsSimpleProstheticWorkbench</defName>
+		<label>Craft simple prosthesis</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Smithing</workType>
+		<priorityInType>85</priorityInType>
+		<fixedBillGiverDefs>
+			<li>TableSimpleProsthetic</li>
+		</fixedBillGiverDefs>
+		<verb>assemble</verb>
+		<gerund>assembling</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+</Defs>

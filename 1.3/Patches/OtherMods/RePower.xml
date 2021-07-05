@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[1.0] RePower</li>
+		<li>RePowerReborn</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RePower.RePowerDef[defName="RePowerTableSurrogates"]</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RePower.RePowerDef[defName="RePowerTableSurrogates"]</xpath>
+				<value>
+					<RePower.RePowerDef>
+						<defName>RePowerTissuePrinter</defName>
+						<targetDef>TableOrgans</targetDef>
+						<lowPower>-10</lowPower>
+						<highPower>-1000</highPower>
+						<poweredWorkbench>true</poweredWorkbench>
+						<poweredReservable>false</poweredReservable>
+					</RePower.RePowerDef>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[1.0] RePower</li>
+		<li>RePowerReborn</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/RePower.RePowerDef[defName="RePowerUpgradingStation"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RePower.RePowerDef[defName="RePowerUpgradingStation"]</xpath>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

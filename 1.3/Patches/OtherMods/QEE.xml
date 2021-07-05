@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- A lot of other QEE patches found in Patch xml file OrganHarvesting -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Questionable Ethics Enhanced</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="InstallNaturalEye" or defName="InstallNaturalNose" or defName="InstallNaturalEar" or defName="InstallNaturalJaw" or defName="InstallNaturalStomach" or defName="InstallNaturalArm" or defName="InstallNaturalLeg"]</xpath>
+					<value>
+						<factionPrerequisiteTags>
+							<li>EPOE_Redundancy</li>
+						</factionPrerequisiteTags>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="MinceOrgans"]/ingredients/li/filter</xpath>
+					<value>
+						<thingDefs>
+							<li>Jaw</li>
+							<li>Ear</li>
+							<li>Nose</li>
+							<li>Eye</li>
+						</thingDefs>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="MinceOrgans"]/fixedIngredientFilter</xpath>
+					<value>
+						<thingDefs>
+							<li>Jaw</li>
+							<li>Ear</li>
+							<li>Nose</li>
+							<li>Eye</li>
+						</thingDefs>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

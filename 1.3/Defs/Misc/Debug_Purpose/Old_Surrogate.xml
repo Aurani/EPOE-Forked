@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Old abstracts for sake of old compatibility patches -->
+	<!-- Invisible debug recipes for swapping versions to look seamless -->
+
+	<ThingDef Name="Surrogate" ParentName="BodyPartBase" Abstract="True">
+	    <techLevel>Industrial</techLevel>
+		<thingCategories>
+			<li>BodyPartsProsthetic</li>
+		</thingCategories>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/SurrogatePart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<RecipeDef Name="SurgerySurrogate" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Abstract="True" Name="RecipeSurrogateOrgan">
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+		<workSkill>Crafting</workSkill>
+		<workAmount>5000</workAmount>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+			<li>TableOrgans</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="EPOEDebugRecipeSurrogate" ParentName="RecipeSurrogateOrgan" Abstract="True">
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+		<researchPrerequisite Inherit="False" />
+	</RecipeDef>
+
+</Defs>

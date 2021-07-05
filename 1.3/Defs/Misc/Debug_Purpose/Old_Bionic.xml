@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Old abstracts for sake of old compatibility patches -->
+	<!-- Invisible debug recipes for swapping versions to look seamless -->
+
+	<ThingDef Name="Bionic" ParentName="BodyPartBase" Abstract="True">
+		<techLevel>Spacer</techLevel>>
+		<thingCategories>
+			<li>BodyPartsBionic</li>
+		</thingCategories>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/BionicPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<RecipeDef Name="SurgeryBionic" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.90</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="EPOEDebugRecipeBionic" ParentName="RecipeBionicProsthesis" Abstract="True">
+		<factionPrerequisiteTags>
+			<li>EPOE_Redundancy_Debug</li>
+		</factionPrerequisiteTags>
+		<recipeUsers Inherit="False" />
+		<researchPrerequisite Inherit="False" />
+	</RecipeDef>
+
+</Defs>

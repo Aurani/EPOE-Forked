@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Need the abstract high up, before alien races. Abstract only used by EPOE-Forked: alien expansion + patcher module. -->
+
+	<ThingDef Name="EPIA_DeclutterAlienTail" ParentName="BodyPartBionicBase" Abstract="True">
+		<graphicData Inherit="False">
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(129,109,58)</color>
+		</graphicData>
+		<thingCategories Inherit="False">
+			<li>EPIA_TailRedundancy</li>
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<generateAllowChance>0</generateAllowChance>
+		<recipeMaker>
+			<factionPrerequisiteTags>
+				<li>EPOE_Redundancy_Debug</li>
+			</factionPrerequisiteTags>
+			<recipeUsers Inherit="False" />
+			<researchPrerequisite Inherit="False" />
+		</recipeMaker>
+		<techHediffsTags Inherit="False"></techHediffsTags>
+		<tradeTags Inherit="False"></tradeTags>
+	</ThingDef>
+
+</Defs>
