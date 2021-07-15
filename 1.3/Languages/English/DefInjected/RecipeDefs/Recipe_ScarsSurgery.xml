@@ -51,8 +51,8 @@
 <EPIA_SurgeryBrainRemoveChemicalDamageSevere.jobString>Healing chemical damage.</EPIA_SurgeryBrainRemoveChemicalDamageSevere.jobString>
 <EPIA_SurgeryBrainRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>{0} has successfully healed {1}'s chemical damage.</EPIA_SurgeryBrainRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>
 
-<EPIA_RestoreTorsoBones.label>Restore torso associated bones</RepairBite.label>
-<EPIA_RestoreTorsoBones.description>Restores bone structures associated with the torso, such as the pelvis, sternum and clavicle.</RepairBite.description>
-<EPIA_RestoreTorsoBones.jobString>Restoring body part.</RepairBite.jobString>
+<EPIA_RestoreTorsoBones.label>Restore torso associated bones</EPIA_RestoreTorsoBones.label>
+<EPIA_RestoreTorsoBones.description>Restores bone structures associated with the torso, such as the pelvis, sternum and clavicle.</EPIA_RestoreTorsoBones.description>
+<EPIA_RestoreTorsoBones.jobString>Restoring body part.</EPIA_RestoreTorsoBones.jobString>
 
 </LanguageData>
