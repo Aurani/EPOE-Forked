@@ -3,11 +3,10 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Cyber Fauna 1.2</li>
-			<li>Cyber Fauna 1.3</li>
+			<li>A Dog Said... Animal Prosthetics</li>
 		</mods>
 		<match Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="AnimalLab"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+			<xpath>Defs/ThingDef[defName="TableAnimalProsthetics"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 			<value>
 				<li>TableBionics</li>
 				<li>TableOrgans</li>
