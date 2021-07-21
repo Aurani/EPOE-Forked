@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Blank rib -->
+
+  <SimpleRib.label>빈 갈비뼈 이식물</SimpleRib.label>
+  <SimpleRib.description>속이 비어 있는 인공 갈비뼈로, 작은 분사기 시스템이 달려 있습니다. 속을 채워 원하는 갈비뼈 이식물을 완성할 수 있습니다.</SimpleRib.description>
+
+  <!-- Medical rib -->
+
+  <MedicalRib.label>갈비뼈(의료)</MedicalRib.label>
+  <MedicalRib.description>작은 혈액 필터와 항생제 분사기로 사용자를 건강하게 유지하기 위한 인공 갈비뼈입니다.</MedicalRib.description>
+
+  <!-- Drugged rib -->
+
+  <DruggedRib.label>갈비뼈(약물)</DruggedRib.label>
+  <DruggedRib.description>작은 플레이크 분사기로 사용자를 행복하게 유지하게 위한 인공 갈비뼈입니다. 집중력이 떨어지는 부작용이 있습니다.</DruggedRib.description>
+
+  <!-- Adrenaline rib -->
+
+  <AdrenalineRib.label>갈비뼈(아드레날린)</AdrenalineRib.label>
+  <AdrenalineRib.description>작은 아드레날린 분사기로 사용자를 건강하고 깨어 있게 유지하는 인공 갈비뼈입니다.</AdrenalineRib.description>
+
+  <!-- Painkiller rib -->
+
+  <PainkillerRib.label>갈비뼈(진통)</PainkillerRib.label>
+  <PainkillerRib.description>작은 모르핀 분사기로 사용자의 고통을 경감시키는 인공 갈비뼈입니다.</PainkillerRib.description>
+
+  <!-- Heater rib -->
+
+  <HeaterRib.label>갈비뼈(가열)</HeaterRib.label>
+  <HeaterRib.description>초소형 반응로로 작동하는 열을 발생하는 나사선이 내장되어 몸을 안쪽부터 덥히는 인공 갈비뼈입니다.</HeaterRib.description>
+
+  <!-- Cooler rib -->
+
+  <CoolerRib.label>갈비뼈(냉각)</CoolerRib.label>
+  <CoolerRib.description>초소형 냉각 시스템으로 피부를 통한 열교환 효율을 증가시키는 인공 갈비뼈입니다.</CoolerRib.description>
+
+  <!-- Coagulator rib -->
+
+  <CoagulatorRib.label>갈비뼈(응고제)</CoagulatorRib.label>
+  <CoagulatorRib.description>혈액 손실에 반응하는 작은 응고제 분사기로 혈액을 응고시켜 출혈을 줄이는 인공 갈비뼈입니다.</CoagulatorRib.description>
+
+	<!-- Respiration rib -->
+
+  <RespirationRib.label>갈비뼈(호흡)</RespirationRib.label>
+  <RespirationRib.description>횡격막과 함께 작동하여 효율을 상승시키고 스트레스를 경감시키도록 호흡 패턴을 제어하는 인공 갈비뼈입니다.</RespirationRib.description>
+
+	<!-- Wake-up rib -->
+
+  <WakeUpRib.label>갈비뼈(웨이크업)</WakeUpRib.label>
+  <WakeUpRib.description>작은 웨이크업 분사기로 사용자를 깨어 있고 집중하도록 유지시키는 인공 갈비뼈입니다.</WakeUpRib.description>
+
+</LanguageData>

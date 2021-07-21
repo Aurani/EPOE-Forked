@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EPOE_DamagedScytherBlade.label>손상된 사이더 칼날</EPOE_DamagedScytherBlade.label>
+  <EPOE_DamagedScytherBlade.description>죽은 사이더에서 수집한 손상된 칼날입니다. 지금 상태로는 별로 쓸모가 없습니다. 보철물 작업대에서 복원하거나, 분해하여 플라스틸을 얻을 수 있습니다.</EPOE_DamagedScytherBlade.description>
+
+  <EPOE_MAAI_Chip.label>MA-AI 칩</EPOE_MAAI_Chip.label>
+  <EPOE_MAAI_Chip.description>의료 보조 AI 칩입니다. 섬세한 고급 이식물 제작에 사용하는 특별한 부품으로, 사용자에게 부담을 주지 않고 장비의 복잡한 연산을 처리하는 AI 시스템이 들어 있습니다.</EPOE_MAAI_Chip.description>
+
+
+</LanguageData>

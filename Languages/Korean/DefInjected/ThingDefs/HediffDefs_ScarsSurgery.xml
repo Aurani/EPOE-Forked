@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Synthetic tissue -->
+
+  <SyntheticSkin.label>합성 조직</SyntheticSkin.label>
+  <SyntheticSkin.description>손상 부위를 대체할 수 있는 생체합성 조직 조각입니다.</SyntheticSkin.description>
+
+  <!-- Neuromuscular framework -->
+
+  <NeuromuscularFramework.label>신경근 뼈대</NeuromuscularFramework.label>
+  <NeuromuscularFramework.description>건강한 몸통의 기능을 완벽하게 복원할 수 있는 합성 근유와 인공 신경 세트입니다.</NeuromuscularFramework.description>
+
+  <!-- Neuro-cure framework -->
+
+  <NeurocureFramework.label>신경치료 뼈대</NeurocureFramework.label>
+  <NeurocureFramework.description>뇌의 기능을 복원할 수 있는 고도로 발달한 나노머신, 합성 근유, 인공 신경 세트입니다.</NeurocureFramework.description>
+
+</LanguageData>

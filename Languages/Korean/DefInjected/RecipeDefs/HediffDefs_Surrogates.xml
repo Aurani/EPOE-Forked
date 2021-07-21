@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Surrogate heart -->
+
+  <InstallSimpleProstheticHeart.label>인공 심장 설치</InstallSimpleProstheticHeart.label>
+  <InstallSimpleProstheticHeart.description>인공 심장을 설치합니다.</InstallSimpleProstheticHeart.description>
+  <InstallSimpleProstheticHeart.jobString>인공 심장 설치 중.</InstallSimpleProstheticHeart.jobString>
+
+  <!-- Surrogate lung -->
+
+  <InstallSurrogateLung.label>인공 폐 설치</InstallSurrogateLung.label>
+  <InstallSurrogateLung.description>인공 폐를 설치합니다.</InstallSurrogateLung.description>
+  <InstallSurrogateLung.jobString>인공 폐 설치 중.</InstallSurrogateLung.jobString>
+
+  <!-- Surrogate stomach -->
+
+  <InstallSurrogateStomach.label>인공 위 설치</InstallSurrogateStomach.label>
+  <InstallSurrogateStomach.description>인공 위를 설치합니다.</InstallSurrogateStomach.description>
+  <InstallSurrogateStomach.jobString>인공 위 설치 중.</InstallSurrogateStomach.jobString>
+
+  <!-- Surrogate liver -->
+
+  <InstallSurrogateLiver.label>인공 간 설치</InstallSurrogateLiver.label>
+  <InstallSurrogateLiver.description>인공 간을 설치합니다.</InstallSurrogateLiver.description>
+  <InstallSurrogateLiver.jobString>인공 간 설치 중.</InstallSurrogateLiver.jobString>
+
+  <!-- Surrogate kidney -->
+
+  <InstallSurrogateKidney.label>인공 신장 설치</InstallSurrogateKidney.label>
+  <InstallSurrogateKidney.description>인공 신장을 설치합니다.</InstallSurrogateKidney.description>
+  <InstallSurrogateKidney.jobString>인공 신장 설치 중.</InstallSurrogateKidney.jobString>
+
+  <!-- Brain stimulator -->
+
+  <InstallBrainStimulator.label>뇌 자극기 설치</InstallBrainStimulator.label>
+  <InstallBrainStimulator.description>뇌 자극기를 설치합니다.</InstallBrainStimulator.description>
+  <InstallBrainStimulator.jobString>뇌 자극기 설치 중.</InstallBrainStimulator.jobString>
+
+  <RemoveBrainStimulator.label>뇌 자극기 제거</RemoveBrainStimulator.label>
+  <RemoveBrainStimulator.description>뇌 자극기를 제거합니다.</RemoveBrainStimulator.description>
+  <RemoveBrainStimulator.jobString>뇌 자극기 제거 중.</RemoveBrainStimulator.jobString>
+  <RemoveBrainStimulator.successfullyRemovedHediffMessage>{0}이 {1}의 뇌 자극기를 성공적으로 제거했습니다.</RemoveBrainStimulator.successfullyRemovedHediffMessage>
+
+</LanguageData>

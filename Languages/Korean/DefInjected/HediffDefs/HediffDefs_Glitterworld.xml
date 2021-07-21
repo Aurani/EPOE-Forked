@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tactical cornea implant -->
+
+  <TacticalCorneaImplant.label>전술 각막 임플란트</TacticalCorneaImplant.label>
+  <TacticalCorneaImplant.description>설치된 전술 각막 임플란트입니다.</TacticalCorneaImplant.description>
+
+  <!-- Auxiliary AI (construction) -->
+
+  <ConstructorCore.label>보조 AI(건설)</ConstructorCore.label>
+  <ConstructorCore.description>설치된 보조 AI(건설)입니다.</ConstructorCore.description>
+
+  <!-- Auxiliary AI (agricultural) -->
+
+  <FarmerCore.label>보조 AI(재배)</FarmerCore.label>
+  <FarmerCore.description>설치된 보조 AI(재배)입니다.</FarmerCore.description>
+
+  <!-- Auxiliary AI (mining) -->
+
+  <MinerCore.label>보조 AI(채굴)</MinerCore.label>
+  <MinerCore.description>설치된 보조 AI(채굴)입니다.</MinerCore.description>
+
+  <!-- Auxiliary AI (medical) -->
+
+  <DoctorCore.label>보조 AI(의학)</DoctorCore.label>
+  <DoctorCore.description>설치된 보조 AI(의학)입니다.</DoctorCore.description>
+
+  <!-- Auxiliary AI (diplomatic) -->
+
+  <DiplomatCore.label>보조 AI(사교)</DiplomatCore.label>
+  <DiplomatCore.description>설치된 보조 AI(사교)입니다.</DiplomatCore.description>
+
+  <!-- Auxiliary AI (sharpshooter) -->
+
+  <EPIA_AuxiliaryAI_Sharpshooter.label>보조 AI(저격수)</EPIA_AuxiliaryAI_Sharpshooter.label>
+  <EPIA_AuxiliaryAI_Sharpshooter.description>전투를 도와주는 설치된 보조 AI로, 정확도와 장거리 사격에 특화되었습니다. 다른 보조 AI와 같이 설치할 수 없습니다.</EPIA_AuxiliaryAI_Sharpshooter.description>
+
+  <!-- Auxiliary AI (commando) -->
+
+  <EPIA_AuxiliaryAI_Commando.label>보조 AI(코만도)</EPIA_AuxiliaryAI_Commando.label>
+  <EPIA_AuxiliaryAI_Commando.description>전투를 도와주는 설치된 보조 AI로, 사용자가 전투의 중압감을 견디게 해 줍니다. 다른 보조 AI와 같이 설치할 수 없습니다.</EPIA_AuxiliaryAI_Commando.description>
+
+
+  <!-- Auxiliary AI (brawler) -->
+
+  <EPIA_AuxiliaryAI_Brawler.label>보조 AI(싸움꾼)</EPIA_AuxiliaryAI_Brawler.label>
+  <EPIA_AuxiliaryAI_Brawler.description>전투를 도와주는 설치된 보조 AI로, 생사의 갈림길에서 사용자를 돕습니다. 다른 보조 AI와 같이 설치할 수 없습니다.</EPIA_AuxiliaryAI_Brawler.description>
+
+  <!-- AI persona core -->
+
+  <AIPersonaCore.label>인공자아 핵</AIPersonaCore.label>
+  <AIPersonaCore.description>설치된 인공자아 핵입니다. 인공자아 핵이 날뛰지 않도록 최소 60%의 치료를 요구합니다.</AIPersonaCore.description>
+  <AIPersonaCore.stages.0.label>유지보수되지 않음</AIPersonaCore.stages.0.label>
+  <AIPersonaCore.stages.1.label>유지보수되지 않음</AIPersonaCore.stages.1.label>
+  <AIPersonaCore.stages.2.label>유지보수 경계</AIPersonaCore.stages.2.label>
+  <AIPersonaCore.stages.3.label>유지보수 필요함</AIPersonaCore.stages.3.label>
+  <AIPersonaCore.labelNoun>인공자아 핵</AIPersonaCore.labelNoun>
+
+	<!-- Tactical bionic eye -->
+
+  <EPIA_TacticalBionicEye.label>전술 생체공학 눈</EPIA_TacticalBionicEye.label>
+  <EPIA_TacticalBionicEye.description>설치된 전술 생체공학 눈입니다.</EPIA_TacticalBionicEye.description>
+
+</LanguageData>

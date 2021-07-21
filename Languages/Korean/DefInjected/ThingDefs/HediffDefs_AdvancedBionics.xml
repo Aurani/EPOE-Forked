@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced bionic eye -->
+
+  <AdvancedBionicEye.label>강화 생체공학 눈</AdvancedBionicEye.label>
+  <AdvancedBionicEye.description>고도로 발달된 인공 눈으로, 일반적인 모델보다도 발전했습니다. 바이오젤 신경 연결, 내장된 신호 전처리기, 광대역 센서로 생체 눈보다 거의 모든 면에서 낫습니다. 내장된 치료 시스템이 피해에서 복구하도록 돕습니다.</AdvancedBionicEye.description>
+
+  <!-- Advanced bionic arm -->
+
+  <AdvancedBionicArm.label>강화 생체공학 팔</AdvancedBionicArm.label>
+  <AdvancedBionicArm.description>고도로 발달된 인공 팔로, 일반적인 모델보다도 발전했습니다. 조용한 소형 동력기는 강한 힘을, 바이오젤 신경 연결은 정교한 제어를 제공합니다. 내장된 치료 시스템이 피해에서 복구하도록 돕습니다. 생체 팔보다 거의 모든 면에서 낫습니다.</AdvancedBionicArm.description>
+
+  <!-- Advanced Bionic Leg -->
+
+  <AdvancedBionicLeg.label>강화 생체공학 다리</AdvancedBionicLeg.label>
+  <AdvancedBionicLeg.description>고도로 발달된 인공 다리로, 일반적인 모델보다도 발전했습니다. 바이오젤 신경 연결, 강력한 소형 동력기, 내장된 치료 시스템으로 생체 다리보다 거의 모든 면에서 낫습니다.</AdvancedBionicLeg.description>
+
+  <!-- Advanced bionic spine -->
+
+  <AdvancedBionicSpine.label>강화 생체공학 척추</AdvancedBionicSpine.label>
+  <AdvancedBionicSpine.description>고도로 발달된 인공 척추로, 일반적인 모델보다도 발전했습니다. 바이오젤 신경 다발이 정교한 플라스틸 중심부를 따라 배치되고, 치료 시스템으로 둘러싸여 있습니다. 생체 척추보다 거의 모든 면에서 낫습니다.</AdvancedBionicSpine.description>
+
+  <!-- Advanced bionic ear -->
+
+  <AdvancedBionicEar.label>강화 생체공학 귀</AdvancedBionicEar.label>
+  <AdvancedBionicEar.description>고도로 발달된 인공 귀로, 일반적인 모델보다도 발전했습니다. 보이지 않는 피하 마이크가 소리를 잡아내 청신경과 직접 연결된 바이오젤 신경 인터페이스로 송신합니다. 보기도 전에 고양이를 알아챌 만큼 민감하고, 시끄러운 소리에도 손상되지 않으며, 시끄러운 환경에서 의미있는 소리를 잡아낼 수 있도록 스스로 조절합니다.</AdvancedBionicEar.description>
+
+  <!-- Advanced bionic hand -->
+
+  <AdvancedBionicHand.label>강화 생체공학 손</AdvancedBionicHand.label>
+  <AdvancedBionicHand.description>고도로 발달된 인공 손으로, 일반적인 모델보다도 발전했습니다. 조용한 소형 동력기는 강한 힘을, 바이오젤 신경 연결은 정교한 제어를 제공합니다. 내장된 치료 시스템이 피해에서 복구하도록 돕습니다. 생체 팔보다 거의 모든 면에서 낫습니다.</AdvancedBionicHand.description>
+
+  <!-- Advanced bionic foot -->
+
+  <AdvancedBionicFoot.label>강화 생체공학 발</AdvancedBionicFoot.label>
+  <AdvancedBionicFoot.description>고도로 발달된 인공 다리로, 일반적인 모델보다도 발전했습니다. 바이오젤 신경 연결, 강력한 소형 동력기, 내장된 치료 시스템으로 생체 다리보다 거의 모든 면에서 낫습니다.</AdvancedBionicFoot.description>
+
+  <!-- Advanced bionic finger -->
+
+  <AdvancedBionicFinger.label>강화 생체공학 손가락</AdvancedBionicFinger.label>
+  <AdvancedBionicFinger.description>고도로 발달된 인공 손가락입니다. 섬세한 센서와 고속 무선 전달 장치가 두툼하지만 가벼운 플라스틱 외피에 내장되어 생체 손가락을 훨씬 뛰어넘는 최상의 정교함과 악력을 제공합니다.</AdvancedBionicFinger.description>
+
+  <!-- Advanced bionic toe -->
+
+  <AdvancedBionicToe.label>강화 생체공학 발가락</AdvancedBionicToe.label>
+  <AdvancedBionicToe.description>고도로 발달된 인공 발가락입니다. 섬세한 센서와 고속 무선 전달 장치가 두툼하지만 가벼운 플라스틱 외피에 내장되어 생체 발가락을 훨씬 뛰어넘는 속도와 제어를 제공합니다.</AdvancedBionicToe.description>
+
+  <!-- Advanced bionic jaw -->
+
+  <AdvancedBionicJaw.label>강화 생체공학 턱</AdvancedBionicJaw.label>
+  <AdvancedBionicJaw.description>고도로 발달된 인공 턱입니다. 조용한 소형 동력기는 강한 치악력을, 목소리 조절기는 대화에 정교한 미세 조정을 제공합니다. 내장된 치료 시스템이 피해에서 복구하도록 돕습니다. 생체 턱보다 거의 모든 면에서 낫습니다.</AdvancedBionicJaw.description>
+
+  <!-- Advanced power arm -->
+
+  <AdvancedPowerArm.label>강화 동력 팔</AdvancedPowerArm.label>
+  <AdvancedPowerArm.description>고도로 발달된 전투지향적인 팔 대체물로, 손가락마다 갈고리 손톱이 달린 기계 손이 달려 있습니다. 깊게 자르고, 계란을 부수듯 두개골을 으스러뜨릴 만큼 강합니다. 비전투 상황에서는 생체 손처럼 사용할 수 있도록 손톱을 내장할 수 있습니다.</AdvancedPowerArm.description>
+
+  <!-- Exoskeleton suit -->
+
+  <ExoskeletonSuit.label>외골격 수트</ExoskeletonSuit.label>
+  <ExoskeletonSuit.description>두 가지 구성요소로 만든 첨단 기술 장비입니다. 가벼운 골격 구조로 등을 편하게 하고 동력 모터로 사용자를 강하게 합니다.</ExoskeletonSuit.description>
+
+  <!-- Protective exoskeleton -->
+
+  <EPIA_ProtectiveExoskeleton.label>보호 외골격</EPIA_ProtectiveExoskeleton.label>
+  <EPIA_ProtectiveExoskeleton.description>가벼운 골격 구조와 동력 모터로 자신을 지탱하고 피해 경감 시스템으로 사용자를 보호하는 첨단 기술 장비입니다.</EPIA_ProtectiveExoskeleton.description>
+
+</LanguageData>

@@ -9,5 +9,63 @@
    <ArtificialNose.label>인공 코</ArtificialNose.label>
    <HydraulicJaw.label>유압식 턱</HydraulicJaw.label>
    <ArtificialPelvis.label>인공 골반</ArtificialPelvis.label>
+  <!-- Golden eye -->
+
+  <GoldenEye.label>금 의안</GoldenEye.label>
+  <GoldenEye.description>설치된 금 의안입니다.</GoldenEye.description>
+
+  <!-- Light receptor -->
+
+  <LightReceptor.label>빛 수용체</LightReceptor.label>
+  <LightReceptor.description>설치된 빛 수용체입니다.</LightReceptor.description>
+
+  <!-- Simple spine replacement -->
+
+  <SimpleSpine.label>간단한 척추</SimpleSpine.label>
+  <SimpleSpine.description>설치된 간단한 척추입니다.</SimpleSpine.description>
+
+  <!-- Prosthetic hand -->
+
+  <SimpleProstheticHand.label>손 보철물</SimpleProstheticHand.label>
+  <SimpleProstheticHand.description>설치된 손 보철물입니다.</SimpleProstheticHand.description>
+  <SimpleProstheticHand.comps.0.tools.0.label>주먹</SimpleProstheticHand.comps.0.tools.0.label>
+
+  <!-- Prosthetic foot -->
+
+  <SimpleProstheticFoot.label>발 보철물</SimpleProstheticFoot.label>
+  <SimpleProstheticFoot.description>설치된 발 보철물입니다.</SimpleProstheticFoot.description>
+
+  <!-- Prosthetic finger -->
+
+  <SimpleProstheticFinger.label>손가락 보철물</SimpleProstheticFinger.label>
+  <SimpleProstheticFinger.description>설치된 손가락 보철물입니다.</SimpleProstheticFinger.description>
+  <SimpleProstheticFinger.labelNoun>손가락 보철물</SimpleProstheticFinger.labelNoun>
+
+  <!-- Prosthetic toe -->
+
+  <SimpleProstheticToe.label>발가락 보철물</SimpleProstheticToe.label>
+  <SimpleProstheticToe.description>설치된 발가락 보철물입니다.</SimpleProstheticToe.description>
+  <SimpleProstheticToe.labelNoun>발가락 보철물</SimpleProstheticToe.labelNoun>
+
+  <!-- Hydraulic jaw -->
+
+  <HydraulicJaw.label>유압식 턱</HydraulicJaw.label>
+  <HydraulicJaw.description>설치된 유압식 턱입니다.</HydraulicJaw.description>
+
+  <!-- Artificial nose -->
+
+  <ArtificialNose.label>인공 코</ArtificialNose.label>
+  <ArtificialNose.description>설치된 인공 코입니다.</ArtificialNose.description>
+
+  <!-- Replacement radius -->
+
+  <ReplacementRadius.label>요골 대체물</ReplacementRadius.label>
+  <ReplacementRadius.description>설치된 요골 대체물입니다.</ReplacementRadius.description>
+
+  <!-- Scyther blade -->
+
+  <EPOE_ScytherBlade.label>사이더 칼날</EPOE_ScytherBlade.label>
+  <EPOE_ScytherBlade.description>설치된 사이더 칼날입니다.</EPOE_ScytherBlade.description>
+  <EPOE_ScytherBlade.comps.0.tools.0.label>손톱</EPOE_ScytherBlade.comps.0.tools.0.label>
 
 </LanguageData>

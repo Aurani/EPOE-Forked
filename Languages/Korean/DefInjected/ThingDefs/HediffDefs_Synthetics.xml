@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Redundant Synthetic Heart version -->
+
+  <SyntheticHeart.label>합성 심장</SyntheticHeart.label>
+  <SyntheticHeart.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticHeart.description>
+
+  <!-- Redundant Synthetic stomach version -->
+
+  <SyntheticStomach.label>합성 위</SyntheticStomach.label>
+  <SyntheticStomach.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticStomach.description>
+
+  <!-- Vanilla overwrites, for now.
+  
+  <Joywire.label>쾌락회로</Joywire.label>
+  <Joywire.description></Joywire.description> 
+  
+  <Painstopper.label>통각차단 장치</Painstopper.label>
+  <Painstopper.description></Painstopper.description> -->
+
+  <!-- Synthetic heart -->
+
+  <BionicHeart.label>합성 심장</BionicHeart.label>
+  <BionicHeart.description>고급 인공 심장입니다. 사실적인 심박을 위한 합성 근섬유, 높은 스트레서 상황에서의 빠른 혈액순환을 위한 고출력 펌프가 달려 있습니다. 생체 심장보다 거의 모든 면에서 우월합니다.</BionicHeart.description>
+
+  <!-- Synthetic lung -->
+
+  <SyntheticLung.label>합성 폐</SyntheticLung.label>
+  <SyntheticLung.description>고급 인공 폐입니다. 사실적인 호흡을 위한 합성 근섬유, 격렬한 활동 중의 빠르고 깊은 호흡을 위한 고출력 펌프가 달려 있습니다. 생체 폐보다 거의 모든 면에서 우월합니다.</SyntheticLung.description>
+
+  <!-- Synthetic stomach -->
+
+  <BionicStomach.label>합성 위</BionicStomach.label>
+  <BionicStomach.description>고급 인공 위입니다. 여러 센서와 화학 합성기가 에너지를 가진 음식이라면 어떤 것이든 효율적으로 소화합니다. 내장된 치유 시스템이 강산에 의한 피해를 자동적으로 복구합니다. 생체 위보다 거의 모든 면에서 우월합니다.</BionicStomach.description>
+
+  <!-- Synthetic liver -->
+
+  <SyntheticLiver.label>합성 간</SyntheticLiver.label>
+  <SyntheticLiver.description>고급 인공 간입니다. 여러 센서와 화학 합성기가 신진대사 내 간의 활동을 감시하고 모사하며 몸의 변화에 즉각적으로 적응합니다. 생체 간보다 거의 모든 면에서 우월합니다.</SyntheticLiver.description>
+
+  <!-- Synthetic kidney -->
+
+  <SyntheticKidney.label>합성 신장</SyntheticKidney.label>
+  <SyntheticKidney.description>고급 인공 신장입니다. 여러 센서와 합성 필터가 혈액의 불순물을 효율적으로 제거합니다. 생체 신장보다 거의 모든 면에서 우월합니다.</SyntheticKidney.description>
+
+  <!-- Muscle stimulator -->
+
+  <MuscleStimulator.label>근육 자극기</MuscleStimulator.label>
+  <MuscleStimulator.description>특별한 화학물질과 전기충격을 통해, 이 작은 칩은 근육을 자극해 최대 성능을 넘어 작동할 수 있게 합니다.</MuscleStimulator.description>
+
+  <!-- AI chip -->
+
+  <AIChip.label>AI 칩</AIChip.label>
+  <AIChip.description>특별한 화학물질과 전기충격을 통해, 이 작은 칩은 사용자의 의식과 이동을 완벽하게 회복시킬 수 있습니다.</AIChip.description>
+
+</LanguageData>

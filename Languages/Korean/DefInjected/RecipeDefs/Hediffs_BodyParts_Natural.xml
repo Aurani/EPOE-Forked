@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Eye -->
+
+  <InstallNaturalEye.label>안구 이식</InstallNaturalEye.label>
+  <InstallNaturalEye.description>안구를 이식합니다.</InstallNaturalEye.description>
+  <InstallNaturalEye.jobString>안구 이식 중.</InstallNaturalEye.jobString>
+
+  <!-- Nose -->
+
+  <InstallNaturalNose.label>코 이식</InstallNaturalNose.label>
+  <InstallNaturalNose.description>코를 이식합니다.</InstallNaturalNose.description>
+  <InstallNaturalNose.jobString>코 이식 중.</InstallNaturalNose.jobString>
+
+  <!-- Ear -->
+
+  <InstallNaturalEar.label>귀 이식</InstallNaturalEar.label>
+  <InstallNaturalEar.description>귀를 이식합니다.</InstallNaturalEar.description>
+  <InstallNaturalEar.jobString>귀 이식 중.</InstallNaturalEar.jobString>
+
+  <!-- Jaw -->
+
+  <InstallNaturalJaw.label>턱 이식</InstallNaturalJaw.label>
+  <InstallNaturalJaw.description>턱을 이식합니다.</InstallNaturalJaw.description>
+  <InstallNaturalJaw.jobString>턱 이식 중.</InstallNaturalJaw.jobString>
+
+  <!-- Stomach -->
+
+  <InstallNaturalStomach.label>위 이식</InstallNaturalStomach.label>
+  <InstallNaturalStomach.description>위를 이식합니다.</InstallNaturalStomach.description>
+  <InstallNaturalStomach.jobString>위 이식 중.</InstallNaturalStomach.jobString>
+
+  <!-- Arm -->
+
+  <InstallNaturalArm.label>팔 이식</InstallNaturalArm.label>
+  <InstallNaturalArm.description>팔을 이식합니다.</InstallNaturalArm.description>
+  <InstallNaturalArm.jobString>팔 이식 중.</InstallNaturalArm.jobString>
+
+  <!-- Leg -->
+
+  <InstallNaturalLeg.label>다리 이식</InstallNaturalLeg.label>
+  <InstallNaturalLeg.description>다리를 이식합니다.</InstallNaturalLeg.description>
+  <InstallNaturalLeg.jobString>다리 이식 중.</InstallNaturalLeg.jobString>
+
+</LanguageData>

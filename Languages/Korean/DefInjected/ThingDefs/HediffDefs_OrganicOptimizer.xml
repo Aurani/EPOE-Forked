@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Organic optimizing nanobots -->
+
+  <EPOE_OrganicOptimizingNanobots.label>생체 최적화 나노봇</EPOE_OrganicOptimizingNanobots.label>
+  <EPOE_OrganicOptimizingNanobots.description>생체의 모든 잠재력을 끌어내도록 돕는 고급 나노봇입니다. 최적화 과정이 끝나려면 3일이 걸리며, 그 동안 더 많은 휴식과 음식 섭취가 필요합니다. 이 녹초가 되는 과정이 끝나면 나노봇은 분해되고 용해되어 아무 흔적도 남기지 않습니다.\n\n일반적인 사람은 받아들이고, 신체 순수주의자들은 환희하며, 신체 개조주의자들은 끔찍하게 싫어할 것입니다.\n\n3일 경과 후 신체 부위 능률: 15%</EPOE_OrganicOptimizingNanobots.description>
+
+  <!-- Instinct optimizing nanobots -->
+
+  <EPOE_InstinctOptimizingNanobots.label>본능 최적화 나노봇</EPOE_InstinctOptimizingNanobots.label>
+  <EPOE_InstinctOptimizingNanobots.description>이로운 본능적 반응 절차를 생체 조직에 새기도록 돕는 고급 나노봇입니다. 모든 과정이 끝나려면 4일이 걸리며, 그 동안 더 많은 휴식과 음식 섭취가 필요합니다. 이 녹초가 되는 과정이 끝나면 나노봇은 분해되고 용해되어 아무 흔적도 남기지 않습니다.
+신체 개조주의자들은 이 변화를 끔찍하게 싫어할 것입니다. 정보에 표시된 기분 감소는 신체 개조주의자들에게만 적용됩니다.
+
+4일 경과 후 신체 부위들의 개선점:
+
+눈: +5% 부위 능률, +2.5 사격 정확도, -2.5% 조준 지연 시간, +1 근접 공격 정확도, +1 근접 공격 회피율
+
+손: +5% 부위 능률, +5% 전역 작업 속도, +4 근접 공격 정확도, -7.5% 조준 지연 시간
+
+발: +%5 부위 능률, +0.1 이동 속도, +5 근접 공격 회피율</EPOE_InstinctOptimizingNanobots.description>
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Hook hand -->
+
+  <HookHand.label>갈고리 손</HookHand.label>
+  <HookHand.description>없어진 손을 대체합니다. 꽤 무섭습니다. 이야아아!</HookHand.description>
+
+  <!-- Steel arm -->
+
+  <SteelArm.label>강철 팔</SteelArm.label>
+  <SteelArm.description>조악한 팔 대체품입니다. 보기에도 나쁘고, 느낌도 나쁘고, 나쁩니다.</SteelArm.description>
+
+</LanguageData>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bionic eye -->
+  <!--
+  <BionicEye.label>생체공학 눈</BionicEye.label>
+  <BionicEye.description></BionicEye.description> -->
+
+  <!-- Bionic leg -->
+  <!--
+  <BionicLeg.label>생체공학 다리</BionicLeg.label>
+  <BionicLeg.description></BionicLeg.description> -->
+
+  <!-- Bionic arm -->
+  <!--
+  <BionicArm.label>생체공학 팔</BionicArm.label>
+  <BionicArm.description></BionicArm.description> -->
+
+  <!-- Bionic spine -->
+  <!--
+  <BionicSpine.label>생체공학 척추</BionicSpine.label>
+  <BionicSpine.description></BionicSpine.description> -->
+
+  <!-- Bionic ear -->
+  <!--
+  <BionicEar.label>생체공학 귀</BionicEar.label>
+  <BionicEar.description></BionicEar.description> -->
+
+  <!-- Power claw -->
+  <!--
+  <PowerClaw.label>동력 손톱</PowerClaw.label>
+  <PowerClaw.description></PowerClaw.description> -->
+
+  <!-- Bionic hand -->
+
+  <BionicHand.label>생체공학 손</BionicHand.label>
+  <BionicHand.description>고급 인공 손입니다. 조용한 소형 동력기는 강한 힘을, 바이오젤 신경 연결은 정교한 제어를 제공합니다. 내장된 치료 시스템이 피해에서 복구하도록 돕습니다. 생체 손보다 거의 모든 면에서 낫습니다.</BionicHand.description>
+
+  <!-- Bionic Foot -->
+
+  <BionicFoot.label>생체공학 발</BionicFoot.label>
+  <BionicFoot.description>고급 인공 발입니다. 바이오젤 신경 연결, 강력한 소형 동력기, 치료 시스템. 생체 발보다 거의 모든 면에서 낫습니다.</BionicFoot.description>
+
+  <!-- Bionic finger -->
+
+  <BionicFinger.label>생체공학 손가락</BionicFinger.label>
+  <BionicFinger.description>고급 인공 손가락입니다. 섬세한 센서와 고속 무선 전달 장치가 두툼하지만 가벼운 플라스틱 외피에 내장되어 생체 손가락을 훨씬 뛰어넘는 최상의 정교함과 악력을 제공합니다.</BionicFinger.description>
+
+  <!-- Bionic toe -->
+
+  <BionicToe.label>생체공학 발가락</BionicToe.label>
+  <BionicToe.description>고급 인공 발가락입니다. 섬세한 센서와 고속 무선 전달 장치가 두툼하지만 가벼운 플라스틱 외피에 내장되어 생체 발가락을 훨씬 뛰어넘는 속도와 제어를 제공합니다.</BionicToe.description>
+
+  <!-- Bionic Jaw -->
+
+  <BionicJaw.label>생체공학 턱</BionicJaw.label>
+  <BionicJaw.description>고급 인공 턱입니다. 조용한 소형 동력기는 강한 치악력을, 목소리 조절기는 대화에 정교한 미세 조정을 제공합니다. 내장된 치료 시스템이 피해에서 복구하도록 돕습니다. 생체 턱보다 거의 모든 면에서 낫습니다.</BionicJaw.description>
+
+  <!-- Silent jaw -->
+
+  <SilentJaw.label>무음 턱</SilentJaw.label>
+  <SilentJaw.description>고급 인공 턱입니다. 조용한 소형 동력기가 강한 치악력을 제공하지만, 이 버전은 목소리 조절기가 없습니다. 내장된 치료 시스템이 피해에서 복구하도록 돕습니다. 직설적인 환자에게 유용합니다.</SilentJaw.description>
+
+  <!-- Power arm -->
+
+  <PowerArm.label>동력 팔</PowerArm.label>
+  <PowerArm.description>전투지향적인 팔 대체물로, 손가락마다 갈고리 손톱이 달린 기계 손이 달려 있습니다. 깊게 자르고, 계란을 부수듯 두개골을 으스러뜨릴 만큼 강합니다. 비전투 상황에서는 생체 손처럼 사용할 수 있도록 손톱을 내장할 수 있습니다.</PowerArm.description>
+
+</LanguageData>

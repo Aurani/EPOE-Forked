@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EPIA_EMP_Disorientation.label>방향 상실</EPIA_EMP_Disorientation.label>
+  <EPIA_EMP_Disorientation.description>뇌에 전기적 충격이 가해진 후유증입니다. 일반적으로 EMP 펄스에 맞은 뇌 이식물의 피드백으로 일어납니다.</EPIA_EMP_Disorientation.description>
+
+  <EPIA_EMP_ProtectiveExoskeleton.label>보호 외골격 무효화</EPIA_EMP_ProtectiveExoskeleton.label>
+  <EPIA_EMP_ProtectiveExoskeleton.description>EMP 펄스가 보호 외골격의 데미지 경감 기능을 무효화했으며, 그 동안 사용자에게 부담이 되는 짐덩이가 됩니다.</EPIA_EMP_ProtectiveExoskeleton.description>
+
+  <EPIA_AIPersonaCore_GlitchMinor.label>가벼운 AI 결함</EPIA_AIPersonaCore_GlitchMinor.label>
+  <EPIA_AIPersonaCore_GlitchMinor.description>인공자아 핵이 시스템 상의 가벼운 문제로 인해 성가시게 행동하고 있습니다. 시간이 지나면 회복할 수 있고, 그 때까지 치료를 받으면 이 증상의 심각성을 낮출 수 있습니다.</EPIA_AIPersonaCore_GlitchMinor.description>
+  <EPIA_AIPersonaCore_GlitchMinor.stages.0.label>가벼움</EPIA_AIPersonaCore_GlitchMinor.stages.0.label>
+  <EPIA_AIPersonaCore_GlitchMinor.stages.1.label>가벼움</EPIA_AIPersonaCore_GlitchMinor.stages.1.label>
+  <EPIA_AIPersonaCore_GlitchMinor.stages.2.label>심각함</EPIA_AIPersonaCore_GlitchMinor.stages.2.label>
+  <EPIA_AIPersonaCore_GlitchMinor.stages.3.label>극심함</EPIA_AIPersonaCore_GlitchMinor.stages.3.label>
+
+  <EPIA_AIPersonaCore_GlitchMajor.label>심각한 AI 결함</EPIA_AIPersonaCore_GlitchMajor.label>
+  <EPIA_AIPersonaCore_GlitchMajor.description>인공자아 핵이 시스템 상의 심각한 문제로 인해 심각한 악성 행동을 하고 있습니다. 시간이 지나면 회복할 수 있고, 그 때까지 치료를 받으면 이 증상의 심각성을 낮출 수 있습니다.</EPIA_AIPersonaCore_GlitchMajor.description>
+  <EPIA_AIPersonaCore_GlitchMajor.stages.0.label>가벼움</EPIA_AIPersonaCore_GlitchMajor.stages.0.label>
+  <EPIA_AIPersonaCore_GlitchMajor.stages.1.label>심각함</EPIA_AIPersonaCore_GlitchMajor.stages.1.label>
+  <EPIA_AIPersonaCore_GlitchMajor.stages.2.label>극심함</EPIA_AIPersonaCore_GlitchMajor.stages.2.label>
+  <EPIA_AIPersonaCore_GlitchMajor.stages.3.label>극심함</EPIA_AIPersonaCore_GlitchMajor.stages.3.label>
+
+  <EPIA_AIPersonaCore_GlitchCritical.label>극심한 AI 결함</EPIA_AIPersonaCore_GlitchCritical.label>
+  <EPIA_AIPersonaCore_GlitchCritical.description>인공자아 핵이 시스템 상의 심각한 문제로 인해 극심한 악성 행동을 하고 있습니다. 시간이 지나면 회복할 수 있고, 그 때까지 치료를 받으면 이 증상의 심각성을 낮출 수 있습니다.</EPIA_AIPersonaCore_GlitchCritical.description>
+  <EPIA_AIPersonaCore_GlitchCritical.stages.0.label>가벼움</EPIA_AIPersonaCore_GlitchCritical.stages.0.label>
+  <EPIA_AIPersonaCore_GlitchCritical.stages.1.label>심각함</EPIA_AIPersonaCore_GlitchCritical.stages.1.label>
+  <EPIA_AIPersonaCore_GlitchCritical.stages.2.label>극심함</EPIA_AIPersonaCore_GlitchCritical.stages.2.label>
+  <EPIA_AIPersonaCore_GlitchCritical.stages.3.label>극심함</EPIA_AIPersonaCore_GlitchCritical.stages.3.label>
+
+  <EPIA_AIPersonaCore_EMPed.label>AI EMP 충격</EPIA_AIPersonaCore_EMPed.label>
+  <EPIA_AIPersonaCore_EMPed.description>인공자아 핵이 EMP 펄스에 영향을 받았고, 모든 기능을 빠르게 회복하려는 중입니다. 시스템 결함이 나타날 수 있고 사용자에게 악영향을 끼칠 수 있습니다.</EPIA_AIPersonaCore_EMPed.description>
+  <EPIA_AIPersonaCore_EMPed.stages.0.label>가벼움</EPIA_AIPersonaCore_EMPed.stages.0.label>
+  <EPIA_AIPersonaCore_EMPed.stages.1.label>심각함</EPIA_AIPersonaCore_EMPed.stages.1.label>
+  <EPIA_AIPersonaCore_EMPed.stages.2.label>극심함</EPIA_AIPersonaCore_EMPed.stages.2.label>
+  <EPIA_AIPersonaCore_EMPed.stages.3.label>극심함</EPIA_AIPersonaCore_EMPed.stages.3.label>
+
+
+</LanguageData>

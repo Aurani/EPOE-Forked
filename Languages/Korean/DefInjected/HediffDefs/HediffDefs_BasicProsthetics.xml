@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <LanguageData>
 
-   <SteelArm.label>강철 팔</SteelArm.label>
-   <EyePatch.label>안대</EyePatch.label>
-   <HookHand.label>갈고리 손</HookHand.label>
-   <WoodenFoot.label>나무 발</WoodenFoot.label>
+  <!-- Hook hand -->
+
+  <HookHand.label>갈고리 손</HookHand.label>
+  <HookHand.description>설치된 갈고리 손입니다.</HookHand.description>
+  <HookHand.comps.0.tools.0.label>갈고리 손</HookHand.comps.0.tools.0.label>
+  <HookHand.labelNoun>갈고리 손</HookHand.labelNoun>
+
+  <!-- Steel arm -->
+
+  <SteelArm.label>강철 팔</SteelArm.label>
+  <SteelArm.description>설치된 강철 팔입니다.</SteelArm.description>
+  <SteelArm.comps.0.tools.0.label>주먹</SteelArm.comps.0.tools.0.label>
+  <SteelArm.labelNoun>강철 팔</SteelArm.labelNoun>
+
+  <!-- Eye patch -->
+
+  <EyePatch.label>안대</EyePatch.label>
+  <EyePatch.description>설치된 안대입니다.</EyePatch.description>
+  <EyePatch.labelNoun>안대</EyePatch.labelNoun>
+
+  <!-- Ear Bandage -->
+
+  <EarBandage.label>귀 붕대</EarBandage.label>
+  <EarBandage.description>귀에 감은 붕대입니다.</EarBandage.description>
+  <EarBandage.labelNoun>귀 붕대</EarBandage.labelNoun>
 
 </LanguageData>

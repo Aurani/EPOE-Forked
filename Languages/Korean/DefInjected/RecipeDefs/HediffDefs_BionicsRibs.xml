@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Medical rib -->
+  <CreateMedicalRib.label>갈비뼈(의료) 제작</CreateMedicalRib.label>
+  <CreateMedicalRib.description>빈 갈비뼈 이식물을 채워 갈비뼈(의료)를 제작합니다.</CreateMedicalRib.description>
+  <CreateMedicalRib.jobString>갈비뼈(의료) 제작 중.</CreateMedicalRib.jobString>
+
+  <InstallMedicalRib.label>갈비뼈(의료) 설치</InstallMedicalRib.label>
+  <InstallMedicalRib.description>갈비뼈(의료)를 설치합니다.</InstallMedicalRib.description>
+  <InstallMedicalRib.jobString>갈비뼈(의료) 설치 중.</InstallMedicalRib.jobString>
+
+  <RemoveMedicalRib.label>갈비뼈(의료) 제거</RemoveMedicalRib.label>
+  <RemoveMedicalRib.description>갈비뼈(의료)를 제거합니다.</RemoveMedicalRib.description>
+  <RemoveMedicalRib.jobString>갈비뼈(의료) 제거 중.</RemoveMedicalRib.jobString>
+
+  <!-- Drugged rib -->
+
+  <CreateDruggedRib.label>갈비뼈(약물) 제작</CreateDruggedRib.label>
+  <CreateDruggedRib.description>빈 갈비뼈 이식물을 채워 갈비뼈(약물)을 제작합니다.</CreateDruggedRib.description>
+  <CreateDruggedRib.jobString>갈비뼈(약물) 제작 중.</CreateDruggedRib.jobString>
+
+  <InstallDruggedRib.label>갈비뼈(약물) 설치</InstallDruggedRib.label>
+  <InstallDruggedRib.description>갈비뼈(약물)을 설치합니다.</InstallDruggedRib.description>
+  <InstallDruggedRib.jobString>갈비뼈(약물) 설치 중.</InstallDruggedRib.jobString>
+
+  <RemoveDruggedRib.label>갈비뼈(약물) 제거</RemoveDruggedRib.label>
+  <RemoveDruggedRib.description>갈비뼈(약물)을 제거합니다.</RemoveDruggedRib.description>
+  <RemoveDruggedRib.jobString>갈비뼈(약물) 제거 중.</RemoveDruggedRib.jobString>
+
+  <!-- Adrenaline rib -->
+
+  <CreateAdrenalineRib.label>갈비뼈(아드레날린) 제작</CreateAdrenalineRib.label>
+  <CreateAdrenalineRib.description>빈 갈비뼈 이식물을 채워 갈비뼈(아드레날린)을 제작합니다.</CreateAdrenalineRib.description>
+  <CreateAdrenalineRib.jobString>갈비뼈(아드레날린) 제작 중.</CreateAdrenalineRib.jobString>
+
+  <InstallAdrenalineRib.label>갈비뼈(아드레날린) 설치</InstallAdrenalineRib.label>
+  <InstallAdrenalineRib.description>갈비뼈(아드레날린)을 설치합니다.</InstallAdrenalineRib.description>
+  <InstallAdrenalineRib.jobString>갈비뼈(아드레날린) 설치 중.</InstallAdrenalineRib.jobString>
+
+  <RemoveAdrenalineRib.label>갈비뼈(아드레날린) 제거</RemoveAdrenalineRib.label>
+  <RemoveAdrenalineRib.description>갈비뼈(아드레날린)을 제거합니다.</RemoveAdrenalineRib.description>
+  <RemoveAdrenalineRib.jobString>갈비뼈(아드레날린) 제거 중.</RemoveAdrenalineRib.jobString>
+
+  <!-- Painkiller rib -->
+
+  <CreatePainkillerRib.label>갈비뼈(진통) 제작</CreatePainkillerRib.label>
+  <CreatePainkillerRib.description>빈 갈비뼈 이식물을 채워 갈비뼈(진통)을 제작합니다.</CreatePainkillerRib.description>
+  <CreatePainkillerRib.jobString>갈비뼈(진통) 제작 중.</CreatePainkillerRib.jobString>
+
+  <InstallPainkillerRib.label>갈비뼈(진통) 설치</InstallPainkillerRib.label>
+  <InstallPainkillerRib.description>갈비뼈(진통)을 설치합니다.</InstallPainkillerRib.description>
+  <InstallPainkillerRib.jobString>갈비뼈(진통) 설치 중.</InstallPainkillerRib.jobString>
+
+  <RemovePainkillerRib.label>갈비뼈(진통) 제거</RemovePainkillerRib.label>
+  <RemovePainkillerRib.description>갈비뼈(진통)을 제거합니다.</RemovePainkillerRib.description>
+  <RemovePainkillerRib.jobString>갈비뼈(진통) 제거 중.</RemovePainkillerRib.jobString>
+
+  <!-- Heater rib -->
+
+  <EPIA_UpgradeHeatingRib.label>갈비뼈(가열) 제작</EPIA_UpgradeHeatingRib.label>
+  <EPIA_UpgradeHeatingRib.description>빈 갈비뼈 이식물을 채워 갈비뼈(가열)을 제작합니다.</EPIA_UpgradeHeatingRib.description>
+  <EPIA_UpgradeHeatingRib.jobString>갈비뼈(가열) 제작 중.</EPIA_UpgradeHeatingRib.jobString>
+
+  <InstallHeaterRib.label>갈비뼈(가열) 설치</InstallHeaterRib.label>
+  <InstallHeaterRib.description>갈비뼈(가열)을 설치합니다.</InstallHeaterRib.description>
+  <InstallHeaterRib.jobString>갈비뼈(가열) 설치 중.</InstallHeaterRib.jobString>
+
+  <RemoveHeaterRib.label>갈비뼈(가열) 제거</RemoveHeaterRib.label>
+  <RemoveHeaterRib.description>갈비뼈(가열)을 제거합니다.</RemoveHeaterRib.description>
+  <RemoveHeaterRib.jobString>갈비뼈(가열) 제거 중.</RemoveHeaterRib.jobString>
+
+  <!-- Cooler rib -->
+
+  <EPIA_UpgradeCoolingRib.label>갈비뼈(냉각) 제작</EPIA_UpgradeCoolingRib.label>
+  <EPIA_UpgradeCoolingRib.description>빈 갈비뼈 이식물을 채워 갈비뼈(냉각)을 제작합니다.</EPIA_UpgradeCoolingRib.description>
+  <EPIA_UpgradeCoolingRib.jobString>갈비뼈(냉각) 제작 중.</EPIA_UpgradeCoolingRib.jobString>
+
+  <InstallCoolerRib.label>갈비뼈(냉각) 설치</InstallCoolerRib.label>
+  <InstallCoolerRib.description>갈비뼈(냉각)을 설치합니다.</InstallCoolerRib.description>
+  <InstallCoolerRib.jobString>갈비뼈(냉각) 설치 중.</InstallCoolerRib.jobString>
+
+  <RemoveCoolerRib.label>갈비뼈(냉각) 제거</RemoveCoolerRib.label>
+  <RemoveCoolerRib.description>갈비뼈(냉각)을 제거합니다.</RemoveCoolerRib.description>
+  <RemoveCoolerRib.jobString>갈비뼈(냉각) 제거 중.</RemoveCoolerRib.jobString>
+
+  <!-- Coagulator rib -->
+
+  <CreateCoagulatorRib.label>갈비뼈(응고제) 제작</CreateCoagulatorRib.label>
+  <CreateCoagulatorRib.description>빈 갈비뼈 이식물을 채워 갈비뼈(응고제)을 제작합니다.</CreateCoagulatorRib.description>
+  <CreateCoagulatorRib.jobString>갈비뼈(응고제) 제작 중.</CreateCoagulatorRib.jobString>
+
+  <InstallCoagulatorRib.label>갈비뼈(응고제) 설치</InstallCoagulatorRib.label>
+  <InstallCoagulatorRib.description>갈비뼈(응고제)을 설치합니다.</InstallCoagulatorRib.description>
+  <InstallCoagulatorRib.jobString>갈비뼈(응고제) 설치 중.</InstallCoagulatorRib.jobString>
+
+  <RemoveCoagulatorRib.label>갈비뼈(응고제) 제거</RemoveCoagulatorRib.label>
+  <RemoveCoagulatorRib.description>갈비뼈(응고제)을 제거합니다.</RemoveCoagulatorRib.description>
+  <RemoveCoagulatorRib.jobString>갈비뼈(응고제) 제거 중.</RemoveCoagulatorRib.jobString>
+
+  <!-- Respiration rib -->
+
+  <CreateRespirationRib.label>갈비뼈(호흡) 제작</CreateRespirationRib.label>
+  <CreateRespirationRib.description>빈 갈비뼈 이식물을 채워 갈비뼈(호흡)을 제작합니다.</CreateRespirationRib.description>
+  <CreateRespirationRib.jobString>갈비뼈(호흡) 제작 중.</CreateRespirationRib.jobString>
+
+  <InstallRespirationRib.label>갈비뼈(호흡) 설치</InstallRespirationRib.label>
+  <InstallRespirationRib.description>갈비뼈(호흡)을 설치합니다.</InstallRespirationRib.description>
+  <InstallRespirationRib.jobString>갈비뼈(호흡) 설치 중.</InstallRespirationRib.jobString>
+
+  <RemoveRespirationRib.label>갈비뼈(호흡) 제거</RemoveRespirationRib.label>
+  <RemoveRespirationRib.description>갈비뼈(호흡)을 제거합니다.</RemoveRespirationRib.description>
+  <RemoveRespirationRib.jobString>갈비뼈(호흡) 제거 중.</RemoveRespirationRib.jobString>
+
+  <!-- Wake-Up rib -->
+
+  <CreateWakeUpRib.label>갈비뼈(웨이크업) 제작</CreateWakeUpRib.label>
+  <CreateWakeUpRib.description>빈 갈비뼈 이식물을 채워 갈비뼈(웨이크업)을 제작합니다.</CreateWakeUpRib.description>
+  <CreateWakeUpRib.jobString>갈비뼈(웨이크업) 제작 중.</CreateWakeUpRib.jobString>
+
+  <InstallWakeUpRib.label>갈비뼈(웨이크업) 설치</InstallWakeUpRib.label>
+  <InstallWakeUpRib.description>갈비뼈(웨이크업)을 설치합니다.</InstallWakeUpRib.description>
+  <InstallWakeUpRib.jobString>갈비뼈(웨이크업) 설치 중.</InstallWakeUpRib.jobString>
+
+  <RemoveWakeUpRib.label>갈비뼈(웨이크업) 제거</RemoveWakeUpRib.label>
+  <RemoveWakeUpRib.description>갈비뼈(웨이크업)을 제거합니다.</RemoveWakeUpRib.description>
+  <RemoveWakeUpRib.jobString>갈비뼈(웨이크업) 제거 중.</RemoveWakeUpRib.jobString>
+
+</LanguageData>

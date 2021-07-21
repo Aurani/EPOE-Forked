@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Redundant original Surrogate Heart, if ever upgrading from 1.0 to 1.1 midsave -->
+
+  <SurrogateHeart.label>인공 심장</SurrogateHeart.label>
+  <SurrogateHeart.description>Redundant item version for 1.1 RimWorld. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SurrogateHeart.description>
+
+  <!-- Surrogate heart -->
+  <!--
+  <SimpleProstheticHeart.label>인공 심장</SimpleProstheticHeart.label>
+  <SimpleProstheticHeart.description></SimpleProstheticHeart.description> -->
+
+  <!-- Surrogate lung -->
+
+  <SurrogateLung.label>인공 폐</SurrogateLung.label>
+  <SurrogateLung.description>폐 보철물입니다. 전기 모터가 내장되어 팽창과 수축을 통해 기체를 교환하여 호흡을 모사합니다. 자주 지친다는 사용자의 보고가 있지만, 없는 것보다는 낫습니다.</SurrogateLung.description>
+
+  <!-- Surrogate stomach -->
+
+  <SurrogateStomach.label>인공 위</SurrogateStomach.label>
+  <SurrogateStomach.description>위 보철물입니다. 화학물질 합성기로 대부분의 음식을 소화할 수 있으며, 보철물 자신을 용해시킬 정도로 강하지는 않습니다. 별로 효율적이지는 않지만, 없는 것보다는 낫습니다.</SurrogateStomach.description>
+
+  <!-- Surrogate liver -->
+
+  <SurrogateLiver.label>인공 간</SurrogateLiver.label>
+  <SurrogateLiver.description>간 보철물입니다. 신진대사 내 간의 역할을 모방하기 위한 화학물질 합성기를 내장하고 있습니다. 몸 상태가 좋지 않다는 사용자의 보고가 있지만, 없는 것보다는 낫습니다.</SurrogateLiver.description>
+
+  <!-- Surrogate kidney -->
+
+  <SurrogateKidney.label>인공 신장</SurrogateKidney.label>
+  <SurrogateKidney.description>신장 보철물입니다. 인공 필터가 달려 혈액에서 노폐물을 제거합니다. 몸 상태가 좋지 않다는 사용자의 보고가 있지만, 없는 것보다는 낫습니다.</SurrogateKidney.description>
+
+  <!-- Brain stimulator -->
+
+  <BrainStimulator.label>뇌 자극기</BrainStimulator.label>
+  <BrainStimulator.description>뇌의 남은 부분을 최대한 자극하는 작은 장치입니다. 심각한 뇌 손상에만 추천합니다. 설치하려면 뇌 수술 연구가 필요합니다.</BrainStimulator.description>
+
+</LanguageData>
