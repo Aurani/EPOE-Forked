@@ -33,6 +33,55 @@
 					</operations>
 				</match>
 			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="AdvancedBionicEye"]/statBases/NightVisionEfficiency_Implant</xpath>
+				<match Class="PatchOperationSequence">
+					<operations>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="AdvancedBionicEye"]/statBases</xpath>
+							<value>
+								<NightVisionEfficiency_Implant>0.35</NightVisionEfficiency_Implant>
+							</value>
+						</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/HediffDef[defName="AdvancedBionicEye"]</xpath>
+							<value>
+								<stages>
+									<li>
+										<statOffsets>
+											<NightVisionEfficiency_Implant>0.35</NightVisionEfficiency_Implant>
+										</statOffsets>
+									</li>
+								</stages>
+							</value>
+						</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="TacticalCorneaImplant"]/statBases</xpath>
+							<value>
+								<NightVisionEfficiency_Implant>0.4</NightVisionEfficiency_Implant>
+							</value>
+						</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/HediffDef[defName="TacticalCorneaImplant"]/stages/li/statOffsets</xpath>
+							<value>
+								<NightVisionEfficiency_Implant>0.4</NightVisionEfficiency_Implant>
+							</value>
+						</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="EPIA_TacticalBionicEye"]/statBases</xpath>
+							<value>
+								<NightVisionEfficiency_Implant>0.4</NightVisionEfficiency_Implant>
+							</value>
+						</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/HediffDef[defName="EPIA_TacticalBionicEye"]/stages/li/statOffsets</xpath>
+							<value>
+								<NightVisionEfficiency_Implant>0.4</NightVisionEfficiency_Implant>
+							</value>
+						</li>
+					</operations>
+				</match>
+			</li>
 			<li Class="PatchOperationTest">
 				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedEyes"]/stages/li[minSeverity="0.99"]/statOffsets/MeleeCritChance</xpath>
 				<success>Invert</success>
