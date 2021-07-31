@@ -45,4 +45,8 @@
 <RemoveAIChip.description>Removes Ai chip implant.</RemoveAIChip.description>
 <RemoveAIChip.jobString>Removing AI chip implant.</RemoveAIChip.jobString>
 
+<RemoveDeathAcidifier.label>remove death acidifier</RemoveDeathAcidifier.label>
+<RemoveDeathAcidifier.description>Remove the death acidifier.</RemoveDeathAcidifier.description>
+<RemoveDeathAcidifier.jobString>Removing death acidifier.</RemoveDeathAcidifier.jobString>
+
 </LanguageData>

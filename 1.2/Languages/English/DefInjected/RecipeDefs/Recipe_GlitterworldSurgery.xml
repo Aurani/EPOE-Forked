@@ -46,39 +46,39 @@
 <EPIA_InstallTacticalBionicEye.jobString>Installing tactical bionic eye.</EPIA_InstallTacticalBionicEye.jobString>
 
 <RemoveTacticalCorneaImplant.label>remove tactical cornea implant</RemoveTacticalCorneaImplant.label>
-<RemoveTacticalCorneaImplant.description>Remove a tactical cornea implant. Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveTacticalCorneaImplant.description>
+<RemoveTacticalCorneaImplant.description>Remove a tactical cornea implant.</RemoveTacticalCorneaImplant.description>
 <RemoveTacticalCorneaImplant.jobString>Removing tactical cornea implant.</RemoveTacticalCorneaImplant.jobString>
 
 <RemoveConstructorCore.label>remove auxiliary AI (constructing)</RemoveConstructorCore.label>
-<RemoveConstructorCore.description>Remove auxiliary AI (constructing). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveConstructorCore.description>
+<RemoveConstructorCore.description>Remove auxiliary AI (constructing).</RemoveConstructorCore.description>
 <RemoveConstructorCore.jobString>Removing auxiliary AI.</RemoveConstructorCore.jobString>
 
 <RemoveFarmerCore.label>remove auxiliary AI (agricultural)</RemoveFarmerCore.label>
-<RemoveFarmerCore.description>Remove auxiliary AI (agricultural). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveFarmerCore.description>
+<RemoveFarmerCore.description>Remove auxiliary AI (agricultural).</RemoveFarmerCore.description>
 <RemoveFarmerCore.jobString>Removing auxiliary AI.</RemoveFarmerCore.jobString>
 
 <RemoveMinerCore.label>remove auxiliary AI (mining)</RemoveMinerCore.label>
-<RemoveMinerCore.description>Remove auxiliary AI (mining). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveMinerCore.description>
+<RemoveMinerCore.description>Remove auxiliary AI (mining).</RemoveMinerCore.description>
 <RemoveMinerCore.jobString>Removing auxiliary AI.</RemoveMinerCore.jobString>
 
 <RemoveDoctorCore.label>remove auxiliary AI (medical)</RemoveDoctorCore.label>
-<RemoveDoctorCore.description>Remove auxiliary AI (medical). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveDoctorCore.description>
+<RemoveDoctorCore.description>Remove auxiliary AI (medical).</RemoveDoctorCore.description>
 <RemoveDoctorCore.jobString>Removing auxiliary AI.</RemoveDoctorCore.jobString>
 
 <RemoveDiplomatCore.label>remove auxiliary AI (diplomatic)</RemoveDiplomatCore.label>
-<RemoveDiplomatCore.description>Remove auxiliary AI (diplomatic). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</RemoveDiplomatCore.description>
+<RemoveDiplomatCore.description>Remove auxiliary AI (diplomatic).</RemoveDiplomatCore.description>
 <RemoveDiplomatCore.jobString>Removing auxiliary AI.</RemoveDiplomatCore.jobString>
 
 <EPIA_RemoveAuxiliaryAI_Sharpshooter.label>remove auxiliary AI (sharpshooter)</EPIA_RemoveAuxiliaryAI_Sharpshooter.label>
-<EPIA_RemoveAuxiliaryAI_Sharpshooter.description>Remove auxiliary AI (sharpshooter). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</EPIA_RemoveAuxiliaryAI_Sharpshooter.description>
+<EPIA_RemoveAuxiliaryAI_Sharpshooter.description>Remove auxiliary AI (sharpshooter).</EPIA_RemoveAuxiliaryAI_Sharpshooter.description>
 <EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>Removing auxiliary AI.</EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>
 
 <EPIA_RemoveAuxiliaryAI_Commando.label>remove auxiliary AI (commando)</EPIA_RemoveAuxiliaryAI_Commando.label>
-<EPIA_RemoveAuxiliaryAI_Commando.description>Remove auxiliary AI (commando). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</EPIA_RemoveAuxiliaryAI_Commando.description>
+<EPIA_RemoveAuxiliaryAI_Commando.description>Remove auxiliary AI (commando).</EPIA_RemoveAuxiliaryAI_Commando.description>
 <EPIA_RemoveAuxiliaryAI_Commando.jobString>Removing auxiliary AI.</EPIA_RemoveAuxiliaryAI_Commando.jobString>
 
 <EPIA_RemoveAuxiliaryAI_Brawler.label>remove auxiliary AI (brawler)</EPIA_RemoveAuxiliaryAI_Brawler.label>
-<EPIA_RemoveAuxiliaryAI_Brawler.description>Remove auxiliary AI (brawler). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</EPIA_RemoveAuxiliaryAI_Brawler.description>
+<EPIA_RemoveAuxiliaryAI_Brawler.description>Remove auxiliary AI (brawler).</EPIA_RemoveAuxiliaryAI_Brawler.description>
 <EPIA_RemoveAuxiliaryAI_Brawler.jobString>Removing auxiliary AI.</EPIA_RemoveAuxiliaryAI_Brawler.jobString>
 
 </LanguageData>
