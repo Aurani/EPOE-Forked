@@ -1,3 +1,23 @@
+4.1.2 (31.7.21)
+* Components and advanced components crafting bills can now be assigned at bionic workbench and synthetic nano printers.
+* Bionics workbench and synthetic nano printer material costs reduced:
+150 -> 100 steel
+120 -> 30 plasteel
+8 -> 6 components
+2 -> 1 advanced components
+* Blank rib replacement material cost of advanced components reduced from 3 to 1.
+* Advanced bionics have their advanced component costs reduced. (On average, 2 advanced components less)
+* Advanced bionic toes and fingers, their upgrade cost changed from advanced component to regular components, for balance cost reasons. This is not a bug.
+* Neuromuscular framework material cost of hyperweave reduced from 25 to 15, advanced component reduced from 3 to 1.
+* Neuro-cure framework material cost of hyerweave reduced from 25 to 15, advanced component reduced from 3 to 1.
+* Worker type auxiliary AI material cost of advanced components reduced from 5 to 4.
+* Combat type auxiliary AI material cost of advanced components reduced from 5 to 3.
+* All auxiliary AI removals now return the full item, rather than a MA-AI chip.
+* Tactical cornea implant and tactical bionic eye material cost of advanced components reduced from 5 to 4.
+* New surgery to remove death acidifier. Requires 4 medicine, and level 13 in medicine skill. Warning: 40% chance of death on failure.
+* For Combat Extended, added night vision efficiency to advanced bionic eye, tactical cornea implant and tactical bionic eye.
+* Added Korean translation, thanks to isty2e from GitHub.
+
 4.1.1 (15.7.21)
 * Fixed a translation tag error
 * Added patch for A Dog Said.

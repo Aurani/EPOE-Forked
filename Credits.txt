@@ -14,7 +14,7 @@ Author of EPOE Expanded: dninemfive
 English: 
 Chinese: leafzxg
 German: Erdnussbrot
-
+Korean: isty2e (username from GitHub)
 
 = Old translations =
 German: Dr Z. & Ykara
