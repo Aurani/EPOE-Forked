@@ -15,9 +15,9 @@
 
   <!-- Vanilla overwrites, for now. -->
 
-  <RemoveJoywire.label>쾌락회로 설치</RemoveJoywire.label>
-  <RemoveJoywire.description>쾌락회로를 설치합니다.</RemoveJoywire.description>
-  <RemoveJoywire.jobString>쾌락회로 설치 중.</RemoveJoywire.jobString>
+  <RemoveJoywire.label>쾌락회로 제거</RemoveJoywire.label>
+  <RemoveJoywire.description>쾌락회로를 제거합니다.</RemoveJoywire.description>
+  <RemoveJoywire.jobString>쾌락회로 제거 중.</RemoveJoywire.jobString>
   <!--
   <RemovePainstopper.label>쾌락회로 제거</RemovePainstopper.label>
   <RemovePainstopper.description>쾌락회로를 제거합니다.</RemovePainstopper.description>
@@ -96,5 +96,9 @@
   <RemoveAIChip.label>AI 칩 제거</RemoveAIChip.label>
   <RemoveAIChip.description>AI 칩을 제거합니다.</RemoveAIChip.description>
   <RemoveAIChip.jobString>AI 칩 제거 중.</RemoveAIChip.jobString>
+
+  <RemoveDeathAcidifier.label>사후 처리장치 제거</RemoveDeathAcidifier.label>
+  <RemoveDeathAcidifier.description>사후 처리장치를 제거합니다.</RemoveDeathAcidifier.description>
+  <RemoveDeathAcidifier.jobString>사후 처리장치 제거 중.</RemoveDeathAcidifier.jobString>
 
 </LanguageData>
