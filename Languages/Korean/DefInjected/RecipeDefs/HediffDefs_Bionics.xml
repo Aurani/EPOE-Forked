@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bionic eye -->
+
+  <CreateBionicEye.label>생체공학 눈 제작</CreateBionicEye.label>
+  <CreateBionicEye.description>빛 수용체를 생체공학 눈으로 강화합니다.</CreateBionicEye.description>
+  <CreateBionicEye.jobString>생체공학 눈 제작 중.</CreateBionicEye.jobString>
+  
+  <!--
+  <InstallBionicEye.label></InstallBionicEye.label>
+  <InstallBionicEye.description></InstallBionicEye.description>
+  <InstallBionicEye.jobString></InstallBionicEye.jobString> -->
+
+  <!-- Bionic leg -->
+
+  <CreateBionicLeg.label>생체공학 다리 제작</CreateBionicLeg.label>
+  <CreateBionicLeg.description>간단한 의족을 생체공학 다리로 강화합니다.</CreateBionicLeg.description>
+  <CreateBionicLeg.jobString>생체공학 다리 제작 중.</CreateBionicLeg.jobString>
+  
+  <!-- Bionic arm -->
+
+  <CreateBionicArm.label>생체공학 팔 제작</CreateBionicArm.label>
+  <CreateBionicArm.description>간단한 의수를 생체공학 팔로 강화합니다.</CreateBionicArm.description>
+  <CreateBionicArm.jobString>생체공학 팔 제작 중.</CreateBionicArm.jobString>
+
+  <!-- Bionic spine -->
+
+  <CreateBionicSpine.label>생체공학 척추 제작</CreateBionicSpine.label>
+  <CreateBionicSpine.description>간단한 척추를 생체공학 척추로 강화합니다.</CreateBionicSpine.description>
+  <CreateBionicSpine.jobString>생체공학 척추 제작 중.</CreateBionicSpine.jobString>
+
+  <!-- Bionic ear -->
+
+  <CreateBionicEar.label>생체공학 귀 제작</CreateBionicEar.label>
+  <CreateBionicEar.description>보청기를 생체공학 귀로 강화합니다.</CreateBionicEar.description>
+  <CreateBionicEar.jobString>생체공학 귀 제작 중.</CreateBionicEar.jobString>
+
+  <!-- Bionic hand -->
+
+  <CreateBionicHand.label>생체공학 손 제작</CreateBionicHand.label>
+  <CreateBionicHand.description>손 보철물을 생체공학 손으로 강화합니다.</CreateBionicHand.description>
+  <CreateBionicHand.jobString>생체공학 손 제작 중.</CreateBionicHand.jobString>
+
+  <InstallBionicHand.label>생체공학 손 설치</InstallBionicHand.label>
+  <InstallBionicHand.description>생체공학 손을 설치합니다.</InstallBionicHand.description>
+  <InstallBionicHand.jobString>생체공학 손 설치 중.</InstallBionicHand.jobString>
+
+  <!-- Bionic Foot -->
+
+  <CreateBionicFoot.label>생체공학 발 제작</CreateBionicFoot.label>
+  <CreateBionicFoot.description>발 보철물을 생체공학 발로 강화합니다.</CreateBionicFoot.description>
+  <CreateBionicFoot.jobString>생체공학 발 제작 중.</CreateBionicFoot.jobString>
+
+  <InstallBionicFoot.label>생체공학 발 설치</InstallBionicFoot.label>
+  <InstallBionicFoot.description>생체공학 발을 설치합니다.</InstallBionicFoot.description>
+  <InstallBionicFoot.jobString>생체공학 발 설치 중.</InstallBionicFoot.jobString>
+
+  <!-- Bionic finger -->
+
+  <EPIA_UpgradeBionicFinger.label>생체공학 손가락 제작</EPIA_UpgradeBionicFinger.label>
+  <EPIA_UpgradeBionicFinger.description>손가락 보철물을 생체공학 손가락으로 강화합니다.</EPIA_UpgradeBionicFinger.description>
+  <EPIA_UpgradeBionicFinger.jobString>생체공학 손가락 제작 중.</EPIA_UpgradeBionicFinger.jobString>
+
+  <InstallBionicFinger.label>생체공학 손가락 설치</InstallBionicFinger.label>
+  <InstallBionicFinger.description>생체공학 손가락을 설치합니다.</InstallBionicFinger.description>
+  <InstallBionicFinger.jobString>생체공학 손가락 설치 중.</InstallBionicFinger.jobString>
+
+  <!-- Bionic toe -->
+
+  <EPIA_UpgradeBionicToe.label>생체공학 발가락 제작</EPIA_UpgradeBionicToe.label>
+  <EPIA_UpgradeBionicToe.description>발가락 보철물을 생체공학 발가락으로 강화합니다.</EPIA_UpgradeBionicToe.description>
+  <EPIA_UpgradeBionicToe.jobString>생체공학 발가락 제작 중.</EPIA_UpgradeBionicToe.jobString>
+
+  <InstallBionicToe.label>생체공학 발가락 설치</InstallBionicToe.label>
+  <InstallBionicToe.description>생체공학 발가락을 설치합니다.</InstallBionicToe.description>
+  <InstallBionicToe.jobString>생체공학 발가락 설치 중.</InstallBionicToe.jobString>
+
+  <!-- Bionic Jaw -->
+
+  <CreateBionicJaw.label>생체공학 턱 제작</CreateBionicJaw.label>
+  <CreateBionicJaw.description>유압식 턱을 생체공학 턱으로 강화합니다.</CreateBionicJaw.description>
+  <CreateBionicJaw.jobString>생체공학 턱 제작 중.</CreateBionicJaw.jobString>
+
+  <InstallBionicJaw.label>생체공학 턱 설치</InstallBionicJaw.label>
+  <InstallBionicJaw.description>생체공학 턱을 설치합니다.</InstallBionicJaw.description>
+  <InstallBionicJaw.jobString>생체공학 턱 설치 중.</InstallBionicJaw.jobString>
+
+  <!-- Silent jaw -->
+
+  <CreateSilentJaw.label>무음 턱 제작</CreateSilentJaw.label>
+  <CreateSilentJaw.description>유압식 턱을 무음 턱으로 강화합니다.</CreateSilentJaw.description>
+  <CreateSilentJaw.jobString>무음 턱 제작 중.</CreateSilentJaw.jobString>
+
+  <InstallSilentJaw.label>무음 턱 설치</InstallSilentJaw.label>
+  <InstallSilentJaw.description>무음 턱을 설치합니다.</InstallSilentJaw.description>
+  <InstallSilentJaw.jobString>무음 턱 설치 중.</InstallSilentJaw.jobString>
+
+  <!-- Power arm -->
+
+  <CreatePowerArm.label>동력 팔 제작</CreatePowerArm.label>
+  <CreatePowerArm.description>동력 손톱을 동력 팔로 강화합니다.</CreatePowerArm.description>
+  <CreatePowerArm.jobString>동력 팔 제작 중.</CreatePowerArm.jobString>
+
+  <InstallPowerArm.label>동력 팔 설치</InstallPowerArm.label>
+  <InstallPowerArm.description>동력 팔을 설치합니다.</InstallPowerArm.description>
+  <InstallPowerArm.jobString>동력 팔 설치 중.</InstallPowerArm.jobString>
+
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Organic optimizing nanobots -->
+
+  <EPOE_OrganicOptimizing.label>생체 최적화</EPOE_OrganicOptimizing.label>
+  <EPOE_OrganicOptimizing.description>의사가 주의깊게 투여와 경과를 지켜보는 가운데, 생체 최적화 나노봇으로 생체를 강화하고 잠재력을 이끌어냅니다.</EPOE_OrganicOptimizing.description>
+  <EPOE_OrganicOptimizing.jobString>생체 최적화 중.</EPOE_OrganicOptimizing.jobString>
+
+  <!-- Eyes: Improved reactive pupil -->
+
+  <EPOE_InstinctOptimizingEyes.label>동공 반응 개선</EPOE_InstinctOptimizingEyes.label>
+  <EPOE_InstinctOptimizingEyes.description>의사가 주의깊게 투여와 경과를 지켜보는 가운데, 본능 최적화 나노봇으로 눈의 본능적인 반응속도를 개선합니다.</EPOE_InstinctOptimizingEyes.description>
+  <EPOE_InstinctOptimizingEyes.jobString>동공 반응 개선 중.</EPOE_InstinctOptimizingEyes.jobString>
+
+  <!-- Hand: Improved hand reflex -->
+
+  <EPOE_InstinctOptimizingHands.label>손 반응 개선</EPOE_InstinctOptimizingHands.label>
+  <EPOE_InstinctOptimizingHands.description>의사가 주의깊게 투여와 경과를 지켜보는 가운데, 본능 최적화 나노봇으로 손의 본능적인 반응속도를 개선하여, 조준 속도, 근접 공격 및 일반적 업무를 강화합니다.</EPOE_InstinctOptimizingHands.description>
+  <EPOE_InstinctOptimizingHands.jobString>손 반응 개선 중.</EPOE_InstinctOptimizingHands.jobString>
+
+  <!-- Foot: nimble instinct -->
+
+  <EPOE_InstinctOptimizingFoot.label>재빠른 본능</EPOE_InstinctOptimizingFoot.label>
+  <EPOE_InstinctOptimizingFoot.description>의사가 주의깊게 투여와 경과를 지켜보는 가운데, 본능 최적화 나노봇으로 발의 본능적인 반응속도를 개선하여, 근접 공격을 회피하는 능력을 강화합니다.</EPOE_InstinctOptimizingFoot.description>
+  <EPOE_InstinctOptimizingFoot.jobString>발 반응 개선 중.</EPOE_InstinctOptimizingFoot.jobString>
+
+</LanguageData>

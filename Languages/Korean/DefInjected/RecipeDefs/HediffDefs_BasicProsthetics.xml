@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Hook hand -->
+
+  <InstallHookHand.label>갈고리 손 설치</InstallHookHand.label>
+  <InstallHookHand.description>갈고리 손을 설치합니다.</InstallHookHand.description>
+  <InstallHookHand.jobString>갈고리 손 설치 중.</InstallHookHand.jobString>
+
+  <!-- Steel arm -->
+
+  <InstallSteelArm.label>강철 팔 설치</InstallSteelArm.label>
+  <InstallSteelArm.description>강철 팔을 설치합니다.</InstallSteelArm.description>
+  <InstallSteelArm.jobString>강철 팔 설치 중.</InstallSteelArm.jobString>
+
+  <!-- Eye patch -->
+
+  <InstallEyePatch.label>안대 설치</InstallEyePatch.label>
+  <InstallEyePatch.description>안대를 설치합니다.</InstallEyePatch.description>
+  <InstallEyePatch.jobString>안대 설치 중.</InstallEyePatch.jobString>
+
+  <!-- Ear Bandage -->
+
+  <InstallEarBandage.label>귀 붕대 설치</InstallEarBandage.label>
+  <InstallEarBandage.description>귀 붕대를 설치합니다.</InstallEarBandage.description>
+  <InstallEarBandage.jobString>귀 붕대 설치 중.</InstallEarBandage.jobString>
+
+</LanguageData>

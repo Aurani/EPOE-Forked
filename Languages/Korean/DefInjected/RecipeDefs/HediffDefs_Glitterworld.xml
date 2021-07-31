@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tactical cornea implant -->
+
+  <InstallTacticalCorneaImplant.label>전술 각막 이식</InstallTacticalCorneaImplant.label>
+  <InstallTacticalCorneaImplant.description>전술 각막을 이식합니다.</InstallTacticalCorneaImplant.description>
+  <InstallTacticalCorneaImplant.jobString>전술 각막 이식 중.</InstallTacticalCorneaImplant.jobString>
+
+  <RemoveTacticalCorneaImplant.label>전술 각막 제거</RemoveTacticalCorneaImplant.label>
+  <RemoveTacticalCorneaImplant.description>전술 각막을 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveTacticalCorneaImplant.description>
+  <RemoveTacticalCorneaImplant.jobString>전술 각막 제거 중.</RemoveTacticalCorneaImplant.jobString>
+
+  <!-- Auxiliary AI (construction) -->
+
+  <InstallConstructorCore.label>보조 AI(건설) 설치</InstallConstructorCore.label>
+  <InstallConstructorCore.description>보조 AI(건설)을 설치합니다.</InstallConstructorCore.description>
+  <InstallConstructorCore.jobString>보조 AI(건설) 설치 중.</InstallConstructorCore.jobString>
+
+  <RemoveConstructorCore.label>보조 AI(건설) 제거</RemoveConstructorCore.label>
+  <RemoveConstructorCore.description>보조 AI(건설)을 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveConstructorCore.description>
+  <RemoveConstructorCore.jobString>보조 AI(건설) 제거 중.</RemoveConstructorCore.jobString>
+
+  <!-- Auxiliary AI (agricultural) -->
+
+  <InstallFarmerCore.label>보조 AI(재배) 설치</InstallFarmerCore.label>
+  <InstallFarmerCore.description>보조 AI(재배)를 설치합니다.</InstallFarmerCore.description>
+  <InstallFarmerCore.jobString>보조 AI(재배) 설치 중.</InstallFarmerCore.jobString>
+
+  <RemoveFarmerCore.label>보조 AI(재배) 제거</RemoveFarmerCore.label>
+  <RemoveFarmerCore.description>보조 AI(재배)를 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveFarmerCore.description>
+  <RemoveFarmerCore.jobString>보조 AI(재배) 제거 중.</RemoveFarmerCore.jobString>
+
+  <!-- Auxiliary AI (mining) -->
+
+  <InstallFarmerCore.label>보조 AI(채굴) 설치</InstallFarmerCore.label>
+  <InstallFarmerCore.description>보조 AI(채굴)을 설치합니다.</InstallFarmerCore.description>
+  <InstallFarmerCore.jobString>보조 AI(채굴) 설치 중.</InstallFarmerCore.jobString>
+
+  <RemoveFarmerCore.label>보조 AI(채굴) 제거</RemoveFarmerCore.label>
+  <RemoveFarmerCore.description>보조 AI(채굴)을 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveFarmerCore.description>
+  <RemoveFarmerCore.jobString>보조 AI(채굴) 제거 중.</RemoveFarmerCore.jobString>
+
+  <!-- Auxiliary AI (medical) -->
+
+  <InstallDoctorCore.label>보조 AI(의학) 설치</InstallDoctorCore.label>
+  <InstallDoctorCore.description>보조 AI(의학)을 설치합니다.</InstallDoctorCore.description>
+  <InstallDoctorCore.jobString>보조 AI(의학) 설치 중.</InstallDoctorCore.jobString>
+
+  <RemoveDoctorCore.label>보조 AI(의학) 제거</RemoveDoctorCore.label>
+  <RemoveDoctorCore.description>보조 AI(의학)을 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveDoctorCore.description>
+  <RemoveDoctorCore.jobString>보조 AI(의학) 제거 중.</RemoveDoctorCore.jobString>
+
+  <!-- Auxiliary AI (diplomatic) -->
+
+  <InstallDiplomatCore.label>보조 AI(사교) 설치</InstallDiplomatCore.label>
+  <InstallDiplomatCore.description>보조 AI(사교)를 설치합니다.</InstallDiplomatCore.description>
+  <InstallDiplomatCore.jobString>보조 AI(사교) 설치 중.</InstallDiplomatCore.jobString>
+
+  <RemoveDiplomatCore.label>보조 AI(사교) 제거</RemoveDiplomatCore.label>
+  <RemoveDiplomatCore.description>보조 AI(사교)를 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveDiplomatCore.description>
+  <RemoveDiplomatCore.jobString>보조 AI(사교) 제거 중.</RemoveDiplomatCore.jobString>
+
+  <!-- Auxiliary AI (sharpshooter) -->
+
+  <EPIA_InstallAuxiliaryAI_Sharpshooter.label>보조 AI(저격수) 설치</EPIA_InstallAuxiliaryAI_Sharpshooter.label>
+  <EPIA_InstallAuxiliaryAI_Sharpshooter.description>보조 AI(저격수)를 설치합니다.</EPIA_InstallAuxiliaryAI_Sharpshooter.description>
+  <EPIA_InstallAuxiliaryAI_Sharpshooter.jobString>보조 AI(저격수) 설치 중.</EPIA_InstallAuxiliaryAI_Sharpshooter.jobString>
+
+  <EPIA_RemoveAuxiliaryAI_Sharpshooter.label>보조 AI(저격수) 제거</EPIA_RemoveAuxiliaryAI_Sharpshooter.label>
+  <EPIA_RemoveAuxiliaryAI_Sharpshooter.description>보조 AI(저격수)를 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</EPIA_RemoveAuxiliaryAI_Sharpshooter.description>
+  <EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>보조 AI(저격수) 제거 중.</EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>
+
+  <!-- Auxiliary AI (commando) -->
+
+  <EPIA_InstallAuxiliaryAI_Commando.label>보조 AI(코만도) 설치</EPIA_InstallAuxiliaryAI_Commando.label>
+  <EPIA_InstallAuxiliaryAI_Commando.description>보조 AI(코만도)를 설치합니다.</EPIA_InstallAuxiliaryAI_Commando.description>
+  <EPIA_InstallAuxiliaryAI_Commando.jobString>보조 AI(코만도) 설치 중.</EPIA_InstallAuxiliaryAI_Commando.jobString>
+
+  <EPIA_RemoveAuxiliaryAI_Commando.label>보조 AI(코만도) 제거</EPIA_RemoveAuxiliaryAI_Commando.label>
+  <EPIA_RemoveAuxiliaryAI_Commando.description>보조 AI(코만도)를 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</EPIA_RemoveAuxiliaryAI_Commando.description>
+  <EPIA_RemoveAuxiliaryAI_Commando.jobString>보조 AI(코만도) 제거 중.</EPIA_RemoveAuxiliaryAI_Commando.jobString>
+
+  <!-- Auxiliary AI (brawler) -->
+
+  <EPIA_InstallAuxiliaryAI_Brawler.label>보조 AI(싸움꾼) 설치</EPIA_InstallAuxiliaryAI_Brawler.label>
+  <EPIA_InstallAuxiliaryAI_Brawler.description>보조 AI(싸움꾼)을 설치합니다.</EPIA_InstallAuxiliaryAI_Brawler.description>
+  <EPIA_InstallAuxiliaryAI_Brawler.jobString>보조 AI(싸움꾼) 설치 중.</EPIA_InstallAuxiliaryAI_Brawler.jobString>
+
+  <EPIA_RemoveAuxiliaryAI_Brawler.label>보조 AI(싸움꾼) 제거</EPIA_RemoveAuxiliaryAI_Brawler.label>
+  <EPIA_RemoveAuxiliaryAI_Brawler.description>보조 AI(싸움꾼)을 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</EPIA_RemoveAuxiliaryAI_Brawler.description>
+  <EPIA_RemoveAuxiliaryAI_Brawler.jobString>보조 AI(싸움꾼) 제거 중.</EPIA_RemoveAuxiliaryAI_Brawler.jobString>
+
+  <!-- AI persona core -->
+
+  <InstallAIPersonaCore.label>인공자아 핵 설치</InstallAIPersonaCore.label>
+  <InstallAIPersonaCore.description>인공자아 핵을 설치합니다.</InstallAIPersonaCore.description>
+  <InstallAIPersonaCore.jobString>인공자아 핵 설치 중.</InstallAIPersonaCore.jobString>
+
+  <!-- Tactical bionic eye -->
+
+  <EPIA_InstallTacticalBionicEye.label>전술 안구 설치</EPIA_InstallTacticalBionicEye.label>
+  <EPIA_InstallTacticalBionicEye.description>전술 안구를 설치합니다.</EPIA_InstallTacticalBionicEye.description>
+  <EPIA_InstallTacticalBionicEye.jobString>전술 안구 설치 중.</EPIA_InstallTacticalBionicEye.jobString>
+
+</LanguageData>

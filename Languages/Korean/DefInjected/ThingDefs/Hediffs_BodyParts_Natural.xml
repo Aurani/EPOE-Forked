@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Eye -->
+
+  <Eye.label>눈</Eye.label>
+  <Eye.description>빛을 흡수하여, 사람이 주위에 무엇이 있는지 알게 합니다.</Eye.description>
+
+  <!-- Nose -->
+
+  <Nose.label>코</Nose.label>
+  <Nose.description>악취를 구분하는 꽤 쓸모있는 기관으로, 얼굴을 마무리합니다.</Nose.description>
+
+  <!-- Ear -->
+
+  <Ear.label>귀</Ear.label>
+  <Ear.description>공기 중의 진동을 잡아내 소리를 듣게 합니다.</Ear.description>
+
+  <!-- Jaw -->
+
+  <Jaw.label>턱</Jaw.label>
+  <Jaw.description>음식을 씹고 말하게 하는 치아 한 무더기입니다.</Jaw.description>
+
+  <!-- Stomach -->
+
+  <Stomach.label>위</Stomach.label>
+  <Stomach.description>음식을 소화하고 에너지와 영양분으로 바꿉니다.</Stomach.description>
+
+  <!-- Arm -->
+
+  <Arm.label>팔</Arm.label>
+  <Arm.description>팔은 다리와 비슷하지만, 무언가를 들고 다닐 수 있습니다.</Arm.description>
+
+  <!-- Leg -->
+
+  <Leg.label>다리</Leg.label>
+  <Leg.description>움직이고 다닐 수 있게 하는 긴 고깃덩어리입니다.</Leg.description>
+
+</LanguageData>

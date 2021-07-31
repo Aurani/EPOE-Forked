@@ -1,16 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <LanguageData>
 
-   <AdvancedPowerArm.label>강화 동력 팔</AdvancedPowerArm.label>
-   <AdvancedBionicArm.label>강화 생체공학 팔</AdvancedBionicArm.label>
-   <AdvancedBionicLeg.label>강화 생체공학 다리</AdvancedBionicLeg.label>
-   <AdvancedBionicHand.label>강화 생체공학 손</AdvancedBionicHand.label>
-   <AdvancedBionicFoot.label>강화 생체공학 발</AdvancedBionicFoot.label>
-   <AdvancedBionicEar.label>강화 생체공학 귀</AdvancedBionicEar.label>
-   <AdvancedBionicJaw.label>강화 생체공학 턱</AdvancedBionicJaw.label>
-   <AdvancedBionicEye.label>강화 생체공학 눈</AdvancedBionicEye.label>
-   <AdvancedBionicSpine.label>강화 생체공학 척추</AdvancedBionicSpine.label>
-   <ExoskeletonSuit.label>외골격 장갑</ExoskeletonSuit.label>
+  <!-- Advanced bionic eye -->
+
+  <AdvancedBionicEye.label>강화 생체공학 눈</AdvancedBionicEye.label>
+  <AdvancedBionicEye.description>설치된 강화 생체공학 눈입니다.</AdvancedBionicEye.description>
+  <AdvancedBionicEye.labelNoun>강화 생체공학 눈</AdvancedBionicEye.labelNoun>
+
+  <!-- Advanced bionic arm -->
+
+  <AdvancedBionicArm.label>강화 생체공학 팔</AdvancedBionicArm.label>
+  <AdvancedBionicArm.description>설치된 강화 생체공학 팔입니다..</AdvancedBionicArm.description>
+  <AdvancedBionicArm.comps.0.tools.0.label>주먹</AdvancedBionicArm.comps.0.tools.0.label>
+  <AdvancedBionicArm.labelNoun>강화 생체공학 팔</AdvancedBionicArm.labelNoun>
+
+  <!-- Advanced Bionic Leg -->
+
+  <AdvancedBionicLeg.label>강화 생체공학 다리</AdvancedBionicLeg.label>
+  <AdvancedBionicLeg.description>설치된 강화 생체공학 다리입니다.</AdvancedBionicLeg.description>
+  <AdvancedBionicLeg.labelNoun>강화 생체공학 다리</AdvancedBionicLeg.labelNoun>
+
+  <!-- Advanced bionic spine -->
+
+  <AdvancedBionicSpine.label>강화 생체공학 척추</AdvancedBionicSpine.label>
+  <AdvancedBionicSpine.description>설치된 강화 생체공학 척추입니다.</AdvancedBionicSpine.description>
+  <AdvancedBionicSpine.labelNoun>강화 생체공학 척추</AdvancedBionicSpine.labelNoun>
+
+  <!-- Advanced bionic ear -->
+
+  <AdvancedBionicEar.label>강화 생체공학 귀</AdvancedBionicEar.label>
+  <AdvancedBionicEar.description>설치된 강화 생체공학 귀입니다.</AdvancedBionicEar.description>
+  <AdvancedBionicEar.labelNoun>강화 생체공학 귀</AdvancedBionicEar.labelNoun>
+
+  <!-- Advanced bionic hand -->
+
+  <AdvancedBionicHand.label>강화 생체공학 손</AdvancedBionicHand.label>
+  <AdvancedBionicHand.description>설치된 강화 생체공학 손입니다..</AdvancedBionicHand.description>
+  <AdvancedBionicHand.comps.0.tools.0.label>주먹</AdvancedBionicHand.comps.0.tools.0.label>
+  <AdvancedBionicHand.labelNoun>강화 생체공학 손</AdvancedBionicHand.labelNoun>
+
+  <!-- Advanced bionic foot -->
+
+  <AdvancedBionicFoot.label>강화 생체공학 발</AdvancedBionicFoot.label>
+  <AdvancedBionicFoot.description>설치된 강화 생체공학 발입니다.</AdvancedBionicFoot.description>
+  <AdvancedBionicFoot.labelNoun>강화 생체공학 발</AdvancedBionicFoot.labelNoun>
+
+  <!-- Advanced bionic finger -->
+
+  <AdvancedBionicFinger.label>강화 생체공학 손가락</AdvancedBionicFinger.label>
+  <AdvancedBionicFinger.description>설치된 강화 생체공학 손가락입니다.</AdvancedBionicFinger.description>
+  <AdvancedBionicFinger.labelNoun>강화 생체공학 손가락</AdvancedBionicFinger.labelNoun>
+
+  <!-- Advanced bionic toe -->
+
+  <AdvancedBionicToe.label>강화 생체공학 발가락</AdvancedBionicToe.label>
+  <AdvancedBionicToe.description>설치된 강화 생체공학 발가락입니다.</AdvancedBionicToe.description>
+  <AdvancedBionicToe.labelNoun>강화 생체공학 발가락</AdvancedBionicToe.labelNoun>
+
+  <!-- Advanced bionic jaw -->
+
+  <AdvancedBionicJaw.label>강화 생체공학 턱</AdvancedBionicJaw.label>
+  <AdvancedBionicJaw.description>설치된 강화 생체공학 턱입니다.</AdvancedBionicJaw.description>
+  <AdvancedBionicJaw.labelNoun>강화 생체공학 턱</AdvancedBionicJaw.labelNoun>
+
+  <!-- Advanced power arm -->
+
+  <AdvancedPowerArm.label>강화 동력 팔</AdvancedPowerArm.label>
+  <AdvancedPowerArm.description>설치된 강화 동력 팔입니다.</AdvancedPowerArm.description>
+  <AdvancedPowerArm.comps.0.tools.0.label>손톱</AdvancedPowerArm.comps.0.tools.0.label>
+  <AdvancedPowerArm.labelNoun>강화 동력 팔</AdvancedPowerArm.labelNoun>
+
+  <!-- Exoskeleton suit -->
+
+  <ExoskeletonSuit.label>외골격 수트</ExoskeletonSuit.label>
+  <ExoskeletonSuit.description>설치된 외골격 수트입니다.</ExoskeletonSuit.description>
+  <ExoskeletonSuit.labelNoun>외골격 수트</ExoskeletonSuit.labelNoun>
+
+  <!-- Protective exoskeleton -->
+
+  <EPIA_ProtectiveExoskeleton.label>보호 외골격</EPIA_ProtectiveExoskeleton.label>
+  <EPIA_ProtectiveExoskeleton.description>설치된 보호 외골격입니다.</EPIA_ProtectiveExoskeleton.description>
 
 </LanguageData>

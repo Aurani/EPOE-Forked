@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced bionic eye -->
+
+  <CreateAdvancedBionicEye.label>생체공학 눈 강화</CreateAdvancedBionicEye.label>
+  <CreateAdvancedBionicEye.description>생체공학 눈을 강화합니다.</CreateAdvancedBionicEye.description>
+  <CreateAdvancedBionicEye.jobString>생체공학 눈 강화 중.</CreateAdvancedBionicEye.jobString>
+
+  <InstallAdvancedBionicEye.label>강화 생체공학 눈 </InstallAdvancedBionicEye.label>
+    <InstallAdvancedBionicEye.description>강화 생체공학 눈을 설치합니다.</InstallAdvancedBionicEye.description>
+  <InstallAdvancedBionicEye.jobString>강화 생체공학 눈 설치 중.</InstallAdvancedBionicEye.jobString>
+
+  <!-- Advanced bionic arm -->
+
+  <CreateAdvancedBionicArm.label>생체공학 팔 강화</CreateAdvancedBionicArm.label>
+  <CreateAdvancedBionicArm.description>생체공학 팔을 강화합니다.</CreateAdvancedBionicArm.description>
+  <CreateAdvancedBionicArm.jobString>생체공학 팔 강화 중.</CreateAdvancedBionicArm.jobString>
+
+  <InstallAdvancedBionicArm.label>강화 생체공학 팔 설치</InstallAdvancedBionicArm.label>
+  <InstallAdvancedBionicArm.description>강화 생체공학 팔을 설치합니다.</InstallAdvancedBionicArm.description>
+  <InstallAdvancedBionicArm.jobString>강화 생체공학 팔 설치 중.</InstallAdvancedBionicArm.jobString>
+
+  <!-- Advanced Bionic Leg -->
+
+  <CreateAdvancedBionicLeg.label>생체공학 다리 강화</CreateAdvancedBionicLeg.label>
+  <CreateAdvancedBionicLeg.description>생체공학 다리를 강화합니다.</CreateAdvancedBionicLeg.description>
+  <CreateAdvancedBionicLeg.jobString>생체공학 다리 강화 중.</CreateAdvancedBionicLeg.jobString>
+
+  <InstallAdvancedBionicLeg.label>강화 생체공학 다리 설치</InstallAdvancedBionicLeg.label>
+  <InstallAdvancedBionicLeg.description>강화 생체공학 다리를 설치합니다.</InstallAdvancedBionicLeg.description>
+  <InstallAdvancedBionicLeg.jobString>강화 생체공학 다리 설치 중.</InstallAdvancedBionicLeg.jobString>
+
+  <!-- Advanced bionic spine -->
+
+  <CreateAdvancedBionicSpine.label>생체공학 척추 강화</CreateAdvancedBionicSpine.label>
+  <CreateAdvancedBionicSpine.description>생체공학 척추를 강화합니다.</CreateAdvancedBionicSpine.description>
+  <CreateAdvancedBionicSpine.jobString>생체공학 척추 강화 중.</CreateAdvancedBionicSpine.jobString>
+
+  <InstallAdvancedBionicSpine.label>강화 생체공학 척추 설치</InstallAdvancedBionicSpine.label>
+  <InstallAdvancedBionicSpine.description>강화 생체공학 척추를 설치합니다.</InstallAdvancedBionicSpine.description>
+  <InstallAdvancedBionicSpine.jobString>강화 생체공학 척추 설치 중.</InstallAdvancedBionicSpine.jobString>
+
+  <!-- Advanced bionic ear -->
+
+  <CreateAdvancedBionicEar.label>생체공학 귀 강화</CreateAdvancedBionicEar.label>
+  <CreateAdvancedBionicEar.description>생체공학 귀를 강화합니다.</CreateAdvancedBionicEar.description>
+  <CreateAdvancedBionicEar.jobString>생체공학 귀 강화 중.</CreateAdvancedBionicEar.jobString>
+
+  <InstallAdvancedBionicEar.label>강화 생체공학 귀 설치</InstallAdvancedBionicEar.label>
+  <InstallAdvancedBionicEar.description>강화 생체공학 귀를 설치합니다.</InstallAdvancedBionicEar.description>
+  <InstallAdvancedBionicEar.jobString>강화 생체공학 귀 설치 중.</InstallAdvancedBionicEar.jobString>
+
+  <!-- Advanced bionic hand -->
+
+  <CreateAdvancedBionicHand.label>생체공학 손 강화</CreateAdvancedBionicHand.label>
+  <CreateAdvancedBionicHand.description>생체공학 손을 강화합니다.</CreateAdvancedBionicHand.description>
+  <CreateAdvancedBionicHand.jobString>생체공학 손 강화 중.</CreateAdvancedBionicHand.jobString>
+
+  <InstallAdvancedBionicHand.label>강화 생체공학 손 설치</InstallAdvancedBionicHand.label>
+  <InstallAdvancedBionicHand.description>강화 생체공학 손을 설치합니다.</InstallAdvancedBionicHand.description>
+  <InstallAdvancedBionicHand.jobString>강화 생체공학 손 설치 중.</InstallAdvancedBionicHand.jobString>
+
+  <!-- Advanced bionic foot -->
+
+  <CreateAdvancedBionicFoot.label>생체공학 발 강화</CreateAdvancedBionicFoot.label>
+  <CreateAdvancedBionicFoot.description>생체공학 발을 강화합니다.</CreateAdvancedBionicFoot.description>
+  <CreateAdvancedBionicFoot.jobString>생체공학 발 강화 중.</CreateAdvancedBionicFoot.jobString>
+
+  <InstallAdvancedBionicFoot.label>강화 생체공학 발 설치</InstallAdvancedBionicFoot.label>
+  <InstallAdvancedBionicFoot.description>강화 생체공학 발을 설치합니다.</InstallAdvancedBionicFoot.description>
+  <InstallAdvancedBionicFoot.jobString>강화 생체공학 발 설치 중.</InstallAdvancedBionicFoot.jobString>
+
+  <!-- Advanced bionic finger -->
+
+  <EPIA_UpgradeAdvancedBionicFinger.label>생체공학 손가락 강화</EPIA_UpgradeAdvancedBionicFinger.label>
+  <EPIA_UpgradeAdvancedBionicFinger.description>생체공학 손가락을 강화합니다.</EPIA_UpgradeAdvancedBionicFinger.description>
+  <EPIA_UpgradeAdvancedBionicFinger.jobString>생체공학 손가락 강화 중.</EPIA_UpgradeAdvancedBionicFinger.jobString>
+
+  <InstallAdvancedBionicFinger.label>강화 생체공학 손가락 설치</InstallAdvancedBionicFinger.label>
+  <InstallAdvancedBionicFinger.description>강화 생체공학 손가락을 설치합니다.</InstallAdvancedBionicFinger.description>
+  <InstallAdvancedBionicFinger.jobString>강화 생체공학 손가락 설치 중.</InstallAdvancedBionicFinger.jobString>
+
+  <!-- Advanced bionic toe -->
+
+  <EPIA_UpgradeAdvancedBionicToe.label>생체공학 발가락 강화</EPIA_UpgradeAdvancedBionicToe.label>
+  <EPIA_UpgradeAdvancedBionicToe.description>생체공학 발가락을 강화합니다.</EPIA_UpgradeAdvancedBionicToe.description>
+  <EPIA_UpgradeAdvancedBionicToe.jobString>생체공학 발가락 강화 중.</EPIA_UpgradeAdvancedBionicToe.jobString>
+
+  <InstallAdvancedBionicToe.label>강화 생체공학 발가락 설치</InstallAdvancedBionicToe.label>
+  <InstallAdvancedBionicToe.description>강화 생체공학 발가락을 설치합니다.</InstallAdvancedBionicToe.description>
+  <InstallAdvancedBionicToe.jobString>강화 생체공학 발가락 설치 중.</InstallAdvancedBionicToe.jobString>
+
+  <!-- Advanced bionic jaw -->
+
+  <CreateAdvancedBionicJaw.label>생체공학 턱 강화</CreateAdvancedBionicJaw.label>
+  <CreateAdvancedBionicJaw.description>생체공학 턱을 강화합니다.</CreateAdvancedBionicJaw.description>
+  <CreateAdvancedBionicJaw.jobString>생체공학 턱 강화 중.</CreateAdvancedBionicJaw.jobString>
+
+  <InstallAdvancedBionicJaw.label>강화 생체공학 턱 설치</InstallAdvancedBionicJaw.label>
+  <InstallAdvancedBionicJaw.description>강화 생체공학 턱을 설치합니다.</InstallAdvancedBionicJaw.description>
+  <InstallAdvancedBionicJaw.jobString>강화 생체공학 턱 설치 중.</InstallAdvancedBionicJaw.jobString>
+
+  <!-- Advanced power arm -->
+
+  <CreateAdvancedPowerArm.label>동력 팔 강화</CreateAdvancedPowerArm.label>
+  <CreateAdvancedPowerArm.description>동력 팔을 강화합니다.</CreateAdvancedPowerArm.description>
+  <CreateAdvancedPowerArm.jobString>동력 팔 강화 중.</CreateAdvancedPowerArm.jobString>
+
+  <InstallAdvancedPowerArm.label>강화 동력 팔 설치</InstallAdvancedPowerArm.label>
+  <InstallAdvancedPowerArm.description>강화 동력 팔을 설치합니다.</InstallAdvancedPowerArm.description>
+  <InstallAdvancedPowerArm.jobString>강화 동력 팔 설치 중.</InstallAdvancedPowerArm.jobString>
+
+  <!-- Exoskeleton suit -->
+
+  <InstallExoskeletonSuit.label>외골격 수트 설치</InstallExoskeletonSuit.label>
+  <InstallExoskeletonSuit.description>외골격 수트를 설치합니다.</InstallExoskeletonSuit.description>
+  <InstallExoskeletonSuit.jobString>외골격 수트 설치 중.</InstallExoskeletonSuit.jobString>
+
+  <RemoveExoskeletonSuit.label>외골격 수트 제거</RemoveExoskeletonSuit.label>
+  <RemoveExoskeletonSuit.description>외골격 수트를 제거합니다.</RemoveExoskeletonSuit.description>
+  <RemoveExoskeletonSuit.jobString>외골격 수트 제거 중.</RemoveExoskeletonSuit.jobString>
+
+  <!-- Protective exoskeleton -->
+
+  <EPIA_InstallProtectiveExoskeleton.label>보호 외골격 설치</EPIA_InstallProtectiveExoskeleton.label>
+  <EPIA_InstallProtectiveExoskeleton.description>보호 외골격을 설치합니다.</EPIA_InstallProtectiveExoskeleton.description>
+  <EPIA_InstallProtectiveExoskeleton.jobString>보호 외골격 설치 중.</EPIA_InstallProtectiveExoskeleton.jobString>
+
+  <EPIA_RemoveProtectiveExoskeleton.label>보호 외골격 제거</EPIA_RemoveProtectiveExoskeleton.label>
+  <EPIA_RemoveProtectiveExoskeleton.description>보호 외골격을 제거합니다.</EPIA_RemoveProtectiveExoskeleton.description>
+  <EPIA_RemoveProtectiveExoskeleton.jobString>보호 외골격 제거 중.</EPIA_RemoveProtectiveExoskeleton.jobString>
+
+</LanguageData>

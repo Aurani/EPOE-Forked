@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Prosthetic leg -->
+  <!--
+  <SimpleProstheticLeg.label>간단한 의족</SimpleProstheticLeg.label>
+  <SimpleProstheticLeg.description></SimpleProstheticLeg.description> -->
+
+  <!-- Prosthetic arm -->
+  <!--
+  <SimpleProstheticArm.label>간단한 의수</SimpleProstheticArm.label>
+  <SimpleProstheticArm.description></SimpleProstheticArm.description> -->
+
+  <!-- Cochlear implant -->
+  <!--
+  <CochlearImplant.label>보청기</CochlearImplant.label>
+  <CochlearImplant.description></CochlearImplant.description> -->
+
+  <!-- Golden eye -->
+
+  <GoldenEye.label>금 의안</GoldenEye.label>
+  <GoldenEye.description>금으로 만든 눈 보철물입니다. 사라진 눈을 가리기 위한 사치스러운 방법입니다.</GoldenEye.description>
+
+  <!-- Light receptor -->
+
+  <LightReceptor.label>빛 수용체</LightReceptor.label>
+  <LightReceptor.description>눈 보철물입니다. 시신경이 광센서과 신호 처리장치로부터 자극을 받아 시각을 만들어냅니다. 실제 눈보다 좋지는 않지만, 눈이 머는 것보다는 훨씬 낫습니다.</LightReceptor.description>
+
+  <!-- Simple spine replacement -->
+
+  <SimpleSpine.label>간단한 척추</SimpleSpine.label>
+  <SimpleSpine.description>척추 보철물입니다. 이 시대 치고는 상당히 발전하여, 신경 인터페이스를 복잡하게 적용한 첫 보철물이자 초기 생체공학 프로토타입으로 생각할 수 있습니다.</SimpleSpine.description>
+
+  <!-- Prosthetic hand -->
+
+  <SimpleProstheticHand.label>손 보철물</SimpleProstheticHand.label>
+  <SimpleProstheticHand.description>손 보철물입니다. 신경 인터페이스는 없지만, 내부 관절의 복잡한 배치가 자연스러운 움직임을 꽤나 그럴듯하게 따라합니다. 그러나, 실제 손만은 못합니다.</SimpleProstheticHand.description>
+
+  <!-- Prosthetic foot -->
+
+  <SimpleProstheticFoot.label>발 보철물</SimpleProstheticFoot.label>
+  <SimpleProstheticFoot.description>발 보철물입니다. 신경 인터페이스는 없지만, 내부 관절의 복잡한 배치가 자연스러운 움직임을 꽤나 그럴듯하게 따라합니다. 그러나, 실제 발만은 못합니다.</SimpleProstheticFoot.description>
+
+  <!-- Prosthetic finger -->
+
+  <SimpleProstheticFinger.label>손가락 보철물</SimpleProstheticFinger.label>
+  <SimpleProstheticFinger.description>잃은 손가락의 낡고 조잡한 대체품입니다. 엄청나게 효율적이지도 않고 편하지도 않지만, 제 역할은 합니다.</SimpleProstheticFinger.description>
+
+  <!-- Prosthetic toe -->
+
+  <SimpleProstheticToe.label>발가락 보철물</SimpleProstheticToe.label>
+  <SimpleProstheticToe.description>잃은 발가락의 낡고 조잡한 대체품입니다. 엄청나게 효율적이지도 않고 편하지도 않지만, 제 역할은 합니다.</SimpleProstheticToe.description>
+
+  <!-- Hydraulic jaw -->
+
+  <HydraulicJaw.label>유압식 턱</HydraulicJaw.label>
+  <HydraulicJaw.description>턱 보철물입니다. 신경 인터페이스는 없지만, 내부 관절의 복잡한 배치가 자연스러운 움직임을 꽤나 그럴듯하게 따라합니다. 음식을 더 효율적으로 으깨고 씹을 수 있지만, 말하는 데 필요한 섬세함은 조금 부족합니다.</HydraulicJaw.description>
+
+  <!-- Artificial nose -->
+
+  <ArtificialNose.label>인공 코</ArtificialNose.label>
+  <ArtificialNose.description>코 보철물입니다. 얼굴에 코가 없을 때 가리기 위해 사용합니다.</ArtificialNose.description>
+
+  <!-- Replacement radius -->
+
+  <ReplacementRadius.label>요골 대체물</ReplacementRadius.label>
+  <ReplacementRadius.description>팔 아래쪽 뼈인 요골 대체품입니다.</ReplacementRadius.description>
+
+  <!-- Scyther blade -->
+  
+  <ScytherBlade.label>사이더 칼날</ScytherBlade.label>
+  <ScytherBlade.description>신축성 있는 칼날을 이용한 무기화된 손 보철물입니다. 죽은 사이더에서 수집해서 복원했습니다. 별로 편하지는 않지만, 근접 무기로는 꽤 효율적입니다.</ScytherBlade.description>
+
+</LanguageData>

@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <LanguageData>
 
-   <PowerArm.label>동력 팔</PowerArm.label>
-   <BionicHand.label>생체공학 손</BionicHand.label>
-   <BionicFoot.label>생체공학 발</BionicFoot.label>
-   <BionicEar.label>생체공학 귀</BionicEar.label>
-   <BionicJaw.label>생체공학 턱</BionicJaw.label>
-   <SilentJaw.label>무음 턱</SilentJaw.label>
-   <BionicSpine.label>생체공학 척추</BionicSpine.label>
-   <MedicalRib.label>내장형 의료기기</MedicalRib.label>
-   <DruggedRib.label>알콜 주입기</DruggedRib.label>
-   <AdrenalineRib.label>아드레날린 촉진기</AdrenalineRib.label>
+  <!-- Bionic spine --> 
+
+  <BionicSpine.label>생체공학 척추</BionicSpine.label>
+  <BionicSpine.description>설치된 생체공학 척추입니다.</BionicSpine.description>
+  <BionicSpine.labelNoun>생체공학 척추</BionicSpine.labelNoun>
+
+  <!-- Bionic hand -->
+
+  <BionicHand.label>생체공학 손</BionicHand.label>
+  <BionicHand.description>설치된 생체공학 손입니다.</BionicHand.description>
+  <BionicHand.comps.0.tools.0.label>주먹</BionicHand.comps.0.tools.0.label>
+  <BionicHand.labelNoun>생체공학 손</BionicHand.labelNoun>
+
+  <!-- Bionic Foot -->
+
+  <BionicFoot.label>생체공학 발</BionicFoot.label>
+  <BionicFoot.description>설치된 생체공학 발입니다.</BionicFoot.description>
+  <BionicFoot.labelNoun>생체공학 발</BionicFoot.labelNoun>
+
+  <!-- Bionic finger -->
+
+  <BionicFinger.label>생체공학 손가락</BionicFinger.label>
+  <BionicFinger.description>설치된 생체공학 손가락입니다.</BionicFinger.description>
+  <BionicFinger.labelNoun>생체공학 손가락</BionicFinger.labelNoun>
+
+  <!-- Bionic toe -->
+
+  <BionicToe.label>생체공학 발가락</BionicToe.label>
+  <BionicToe.description>설치된 생체공학 발가락입니다.</BionicToe.description>
+  <BionicToe.labelNoun>생체공학 발가락</BionicToe.labelNoun>
+
+  <!-- Bionic Jaw -->
+
+  <BionicJaw.label>생체공학 턱</BionicJaw.label>
+  <BionicJaw.description>설치된 생체공학 턱입니다.</BionicJaw.description>
+  <BionicJaw.labelNoun>생체공학 턱</BionicJaw.labelNoun>
+
+  <!-- Silent jaw -->
+
+  <SilentJaw.label>무음 턱</SilentJaw.label>
+  <SilentJaw.description>설치된 무음 턱입니다.</SilentJaw.description>
+  <SilentJaw.labelNoun>무음 턱</SilentJaw.labelNoun>
+
+  <!-- Power arm -->
+
+  <PowerArm.label>동력 팔</PowerArm.label>
+  <PowerArm.description>설치된 동력 팔입니다.</PowerArm.description>
+  <PowerArm.comps.0.tools.0.label>손톱</PowerArm.comps.0.tools.0.label>
+  <PowerArm.labelNoun>동력 팔</PowerArm.labelNoun>
 
 </LanguageData>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Golden eye -->
+
+  <InstallGoldenEye.label>금 의안 설치</InstallGoldenEye.label>
+  <InstallGoldenEye.description>금 의안을 설치합니다.</InstallGoldenEye.description>
+  <InstallGoldenEye.jobString>금 의안 설치 중.</InstallGoldenEye.jobString>
+
+  <!-- Light receptor -->
+
+  <InstallLightReceptor.label>빛 수용체 설치</InstallLightReceptor.label>
+  <InstallLightReceptor.description>빛 수용체를 설치합니다.</InstallLightReceptor.description>
+  <InstallLightReceptor.jobString>빛 수용체 설치 중.</InstallLightReceptor.jobString>
+
+  <!-- Simple spine replacement -->
+
+  <InstallSimpleSpine.label>간단한 척추 설치</InstallSimpleSpine.label>
+  <InstallSimpleSpine.description>간단한 척추를 설치합니다.</InstallSimpleSpine.description>
+  <InstallSimpleSpine.jobString>간단한 척추 설치 중.</InstallSimpleSpine.jobString>
+
+  <!-- Prosthetic hand -->
+
+  <InstallSimpleProstheticHand.label>손 보철물 설치</InstallSimpleProstheticHand.label>
+  <InstallSimpleProstheticHand.description>손 보철물을 설치합니다.</InstallSimpleProstheticHand.description>
+  <InstallSimpleProstheticHand.jobString>손 보철물 설치 중.</InstallSimpleProstheticHand.jobString>
+
+  <!-- Prosthetic foot -->
+
+  <InstallSimpleProstheticFoot.label>발 보철물 설치</InstallSimpleProstheticFoot.label>
+  <InstallSimpleProstheticFoot.description>발 보철물을 설치합니다.</InstallSimpleProstheticFoot.description>
+  <InstallSimpleProstheticFoot.jobString>발 보철물 설치 중.</InstallSimpleProstheticFoot.jobString>
+
+  <!-- Prosthetic finger -->
+
+  <InstallSimpleProstheticFinger.label>손가락 보철물 설치</InstallSimpleProstheticFinger.label>
+  <InstallSimpleProstheticFinger.description>손가락 보철물을 설치합니다.</InstallSimpleProstheticFinger.description>
+  <InstallSimpleProstheticFinger.jobString>손가락 보철물 설치 중.</InstallSimpleProstheticFinger.jobString>
+
+  <!-- Prosthetic toe -->
+
+  <InstallSimpleProstheticToe.label>발가락 보철물 설치</InstallSimpleProstheticToe.label>
+  <InstallSimpleProstheticToe.description>발가락 보철물을 설치합니다.</InstallSimpleProstheticToe.description>
+  <InstallSimpleProstheticToe.jobString>발가락 보철물 설치 중.</InstallSimpleProstheticToe.jobString>
+
+  <!-- Hydraulic jaw -->
+
+  <InstallHydraulicJaw.label>유압식 턱 설치</InstallHydraulicJaw.label>
+  <InstallHydraulicJaw.description>유압식 턱을 설치합니다.</InstallHydraulicJaw.description>
+  <InstallHydraulicJaw.jobString>유압식 턱 설치 중.</InstallHydraulicJaw.jobString>
+
+  <!-- Artificial nose -->
+
+  <InstallArtificialNose.label>인공 코 설치</InstallArtificialNose.label>
+  <InstallArtificialNose.description>인공 코를 설치합니다.</InstallArtificialNose.description>
+  <InstallArtificialNose.jobString>인공 코 설치 중.</InstallArtificialNose.jobString>
+
+  <!-- Replacement radius -->
+
+  <InstallReplacementRadius.label>요골 대체물 설치</InstallReplacementRadius.label>
+  <InstallReplacementRadius.description>요골 대체물을 설치합니다.</InstallReplacementRadius.description>
+  <InstallReplacementRadius.jobString>요골 대체물 설치 중.</InstallReplacementRadius.jobString>
+
+  <!-- Scyther blade -->
+
+  <InstallScytherBlade.label>사이더 칼날 설치</InstallScytherBlade.label>
+  <InstallScytherBlade.description>사이더 칼날을 설치합니다.</InstallScytherBlade.description>
+  <InstallScytherBlade.jobString>사이더 칼날 설치 중.</InstallScytherBlade.jobString>
+
+</LanguageData>

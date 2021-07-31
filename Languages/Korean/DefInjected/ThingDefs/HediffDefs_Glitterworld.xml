@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tactical cornea implant -->
+
+  <TacticalCorneaImplant.label>전술 각막 이식물</TacticalCorneaImplant.label>
+  <TacticalCorneaImplant.description>사용자에게 잠재적인 목표물에 대한 정보를 제공하고 완벽한 발사 각도를 제안하는 고급 이식물입니다.</TacticalCorneaImplant.description>
+
+  <!-- Auxiliary AI (construction) -->
+
+  <ConstructorCore.label>보조 AI(건설)</ConstructorCore.label>
+  <ConstructorCore.description>번화계에서는 복잡한 일에도 교육과 훈련이 필요하지 않습니다. 뇌에 설치한 AI가 사용자와 끝없이 소통하고 안내자 역할을 합니다. 설치하려면 뇌 수술 연구가 필요합니다.</ConstructorCore.description>
+
+  <!-- Auxiliary AI (agricultural) -->
+
+  <FarmerCore.label>보조 AI(재배)</FarmerCore.label>
+  <FarmerCore.description>번화계에서는 복잡한 일에도 교육과 훈련이 필요하지 않습니다. 뇌에 설치한 AI가 사용자와 끝없이 소통하고 안내자 역할을 합니다. 설치하려면 뇌 수술 연구가 필요합니다.</FarmerCore.description>
+
+  <!-- Auxiliary AI (mining) -->
+
+  <MinerCore.label>보조 AI(채굴)</MinerCore.label>
+  <MinerCore.description>번화계에서는 복잡한 일에도 교육과 훈련이 필요하지 않습니다. 뇌에 설치한 AI가 사용자와 끝없이 소통하고 안내자 역할을 합니다. 설치하려면 뇌 수술 연구가 필요합니다.</MinerCore.description>
+
+  <!-- Auxiliary AI (medical) -->
+
+  <DoctorCore.label>보조 AI(의학)</DoctorCore.label>
+  <DoctorCore.description>번화계에서는 복잡한 일에도 교육과 훈련이 필요하지 않습니다. 뇌에 설치한 AI가 사용자와 끝없이 소통하고 안내자 역할을 합니다. 설치하려면 뇌 수술 연구가 필요합니다.</DoctorCore.description>
+
+  <!-- Auxiliary AI (diplomatic) -->
+
+  <DiplomatCore.label>보조 AI(사교)</DiplomatCore.label>
+  <DiplomatCore.description>번화계에서는 복잡한 일에도 교육과 훈련이 필요하지 않습니다. 뇌에 설치한 AI가 사용자와 끝없이 소통하고 안내자 역할을 합니다. 설치하려면 뇌 수술 연구가 필요합니다.</DiplomatCore.description>
+
+  <!-- Auxiliary AI (sharpshooter) -->
+
+  <EPIA_AuxiliaryAI_Sharpshooter.label>보조 AI(저격수)</EPIA_AuxiliaryAI_Sharpshooter.label>
+  <EPIA_AuxiliaryAI_Sharpshooter.description>장거리 전투에서 사용자의 정확도를 매우 높이도록 설계된 전투 특화 AI 보조 시스템입니다. 시스템의 복잡성으로 인해, 다른 보조 AI와 같이 사용할 수 없습니다.</EPIA_AuxiliaryAI_Sharpshooter.description>
+
+  <!-- Auxiliary AI (commando) -->
+
+  <EPIA_AuxiliaryAI_Commando.label>보조 AI(코만도)</EPIA_AuxiliaryAI_Commando.label>
+  <EPIA_AuxiliaryAI_Commando.description>사용자가 전투의 압박감을 견뎌낼 수 있도록 설계된 전투 특화 AI 보조 시스템입니다. 시스템의 복잡성으로 인해, 다른 보조 AI와 같이 사용할 수 없습니다.</EPIA_AuxiliaryAI_Commando.description>
+
+  <!-- Auxiliary AI (brawler) -->
+
+  <EPIA_AuxiliaryAI_Brawler.label>보조 AI(싸움꾼)</EPIA_AuxiliaryAI_Brawler.label>
+  <EPIA_AuxiliaryAI_Brawler.description>고위협 상황에서 뇌에 보내지는 불필요한 전기적, 화학적 신호를 걸러내 전반적인 전투 능력을 향상시켜 사용자를 돕도록 설계된 전투 특화 AI 보조 시스템입니다. 시스템의 복잡성으로 인해, 다른 보조 AI와 같이 사용할 수 없습니다.</EPIA_AuxiliaryAI_Brawler.description>
+
+	<!-- Tactical bionic eye -->
+
+  <EPIA_TacticalBionicEye.label>전술 생체공학 눈</EPIA_TacticalBionicEye.label>
+  <EPIA_TacticalBionicEye.description>사용자에게 잠재적인 목표물에 대한 정보를 제공하고 완벽한 발사 각도를 제안하는 번화계의 전투 지향적 생체공학 눈입니다.</EPIA_TacticalBionicEye.description>
+
+</LanguageData>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Medical rib -->
+
+  <MedicalRib.label>갈비뼈(의료)</MedicalRib.label>
+      <MedicalRib.description>설치된 갈비뼈(의료)입니다.</MedicalRib.description>
+  <MedicalRib.labelNoun>갈비뼈(의료)</MedicalRib.labelNoun>
+
+  <!-- Drugged rib -->
+
+  <DruggedRib.label>갈비뼈(약물)</DruggedRib.label>
+  <DruggedRib.description>설치된 갈비뼈(약물)입니다.</DruggedRib.description>
+  <DruggedRib.labelNoun>갈비뼈(약물)</DruggedRib.labelNoun>
+
+  <!-- Adrenaline rib -->
+
+  <AdrenalineRib.label>갈비뼈(아드레날린)</AdrenalineRib.label>
+  <AdrenalineRib.description>설치된 갈비뼈(아드레날린)입니다.</AdrenalineRib.description>
+  <AdrenalineRib.labelNoun>갈비뼈(아드레날린)</AdrenalineRib.labelNoun>
+
+  <!-- Painkiller rib -->
+
+  <PainkillerRib.label>갈비뼈(진통)</PainkillerRib.label>
+  <PainkillerRib.description>설치된 갈비뼈(진통)입니다.</PainkillerRib.description>
+  <PainkillerRib.labelNoun>갈비뼈(진통)</PainkillerRib.labelNoun>
+
+  <!-- Heater rib -->
+
+  <HeaterRib.label>갈비뼈(가열)</HeaterRib.label>
+  <HeaterRib.description>설치된 갈비뼈(가열)입니다.</HeaterRib.description>
+
+  <!-- Cooler rib -->
+
+  <CoolerRib.label>갈비뼈(냉각)</CoolerRib.label>
+  <CoolerRib.description>설치된 갈비뼈(냉각)입니다.</CoolerRib.description>
+
+  <!-- Coagulator rib -->
+
+  <CoagulatorRib.label>갈비뼈(응고제)</CoagulatorRib.label>
+  <CoagulatorRib.description>설치된 갈비뼈(응고제)입니다.</CoagulatorRib.description>
+
+  <!-- Respiration rib -->
+
+  <RespirationRib.label>갈비뼈(호흡)</RespirationRib.label>
+  <RespirationRib.description>설치된 갈비뼈(호흡)입니다.</RespirationRib.description>
+
+  <!-- Wake-up rib -->
+
+  <WakeUpRib.label>갈비뼈(웨이크업)</WakeUpRib.label>
+  <WakeUpRib.description>설치된 갈비뼈(웨이크업)입니다.</WakeUpRib.description>
+
+</LanguageData>

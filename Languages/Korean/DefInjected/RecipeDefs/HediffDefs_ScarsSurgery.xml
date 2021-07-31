@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Synthetic tissue -->
+
+  <EPIA_RepairScar.label>흉터 치료</EPIA_RepairScar.label>
+  <EPIA_RepairScar.description>흉터를 치료하고 제거합니다.</EPIA_RepairScar.description>
+  <EPIA_RepairScar.jobString>흉터 제거 중.</EPIA_RepairScar.jobString>
+  <EPIA_RepairScar.successfullyRemovedHediffMessage>{0}이 {1}의 흉터를 성공적으로 제거했습니다.</EPIA_RepairScar.successfullyRemovedHediffMessage>
+
+  <!-- Neuromuscular framework -->
+
+  <SurgeryRemoveFrailty.label>노쇠 치료</SurgeryRemoveFrailty.label>
+  <SurgeryRemoveFrailty.description>신경근 뼈대를 설치하여 노쇠를 치료합니다.</SurgeryRemoveFrailty.description>
+  <SurgeryRemoveFrailty.jobString>노쇠 치료 중.</SurgeryRemoveFrailty.jobString>
+  <SurgeryRemoveFrailty.successfullyRemovedHediffMessage>{0}이 {1}의 노쇠를 성공적으로 치료했습니다.</SurgeryRemoveFrailty.successfullyRemovedHediffMessage>
+
+  <SurgeryRemoveBadBack.label>요통 치료</SurgeryRemoveBadBack.label>
+  <SurgeryRemoveBadBack.description>신경근 뼈대를 설치하여 요통을 치료합니다.</SurgeryRemoveBadBack.description>
+  <SurgeryRemoveBadBack.jobString>요통 치료 중.</SurgeryRemoveBadBack.jobString>
+  <SurgeryRemoveBadBack.successfullyRemovedHediffMessage>{0}이 {1}의 요통을 성공적으로 치료했습니다.</SurgeryRemoveBadBack.successfullyRemovedHediffMessage>
+  
+  <EPIA_SurgeryRemoveChemicalDamageModerate.label>약물 손상 치료</EPIA_SurgeryRemoveChemicalDamageModerate.label>
+  <EPIA_SurgeryRemoveChemicalDamageModerate.description>신경근 뼈대를 설치하여 약물 손상을 치료합니다.</EPIA_SurgeryRemoveChemicalDamageModerate.description>
+  <EPIA_SurgeryRemoveChemicalDamageModerate.jobString>약물 손상 치료 중.</EPIA_SurgeryRemoveChemicalDamageModerate.jobString>
+  <EPIA_SurgeryRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>{0}이 {1}의 약물 손상을 성공적으로 치료했습니다.</EPIA_SurgeryRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>
+
+  <EPIA_RestoreTorsoBones.label>몸통 뼈 복원</EPIA_RestoreTorsoBones.label>
+  <EPIA_RestoreTorsoBones.description>골반, 흉골, 쇄골 등 몸통의 뼈를 복원합니다.</EPIA_RestoreTorsoBones.description>
+  <EPIA_RestoreTorsoBones.jobString>신체 부위 복원 중.</EPIA_RestoreTorsoBones.jobString>
+
+  <!-- Neuro-cure framework -->
+
+  <EPOE_SurgeryRemoveDementia.label>치매 치료</EPOE_SurgeryRemoveDementia.label>
+  <EPOE_SurgeryRemoveDementia.description>신경치료 뼈대를 설치하여 치매를 치료합니다.</EPOE_SurgeryRemoveDementia.description>
+  <EPOE_SurgeryRemoveDementia.jobString>치매 치료 중.</EPOE_SurgeryRemoveDementia.jobString>
+  <EPOE_SurgeryRemoveDementia.successfullyRemovedHediffMessage>{0}이 {1}의 치매를 성공적으로 치료했습니다.</EPOE_SurgeryRemoveDementia.successfullyRemovedHediffMessage>
+
+  <EPOE_SurgeryRemoveAlzheimers.label>알츠하이머 치료</EPOE_SurgeryRemoveAlzheimers.label>
+  <EPOE_SurgeryRemoveAlzheimers.description>신경치료 뼈대를 설치하여 알츠하이머를 치료합니다.</EPOE_SurgeryRemoveAlzheimers.description>
+  <EPOE_SurgeryRemoveAlzheimers.jobString>알츠하이머 치료 중.</EPOE_SurgeryRemoveAlzheimers.jobString>
+  <EPOE_SurgeryRemoveAlzheimers.successfullyRemovedHediffMessage>{0}이 {1}의 알츠하이머를 성공적으로 치료했습니다.</EPOE_SurgeryRemoveAlzheimers.successfullyRemovedHediffMessage>
+
+  <EPIA_RepairBrainScar.label>뇌 흉터 치료</EPIA_RepairBrainScar.label>
+  <EPIA_RepairBrainScar.description>뇌 흉터를 치료하고 제거합니다.</EPIA_RepairBrainScar.description>
+  <EPIA_RepairBrainScar.jobString>뇌 흉터 제거 중.</EPIA_RepairBrainScar.jobString>
+  <EPIA_RepairBrainScar.successfullyRemovedHediffMessage>{0}이 {1}의 뇌 흉터를 성공적으로 제거했습니다.</EPIA_RepairBrainScar.successfullyRemovedHediffMessage>
+
+  <EPIA_SurgeryBrainRemoveChemicalDamageModerate.label>약물 피해 치료</EPIA_SurgeryBrainRemoveChemicalDamageModerate.label>
+  <EPIA_SurgeryBrainRemoveChemicalDamageModerate.description>신경치료 뼈대를 설치해 뇌에 입은 약물 피해를 치료합니다.</EPIA_SurgeryBrainRemoveChemicalDamageModerate.description>
+  <EPIA_SurgeryBrainRemoveChemicalDamageModerate.jobString>약물 피해 치료 중.</EPIA_SurgeryBrainRemoveChemicalDamageModerate.jobString>
+  <EPIA_SurgeryBrainRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>{0}이 {1}의 약물 피해를 성공적으로 치료했습니다.</EPIA_SurgeryBrainRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>
+
+</LanguageData>

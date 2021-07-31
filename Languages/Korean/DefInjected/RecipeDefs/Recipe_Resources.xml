@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Smelt_EPOE_DamagedScytherBlade.label>손상된 사이더 칼날 분해</Smelt_EPOE_DamagedScytherBlade.label>
+  <Smelt_EPOE_DamagedScytherBlade.description>열과 강한 전자석을 사용하여 손상된 사이더 칼날에서 유용한 금속을 추출합니다.</Smelt_EPOE_DamagedScytherBlade.description>
+  <Smelt_EPOE_DamagedScytherBlade.jobString>손상된 사이더 칼날 분해 중.</Smelt_EPOE_DamagedScytherBlade.jobString>
+
+  <EPIA_ScrapProsthesis.label>이식물 분해</EPIA_ScrapProsthesis.label>
+  <EPIA_ScrapProsthesis.description>필요없는 이식물을 폐기하고 분해하여 자원을 얻습니다.</EPIA_ScrapProsthesis.description>
+  <EPIA_ScrapProsthesis.jobString>이식물 분해 중.</EPIA_ScrapProsthesis.jobString>
+
+  <Make_EPOE_MAAI_Chip_UseAICore.label>인공자아 핵으로 MA-AI 칩 5개 만들기</Make_EPOE_MAAI_Chip_UseAICore.label>
+  <Make_EPOE_MAAI_Chip_UseAICore.description>인공자아 핵을 분해하여 5개의 MA-AI 칩을 만듭니다.</Make_EPOE_MAAI_Chip_UseAICore.description>
+  <Make_EPOE_MAAI_Chip_UseAICore.jobString>MA-AI 칩 제작 중.</Make_EPOE_MAAI_Chip_UseAICore.jobString>
+
+
+</LanguageData>

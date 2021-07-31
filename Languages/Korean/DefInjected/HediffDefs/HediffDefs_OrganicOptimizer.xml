@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Organic optimizing nanobots -->
+
+  <EPOE_OrganicOptimized.label>생체 최적화</EPOE_OrganicOptimized.label>
+  <EPOE_OrganicOptimized.description>생체 최적화 나노봇으로 최적화된 자연적 신체 부위입니다.</EPOE_OrganicOptimized.description>
+  <EPOE_OrganicOptimized.stages.0.label>갓 설치됨</EPOE_OrganicOptimized.stages.0.label>
+  <EPOE_OrganicOptimized.stages.1.label>적응 중</EPOE_OrganicOptimized.stages.1.label>
+  <EPOE_OrganicOptimized.stages.2.label>최적화 중</EPOE_OrganicOptimized.stages.2.label>
+
+
+  <!-- Eyes: Improved reactive pupil -->
+
+  <EPOE_InstinctOptimizedEyes.label>반응 개선 동공</EPOE_InstinctOptimizedEyes.label>
+  <EPOE_InstinctOptimizedEyes.description>본능 최적화 나노봇으로 최적화된 눈입니다.</EPOE_InstinctOptimizedEyes.description>
+  <EPOE_InstinctOptimizedEyes.stages.0.label>갓 설치됨</EPOE_InstinctOptimizedEyes.stages.0.label>
+  <EPOE_InstinctOptimizedEyes.stages.1.label>적응 중</EPOE_InstinctOptimizedEyes.stages.1.label>
+  <EPOE_InstinctOptimizedEyes.stages.2.label>최적화 중</EPOE_InstinctOptimizedEyes.stages.2.label>
+
+
+  <!-- Hand: Improved hand reflex -->
+
+  <EPOE_InstinctOptimizedHand.label>반응 개선 손</EPOE_InstinctOptimizedHand.label>
+  <EPOE_InstinctOptimizedHand.description>본능 최적화 나노봇으로 최적화된 손입니다.</EPOE_InstinctOptimizedHand.description>
+  <EPOE_InstinctOptimizedHand.stages.0.label>갓 설치됨</EPOE_InstinctOptimizedHand.stages.0.label>
+  <EPOE_InstinctOptimizedHand.stages.1.label>적응 중</EPOE_InstinctOptimizedHand.stages.1.label>
+  <EPOE_InstinctOptimizedHand.stages.2.label>최적화 중</EPOE_InstinctOptimizedHand.stages.2.label>
+
+
+  <!-- Foot: nimble instinct -->
+
+  <EPOE_InstinctOptimizedFoot.label>반응 개선 발</EPOE_InstinctOptimizedFoot.label>
+  <EPOE_InstinctOptimizedFoot.description>본능 최적화 나노봇으로 최적화된 발입니다.</EPOE_InstinctOptimizedFoot.description>
+  <EPOE_InstinctOptimizedFoot.stages.0.label>갓 설치됨</EPOE_InstinctOptimizedFoot.stages.0.label>
+  <EPOE_InstinctOptimizedFoot.stages.1.label>적응 중</EPOE_InstinctOptimizedFoot.stages.1.label>
+  <EPOE_InstinctOptimizedFoot.stages.2.label>최적화 중</EPOE_InstinctOptimizedFoot.stages.2.label>
+
+
+</LanguageData>

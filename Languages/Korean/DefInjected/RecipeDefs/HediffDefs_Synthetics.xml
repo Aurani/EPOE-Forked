@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Redundant Synthetic Heart version -->
+
+  <InstallSyntheticHeart.label>합성 심장 설치</InstallSyntheticHeart.label>
+  <InstallSyntheticHeart.description>합성 심장을 설치합니다.</InstallSyntheticHeart.description>
+  <InstallSyntheticHeart.jobString>합성 심장 설치 중.</InstallSyntheticHeart.jobString>
+
+  <!-- Redundant Synthetic stomach version -->
+
+  <InstallSyntheticStomach.label>합성 위 설치</InstallSyntheticStomach.label>
+  <InstallSyntheticStomach.description>합성 위를 설치합니다.</InstallSyntheticStomach.description>
+  <InstallSyntheticStomach.jobString>합성 위 설치 중.</InstallSyntheticStomach.jobString>
+
+  <!-- Vanilla overwrites, for now. -->
+
+  <RemoveJoywire.label>쾌락회로 설치</RemoveJoywire.label>
+  <RemoveJoywire.description>쾌락회로를 설치합니다.</RemoveJoywire.description>
+  <RemoveJoywire.jobString>쾌락회로 설치 중.</RemoveJoywire.jobString>
+  <!--
+  <RemovePainstopper.label>쾌락회로 제거</RemovePainstopper.label>
+  <RemovePainstopper.description>쾌락회로를 제거합니다.</RemovePainstopper.description>
+  <RemovePainstopper.jobString>쾌락회로 제거 중.</RemovePainstopper.jobString> -->
+
+  <!-- Synthetic heart -->
+
+  <CreateSyntheticHeart.label>합성 심장 제작</CreateSyntheticHeart.label>
+  <CreateSyntheticHeart.description>인공 심장을 합성 심장으로 강화합니다.</CreateSyntheticHeart.description>
+  <CreateSyntheticHeart.jobString>합성 심장 제작 중.</CreateSyntheticHeart.jobString>
+  
+  <InstallBionicHeart.label>합성 심장 설치</InstallBionicHeart.label>
+  <InstallBionicHeart.description>합성 심장을 설치합니다.</InstallBionicHeart.description>
+  <InstallBionicHeart.jobString>합성 심장 설치 중.</InstallBionicHeart.jobString>
+
+  <!-- Synthetic lung -->
+
+  <CreateSyntheticLung.label>합성 폐 제작</CreateSyntheticLung.label>
+  <CreateSyntheticLung.description>인공 폐를 합성 폐로 강화합니다.</CreateSyntheticLung.description>
+  <CreateSyntheticLung.jobString>합성 폐 제작 중.</CreateSyntheticLung.jobString>
+
+  <InstallSyntheticLung.label>합성 폐 설치</InstallSyntheticLung.label>
+  <InstallSyntheticLung.description>합성 폐를 설치합니다.</InstallSyntheticLung.description>
+  <InstallSyntheticLung.jobString>합성 폐 설치 중.</InstallSyntheticLung.jobString>
+
+  <!-- Synthetic stomach -->
+
+  <CreateSyntheticStomach.label>합성 위 제작</CreateSyntheticStomach.label>
+  <CreateSyntheticStomach.description>인공 위를 합성 위로 강화합니다.</CreateSyntheticStomach.description>
+  <CreateSyntheticStomach.jobString>합성 위 제작 중.</CreateSyntheticStomach.jobString>
+  
+  <InstallBionicStomach.label>합성 위 설치</InstallBionicStomach.label>
+  <InstallBionicStomach.description>합성 위를 설치합니다.</InstallBionicStomach.description>
+  <InstallBionicStomach.jobString>합성 위 설치 중.</InstallBionicStomach.jobString>
+
+  <!-- Synthetic liver -->
+
+  <CreateSyntheticLiver.label>합성 간 제작</CreateSyntheticLiver.label>
+  <CreateSyntheticLiver.description>인공 간을 합성 간으로 강화합니다.</CreateSyntheticLiver.description>
+  <CreateSyntheticLiver.jobString>합성 간 제작 중.</CreateSyntheticLiver.jobString>
+
+  <InstallSyntheticLiver.label>합성 간 설치</InstallSyntheticLiver.label>
+  <InstallSyntheticLiver.description>합성 간을 설치합니다.</InstallSyntheticLiver.description>
+  <InstallSyntheticLiver.jobString>합성 간 제작 중.</InstallSyntheticLiver.jobString>
+
+  <!-- Synthetic kidney -->
+
+  <CreateSyntheticKidney.label>합성 신장 제작</CreateSyntheticKidney.label>
+  <CreateSyntheticKidney.description>인공 신장을 합성 신장으로 강화합니다.</CreateSyntheticKidney.description>
+  <CreateSyntheticKidney.jobString>합성 신장 제작 중.</CreateSyntheticKidney.jobString>
+
+  <InstallSyntheticKidney.label>합성 신장 설치</InstallSyntheticKidney.label>
+  <InstallSyntheticKidney.description>합성 신장을 설치합니다.</InstallSyntheticKidney.description>
+  <InstallSyntheticKidney.jobString>합성 신장 설치 중.</InstallSyntheticKidney.jobString>
+
+  <!-- Muscle stimulator -->
+
+  <InstallMuscleStimulatorArms.label>근육 자극기 설치(팔)</InstallMuscleStimulatorArms.label>
+  <InstallMuscleStimulatorArms.description>팔에 근육 자극기를 설치합니다.</InstallMuscleStimulatorArms.description>
+  <InstallMuscleStimulatorArms.jobString>근육 자극기 설치 중.</InstallMuscleStimulatorArms.jobString>
+
+  <InstallMuscleStimulatorLegs.label>근육 자극기 설치(다리)</InstallMuscleStimulatorLegs.label>
+  <InstallMuscleStimulatorLegs.description>다리에 근육 자극기를 설치합니다.</InstallMuscleStimulatorLegs.description>
+  <InstallMuscleStimulatorLegs.jobString>근육 자극기 설치 중.</InstallMuscleStimulatorLegs.jobString>
+
+  <!-- AI chip -->
+
+  <CreateAIChip.label>AI 칩 제작</CreateAIChip.label>
+  <CreateAIChip.description>뇌 자극기를 AI 칩으로 강화합니다.</CreateAIChip.description>
+  <CreateAIChip.jobString>AI 칩 제작 중.</CreateAIChip.jobString>
+
+  <InstallAIChip.label>AI 칩 설치</InstallAIChip.label>
+  <InstallAIChip.description>AI 칩을 설치합니다.</InstallAIChip.description>
+  <InstallAIChip.jobString>AI 칩 설치 중.</InstallAIChip.jobString>
+
+  <RemoveAIChip.label>AI 칩 제거</RemoveAIChip.label>
+  <RemoveAIChip.description>AI 칩을 제거합니다.</RemoveAIChip.description>
+  <RemoveAIChip.jobString>AI 칩 제거 중.</RemoveAIChip.jobString>
+
+</LanguageData>

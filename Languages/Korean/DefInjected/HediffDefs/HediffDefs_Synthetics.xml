@@ -1,12 +1,49 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--suppress ALL -->
 <LanguageData>
-   
-	<AIChip.label>인공지능 칩</AIChip.label>
-	<SyntheticLung.label>인공 허파</SyntheticLung.label>
-	<SyntheticStomach.label>인공 위</SyntheticStomach.label>
-	<SyntheticLiver.label>인공 간</SyntheticLiver.label>
-	<SyntheticKidney.label>인공 신장</SyntheticKidney.label>
-	<SyntheticHeart.label>인공 심장</SyntheticHeart.label>
-   
+
+  <!-- Synthetic heart -->
+
+  <BionicHeart.label>합성 심장</BionicHeart.label>
+  <BionicHeart.description>설치된 합성 심장입니다.</BionicHeart.description>
+  <BionicHeart.labelNoun>합성 심장</BionicHeart.labelNoun>
+
+  <!-- Synthetic lung -->
+
+  <SyntheticLung.label>합성 폐</SyntheticLung.label>
+  <SyntheticLung.description>설치된 합성 폐입니다.</SyntheticLung.description>
+  <SyntheticLung.labelNoun>합성 폐</SyntheticLung.labelNoun>
+
+  <!-- Synthetic stomach -->
+
+  <BionicStomach.label>합성 위</BionicStomach.label>
+  <BionicStomach.description>설치된 합성 위입니다.</BionicStomach.description>
+  <BionicStomach.labelNoun>합성 위</BionicStomach.labelNoun>
+
+  <!-- Synthetic liver -->
+
+  <SyntheticLiver.label>합성 간</SyntheticLiver.label>
+  <SyntheticLiver.description>설치된 합성 간입니다.</SyntheticLiver.description>
+  <SyntheticLiver.labelNoun>합성 간</SyntheticLiver.labelNoun>
+
+  <!-- Synthetic kidney -->
+
+  <SyntheticKidney.label>합성 신장</SyntheticKidney.label>
+  <SyntheticKidney.description>설치된 합성 신장입니다.</SyntheticKidney.description>
+  <SyntheticKidney.labelNoun>합성 신장</SyntheticKidney.labelNoun>
+
+  <!-- Muscle stimulator -->
+
+  <MuscleStimulatorArms.label>근육 자극기</MuscleStimulatorArms.label>
+  <MuscleStimulatorArms.description>팔에 설치된 근육 자극기입니다.</MuscleStimulatorArms.description>
+
+  <MuscleStimulatorLegs.label>근육 자극기</MuscleStimulatorLegs.label>
+  <MuscleStimulatorLegs.description>다리에 설치된 근육 자극기입니다.</MuscleStimulatorLegs.description>
+
+  <!-- AI chip -->
+
+  <AIChip.label>AI 칩</AIChip.label>
+  <AIChip.description>설치된 AI 칩입니다.</AIChip.description>
+  <AIChip.labelNoun>AI 칩</AIChip.labelNoun>
+
 </LanguageData>
