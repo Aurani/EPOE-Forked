@@ -83,10 +83,10 @@
 			</damageData>
 		</graphicData>
 		<costList>
-			<Steel>150</Steel>
-			<Plasteel>120</Plasteel>
-			<ComponentIndustrial>8</ComponentIndustrial>
-			<ComponentSpacer>2</ComponentSpacer>
+			<Steel>100</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -103,7 +103,10 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
-		<recipes></recipes>
+		<recipes>
+			<li>Make_ComponentIndustrial</li>
+			<li>Make_ComponentSpacer</li>
+		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
@@ -157,10 +160,10 @@
 			</damageData>
 		</graphicData>
 		<costList>
-			<Steel>150</Steel>
-			<Plasteel>120</Plasteel>
-			<ComponentIndustrial>8</ComponentIndustrial>
-			<ComponentSpacer>2</ComponentSpacer>
+			<Steel>100</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<constructEffect>ConstructMetal</constructEffect>
 		<fillPercent>0.5</fillPercent>
@@ -199,7 +202,10 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
-		<recipes></recipes>
+		<recipes>
+			<li>Make_ComponentIndustrial</li>
+			<li>Make_ComponentSpacer</li>
+		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>

@@ -34,6 +34,7 @@
 			<WorkToMake>9000</WorkToMake>
 			<Mass>0.5</Mass>
 		</statBases>
+		<smeltProducts Inherit="False" />
 	</ThingDef>
 
 	<RecipeDef ParentName="EPIA_SurgerySyntheticRepair">
@@ -103,8 +104,8 @@
 		</recipeMaker>
 		<costList>
 			<MedicineUltratech>5</MedicineUltratech>
-			<Hyperweave>25</Hyperweave>
-			<ComponentSpacer>3</ComponentSpacer>
+			<Hyperweave>15</Hyperweave>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>1</Mass>
@@ -324,8 +325,8 @@
 		</recipeMaker>
 		<costList>
 			<MedicineUltratech>15</MedicineUltratech>
-			<Hyperweave>25</Hyperweave>
-			<ComponentSpacer>2</ComponentSpacer>
+			<Hyperweave>15</Hyperweave>
+			<ComponentSpacer>1</ComponentSpacer>
 			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
 		</costList>
 		<statBases>

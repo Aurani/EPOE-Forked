@@ -80,7 +80,7 @@
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicEye</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Plasteel>20</Plasteel>
-			<ComponentSpacer>8</ComponentSpacer>
+			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
@@ -122,7 +122,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -202,7 +202,7 @@
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicArm</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Plasteel>20</Plasteel>
-			<ComponentSpacer>8</ComponentSpacer>
+			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
@@ -244,7 +244,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -308,7 +308,7 @@
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicLeg</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Plasteel>20</Plasteel>
-			<ComponentSpacer>8</ComponentSpacer>
+			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
@@ -350,7 +350,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -421,7 +421,7 @@
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicSpine</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Plasteel>20</Plasteel>
-			<ComponentSpacer>8</ComponentSpacer>
+			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>4</Mass>
@@ -460,7 +460,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -524,7 +524,7 @@
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicEar</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>6</ComponentSpacer>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -563,7 +563,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -643,7 +643,7 @@
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicHand</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>6</ComponentSpacer>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>3</Mass>
@@ -682,7 +682,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -746,7 +746,7 @@
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicFoot</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>6</ComponentSpacer>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>3</Mass>
@@ -785,7 +785,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -849,7 +849,8 @@
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicFinger</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Plasteel>3</Plasteel>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentSpacer>1</ComponentSpacer>
+			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<WorkToMake>6600</WorkToMake>
@@ -887,7 +888,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentSpacer</li>
+						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -896,7 +897,8 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicFinger</li>
-				<li>ComponentSpacer</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>
@@ -955,7 +957,8 @@
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicToe</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Plasteel>3</Plasteel>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentSpacer>1</ComponentSpacer>
+			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<WorkToMake>6600</WorkToMake>
@@ -993,7 +996,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentSpacer</li>
+						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1002,7 +1005,8 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicToe</li>
-				<li>ComponentSpacer</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>
@@ -1076,7 +1080,7 @@
 		<descriptionHyperlinks><RecipeDef>InstallAdvancedBionicJaw</RecipeDef></descriptionHyperlinks>
 		<costList>
 			<Plasteel>20</Plasteel>
-			<ComponentSpacer>8</ComponentSpacer>
+			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>2</Mass>
@@ -1115,7 +1119,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -1198,7 +1202,7 @@
 			<Plasteel>75</Plasteel>
 			<Hyperweave>30</Hyperweave>
 			<Steel>60</Steel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>7</Mass>
@@ -1285,7 +1289,7 @@
 		<description>A high tech device made out of a light skeletal structure and servomotors to support itself and the damage mitigation system used to protect the user.</description>
 		<descriptionHyperlinks><RecipeDef>EPIA_InstallProtectiveExoskeleton</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<EPOE_MAAI_Chip>3</EPOE_MAAI_Chip>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Plasteel>110</Plasteel>
 			<Hyperweave>30</Hyperweave>
 			<Steel>60</Steel>

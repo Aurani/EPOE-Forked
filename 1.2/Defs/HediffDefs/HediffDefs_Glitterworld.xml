@@ -100,7 +100,7 @@
 		<label>tactical cornea implant</label>
 		<description>An installed tactical cornea implant.</description>
 		<descriptionHyperlinks><ThingDef>TacticalCorneaImplant</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<spawnThingOnRemoved>TacticalCorneaImplant</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<partEfficiencyOffset>0.1</partEfficiencyOffset>
@@ -123,7 +123,7 @@
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.1</Mass>
@@ -166,9 +166,9 @@
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveTacticalCorneaImplant</defName>
 		<label>remove tactical cornea implant</label>
-		<description>Remove a tactical cornea implant. Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<description>Remove a tactical cornea implant.</description>
 		<descriptionHyperlinks>
-			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<ThingDef>TacticalCorneaImplant</ThingDef>
 			<HediffDef>TacticalCorneaImplant</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Removing tactical cornea implant.</jobString>
@@ -182,7 +182,7 @@
 		<label>auxiliary AI: construction</label>
 		<description>An installed auxiliary AI that aids with construction.</description>
 		<descriptionHyperlinks><ThingDef>ConstructorCore</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<spawnThingOnRemoved>ConstructorCore</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -207,7 +207,7 @@
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -254,9 +254,9 @@
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveConstructorCore</defName>
 		<label>remove auxiliary AI (constructing)</label>
-		<description>Remove auxiliary AI (constructing). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<description>Remove auxiliary AI (constructing).</description>
 		<descriptionHyperlinks>
-			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<ThingDef>ConstructorCore</ThingDef>
 			<HediffDef>ConstructorCore</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
@@ -271,7 +271,7 @@
 		<label>auxiliary AI: agricultural</label>
 		<description>An installed auxiliary AI that aids with farming.</description>
 		<descriptionHyperlinks><ThingDef>FarmerCore</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<spawnThingOnRemoved>FarmerCore</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -294,7 +294,7 @@
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -341,9 +341,9 @@
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveFarmerCore</defName>
 		<label>remove auxiliary AI (agricultural)</label>
-		<description>Remove auxiliary AI (agricultural). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<description>Remove auxiliary AI (agricultural).</description>
 		<descriptionHyperlinks>
-			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<ThingDef>FarmerCore</ThingDef>
 			<HediffDef>FarmerCore</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
@@ -358,7 +358,7 @@
 		<label>auxiliary AI: mining</label>
 		<description>An installed auxiliary AI that aids with mining.</description>
 		<descriptionHyperlinks><ThingDef>MinerCore</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<spawnThingOnRemoved>MinerCore</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -383,7 +383,7 @@
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -430,9 +430,9 @@
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveMinerCore</defName>
 		<label>remove auxiliary AI (mining)</label>
-		<description>Remove auxiliary AI (mining). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<description>Remove auxiliary AI (mining).</description>
 		<descriptionHyperlinks>
-			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<ThingDef>MinerCore</ThingDef>
 			<HediffDef>MinerCore</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
@@ -447,7 +447,7 @@
 		<label>auxiliary AI: medical</label>
 		<description>An installed auxiliary AI that aids with medical procedures.</description>
 		<descriptionHyperlinks><ThingDef>DoctorCore</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<spawnThingOnRemoved>DoctorCore</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -468,10 +468,10 @@
 		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
 		<descriptionHyperlinks><RecipeDef>InstallDoctorCore</RecipeDef></descriptionHyperlinks>
 		<costList>
-			<EPOE_MAAI_Chip>3</EPOE_MAAI_Chip>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -518,9 +518,9 @@
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveDoctorCore</defName>
 		<label>remove auxiliary AI (medical)</label>
-		<description>Remove auxiliary AI (medical). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<description>Remove auxiliary AI (medical).</description>
 		<descriptionHyperlinks>
-			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<ThingDef>DoctorCore</ThingDef>
 			<HediffDef>DoctorCore</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
@@ -535,7 +535,7 @@
 		<label>auxiliary AI: diplomatic</label>
 		<description>An installed auxiliary AI that aids with diplomatic conversations. Chances to fall into a social fight is significantly reduced.</description>
 		<descriptionHyperlinks><ThingDef>DiplomatCore</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<spawnThingOnRemoved>DiplomatCore</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<socialFightChanceFactor>0.5</socialFightChanceFactor>
@@ -559,7 +559,7 @@
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -606,9 +606,9 @@
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>RemoveDiplomatCore</defName>
 		<label>remove auxiliary AI (diplomatic)</label>
-		<description>Remove auxiliary AI (diplomatic). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<description>Remove auxiliary AI (diplomatic).</description>
 		<descriptionHyperlinks>
-			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<ThingDef>DiplomatCore</ThingDef>
 			<HediffDef>DiplomatCore</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
@@ -623,7 +623,7 @@
 		<label>auxiliary AI: sharpshooter</label>
 		<description>An installed auxiliary AI that aids combat, specializing in accuracy and long distance fire. Cannot be installed with other auxiliary AI.</description>
 		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Sharpshooter</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPIA_AuxiliaryAI_Sharpshooter</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<statOffsets>
@@ -653,7 +653,7 @@
 			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -701,9 +701,9 @@
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>EPIA_RemoveAuxiliaryAI_Sharpshooter</defName>
 		<label>remove auxiliary AI (sharpshooter)</label>
-		<description>Remove auxiliary AI (sharpshooter). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<description>Remove auxiliary AI (sharpshooter).</description>
 		<descriptionHyperlinks>
-			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<ThingDef>EPIA_AuxiliaryAI_Sharpshooter</ThingDef>
 			<HediffDef>EPIA_AuxiliaryAI_Sharpshooter</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
@@ -718,7 +718,7 @@
 		<label>auxiliary AI: commando</label>
 		<description>An installed auxiliary AI that aids combat, supporting the user in coping with the pressures of combat. Cannot be installed with other auxiliary AI.</description>
 		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Commando</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPIA_AuxiliaryAI_Commando</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<painFactor>0.85</painFactor>
@@ -749,7 +749,7 @@
 			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -797,9 +797,9 @@
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>EPIA_RemoveAuxiliaryAI_Commando</defName>
 		<label>remove auxiliary AI (commando)</label>
-		<description>Remove auxiliary AI (commando). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<description>Remove auxiliary AI (commando).</description>
 		<descriptionHyperlinks>
-			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<ThingDef>EPIA_AuxiliaryAI_Commando</ThingDef>
 			<HediffDef>EPIA_AuxiliaryAI_Commando</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
@@ -814,7 +814,7 @@
 		<label>auxiliary AI: brawler</label>
 		<description>An installed auxiliary AI that aids close quarter combat, supporting the user with life or death decisions. Cannot be installed with other auxiliary AI.</description>
 		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Brawler</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>EPOE_MAAI_Chip</spawnThingOnRemoved>
+		<spawnThingOnRemoved>EPIA_AuxiliaryAI_Brawler</spawnThingOnRemoved>
 		<stages>
 			<li>
 				<painFactor>0.85</painFactor>
@@ -846,7 +846,7 @@
 			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.3</Mass>
@@ -894,9 +894,9 @@
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
 		<defName>EPIA_RemoveAuxiliaryAI_Brawler</defName>
 		<label>remove auxiliary AI (brawler)</label>
-		<description>Remove auxiliary AI (brawler). Due to the sophisticated nature of the implant, only a base portion of the implant (one MA-AI chip) can be salvaged upon removal.</description>
+		<description>Remove auxiliary AI (brawler).</description>
 		<descriptionHyperlinks>
-			<ThingDef>EPOE_MAAI_Chip</ThingDef>
+			<ThingDef>EPIA_AuxiliaryAI_Brawler</ThingDef>
 			<HediffDef>EPIA_AuxiliaryAI_Brawler</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
@@ -1135,7 +1135,7 @@
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
 			<Gold>3</Gold>
 			<Plasteel>15</Plasteel>
-			<ComponentSpacer>5</ComponentSpacer>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>0.1</Mass>
