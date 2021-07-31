@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveDeathAcidifier</defName>
+		<label>remove death acidifier</label>
+		<description>Remove the death acidifier.</description>
+		<descriptionHyperlinks>
+			<ThingDef>DeathAcidifier</ThingDef>
+			<HediffDef>DeathAcidifier</HediffDef>
+		</descriptionHyperlinks>
+		<skillRequirements>
+			<Medicine>13</Medicine>
+		</skillRequirements>
+		<deathOnFailedSurgeryChance>0.4</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<jobString>Removing death acidifier.</jobString>
+		<removesHediff>DeathAcidifier</removesHediff>
+	</RecipeDef>
+
+</Defs>

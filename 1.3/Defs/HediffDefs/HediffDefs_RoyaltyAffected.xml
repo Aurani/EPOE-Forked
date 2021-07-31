@@ -282,7 +282,7 @@
 		<costList>
 			<EPIA_ScytherBlade>3</EPIA_ScytherBlade>
 			<Plasteel>40</Plasteel>
-			<ComponentSpacer>11</ComponentSpacer>
+			<ComponentSpacer>9</ComponentSpacer>
 		</costList>
 		<statBases>
 			<Mass>5</Mass>
@@ -325,7 +325,7 @@
 						<li>ComponentSpacer</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
