@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="XmlExtensions.UseSetting">
+    <modId>vat.epoeforked</modId>
+    <key>CraftingMethod</key>
+    <defaultValue>0</defaultValue>
+    <apply>
+		<Operation Class="XmlExtensions.IfStatement">
+			<condition Class="XmlExtensions.Boolean.Comparision">
+				<value1>{CraftingMethod}</value1>
+				<value2>1</value2>
+				<nonNumeric>true</nonNumeric>
+				<relation>eq</relation>
+			</condition>
+			<caseTrue>
+				<Operation Class="PatchOperationSequence">
+					<operations>
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/ThingDef[@Name="EPIA_UpgradeBodyPartBionicBase"]/recipeMaker/recipeUsers</xpath>
+							<attribute>Inherit</attribute>
+						</li>
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/ThingDef[@Name="EPIA_BodyPartBionicRibBase"]/recipeMaker/recipeUsers</xpath>
+							<attribute>Inherit</attribute>
+						</li>
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/ThingDef[@Name="EPIA_UpgradeBodyPartAdvancedBionicBase"]/recipeMaker/recipeUsers</xpath>
+							<attribute>Inherit</attribute>
+						</li>
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/ThingDef[@Name="EPIA_UpgradeSyntheticBase"]/recipeMaker/recipeUsers</xpath>
+							<attribute>Inherit</attribute>
+						</li>
+					</operations>
+				</Operation>
+			</caseTrue>
+		</Operation>
+		<Operation Class="XmlExtensions.IfStatement">
+			<condition Class="XmlExtensions.Boolean.Comparision">
+				<value1>{CraftingMethod}</value1>
+				<value2>2</value2>
+				<nonNumeric>true</nonNumeric>
+				<relation>eq</relation>
+			</condition>
+			<caseTrue>
+				<Operation Class="PatchOperationSequence">
+					<operations>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/RecipeDef[@Name="EPIA_RecipeUpgradeBionic"]</xpath>
+							<value>
+								<factionPrerequisiteTags>
+									<li>EPOE_Redundancy_Debug</li>
+								</factionPrerequisiteTags>
+								<recipeUsers Inherit="False" />
+								<researchPrerequisite Inherit="False" />
+							</value>
+						</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/RecipeDef[@Name="EPIA_RecipeUpgradeAdvanced"]</xpath>
+							<value>
+								<factionPrerequisiteTags>
+									<li>EPOE_Redundancy_Debug</li>
+								</factionPrerequisiteTags>
+								<recipeUsers Inherit="False" />
+								<researchPrerequisite Inherit="False" />
+							</value>
+						</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/RecipeDef[@Name="EPIA_RecipeUpgradeSynthetic"]</xpath>
+							<value>
+								<factionPrerequisiteTags>
+									<li>EPOE_Redundancy_Debug</li>
+								</factionPrerequisiteTags>
+								<recipeUsers Inherit="False" />
+								<researchPrerequisite Inherit="False" />
+							</value>
+						</li>
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/ThingDef[@Name="EPIA_UpgradeBodyPartBionicBase"]/recipeMaker/recipeUsers</xpath>
+							<attribute>Inherit</attribute>
+						</li>
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/ThingDef[@Name="EPIA_BodyPartBionicRibBase"]/recipeMaker/recipeUsers</xpath>
+							<attribute>Inherit</attribute>
+						</li>
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/ThingDef[@Name="EPIA_UpgradeBodyPartAdvancedBionicBase"]/recipeMaker/recipeUsers</xpath>
+							<attribute>Inherit</attribute>
+						</li>
+						<li Class="PatchOperationAttributeRemove">
+							<xpath>Defs/ThingDef[@Name="EPIA_UpgradeSyntheticBase"]/recipeMaker/recipeUsers</xpath>
+							<attribute>Inherit</attribute>
+						</li>
+					</operations>
+				</Operation>
+			</caseTrue>
+		</Operation>
+    </apply>
+</Operation>
+
+</Patch>
