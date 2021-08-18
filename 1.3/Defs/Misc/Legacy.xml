@@ -3,7 +3,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicEye</defName>
-		<label>make bionic eye</label>
+		<label>assemble bionic eye</label>
 		<description>Make a bionic eye.</description>
 		<descriptionHyperlinks><ThingDef>BionicEye</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting bionic eye.</jobString>
@@ -38,7 +38,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicLeg</defName>
-		<label>make bionic leg</label>
+		<label>assemble bionic leg</label>
 		<description>Make a bionic leg.</description>
 		<descriptionHyperlinks><ThingDef>BionicLeg</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting bionic leg.</jobString>
@@ -74,7 +74,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicArm</defName>
-		<label>make bionic arm</label>
+		<label>assemble bionic arm</label>
 		<description>Make a bionic arm.</description>
 		<descriptionHyperlinks><ThingDef>BionicArm</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting bionic arm.</jobString>
@@ -110,7 +110,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicSpine</defName>
-		<label>make bionic spine</label>
+		<label>assemble bionic spine</label>
 		<description>Make a bionic spine.</description>
 		<descriptionHyperlinks><ThingDef>BionicSpine</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting bionic spine.</jobString>
@@ -145,7 +145,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicEar</defName>
-		<label>make bionic ear</label>
+		<label>assemble bionic ear</label>
 		<description>Make a bionic ear.</description>
 		<descriptionHyperlinks><ThingDef>BionicEar</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting bionic ear.</jobString>
@@ -180,7 +180,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicHand</defName>
-		<label>make bionic hand</label>
+		<label>assemble bionic hand</label>
 		<description>Make a bionic hand.</description>
 		<descriptionHyperlinks><ThingDef>BionicHand</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting bionic hand.</jobString>
@@ -215,7 +215,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicFoot</defName>
-		<label>make bionic foot</label>
+		<label>assemble bionic foot</label>
 		<description>Make a bionic foot.</description>
 		<descriptionHyperlinks><ThingDef>BionicFoot</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting bionic foot.</jobString>
@@ -250,7 +250,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>EPIA_UpgradeBionicFinger</defName>
-		<label>make bionic finger</label>
+		<label>assemble bionic finger</label>
 		<description>Make a bionic finger.</description>
 		<descriptionHyperlinks><ThingDef>BionicFinger</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting bionic finger.</jobString>
@@ -287,7 +287,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>EPIA_UpgradeBionicToe</defName>
-		<label>make bionic toe</label>
+		<label>assemble bionic toe</label>
 		<description>Make a bionic toe.</description>
 		<descriptionHyperlinks><ThingDef>BionicToe</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting bionic toe.</jobString>
@@ -324,7 +324,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateBionicJaw</defName>
-		<label>make bionic jaw</label>
+		<label>assemble bionic jaw</label>
 		<description>Make a bionic jaw.</description>
 		<descriptionHyperlinks><ThingDef>BionicJaw</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting bionic jaw.</jobString>
@@ -359,7 +359,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateSilentJaw</defName>
-		<label>make silent jaw</label>
+		<label>assemble silent jaw</label>
 		<description>Make a silent jaw.</description>
 		<descriptionHyperlinks><ThingDef>SilentJaw</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting silent jaw.</jobString>
@@ -396,7 +396,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateSyntheticHeart</defName>
-		<label>make synthetic heart</label>
+		<label>assemble synthetic heart</label>
 		<description>Make a synthetic heart.</description>
 		<descriptionHyperlinks><ThingDef>BionicHeart</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting synthetic heart.</jobString>
@@ -432,7 +432,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateSyntheticLung</defName>
-		<label>make synthetic lung</label>
+		<label>assemble synthetic lung</label>
 		<description>Make a synthetic lung.</description>
 		<descriptionHyperlinks><ThingDef>SyntheticLung</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting synthetic lung.</jobString>
@@ -468,7 +468,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateSyntheticStomach</defName>
-		<label>make synthetic stomach</label>
+		<label>assemble synthetic stomach</label>
 		<description>Make a synthetic stomach.</description>
 		<descriptionHyperlinks><ThingDef>BionicStomach</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting synthetic stomach.</jobString>
@@ -503,7 +503,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateSyntheticLiver</defName>
-		<label>make synthetic liver</label>
+		<label>assemble synthetic liver</label>
 		<description>Make a synthetic liver.</description>
 		<descriptionHyperlinks><ThingDef>SyntheticLiver</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting synthetic liver.</jobString>
@@ -539,7 +539,7 @@
 
 	<RecipeDef ParentName="EPOEDebugRecipeBionic">
 		<defName>CreateSyntheticKidney</defName>
-		<label>make synthetic kidney</label>
+		<label>assemble synthetic kidney</label>
 		<description>Make a synthetic kidney.</description>
 		<descriptionHyperlinks><ThingDef>SyntheticKidney</ThingDef></descriptionHyperlinks>
 		<jobString>Crafting synthetic kidney.</jobString>

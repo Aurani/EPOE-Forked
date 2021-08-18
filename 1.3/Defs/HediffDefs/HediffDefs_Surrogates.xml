@@ -18,6 +18,7 @@
 		</graphicData>
 		<recipeMaker>
 			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers />
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>

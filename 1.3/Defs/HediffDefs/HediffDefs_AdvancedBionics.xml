@@ -130,6 +130,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicEye</li>
+				<li>Plasteel</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -252,6 +253,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicArm</li>
+				<li>Plasteel</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -358,6 +360,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicLeg</li>
+				<li>Plasteel</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -468,6 +471,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicSpine</li>
+				<li>Plasteel</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -571,6 +575,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicEar</li>
+				<li>Plasteel</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -690,6 +695,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicHand</li>
+				<li>Plasteel</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -793,6 +799,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicFoot</li>
+				<li>Plasteel</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -1127,6 +1134,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>BionicJaw</li>
+				<li>Plasteel</li>
 				<li>ComponentSpacer</li>
 			</thingDefs>
 		</fixedIngredientFilter>
