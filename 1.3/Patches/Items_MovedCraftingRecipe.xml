@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/recipeUsers</xpath>
+				<value>
+					<recipeUsers>
+						<li>TableBionics</li>
+					</recipeUsers>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/recipeUsers</xpath>
+				<value>
+					<recipeUsers>
+						<li>TableSimpleProsthetic</li>
+					</recipeUsers>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Trying a catch-all transfer to EPOE workbenches, hopefully this does not break something?! -->
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[@ParentName="BodyPartProstheticMakeableBase"]/recipeMaker/recipeUsers[@Inherit="False"]</xpath>
+		<value>
+			<li>TableSimpleProsthetic</li>
+		</value>
+	</Operation>
+
+</Patch>

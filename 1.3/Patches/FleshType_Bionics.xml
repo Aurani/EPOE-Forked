@@ -1,44 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="PatchOperationSequence">
-		<operations>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/FleshTypeDef[defName="Normal"]/hediffWounds</xpath>
-				<value>
-					<li>
-						<hediff>AdvancedBionicEye</hediff>
-						<wounds>
-							<li>
-								<textureSouth>Things/Pawn/Wounds/BionicEye_south</textureSouth>
-								<textureNorth>Things/Pawn/Wounds/BionicEye_south</textureNorth>
-								<textureEast>Things/Pawn/Wounds/BionicEye_east</textureEast>
-								<textureWest>Things/Pawn/Wounds/BionicEye_east</textureWest>
-								<flipWest>true</flipWest>
-								<flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
-								<flipOnRotation>South</flipOnRotation>
-								<scale>0.85</scale>
-							</li>
-						</wounds>
-					</li>
-					<li>
-						<hediff>EPIA_TacticalBionicEye</hediff>
-						<wounds>
-							<li>
-								<textureSouth>Things/Pawn/Wounds/ArchotechEye_south</textureSouth>
-								<textureNorth>Things/Pawn/Wounds/ArchotechEye_south</textureNorth>
-								<textureEast>Things/Pawn/Wounds/ArchotechEye_east</textureEast>
-								<textureWest>Things/Pawn/Wounds/ArchotechEye_east</textureWest>
-								<flipWest>true</flipWest>
-								<flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
-								<flipOnRotation>South</flipOnRotation>
-								<scale>0.85</scale>
-							</li>
-						</wounds>
-					</li>
-				</value>
-			</li>
-		</operations>
-	</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/FleshTypeDef[defName="Normal"]/hediffWounds</xpath>
+	<value>
+		<li>
+			<hediff>AdvancedBionicEye</hediff>
+			<wounds />
+		</li>
+		<li>
+			<hediff>EPIA_TacticalBionicEye</hediff>
+			<wounds />
+		</li>
+	</value>
+</Operation>
 
 </Patch>

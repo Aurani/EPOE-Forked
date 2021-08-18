@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/BodyPart/BionicPart</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="BodyPartProstheticBase"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/BodyPart/SimplePart</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+					</graphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
