@@ -1,3 +1,16 @@
+4.2.0 (18.8.21) "New extended options"
+* Makes use of HugsLib for news update and announcements.
+* New integration with XML Extension mod, allowing for mod settings to be implemented using pure xml!
+* Mod setting options now includes Allow direct crafting, Direct crafting only, Remove workbenches, and Legacy mode!
+* New features to settings:
+	- Changing between this mod's or vanilla's item textures for artifical body part items
+	- Disabling the bionic eyes on the colonist's face
+	- Original EPOE migration mode, to keep the old prosthetic workbench and converting it by punching it!
+	- Legacy mode, written up in a new way to patch.
+* Correctly assigning the component and advanced component bills to the synthetic nano printer instead of the prosthetic workbench.
+* Prosthesis trader now trades synthread, hyperweave, components, advanced components and MA-AI chips.
+* Prosthesis trader's inventory of available artificial body parts for sale have been increased in size.
+
 4.1.2 (31.7.21)
 * Components and advanced components crafting bills can now be assigned at bionic workbench and synthetic nano printers.
 * Bionics workbench and synthetic nano printer material costs reduced:
