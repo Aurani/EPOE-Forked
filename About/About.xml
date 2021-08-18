@@ -12,11 +12,18 @@
 	<packageId>vat.epoeforked</packageId>
 	<loadAfter>
 		<li>CETeam.CombatExtended</li>
+		<li>Imranfish.XMLExtensions</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>Ykara.EPOE</li>
+		<li>Rah.RBSE</li>
+		<li>Rah.RBSEHC</li>
 	</incompatibleWith>
-	<description>Adds the ability to craft tons of prosthesis and artificial organs in various forms and shapes. Version 4.1.2.
+	<description>Adds the ability to craft tons of prosthesis and artificial organs in various forms and shapes. Version 4.2.0.
+
+New option settings available if XML Extension mod is active, available on Steam workshop at:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206
+It comes built in options for Remove workbenches, Allow direct crafting, Direct crafting only and Legacy mode, so you no longer require the add-on modules if you have this active and simply use the mods settings to apply them.
 
 Features:
 * Three prosthetic workbench: Prosthetic workbench, Bionic workbench and Synthetic nano printer.
@@ -27,15 +34,17 @@ Features:
 * Can mince natural body parts for human meat.
 * Can heal scars and numerious chronic health conditions. Additional patch to work with Scar Removal Plus mod.
 * Some prosthesis can be further upgraded.
+* Body purist friendly augmentations in the form of Organic Optimizers and Instinct Optimizers.
+* Ability to scrap unwanted prosthesis for materials.
+
 * Different add-on modules to further customize the mod:
   - Royalty DLC expansion, adds new implants and bionics based off the new Royalty DLC content.
+  - Alien expansion + patcher, helps expand upon bionic content and certain issues with certain alien race mods.
+* The following add-on modules are built-in with using the XML Extension mod, but if you do not use that, then they are:
   - Remove workbenches, adds crafting to vanilla workbenches, but disable building new EPOE workbenches.
   - Allow direct crafting, enables higher tier recipes to be made in one go at the same total costs.
   - Direct crafting only, enables higher tier recipes to be made in one go at the same total costs, and removes upgrading methods.
-  - Alien expansion + patcher, helps expand upon bionic content and certain issues with certain alien race mods.
   - Legacy mode, reverts crafting costs and methods to version 3.3.13 of the mod.
-* Body purist friendly augmentations in the form of Organic Optimizers and Instinct Optimizers.
-* Ability to scrap unwanted prosthesis for materials.
 
 Compared with original EPOE, this mod will see continued development and rebalancing, active bug fixes, and strives to follow vanilla's standard.</description>
 </ModMetaData>
