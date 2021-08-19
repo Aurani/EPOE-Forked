@@ -35,7 +35,7 @@
 			</li>
 			<li Class="PatchOperationConditional">
 				<xpath>Defs/ThingDef[defName="AdvancedBionicEye"]/statBases/NightVisionEfficiency_Implant</xpath>
-				<match Class="PatchOperationSequence">
+				<nomatch Class="PatchOperationSequence">
 					<operations>
 						<li Class="PatchOperationAdd">
 							<xpath>Defs/ThingDef[defName="AdvancedBionicEye"]/statBases</xpath>
@@ -80,7 +80,7 @@
 							</value>
 						</li>
 					</operations>
-				</match>
+				</nomatch>
 			</li>
 			<li Class="PatchOperationTest">
 				<xpath>Defs/HediffDef[defName="EPOE_InstinctOptimizedEyes"]/stages/li[minSeverity="0.99"]/statOffsets/MeleeCritChance</xpath>
