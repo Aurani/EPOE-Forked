@@ -25,7 +25,7 @@
 			<li>
 				<label>Silent jaw</label>
 				<description>I just want to talk, it's so horrible!</description>
-				<baseMoodEffect>-15</baseMoodEffect>
+				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

@@ -4,8 +4,8 @@
 	<ThingDef ParentName="BenchBase">
 		<defName>TableSimpleProsthetic</defName>
 		<label>prosthetic workbench</label>
-		<thingClass>Building_WorkTable</thingClass>
 		<description>A workbench equipped for production of prosthesis.</description>
+		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Production/TableSimpleProsthetics</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -17,18 +17,33 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
 			<Steel>80</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
-		<constructEffect>ConstructMetal</constructEffect>
 		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>1500</WorkToBuild>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>1.0</Flammability>
+			<Cleanliness>-2</Cleanliness>
 		</statBases>
 		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<recipes />
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
@@ -45,35 +60,24 @@
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<designationCategory>Production</designationCategory>
-		<passability>PassThroughOnly</passability>
-		<pathCost>60</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
-		<recipes>
-			<li>Make_ComponentIndustrial</li>
-			<li>Make_ComponentSpacer</li>
-		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>Prosthetics</li>
 		</researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
 	</ThingDef>
 
 	<ThingDef ParentName="BenchBase">
 		<defName>TableBionics</defName>
 		<label>bionics workbench</label>
-		<thingClass>Building_WorkTable</thingClass>
 		<description>A workbench equipped for production of high tech bionics and implants. This advanced workbench is capable of assisting certain workstations by sharing some of its specialized fabrication system when placed near them.\n\nWhen placed near a prosthetic workbench, synthetic nano printer or the fabrication bench, this workbench is able to increase their production speed. They can connect to a maximum of one bionics workbench.</description>
+		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Production/TableBionics</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -85,6 +89,8 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
 			<Steel>100</Steel>
 			<Plasteel>30</Plasteel>
@@ -98,14 +104,16 @@
 			<WorkToBuild>2500</WorkToBuild>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Flammability>1.0</Flammability>
+			<Cleanliness>-2</Cleanliness>
 		</statBases>
 		<size>(3,1)</size>
 		<designationCategory>Production</designationCategory>
 		<passability>PassThroughOnly</passability>
-		<pathCost>70</pathCost>
+		<pathCost>50</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<recipes>
 			<li>Make_ComponentIndustrial</li>
 			<li>Make_ComponentSpacer</li>
@@ -143,14 +151,15 @@
 		</researchPrerequisites>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 	</ThingDef>
 
 	<ThingDef ParentName="BenchBase">
 		<defName>TableOrgans</defName>
 		<label>synthetic nano printer</label>
-		<thingClass>Building_WorkTable</thingClass>
 		<description>A fabrication workstation, equipped with a 3D printer to craft organs and complicated implants. This advanced workbench is capable of assisting certain workstations by sharing some of its specialized fabrication system when placed near them.\n\nWhen placed near a prosthetic workbench, bionics table or fabrication bench, this workbench is able to increase their production speed. They can connect to a maximum of one synthetic nano printer.</description>
+		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Production/TableOrgans</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -162,22 +171,38 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
 		<costList>
 			<Steel>100</Steel>
 			<Plasteel>30</Plasteel>
 			<ComponentIndustrial>6</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
-		<constructEffect>ConstructMetal</constructEffect>
-		<fillPercent>0.5</fillPercent>
 		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<WorkToBuild>2250</WorkToBuild>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Flammability>0.8</Flammability>
+			<Cleanliness>-2</Cleanliness>
 		</statBases>
 		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<recipes>
+			<li>Make_ComponentIndustrial</li>
+			<li>Make_ComponentSpacer</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
@@ -199,25 +224,17 @@
 				<maxSimultaneous>1</maxSimultaneous>
 			</li>
 		</comps>
-		<designationCategory>Production</designationCategory>
-		<passability>PassThroughOnly</passability>
-		<pathCost>60</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
-		<recipes></recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
 			<li>SyntheticOrgans</li>
 		</researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
 	</ThingDef>
 
 </Defs>
