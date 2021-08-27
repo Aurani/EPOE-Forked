@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<Eye.label>eyeball</Eye.label>
+<Eye.description>Absorbs light, which lets a person know what's around them.</Eye.description>
+
+<Nose.label>nose</Nose.label>
+<Nose.description>A pretty useful organ to distinguish odors, applies the finishing touch to a face.</Nose.description>
+
+<Ear.label>ear</Ear.label>
+<Ear.description>Picks up vibrations in the air, allowing people to hear sound.</Ear.description>
+
+<Jaw.label>jaw</Jaw.label>
+<Jaw.description>A nice set of teeth for chewing food and talking.</Jaw.description>
+
+<Stomach.label>stomach</Stomach.label>
+<Stomach.description>Digests food and turns it into energy and nutrients.</Stomach.description>
+
+<Arm.label>arm</Arm.label>
+<Arm.description>Arms are like legs, except you can carry stuff with them.</Arm.description>
+
+<Leg.label>leg</Leg.label>
+<Leg.description>Basically long meaty sticks that let you move around.</Leg.description>
+
+</LanguageData>

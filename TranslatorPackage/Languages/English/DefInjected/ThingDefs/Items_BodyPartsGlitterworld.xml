@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<TacticalCorneaImplant.label>tactical cornea implant</TacticalCorneaImplant.label>
+<TacticalCorneaImplant.description>An enhanced implant which provides the user with additional information about potential targets and suggests a perfect firing angle.</TacticalCorneaImplant.description>
+
+<ConstructorCore.label>auxiliary AI (constructing)</ConstructorCore.label>
+<ConstructorCore.description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</ConstructorCore.description>
+
+<FarmerCore.label>auxiliary AI (agricultural)</FarmerCore.label>
+<FarmerCore.description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</FarmerCore.description>
+
+<MinerCore.label>auxiliary AI (mining)</MinerCore.label>
+<MinerCore.description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</MinerCore.description>
+
+<DoctorCore.label>auxiliary AI (medical)</DoctorCore.label>
+<DoctorCore.description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</DoctorCore.description>
+
+<DiplomatCore.label>auxiliary AI (diplomatic)</DiplomatCore.label>
+<DiplomatCore.description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Chances to fall into a social fight is significantly reduced. Requires brain surgery research before installing.</DiplomatCore.description>
+
+<EPIA_AuxiliaryAI_Sharpshooter.label>auxiliary AI (sharpshooter)</EPIA_AuxiliaryAI_Sharpshooter.label>
+<EPIA_AuxiliaryAI_Sharpshooter.description>A specialized combat AI assistant system designed for greatly increasing the user's accuracy, favouring long distance weaponry. Due to the sophisticated nature of the system that focuses and streamlines most cerebral processes, it cannot be used with other auxiliary AI.</EPIA_AuxiliaryAI_Sharpshooter.description>
+
+<EPIA_AuxiliaryAI_Commando.label>auxiliary AI (commando)</EPIA_AuxiliaryAI_Commando.label>
+<EPIA_AuxiliaryAI_Commando.description>A specialized combat AI assistant system designed for supporting the user in coping with the pressures of combat. Due to the sophisticated nature of the system that focuses and streamlines most cerebral processes, it cannot be used with other auxiliary AI.</EPIA_AuxiliaryAI_Commando.description>
+
+<EPIA_AuxiliaryAI_Brawler.label>auxiliary AI (brawler)</EPIA_AuxiliaryAI_Brawler.label>
+<EPIA_AuxiliaryAI_Brawler.description>A specialized AI system designed for combat purposes, aiding the user by filtering irrelevant electrical and chemical signals sent to the brain in high-threat situations, thereby increasing overall combat capabilities. Due to the sophisticated nature of the system that focuses and streamlines most cerebral processes, it cannot be used with other auxiliary AI.</EPIA_AuxiliaryAI_Brawler.description>
+
+<EPIA_TacticalBionicEye.label>tactical bionic eye</EPIA_TacticalBionicEye.label>
+<EPIA_TacticalBionicEye.description>A Glitterworld combat orientated bionic eye which provides the user with additional information about potential targets and suggests a perfect firing angle.</EPIA_TacticalBionicEye.description>
+
+</LanguageData>

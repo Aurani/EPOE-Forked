@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<TacticalCorneaImplant.label>tactical cornea implant</TacticalCorneaImplant.label>
+<TacticalCorneaImplant.description>An installed tactical cornea implant.</TacticalCorneaImplant.description>
+
+<ConstructorCore.label>auxiliary AI: construction</ConstructorCore.label>
+<ConstructorCore.description>An installed auxiliary AI that aids with construction.</ConstructorCore.description>
+
+<FarmerCore.label>auxiliary AI: agricultural</FarmerCore.label>
+<FarmerCore.description>An installed auxiliary AI that aids with farming.</FarmerCore.description>
+
+<MinerCore.label>auxiliary AI: mining</MinerCore.label>
+<MinerCore.description>An installed auxiliary AI that aids with mining.</MinerCore.description>
+
+<DoctorCore.label>auxiliary AI: medical</DoctorCore.label>
+<DoctorCore.description>An installed auxiliary AI that aids with medical procedures.</DoctorCore.description>
+
+<DiplomatCore.label>auxiliary AI: diplomatic</DiplomatCore.label>
+<DiplomatCore.description>An installed auxiliary AI that aids with diplomatic conversations. Chances to fall into a social fight is significantly reduced.</DiplomatCore.description>
+
+<EPIA_AuxiliaryAI_Sharpshooter.label>auxiliary AI: sharpshooter</EPIA_AuxiliaryAI_Sharpshooter.label>
+<EPIA_AuxiliaryAI_Sharpshooter.description>An installed auxiliary AI that aids combat, specializing in accuracy and long distance fire. Cannot be installed with other auxiliary AI.</EPIA_AuxiliaryAI_Sharpshooter.description>
+
+<EPIA_AuxiliaryAI_Commando.label>auxiliary AI: commando</EPIA_AuxiliaryAI_Commando.label>
+<EPIA_AuxiliaryAI_Commando.description>An installed auxiliary AI that aids combat, supporting the user in coping with the pressures of combat. Cannot be installed with other auxiliary AI.</EPIA_AuxiliaryAI_Commando.description>
+
+<EPIA_AuxiliaryAI_Brawler.label>auxiliary AI: brawler</EPIA_AuxiliaryAI_Brawler.label>
+<EPIA_AuxiliaryAI_Brawler.description>An installed auxiliary AI that aids close quarter combat, supporting the user with life or death decisions. Cannot be installed with other auxiliary AI.</EPIA_AuxiliaryAI_Brawler.description>
+
+<AIPersonaCore.label>AI persona core</AIPersonaCore.label>
+<AIPersonaCore.labelNoun>an AI persona core</AIPersonaCore.labelNoun>
+<AIPersonaCore.description>An installed AI persona core. Requires minimum 60% medical tending as maintenance to prevent the AI persona core from going rogue.</AIPersonaCore.description>
+<AIPersonaCore.stages.0.label>Unmaintained</AIPersonaCore.stages.0.label>
+<AIPersonaCore.stages.1.label>Unmaintained</AIPersonaCore.stages.1.label>
+<AIPersonaCore.stages.2.label>Maintenance critical</AIPersonaCore.stages.2.label>
+<AIPersonaCore.stages.3.label>Maintenance required</AIPersonaCore.stages.3.label>
+
+<EPIA_TacticalBionicEye.label>tactical bionic eye</EPIA_TacticalBionicEye.label>
+<EPIA_TacticalBionicEye.description>An installed tactical bionic eye.</EPIA_TacticalBionicEye.description>
+
+</LanguageData>

@@ -1,3 +1,12 @@
+4.2.1 (27.8.21)
+* Updated some details about the workbenches to match vanilla's layout.
+* Prosthetic table now requires level 4 construction, bionic workbench and synthetic nano printer now requires level 6 construction.
+* New settings for wooden prosthesis needing research or not.
+* New settings for organs rotting and needing refridgeration.
+* New settings for transhumanists' opinion about the organic and instinct optimizers.
+* Added translation keys for all the settings.
+* Made a TranslatorPackage folder, containing everything for a translator to easily start their work.
+
 4.2.0 (18.8.21) "New extended options"
 * Makes use of HugsLib for news update and announcements.
 * New integration with XML Extension mod, allowing for mod settings to be implemented using pure xml!
@@ -8,6 +17,7 @@
 	- Original EPOE migration mode, to keep the old prosthetic workbench and converting it by punching it!
 	- Legacy mode, written up in a new way to patch.
 * Correctly assigning the component and advanced component bills to the synthetic nano printer instead of the prosthetic workbench.
+* Correctly assigning night vision values if they are missing from Combat Extended's native patch.
 * Prosthesis trader now trades synthread, hyperweave, components, advanced components and MA-AI chips.
 * Prosthesis trader's inventory of available artificial body parts for sale have been increased in size.
 

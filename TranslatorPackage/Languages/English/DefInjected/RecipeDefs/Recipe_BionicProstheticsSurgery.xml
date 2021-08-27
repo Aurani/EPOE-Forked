@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallBionicHand.label>install bionic hand</InstallBionicHand.label>
+<InstallBionicHand.description>Installs bionic hand.</InstallBionicHand.description>
+<InstallBionicHand.jobString>Installing bionic hand.</InstallBionicHand.jobString>
+
+<InstallBionicFoot.label>install bionic foot</InstallBionicFoot.label>
+<InstallBionicFoot.description>Installs bionic foot.</InstallBionicFoot.description>
+<InstallBionicFoot.jobString>Installing bionic foot.</InstallBionicFoot.jobString>
+
+<InstallBionicFinger.label>install bionic finger</InstallBionicFinger.label>
+<InstallBionicFinger.description>Installs bionic finger.</InstallBionicFinger.description>
+<InstallBionicFinger.jobString>Installing bionic finger.</InstallBionicFinger.jobString>
+
+<InstallBionicToe.label>install bionic toe</InstallBionicToe.label>
+<InstallBionicToe.description>Installs bionic toe.</InstallBionicToe.description>
+<InstallBionicToe.jobString>Installing bionic toe.</InstallBionicToe.jobString>
+
+<InstallBionicJaw.label>install bionic jaw</InstallBionicJaw.label>
+<InstallBionicJaw.description>Installs a bionic jaw.</InstallBionicJaw.description>
+<InstallBionicJaw.jobString>Installing a bionic jaw.</InstallBionicJaw.jobString>
+
+<InstallSilentJaw.label>install silent jaw</InstallSilentJaw.label>
+<InstallSilentJaw.description>Installs a silent jaw.</InstallSilentJaw.description>
+<InstallSilentJaw.jobString>Installing a silent jaw.</InstallSilentJaw.jobString>
+
+<InstallPowerArm.label>install power arm</InstallPowerArm.label>
+<InstallPowerArm.description>Installs power arm.</InstallPowerArm.description>
+<InstallPowerArm.jobString>Installing power arm.</InstallPowerArm.jobString>
+
+</LanguageData>

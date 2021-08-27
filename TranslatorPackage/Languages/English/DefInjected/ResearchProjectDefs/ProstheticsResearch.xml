@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<BasicProsthetics.label>Basic prosthetics</BasicProsthetics.label>
+<BasicProsthetics.description>Understanding the basic shape of different body parts and combining that knowledge with basic woodworking, you can now use directly install basic prosthesis.
+
+Peg legs, wooden feet, wooden hands, dentures, eye patch and ear bandages are direct surgeries with a single wood log or textile.
+
+Hook hand and steel arm are crafted at a smithy.</BasicProsthetics.description>
+
+<AdvancedBionics.label>advanced bionics</AdvancedBionics.label>
+<AdvancedBionics.description>Upgrade regular bionics to make them even better. Unlocks new recipes on the bionics workbench.</AdvancedBionics.description>
+
+<RibReplacements.label>rib implants</RibReplacements.label>
+<RibReplacements.description>Utilizing the space in the ribcage, new concept of implants with dispensers to release their contents in controlled doses can be placed here.</RibReplacements.description>
+
+<SurrogateOrgans.label>surrogate organs</SurrogateOrgans.label>
+<SurrogateOrgans.description>Build inexpensive prosthetic organs to replace lost or damaged ones. Requires a skilled doctor to transplant.</SurrogateOrgans.description>
+
+<SyntheticOrgans.label>synthetic organs</SyntheticOrgans.label>
+<SyntheticOrgans.description>Further research in nano-technology allows you to print incredibly well-engineered artificial organs.</SyntheticOrgans.description>
+
+<EPOE_SyntheticRepair.label>Synthetic repair</EPOE_SyntheticRepair.label>
+<EPOE_SyntheticRepair.description>Further research into nano technology allows you to print incredibly well-engineered artificial tissues and nerves to aid with healing scars, frailty and bad backs. Unlocks synthetic tissue and neuromuscular framework recipes on the synthetic nano printer.</EPOE_SyntheticRepair.description>
+
+<EPOE_NeurologicalTreatment.label>Neurological treatment</EPOE_NeurologicalTreatment.label>
+<EPOE_NeurologicalTreatment.description>Extensive research into nano technology allows you to print incredibly well-engineered framework kit consisting of artificial adaptable brain tissues, nerves and nanomachines to aid with countering dementia, alzheimer, chemical damage and scars in the brain. Unlocks neuro-cure framework recipe on the synthetic nano printer.\n\nNeuro-cure framework only cures dementia and alzheimer, and does not prevent it from appearing again.</EPOE_NeurologicalTreatment.description>
+<EPOE_NeurologicalTreatment.discoveredLetterTitle>About: Neuro-cure Framework</EPOE_NeurologicalTreatment.discoveredLetterTitle>
+<EPOE_NeurologicalTreatment.discoveredLetterText>You now have the technology to print Neuro-cure Framework - but to use it for surgery operations involving the brain, it will require the Brain Surgery research.</EPOE_NeurologicalTreatment.discoveredLetterText>
+
+<BrainSurgery.label>brain surgery</BrainSurgery.label>
+<BrainSurgery.description>Allows you to perform surgery on the brain.</BrainSurgery.description>
+
+<EPOE_Glitterworld_Implants.label>Glitterworld implants</EPOE_Glitterworld_Implants.label>
+<EPOE_Glitterworld_Implants.description>Allows you to make Glitterworld implants.</EPOE_Glitterworld_Implants.description>
+
+<EPOE_AIPersonaCoreImplant.label>AI persona core implant</EPOE_AIPersonaCoreImplant.label>
+<EPOE_AIPersonaCoreImplant.description>Allows you to perform the surgery to implant an AI persona core into the brain. It provides a powerful consciousness boost with the assistance of the AI, but it will require regular medical maintenance to avoid the AI turning rogue on the user.</EPOE_AIPersonaCoreImplant.description>
+
+<EPOE_OrganicOptimizer.label>Organic optimization</EPOE_OrganicOptimizer.label>
+<EPOE_OrganicOptimizer.description>Allows you to develop nanobots to optimize and bring out the full potential of the natural body, specifically designed to aid body purists.</EPOE_OrganicOptimizer.description>
+
+<EPOE_MAAIChip.label>MA-AI chip</EPOE_MAAIChip.label>
+<EPOE_MAAIChip.description>Allows you to manufacture your own MA-AI chip (Medical Assistant-AI chip), without needing to find an AI persona core.</EPOE_MAAIChip.description>
+
+</LanguageData>

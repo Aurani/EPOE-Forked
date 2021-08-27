@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<BionicHand.label>bionic hand</BionicHand.label>
+<BionicHand.description>An advanced artificial hand. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological hand in almost every way.</BionicHand.description>
+
+<BionicFoot.label>bionic foot</BionicFoot.label>
+<BionicFoot.description>An advanced artificial foot. With its biogel nerve-link, powerful mini-servos, and lattice-dust healing system, it is better than a biological foot in almost every way.</BionicFoot.description>
+
+<BionicFinger.label>bionic finger</BionicFinger.label>
+<BionicFinger.description>An advanced artificial finger. Delicate sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing ensure the best precision and grip, far surpassing that of a biological finger.</BionicFinger.description>
+
+<BionicToe.label>bionic toe</BionicToe.label>
+<BionicToe.description>An advanced artificial toe. Delicate sensors and high-speed wireless transmitters running through the thick, yet lightweight plasteel casing make these toes unrivalled when it comes to movement and control, far surpassing that of biological toes.</BionicToe.description>
+
+<BionicJaw.label>bionic jaw</BionicJaw.label>
+<BionicJaw.description>An advanced artificial jaw. Silenced mini-servos give great jaw strength, while a voice modulator gives exquisite fine tuning to speech. A lattice-dust healing system allows it to recover from damage. It is better than a biological jaw in almost every way.</BionicJaw.description>
+
+<SilentJaw.label>silent jaw</SilentJaw.label>
+<SilentJaw.description>An advanced artificial jaw. Silenced mini-servos give great jaw strength, but this version comes without a voice modulator. A lattice-dust healing system allows it to recover from damage. Useful for abrasive patients.</SilentJaw.description>
+
+<PowerArm.label>power arm</PowerArm.label>
+<PowerArm.description>A combat-oriented arm replacement consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks.</PowerArm.description>
+
+</LanguageData>
