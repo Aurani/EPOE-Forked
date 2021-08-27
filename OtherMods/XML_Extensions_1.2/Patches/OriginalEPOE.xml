@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
 	
 <Operation Class="XmlExtensions.OptionalPatch">
     <modId>vat.epoeforked</modId>
@@ -12,12 +11,13 @@
 			<value>
 				<ThingDef ParentName="BenchBase">
 					<defName>TableProsthetics</defName>
-					<label>old prosthetic workbench</label>
+					<label>Original EPOE workbench (debug)</label>
 					<thingClass>Building_WorkTable</thingClass>
-					<description>Leftover migration from original EPOE. Destroy this to obtain a prosthetic workbench and a bionic workbench.</description>
+					<description>Leftover migration from original EPOE. Deconstruct or destroy this to obtain a prosthetic workbench and a bionic workbench.</description>
 					<graphicData>
 						<texPath>Things/Building/Production/TableBionics</texPath>
 						<graphicClass>Graphic_Multi</graphicClass>
+						<color>(75,75,75)</color>
 						<drawSize>(3.5,1.5)</drawSize>
 						<damageData>
 							<cornerTL>Damage/Corner</cornerTL>
@@ -27,10 +27,10 @@
 						</damageData>
 					</graphicData>
 					<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+					<resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
 					<costList>
-						<Steel>250</Steel>
-						<Plasteel>150</Plasteel>
-						<ComponentIndustrial>5</ComponentIndustrial>
+						<TableSimpleProsthetic>1</TableSimpleProsthetic>
+						<TableBionics>1</TableBionics>
 					</costList>
 					<killedLeavings>
 						<TableSimpleProsthetic>1</TableSimpleProsthetic>

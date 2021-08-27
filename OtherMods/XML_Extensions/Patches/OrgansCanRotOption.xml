@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>vat.epoeforked</modId>
+		<key>OrgansCanRotOption</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+			<Operation Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[@Name="BodyPartNaturalBase"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="BodyPartNaturalBase"]</xpath>
+					<value>
+						<comps>
+							<li Class="CompProperties_Rottable">
+								<daysToRotStart>0.5</daysToRotStart>
+								<rotDestroys>true</rotDestroys>
+							</li>
+						</comps>
+					</value>
+				</nomatch>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="BodyPartNaturalBase"]/comps</xpath>
+					<value>
+						<li Class="CompProperties_Rottable">
+							<daysToRotStart>0.5</daysToRotStart>
+							<rotDestroys>true</rotDestroys>
+						</li>
+					</value>
+				</match>
+			</Operation>
+			<Operation Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[@Name="BodyPartNaturalBase"]/tickerType</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="BodyPartNaturalBase"]</xpath>
+					<value>
+						<tickerType>Rare</tickerType>
+					</value>
+				</nomatch>
+			</Operation>
+		</caseTrue>
+	</Operation>
+
+</Patch>
