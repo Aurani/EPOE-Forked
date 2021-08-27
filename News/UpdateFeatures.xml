@@ -7,6 +7,23 @@
 		<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=1949064302</linkUrl>
 	</HugsLib.UpdateFeatureDef>
 
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>EPOE_Forked_4_2_1</defName>
+		<assemblyVersion>4.2.1</assemblyVersion>
+		<content>Small update to bring workbenches a more in line with vanilla, now needing construction levels.
+Three new options available with XML Extensions mod, and now able to receive translations.
+
+|Patch notes:
+* Updated some details about the workbenches to match vanilla's layout.
+* Prosthetic table now requires level 4 construction, bionic workbench and synthetic nano printer now requires level 6 construction.
+
+|XML Extension mod related patch notes:
+* New settings for wooden prosthesis needing research or not.
+* New settings for organs rotting and needing refridgeration.
+* New settings for transhumanists' opinion about the organic and instinct optimizers.
+* Added translation keys for all the settings.
+* Made a TranslatorPackage folder, containing everything for a translator to easily start their work.</content>
+	</HugsLib.UpdateFeatureDef>	
 
 	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
 		<defName>EPOE_Forked_4_2_0</defName>
@@ -25,7 +42,7 @@ With XML Extensions active in your mod list, the following EPOE-Forked's add-on 
 - Disabling the bionic eyes on the colonist's face
 - Original EPOE migration mode, to keep the old prosthetic workbench for converting.
 
-The old prosthetic workbench from original EPOE, upon being destroyed (Not deconstructed!) will become a prosthetic workbench and bionic workbench. Simply get a colonist to punch it and get yourself back on track for all your artificial body parts production! Be sure to claim and rearrange your converted workbenches.
+The prosthetic workbench from original EPOE is renamed to "Original EPOE workbench (debug)", which can be deconstructed or destroyed and you will receive a prosthetic workbench and bionic workbench. Be sure to claim and rearrange your converted workbenches.
 
 |Once you have finished switching over, you should untick the migration mode to remove the redundant building from being loaded anymore when you launch the game.
 
