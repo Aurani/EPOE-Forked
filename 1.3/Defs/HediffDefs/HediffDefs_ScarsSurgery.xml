@@ -96,7 +96,6 @@
 			<RecipeDef>SurgeryRemoveBadBack</RecipeDef>
 			<RecipeDef>EPIA_SurgeryRemoveChemicalDamageModerate</RecipeDef>
 			<RecipeDef>EPIA_SurgeryRemoveChemicalDamageSevere</RecipeDef>
-			<RecipeDef>EPIA_RestoreTorsoBones</RecipeDef>
 		</descriptionHyperlinks>
 		<isTechHediff>false</isTechHediff>
 		<recipeMaker>
@@ -264,40 +263,6 @@
 			<HediffDef>ChemicalDamageSevere</HediffDef>
 		</descriptionHyperlinks>
 		<removesHediff>ChemicalDamageSevere</removesHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
-		<defName>EPIA_RestoreTorsoBones</defName>
-		<label>Restore torso associated bones</label>
-		<description>Restores bone structures associated with the torso, such as the pelvis, sternum and clavicle.</description>
-		<descriptionHyperlinks>
-			<ThingDef>NeuromuscularFramework</ThingDef>
-		</descriptionHyperlinks>
-		<jobString>Restoring body part.</jobString>
-		<workAmount>4500</workAmount>
-		<skillRequirements>
-			<Medicine>8</Medicine>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>NeuromuscularFramework</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>NeuromuscularFramework</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>Clavicle</li>
-			<li>Sternum</li>
-			<li>Pelvis</li>
-		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
 	<!-- Neuro-cure framework -->
@@ -533,6 +498,69 @@
 		<defName>EPIA_SurgeryBrainRemoveChemicalDamageSevere</defName>
 		<descriptionHyperlinks><HediffDef>ChemicalDamageSevere</HediffDef></descriptionHyperlinks>
 		<removesHediff>ChemicalDamageSevere</removesHediff>
+	</RecipeDef>
+
+	<!-- Synthetic bone -->
+
+	<ThingDef ParentName="EPIASyntheticBase">
+		<defName>EPIA_SyntheticBone</defName>
+		<label>synthetic bone</label>
+		<description>An adjustable synthetic bone that is ready to transform and mold into a replacement bone that has been lost or missing. Once installed, the synthetic bone's shape is permanently set and the material composition starts altering to become closer to the real thing, making it almost indistinguishable from the rest of the skeletal structure.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>EPIA_RestoreBones</RecipeDef>
+		</descriptionHyperlinks>
+		<isTechHediff>false</isTechHediff>
+		<recipeMaker>
+			<researchPrerequisite>EPOE_SyntheticRepair</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Synthread>5</Synthread>
+			<Plasteel>5</Plasteel>
+			<MedicineUltratech>2</MedicineUltratech>
+		</costList>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<smeltProducts Inherit="False" />
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+		<defName>EPIA_RestoreBones</defName>
+		<label>Install synthetic bone</label>
+		<description>Install a synthetic bone to restore the missing bone.</description>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_SyntheticBone</ThingDef>
+		</descriptionHyperlinks>
+		<jobString>Restoring body part.</jobString>
+		<workAmount>4500</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPIA_SyntheticBone</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPIA_SyntheticBone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Clavicle</li>
+			<li>Sternum</li>
+			<li>Pelvis</li>
+			<li>Humerus</li>
+			<li>Radius</li>
+			<li>Femur</li>
+			<li>Tibia</li>
+		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
 </Defs>
