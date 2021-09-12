@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="PowerArm" and @ParentName="addedPartBionics" and addedPartProps/partEfficiency="1"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="BionicHand" and @ParentName="addedPartBionics" and addedPartProps/partEfficiency="1.15"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="BionicFoot" and @ParentName="addedPartBionics" and addedPartProps/partEfficiency="1.15"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="BionicJaw" and @ParentName="addedPartBionics" and addedPartProps/partEfficiency="1.15"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="BionicTongue" and @ParentName="addedPartBionics"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="BionicEar" and @ParentName="addedPartBionics"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="BionicEye" and @ParentName="addedPartBionics"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="BionicArm" and @ParentName="addedPartBionics"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="BionicLeg" and @ParentName="addedPartBionics"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="BionicSpine" and @ParentName="addedPartBionics" and stages/li/capMods]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BionicEye" and @ParentName="Bionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BionicEar" and @ParentName="Bionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BionicArm" and @ParentName="Bionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BionicLeg" and @ParentName="Bionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BionicSpine" and @ParentName="Bionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="PowerArm" and @ParentName="Bionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BionicHand" and @ParentName="Bionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BionicFoot" and @ParentName="Bionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BionicJaw" and @ParentName="Bionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BionicTongue" and @ParentName="Bionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakePowerArm" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeBionicEye" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeBionicEar" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeBionicArm" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeBionicLeg" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeBionicHand" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeBionicFoot" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeBionicJaw" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeBionicTongue" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeBionicSpine" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallPowerArm" and @ParentName="SurgeryBionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallBionicArm" and @ParentName="SurgeryBionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallBionicLeg" and @ParentName="SurgeryBionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallBionicEye" and @ParentName="SurgeryBionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallBionicHand" and @ParentName="SurgeryBionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallBionicFoot" and @ParentName="SurgeryBionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallBionicEar" and @ParentName="SurgeryBionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallBionicJaw" and @ParentName="SurgeryBionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallBionicTongue" and @ParentName="SurgeryBionic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallBionicSpine" and @ParentName="SurgeryBionic"]</xpath>
+	</Operation>
+
+</Patch>

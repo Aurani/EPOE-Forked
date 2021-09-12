@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="SurgeryRemoveFrailty" and @ParentName="SurgeryNano"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjuryBurn" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjuryCrush" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjuryCrack" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjuryCut" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjurySurgicalCut" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjuryScratch" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjuryBite" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjuryStab" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjuryGunshot" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjuryShredded" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjuryBruise" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="CureInjuryFrostbite" and @ParentName="SurgeryOld"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ArtificialBone" and @ParentName="Simple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeArtificialBone" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="SpinalFusion" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/descriptionHyperlinks</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="SpinalFusion" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/spawnThingOnRemoved</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialHumerus" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/descriptionHyperlinks</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialHumerus" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/spawnThingOnRemoved</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialRadius" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/descriptionHyperlinks</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialRadius" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/spawnThingOnRemoved</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialTibia" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/descriptionHyperlinks</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialTibia" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/spawnThingOnRemoved</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialFemur" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/descriptionHyperlinks</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialFemur" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/spawnThingOnRemoved</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialClavicle" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/descriptionHyperlinks</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialClavicle" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/spawnThingOnRemoved</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialRibcage" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/descriptionHyperlinks</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialRibcage" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/spawnThingOnRemoved</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialSternum" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/descriptionHyperlinks</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialSternum" and @ParentName="addedPartSimple" and spawnThingOnRemoved="ArtificialBone"]/spawnThingOnRemoved</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallSpinalFusion" and @ParentName="SurgeryBone"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallHumerus" and @ParentName="SurgeryBone"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallRadius" and @ParentName="SurgeryBone"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallTibia" and @ParentName="SurgeryBone"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallFemur" and @ParentName="SurgeryBone"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallClavicle" and @ParentName="SurgeryBone"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallSternum" and @ParentName="SurgeryBone"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallRibcage" and @ParentName="SurgeryBone"]</xpath>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableMachining"]/recipes/li[text()="MakeSimpleProstheticLeg"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableMachining"]/recipes/li[text()="MakeSimpleProstheticArm"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableMachining"]/recipes/li[text()="MakeSimpleProstheticHand"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableMachining"]/recipes/li[text()="MakeSimpleProstheticFoot"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableMachining"]/recipes/li[text()="MakeArtificialPelvis"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableMachining"]/recipes/li[text()="MakeArtificialNose"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableMachining"]/recipes/li[text()="MakeArtificialBone"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="TableMachining"]/recipes/li[text()="MakeCochlearImplant"]</xpath>
+	</Operation>
+
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AdvancedMedicalStation"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BionicWorkbench"]</xpath>
+	</Operation>
+
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/WorkGiverDef[defName="DoBillsBionicWorkbench" and fixedBillGiverDefs/li[text()="BionicWorkbench"]]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/WorkGiverDef[defName="DoBillsAdvancedMedicalStation"]</xpath>
+	</Operation>
+
+</Patch>

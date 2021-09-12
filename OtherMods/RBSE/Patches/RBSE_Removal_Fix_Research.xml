@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="Prosthetics" and tab="RBSE"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="RegenerativeMedicine" and tab="RBSE"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="OrganTransplantation" and tab="RBSE"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="Bionics" and tab="RBSE"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="AdvancedBionics" and tab="RBSE"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="SyntheticOrgans" and tab="RBSE"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ResearchProjectDef[defName="Nanomedicine" and tab="RBSE"]/prerequisites/li[text()="RegenerativeMedicine"]</xpath>
+	</Operation>
+
+</Patch>

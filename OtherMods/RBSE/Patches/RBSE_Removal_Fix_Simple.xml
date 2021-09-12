@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="CochlearImplant" and @ParentName="addedPartSimple" and defaultLabelColor]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="SimpleProstheticLeg" and @ParentName="addedPartSimple" and label="simple prosthetic leg"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="SimpleProstheticArm" and @ParentName="addedPartSimple" and label="simple prosthetic arm"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="SimpleProstheticHand" and @ParentName="addedPartSimple" and label="simple prosthetic hand"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="SimpleProstheticFoot" and @ParentName="addedPartSimple" and label="simple prosthetic foot"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialNose" and @ParentName="addedPartSimple" and addedPartProps/partEfficiency="1"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArtificialPelvis" and @ParentName="addedPartSimple"]</xpath>
+	</Operation>
+
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ArtificialNose" and @ParentName="Simple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="SimpleProstheticLeg" and @ParentName="Simple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="SimpleProstheticArm" and @ParentName="Simple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="CochlearImplant" and @ParentName="Simple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="SimpleProstheticHand" and @ParentName="Simple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="SimpleProstheticFoot" and @ParentName="Simple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ArtificialPelvis" and @ParentName="Simple"]</xpath>
+	</Operation>
+
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeSimpleProstheticLeg" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeSimpleProstheticArm" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeSimpleProstheticHand" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeSimpleProstheticFoot" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeCochlearImplant" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeArtificialNose" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeArtificialPelvis" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticLeg" and @ParentName="SurgerySimple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticArm" and @ParentName="SurgerySimple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallHookHand" and @ParentName="SurgerySimple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticHand" and @ParentName="SurgerySimple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticFoot" and @ParentName="SurgerySimple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallArtificialNose" and @ParentName="SurgerySimple"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallArtificialPelvis" and @ParentName="SurgerySimple"]</xpath>
+	</Operation>
+
+</Patch>

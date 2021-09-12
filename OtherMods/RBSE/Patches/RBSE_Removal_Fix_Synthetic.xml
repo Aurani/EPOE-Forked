@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="SyntheticLung" and @ParentName="addedPartSynthetic" and stages/li/capMods]</xpath>
+	</Operation>
+
+	<!--Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="SyntheticLiver" and @ParentName="addedPartSynthetic" and stages/li/capMods]</xpath>
+	</Operation-->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="SyntheticKidney" and @ParentName="addedPartSynthetic" and stages/li/capMods]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="SyntheticHeart" and @ParentName="addedPartSynthetic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="SyntheticStomach" and @ParentName="addedPartSynthetic"]</xpath>
+	</Operation>
+
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="SyntheticLung" and @ParentName="Synthetic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="SyntheticLiver" and @ParentName="Synthetic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="SyntheticKidney" and @ParentName="Synthetic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="SyntheticHeart" and @ParentName="Synthetic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="SyntheticStomach" and @ParentName="Synthetic"]</xpath>
+	</Operation>
+
+
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeSyntheticLung"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeSyntheticStomach"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeSyntheticLiver"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeSyntheticKidney"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeSyntheticHeart"]</xpath>
+	</Operation>
+
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallSyntheticLung" and @ParentName="SurgerySynthetic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallSyntheticStomach" and @ParentName="SurgerySynthetic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallSyntheticLiver" and @ParentName="SurgerySynthetic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallSyntheticKidney" and @ParentName="SurgerySynthetic"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallSyntheticHeart" and @ParentName="SurgerySynthetic"]</xpath>
+	</Operation>
+
+</Patch>

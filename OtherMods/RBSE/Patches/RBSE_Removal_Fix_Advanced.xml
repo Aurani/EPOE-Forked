@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="AdvancedPowerArm" and @ParentName="addedPartAdvanced" and addedPartProps/partEfficiency="1"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="AdvancedBionicArm" and @ParentName="addedPartAdvanced" and addedPartProps/partEfficiency="1.5"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="AdvancedBionicLeg" and @ParentName="addedPartAdvanced" and addedPartProps/partEfficiency="1.5"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="AdvancedBionicHand" and @ParentName="addedPartAdvanced" and addedPartProps/partEfficiency="1.3"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="AdvancedBionicFoot" and @ParentName="addedPartAdvanced" and addedPartProps/partEfficiency="1.3"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="AdvancedBionicEar" and @ParentName="addedPartAdvanced" and addedPartProps/partEfficiency="1"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="AdvancedBionicEye" and @ParentName="addedPartAdvanced" and addedPartProps/partEfficiency="1.5"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="AdvancedBionicSpine" and @ParentName="addedPartAdvanced" and stages/li/capMods]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ExoskeletonSuit" and @ParentName="addedPartAdvancedImplant"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArchotechEye" and @ParentName="addedPartAdvanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArchotechArm" and @ParentName="addedPartAdvanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/HediffDef[defName="ArchotechLeg" and @ParentName="addedPartAdvanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AdvancedPowerArm" and @ParentName="Advanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AdvancedBionicHand" and @ParentName="Advanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AdvancedBionicArm" and @ParentName="Advanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AdvancedBionicLeg" and @ParentName="Advanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AdvancedBionicFoot" and @ParentName="Advanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AdvancedBionicEar" and @ParentName="Advanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AdvancedBionicSpine" and @ParentName="Advanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ExoskeletonSuit" and @ParentName="Advanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AdvancedBionicEye" and @ParentName="Advanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ArchotechEye" and @ParentName="ArchotechBase"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ArchotechArm" and @ParentName="ArchotechBase"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ArchotechLeg" and @ParentName="ArchotechBase"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeAdvancedBionicEye" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeAdvancedPowerArm" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeAdvancedBionicArm" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeAdvancedBionicHand" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeAdvancedBionicFoot" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeAdvancedBionicLeg" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeAdvancedBionicEar" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeAdvancedBionicSpine" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeExoskeletonSuit" and soundWorking="RBSESound"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallAdvancedPowerArm" and @ParentName="SurgeryAdvanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallAdvancedBionicArm" and @ParentName="SurgeryAdvanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallAdvancedBionicLeg" and @ParentName="SurgeryAdvanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallAdvancedBionicHand" and @ParentName="SurgeryAdvanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallAdvancedBionicFoot" and @ParentName="SurgeryAdvanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallAdvancedBionicEye" and @ParentName="SurgeryAdvanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallAdvancedBionicEar" and @ParentName="SurgeryAdvanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallAdvancedBionicSpine" and @ParentName="SurgeryAdvanced"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="InstallExoskeletonSuit" and @ParentName="SurgeryAdvanced"]</xpath>
+	</Operation>
+
+</Patch>
