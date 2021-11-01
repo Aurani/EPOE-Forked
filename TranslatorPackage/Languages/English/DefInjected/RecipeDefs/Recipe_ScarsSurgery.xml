@@ -51,6 +51,13 @@
 <EPIA_SurgeryBrainRemoveChemicalDamageSevere.jobString>Healing chemical damage.</EPIA_SurgeryBrainRemoveChemicalDamageSevere.jobString>
 <EPIA_SurgeryBrainRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>{0} has successfully healed {1}'s chemical damage.</EPIA_SurgeryBrainRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>
 
+<EPIA_RestoreBones.label>Install synthetic bone</EPIA_RestoreBones.label>
+<EPIA_RestoreBones.description>Install a synthetic bone to restore the missing bone.</EPIA_RestoreBones.description>
+<EPIA_RestoreBones.jobString>Restoring body part.</EPIA_RestoreBones.jobString>
+
+
+<!-- The defs below here is for 1.2 and older only. Ignore and don't add it for 1.3 and onward. -->
+
 <EPIA_RestoreTorsoBones.label>Restore torso associated bones</EPIA_RestoreTorsoBones.label>
 <EPIA_RestoreTorsoBones.description>Restores bone structures associated with the torso, such as the pelvis, sternum and clavicle.</EPIA_RestoreTorsoBones.description>
 <EPIA_RestoreTorsoBones.jobString>Restoring body part.</EPIA_RestoreTorsoBones.jobString>

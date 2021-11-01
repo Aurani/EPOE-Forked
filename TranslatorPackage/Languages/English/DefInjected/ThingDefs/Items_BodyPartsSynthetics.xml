@@ -25,4 +25,7 @@
 <NeurocureFramework.label>neuro-cure framework</NeurocureFramework.label>
 <NeurocureFramework.description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain. Used for curing brain injuries, dementia and alzheimer.\n\nRequires Brain Surgery research to use.</NeurocureFramework.description>
 
+<EPIA_SyntheticBone.label>synthetic bone</EPIA_SyntheticBone.label>
+<EPIA_SyntheticBone.description>An adjustable synthetic bone that is ready to transform and mold into a replacement bone that has been lost or missing. Once installed, the synthetic bone's shape is permanently set and the material composition starts altering to become closer to the real thing, making it almost indistinguishable from the rest of the skeletal structure.</EPIA_SyntheticBone.description>
+
 </LanguageData>

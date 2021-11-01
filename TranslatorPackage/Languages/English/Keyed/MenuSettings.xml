@@ -21,6 +21,10 @@
 <vat_epoeforked_OrgansCanRotOptionTip>Enables natural organs to have a timer to rot and disappear if not refrigerated.</vat_epoeforked_OrgansCanRotOptionTip>
 <vat_epoeforked_OptimizerThoughts_Transhumanists>Transhumanists do not care about organic and instinct optimizers</vat_epoeforked_OptimizerThoughts_Transhumanists>
 <vat_epoeforked_OptimizerThoughts_TranshumanistsTip>Description will still make a mention they hate them, but that can be ignored as the stats will no longer reflect that.</vat_epoeforked_OptimizerThoughts_TranshumanistsTip>
+<vat_epoeforked_ForcedLimbRemoval>Enable surgery to directly remove limbs</vat_epoeforked_ForcedLimbRemoval>
+<vat_epoeforked_ForcedLimbRemovalTip>For your war crime needs.</vat_epoeforked_ForcedLimbRemovalTip>
+<vat_epoeforked_RemoveTongueBeautyTag>Disable EPOE-Forked's patch for removing opinion of disfigurement due to missing tongue</vat_epoeforked_RemoveTongueBeautyTag>
+<vat_epoeforked_RemoveTongueBeautyTagTip>Any jaws added body parts, including base game's dentures, technically removes the tongue, but the opinion of disfigurement still happens. This is why EPOE-Forked removes the beauty tag related to the tongue.</vat_epoeforked_RemoveTongueBeautyTagTip>
 
 <vat_epoeforked_experimental>Experimental features</vat_epoeforked_experimental>
 <vat_epoeforked_LegacyMode>Legacy mode</vat_epoeforked_LegacyMode>
