@@ -1978,6 +1978,7 @@
 		</Operation>
     </caseTrue>
 	<caseFalse>
+		<!--
 		<Operation Class="PatchOperationAdd">
 			<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]</xpath>
 			<value>
@@ -1986,6 +1987,7 @@
 				</smeltProducts>
 			</value>
 		</Operation>
+		-->
 	</caseFalse>
 </Operation>
 

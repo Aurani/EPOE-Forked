@@ -57,6 +57,7 @@
     </caseTrue>
     <caseFalse>
 		<Operation Class="PatchOperationSequence">
+			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/FleshTypeDef[defName="Normal"]/hediffWounds/li[hediff="BionicEye"]/wounds</xpath>
