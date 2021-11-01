@@ -1,3 +1,9 @@
+4.2.4 (1.11.21)
+* Removed the recipe of disassembling prosthesis, due to a change in base game. Will work on an better alternative method.
+
+4.2.3 (25.10.21)
+* Patch for QEE updated to change the [EPOE] tag to (EPOE), due to base game update to deal with a config error.
+
 4.2.2 (12.9.21)
 * New synthetic bone added. Used as a bone replacement similar to how synthetic tissue works for healing scars.
 * Torso associated bones that were previously handled by neuromuscular framework is now handled by the synthetic bone surgeries.
