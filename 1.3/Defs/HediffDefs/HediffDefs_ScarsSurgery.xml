@@ -34,7 +34,7 @@
 			<WorkToMake>9000</WorkToMake>
 			<Mass>0.5</Mass>
 		</statBases>
-		<smeltProducts Inherit="False" />
+		<!--smeltProducts Inherit="False" /-->
 	</ThingDef>
 
 	<RecipeDef ParentName="EPIA_SurgerySyntheticRepair">
@@ -522,7 +522,7 @@
 			<WorkToMake>9000</WorkToMake>
 			<Mass>0.5</Mass>
 		</statBases>
-		<smeltProducts Inherit="False" />
+		<!--smeltProducts Inherit="False" /-->
 	</ThingDef>
 
 	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">

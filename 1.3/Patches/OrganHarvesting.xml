@@ -65,7 +65,7 @@
 						<li Class="PatchOperationReplace">
 							<xpath>/Defs/ThingDef[defName = "Stomach"]/label</xpath>
 							<value>
-								<label>stomach [EPOE]</label>
+								<label>stomach (EPOE)</label>
 							</value>
 						</li>
 						<!-- Moving to EPOE redundancy category -->
@@ -156,7 +156,7 @@
 						<li Class="PatchOperationReplace">
 							<xpath>/Defs/ThingDef[defName = "Eye"]/label</xpath>
 							<value>
-								<label>eyeball [EPOE]</label>
+								<label>eyeball (EPOE)</label>
 							</value>
 						</li>
 						<!-- Moving to EPOE redundancy category -->
@@ -246,7 +246,7 @@
 						<li Class="PatchOperationReplace">
 							<xpath>/Defs/ThingDef[defName = "Nose"]/label</xpath>
 							<value>
-								<label>nose [EPOE]</label>
+								<label>nose (EPOE)</label>
 							</value>
 						</li>
 						<!-- Moving to EPOE redundancy category -->
@@ -336,7 +336,7 @@
 						<li Class="PatchOperationReplace">
 							<xpath>/Defs/ThingDef[defName = "Ear"]/label</xpath>
 							<value>
-								<label>ear [EPOE]</label>
+								<label>ear (EPOE)</label>
 							</value>
 						</li>
 						<!-- Moving to EPOE redundancy category -->
@@ -426,7 +426,7 @@
 						<li Class="PatchOperationReplace">
 							<xpath>/Defs/ThingDef[defName = "Jaw"]/label</xpath>
 							<value>
-								<label>jaw [EPOE]</label>
+								<label>jaw (EPOE)</label>
 							</value>
 						</li>
 						<!-- Moving to EPOE redundancy category -->
@@ -501,7 +501,7 @@
 						<li Class="PatchOperationReplace">
 							<xpath>/Defs/ThingDef[defName = "Arm"]/label</xpath>
 							<value>
-								<label>arm [EPOE]</label>
+								<label>arm (EPOE)</label>
 							</value>
 						</li>
 						<!-- Moving to EPOE redundancy category -->
@@ -576,7 +576,7 @@
 						<li Class="PatchOperationReplace">
 							<xpath>/Defs/ThingDef[defName = "Leg"]/label</xpath>
 							<value>
-								<label>leg [EPOE]</label>
+								<label>leg (EPOE)</label>
 							</value>
 						</li>
 						<!-- Moving to EPOE redundancy category -->
