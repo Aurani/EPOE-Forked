@@ -14,11 +14,10 @@
 <vat_epoeforked_VanillaBionicEyesFace>Use vanilla textures for bionic eyes for the face?</vat_epoeforked_VanillaBionicEyesFace>
 <vat_epoeforked_VanillaBionicEyesFaceTip>The affected eyes are bionic (vanilla), archotech (vanilla), advanced bionic and tactical bionic eye.</vat_epoeforked_VanillaBionicEyesFaceTip>
 
-<vat_epoeforked_OtherOptions>Miscellaneous options</vat_epoeforked_OtherOptions>
-<vat_epoeforked_WoodenPartsNeedResearch>Remove "Basic Prosthetics" research requirements for wooden prosthesis</vat_epoeforked_WoodenPartsNeedResearch>
-<vat_epoeforked_WoodenPartsNeedResearchTip>Vanilla does not need any research for wooden prosthetic like peg legs.</vat_epoeforked_WoodenPartsNeedResearchTip>
-<vat_epoeforked_OrgansCanRotOption>Natural organs can rot, therefore needing refrigeration</vat_epoeforked_OrgansCanRotOption>
+<vat_epoeforked_OtherOptions>Miscellaneous options</vat_epoeforked_OtherOptions><vat_epoeforked_OrgansCanRotOption>Natural organs can rot, therefore needing refrigeration</vat_epoeforked_OrgansCanRotOption>
 <vat_epoeforked_OrgansCanRotOptionTip>Enables natural organs to have a timer to rot and disappear if not refrigerated.</vat_epoeforked_OrgansCanRotOptionTip>
+<vat_epoeforked_EMP_Toggle>Remove EMP weakness from combat implants added by this mod</vat_epoeforked_EMP_Toggle>
+<vat_epoeforked_EMP_ToggleTip>Pawns with combat based auxiliary AI, protective exoskeleton and AI persona core gets a debuff when hit by EMP, this option removes that weakness.</vat_epoeforked_EMP_ToggleTip>
 <vat_epoeforked_OptimizerThoughts_Transhumanists>Transhumanists do not care about organic and instinct optimizers</vat_epoeforked_OptimizerThoughts_Transhumanists>
 <vat_epoeforked_OptimizerThoughts_TranshumanistsTip>Description will still make a mention they hate them, but that can be ignored as the stats will no longer reflect that.</vat_epoeforked_OptimizerThoughts_TranshumanistsTip>
 <vat_epoeforked_ForcedLimbRemoval>Enable surgery to directly remove limbs</vat_epoeforked_ForcedLimbRemoval>
@@ -34,5 +33,9 @@
 
 <vat_epoeforked_ResetSettings>Reset settings</vat_epoeforked_ResetSettings>
 <vat_epoeforked_ResetToApplyReminder>Restarting game is required to apply any changes.</vat_epoeforked_ResetToApplyReminder>
+
+<!-- Removed in 1.3, but still exist in 1.2 -->
+<vat_epoeforked_WoodenPartsNeedResearch>Remove "Basic Prosthetics" research requirements for wooden prosthesis</vat_epoeforked_WoodenPartsNeedResearch>
+<vat_epoeforked_WoodenPartsNeedResearchTip>Vanilla does not need any research for wooden prosthetic like peg legs.</vat_epoeforked_WoodenPartsNeedResearchTip>
 
 </LanguageData>

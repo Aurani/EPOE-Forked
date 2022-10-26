@@ -1,3 +1,34 @@
+4.3.1 (25.10.22)
+* Rimworld 1.3 version also receives most of the following updates:
+* The following items now stack up to 5: Synthetic Tissue, Synthetic Bone, Neuromuscular Framework and Neurocure Framework.
+* New additional sprites for the stackable items.
+* UI icons added for optimizer, scars and ailments related surgeries.
+* Optimizers now identified as a implant by game mechanic, but not count as one. Should avoid situations that ends up removing them.
+* Prosthesis traders now have a chance to sell hospital beds and vital monitors.
+* Prosthesis traders have a very small chance to sell gene packs and archite capsules, at expensive price (Biotech required).
+* Fixed the XML Extensions option for the components crafting in EPOE-Forked workbenches.
+
+4.3.0 (6.10.22)
+* Updated for Rimworld 1.4 unstable.
+* New XML Extensions to toggle if components can be crafted in EPOE-Forked workbenches.
+
+Specific to Rimworld 1.4, the following changes are to be applied:
+* Prosthetic workbench is removed. All recipes are sent over to the Machining Table.
+* Auxiliary AI items are now combined into two distinct items, the worker type and combat type, to reduce clutter. This means they are also now interchangable in their category.
+* The new Auxiliary AI (worker) is now used for installing construction, agricultural, mining, medical and diplomatic auxiliary AI.
+* The new Auxiliary AI (combat) is now used for installing sharpshooter, commando and brawler auxiliary AI.
+* XML extensions related: Legacy mode and bionic eye texture options disabled until stable release.
+
+4.2.5 (9.2.22)
+* Neuro-cure framework materials cost reduced from 15 Glitterworld medicine to 8 and removed advanced component.
+* Synthetic skin cost increased from 1 Glitterworld medicine to 2 Glitterworld medicine.
+* Basic Prosthetic research removed. All wooden prosthetic available by default to all faction style just like in vanilla.
+* Hook hand and Steel arm now requires Smithing research. (Their workstation needs that as minimum already, so no real difference.)
+* Protective exoskeleton incoming damage factor improved from 85% to 80%.
+* Auxiliary AI: Sharpshooter buffed. Gained -10% Aiming delay, and removed melee dodge penalty.
+* Updated DE Surgery patch
+* New XML Extensions to toggle EMP weakness of EPOE-Forked implants.
+
 4.2.4 (1.11.21)
 * Removed the recipe of disassembling prosthesis, due to a change in base game. Will work on an better alternative method.
 
