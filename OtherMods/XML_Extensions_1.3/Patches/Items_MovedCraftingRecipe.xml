@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>vat.epoeforked</modId>
+    <key>RemoveWorkbench</key>
+    <defaultValue>false</defaultValue>
+	<caseTrue>
+		<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/recipeUsers</xpath>
+					<value>
+						<li>TableBionics</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/recipeUsers</xpath>
+					<value>
+						<li>TableSimpleProsthetic</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="EPIASyntheticBase"]/recipeMaker/recipeUsers</xpath>
+					<value>
+						<li>FabricationBench</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>Defs/RecipeDef[@Name="RecipeSimpleProsthesis"]/recipeUsers</xpath>
+					<value>
+						<li>TableMachining</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>Defs/RecipeDef[@Name="RecipeBionicProsthesis"]/recipeUsers</xpath>
+					<value>
+						<li>FabricationBench</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>Defs/RecipeDef[@Name="RecipeSurrogateOrgan"]/recipeUsers</xpath>
+					<value>
+						<li>TableMachining</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>Defs/RecipeDef[@Name="RecipeSyntheticOrgan"]/recipeUsers</xpath>
+					<value>
+						<li>FabricationBench</li>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/ThingDef[defName="TableBionics"]/designationCategory</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/ThingDef[defName="TableSimpleProsthetic"]/designationCategory</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/ThingDef[defName="TableOrgans"]/designationCategory</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/ThingDef[defName="TableBionics"]/researchPrerequisites</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/ThingDef[defName="TableSimpleProsthetic"]/researchPrerequisites</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/ThingDef[defName="TableOrgans"]/researchPrerequisites</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="EPIASurrogateBase"]/recipeMaker/recipeUsers</xpath>
+					<value>
+						<li>TableSimpleProsthetic</li>
+						<li>TableMachining</li>
+					</value>
+				</li>
+			</operations>
+		</Operation>
+    </caseTrue>
+	<caseFalse>
+		<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/recipeUsers</xpath>
+					<value>
+						<recipeUsers>
+							<li>TableBionics</li>
+						</recipeUsers>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/recipeUsers</xpath>
+					<value>
+						<recipeUsers>
+							<li>TableSimpleProsthetic</li>
+						</recipeUsers>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>Defs/ThingDef[@ParentName="BodyPartProstheticMakeableBase"]/recipeMaker/recipeUsers[@Inherit="False"]</xpath>
+					<value>
+						<li>TableSimpleProsthetic</li>
+					</value>
+				</li>
+			</operations>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+</Patch>

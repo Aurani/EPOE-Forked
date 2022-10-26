@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>vat.epoeforked</modId>
+    <key>OptimizerThoughts_Transhumanists</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+		<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThoughtDef[defName="EPOE_OrganicOptimizedTranshumanist"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThoughtDef[defName="EPOE_InstinctImprovedEyesTranshumanist"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThoughtDef[defName="EPOE_InstinctImprovedFeetTranshumanist"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThoughtDef[defName="EPOE_InstinctImprovedHandsTranshumanist"]</xpath>
+				</li>
+			</operations>
+		</Operation>
+    </caseTrue>
+</Operation>
+
+</Patch>

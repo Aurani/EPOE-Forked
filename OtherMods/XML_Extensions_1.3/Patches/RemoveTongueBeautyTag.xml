@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>vat.epoeforked</modId>
+		<key>RemoveTongueBeautyTag</key>
+		<defaultValue>false</defaultValue>
+		<caseFalse>
+			<Operation Class="PatchOperationRemove">
+				<xpath>Defs/BodyPartDef[defName="Tongue"]/beautyRelated</xpath>
+			</Operation>
+		</caseFalse>
+	</Operation>
+
+</Patch>

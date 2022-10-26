@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>vat.epoeforked</modId>
+    <key>ComponentCrafting</key>
+    <defaultValue>false</defaultValue>
+	<caseTrue>
+		<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="TableBionics"]/recipes/li[text()="Make_ComponentIndustrial"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="TableBionics"]/recipes/li[text()="Make_ComponentSpacer"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="TableOrgans"]/recipes/li[text()="Make_ComponentIndustrial"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="TableOrgans"]/recipes/li[text()="Make_ComponentSpacer"]</xpath>
+				</li>
+			</operations>
+		</Operation>
+    </caseTrue>
+	<caseFalse />
+</Operation>
+
+</Patch>

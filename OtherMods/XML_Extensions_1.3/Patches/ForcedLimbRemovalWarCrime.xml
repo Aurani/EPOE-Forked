@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>vat.epoeforked</modId>
+		<key>ForcedLimbRemoval</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+				<xpath>Defs/BodyPartDef[defName="Leg"]</xpath>
+				<value>
+					<forceAlwaysRemovable>true</forceAlwaysRemovable>
+					<removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+				</value>
+			</Operation>
+			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+				<xpath>Defs/BodyPartDef[defName="Shoulder"]</xpath>
+				<value>
+					<forceAlwaysRemovable>true</forceAlwaysRemovable>
+					<removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+				</value>
+			</Operation>
+			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+				<xpath>Defs/BodyPartDef[defName="Hand"]</xpath>
+				<value>
+					<forceAlwaysRemovable>true</forceAlwaysRemovable>
+					<removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+				</value>
+			</Operation>
+			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+				<xpath>Defs/BodyPartDef[defName="Foot"]</xpath>
+				<value>
+					<forceAlwaysRemovable>true</forceAlwaysRemovable>
+					<removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+				</value>
+			</Operation>
+		</caseTrue>
+	</Operation>
+
+</Patch>

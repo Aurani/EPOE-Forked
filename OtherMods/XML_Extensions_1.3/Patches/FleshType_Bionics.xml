@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/FleshTypeDef[defName="Normal"]/hediffWounds</xpath>
+	<value>
+		<li>
+			<hediff>AdvancedBionicEye</hediff>
+			<wounds />
+		</li>
+		<li>
+			<hediff>EPIA_TacticalBionicEye</hediff>
+			<wounds />
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>vat.epoeforked</modId>
+    <key>VanillaVersionHediffWounds</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+		<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FleshTypeDef[defName="Normal"]/hediffWounds/li[hediff="AdvancedBionicEye"]/wounds</xpath>
+					<value>
+						<li>
+							<textureSouth>Things/Pawn/Wounds/BionicEye_south</textureSouth>
+							<textureNorth>Things/Pawn/Wounds/BionicEye_south</textureNorth>
+							<textureEast>Things/Pawn/Wounds/BionicEye_east</textureEast>
+							<textureWest>Things/Pawn/Wounds/BionicEye_east</textureWest>
+							<flipWest>true</flipWest>
+							<flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
+							<flipOnRotation>South</flipOnRotation>
+							<scale>0.85</scale>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/FleshTypeDef[defName="Normal"]/hediffWounds/li[hediff="EPIA_TacticalBionicEye"]/wounds</xpath>
+					<value>
+						<li>
+							<textureSouth>Things/Pawn/Wounds/ArchotechEye_south</textureSouth>
+							<textureNorth>Things/Pawn/Wounds/ArchotechEye_south</textureNorth>
+							<textureEast>Things/Pawn/Wounds/ArchotechEye_east</textureEast>
+							<textureWest>Things/Pawn/Wounds/ArchotechEye_east</textureWest>
+							<flipWest>true</flipWest>
+							<flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
+							<flipOnRotation>South</flipOnRotation>
+							<scale>0.85</scale>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</Operation>
+    </caseTrue>
+    <caseFalse>
+		<Operation Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/FleshTypeDef[defName="Normal"]/hediffWounds/li[hediff="BionicEye"]/wounds</xpath>
+					<value>
+						<wounds />
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/FleshTypeDef[defName="Normal"]/hediffWounds/li[hediff="ArchotechEye"]/wounds</xpath>
+					<value>
+						<wounds />
+					</value>
+				</li>
+			</operations>
+		</Operation>
+    </caseFalse>
+</Operation>
+
+</Patch>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>vat.epoeforked</modId>
+    <key>EMP_Toggle</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>
+		<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPIA_AuxiliaryAI_Sharpshooter"]/comps/li[@Class="HediffCompProperties_ReactOnDamage"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPIA_AuxiliaryAI_Commando"]/comps/li[@Class="HediffCompProperties_ReactOnDamage"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPIA_AuxiliaryAI_Brawler"]/comps/li[@Class="HediffCompProperties_ReactOnDamage"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="AIPersonaCore"]/comps/li[@Class="HediffCompProperties_ReactOnDamage"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="EPIA_ProtectiveExoskeleton"]/comps/li[@Class="HediffCompProperties_ReactOnDamage"]</xpath>
+				</li>
+			</operations>
+		</Operation>
+    </caseTrue>
+</Operation>
+
+</Patch>
