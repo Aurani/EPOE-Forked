@@ -8,7 +8,7 @@
   <InstallTacticalCorneaImplant.jobString>전술 각막 이식 중.</InstallTacticalCorneaImplant.jobString>
 
   <RemoveTacticalCorneaImplant.label>전술 각막 제거</RemoveTacticalCorneaImplant.label>
-  <RemoveTacticalCorneaImplant.description>전술 각막을 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveTacticalCorneaImplant.description>
+  <RemoveTacticalCorneaImplant.description>전술 각막을 제거합니다.</RemoveTacticalCorneaImplant.description>
   <RemoveTacticalCorneaImplant.jobString>전술 각막 제거 중.</RemoveTacticalCorneaImplant.jobString>
 
   <!-- Auxiliary AI (construction) -->
@@ -18,7 +18,7 @@
   <InstallConstructorCore.jobString>보조 AI(건설) 설치 중.</InstallConstructorCore.jobString>
 
   <RemoveConstructorCore.label>보조 AI(건설) 제거</RemoveConstructorCore.label>
-  <RemoveConstructorCore.description>보조 AI(건설)을 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveConstructorCore.description>
+  <RemoveConstructorCore.description>보조 AI(건설)을 제거합니다.</RemoveConstructorCore.description>
   <RemoveConstructorCore.jobString>보조 AI(건설) 제거 중.</RemoveConstructorCore.jobString>
 
   <!-- Auxiliary AI (agricultural) -->
@@ -28,7 +28,7 @@
   <InstallFarmerCore.jobString>보조 AI(재배) 설치 중.</InstallFarmerCore.jobString>
 
   <RemoveFarmerCore.label>보조 AI(재배) 제거</RemoveFarmerCore.label>
-  <RemoveFarmerCore.description>보조 AI(재배)를 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveFarmerCore.description>
+  <RemoveFarmerCore.description>보조 AI(재배)를 제거합니다.</RemoveFarmerCore.description>
   <RemoveFarmerCore.jobString>보조 AI(재배) 제거 중.</RemoveFarmerCore.jobString>
 
   <!-- Auxiliary AI (mining) -->
@@ -38,7 +38,7 @@
   <InstallFarmerCore.jobString>보조 AI(채굴) 설치 중.</InstallFarmerCore.jobString>
 
   <RemoveFarmerCore.label>보조 AI(채굴) 제거</RemoveFarmerCore.label>
-  <RemoveFarmerCore.description>보조 AI(채굴)을 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveFarmerCore.description>
+  <RemoveFarmerCore.description>보조 AI(채굴)을 제거합니다.</RemoveFarmerCore.description>
   <RemoveFarmerCore.jobString>보조 AI(채굴) 제거 중.</RemoveFarmerCore.jobString>
 
   <!-- Auxiliary AI (medical) -->
@@ -48,7 +48,7 @@
   <InstallDoctorCore.jobString>보조 AI(의학) 설치 중.</InstallDoctorCore.jobString>
 
   <RemoveDoctorCore.label>보조 AI(의학) 제거</RemoveDoctorCore.label>
-  <RemoveDoctorCore.description>보조 AI(의학)을 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveDoctorCore.description>
+  <RemoveDoctorCore.description>보조 AI(의학)을 제거합니다.</RemoveDoctorCore.description>
   <RemoveDoctorCore.jobString>보조 AI(의학) 제거 중.</RemoveDoctorCore.jobString>
 
   <!-- Auxiliary AI (diplomatic) -->
@@ -58,7 +58,7 @@
   <InstallDiplomatCore.jobString>보조 AI(사교) 설치 중.</InstallDiplomatCore.jobString>
 
   <RemoveDiplomatCore.label>보조 AI(사교) 제거</RemoveDiplomatCore.label>
-  <RemoveDiplomatCore.description>보조 AI(사교)를 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</RemoveDiplomatCore.description>
+  <RemoveDiplomatCore.description>보조 AI(사교)를 제거합니다.</RemoveDiplomatCore.description>
   <RemoveDiplomatCore.jobString>보조 AI(사교) 제거 중.</RemoveDiplomatCore.jobString>
 
   <!-- Auxiliary AI (sharpshooter) -->
@@ -68,7 +68,7 @@
   <EPIA_InstallAuxiliaryAI_Sharpshooter.jobString>보조 AI(저격수) 설치 중.</EPIA_InstallAuxiliaryAI_Sharpshooter.jobString>
 
   <EPIA_RemoveAuxiliaryAI_Sharpshooter.label>보조 AI(저격수) 제거</EPIA_RemoveAuxiliaryAI_Sharpshooter.label>
-  <EPIA_RemoveAuxiliaryAI_Sharpshooter.description>보조 AI(저격수)를 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</EPIA_RemoveAuxiliaryAI_Sharpshooter.description>
+  <EPIA_RemoveAuxiliaryAI_Sharpshooter.description>보조 AI(저격수)를 제거합니다.</EPIA_RemoveAuxiliaryAI_Sharpshooter.description>
   <EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>보조 AI(저격수) 제거 중.</EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>
 
   <!-- Auxiliary AI (commando) -->
@@ -78,7 +78,7 @@
   <EPIA_InstallAuxiliaryAI_Commando.jobString>보조 AI(코만도) 설치 중.</EPIA_InstallAuxiliaryAI_Commando.jobString>
 
   <EPIA_RemoveAuxiliaryAI_Commando.label>보조 AI(코만도) 제거</EPIA_RemoveAuxiliaryAI_Commando.label>
-  <EPIA_RemoveAuxiliaryAI_Commando.description>보조 AI(코만도)를 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</EPIA_RemoveAuxiliaryAI_Commando.description>
+  <EPIA_RemoveAuxiliaryAI_Commando.description>보조 AI(코만도)를 제거합니다.</EPIA_RemoveAuxiliaryAI_Commando.description>
   <EPIA_RemoveAuxiliaryAI_Commando.jobString>보조 AI(코만도) 제거 중.</EPIA_RemoveAuxiliaryAI_Commando.jobString>
 
   <!-- Auxiliary AI (brawler) -->
@@ -88,7 +88,7 @@
   <EPIA_InstallAuxiliaryAI_Brawler.jobString>보조 AI(싸움꾼) 설치 중.</EPIA_InstallAuxiliaryAI_Brawler.jobString>
 
   <EPIA_RemoveAuxiliaryAI_Brawler.label>보조 AI(싸움꾼) 제거</EPIA_RemoveAuxiliaryAI_Brawler.label>
-  <EPIA_RemoveAuxiliaryAI_Brawler.description>보조 AI(싸움꾼)을 제거합니다. 이식물이 복잡하므로, 제거하는 과정에서 이식물의 일부(MA-AI 칩 하나)만을 얻을 수 있습니다.</EPIA_RemoveAuxiliaryAI_Brawler.description>
+  <EPIA_RemoveAuxiliaryAI_Brawler.description>보조 AI(싸움꾼)을 제거합니다.</EPIA_RemoveAuxiliaryAI_Brawler.description>
   <EPIA_RemoveAuxiliaryAI_Brawler.jobString>보조 AI(싸움꾼) 제거 중.</EPIA_RemoveAuxiliaryAI_Brawler.jobString>
 
   <!-- AI persona core -->
