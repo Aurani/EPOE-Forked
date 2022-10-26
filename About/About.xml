@@ -8,6 +8,7 @@
 		<li>1.1</li>
 		<li>1.2</li>
 		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
 	<packageId>vat.epoeforked</packageId>
 	<loadAfter>
@@ -19,14 +20,14 @@
 		<li>Rah.RBSE</li>
 		<li>Rah.RBSEHC</li>
 	</incompatibleWith>
-	<description>Adds the ability to craft tons of prosthesis and artificial organs in various forms and shapes. Version 4.2.4.
+	<description>Adds the ability to craft tons of prosthesis and artificial organs in various forms and shapes. Version 4.3.1.
 
 New option settings available if XML Extension mod is active, available on Steam workshop at:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206
 It comes built in options for Remove workbenches, Allow direct crafting, Direct crafting only and Legacy mode, so you no longer require the add-on modules if you have this active and simply use the mods settings to apply them.
 
 Features:
-* Three prosthetic workbench: Prosthetic workbench, Bionic workbench and Synthetic nano printer.
+* Three prosthetic workbench: Prosthetic workbench (Rimworld 1.3 or older), Bionic workbench and Synthetic nano printer.
 * The workbenches can link up with each other and the Fabrication workbench to improve production speed.
 * Patches for Cyber Fauna and Vanilla Furniture Expanded - Production to allow additional link ups.
 * Two new orbital ship traders: Prosthesis and Textile trader.
