@@ -39,6 +39,12 @@
 				<tooltip>Moves all recipes back to vanilla workbenches, existing workbenches of this mod will remain usable but no longer buildable.</tooltip>
 				<tKeyTip>vat_epoeforked_RemoveWorkbenchTip</tKeyTip>
 			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>ComponentCrafting</key>
+				<defaultValue>false</defaultValue>
+				<label>Remove component crafting from EPOE-Forked workbenches?</label>
+				<tooltip>EPOE-Forked workbenches do have the ability to craft components and advanced components. Ticking this option removes it.</tooltip>
+			</li>
 			<li Class="XmlExtensions.Setting.GapLine" />
 			<li Class="XmlExtensions.Setting.Text">
 				<text>Textures and sprites</text>
@@ -52,26 +58,21 @@
 				<tooltip>Disables EPOE-Forked's textures and revert to vanilla. If you use texture packs for these, ignore this setting.</tooltip>
 				<tKeyTip>vat_epoeforked_VanillaItemTexturesTip</tKeyTip>
 			</li>
-			<li Class="XmlExtensions.Setting.Checkbox">
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Option for toggling vanilla textures for bionic eyes on the face currently disabled until after stable 1.4 is released</text>
+			</li>
+			<!--li Class="XmlExtensions.Setting.Checkbox">
 				<key>VanillaVersionHediffWounds</key>
 				<defaultValue>false</defaultValue>
 				<label>Use vanilla textures for bionic eyes for the face?</label>
 				<tKey>vat_epoeforked_VanillaBionicEyesFace</tKey>
 				<tooltip>The affected eyes are bionic (vanilla), archotech (vanilla), advanced bionic and tactical bionic eye.</tooltip>
 				<tKeyTip>vat_epoeforked_VanillaBionicEyesFaceTip</tKeyTip>
-			</li>
+			</li-->
 			<li Class="XmlExtensions.Setting.GapLine" />
 			<li Class="XmlExtensions.Setting.Text">
 				<text>Miscellaneous options</text>
 				<tKey>vat_epoeforked_OtherOptions</tKey>
-			</li>
-			<li Class="XmlExtensions.Setting.Checkbox">
-				<key>WoodenPartsNeedResearch</key>
-				<defaultValue>false</defaultValue>
-				<label>Remove "Basic Prosthetics" research requirements for wooden prosthesis</label>
-				<tKey>vat_epoeforked_WoodenPartsNeedResearch</tKey>
-				<tooltip>Vanilla does not need any research for wooden prosthetic like peg legs.</tooltip>
-				<tKeyTip>vat_epoeforked_WoodenPartsNeedResearchTip</tKeyTip>
 			</li>
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>OrgansCanRotOption</key>
@@ -80,6 +81,14 @@
 				<tKey>vat_epoeforked_OrgansCanRotOption</tKey>
 				<tooltip>Enables natural organs to have a timer to rot and disappear if not refrigerated.</tooltip>
 				<tKeyTip>vat_epoeforked_OrgansCanRotOptionTip</tKeyTip>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>EMP_Toggle</key>
+				<defaultValue>false</defaultValue>
+				<label>Remove EMP weakness from combat implants added by this mod</label>
+				<tKey>vat_epoeforked_EMP_Toggle</tKey>
+				<tooltip>Pawns with combat based auxiliary AI, protective exoskeleton and AI persona core gets a debuff when hit by EMP, this option removes that weakness.</tooltip>
+				<tKeyTip>vat_epoeforked_EMP_ToggleTip</tKeyTip>
 			</li>
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>OptimizerThoughts_Transhumanists</key>
@@ -110,14 +119,17 @@
 				<text>Experimental features</text>
 				<tKey>vat_epoeforked_experimental</tKey>
 			</li>
-			<li Class="XmlExtensions.Setting.Checkbox">
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Legacy mode disabled due to outright removal of the prosthetic workbench. Reorganisation for it will be done after stable 1.4 is out.</text>
+			</li>
+			<!--li Class="XmlExtensions.Setting.Checkbox">
 				<key>LegacyMode</key>
 				<defaultValue>false</defaultValue>
 				<label>Legacy mode</label>
 				<tKey>vat_epoeforked_LegacyMode</tKey>
 				<tooltip>Legacy version for the production and material cost. Newer updates may make some features feel increasingly inconsistent with legacy version.</tooltip>
 				<tKeyTip>vat_epoeforked_LegacyModeTip</tKeyTip>
-			</li>
+			</li-->
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>OriginalEPOE</key>
 				<defaultValue>true</defaultValue>

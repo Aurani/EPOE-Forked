@@ -13,7 +13,7 @@
 					<defName>TableProsthetics</defName>
 					<label>Original EPOE workbench (debug)</label>
 					<thingClass>Building_WorkTable</thingClass>
-					<description>Leftover migration from original EPOE. Deconstruct or destroy this to obtain a prosthetic workbench and a bionic workbench.</description>
+					<description>Leftover migration from original EPOE. Deconstruct or destroy this to obtain a bionic workbench.</description>
 					<graphicData>
 						<texPath>Things/Building/Production/TableBionics</texPath>
 						<graphicClass>Graphic_Multi</graphicClass>
@@ -29,11 +29,9 @@
 					<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 					<resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
 					<costList>
-						<TableSimpleProsthetic>1</TableSimpleProsthetic>
 						<TableBionics>1</TableBionics>
 					</costList>
 					<killedLeavings>
-						<TableSimpleProsthetic>1</TableSimpleProsthetic>
 						<TableBionics>1</TableBionics>
 					</killedLeavings>
 					<altitudeLayer>Building</altitudeLayer>
