@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallSteelArm.label>Implantar brazo de acero</InstallSteelArm.label>
+	<InstallSteelArm.description>Implantando Brazo de acero.</InstallSteelArm.description>
+
+	<InstallEyePatch.label>Instalar parche</InstallEyePatch.label>
+	<InstallEyePatch.description>Implantando parche.</InstallEyePatch.description>
+
+	<InstallHookHand.label>Instalar gancho para la mano.</InstallHookHand.label>
+	<InstallHookHand.description>Instalando gancho para la mano.</InstallHookHand.description>
+
+	<InstallWoodenFoot.label>Implantar pie de madera</InstallWoodenFoot.label>
+	<InstallWoodenFoot.description>Implantando pie de madera.</InstallWoodenFoot.description>
+
+	<InstallEarBandage.label>Llevar vendaje para oído</InstallEarBandage.label>
+	<InstallEarBandage.description>Llevando vendaje para oído.</InstallEarBandage.description>
+
+</LanguageData>

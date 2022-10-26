@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateSteelArm.label>Crear Brazo de acero</CreateSteelArm.label>
+	<CreateSteelArm.description>Crea un brazo de acero con acero.</CreateSteelArm.description>
+
+	<CreateEyePatch.label>Crear Parche</CreateEyePatch.label>
+	<CreateEyePatch.description>Crea un parche para el ojo con tela.</CreateEyePatch.description>
+
+	<CreateHookHand.label>Crear Gancho para Mano</CreateHookHand.label>
+	<CreateHookHand.description>Permite adaptar un gancho para mano de tela y metal.</CreateHookHand.description>
+
+	<CreateDenture.label>Crear dentadura</CreateDenture.label>
+	<CreateDenture.description>Fabrica una dentadura barata de madera. Fácil de hacer.</CreateDenture.description>
+
+	<CreateWoodenFoot.label>Crear pie de madera</CreateWoodenFoot.label>
+	<CreateWoodenFoot.description>Corta la madera en forma de pie.</CreateWoodenFoot.description>
+
+	<CreatePegLeg.label>Crear pierna de madera</CreatePegLeg.label>
+	<CreatePegLeg.description>Contruye una simple prótesis de madera para la pierna.</CreatePegLeg.description>
+
+	<CreateEarBandage.label>Crear vendaje de oído</CreateEarBandage.label>
+	<CreateEarBandage.description>Adapta un vendaje para el oído de tela.</CreateEarBandage.description>
+
+</LanguageData>

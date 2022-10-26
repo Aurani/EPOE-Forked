@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Leg.label>Pierna</Leg.label>
+	<Leg.description>Básicamente bastones largos de carne que le permiten moverse.</Leg.description>
+
+	<Arm.label>Brazo</Arm.label>
+	<Arm.description>Los brazos son como piernas, excepto que puedes llevar cosas con ellos.</Arm.description>
+
+	<Stomach.label>Estómago</Stomach.label>
+	<Stomach.description>Digiere la comida y la convierte nutrientes en energía.</Stomach.description>
+
+	<Eye.label>Ojo</Eye.label>
+	<Eye.description>Absorbe la luz, lo que permite a una persona saber lo que está a su alrededor.</Eye.description>
+
+	<Nose.label>Nariz</Nose.label>
+	<Nose.description>Un órgano muy útil para distinguir los olores, aplica el toque final a una cara.</Nose.description>
+
+	<Ear.label>Oído</Ear.label>
+	<Ear.description>Recoge las vibraciones en el aire, permitiendo a la gente escuchar el sonido.</Ear.description>
+
+	<Jaw.label>Mandíbula</Jaw.label>
+	<Jaw.description>Un buen conjunto de dientes para masticar comida y hablar.</Jaw.description>
+
+</LanguageData>

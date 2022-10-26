@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallAdvancedPowerArm.label>Implantar brazo de poder avanzado</InstallAdvancedPowerArm.label>
+	<InstallAdvancedPowerArm.description>Implantando brazo de poder avanzado.</InstallAdvancedPowerArm.description>
+
+	<InstallAdvancedBionicArm.label>Implantar brazo biónico avanzado</InstallAdvancedBionicArm.label>
+	<InstallAdvancedBionicArm.description>Implantando brazo biónico avanzado.</InstallAdvancedBionicArm.description>
+
+	<InstallAdvancedBionicLeg.label>Implantar pierna biónica avanzada</InstallAdvancedBionicLeg.label>
+	<InstallAdvancedBionicLeg.description>Implantando pierna biónica avanzada.</InstallAdvancedBionicLeg.description>
+
+	<InstallAdvancedBionicHand.label>Implantar mano biónica avanzada</InstallAdvancedBionicHand.label>
+	<InstallAdvancedBionicHand.description>Implantando mano biónica avanzada.</InstallAdvancedBionicHand.description>
+
+	<InstallAdvancedBionicFoot.label>Implantar pie biónico avanzado</InstallAdvancedBionicFoot.label>
+	<InstallAdvancedBionicFoot.description>Implantando pie biónico avanzado.</InstallAdvancedBionicFoot.description>
+
+	<InstallAdvancedBionicEye.label>Implantar ojo biónico avanzado</InstallAdvancedBionicEye.label>
+	<InstallAdvancedBionicEye.description>Implantando ojo biónico avanzado.</InstallAdvancedBionicEye.description>
+
+	<InstallAdvancedBionicEar.label>Implantar oído biónico avanzado</InstallAdvancedBionicEar.label>
+	<InstallAdvancedBionicEar.description>Implantando oído biónico avanzado.</InstallAdvancedBionicEar.description>
+
+	<InstallAdvancedBionicJaw.label>Implantar mandíbula biónica avanzada</InstallAdvancedBionicJaw.label>
+	<InstallAdvancedBionicJaw.description>Implantando mandíbula biónica avanzada.</InstallAdvancedBionicJaw.description>
+
+	<InstallAdvancedBionicSpine.label>Implantar columna vertebral biónica avanzada</InstallAdvancedBionicSpine.label>
+	<InstallAdvancedBionicSpine.description>Implantando columna vertebral biónica avanzada.</InstallAdvancedBionicSpine.description>
+</LanguageData>

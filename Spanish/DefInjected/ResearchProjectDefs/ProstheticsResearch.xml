@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<BasicProsthetics.label>Prótesis básicas</BasicProsthetics.label>
+	<BasicProsthetics.description>Estudia la forma de una pierna y combina ese conocimiento con la carpintería básica, podrás crear piernas de clavija y otras prótesis básicas.</BasicProsthetics.description>
+
+	<SimpleProsthetics.label>Prótesis simples</SimpleProsthetics.label>
+	<SimpleProsthetics.description>Los estudios avanzados en anatomía y las pruebas en el metal te permitirán construir prótesis sencillas.</SimpleProsthetics.description>
+	
+	<Bionics.label>Biónica</Bionics.label>
+	<Bionics.description>Estudia el concepto de motores y pequeños circuitos, con esto se abren nuevas posibilidades de mejores prótesis.</Bionics.description>
+	
+	<VancidiumRefineryTech.label>Vancidium y componentes avanzados</VancidiumRefineryTech.label>
+	<VancidiumRefineryTech.description>Estudia la combinación de materiales al azar para descubrir cómo crear un material muy ligero, pero fuerte que podría ser utilizado para la elaboracion de prótesis más avanzadas. Podrás fabricar vancidium en la fundición eléctrica y también montar componentes avanzados en el banco de ensamblaje de componentes.</VancidiumRefineryTech.description>
+
+	<AdvancedBionics.label>Biónica avanzada</AdvancedBionics.label>
+	<AdvancedBionics.description>Actualiza la biónica regular con vancidium para hacer prótesis aún mejores.</AdvancedBionics.description>
+	
+	<SurrogateOrgans.label>Órganos sustitutos</SurrogateOrgans.label>
+    <SurrogateOrgans.description>Gana mayor conocimiento médico, elabora órganos sustitutos simples para reemplazar los desaparecidos, ahora es posible.</SurrogateOrgans.description>
+
+	<SyntheticOrgans.label>Órganos sinteticos</SyntheticOrgans.label>
+    <SyntheticOrgans.description>La investigación en nanotecnología te permite crear órganos artificiales increíblemente bien diseñados en la estación de actualización.</SyntheticOrgans.description>
+	
+	<RibReplacements.label>Sustitución de costillas</RibReplacements.label>
+	<RibReplacements.description>Descubre el concepto de pequeños dispensadores, podrás ponerlos en costillas. Con esto puedes diseñar e instalar implantes de costilla.</RibReplacements.description>
+
+	<BrainSurgery.label>Cirugía cerebral</BrainSurgery.label>
+	<BrainSurgery.description>Te permite realizar una cirugía en el cerebro.</BrainSurgery.description>
+
+</LanguageData>

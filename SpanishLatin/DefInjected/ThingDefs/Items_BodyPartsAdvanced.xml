@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<AdvancedBionicHand.label>Mano biónica avanzada</AdvancedBionicHand.label>
+	<AdvancedBionicHand.description>Algunas personas cortarían sus propias manos para conseguir este pedazo magnífico de tecnología.</AdvancedBionicHand.description>
+	
+	<AdvancedBionicFoot.label>Pie biónico avanzado</AdvancedBionicFoot.label>
+	<AdvancedBionicFoot.description>Docenas de servomotores garantizan un movimiento mas rapido y una maxima comodidad.</AdvancedBionicFoot.description>
+	
+	<AdvancedBionicEar.label>Oído biónico avanzado</AdvancedBionicEar.label>
+	<AdvancedBionicEar.description>Este dispositivo permite al usuario oír mejor que los murciélagos.</AdvancedBionicEar.description>
+	
+	<AdvancedBionicJaw.label>Mandíbula biónica avanzada</AdvancedBionicJaw.label>
+	<AdvancedBionicJaw.description>La voz que crea esta mandíbula es tan hermosa que hasta algunos mecanoides se detienen a escuchar este sonido.</AdvancedBionicJaw.description>
+	
+	<AdvancedBionicSpine.label>Columna vertebral biónica avanzada</AdvancedBionicSpine.label>
+	<AdvancedBionicSpine.description>Este dispositivo duradero apoya la parte posterior y hace la coordinación y el caminar mucho más fáciles.</AdvancedBionicSpine.description>
+
+	<AdvancedPowerArm.label>Brazo de poder avanzado</AdvancedPowerArm.label>
+	<AdvancedPowerArm.description>Fuerza y destreza aún más inigualables, y con unas garras afiladas y retractiles. ¡Esta es la última actualización del brazo!</AdvancedPowerArm.description>
+
+	<AdvancedBionicArm.label>Brazo biónico avanzado</AdvancedBionicArm.label>
+	<AdvancedBionicArm.description>¿Recuerdas cuando te esforzabas abriendo frascos? Con esto te esforzaras para no romperlos al instante.</AdvancedBionicArm.description>
+
+	<AdvancedBionicLeg.label>Pierna biónica avanzada</AdvancedBionicLeg.label>
+	<AdvancedBionicLeg.description>La impresionante tecnología permite al usuario moverse mas rápido que nunca.</AdvancedBionicLeg.description>
+
+	<AdvancedBionicEye.label>Ojo biónico avanzado</AdvancedBionicEye.label>
+	<AdvancedBionicEye.description>Esta pieza avanzada de la tecnología permite al usuario ver perfectamente en la oscuridad, así como para ver a través de las paredes.</AdvancedBionicEye.description>
+
+</LanguageData>

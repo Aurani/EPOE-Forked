@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateAIChip.label>Crear Chip IA</CreateAIChip.label>
+	<CreateAIChip.description>Crea un chip IA. Necesita oro y componentes avanzados para circuitería de la más alta calidad.</CreateAIChip.description>
+
+	<CreateJoywire.label>Crear JoyWire</CreateJoywire.label>
+	<CreateJoywire.description>Crea un joywire. Necesita oro y componentes avanzados para circuitería de la más alta calidad.</CreateJoywire.description>
+
+	<CreatePainstopper.label>Crear Painstopper</CreatePainstopper.label>
+	<CreatePainstopper.description>Crea un implante painstopper. Necesita oro y componentes avanzados para circuitería de la más alta calidad.</CreatePainstopper.description>
+
+	<CreateSyntheticLung.label>Crear pulmón sintético</CreateSyntheticLung.label>
+	<CreateSyntheticLung.description>Crea un pulmón sintético de hipertejido y componentes avanzados, con sus correspondientes partes sustitutas.</CreateSyntheticLung.description>
+
+	<CreateSyntheticStomach.label>Crear estómago sintético</CreateSyntheticStomach.label>
+	<CreateSyntheticStomach.description>Crea un estómago sintético de hipertejido y componentes avanzados, con sus correspondientes partes sustitutas.</CreateSyntheticStomach.description>
+
+	<CreateSyntheticLiver.label>Crear hígado sintético</CreateSyntheticLiver.label>
+	<CreateSyntheticLiver.description>Crea un hígado sintético de hipertejido y componentes avanzados, con sus correspondientes partes sustitutas.</CreateSyntheticLiver.description>
+
+	<CreateSyntheticKidney.label>Crear riñón sintético</CreateSyntheticKidney.label>
+	<CreateSyntheticKidney.description>Crea un riñón sintético de hipertejido y componentes avanzados, con sus correspondientes partes sustitutas.</CreateSyntheticKidney.description>
+
+	<CreateSyntheticHeart.label>Crear corazón sintético</CreateSyntheticHeart.label>
+	<CreateSyntheticHeart.description>Crea un corazón sintético de hipertejido y componentes avanzados, con sus correspondientes partes sustitutas.</CreateSyntheticHeart.description>
+
+	<CreateSyntheticSkin.label>Crear piel sintética</CreateSyntheticSkin.label>
+	<CreateSyntheticSkin.description>Crea piel sintética de tela de hipertejido y piel de humano.</CreateSyntheticSkin.description>
+</LanguageData>

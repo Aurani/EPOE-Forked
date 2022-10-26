@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<InstallNaturalEye.label>Implantar ojo</InstallNaturalEye.label>
+	<InstallNaturalEye.description>Implanta ojo.</InstallNaturalEye.description>
+
+	<InstallNaturalNose.label>Implantar nariz</InstallNaturalNose.label>
+	<InstallNaturalNose.description>Implanta nariz.</InstallNaturalNose.description>
+
+	<InstallNaturalEar.label>Implantar oído</InstallNaturalEar.label>
+	<InstallNaturalEar.description>Implanta oído.</InstallNaturalEar.description>
+
+	<InstallNaturalJaw.label>Implantar mandíbula</InstallNaturalJaw.label>
+	<InstallNaturalJaw.description>Implanta mandíbula.</InstallNaturalJaw.description>
+
+	<InstallNaturalArm.label>Implantar brazo</InstallNaturalArm.label>
+	<InstallNaturalArm.description>Implanta brazo.</InstallNaturalArm.description>
+
+	<InstallNaturalLeg.label>Implantar pierna</InstallNaturalLeg.label>
+	<InstallNaturalLeg.description>Implanta pierna.</InstallNaturalLeg.description>
+
+	<InstallNaturalStomach.label>Implantar estómago</InstallNaturalStomach.label>
+	<InstallNaturalStomach.description>Implanta estómago.</InstallNaturalStomach.description>
+
+</LanguageData>

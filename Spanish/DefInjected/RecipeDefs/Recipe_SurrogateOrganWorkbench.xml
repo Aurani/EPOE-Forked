@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<CreateBrainStimulator.label>Estimulador cerebral</CreateBrainStimulator.label>
+	<CreateBrainStimulator.description>Crea un estimulador cerebral simple de componentes, plastiacero y tela.</CreateBrainStimulator.description>
+
+	<CreateSurrogateLung.label>Pulmón sustituto</CreateSurrogateLung.label>
+	<CreateSurrogateLung.description>Crea un pulmón artificial de tela, plastiacero y componentes.</CreateSurrogateLung.description>
+
+	<CreateSurrogateStomach.label>Estómago sustituto</CreateSurrogateStomach.label>
+	<CreateSurrogateStomach.description>Crea un estómago artificial de tela, plastiacero y componentes.</CreateSurrogateStomach.description>
+
+	<CreateSurrogateLiver.label>Hígado sustituto</CreateSurrogateLiver.label>
+	<CreateSurrogateLiver.description>Crea un hígado artificial de tela, plastiacero y componentes.</CreateSurrogateLiver.description>
+
+	<CreateSurrogateKidney.label>Riñón sustituto</CreateSurrogateKidney.label>
+	<CreateSurrogateKidney.description>Crea un riñón artificial de tela, plastiacero y componentes.</CreateSurrogateKidney.description>
+
+	<CreateSurrogateHeart.label>Corazón sustituto</CreateSurrogateHeart.label>
+	<CreateSurrogateHeart.description>Crea un corazón artificial de tela, plastiacero y componentes.</CreateSurrogateHeart.description>
+
+</LanguageData>

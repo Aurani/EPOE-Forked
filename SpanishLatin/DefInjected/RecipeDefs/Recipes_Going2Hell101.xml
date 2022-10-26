@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MinceOrgans.label>Picar organos</MinceOrgans.label>
+	<MinceOrgans.description>Pica organos humanos para obtener carne comestible. Comida perfecta para prisioneros.</MinceOrgans.description>
+
+	<MinceLimbs.label>Picar extremidades</MinceLimbs.label>
+	<MinceLimbs.description>Pica extremidades humanas para obtener carne comestible. Cuidado con las uñas de los pies.</MinceLimbs.description>
+
+</LanguageData>

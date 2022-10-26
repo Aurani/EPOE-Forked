@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+		
+	<GoldenEye.label>Ojo de oro</GoldenEye.label>
+	<GoldenEye.description>Reemplaza los ojos que faltan. Tan increíblemente hermoso que es una lástima que no te puedas ver en el espejo.</GoldenEye.description>
+	
+	<ArtificialNose.label>Nariz artificial</ArtificialNose.label>
+	<ArtificialNose.description>Reemplaza una nariz que falta. Cubre el agujero en la cara.</ArtificialNose.description>
+
+	<ArtificialPelvis.label>Pelvis artificial</ArtificialPelvis.label>
+	<ArtificialPelvis.description>Reemplaza una pelvis que falta. Bastante útil si gatear no es su forma favorita de moverse.</ArtificialPelvis.description>
+	
+	<SimpleProstheticHand.label>Mano prostética simple</SimpleProstheticHand.label>
+	<SimpleProstheticHand.description>Reemplaza las manos que faltan. Manera mas comoda y menos espantosa que la mano del gancho.</SimpleProstheticHand.description>
+	
+	<SimpleProstheticFoot.label>Pie prostético simple</SimpleProstheticFoot.label>
+	<SimpleProstheticFoot.description>Reemplaza los pies que faltan. No es tan barato como un tronco de madera.</SimpleProstheticFoot.description>
+
+	<HydraulicJaw.label>Mandíbula hidráulica</HydraulicJaw.label>
+	<HydraulicJaw.description>Reemplaza una mandíbula que falta. Tenga cuidado con los dientes, ¡son extremadamente eficientes!</HydraulicJaw.description>
+
+</LanguageData>

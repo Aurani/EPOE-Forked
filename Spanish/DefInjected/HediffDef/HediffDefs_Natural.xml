@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+		
+	<Stomach.label>Estómago</Stomach.label>
+	<Heart.label>Corazón</Heart.label>
+	<Nose.label>Nariz</Nose.label>
+	<Leg.label>Pierna</Leg.label>
+	<Arm.label>Brazo</Arm.label>
+	<Jaw.label>Mandíbula</Jaw.label>
+	<Eye.label>Ojo</Eye.label>
+	
+</LanguageData>
