@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/HediffDef[defName="PegLeg"]/defaultLabelColor</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/HediffDef[defName="PegLeg"]</xpath>
+					<value>
+						<defaultLabelColor>(148,117,14)</defaultLabelColor>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/HediffDef[defName="WoodenHand"]/defaultLabelColor</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/HediffDef[defName="WoodenHand"]</xpath>
+					<value>
+						<defaultLabelColor>(148,117,14)</defaultLabelColor>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/HediffDef[defName="WoodenFoot"]/defaultLabelColor</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/HediffDef[defName="WoodenFoot"]</xpath>
+					<value>
+						<defaultLabelColor>(148,117,14)</defaultLabelColor>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/HediffDef[defName="Denture"]/defaultLabelColor</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/HediffDef[defName="Denture"]</xpath>
+					<value>
+						<defaultLabelColor>(148,117,14)</defaultLabelColor>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="WoodenFoot"]/addedPartProps/partEfficiency</xpath>
+				<value>
+					<partEfficiency>0.6</partEfficiency>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/HediffDef[defName="Denture"]/addedPartProps/partEfficiency</xpath>
+				<value>
+					<partEfficiency>0.6</partEfficiency>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

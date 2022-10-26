@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraderKindDef>
+		<defName>TextilesTrader</defName>
+		<label>textiles trader</label>
+		<orbital>true</orbital>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>2000~4000</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Apparel</categoryDef>
+				<thingDefCountRange>3~6</thingDefCountRange>
+				<countRange>1~5</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Hyperweave</thingDef>
+				<price>Normal</price>
+				<countRange>40~120</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Synthread</thingDef>
+				<price>Normal</price>
+				<countRange>50~150</countRange>
+			</li>   
+			<li Class="StockGenerator_Category">
+				<categoryDef>Textiles</categoryDef>
+				<thingDefCountRange>10~25</thingDefCountRange>
+				<price>Cheap</price>
+				<totalPriceRange>1400~2800</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>

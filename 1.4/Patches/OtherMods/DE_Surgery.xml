@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[1.2] DE Surgeries</li>
+			<li>DE Surgeries</li>
+			<li>DE Surgeries Hard</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/RecipeDef[defName="CureInjuryBurn" or
+				defName="CureInjuryChemicalBurn" or
+				defName="CureInjuryCrush" or
+				defName="CureInjuryCrack" or
+				defName="CureInjuryCut" or
+				defName="CureInjurySurgicalCut" or
+				defName="CureInjuryScratch" or
+				defName="CureInjuryBite" or
+				defName="CureInjuryStab" or
+				defName="CureInjuryGunshot" or
+				defName="CureInjuryShredded" or
+				defName="CureInjuryBruise" or
+				defName="CureInjuryFrostbite" or
+				defName="CureChronicFrail" or
+				defName="CureChronicBadBack" or
+				defName="RepairBonesClavicle" or
+				defName="RepairBonesPelvis" or
+				defName="RepairBonesSternum" or
+				defName="CureChronicDementia" or
+				defName="CureChronicAlzheimers"]</xpath>
+			<value>
+				<factionPrerequisiteTags>
+					<li>EPOE_Redundancy</li>
+				</factionPrerequisiteTags>
+				<recipeUsers Inherit="False" />
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

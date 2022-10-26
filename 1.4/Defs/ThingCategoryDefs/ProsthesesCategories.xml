@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+      <defName>EPIA_OrganicOptimizer</defName>
+      <label>organic optimizer</label>
+      <parent>BodyParts</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EPOE_Redundancy</defName>
+      <label>EPOE redundancy</label>
+      <parent>BodyParts</parent>
+    </ThingCategoryDef>
+
+	<!-- Won't see if nothing exists in the list -->
+
+    <ThingCategoryDef>
+      <defName>EPIA_TailRedundancy</defName>
+      <label>alien tails (original)</label>
+      <parent>EPOE_Redundancy</parent>
+    </ThingCategoryDef>
+
+</Defs>

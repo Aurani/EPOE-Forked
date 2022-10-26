@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- These items change behaviour depending if Royalty DLC is present or not -->
+
+	<!-- Vanilla overwrites, but easier to read and manage. -->
+
+	<!-- Joywire -->
+
+	<ThingDef ParentName="EPIASyntheticBase">
+		<defName>Joywire</defName>
+		<label>joywire</label>
+		<description>A brain implant that stimulates the brain's pleasure centers. While it dramatically improves a user's mood, the blanket of happiness makes it hard to concentrate on anything real. Joywires are illegal on many worlds, and are known for destroying whole cultures.</description>
+		<descriptionHyperlinks><RecipeDef>InstallJoywire</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Gold>1</Gold>
+			<Silver>3</Silver>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>BodyPartsUltra</li>
+		</thingCategories>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveJoywire</defName>
+		<label>remove joywire</label>
+		<description>Remove the joywire.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Joywire</ThingDef>
+			<HediffDef>Joywire</HediffDef>
+		</descriptionHyperlinks>
+		<skillRequirements>
+			<Medicine>13</Medicine>
+		</skillRequirements>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<jobString>Removing joywire.</jobString>
+		<removesHediff>Joywire</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Painstopper -->
+
+	<ThingDef ParentName="EPIASyntheticBase">
+		<defName>Painstopper</defName>
+		<label>painstopper</label>
+		<description>A brain implant which inhibits nociception, or pain sensation. While it does allow the user to accomplish more, it turns out pain has a purpose. When you don't feel it, you can get hurt really bad really easily.</description>
+		<descriptionHyperlinks><RecipeDef>InstallPainstopper</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Gold>1</Gold>
+			<Silver>3</Silver>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>		
+		<statBases>
+			<Mass>0.1</Mass>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>BodyPartsUltra</li>
+		</thingCategories>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemovePainstopper</defName>
+		<label>remove painstopper</label>
+		<description>Remove the painstopper.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Painstopper</ThingDef>
+			<HediffDef>Painstopper</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing painstopper.</jobString>
+		<removesHediff>Painstopper</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Power claw -->
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>PowerClaw</defName>
+		<label>power claw</label>
+		<description>A combat-oriented hand replacement consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks, however its overall ungainlyness slows down movement slightly.</description>
+		<descriptionHyperlinks><RecipeDef>InstallPowerClaw</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPIA_ScytherBlade>3</EPIA_ScytherBlade>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<statBases>
+			<Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- New EPOE body parts -->
+
+	<!-- Power arm -->
+
+	<HediffDef ParentName="addedPartBionics">
+		<defName>PowerArm</defName>
+		<label>power arm</label>
+		<labelNoun>a power arm</labelNoun>
+		<description>An installed power arm.</description>
+		<descriptionHyperlinks><ThingDef>PowerArm</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>PowerArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.15</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>claw</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>22</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>Pawn_Melee_PowerClaw_Hit</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_PowerClaw_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_UpgradeBodyPartBionicBase">
+		<defName>PowerArm</defName>
+		<label>power arm</label>
+		<description>A combat-oriented arm replacement consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks.</description>
+		<descriptionHyperlinks><RecipeDef>InstallPowerArm</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPIA_ScytherBlade>3</EPIA_ScytherBlade>
+			<Plasteel>35</Plasteel>
+			<ComponentSpacer>7</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>6</Mass>
+			<WorkToMake>66000</WorkToMake>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeBionic">
+		<defName>CreatePowerArm</defName>
+		<label>assemble power arm</label>
+		<description>Upgrade power claw into power arm.</description>
+		<descriptionHyperlinks><ThingDef>PowerArm</ThingDef></descriptionHyperlinks>
+		<jobString>Upgrading power claw.</jobString>
+		<products>
+			<PowerArm>1</PowerArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PowerClaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BionicArm</li>
+				<li>PowerClaw</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallPowerArm</defName>
+		<label>install power arm</label>
+		<description>Installs power arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>PowerArm</ThingDef>
+			<HediffDef>PowerArm</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing power arm.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PowerArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PowerArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>PowerArm</addsHediff>
+	</RecipeDef>
+
+	<!-- Advanced power arm -->
+
+	<HediffDef ParentName="addedPartAdvanced">
+		<defName>AdvancedPowerArm</defName>
+		<label>advanced power arm</label>
+		<labelNoun>an advanced power arm</labelNoun>
+		<description>An installed advanced power arm.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedPowerArm</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>AdvancedPowerArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>claw</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>25</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>Pawn_Melee_PowerClaw_Hit</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_PowerClaw_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIA_UpgradeBodyPartAdvancedBionicBase">
+		<defName>AdvancedPowerArm</defName>
+		<label>advanced power arm</label>
+		<description>A ultra advanced combat-oriented arm replacement consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks.</description>
+		<descriptionHyperlinks><RecipeDef>InstallAdvancedPowerArm</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPIA_ScytherBlade>3</EPIA_ScytherBlade>
+			<Plasteel>40</Plasteel>
+			<ComponentSpacer>9</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>5</Mass>
+			<WorkToMake>80000</WorkToMake>
+		</statBases>
+		<techHediffsTags>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIA_RecipeUpgradeAdvanced">
+		<defName>CreateAdvancedPowerArm</defName>
+		<label>assemble advanced power arm</label>
+		<description>Upgrade bionic power arm into advanced bionic power arm.</description>
+		<descriptionHyperlinks><ThingDef>AdvancedPowerArm</ThingDef></descriptionHyperlinks>
+		<jobString>Upgrading power arm.</jobString>
+		<products>
+			<AdvancedPowerArm>1</AdvancedPowerArm>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PowerArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PowerArm</li>
+				<li>Plasteel</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="EPIASurgeryAdvancedBionic">
+		<defName>InstallAdvancedPowerArm</defName>
+		<label>install advanced power arm</label>
+		<description>Installs advanced power arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>AdvancedPowerArm</ThingDef>
+			<HediffDef>AdvancedPowerArm</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing advanced power arm.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvancedPowerArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvancedPowerArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>AdvancedPowerArm</addsHediff>
+	</RecipeDef>
+
+</Defs>

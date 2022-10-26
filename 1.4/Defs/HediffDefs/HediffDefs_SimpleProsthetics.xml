@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HediffDef Name="addedPartSimple" ParentName="AddedBodyPartBase" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(102,178,255)</defaultLabelColor>
+		<priceImpact>true</priceImpact>
+	</HediffDef>
+
+	<!-- Vanilla overwrites, for now. -->
+
+	<!-- Prosthetic leg -->
+	
+	<HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticLeg</defName>
+		<label>prosthetic leg</label>
+		<labelNoun>a prosthetic leg</labelNoun>
+		<description>An installed prosthetic leg.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticLeg</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticLeg</defName>
+		<label>prosthetic leg</label>
+		<description>A leg prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real leg.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticLeg</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>8</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- Prosthetic arm -->
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticArm</defName>
+		<label>prosthetic arm</label>
+		<labelNoun>a prosthetic arm</labelNoun>
+		<description>An installed prosthetic arm.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticArm</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>8.2</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticArm</defName>
+		<label>prosthetic arm</label>
+		<description>An arm prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real arm.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticArm</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- Cochlear implant -->
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>CochlearImplant</defName>
+		<label>cochlear implant</label>
+		<labelNoun>a cochlear implant</labelNoun>
+		<description>An installed cochlear implant.</description>
+		<descriptionHyperlinks><ThingDef>CochlearImplant</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>CochlearImplant</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.80</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>CochlearImplant</defName>
+		<label>cochlear implant</label>
+		<description>An implant which replaces normal hearing. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf.</description>
+		<descriptionHyperlinks><RecipeDef>InstallCochlearImplant</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+		  <Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags>
+		  <li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<!-- New EPOE body parts -->
+
+	<!-- Golden eye -->
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>GoldenEye</defName>
+		<label>golden eye</label>
+		<description>An installed golden eye.</description>
+		<descriptionHyperlinks><ThingDef>GoldenEye</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>GoldenEye</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>		  
+				<statOffsets>
+					<SocialImpact>0.10</SocialImpact>
+					<TradePriceImprovement>0.10</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>GoldenEye</defName>
+		<label>golden eye</label>
+		<description>An eye prosthesis made out of gold. An exorbitant way to cover up a missing eye.</description>
+		<descriptionHyperlinks><RecipeDef>InstallGoldenEye</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Gold>1</Gold>
+		</costList>
+		<statBases>
+			<WorkToMake>1500</WorkToMake>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallGoldenEye</defName>
+		<label>install golden eye</label>
+		<description>Installs golden eye.</description>
+		<descriptionHyperlinks>
+			<ThingDef>GoldenEye</ThingDef>
+			<HediffDef>GoldenEye</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing golden eye.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GoldenEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GoldenEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>GoldenEye</addsHediff>
+	</RecipeDef>
+
+	<!-- Light receptor -->
+	
+	<HediffDef ParentName="addedPartSimple">
+		<defName>LightReceptor</defName>
+		<label>light receptor</label>
+		<description>An installed light receptor.</description>
+		<descriptionHyperlinks><ThingDef>LightReceptor</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>LightReceptor</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>LightReceptor</defName>
+		<label>light receptor</label>
+		<description>An eye prosthesis. The optic nerves recieve stimulation from the light sensors and signal processors, creating a sensation of vision. It's not as good as a natural eye, but it's a lot better than being blind.</description>
+		<descriptionHyperlinks><RecipeDef>InstallLightReceptor</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>25</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallLightReceptor</defName>
+		<label>install light receptor</label>
+		<description>Installs light receptor.</description>
+		<descriptionHyperlinks>
+			<ThingDef>LightReceptor</ThingDef>
+			<HediffDef>LightReceptor</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing light receptor.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>LightReceptor</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>LightReceptor</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>LightReceptor</addsHediff>
+	</RecipeDef>
+	
+	<!-- Simple spine replacement -->
+	
+	<HediffDef ParentName="addedPartSimple">
+		<defName>SimpleSpine</defName>
+		<label>replacement spine</label>
+		<description>An installed simple replacement spine.</description>
+		<descriptionHyperlinks><ThingDef>SimpleSpine</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleSpine</defName>
+		<label>replacement spine</label>
+		<description>A spine prosthesis. Highly advanced for its time, can be considered as an early bionic prototype with the first sophisticated application of neural interface in a prosthesis. Still, it is inferior to a real spine.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleSpine</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+		  <Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+		  <li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSimpleSpine</defName>
+		<label>install replacement spine</label>
+		<description>Installs a replacement spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleSpine</ThingDef>
+			<HediffDef>SimpleSpine</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing a replacement spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleSpine</addsHediff>
+	</RecipeDef>
+
+	<!-- Prosthetic hand -->
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticHand</defName>
+		<label>prosthetic hand</label>
+		<description>An installed prosthetic hand.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticHand</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticHand</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>8.2</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticHand</defName>
+		<label>prosthetic hand</label>
+		<description>A hand prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real hand.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticHand</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>25</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSimpleProstheticHand</defName>
+		<label>install prosthetic hand</label>
+		<description>Installs a prosthetic hand.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticHand</ThingDef>
+			<HediffDef>SimpleProstheticHand</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic hand.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticHand</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticHand</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticHand</addsHediff>
+	</RecipeDef>
+
+	<!-- Prosthetic foot -->
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticFoot</defName>
+		<label>prosthetic foot</label>
+		<description>An installed prosthetic foot.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticFoot</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticFoot</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticFoot</defName>
+		<label>prosthetic foot</label>
+		<description>A foot prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real foot.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticFoot</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>25</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSimpleProstheticFoot</defName>
+		<label>install prosthetic foot</label>
+		<description>Installs a prosthetic foot.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticFoot</ThingDef>
+			<HediffDef>SimpleProstheticFoot</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic foot.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticFoot</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticFoot</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Foot</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticFoot</addsHediff>
+	</RecipeDef>
+
+	<!-- Prosthetic finger -->
+
+   <HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticFinger</defName>
+		<label>prosthetic finger</label>
+		<labelNoun>a prosthetic finger</labelNoun>
+		<description>An installed prosthetic finger.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticFinger</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticFinger</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticFinger</defName>
+		<label>prosthetic finger</label>
+		<description>Archaic and crude replacement for lost fingers. Not terribly efficient and certainly not comfortable, but gets the job done.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticFinger</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>5</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSimpleProstheticFinger</defName>
+		<label>install prosthetic finger</label>
+		<description>Installs prosthetic finger.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticFinger</ThingDef>
+			<HediffDef>SimpleProstheticFinger</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic finger.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticFinger</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticFinger</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Finger</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticFinger</addsHediff>
+	</RecipeDef>
+
+	<!-- Prosthetic toe -->
+
+   <HediffDef ParentName="addedPartSimple">
+		<defName>SimpleProstheticToe</defName>
+		<label>prosthetic toe</label>
+		<labelNoun>a prosthetic toe</labelNoun>
+		<description>An installed prosthetic toe.</description>
+		<descriptionHyperlinks><ThingDef>SimpleProstheticToe</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>SimpleProstheticToe</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>SimpleProstheticToe</defName>
+		<label>prosthetic toe</label>
+		<description>Archaic and crude replacement for lost toes. Inefficient and uncomfortable, they generate a lot of noise while walking, but they get the job done.</description>
+		<descriptionHyperlinks><RecipeDef>InstallSimpleProstheticToe</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>5</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>0.1</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallSimpleProstheticToe</defName>
+		<label>install prosthetic toe</label>
+		<description>Installs prosthetic toe.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SimpleProstheticToe</ThingDef>
+			<HediffDef>SimpleProstheticToe</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing prosthetic toe.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticToe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SimpleProstheticToe</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Toe</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticToe</addsHediff>
+	</RecipeDef>
+
+	<!-- Hydraulic jaw -->
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>HydraulicJaw</defName>
+		<label>hydraulic jaw</label>
+		<description>An installed hydraulic jaw.</description>
+		<descriptionHyperlinks><ThingDef>HydraulicJaw</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>HydraulicJaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>teeth</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>9.2</power>
+						<cooldownTime>2</cooldownTime>
+						<chanceFactor>0.07</chanceFactor>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>HydraulicJaw</defName>
+		<label>hydraulic jaw</label>
+		<description>A jaw prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Food is crushed and chewed more efficiently, but the finer details of speaking is slightly lacking.</description>
+		<descriptionHyperlinks><RecipeDef>InstallHydraulicJaw</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>25</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallHydraulicJaw</defName>
+		<label>install hydraulic jaw</label>
+		<description>Installs hydraulic jaw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>HydraulicJaw</ThingDef>
+			<HediffDef>HydraulicJaw</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing hydraulic jaw.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>HydraulicJaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>HydraulicJaw</addsHediff>
+	</RecipeDef>
+
+	<!-- Artificial nose -->
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>ArtificialNose</defName>
+		<label>artificial nose</label>
+		<description>An installed artificial nose.</description>
+		<descriptionHyperlinks><ThingDef>ArtificialNose</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ArtificialNose</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>ArtificialNose</defName>
+		<label>artificial nose</label>
+		<description>A nose prosthesis. Used to cover where the missing nose was on the face.</description>
+		<descriptionHyperlinks><RecipeDef>InstallArtificialNose</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<statBases>
+			<Mass>0.2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallArtificialNose</defName>
+		<label>install artificial nose</label>
+		<description>Installs artificial nose.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ArtificialNose</ThingDef>
+			<HediffDef>ArtificialNose</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing artificial nose.</jobString>
+		<workAmount>1500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ArtificialNose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ArtificialNose</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Nose</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ArtificialNose</addsHediff>
+	</RecipeDef>
+
+	<!-- Replacement radius -->
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>ReplacementRadius</defName>
+		<label>replacement radius</label>
+		<description>An installed replacement radius.</description>
+		<descriptionHyperlinks><ThingDef>ReplacementRadius</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>ReplacementRadius</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>ReplacementRadius</defName>
+		<label>replacement radius</label>
+		<description>A replacement for the radius, a bone in the lower arm.</description>
+		<descriptionHyperlinks><RecipeDef>InstallReplacementRadius</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>25</Steel>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallReplacementRadius</defName>
+		<label>install replacement radius</label>
+		<description>Installs a replacement radius.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ReplacementRadius</ThingDef>
+			<HediffDef>ReplacementRadius</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing a replacement radius.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ReplacementRadius</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ReplacementRadius</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Radius</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ReplacementRadius</addsHediff>
+	</RecipeDef>
+
+	<!-- Scyther blade -->
+
+	<HediffDef ParentName="addedPartSimple">
+		<defName>EPOE_ScytherBlade</defName>
+		<label>scyther blade</label>
+		<description>An installed scyther blade.</description>
+		<descriptionHyperlinks><ThingDef>EPIA_ScytherBlade</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPIA_ScytherBlade</spawnThingOnRemoved>
+		<hediffClass>Hediff_Implant</hediffClass>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>blade</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>14.5</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>EPIA_ScytherBlade</defName>
+		<label>scyther blade</label>
+		<description>Weaponized hand implant utilizing a telescoping blade. Scavenged and restored from a dead scyther mechanoid. Not very comfortable, but quite effective as a close-range weapon.</description>
+		<descriptionHyperlinks><RecipeDef>InstallScytherBlade</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_DamagedScytherBlade>1</EPOE_DamagedScytherBlade>
+			<Steel>5</Steel>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>SpecialWeapon</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>InstallScytherBlade</defName>
+		<label>install scyther blade</label>
+		<description>Installs a scyther blade implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_ScytherBlade</ThingDef>
+			<HediffDef>EPOE_ScytherBlade</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing scyther blade.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPIA_ScytherBlade</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPIA_ScytherBlade</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPOE_ScytherBlade</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>EPIA_RemoveScytherBlade</defName>
+		<label>remove scyther blade</label>
+		<description>Remove the scyther blade implant.</description>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_ScytherBlade</ThingDef>
+			<HediffDef>EPOE_ScytherBlade</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing scyther blade.</jobString>
+		<removesHediff>EPOE_ScytherBlade</removesHediff>
+	</RecipeDef>
+
+</Defs>
