@@ -12,23 +12,33 @@
 			<li>EPOE_Redundancy_Debug</li>
 		</factionPrerequisiteTags>
 	</RecipeDef>
-
+	
+	
+	<ThingDef Name="EPIA_ScarsRepairItemBase" ParentName="EPIASyntheticBase" Abstract="True">
+		<isTechHediff>false</isTechHediff>
+		<stackLimit>5</stackLimit>
+		<drawGUIOverlay>true</drawGUIOverlay>
+	</ThingDef>
+	
 	<!-- Synthetic tissue -->
 
-	<ThingDef ParentName="EPIASyntheticBase">
+	<ThingDef ParentName="EPIA_ScarsRepairItemBase">
 		<defName>SyntheticSkin</defName>
 		<label>synthetic tissue</label>
 		<description>A patch of organo-synthetic tissue which can replace damaged areas.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>EPIA_RepairScar</RecipeDef>
 		</descriptionHyperlinks>
-		<isTechHediff>false</isTechHediff>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/SyntheticTissue</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>EPOE_SyntheticRepair</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<Synthread>10</Synthread>
-			<MedicineUltratech>1</MedicineUltratech>
+			<MedicineUltratech>2</MedicineUltratech>
 		</costList>
 		<statBases>
 			<WorkToMake>9000</WorkToMake>
@@ -80,14 +90,14 @@
 
 	<!-- Neuromuscular framework -->
 
-	<ThingDef Name="EPIANeuroGraphicBase" ParentName="EPIASyntheticBase" Abstract="True">
+	<!--ThingDef Name="EPIANeuroGraphicBase" ParentName="EPIASyntheticBase" Abstract="True">
 		<graphicData Inherit="False">
 			<texPath>Things/Item/BodyPart/GlitterworldPart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-	</ThingDef>
+	</ThingDef-->
 
-	<ThingDef ParentName="EPIASyntheticBase">
+	<ThingDef ParentName="EPIA_ScarsRepairItemBase">
 		<defName>NeuromuscularFramework</defName>
 		<label>neuromuscular framework</label>
 		<description>A set of synthetic muscles and artificial nerves capable of perfectly recreating the function of a healthy torso.</description>
@@ -97,7 +107,10 @@
 			<RecipeDef>EPIA_SurgeryRemoveChemicalDamageModerate</RecipeDef>
 			<RecipeDef>EPIA_SurgeryRemoveChemicalDamageSevere</RecipeDef>
 		</descriptionHyperlinks>
-		<isTechHediff>false</isTechHediff>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/NeuromuscularFramework</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>EPOE_SyntheticRepair</researchPrerequisite>
 		</recipeMaker>
@@ -267,7 +280,7 @@
 
 	<!-- Neuro-cure framework -->
 
-	<ThingDef ParentName="EPIANeuroGraphicBase">
+	<ThingDef ParentName="EPIA_ScarsRepairItemBase">
 		<defName>NeurocureFramework</defName>
 		<label>neuro-cure framework</label>
 		<description>A set of highly advanced nanomachines, synthetic brain tissue and artificial nerves capable of restoring the function of a brain. Used for curing brain injuries, dementia and alzheimer.\n\nRequires Brain Surgery research to use.</description>
@@ -278,7 +291,10 @@
 			<RecipeDef>EPIA_SurgeryBrainRemoveChemicalDamageModerate</RecipeDef>
 			<RecipeDef>EPIA_SurgeryBrainRemoveChemicalDamageSevere</RecipeDef>
 		</descriptionHyperlinks>
-		<isTechHediff>false</isTechHediff>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/NeurocureFramework</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
 		<thingCategories Inherit="False">
 			<li>BodyPartsUltra</li>
 		</thingCategories>
@@ -289,9 +305,8 @@
 			<researchPrerequisite>EPOE_NeurologicalTreatment</researchPrerequisite>
 		</recipeMaker>
 		<costList>
-			<MedicineUltratech>15</MedicineUltratech>
+			<MedicineUltratech>8</MedicineUltratech>
 			<Hyperweave>15</Hyperweave>
-			<ComponentSpacer>1</ComponentSpacer>
 			<EPOE_MAAI_Chip>1</EPOE_MAAI_Chip>
 		</costList>
 		<statBases>
@@ -405,7 +420,6 @@
 		<label>mend brain scar</label>
 		<description>Mend a remove a scar in the brain.</description>
 		<jobString>Removing brain scar.</jobString>
-		<removesHediff>Burn</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully mended {1}'s brain scar.</successfullyRemovedHediffMessage>
 		<descriptionHyperlinks><ThingDef>NeurocureFramework</ThingDef></descriptionHyperlinks>
 		<surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
@@ -451,7 +465,10 @@
 		<defName>EPIA_SurgeryBrainRemoveChemicalDamageModerate</defName>
 		<label>heal chemical damage</label>
 		<description>Install a neuro-cure framework to repair chemical damage in the brain.</description>
-		<descriptionHyperlinks><HediffDef>ChemicalDamageModerate</HediffDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>NeurocureFramework</ThingDef>
+			<HediffDef>ChemicalDamageModerate</HediffDef>
+		</descriptionHyperlinks>
 		<jobString>Healing chemical damage.</jobString>
 		<removesHediff>ChemicalDamageModerate</removesHediff>
 		<successfullyRemovedHediffMessage>{0} has successfully healed {1}'s chemical damage.</successfullyRemovedHediffMessage>
@@ -496,20 +513,26 @@
 
 	<RecipeDef ParentName="EPIA_HealChemicalDamageBrain">
 		<defName>EPIA_SurgeryBrainRemoveChemicalDamageSevere</defName>
-		<descriptionHyperlinks><HediffDef>ChemicalDamageSevere</HediffDef></descriptionHyperlinks>
+		<descriptionHyperlinks Inherit="False">
+			<ThingDef>NeurocureFramework</ThingDef>
+			<HediffDef>ChemicalDamageSevere</HediffDef>
+		</descriptionHyperlinks>
 		<removesHediff>ChemicalDamageSevere</removesHediff>
 	</RecipeDef>
 
 	<!-- Synthetic bone -->
 
-	<ThingDef ParentName="EPIASyntheticBase">
+	<ThingDef ParentName="EPIA_ScarsRepairItemBase">
 		<defName>EPIA_SyntheticBone</defName>
 		<label>synthetic bone</label>
 		<description>An adjustable synthetic bone that is ready to transform and mold into a replacement bone that has been lost or missing. Once installed, the synthetic bone's shape is permanently set and the material composition starts altering to become closer to the real thing, making it almost indistinguishable from the rest of the skeletal structure.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>EPIA_RestoreBones</RecipeDef>
 		</descriptionHyperlinks>
-		<isTechHediff>false</isTechHediff>
+		<graphicData Inherit="False">
+			<texPath>Things/Item/BodyPart/SyntheticBone</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>EPOE_SyntheticRepair</researchPrerequisite>
 		</recipeMaker>

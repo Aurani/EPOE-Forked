@@ -3,11 +3,12 @@
 
 	<HediffDef Name="addedPartOptimized" Abstract="True">
 		<defaultLabelColor>(244,210,131)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
+		<hediffClass>Hediff_Implant</hediffClass>
 		<isBad>false</isBad>
 		<initialSeverity>0.001</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<priceImpact>true</priceImpact>
+		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
 	</HediffDef>
 
 	<ThingDef Name="EPIAOrganicOptimizer" ParentName="EPIASyntheticBase" Abstract="True">

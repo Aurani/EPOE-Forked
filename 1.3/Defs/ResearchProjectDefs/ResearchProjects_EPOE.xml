@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ResearchProjectDef>
+	<!--ResearchProjectDef>
 		<defName>BasicProsthetics</defName>
 		<label>Basic prosthetics</label>
 		<description>Understanding the basic shape of different body parts and combining that knowledge with basic woodworking, you can now use directly install basic prosthesis.
@@ -17,7 +17,7 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
-	</ResearchProjectDef>
+	</ResearchProjectDef-->
 
 	<ResearchProjectDef>
 		<defName>Prosthetics</defName>
@@ -27,10 +27,9 @@ Hook hand and steel arm are crafted at a smithy.</description>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Machining</li>
-			<li>BasicProsthetics</li>
 		</prerequisites>
 		<tab>EPOE</tab>
-		<researchViewX>1</researchViewX>
+		<researchViewX>0</researchViewX>
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 

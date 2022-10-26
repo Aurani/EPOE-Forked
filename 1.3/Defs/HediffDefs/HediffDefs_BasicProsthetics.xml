@@ -26,7 +26,7 @@
 			<skillRequirements>
 				<Crafting>3</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>BasicProsthetics</researchPrerequisite>
+			<researchPrerequisite>Smithing</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -35,7 +35,6 @@
 		<skillRequirements>
 			<Medicine>3</Medicine>
 		</skillRequirements>
-		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 	</RecipeDef>
 
 	<!-- New EPOE body parts -->

@@ -27,7 +27,6 @@
 		<unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
 		<workSkill>Crafting</workSkill>
 		<workAmount>2500</workAmount>
-		<researchPrerequisite>BasicProsthetics</researchPrerequisite>
 		<recipeUsers>
 			<li>CraftingSpot</li>
 			<li>FueledSmithy</li>

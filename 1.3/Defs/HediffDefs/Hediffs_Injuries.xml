@@ -61,7 +61,7 @@
 		<stages>
 			<li>
 				<statFactors>
-					<IncomingDamageFactor>1.176</IncomingDamageFactor>
+					<IncomingDamageFactor>1.25</IncomingDamageFactor>
 				</statFactors>
 				<capMods>
 					<li>

@@ -1275,7 +1275,7 @@
 		<stages>
 			<li> 
 				<statFactors>
-					<IncomingDamageFactor>0.85</IncomingDamageFactor>
+					<IncomingDamageFactor>0.80</IncomingDamageFactor>
 				</statFactors>
 				<statOffsets>
 					<CarryingCapacity>+25</CarryingCapacity>
