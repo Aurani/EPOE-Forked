@@ -4,6 +4,8 @@
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>[1.2] DE Surgeries</li>
+			<li>DE Surgeries</li>
+			<li>DE Surgeries Hard</li>
 		</mods>
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/RecipeDef[defName="CureInjuryBurn" or

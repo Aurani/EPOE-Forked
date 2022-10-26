@@ -9,9 +9,19 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationConditional">
-				<xpath>Defs/HediffDef[defName="EPIA_AuxiliaryAI_Sharpshooter"]/stages/li/statOffsets/AimingDelayFactor</xpath>
-				<match Class="PatchOperationRemove">
-					<xpath>Defs/HediffDef[defName="EPIA_AuxiliaryAI_Sharpshooter"]/stages/li/statOffsets/AimingDelayFactor</xpath>
+				<xpath>Defs/HediffDef[defName="EPIA_AuxiliaryAI_Sharpshooter"]/stages/li/statOffsets/MeleeDodgeChance</xpath>
+				<match Class="PatchOperationSequence">
+					<operations>
+						<li Class="PatchOperationReplace">
+							<xpath>Defs/HediffDef[defName="EPIA_AuxiliaryAI_Sharpshooter"]/stages/li/statOffsets/AimingDelayFactor</xpath>
+							<value>
+								<AimingDelayFactor>-0.10</AimingDelayFactor>
+							</value>
+						</li>
+						<li Class="PatchOperationRemove">
+							<xpath>Defs/HediffDef[defName="EPIA_AuxiliaryAI_Sharpshooter"]/stages/li/statOffsets/MeleeDodgeChance</xpath>
+						</li>
+					</operations>
 				</match>
 			</li>
 			<li Class="PatchOperationConditional">

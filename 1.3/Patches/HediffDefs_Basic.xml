@@ -55,20 +55,4 @@
 		</operations>
 	</Operation>
 
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>Defs/RecipeDef[@Name="SurgeryInstallWoodenPartBase"]/researchPrerequisite</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[@Name="SurgeryInstallWoodenPartBase"]</xpath>
-				<value>
-					<researchPrerequisite>BasicProsthetics</researchPrerequisite>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-
 </Patch>
