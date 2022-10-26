@@ -5,7 +5,7 @@
 * UI icons added for optimizer, scars and ailments related surgeries.
 * Optimizers now identified as a implant by game mechanic, but not count as one. Should avoid situations that ends up removing them.
 * Prosthesis traders now have a chance to sell hospital beds and vital monitors.
-* Prosthesis traders have a very small chance to sell gene packs and archite capsules, at expensive price (Biotech required).
+* Prosthesis traders have a very small chance to sell genepacks and archite capsules, at expensive price (Biotech required).
 * Fixed the XML Extensions option for the components crafting in EPOE-Forked workbenches.
 
 4.3.0 (6.10.22)
