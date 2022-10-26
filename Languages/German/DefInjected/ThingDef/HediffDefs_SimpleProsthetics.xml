@@ -81,8 +81,8 @@
 
   <!-- Scyther blade -->
   
-  <ScytherBlade.label>Schnitterklinge</ScytherBlade.label>
-  <ScytherBlade.description>Handersatz durch eine Teleskopklinge. Von einem toten Schnitter-Mechanoid gereinigt und restauriert. Nicht sehr bequem, aber sehr effektiv als Nahkampfwaffe.</ScytherBlade.description>
+  <EPIA_ScytherBlade.label>Schnitterklinge</EPIA_ScytherBlade.label>
+  <EPIA_ScytherBlade.description>Handersatz durch eine Teleskopklinge. Von einem toten Schnitter-Mechanoid gereinigt und restauriert. Nicht sehr bequem, aber sehr effektiv als Nahkampfwaffe.</EPIA_ScytherBlade.description>
 
 
 </LanguageData>

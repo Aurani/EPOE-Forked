@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Redundant Synthetic Heart version -->
+  <!-- Redundant Synthetic Heart version
 
   <SyntheticHeart.label>Synthetisches Herz</SyntheticHeart.label>
   <SyntheticHeart.description>Ein installiertes synthetisches Herz.</SyntheticHeart.description>
-  <SyntheticHeart.labelNoun>Ein Synthetisches Herz</SyntheticHeart.labelNoun>
+  <SyntheticHeart.labelNoun>Ein Synthetisches Herz</SyntheticHeart.labelNoun> -->
 
 
-  <!-- Redundant Synthetic stomach version -->
+  <!-- Redundant Synthetic stomach version
 
   <SyntheticStomach.label>Synthetischer Magen</SyntheticStomach.label>
   <SyntheticStomach.description>Ein installierter synthetischer Magen.</SyntheticStomach.description>
-  <SyntheticStomach.labelNoun>Ein Synthetischer Magen</SyntheticStomach.labelNoun>
+  <SyntheticStomach.labelNoun>Ein Synthetischer Magen</SyntheticStomach.labelNoun> -->
 
 
-  <!-- Synthetic heart 
+  <!-- Synthetic heart -->
 
   <BionicHeart.label>Synthetisches Herz</BionicHeart.label>
   <BionicHeart.description>Ein installiertes synthetisches Herz.</BionicHeart.description>
-  <BionicHeart.labelNoun>Ein Synthetisches Herz</BionicHeart.labelNoun> -->
+  <BionicHeart.labelNoun>Ein Synthetisches Herz</BionicHeart.labelNoun>
 
 
   <!-- Synthetic lung -->
@@ -29,11 +29,11 @@
   <SyntheticLung.labelNoun>Eine Synthetische Lunge</SyntheticLung.labelNoun>
 
 
-  <!-- Synthetic stomach 
+  <!-- Synthetic stomach -->
 
   <BionicStomach.label>Synthetischer Magen</BionicStomach.label>
   <BionicStomach.description>Ein installierter synthetischer Magen.</BionicStomach.description>
-  <BionicStomach.labelNoun>Ein Synthetischer Magen</BionicStomach.labelNoun> -->
+  <BionicStomach.labelNoun>Ein Synthetischer Magen</BionicStomach.labelNoun>
 
 
   <!-- Synthetic liver -->

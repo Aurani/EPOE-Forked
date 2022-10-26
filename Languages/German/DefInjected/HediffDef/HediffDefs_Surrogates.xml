@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Redundant original Surrogate Heart, if ever upgrading from 1.0 to 1.1 midsave -->
+  <!-- Redundant original Surrogate Heart, if ever upgrading from 1.0 to 1.1 midsave
 
   <SurrogateHeart.label>Herzersatz</SurrogateHeart.label>
-  <SurrogateHeart.description>Ein installierter Herzersatz.</SurrogateHeart.description>
+  <SurrogateHeart.description>Ein installierter Herzersatz.</SurrogateHeart.description> -->
 
 
-  <!-- Surrogate heart 
+  <!-- Surrogate heart -->
 
   <SimpleProstheticHeart.label>Herzersatz</SimpleProstheticHeart.label>
-  <SimpleProstheticHeart.description>Ein installierter Herzersatz.</SimpleProstheticHeart.description> -->
+  <SimpleProstheticHeart.description>Ein installierter Herzersatz.</SimpleProstheticHeart.description> 
 
 
   <!-- Surrogate lung -->

@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Redundant original Surrogate Heart, if ever upgrading from 1.0 to 1.1 midsave -->
+  <!-- Redundant original Surrogate Heart, if ever upgrading from 1.0 to 1.1 midsave
 
   <InstallSurrogateHeart.label>Implantiere Herzersatz</InstallSurrogateHeart.label>
   <InstallSurrogateHeart.description>Implantiere einen Herzersatz.</InstallSurrogateHeart.description>
-  <InstallSurrogateHeart.jobString>Implantiert Herzersatz.</InstallSurrogateHeart.jobString>
+  <InstallSurrogateHeart.jobString>Implantiert Herzersatz.</InstallSurrogateHeart.jobString> --> 
 
 
-  <!-- Surrogate heart 
+  <!-- Surrogate heart  -->
 
   <InstallSimpleProstheticHeart.label>Implantiere Herzersatz</InstallSimpleProstheticHeart.label>
   <InstallSimpleProstheticHeart.description>Implantiere einen Herzersatz.</InstallSimpleProstheticHeart.description>
-  <InstallSimpleProstheticHeart.jobString>Implantiert Herzersatz.</InstallSimpleProstheticHeart.jobString> -->
+  <InstallSimpleProstheticHeart.jobString>Implantiert Herzersatz.</InstallSimpleProstheticHeart.jobString>
 
 
   <!-- Surrogate lung -->

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Redundant Synthetic Heart version -->
+  <!-- Redundant Synthetic Heart version
 
   <SyntheticHeart.label>Synthetisches Herz</SyntheticHeart.label>
-  <SyntheticHeart.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticHeart.description>
+  <SyntheticHeart.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticHeart.description> -->
 
 
-  <!-- Redundant Synthetic stomach version -->
+  <!-- Redundant Synthetic stomach version
 
   <SyntheticStomach.label>Synthetischer Magen</SyntheticStomach.label>
-  <SyntheticStomach.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticStomach.description>
+  <SyntheticStomach.description>Redundant item version with 1.1 Rimworld, in the event of moving from 1.0 to 1.1 mid-save. A method was left to not break your workbench and allowing the recipe to exist for player self-debug purposes.</SyntheticStomach.description> -->
 
 
   <!-- Vanilla overwrites, for now.
@@ -23,9 +23,9 @@
 
 
   <!-- Synthetic heart -->
-  <!--
+ 
   <BionicHeart.label>Synthetisches Herz</BionicHeart.label>
-  <BionicHeart.description>Ein erstklassiger Herzersatz. Kann mit einer einzigen Ladung über 30 Jahre halten.</BionicHeart.description> -->
+  <BionicHeart.description>Ein erstklassiger Herzersatz. Kann mit einer einzigen Ladung über 30 Jahre halten.</BionicHeart.description>
 
 
   <!-- Synthetic lung -->
@@ -35,9 +35,9 @@
 
 
   <!-- Synthetic stomach -->
-  <!--
+  
   <BionicStomach.label>Synthetischer Magen</BionicStomach.label>
-  <BionicStomach.description>Ein verbesserter Magen, ergänzt durch chemische Synthesizer, die nahezu alle energietragenden Lebensmittel effizient verdauen. Unberührt von seiner eigenen Magensäure.</BionicStomach.description> -->
+  <BionicStomach.description>Ein verbesserter Magen, ergänzt durch chemische Synthesizer, die nahezu alle energietragenden Lebensmittel effizient verdauen. Unberührt von seiner eigenen Magensäure.</BionicStomach.description>
 
 
   <!-- Synthetic liver -->

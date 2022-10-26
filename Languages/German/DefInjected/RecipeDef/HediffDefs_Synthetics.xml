@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Redundant Synthetic Heart version -->
+  <!-- Redundant Synthetic Heart version
 
   <InstallSyntheticHeart.label>Implantiere Synthetisches Herz</InstallSyntheticHeart.label>
   <InstallSyntheticHeart.description>Implantiere ein synthetisches Herz.</InstallSyntheticHeart.description>
-  <InstallSyntheticHeart.jobString>Implantiert Synthetisches Herz.</InstallSyntheticHeart.jobString>
+  <InstallSyntheticHeart.jobString>Implantiert Synthetisches Herz.</InstallSyntheticHeart.jobString> -->
 
 
-  <!-- Redundant Synthetic stomach version -->
+  <!-- Redundant Synthetic stomach version
 
   <InstallSyntheticStomach.label>Implantiere Synthetischer Magen</InstallSyntheticStomach.label>
   <InstallSyntheticStomach.description>Implantiere einen synthetischen Magen.</InstallSyntheticStomach.description>
-  <InstallSyntheticStomach.jobString>Installing synthetic stomach.</InstallSyntheticStomach.jobString>
+  <InstallSyntheticStomach.jobString>Installing synthetic stomach.</InstallSyntheticStomach.jobString> -->
 
 
   <!-- Vanilla overwrites, for now. -->
@@ -31,11 +31,10 @@
   <CreateSyntheticHeart.label>Stelle Synthetisches Herz her</CreateSyntheticHeart.label>
   <CreateSyntheticHeart.description>Verbessere einen Herzersatz zu einem synthetischen Herz.</CreateSyntheticHeart.description>
   <CreateSyntheticHeart.jobString>Stellt Synthetisches Herz her.</CreateSyntheticHeart.jobString>
-  
-  <!--
+
   <InstallBionicHeart.label>Implantiere Synthetisches Herz</InstallBionicHeart.label>
   <InstallBionicHeart.description>Implantiere ein synthetisches Herz.</InstallBionicHeart.description>
-  <InstallBionicHeart.jobString>Implantiert Synthetisches Herz.</InstallBionicHeart.jobString> -->
+  <InstallBionicHeart.jobString>Implantiert Synthetisches Herz.</InstallBionicHeart.jobString>
 
 
   <!-- Synthetic lung -->
@@ -55,10 +54,9 @@
   <CreateSyntheticStomach.description>Verbessere einen Magenersatz zu einem synthetischen Magen.</CreateSyntheticStomach.description>
   <CreateSyntheticStomach.jobString>Stellt Synthetischer Magen her.</CreateSyntheticStomach.jobString>
   
-  <!--
   <InstallBionicStomach.label>Implantiere Synthetischer Magen</InstallBionicStomach.label>
   <InstallBionicStomach.description>Implantiere einen synthetischen Magen.</InstallBionicStomach.description>
-  <InstallBionicStomach.jobString>Implantiert Synthetischer Magen.</InstallBionicStomach.jobString> -->
+  <InstallBionicStomach.jobString>Implantiert Synthetischer Magen.</InstallBionicStomach.jobString>
 
 
   <!-- Synthetic liver -->
