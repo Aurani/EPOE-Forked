@@ -58,17 +58,14 @@
 				<tooltip>Disables EPOE-Forked's textures and revert to vanilla. If you use texture packs for these, ignore this setting.</tooltip>
 				<tKeyTip>vat_epoeforked_VanillaItemTexturesTip</tKeyTip>
 			</li>
-			<li Class="XmlExtensions.Setting.Text">
-				<text>Option for toggling vanilla textures for bionic eyes on the face currently disabled until after stable 1.4 is released</text>
-			</li>
-			<!--li Class="XmlExtensions.Setting.Checkbox">
-				<key>VanillaVersionHediffWounds</key>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>VanillaBionicEyesFace</key>
 				<defaultValue>false</defaultValue>
-				<label>Use vanilla textures for bionic eyes for the face?</label>
+				<label>Remove textures for bionic eyes on the face?</label>
 				<tKey>vat_epoeforked_VanillaBionicEyesFace</tKey>
-				<tooltip>The affected eyes are bionic (vanilla), archotech (vanilla), advanced bionic and tactical bionic eye.</tooltip>
+				<tooltip>The affected eyes are bionic (vanilla), archotech (vanilla), advanced bionic and tactical bionic eye. If you use texture packs for these, keep this setting off.</tooltip>
 				<tKeyTip>vat_epoeforked_VanillaBionicEyesFaceTip</tKeyTip>
-			</li-->
+			</li>
 			<li Class="XmlExtensions.Setting.GapLine" />
 			<li Class="XmlExtensions.Setting.Text">
 				<text>Miscellaneous options</text>
@@ -119,9 +116,6 @@
 				<text>Experimental features</text>
 				<tKey>vat_epoeforked_experimental</tKey>
 			</li>
-			<li Class="XmlExtensions.Setting.Text">
-				<text>Legacy mode disabled due to outright removal of the prosthetic workbench. Reorganisation for it will be done after stable 1.4 is out.</text>
-			</li>
 			<!--li Class="XmlExtensions.Setting.Checkbox">
 				<key>LegacyMode</key>
 				<defaultValue>false</defaultValue>
@@ -139,15 +133,15 @@
 				<tKeyTip>vat_epoeforked_EPOEMigrationTip</tKeyTip>
 			</li>
 			<li Class="XmlExtensions.Setting.GapLine" />
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Restarting game is required to apply any changes.</text>
+				<tKey>vat_epoeforked_ResetToApplyReminder</tKey>
+			</li>
 			<li Class="XmlExtensions.Setting.ResetSettings">
 				<label>Reset settings</label>
 				<tKey>vat_epoeforked_ResetSettings</tKey>
 			</li>
 			<li Class="XmlExtensions.Setting.GapLine" />
-			<li Class="XmlExtensions.Setting.Text">
-				<text>Restarting game is required to apply any changes.</text>
-				<tKey>vat_epoeforked_ResetToApplyReminder</tKey>
-			</li>
 		</settings>
 	</XmlExtensions.SettingsMenuDef>
 

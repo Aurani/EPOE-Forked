@@ -43,8 +43,7 @@
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[@Name="EPIAGlitterworldImplantBase" or
 										@Name="EPIAGlitterworldBionicBase" or
-										@Name="EPIAOrganicOptimizer" or
-										@Name="EPIANeuroGraphicBase"]/graphicData</xpath>
+										@Name="EPIAOrganicOptimizer"]/graphicData</xpath>
 					<value>
 						<graphicData>
 							<color>(244,210,131)</color>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallMindscrew"]</xpath>
+				<value>
+					<uiIconThing>Mindscrew</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallDrillArm"]</xpath>
+				<value>
+					<uiIconThing>DrillArm</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallFieldHand"]</xpath>
+				<value>
+					<uiIconThing>FieldHand</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallHandTalon"]</xpath>
+				<value>
+					<uiIconThing>HandTalon</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallElbowBlade"]</xpath>
+				<value>
+					<uiIconThing>ElbowBlade</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallKneeSpike"]</xpath>
+				<value>
+					<uiIconThing>KneeSpike</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallVenomFangs"]</xpath>
+				<value>
+					<uiIconThing>VenomFangs</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallVenomTalon"]</xpath>
+				<value>
+					<uiIconThing>VenomTalon</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallNeurocalculator"]</xpath>
+				<value>
+					<uiIconThing>Neurocalculator</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallLearningAssistant"]</xpath>
+				<value>
+					<uiIconThing>LearningAssistant</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallGastroAnalyzer"]</xpath>
+				<value>
+					<uiIconThing>GastroAnalyzer</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallImmunoenhancer"]</xpath>
+				<value>
+					<uiIconThing>Immunoenhancer</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallCoagulator"]</xpath>
+				<value>
+					<uiIconThing>Coagulator</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallHealingEnhancer"]</xpath>
+				<value>
+					<uiIconThing>HealingEnhancer</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallToughskinGland"]</xpath>
+				<value>
+					<uiIconThing>ToughskinGland</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallArmorskinGland"]</xpath>
+				<value>
+					<uiIconThing>ArmorskinGland</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallStoneskinGland"]</xpath>
+				<value>
+					<uiIconThing>StoneskinGland</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallAestheticShaper"]</xpath>
+				<value>
+					<uiIconThing>AestheticShaper</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallAestheticNose"]</xpath>
+				<value>
+					<uiIconThing>AestheticNose</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallLoveEnhancer"]</xpath>
+				<value>
+					<uiIconThing>LoveEnhancer</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallDetoxifierStomach"]</xpath>
+				<value>
+					<uiIconThing>DetoxifierStomach</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallReprocessorStomach"]</xpath>
+				<value>
+					<uiIconThing>ReprocessorStomach</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallNuclearStomach"]</xpath>
+				<value>
+					<uiIconThing>NuclearStomach</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallCircadianAssistant"]</xpath>
+				<value>
+					<uiIconThing>CircadianAssistant</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallCircadianHalfCycler"]</xpath>
+				<value>
+					<uiIconThing>CircadianHalfCycler</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallPsychicSensitizer"]</xpath>
+				<value>
+					<uiIconThing>PsychicSensitizer</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallPsychicHarmonizer"]</xpath>
+				<value>
+					<uiIconThing>PsychicHarmonizer</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallPsychicReader"]</xpath>
+				<value>
+					<uiIconThing>PsychicReader</uiIconThing>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

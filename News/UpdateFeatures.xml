@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="EPIA_UpdateFeatureBase">
 		<modNameReadable>EPOE-Forked</modNameReadable>
 		<modIdentifier>EPIA_EPOE_Forked</modIdentifier>
 		<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=1949064302</linkUrl>
 	</HugsLib.UpdateFeatureDef>
 
-	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+	<HugsLib.UpdateFeatureDef ParentName="EPIA_UpdateFeatureBase">
+		<defName>EPOE_Forked_4_3_2</defName>
+		<assemblyVersion>4.3.2</assemblyVersion>
+		<content>Old system of disassembling unwanted prosthetic items have made a return! And a new Auxiliary AI for 1.4 is introduced, a long awaited boost for crafters, the Artisian version! It provides a 15% boost to general labor speed, the stat primarily used in crafting and smithing.
+For XML Extensions, the option to toggle bionic eye textures have been restored. If you are using a texture mod for the eyes, keep this option turned off so it won't interfere with other mods.
+
+|Patch notes:
+* Removed the bad thought of having a silent jaw.
+* UI icons added for most vanilla and EPOE-Forked related surgeries.
+* Prosthesis orbital trader no longer sells psylink neuroformer and mechlinks.
+* New body part category added: Body restoration. Synthetic tissue and bone, and both neuromuscular and neurocure framework moved there for easier management.
+* New Auxiliary AI (artisan) option is now available. Provides a bonus of +15% general labor speed.
+* Auxiliary AI (agricultural) now have drug yield increase bonus.
+* Old prosthesis salvaging system has made a return and can be used again.
+* XML Extensions options to toggle textures for the bionic eyes is now available again.
+
+</content>
+	</HugsLib.UpdateFeatureDef>
+
+	<HugsLib.UpdateFeatureDef ParentName="EPIA_UpdateFeatureBase">
 		<defName>EPOE_Forked_4_3_1</defName>
 		<assemblyVersion>4.3.1</assemblyVersion>
 		<content>Some small quality of life updates, that the 1.3 version will get where it is applicable. You can now stack synthetic tissue and other more medical orientated related items, making it easier to store them away for when they're required to heal colonists.
@@ -24,7 +43,7 @@
 </content>
 	</HugsLib.UpdateFeatureDef>
 
-	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+	<HugsLib.UpdateFeatureDef ParentName="EPIA_UpdateFeatureBase">
 		<defName>EPOE_Forked_4_3_0</defName>
 		<assemblyVersion>4.3.0</assemblyVersion>
 		<content>With Rimworld 1.4 unstable out, a little update for EPOE-Forked, and highlight the major changes between 1.3 and 1.4 version of this mod.		
@@ -42,7 +61,7 @@
 </content>
 	</HugsLib.UpdateFeatureDef>
 
-	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+	<HugsLib.UpdateFeatureDef ParentName="EPIA_UpdateFeatureBase">
 		<defName>EPOE_Forked_4_2_5</defName>
 		<assemblyVersion>4.2.5</assemblyVersion>
 		<content>Minor balance update, and removal of Basic Prosthetic research. With this removal, it brings it more back in line with vanilla as it did not require research.
@@ -60,7 +79,7 @@ The Auxiliary AI: Sharpshooter has received a noticeable buff, as the Commando v
 * New XML Extensions to toggle EMP weakness of EPOE-Forked implants.</content>
 	</HugsLib.UpdateFeatureDef>
 
-	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+	<HugsLib.UpdateFeatureDef ParentName="EPIA_UpdateFeatureBase">
 		<defName>EPOE_Forked_4_2_2</defName>
 		<assemblyVersion>4.2.2</assemblyVersion>
 		<content>Small update adding synthetic bones, a new XML extension settings to allow forcefully remove limbs, and a patch that removes beauty tag from the tongue.
@@ -78,7 +97,7 @@ It is still highly unrecommended to have both EPOE-Forked and RBSE running at th
 * Added a patch to remove overlapping RBSE content if people ignore the incompatibility warning. Incomplete and experimental, but looks more consistent at least. May stop certain settings from applying correctly.</content>
 	</HugsLib.UpdateFeatureDef>	
 
-	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+	<HugsLib.UpdateFeatureDef ParentName="EPIA_UpdateFeatureBase">
 		<defName>EPOE_Forked_4_2_1</defName>
 		<assemblyVersion>4.2.1</assemblyVersion>
 		<content>Small update to bring workbenches a more in line with vanilla, now needing construction levels.
@@ -96,7 +115,7 @@ Three new options available with XML Extensions mod, and now able to receive tra
 * Made a TranslatorPackage folder, containing everything for a translator to easily start their work.</content>
 	</HugsLib.UpdateFeatureDef>	
 
-	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+	<HugsLib.UpdateFeatureDef ParentName="EPIA_UpdateFeatureBase">
 		<defName>EPOE_Forked_4_2_0</defName>
 		<assemblyVersion>4.2.0</assemblyVersion>
 		<content>New set of updates not seen with EPOE-Forked until now. Firstly, HugsLib news feature will now be utilized to keep players up to date, and new mod settings being available with the assistance of the XML Extensions mod.

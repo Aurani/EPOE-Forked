@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="BodyPartProstheticBase" or @Name="BodyPartBionicBase"]</xpath>
+		<value>
+			<smeltable>true</smeltable>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[@ParentName="BodyPartProstheticBase" and costList/ComponentIndustrial]</xpath>
@@ -41,6 +47,5 @@
 			</smeltProducts>
 		</value>
 	</Operation>
--->
 
 </Patch>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>vat.epoeforked</modId>
+    <key>VanillaBionicEyesFace</key>
+    <defaultValue>false</defaultValue>
+	<caseTrue>
+		<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="BionicEye" or
+										defName="AdvancedBionicEye" or
+										defName="ArchotechEye" or
+										defName="EPIA_TacticalBionicEye"]/woundAnchorRange</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="BionicEye" or
+										defName="AdvancedBionicEye" or
+										defName="ArchotechEye" or
+										defName="EPIA_TacticalBionicEye"]/displayWound</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="BionicEye" or
+										defName="AdvancedBionicEye" or
+										defName="ArchotechEye" or
+										defName="EPIA_TacticalBionicEye"]/eyeGraphicSouth</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="BionicEye" or
+										defName="AdvancedBionicEye" or
+										defName="ArchotechEye" or
+										defName="EPIA_TacticalBionicEye"]/eyeGraphicEast</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName="BionicEye" or
+										defName="AdvancedBionicEye" or
+										defName="ArchotechEye" or
+										defName="EPIA_TacticalBionicEye"]/eyeGraphicScale</xpath>
+				</li>
+			</operations>
+		</Operation>
+    </caseTrue>
+	<caseFalse />
+</Operation>
+
+</Patch>
