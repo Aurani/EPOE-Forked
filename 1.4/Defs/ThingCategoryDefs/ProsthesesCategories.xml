@@ -8,6 +8,12 @@
     </ThingCategoryDef>
 
     <ThingCategoryDef>
+      <defName>EPIA_BodyRestoration</defName>
+      <label>body restoration</label>
+      <parent>BodyParts</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
       <defName>EPOE_Redundancy</defName>
       <label>EPOE redundancy</label>
       <parent>BodyParts</parent>

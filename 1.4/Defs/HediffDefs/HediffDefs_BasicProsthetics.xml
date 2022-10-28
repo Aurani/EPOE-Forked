@@ -109,6 +109,7 @@
 			<li>Hand</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>HookHand</addsHediff>
+		<uiIconThing>HookHand</uiIconThing>
 	</RecipeDef>
 
 	<!-- Steel arm -->
@@ -181,6 +182,7 @@
 			<li>Shoulder</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SteelArm</addsHediff>
+		<uiIconThing>SteelArm</uiIconThing>
 	</RecipeDef>
 
 	<!-- Eye patch -->

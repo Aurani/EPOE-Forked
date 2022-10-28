@@ -161,6 +161,7 @@
 			<li>Eye</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>TacticalCorneaImplant</addsHediff>
+		<uiIconThing>TacticalCorneaImplant</uiIconThing>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">
@@ -188,11 +189,13 @@
 			<HediffDef>MinerCore</HediffDef>
 			<HediffDef>DoctorCore</HediffDef>
 			<HediffDef>DiplomatCore</HediffDef>
+			<HediffDef>EPIA_AuxiliaryAI_Artisan</HediffDef>
 			<RecipeDef>InstallConstructorCore</RecipeDef>
 			<RecipeDef>InstallFarmerCore</RecipeDef>
 			<RecipeDef>InstallMinerCore</RecipeDef>
 			<RecipeDef>InstallDoctorCore</RecipeDef>
 			<RecipeDef>InstallDiplomatCore</RecipeDef>
+			<RecipeDef>EPIA_InstallAuxiliaryAI_Artisan</RecipeDef>
 		</descriptionHyperlinks>
 		<costList>
 			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
@@ -285,6 +288,7 @@
 			<li>Brain</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>ConstructorCore</addsHediff>
+		<uiIconThing>EPIA_AuxiliaryAI_Worker</uiIconThing>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 		<incompatibleWithHediffTags>
 			<li>AuxiliaryAI_Combat</li>
@@ -317,6 +321,7 @@
 				<statOffsets>
 					<PlantWorkSpeed>0.25</PlantWorkSpeed>
 					<PlantHarvestYield>0.15</PlantHarvestYield>
+					<DrugHarvestYield>0.15</DrugHarvestYield>
 				</statOffsets>
 			</li>
 		</stages>
@@ -353,6 +358,7 @@
 			<li>Brain</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>FarmerCore</addsHediff>
+		<uiIconThing>EPIA_AuxiliaryAI_Worker</uiIconThing>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 		<incompatibleWithHediffTags>
 			<li>AuxiliaryAI_Combat</li>
@@ -423,6 +429,7 @@
 			<li>Brain</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>MinerCore</addsHediff>
+		<uiIconThing>EPIA_AuxiliaryAI_Worker</uiIconThing>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 		<incompatibleWithHediffTags>
 			<li>AuxiliaryAI_Combat</li>
@@ -492,6 +499,7 @@
 			<li>Brain</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>DoctorCore</addsHediff>
+		<uiIconThing>EPIA_AuxiliaryAI_Worker</uiIconThing>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 		<incompatibleWithHediffTags>
 			<li>AuxiliaryAI_Combat</li>
@@ -561,6 +569,7 @@
 			<li>Brain</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>DiplomatCore</addsHediff>
+		<uiIconThing>EPIA_AuxiliaryAI_Worker</uiIconThing>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 		<incompatibleWithHediffTags>
 			<li>AuxiliaryAI_Combat</li>
@@ -577,6 +586,74 @@
 		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
 		<removesHediff>DiplomatCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Auxiliary AI (artisan) -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>EPIA_AuxiliaryAI_Artisan</defName>
+		<label>auxiliary AI: artisan</label>
+		<description>An installed auxiliary AI that aids with general and skilled production labor such as stone blocks, making chemfuel at a refinery, burning items, tailoring clothes, creating art, smithing armor and weapons or smelting slag.</description>
+		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Worker</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPIA_AuxiliaryAI_Worker</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<statOffsets>
+					<GeneralLaborSpeed>0.15</GeneralLaborSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+		<tags>
+			<li>AuxiliaryAI_Worker</li>
+		</tags>
+	</HediffDef>
+
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
+		<defName>EPIA_InstallAuxiliaryAI_Artisan</defName>
+		<label>install auxiliary AI (artisan)</label>
+		<description>Installs auxiliary AI (artisan).</description>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_AuxiliaryAI_Worker</ThingDef>
+			<HediffDef>EPIA_AuxiliaryAI_Artisan</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing auxiliary AI (artisan).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPIA_AuxiliaryAI_Worker</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPIA_AuxiliaryAI_Worker</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPIA_AuxiliaryAI_Artisan</addsHediff>
+		<uiIconThing>EPIA_AuxiliaryAI_Worker</uiIconThing>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+		<incompatibleWithHediffTags>
+			<li>AuxiliaryAI_Combat</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>EPIA_RemoveAuxiliaryAI_Artisan</defName>
+		<label>remove auxiliary AI (artisan)</label>
+		<description>Remove auxiliary AI (artisan).</description>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_AuxiliaryAI_Worker</ThingDef>
+			<HediffDef>EPIA_AuxiliaryAI_Artisan</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>EPIA_AuxiliaryAI_Artisan</removesHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 
@@ -636,6 +713,7 @@
 			<li>Brain</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>EPIA_AuxiliaryAI_Sharpshooter</addsHediff>
+		<uiIconThing>EPIA_AuxiliaryAI_Combat</uiIconThing>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 		<incompatibleWithHediffTags>
 			<li>AuxiliaryAI_Worker</li>
@@ -713,6 +791,7 @@
 			<li>Brain</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>EPIA_AuxiliaryAI_Commando</addsHediff>
+		<uiIconThing>EPIA_AuxiliaryAI_Combat</uiIconThing>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 		<incompatibleWithHediffTags>
 			<li>AuxiliaryAI_Worker</li>
@@ -791,6 +870,7 @@
 			<li>Brain</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>EPIA_AuxiliaryAI_Brawler</addsHediff>
+		<uiIconThing>EPIA_AuxiliaryAI_Combat</uiIconThing>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 		<incompatibleWithHediffTags>
 			<li>AuxiliaryAI_Worker</li>
@@ -1003,6 +1083,7 @@
 			<li>Brain</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AIPersonaCore</addsHediff>
+		<uiIconThing>AIPersonaCore</uiIconThing>
 		<researchPrerequisite>EPOE_AIPersonaCoreImplant</researchPrerequisite>
 	</RecipeDef>
 
@@ -1014,8 +1095,6 @@
 		<description>An installed tactical bionic eye.</description>
 		<descriptionHyperlinks><ThingDef>EPIA_TacticalBionicEye</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>EPIA_TacticalBionicEye</spawnThingOnRemoved>
-		<woundAnchorRange>0</woundAnchorRange>
-		<displayWound>true</displayWound>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1.15</partEfficiency>
@@ -1031,6 +1110,8 @@
 				</statOffsets>
 			</li>
 		</stages>
+		<woundAnchorRange>0</woundAnchorRange>
+		<displayWound>true</displayWound>
 		<eyeGraphicSouth>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
@@ -1089,6 +1170,7 @@
 			<li>Eye</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>EPIA_TacticalBionicEye</addsHediff>
+		<uiIconThing>EPIA_TacticalBionicEye</uiIconThing>
 	</RecipeDef>
 
 </Defs>

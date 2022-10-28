@@ -98,6 +98,7 @@
 			<li>Heart</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SimpleProstheticHeart</addsHediff>
+		<uiIconThing>SimpleProstheticHeart</uiIconThing>
 	</RecipeDef>
 
 	<!-- Surrogate lung -->
@@ -156,6 +157,7 @@
 			<li>Lung</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SurrogateLung</addsHediff>
+		<uiIconThing>SurrogateLung</uiIconThing>
 	</RecipeDef>
 
 	<!-- Surrogate stomach -->
@@ -214,6 +216,7 @@
 			<li>Stomach</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SurrogateStomach</addsHediff>
+		<uiIconThing>SurrogateStomach</uiIconThing>
 	</RecipeDef>
 
 	<!-- Surrogate liver -->
@@ -272,6 +275,7 @@
 			<li>Liver</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SurrogateLiver</addsHediff>
+		<uiIconThing>SurrogateLiver</uiIconThing>
 	</RecipeDef>
 
 	<!-- Surrogate kidney -->
@@ -330,6 +334,7 @@
 			<li>Kidney</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SurrogateKidney</addsHediff>
+		<uiIconThing>SurrogateKidney</uiIconThing>
 	</RecipeDef>
 
 	<!-- Brain stimulator -->
@@ -417,6 +422,7 @@
 			<li>Brain</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>BrainStimulator</addsHediff>
+		<uiIconThing>BrainStimulator</uiIconThing>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 

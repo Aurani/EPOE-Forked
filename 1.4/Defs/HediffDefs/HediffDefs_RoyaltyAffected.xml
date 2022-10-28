@@ -238,6 +238,7 @@
 			<li>Shoulder</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>PowerArm</addsHediff>
+		<uiIconThing>PowerArm</uiIconThing>
 	</RecipeDef>
 
 	<!-- Advanced power arm -->
@@ -365,6 +366,7 @@
 			<li>Shoulder</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedPowerArm</addsHediff>
+		<uiIconThing>AdvancedPowerArm</uiIconThing>
 	</RecipeDef>
 
 </Defs>

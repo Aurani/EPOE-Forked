@@ -226,6 +226,7 @@
 			<li>Hand</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicHand</addsHediff>
+		<uiIconThing>BionicHand</uiIconThing>
 	</RecipeDef>
 
 	<!-- Bionic FOot -->
@@ -286,6 +287,7 @@
 			<li>Foot</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicFoot</addsHediff>
+		<uiIconThing>BionicFoot</uiIconThing>
 	</RecipeDef>
 
 	<!-- Bionic finger -->
@@ -346,6 +348,7 @@
 			<li>Finger</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicFinger</addsHediff>
+		<uiIconThing>BionicFinger</uiIconThing>
 	</RecipeDef>
 
 	<!-- Bionic toe -->
@@ -406,6 +409,7 @@
 			<li>Toe</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicToe</addsHediff>
+		<uiIconThing>BionicToe</uiIconThing>
 	</RecipeDef>
 
 	<!-- Bionic Jaw -->
@@ -481,6 +485,7 @@
 			<li>Jaw</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicJaw</addsHediff>
+		<uiIconThing>BionicJaw</uiIconThing>
 	</RecipeDef>
 
 	<!-- Silent jaw -->
@@ -567,6 +572,7 @@
 			<li>Jaw</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SilentJaw</addsHediff>
+		<uiIconThing>SilentJaw</uiIconThing>
 	</RecipeDef>
 
 </Defs>

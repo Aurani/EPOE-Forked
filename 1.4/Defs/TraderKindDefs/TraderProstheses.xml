@@ -63,11 +63,20 @@
 				<categoryDef>BodyPartsArchotech</categoryDef>
 				<thingDefCountRange>1~3</thingDefCountRange>
 				<countRange>1~3</countRange>
+				<excludedThingDefs>
+					<li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">PsychicAmplifier</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Mechlink</li>
+				</excludedThingDefs>
 			</li>
 			<li Class="StockGenerator_Category">
 				<categoryDef>EPIA_OrganicOptimizer</categoryDef>
 				<thingDefCountRange>1~2</thingDefCountRange>
 				<countRange>1~2</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>EPIA_BodyRestoration</categoryDef>
+				<thingDefCountRange>1~3</thingDefCountRange>
+				<countRange>0~4</countRange>
 			</li>
 			<li Class="StockGenerator_Tag">
 				<tradeTag>TechHediff</tradeTag>
@@ -80,6 +89,7 @@
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>VitalsMonitor</thingDef>
+				<price>Expensive</price>
 				<countRange>0~2</countRange>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">

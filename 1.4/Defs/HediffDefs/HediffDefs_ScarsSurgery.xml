@@ -18,6 +18,9 @@
 		<isTechHediff>false</isTechHediff>
 		<stackLimit>5</stackLimit>
 		<drawGUIOverlay>true</drawGUIOverlay>
+		<thingCategories Inherit="False">
+			<li>EPIA_BodyRestoration</li>
+		</thingCategories>
 	</ThingDef>
 	
 	<!-- Synthetic tissue -->
@@ -299,9 +302,6 @@
 			<texPath>Things/Item/BodyPart/NeurocureFramework</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
-		<thingCategories Inherit="False">
-			<li>BodyPartsUltra</li>
-		</thingCategories>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>12</Crafting>

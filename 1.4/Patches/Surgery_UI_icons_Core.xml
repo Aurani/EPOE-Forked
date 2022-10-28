@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticLeg"]</xpath>
+				<value>
+					<uiIconThing>SimpleProstheticLeg</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallSimpleProstheticArm"]</xpath>
+				<value>
+					<uiIconThing>SimpleProstheticArm</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallCochlearImplant"]</xpath>
+				<value>
+					<uiIconThing>CochlearImplant</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallPowerClaw"]</xpath>
+				<value>
+					<uiIconThing>PowerClaw</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallJoywire"]</xpath>
+				<value>
+					<uiIconThing>Joywire</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallPainstopper"]</xpath>
+				<value>
+					<uiIconThing>Painstopper</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallBionicEye"]</xpath>
+				<value>
+					<uiIconThing>BionicEye</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallBionicArm"]</xpath>
+				<value>
+					<uiIconThing>BionicArm</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallBionicLeg"]</xpath>
+				<value>
+					<uiIconThing>BionicLeg</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallBionicSpine"]</xpath>
+				<value>
+					<uiIconThing>BionicSpine</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallDeathAcidifier"]</xpath>
+				<value>
+					<uiIconThing>DeathAcidifier</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallBionicEar"]</xpath>
+				<value>
+					<uiIconThing>BionicEar</uiIconThing>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="InstallBionicTongue"]</xpath>
+				<value>
+					<uiIconThing>BionicTongue</uiIconThing>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

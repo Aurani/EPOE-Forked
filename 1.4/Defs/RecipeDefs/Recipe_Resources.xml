@@ -33,7 +33,7 @@
 		</fixedIngredientFilter>
 	</RecipeDef>
 	
-	<!--RecipeDef>
+	<RecipeDef>
 		<defName>EPIA_ScrapProsthesis</defName>
 		<label>disassemble prosthesis</label>
 		<description>Scrap and disassemble unwanted prosthesis for materials.</description>
@@ -45,7 +45,6 @@
 		<soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
 		<recipeUsers>
 			<li>TableMachining</li>
-			<li>TableSimpleProsthetic</li>
 		</recipeUsers>
 		<specialProducts>
 			<li>Smelted</li>
@@ -79,7 +78,8 @@
 				<li>EPOE_Redundancy</li>
 			</categories>
 		</defaultIngredientFilter>
-	</RecipeDef-->
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
 
 	<RecipeDef>
 		<defName>Make_EPOE_MAAI_Chip_UseAICore</defName>

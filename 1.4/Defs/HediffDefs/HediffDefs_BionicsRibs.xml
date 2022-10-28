@@ -160,6 +160,7 @@
 			<li>Ribcage</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>MedicalRib</addsHediff>
+		<uiIconThing>MedicalRib</uiIconThing>
 		<incompatibleWithHediffTags>
 			<li>MedicalRib</li>
 			<li>LuciferiumRib</li>
@@ -292,6 +293,7 @@
 			<li>Ribcage</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>DruggedRib</addsHediff>
+		<uiIconThing>DruggedRib</uiIconThing>
 		<incompatibleWithHediffTags>
 			<li>DruggedRib</li>
 			<li>LuciferiumRib</li>
@@ -424,6 +426,7 @@
 			<li>Ribcage</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdrenalineRib</addsHediff>
+		<uiIconThing>AdrenalineRib</uiIconThing>
 		<incompatibleWithHediffTags>
 			<li>AdrenalineRib</li>
 			<li>LuciferiumRib</li>
@@ -552,6 +555,7 @@
 			<li>Ribcage</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>PainkillerRib</addsHediff>
+		<uiIconThing>PainkillerRib</uiIconThing>
 		<incompatibleWithHediffTags>
 			<li>PainkillerRib</li>
 			<li>LuciferiumRib</li>
@@ -672,6 +676,7 @@
 			<li>Ribcage</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>HeaterRib</addsHediff>
+		<uiIconThing>HeaterRib</uiIconThing>
 		<incompatibleWithHediffTags>
 			<li>HeaterRib</li>
 			<li>LuciferiumRib</li>
@@ -792,6 +797,7 @@
 			<li>Ribcage</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>CoolerRib</addsHediff>
+		<uiIconThing>CoolerRib</uiIconThing>
 		<incompatibleWithHediffTags>
 			<li>CoolerRib</li>
 			<li>LuciferiumRib</li>
@@ -918,6 +924,7 @@
 			<li>Ribcage</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>CoagulatorRib</addsHediff>
+		<uiIconThing>CoagulatorRib</uiIconThing>
 		<incompatibleWithHediffTags>
 			<li>CoagulatorRib</li>
 			<li>LuciferiumRib</li>
@@ -1042,6 +1049,7 @@
 			<li>Ribcage</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>RespirationRib</addsHediff>
+		<uiIconThing>RespirationRib</uiIconThing>
 		<incompatibleWithHediffTags>
 			<li>RespirationRib</li>
 			<li>LuciferiumRib</li>
@@ -1177,6 +1185,7 @@
 			<li>Ribcage</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>WakeUpRib</addsHediff>
+		<uiIconThing>WakeUpRib</uiIconThing>
 		<incompatibleWithHediffTags>
 			<li>WakeUpRib</li>
 			<li>LuciferiumRib</li>

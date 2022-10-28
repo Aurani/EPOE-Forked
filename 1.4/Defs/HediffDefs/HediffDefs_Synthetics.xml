@@ -108,6 +108,7 @@
 			<li>Heart</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicHeart</addsHediff>
+		<uiIconThing>BionicHeart</uiIconThing>
 	</RecipeDef>
 
 	<!-- Synthetic lung -->
@@ -168,6 +169,7 @@
 			<li>Lung</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SyntheticLung</addsHediff>
+		<uiIconThing>SyntheticLung</uiIconThing>
 	</RecipeDef>
 
 	<!-- Synthetic stomach -->
@@ -228,6 +230,7 @@
 			<li>Stomach</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicStomach</addsHediff>
+		<uiIconThing>BionicStomach</uiIconThing>
 	</RecipeDef>
 
 	<!-- Synthetic liver -->
@@ -288,6 +291,7 @@
 			<li>Liver</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SyntheticLiver</addsHediff>
+		<uiIconThing>SyntheticLiver</uiIconThing>
 	</RecipeDef>
 
 	<!-- Synthetic kidney -->
@@ -348,6 +352,7 @@
 			<li>Kidney</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SyntheticKidney</addsHediff>
+		<uiIconThing>SyntheticKidney</uiIconThing>
 	</RecipeDef>
 
 	<!-- Muscle stimulator -->
@@ -432,6 +437,7 @@
 			<li>Shoulder</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>MuscleStimulatorArms</addsHediff>
+		<uiIconThing>MuscleStimulator</uiIconThing>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryInstallImplantBase">
@@ -462,6 +468,7 @@
 			<li>Leg</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>MuscleStimulatorLegs</addsHediff>
+		<uiIconThing>MuscleStimulator</uiIconThing>
 	</RecipeDef>
 
 	<!-- Brain implants -->
@@ -620,6 +627,7 @@
 			<li>Brain</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AIChip</addsHediff>
+		<uiIconThing>AIChip</uiIconThing>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 

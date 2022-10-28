@@ -188,6 +188,7 @@
 			<li>Eye</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>GoldenEye</addsHediff>
+		<uiIconThing>GoldenEye</uiIconThing>
 	</RecipeDef>
 
 	<!-- Light receptor -->
@@ -249,6 +250,7 @@
 			<li>Eye</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>LightReceptor</addsHediff>
+		<uiIconThing>LightReceptor</uiIconThing>
 	</RecipeDef>
 	
 	<!-- Simple spine replacement -->
@@ -310,6 +312,7 @@
 			<li>Spine</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SimpleSpine</addsHediff>
+		<uiIconThing>SimpleSpine</uiIconThing>
 	</RecipeDef>
 
 	<!-- Prosthetic hand -->
@@ -385,6 +388,7 @@
 			<li>Hand</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SimpleProstheticHand</addsHediff>
+		<uiIconThing>SimpleProstheticHand</uiIconThing>
 	</RecipeDef>
 
 	<!-- Prosthetic foot -->
@@ -446,6 +450,7 @@
 			<li>Foot</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SimpleProstheticFoot</addsHediff>
+		<uiIconThing>SimpleProstheticFoot</uiIconThing>
 	</RecipeDef>
 
 	<!-- Prosthetic finger -->
@@ -509,6 +514,7 @@
 			<li>Finger</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SimpleProstheticFinger</addsHediff>
+		<uiIconThing>SimpleProstheticFinger</uiIconThing>
 	</RecipeDef>
 
 	<!-- Prosthetic toe -->
@@ -572,6 +578,7 @@
 			<li>Toe</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>SimpleProstheticToe</addsHediff>
+		<uiIconThing>SimpleProstheticToe</uiIconThing>
 	</RecipeDef>
 
 	<!-- Hydraulic jaw -->
@@ -662,6 +669,7 @@
 			<li>Jaw</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>HydraulicJaw</addsHediff>
+		<uiIconThing>HydraulicJaw</uiIconThing>
 	</RecipeDef>
 
 	<!-- Artificial nose -->
@@ -723,6 +731,7 @@
 			<li>Nose</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>ArtificialNose</addsHediff>
+		<uiIconThing>ArtificialNose</uiIconThing>
 	</RecipeDef>
 
 	<!-- Replacement radius -->
@@ -783,6 +792,7 @@
 			<li>Radius</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>ReplacementRadius</addsHediff>
+		<uiIconThing>ReplacementRadius</uiIconThing>
 	</RecipeDef>
 
 	<!-- Scyther blade -->
@@ -808,6 +818,8 @@
 						<power>14.5</power>
 						<cooldownTime>2</cooldownTime>
 						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicSlash</soundMeleeMiss>
 					</li>
 				</tools>
 			</li>
@@ -861,6 +873,7 @@
 			<li>Hand</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>EPOE_ScytherBlade</addsHediff>
+		<uiIconThing>EPIA_ScytherBlade</uiIconThing>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SurgeryRemoveImplantBase">

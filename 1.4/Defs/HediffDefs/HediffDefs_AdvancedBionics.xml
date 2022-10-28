@@ -66,13 +66,13 @@
 		<description>An installed advanced bionic eye.</description>
 		<descriptionHyperlinks><ThingDef>AdvancedBionicEye</ThingDef></descriptionHyperlinks>
 		<spawnThingOnRemoved>AdvancedBionicEye</spawnThingOnRemoved>
-		<woundAnchorRange>0</woundAnchorRange>
-		<displayWound>true</displayWound>
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1.35</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
+		<woundAnchorRange>0</woundAnchorRange>
+		<displayWound>true</displayWound>
 		<eyeGraphicSouth>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
@@ -173,6 +173,7 @@
 			<li>Eye</li>  
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicEye</addsHediff>
+		<uiIconThing>AdvancedBionicEye</uiIconThing>
 	</RecipeDef>
 
 	<!-- Advanced bionic arm -->
@@ -296,6 +297,7 @@
 			<li>Shoulder</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicArm</addsHediff>
+		<uiIconThing>AdvancedBionicArm</uiIconThing>
 	</RecipeDef>
 
 	<!-- Advanced Bionic Leg -->
@@ -403,6 +405,7 @@
 			<li>Leg</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicLeg</addsHediff>
+		<uiIconThing>AdvancedBionicLeg</uiIconThing>
 	</RecipeDef>
 
 	<!-- Advanced bionic spine -->
@@ -514,6 +517,7 @@
 			<li>Spine</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicSpine</addsHediff>
+		<uiIconThing>AdvancedBionicSpine</uiIconThing>
 	</RecipeDef>
 
 	<!-- Advanced bionic ear -->
@@ -618,6 +622,7 @@
 			<li>Ear</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicEar</addsHediff>
+		<uiIconThing>AdvancedBionicEar</uiIconThing>
 	</RecipeDef>
 
 	<!-- Advanced bionic hand -->
@@ -738,6 +743,7 @@
 			<li>Hand</li> 
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicHand</addsHediff>
+		<uiIconThing>AdvancedBionicHand</uiIconThing>
 	</RecipeDef>
 
 	<!-- Advanced bionic foot -->
@@ -842,6 +848,7 @@
 			<li>Foot</li>  
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicFoot</addsHediff>
+		<uiIconThing>AdvancedBionicFoot</uiIconThing>
 	</RecipeDef>
 
 	<!-- Advanced bionic finger -->
@@ -950,6 +957,7 @@
 			<li>Finger</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicFinger</addsHediff>
+		<uiIconThing>AdvancedBionicFinger</uiIconThing>
 	</RecipeDef>
 
 	<!-- Advanced bionic toe -->
@@ -1058,6 +1066,7 @@
 			<li>Toe</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicToe</addsHediff>
+		<uiIconThing>AdvancedBionicToe</uiIconThing>
 	</RecipeDef>
 
 	<!-- Advanced bionic jaw -->
@@ -1177,6 +1186,7 @@
 			<li>Jaw</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>AdvancedBionicJaw</addsHediff>
+		<uiIconThing>AdvancedBionicJaw</uiIconThing>
 	</RecipeDef>
 
 	<!-- Exoskeleton suit -->
@@ -1258,6 +1268,7 @@
 			<li>Torso</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>ExoskeletonSuit</addsHediff>
+		<uiIconThing>ExoskeletonSuit</uiIconThing>
 		<incompatibleWithHediffTags>
 			<li>ExoskeletonSuit</li>
 		</incompatibleWithHediffTags>
@@ -1349,6 +1360,7 @@
 			<li>Torso</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>EPIA_ProtectiveExoskeleton</addsHediff>
+		<uiIconThing>EPIA_ProtectiveExoskeleton</uiIconThing>
 		<incompatibleWithHediffTags>
 			<li>ExoskeletonSuit</li>
 		</incompatibleWithHediffTags>

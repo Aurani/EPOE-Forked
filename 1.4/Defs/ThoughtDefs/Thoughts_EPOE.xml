@@ -17,7 +17,7 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef>
+	<!--ThoughtDef>
 		<defName>SilentJawThought</defName>
 		<workerClass>ThoughtWorker_Hediff</workerClass>
 		<hediff>SilentJaw</hediff>
@@ -28,7 +28,7 @@
 				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
-	</ThoughtDef>
+	</ThoughtDef-->
 
 	<ThoughtDef>
 		<defName>EPIA_AI_Core_GlitchMinor</defName>
