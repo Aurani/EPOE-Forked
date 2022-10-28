@@ -277,6 +277,7 @@
 				<statOffsets>
 					<PlantWorkSpeed>0.25</PlantWorkSpeed>
 					<PlantHarvestYield>0.15</PlantHarvestYield>
+					<DrugHarvestYield>0.15</DrugHarvestYield>
 				</statOffsets>
 			</li>
 		</stages>
