@@ -10,7 +10,7 @@
 	<HugsLib.UpdateFeatureDef ParentName="EPIA_UpdateFeatureBase">
 		<defName>EPOE_Forked_4_3_2</defName>
 		<assemblyVersion>4.3.2</assemblyVersion>
-		<content>Old system of disassembling unwanted prosthetic items have made a return! And a new Auxiliary AI for 1.4 is introduced, a long awaited boost for crafters, the Artisian version! It provides a 15% boost to general labor speed, the stat primarily used in crafting and smithing.
+		<content>Old system of disassembling unwanted prosthetic items have made a return! And a new Auxiliary AI for 1.4 is introduced, a long awaited boost for crafters, the Artisan version! It provides a 15% boost to general labor speed, the stat primarily used in crafting and smithing.
 For XML Extensions, the option to toggle bionic eye textures have been restored. If you are using a texture mod for the eyes, keep this option turned off so it won't interfere with other mods.
 
 |Patch notes:
