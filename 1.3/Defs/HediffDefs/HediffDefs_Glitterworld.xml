@@ -175,6 +175,67 @@
 		<removesHediff>TacticalCorneaImplant</removesHediff>
 	</RecipeDef>
 
+	<!-- Auxiliary AI base types -->
+	<!-- For XML Extensions use only -->
+	
+	<ThingDef ParentName="EPIAGlitterworldImplantBase" Abstract="True">
+		<defName>EPIA_AuxiliaryAI_Worker</defName>
+		<label>auxiliary AI (worker)</label>
+		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
+		<descriptionHyperlinks>
+			<HediffDef>ConstructorCore</HediffDef>
+			<HediffDef>FarmerCore</HediffDef>
+			<HediffDef>MinerCore</HediffDef>
+			<HediffDef>DoctorCore</HediffDef>
+			<HediffDef>DiplomatCore</HediffDef>
+			<HediffDef>EPIA_AuxiliaryAI_Artisan</HediffDef>
+			<RecipeDef>InstallConstructorCore</RecipeDef>
+			<RecipeDef>InstallFarmerCore</RecipeDef>
+			<RecipeDef>InstallMinerCore</RecipeDef>
+			<RecipeDef>InstallDoctorCore</RecipeDef>
+			<RecipeDef>InstallDiplomatCore</RecipeDef>
+			<RecipeDef>EPIA_InstallAuxiliaryAI_Artisan</RecipeDef>
+		</descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="EPIAGlitterworldImplantBase" Abstract="True">
+		<defName>EPIA_AuxiliaryAI_Combat</defName>
+		<label>auxiliary AI (combat)</label>
+		<description>A specialized combat AI assistant system designed for greatly increasing the user's proficiency in their specific assigned roles. Due to the sophisticated nature of the system that focuses and streamlines most cerebral processes, it cannot be used with other auxiliary AI.</description>
+		<descriptionHyperlinks>
+			<HediffDef>EPIA_AuxiliaryAI_Sharpshooter</HediffDef>
+			<HediffDef>EPIA_AuxiliaryAI_Commando</HediffDef>
+			<HediffDef>EPIA_AuxiliaryAI_Brawler</HediffDef>
+			<RecipeDef>EPIA_InstallAuxiliaryAI_Sharpshooter</RecipeDef>
+			<RecipeDef>EPIA_InstallAuxiliaryAI_Commando</RecipeDef>
+			<RecipeDef>EPIA_InstallAuxiliaryAI_Brawler</RecipeDef>
+		</descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>4</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
 	<!-- Auxiliary AI (construction) -->
 
 	<HediffDef ParentName="addedPartGlitteryImplants">
@@ -614,6 +675,92 @@
 		</descriptionHyperlinks>
 		<jobString>Removing auxiliary AI.</jobString>
 		<removesHediff>DiplomatCore</removesHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- Auxiliary AI (artisan) -->
+
+	<HediffDef ParentName="addedPartGlitteryImplants">
+		<defName>EPIA_AuxiliaryAI_Artisan</defName>
+		<label>auxiliary AI: artisan</label>
+		<description>An installed auxiliary AI that aids with general and skilled production labor such as stone blocks, making chemfuel at a refinery, burning items, tailoring clothes, creating art, smithing armor and weapons or smelting slag.</description>
+		<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Artisan</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>EPIA_AuxiliaryAI_Artisan</spawnThingOnRemoved>
+		<stages>
+			<li>
+				<statOffsets>
+					<GeneralLaborSpeed>0.15</GeneralLaborSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+		<tags>
+			<li>AuxiliaryAI_Worker</li>
+		</tags>
+	</HediffDef>
+
+	<ThingDef ParentName="EPIAGlitterworldImplantBase">
+		<defName>EPIA_AuxiliaryAI_Artisan</defName>
+		<label>auxiliary AI (artisan)</label>
+		<description>On Glitterworlds, education and training are not longer necessary, not even for complex jobs. AIs installed in the brain permanently communicate with the user and act as a guide. Requires brain surgery research before installing.</description>
+		<descriptionHyperlinks><RecipeDef>EPIA_InstallAuxiliaryAI_Artisan</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<EPOE_MAAI_Chip>2</EPOE_MAAI_Chip>
+			<Gold>3</Gold>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<RecipeDef ParentName="EPIASurgeryGlitterworld">
+		<defName>EPIA_InstallAuxiliaryAI_Artisan</defName>
+		<label>install auxiliary AI (artisan)</label>
+		<description>Installs auxiliary AI (artisan).</description>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_AuxiliaryAI_Artisan</ThingDef>
+			<HediffDef>EPIA_AuxiliaryAI_Artisan</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing auxiliary AI (artisan).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EPIA_AuxiliaryAI_Artisan</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EPIA_AuxiliaryAI_Artisan</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li> 
+		</appliedOnFixedBodyParts>
+		<addsHediff>EPIA_AuxiliaryAI_Artisan</addsHediff>
+		<researchPrerequisite>BrainSurgery</researchPrerequisite>
+		<incompatibleWithHediffTags>
+			<li>AuxiliaryAI_Combat</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>EPIA_RemoveAuxiliaryAI_Artisan</defName>
+		<label>remove auxiliary AI (artisan)</label>
+		<description>Remove auxiliary AI (artisan).</description>
+		<descriptionHyperlinks>
+			<ThingDef>EPIA_AuxiliaryAI_Artisan</ThingDef>
+			<HediffDef>EPIA_AuxiliaryAI_Artisan</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing auxiliary AI.</jobString>
+		<removesHediff>EPIA_AuxiliaryAI_Artisan</removesHediff>
 		<researchPrerequisite>BrainSurgery</researchPrerequisite>
 	</RecipeDef>
 

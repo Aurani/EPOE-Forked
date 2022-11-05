@@ -33,7 +33,7 @@
 		</fixedIngredientFilter>
 	</RecipeDef>
 	
-	<!--RecipeDef>
+	<RecipeDef>
 		<defName>EPIA_ScrapProsthesis</defName>
 		<label>disassemble prosthesis</label>
 		<description>Scrap and disassemble unwanted prosthesis for materials.</description>
@@ -79,7 +79,7 @@
 				<li>EPOE_Redundancy</li>
 			</categories>
 		</defaultIngredientFilter>
-	</RecipeDef-->
+	</RecipeDef>
 
 	<RecipeDef>
 		<defName>Make_EPOE_MAAI_Chip_UseAICore</defName>
