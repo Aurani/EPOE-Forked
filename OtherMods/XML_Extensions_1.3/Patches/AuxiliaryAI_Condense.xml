@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>vat.epoeforked</modId>
+    <key>AuxiliaryAI_Condense</key>
+    <defaultValue>false</defaultValue>
+	<caseTrue>
+		<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAttributeRemove">
+					<xpath>Defs/ThingDef[defName="EPIA_AuxiliaryAI_Worker" or defName="EPIA_AuxiliaryAI_Combat"]</xpath>
+					<attribute>Abstract</attribute>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="ConstructorCore" or
+											defName="FarmerCore" or
+											defName="MinerCore" or
+											defName="DoctorCore" or
+											defName="DiplomatCore" or
+											defName="EPIA_AuxiliaryAI_Artisan"]/descriptionHyperlinks</xpath>
+					<value>
+						<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Worker</ThingDef></descriptionHyperlinks>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="ConstructorCore" or
+											defName="FarmerCore" or
+											defName="MinerCore" or
+											defName="DoctorCore" or
+											defName="DiplomatCore" or
+											defName="EPIA_AuxiliaryAI_Artisan"]/spawnThingOnRemoved</xpath>
+					<value>
+						<spawnThingOnRemoved>EPIA_AuxiliaryAI_Worker</spawnThingOnRemoved>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="InstallConstructorCore" or
+											defName="InstallFarmerCore" or
+											defName="InstallMinerCore" or
+											defName="InstallDoctorCore" or
+											defName="InstallDiplomatCore" or
+											defName="EPIA_InstallAuxiliaryAI_Artisan"]/descriptionHyperlinks/ThingDef</xpath>
+					<value>
+						<ThingDef>EPIA_AuxiliaryAI_Worker</ThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="InstallConstructorCore" or
+											defName="InstallFarmerCore" or
+											defName="InstallMinerCore" or
+											defName="InstallDoctorCore" or
+											defName="InstallDiplomatCore" or
+											defName="EPIA_InstallAuxiliaryAI_Artisan"]/ingredients</xpath>
+					<value>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>EPIA_AuxiliaryAI_Worker</li>
+									</thingDefs>
+								</filter>
+								<count>1</count>
+							</li>
+						</ingredients>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="InstallConstructorCore" or
+											defName="InstallFarmerCore" or
+											defName="InstallMinerCore" or
+											defName="InstallDoctorCore" or
+											defName="InstallDiplomatCore" or
+											defName="EPIA_InstallAuxiliaryAI_Artisan"]/fixedIngredientFilter</xpath>
+					<value>
+						<fixedIngredientFilter>
+							<thingDefs>
+								<li>EPIA_AuxiliaryAI_Worker</li>
+							</thingDefs>
+						</fixedIngredientFilter>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="RemoveConstructorCore" or
+											defName="RemoveFarmerCore" or
+											defName="RemoveMinerCore" or
+											defName="RemoveDoctorCore" or
+											defName="RemoveDiplomatCore" or
+											defName="EPIA_RemoveAuxiliaryAI_Artisan"]/descriptionHyperlinks/ThingDef</xpath>
+					<value>
+						<ThingDef>EPIA_AuxiliaryAI_Worker</ThingDef>
+					</value>
+				</li>
+				
+				
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="EPIA_AuxiliaryAI_Sharpshooter" or
+											defName="EPIA_AuxiliaryAI_Commando" or
+											defName="EPIA_AuxiliaryAI_Brawler"]/descriptionHyperlinks</xpath>
+					<value>
+						<descriptionHyperlinks><ThingDef>EPIA_AuxiliaryAI_Combat</ThingDef></descriptionHyperlinks>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="EPIA_AuxiliaryAI_Sharpshooter" or
+											defName="EPIA_AuxiliaryAI_Commando" or
+											defName="EPIA_AuxiliaryAI_Brawler"]/spawnThingOnRemoved</xpath>
+					<value>
+						<spawnThingOnRemoved>EPIA_AuxiliaryAI_Combat</spawnThingOnRemoved>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="EPIA_InstallAuxiliaryAI_Sharpshooter" or
+											defName="EPIA_InstallAuxiliaryAI_Commando" or
+											defName="EPIA_InstallAuxiliaryAI_Brawler"]/descriptionHyperlinks/ThingDef</xpath>
+					<value>
+						<ThingDef>EPIA_AuxiliaryAI_Combat</ThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="EPIA_InstallAuxiliaryAI_Sharpshooter" or
+											defName="EPIA_InstallAuxiliaryAI_Commando" or
+											defName="EPIA_InstallAuxiliaryAI_Brawler"]/ingredients</xpath>
+					<value>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>EPIA_AuxiliaryAI_Combat</li>
+									</thingDefs>
+								</filter>
+								<count>1</count>
+							</li>
+						</ingredients>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="EPIA_InstallAuxiliaryAI_Sharpshooter" or
+											defName="EPIA_InstallAuxiliaryAI_Commando" or
+											defName="EPIA_InstallAuxiliaryAI_Brawler"]/fixedIngredientFilter</xpath>
+					<value>
+						<fixedIngredientFilter>
+							<thingDefs>
+								<li>EPIA_AuxiliaryAI_Combat</li>
+							</thingDefs>
+						</fixedIngredientFilter>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="EPIA_RemoveAuxiliaryAI_Sharpshooter" or
+											defName="EPIA_RemoveAuxiliaryAI_Commando" or
+											defName="EPIA_RemoveAuxiliaryAI_Brawler"]/descriptionHyperlinks/ThingDef</xpath>
+					<value>
+						<ThingDef>EPIA_AuxiliaryAI_Combat</ThingDef>
+					</value>
+				</li>
+				
+				
+				
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="ConstructorCore" or
+											defName="FarmerCore" or
+											defName="MinerCore" or
+											defName="DoctorCore" or
+											defName="DiplomatCore" or
+											defName="EPIA_AuxiliaryAI_Artisan" or
+											defName="EPIA_AuxiliaryAI_Sharpshooter" or
+											defName="EPIA_AuxiliaryAI_Commando" or
+											defName="EPIA_AuxiliaryAI_Brawler"]</xpath>
+				</li>
+			</operations>
+		</Operation>
+    </caseTrue>
+</Operation>
+
+</Patch>

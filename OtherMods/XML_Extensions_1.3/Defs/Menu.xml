@@ -117,6 +117,14 @@
 				<tKey>vat_epoeforked_experimental</tKey>
 			</li>
 			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>AuxiliaryAI_Condense</key>
+				<defaultValue>false</defaultValue>
+				<label>Use the condensed Auxiliary AI set from RimWorld 1.4 version of the mod?</label>
+				<tooltip>Auxiliary AI items are now combined into two distinct items, the worker type and combat type, to reduce clutter. This means they are now interchangable in their category.
+
+The old item versions are removed, there will be errors when loading a save to indicate their removal, and should not show again after saving and loading again.</tooltip>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>LegacyMode</key>
 				<defaultValue>false</defaultValue>
 				<label>Legacy mode</label>
@@ -133,15 +141,16 @@
 				<tKeyTip>vat_epoeforked_EPOEMigrationTip</tKeyTip>
 			</li>
 			<li Class="XmlExtensions.Setting.GapLine" />
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Restarting game is required to apply any changes.</text>
+				<tKey>vat_epoeforked_ResetToApplyReminder</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.GapLine" />
 			<li Class="XmlExtensions.Setting.ResetSettings">
 				<label>Reset settings</label>
 				<tKey>vat_epoeforked_ResetSettings</tKey>
 			</li>
 			<li Class="XmlExtensions.Setting.GapLine" />
-			<li Class="XmlExtensions.Setting.Text">
-				<text>Restarting game is required to apply any changes.</text>
-				<tKey>vat_epoeforked_ResetToApplyReminder</tKey>
-			</li>
 		</settings>
 	</XmlExtensions.SettingsMenuDef>
 

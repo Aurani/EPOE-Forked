@@ -137,6 +137,7 @@
 				<text>Restarting game is required to apply any changes.</text>
 				<tKey>vat_epoeforked_ResetToApplyReminder</tKey>
 			</li>
+			<li Class="XmlExtensions.Setting.GapLine" />
 			<li Class="XmlExtensions.Setting.ResetSettings">
 				<label>Reset settings</label>
 				<tKey>vat_epoeforked_ResetSettings</tKey>
