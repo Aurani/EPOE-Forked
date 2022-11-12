@@ -1,3 +1,6 @@
+4.3.4 (12.11.22)
+* Apply a fix to a config error when Medical System Expansion 2 is used, and prevent other instances that can cause this to occur.
+
 4.3.3 (5.11.22)
 * Prothesis traders now have a Body parts category generation in their stock, at minor generation. This means it can now very rarely sell psylink neuroformer and mechlinks again.
 
