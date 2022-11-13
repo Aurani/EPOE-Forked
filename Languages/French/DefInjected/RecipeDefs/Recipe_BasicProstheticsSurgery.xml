@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallHookHand.label>installer une main-crochet</InstallHookHand.label>
+<InstallHookHand.description>Installe une main-crochet.</InstallHookHand.description>
+<InstallHookHand.jobString>Installation de la main-crochet.</InstallHookHand.jobString>
+
+<InstallSteelArm.label>installer un bras en acier</InstallSteelArm.label>
+<InstallSteelArm.description>Installe un bras en acier.</InstallSteelArm.description>
+<InstallSteelArm.jobString>Installation du bras en acier.</InstallSteelArm.jobString>
+
+<InstallEyePatch.label>installer un cache-oeil</InstallEyePatch.label>
+<InstallEyePatch.description>Installe un cache-oeil.</InstallEyePatch.description>
+<InstallEyePatch.jobString>Installation du cache-oeil.</InstallEyePatch.jobString>
+
+<InstallEarBandage.label>installer un bandage auriculaire</InstallEarBandage.label>
+<InstallEarBandage.description>Installe un bandage auriculaire.</InstallEarBandage.description>
+<InstallEarBandage.jobString>Installation d'un bandage auriculaire.</InstallEarBandage.jobString>
+</LanguageData>

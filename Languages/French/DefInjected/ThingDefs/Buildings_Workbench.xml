@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<TableSimpleProsthetic.label>établi prothétique</TableSimpleProsthetic.label>
+<TableSimpleProsthetic.description>Un établi équipé pour la production de prothèses.</TableSimpleProsthetic.description>
+
+<TableBionics.label>établi bionique</TableBionics.label>
+<TableBionics.description>Un établi équipé pour la production de produits bioniques et d'implants de haute technologie. Cet établi avancé est capable d'assister certains postes de travail en partageant une partie de son système de fabrication spécialisé lorsqu'il est placé près d'eux.\n\nLorsqu'il est placé près d'un établi prothétique, d'une nano imprimante synthétique ou d'un banc de fabrication, cet établi est capable d'augmenter leur vitesse de production. Ils peuvent se connecter à un maximum d'un établi bionique.</TableBionics.description>
+
+<TableOrgans.label>nano imprimante synthétique</TableOrgans.label>
+<TableOrgans.description>Un poste de travail de fabrication, équipé d'une imprimante 3D pour fabriquer des organes et des implants compliqués. Cet établi avancé est capable d'aider certains postes de travail en partageant une partie de son système de fabrication spécialisé lorsqu'il est placé près d'eux.\n\nLorsqu'il est placé près d'un établi prothétique, d'une table bionique ou d'un établi de fabrication, cet établi est capable d'augmenter leur vitesse de production. Ils peuvent se connecter à un maximum d'une nano-imprimante synthétique.</TableOrgans.description>
+</LanguageData>

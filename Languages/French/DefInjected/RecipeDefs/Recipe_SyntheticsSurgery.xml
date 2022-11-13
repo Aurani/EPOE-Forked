@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallBionicHeart.label>installer un coeur synthétique</InstallBionicHeart.label>
+<InstallBionicHeart.description>Installe un coeur synthétique.</InstallBionicHeart.description>
+<InstallBionicHeart.jobString>Installation du coeur synthétique.</InstallBionicHeart.jobString>
+
+<InstallSyntheticLung.label>installer un poumon synthétique</InstallSyntheticLung.label>
+<InstallSyntheticLung.description>Installe un poumon synthétique.</InstallSyntheticLung.description>
+<InstallSyntheticLung.jobString>Installation d'un poumon synthétique.</InstallSyntheticLung.jobString>
+
+<InstallBionicStomach.label>installer un estomac synthétique</InstallBionicStomach.label>
+<InstallBionicStomach.description>Installe un estomac synthétique.</InstallBionicStomach.description>
+<InstallBionicStomach.jobString>Installation d'un estomac synthétique.</InstallBionicStomach.jobString>
+
+<InstallSyntheticLiver.label>installer le foie synthétique</InstallSyntheticLiver.label>
+<InstallSyntheticLiver.description>Installe un foie synthétique.</InstallSyntheticLiver.description>
+<InstallSyntheticLiver.jobString>Installation du foie synthétique.</InstallSyntheticLiver.jobString>
+
+<InstallSyntheticKidney.label>installer un rein synthétique</InstallSyntheticKidney.label>
+<InstallSyntheticKidney.description>Installe un rein synthétique.</InstallSyntheticKidney.description>
+<InstallSyntheticKidney.jobString>Installation d'un rein synthétique.</InstallSyntheticKidney.jobString>
+
+<InstallMuscleStimulatorArms.label>installer un stimulateur musculaire (bras)</InstallMuscleStimulatorArms.label>
+<InstallMuscleStimulatorArms.description>Installe un stimulateur musculaire dans le bras.</InstallMuscleStimulatorArms.description>
+<InstallMuscleStimulatorArms.jobString>Installer un stimulateur musculaire.</InstallMuscleStimulatorArms.jobString>
+
+<InstallMuscleStimulatorLegs.label>installer un stimulateur musculaire (jambe)</InstallMuscleStimulatorLegs.label>
+<InstallMuscleStimulatorLegs.description>Installe un stimulateur musculaire dans la jambe.</InstallMuscleStimulatorLegs.description>
+<InstallMuscleStimulatorLegs.jobString>Installer un stimulateur musculaire.</InstallMuscleStimulatorLegs.jobString>
+
+<InstallAIChip.label>installer une puce IA</InstallAIChip.label>
+<InstallAIChip.description>Installe une puce IA.</InstallAIChip.description>
+<InstallAIChip.jobString>Installation de la puce IA.</InstallAIChip.jobString>
+
+<RemoveJoywire.label>supprimer l'implant joywire</RemoveJoywire.label>
+<RemoveJoywire.description>Retirez l'implant joywire.</RemoveJoywire.description>
+<RemoveJoywire.jobString>Suppression de l'implant joywire.</RemoveJoywire.jobString>
+
+<RemovePainstopper.label>supprimer l'antidouleur</RemovePainstopper.label>
+<RemovePainstopper.description>Retirer l'anti-douleur.</RemovePainstopper.description>
+<RemovePainstopper.jobString>Suppression de l'anti-douleur.</RemovePainstopper.jobString>
+
+<RemoveAIChip.label>retirer l'implant de puce IA</RemoveAIChip.label>
+<RemoveAIChip.description>Supprime l'implant de puce IA.</RemoveAIChip.description>
+<RemoveAIChip.jobString>Retrait de l'implant de puce IA.</RemoveAIChip.jobString>
+
+<RemoveDeathAcidifier.label>supprimer l'implant Death acidifier</RemoveDeathAcidifier.label>
+<RemoveDeathAcidifier.description>Supprimer l'implant Death acidifier.</RemoveDeathAcidifier.description>
+<RemoveDeathAcidifier.jobString>Suppression de l'implant Death acidifier.</RemoveDeathAcidifier.jobString>
+</LanguageData>

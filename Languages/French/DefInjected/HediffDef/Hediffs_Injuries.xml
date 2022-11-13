@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPIA_EMP_Disorientation.label>désorientation</EPIA_EMP_Disorientation.label>
+<EPIA_EMP_Disorientation.description>Séquelles d'une décharge électrique au cerveau. Cela est généralement dû à la rétroaction des implants cérébraux touchés par les impulsions EMP.</EPIA_EMP_Disorientation.description>
+
+<EPIA_EMP_ProtectiveExoskeleton.label>bouclier d'exosquelette désactivé</EPIA_EMP_ProtectiveExoskeleton.label>
+<EPIA_EMP_ProtectiveExoskeleton.description>Une impulsion EMP a désactivé la fonction de protection du bouclier d'exosquelette et devient un poids mort qui encombre l'utilisateur pendant un certain temps.</EPIA_EMP_ProtectiveExoskeleton.description>
+
+<EPIA_AIPersonaCore_GlitchMinor.label>problème mineur d'IA</EPIA_AIPersonaCore_GlitchMinor.label>
+<EPIA_AIPersonaCore_GlitchMinor.description>Le noyau de personnalité de l'IA a subi une défaillance mineure dans son système et se comporte de manière agaçante. Il peut récupérer au fil du temps et le traitement peut ralentir la gravité de cette condition jusqu'à ce que l'erreur système soit résolue d'elle-même.</EPIA_AIPersonaCore_GlitchMinor.description>
+<EPIA_AIPersonaCore_GlitchMinor.stages.0.label>mineur</EPIA_AIPersonaCore_GlitchMinor.stages.0.label>
+<EPIA_AIPersonaCore_GlitchMinor.stages.1.label>mineur</EPIA_AIPersonaCore_GlitchMinor.stages.1.label>
+<EPIA_AIPersonaCore_GlitchMinor.stages.2.label>majeur</EPIA_AIPersonaCore_GlitchMinor.stages.2.label>
+<EPIA_AIPersonaCore_GlitchMinor.stages.3.label>critique</EPIA_AIPersonaCore_GlitchMinor.stages.3.label>
+
+<EPIA_AIPersonaCore_GlitchMajor.label>problème majeur d'IA</EPIA_AIPersonaCore_GlitchMajor.label>
+<EPIA_AIPersonaCore_GlitchMajor.description>Le noyau de personnalité de l'IA a subi une défaillance majeure dans son système et se comporte de manière malveillante. Il peut récupérer au fil du temps et le traitement peut ralentir la gravité de cette condition jusqu'à ce que l'erreur système soit résolue d'elle-même.</EPIA_AIPersonaCore_GlitchMajor.description>
+<EPIA_AIPersonaCore_GlitchMajor.stages.0.label>mineur</EPIA_AIPersonaCore_GlitchMajor.stages.0.label>
+<EPIA_AIPersonaCore_GlitchMajor.stages.1.label>majeur</EPIA_AIPersonaCore_GlitchMajor.stages.1.label>
+<EPIA_AIPersonaCore_GlitchMajor.stages.2.label>critique</EPIA_AIPersonaCore_GlitchMajor.stages.2.label>
+<EPIA_AIPersonaCore_GlitchMajor.stages.3.label>critique</EPIA_AIPersonaCore_GlitchMajor.stages.3.label>
+
+<EPIA_AIPersonaCore_GlitchCritical.label>problème d'IA critique</EPIA_AIPersonaCore_GlitchCritical.label>
+<EPIA_AIPersonaCore_GlitchCritical.description>Le noyau de personnalité de l'IA a subi une défaillance critique dans son système et se comporte de manière extrêmement malveillante. Il peut récupérer au fil du temps et le traitement peut ralentir la gravité de cette condition jusqu'à ce que l'erreur système soit résolue d'elle-même.</EPIA_AIPersonaCore_GlitchCritical.description>
+<EPIA_AIPersonaCore_GlitchCritical.stages.0.label>mineur</EPIA_AIPersonaCore_GlitchCritical.stages.0.label>
+<EPIA_AIPersonaCore_GlitchCritical.stages.1.label>majeur</EPIA_AIPersonaCore_GlitchCritical.stages.1.label>
+<EPIA_AIPersonaCore_GlitchCritical.stages.2.label>critique</EPIA_AIPersonaCore_GlitchCritical.stages.2.label>
+<EPIA_AIPersonaCore_GlitchCritical.stages.3.label>critique</EPIA_AIPersonaCore_GlitchCritical.stages.3.label>
+
+<EPIA_AIPersonaCore_EMPed.label>Choc IA EMP</EPIA_AIPersonaCore_EMPed.label>
+<EPIA_AIPersonaCore_EMPed.description>Le noyau personnalité de l'IA a été affecté par une impulsion EMP et tente rapidement de récupérer toutes ses fonctionnalités. Des problèmes dans le système sont susceptibles d'apparaître et de causer des dommages malveillants à l'utilisateur.</EPIA_AIPersonaCore_EMPed.description>
+<EPIA_AIPersonaCore_EMPed.stages.0.label>mineur</EPIA_AIPersonaCore_EMPed.stages.0.label>
+<EPIA_AIPersonaCore_EMPed.stages.1.label>majeur</EPIA_AIPersonaCore_EMPed.stages.1.label>
+<EPIA_AIPersonaCore_EMPed.stages.2.label>critique</EPIA_AIPersonaCore_EMPed.stages.2.label>
+<EPIA_AIPersonaCore_EMPed.stages.3.label>critique</EPIA_AIPersonaCore_EMPed.stages.3.label>
+
+</LanguageData>

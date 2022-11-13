@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<CreateAdvancedBionicEye.label>assembler un oeil bionique avancé</CreateAdvancedBionicEye.label>
+<CreateAdvancedBionicEye.description>Améliorer l'oeil bionique en œil bionique avancé.</CreateAdvancedBionicEye.description>
+<CreateAdvancedBionicEye.jobString>Amélioration de l'oeil bionique.</CreateAdvancedBionicEye.jobString>
+
+<CreateAdvancedBionicArm.label>assembler un bras bionique avancé</CreateAdvancedBionicArm.label>
+<CreateAdvancedBionicArm.description>Améliorer un bras bionique en bras bionique avancé.</CreateAdvancedBionicArm.description>
+<CreateAdvancedBionicArm.jobString>Amélioration du bras bionique.</CreateAdvancedBionicArm.jobString>
+
+<CreateAdvancedBionicLeg.label>assembler une jambe bionique avancée</CreateAdvancedBionicLeg.label>
+<CreateAdvancedBionicLeg.description>Améliorer une jambe bionique en jambe bionique avancée.</CreateAdvancedBionicLeg.description>
+<CreateAdvancedBionicLeg.jobString>Amélioration de la jambe bionique.</CreateAdvancedBionicLeg.jobString>
+
+<CreateAdvancedBionicSpine.label>assembler une colonne vertébrale bionique avancée</CreateAdvancedBionicSpine.label>
+<CreateAdvancedBionicSpine.description>Améliorer une colonne vertébrale bionique en colonne vertébrale bionique avancée.</CreateAdvancedBionicSpine.description>
+<CreateAdvancedBionicSpine.jobString>Amélioration de la colonne vertébrale bionique.</CreateAdvancedBionicSpine.jobString>
+
+<CreateAdvancedBionicEar.label>assembler une oreille bionique avancée</CreateAdvancedBionicEar.label>
+<CreateAdvancedBionicEar.description>Améliorer une oreille bionique en oreille bionique avancée.</CreateAdvancedBionicEar.description>
+<CreateAdvancedBionicEar.jobString>Amélioration de l'oreille bionique.</CreateAdvancedBionicEar.jobString>
+
+<CreateAdvancedBionicHand.label>assembler une main bionique avancée</CreateAdvancedBionicHand.label>
+<CreateAdvancedBionicHand.description>Améliorer une main bionique en main bionique avancée.</CreateAdvancedBionicHand.description>
+<CreateAdvancedBionicHand.jobString>Amélioration de la main bionique.</CreateAdvancedBionicHand.jobString>
+
+<CreateAdvancedBionicFoot.label>assembler un pied bionique avancé</CreateAdvancedBionicFoot.label>
+<CreateAdvancedBionicFoot.description>Améliorer un pied bionique en pied bionique avancé.</CreateAdvancedBionicFoot.description>
+<CreateAdvancedBionicFoot.jobString>Amélioration du pied bionique.</CreateAdvancedBionicFoot.jobString>
+
+<EPIA_UpgradeAdvancedBionicFinger.label>assembler un doigt bionique avancé</EPIA_UpgradeAdvancedBionicFinger.label>
+<EPIA_UpgradeAdvancedBionicFinger.description>Améliorer un doigt bionique en doigt bionique avancé.</EPIA_UpgradeAdvancedBionicFinger.description>
+<EPIA_UpgradeAdvancedBionicFinger.jobString>Amélioration du doigt bionique.</EPIA_UpgradeAdvancedBionicFinger.jobString>
+
+<EPIA_UpgradeAdvancedBionicToe.label>assembler un orteil bionique avancé</EPIA_UpgradeAdvancedBionicToe.label>
+<EPIA_UpgradeAdvancedBionicToe.description>Améliorer un orteil bionique en orteil bionique avancé.</EPIA_UpgradeAdvancedBionicToe.description>
+<EPIA_UpgradeAdvancedBionicToe.jobString>Amélioration de l'orteil bionique.</EPIA_UpgradeAdvancedBionicToe.jobString>
+
+<CreateAdvancedBionicJaw.label>assembler une mâchoire bionique avancée</CreateAdvancedBionicJaw.label>
+<CreateAdvancedBionicJaw.description>Améliorer une mâchoire bionique en mâchoire bionique avancée.</CreateAdvancedBionicJaw.description>
+<CreateAdvancedBionicJaw.jobString>Amélioration de la mâchoire bionique.</CreateAdvancedBionicJaw.jobString>
+
+<CreateAdvancedPowerArm.label>assembler un bras de puissance avancé</CreateAdvancedPowerArm.label>
+<CreateAdvancedPowerArm.description>Améliorez un bras de puissance bionique en bras robotisé avancé.</CreateAdvancedPowerArm.description>
+<CreateAdvancedPowerArm.jobString>Amélioration du bras de puissance.</CreateAdvancedPowerArm.jobString>
+
+</LanguageData>

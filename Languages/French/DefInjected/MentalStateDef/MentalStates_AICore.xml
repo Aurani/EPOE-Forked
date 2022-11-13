@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<WanderConfusedCore.label>errance confuse</WanderConfusedCore.label>
+<WanderConfusedCore.beginLetterLabel>confusion</WanderConfusedCore.beginLetterLabel>
+<WanderConfusedCore.beginLetter>L'esprit de {0} est inondé d'images et de sons terribles par le noyau de personnalité de l'IA.</WanderConfusedCore.beginLetter>
+<WanderConfusedCore.recoveryMessage>le noyau de personnalité de l'IA de {0} a été confiné.</WanderConfusedCore.recoveryMessage>
+<WanderConfusedCore.baseInspectLine>État mental : Confus et errant</WanderConfusedCore.baseInspectLine>
+
+<BerserkCore.label>Prise de contrôle de l'IA</BerserkCore.label>
+<BerserkCore.beginLetter>le noyau de personnalité de l'IA de {0} a pris le contrôle direct !\n\n[PAWN_pronoun] attaquera quiconque [PAWN_pronoun] verra.</BerserkCore.beginLetter>
+<BerserkCore.recoveryMessage>le noyau de personnalité de l'IA de {0} a été confiné.</BerserkCore.recoveryMessage>
+<BerserkCore.baseInspectLine>État mental : prise de contrôle de l'IA</BerserkCore.baseInspectLine>
+
+</LanguageData>

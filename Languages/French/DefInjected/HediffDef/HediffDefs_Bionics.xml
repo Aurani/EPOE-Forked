@@ -1,14 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-		
-    <PowerArm.label>Bras puissant</PowerArm.label>
-   <BionicHand.label>Main bionique</BionicHand.label>
-   <BionicFoot.label>Pied bionique</BionicFoot.label>
-   <BionicEar.label>Oreille bionique</BionicEar.label>
-   <BionicJaw.label>Mâchoire bionique</BionicJaw.label>
-   <SilentJaw.label>Mâchoire silencieuse</SilentJaw.label>
-   <BionicSpine.label>Colonne vertébrale bionique</BionicSpine.label>
-   <MedicalRib.label>Côte (médicale)</MedicalRib.label>
-   <DruggedRib.label>Côte (drogue)</DruggedRib.label>
-   <AdrenalineRib.label>Côte (adrénaline)</AdrenalineRib.label>
+
+<BionicHand.label>main bionique</BionicHand.label>
+<BionicHand.labelNoun>une main bionique</BionicHand.labelNoun>
+<BionicHand.description>Une main bionique installée.</BionicHand.description>
+<BionicHand.comps.0.tools.0.label>poing</BionicHand.comps.0.tools.0.label>
+
+<BionicFoot.label>pied bionique</BionicFoot.label>
+<BionicFoot.labelNoun>un pied bionique</BionicFoot.labelNoun>
+<BionicFoot.description>Un pied bionique installé.</BionicFoot.description>
+
+<BionicFinger.label>doigt bionique</BionicFinger.label>
+<BionicFinger.labelNoun>un doigt bionique</BionicFinger.labelNoun>
+<BionicFinger.description>Un doigt bionique installé.</BionicFinger.description>
+
+<BionicToe.label>orteil bionique</BionicToe.label>
+<BionicToe.labelNoun>un orteil bionique</BionicToe.labelNoun>
+<BionicToe.description>Un orteil bionique installé.</BionicToe.description>
+
+<BionicJaw.label>mâchoire bionique</BionicJaw.label>
+<BionicJaw.labelNoun>une mâchoire bionique</BionicJaw.labelNoun>
+<BionicJaw.description>Une mâchoire bionique installée.</BionicJaw.description>
+<BionicJaw.comps.0.tools.0.label>dents</BionicJaw.comps.0.tools.0.label>
+
+<SilentJaw.label>mâchoire silencieuse</SilentJaw.label>
+<SilentJaw.labelNoun>une mâchoire silencieuse</SilentJaw.labelNoun>
+<SilentJaw.description>Une mâchoire silencieuse installée.</SilentJaw.description>
+<SilentJaw.comps.0.tools.0.label>dents</SilentJaw.comps.0.tools.0.label>
+
+<PowerArm.label>bras de puissance</PowerArm.label>
+<PowerArm.labelNoun>un bras de puissance</PowerArm.labelNoun>
+<PowerArm.description>Un bras de puissance installé.</PowerArm.description>
+<PowerArm.comps.0.tools.0.label>griffe</PowerArm.comps.0.tools.0.label>
+
 </LanguageData>

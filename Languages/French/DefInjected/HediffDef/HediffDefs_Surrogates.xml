@@ -1,11 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-		
-    <BrainStimulator.label>Stimulateur cérébral</BrainStimulator.label>
-    <SurrogateLung.label>Poumon artificiel</SurrogateLung.label>
-    <SurrogateStomach.label>Estomac artificiel</SurrogateStomach.label>
-    <SurrogateLiver.label>Foie artificiel</SurrogateLiver.label>
-    <SurrogateKidney.label>Rein artificiel</SurrogateKidney.label>
-    <SurrogateHeart.label>Coeur artificiel</SurrogateHeart.label>
-	
+
+<SimpleProstheticHeart.label>coeur de substitution</SimpleProstheticHeart.label>
+<SimpleProstheticHeart.description>Un coeur de substitution installé.</SimpleProstheticHeart.description>
+
+<SurrogateLung.label>poumon de substitution</SurrogateLung.label>
+<SurrogateLung.description>Un poumon de substitution installé.</SurrogateLung.description>
+
+<SurrogateStomach.label>estomac de substitution</SurrogateStomach.label>
+<SurrogateStomach.description>Un estomac de substitution installé.</SurrogateStomach.description>
+
+<SurrogateLiver.label>foie de substitution</SurrogateLiver.label>
+<SurrogateLiver.description>Un foie de substitution installé.</SurrogateLiver.description>
+
+<SurrogateKidney.label>rein de substitution</SurrogateKidney.label>
+<SurrogateKidney.description>Un rein de substitution installé.</SurrogateKidney.description>
+
+<BrainStimulator.label>stimulateur cérébral</BrainStimulator.label>
+<BrainStimulator.description>Un stimulateur cérébral installé.</BrainStimulator.description>
+
 </LanguageData>

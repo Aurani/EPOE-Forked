@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+<Smelt_EPOE_DamagedScytherBlade.label>faire fondre une lame d'inciseur endommagée</Smelt_EPOE_DamagedScytherBlade.label>
+<Smelt_EPOE_DamagedScytherBlade.description>Utilisez la chaleur et des électroaimants puissants pour extraire le métal utile d'une lame d'inciseur endommagée.</Smelt_EPOE_DamagedScytherBlade.description>
+<Smelt_EPOE_DamagedScytherBlade.jobString>Fonte de la lame d'inciseur endommagée.</Smelt_EPOE_DamagedScytherBlade.jobString>
+
+<EPIA_ScrapProsthesis.label>démonter la prothèse</EPIA_ScrapProsthesis.label>
+<EPIA_ScrapProsthesis.description>Mettre au rebut et démonter les prothèses indésirables pour les matériaux.</EPIA_ScrapProsthesis.description>
+<EPIA_ScrapProsthesis.jobString>Démontage de la prothèse.</EPIA_ScrapProsthesis.jobString>
+
+<Make_EPOE_MAAI_Chip_UseAICore.label>créer 5 puces MA-AI à partir du coeur de l'IA</Make_EPOE_MAAI_Chip_UseAICore.label>
+<Make_EPOE_MAAI_Chip_UseAICore.description>Fabriquez 5 puces MA-AI à partir du noyau de personnalité IA.</Make_EPOE_MAAI_Chip_UseAICore.description>
+<Make_EPOE_MAAI_Chip_UseAICore.jobString>Fabrication d'une puce MA-AI.</Make_EPOE_MAAI_Chip_UseAICore.jobString>
+
+</LanguageData>

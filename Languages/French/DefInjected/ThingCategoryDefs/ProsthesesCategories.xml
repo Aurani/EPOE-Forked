@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <BasicProstheses.label>Prothèses basiques</BasicProstheses.label>
-  <SimpleProstheses.label>Prothèses simples</SimpleProstheses.label>
-  <BionicProstheses.label>Prothèses bioniques</BionicProstheses.label>
-  <AdvancedProstheses.label>Prothèses avancées</AdvancedProstheses.label>
-
-  <SurrogateOrgans.label>Organes artificiels</SurrogateOrgans.label>
-  <SyntheticOrgans.label>Organes synthétiques</SyntheticOrgans.label>
-
+<EPIA_OrganicOptimizer.label>Optimiseur biologique</EPIA_OrganicOptimizer.label>
+<EPOE_Redundancy.label>Redondance EPOE</EPOE_Redundancy.label>
+<EPIA_TailRedundancy.label>queues extraterrestres (originales)</EPIA_TailRedundancy.label>
 </LanguageData>

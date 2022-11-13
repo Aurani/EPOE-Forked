@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<SimpleRib.label>remplacement de côte vierge</SimpleRib.label>
+<SimpleRib.description>Une côte artificielle creuse, avec un minuscule système de distribution. Prêt à être comblé avec l'implant costal de votre choix.</SimpleRib.description>
+
+<MedicalRib.label>implant costal (antibiotique)</MedicalRib.label>
+<MedicalRib.description>Une côte artificielle, équipée de petits filtres sanguins et de distributeurs d'antibiotiques pour maintenir l'utilisateur en bonne santé.</MedicalRib.description>
+
+<DruggedRib.label>implant costal (alcool)</DruggedRib.label>
+<DruggedRib.description>Une côte artificielle, équipée de petits distributeurs de flocons pour garder l'utilisateur heureux. Effets secondaires d'une sensation d'euphorie et de manque de concentration.</DruggedRib.description>
+
+<AdrenalineRib.label>implant costal (adrénaline)</AdrenalineRib.label>
+<AdrenalineRib.description>Une côte artificielle, équipée de petits distributeurs d'adrénaline pour garder l'utilisateur en forme et éveillé.</AdrenalineRib.description>
+
+<PainkillerRib.label>implant costal (anti-douleur)</PainkillerRib.label>
+<PainkillerRib.description>Une côte artificielle, équipée de petits distributeurs de morphine pour engourdir la douleur de l'utilisateur.</PainkillerRib.description>
+
+<HeaterRib.label>implant costal (chauffant)</HeaterRib.label>
+<HeaterRib.description>Une côte artificielle, contenant une spirale induisant de la chaleur alimentée par un micro-réacteur pour réchauffer le corps de l'intérieur.</HeaterRib.description>
+
+<CoolerRib.label>implant costal (refroidissement)</CoolerRib.label>
+<CoolerRib.description>Une côte artificielle avec un système de micro-refroidissement, augmentant l'efficacité de l'échange de chaleur via les échappements dermiques.</CoolerRib.description>
+
+<CoagulatorRib.label>implant costal (coagulateur)</CoagulatorRib.label>
+<CoagulatorRib.description>Une côte artificielle, équipée de petits coagulateurs-distributeurs qui réagissent à la perte de sang, ce qui facilitera la coagulation du sang, dans le but de réduire les saignements.</CoagulatorRib.description>
+
+<RespirationRib.label>implant costal (respiratoire)</RespirationRib.label>
+<RespirationRib.description>Une côte artificielle qui fonctionne avec le diaphragme pour aider à réguler le schéma respiratoire pour une efficacité accrue et faire face au stress.</RespirationRib.description>
+
+<WakeUpRib.label>implant costal (éveil)</WakeUpRib.label>
+<WakeUpRib.description>Une côte artificielle, équipée de petits distributeurs de réveil pour garder l'utilisateur éveillé et concentré.</WakeUpRib.description>
+
+</LanguageData>

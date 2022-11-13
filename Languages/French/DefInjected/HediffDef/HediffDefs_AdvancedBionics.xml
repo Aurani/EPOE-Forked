@@ -1,14 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-		
-   <AdvancedBionicHand.label>Main bionique avancée</AdvancedBionicHand.label>
-   <AdvancedBionicFoot.label>Pied bionique avancé</AdvancedBionicFoot.label>
-   <AdvancedBionicSpine.label>Colonne vertébrale avancée</AdvancedBionicSpine.label>
-   <AdvancedBionicJaw.label>Mâchoire bionique avancée</AdvancedBionicJaw.label>
-   <AdvancedBionicEar.label>Oreille bionique avancée</AdvancedBionicEar.label>
-   <AdvancedPowerArm.label>Bras puissant avancé</AdvancedPowerArm.label>
-   <AdvancedBionicLeg.label>Jambe bionique avancée</AdvancedBionicLeg.label>
-   <AdvancedBionicArm.label>Bras bionique avancé</AdvancedBionicArm.label>
-   <AdvancedBionicEye.label>Oeil bionique avancée</AdvancedBionicEye.label>
-	
+
+<AdvancedBionicEye.label>Oeil bionique avancé</AdvancedBionicEye.label>
+<AdvancedBionicEye.labelNoun>un Oeil bionique avancé</AdvancedBionicEye.labelNoun>
+<AdvancedBionicEye.description>Un Oeil bionique avancé installé.</AdvancedBionicEye.description>
+
+<AdvancedBionicArm.label>bras bionique avancé</AdvancedBionicArm.label>
+<AdvancedBionicArm.labelNoun>un bras bionique avancé</AdvancedBionicArm.labelNoun>
+<AdvancedBionicArm.description>Un bras bionique avancé installé.</AdvancedBionicArm.description>
+<AdvancedBionicArm.comps.0.tools.0.label>poing</AdvancedBionicArm.comps.0.tools.0.label>
+
+<AdvancedBionicLeg.label>jambe bionique avancée</AdvancedBionicLeg.label>
+<AdvancedBionicLeg.labelNoun>une jambe bionique avancée</AdvancedBionicLeg.labelNoun>
+<AdvancedBionicLeg.description>Une jambe bionique avancée installée.</AdvancedBionicLeg.description>
+
+<AdvancedBionicSpine.label>colonne vertébrale bionique avancée</AdvancedBionicSpine.label>
+<AdvancedBionicSpine.labelNoun>une colonne vertébrale bionique avancée</AdvancedBionicSpine.labelNoun>
+<AdvancedBionicSpine.description>Une colonne vertébrale bionique avancée installée.</AdvancedBionicSpine.description>
+
+<AdvancedBionicEar.label>oreille bionique avancée</AdvancedBionicEar.label>
+<AdvancedBionicEar.labelNoun>une oreille bionique avancée</AdvancedBionicEar.labelNoun>
+<AdvancedBionicEar.description>Une oreille bionique avancée installée.</AdvancedBionicEar.description>
+
+<AdvancedBionicHand.label>main bionique avancée</AdvancedBionicHand.label>
+<AdvancedBionicHand.labelNoun>une main bionique avancée</AdvancedBionicHand.labelNoun>
+<AdvancedBionicHand.description>Une main bionique avancée installée.</AdvancedBionicHand.description>
+<AdvancedBionicHand.comps.0.tools.0.label>poing</AdvancedBionicHand.comps.0.tools.0.label>
+
+<AdvancedBionicFoot.label>pied bionique avancé</AdvancedBionicFoot.label>
+<AdvancedBionicFoot.labelNoun>un pied bionique avancé</AdvancedBionicFoot.labelNoun>
+<AdvancedBionicFoot.description>Un pied bionique avancé installé.</AdvancedBionicFoot.description>
+
+<AdvancedBionicFinger.label>doigt bionique avancé</AdvancedBionicFinger.label>
+<AdvancedBionicFinger.labelNoun>un doigt bionique avancé</AdvancedBionicFinger.labelNoun>
+<AdvancedBionicFinger.description>Un doigt bionique avancé installé.</AdvancedBionicFinger.description>
+
+<AdvancedBionicToe.label>orteil bionique avancé</AdvancedBionicToe.label>
+<AdvancedBionicToe.labelNoun>un orteil bionique avancé</AdvancedBionicToe.labelNoun>
+<AdvancedBionicToe.description>Un orteil bionique avancé installé.</AdvancedBionicToe.description>
+
+<AdvancedBionicJaw.label>mâchoire bionique avancée</AdvancedBionicJaw.label>
+<AdvancedBionicJaw.labelNoun>une mâchoire bionique avancée</AdvancedBionicJaw.labelNoun>
+<AdvancedBionicJaw.description>Une mâchoire bionique avancée installée.</AdvancedBionicJaw.description>
+<AdvancedBionicJaw.comps.0.tools.0.label>dents</AdvancedBionicJaw.comps.0.tools.0.label>
+
+<AdvancedPowerArm.label>bras de puissance avancé</AdvancedPowerArm.label>
+<AdvancedPowerArm.labelNoun>un bras de puissance avancé</AdvancedPowerArm.labelNoun>
+<AdvancedPowerArm.description>Un bras de puissance avancé installé.</AdvancedPowerArm.description>
+<AdvancedPowerArm.comps.0.tools.0.label>griffe</AdvancedPowerArm.comps.0.tools.0.label>
+
+<ExoskeletonSuit.label>combinaison d'exosquelette</ExoskeletonSuit.label>
+<ExoskeletonSuit.labelNoun>un costume d'exosquelette</ExoskeletonSuit.labelNoun>
+<ExoskeletonSuit.description>Une combinaison d'exosquelette installée.</ExoskeletonSuit.description>
+
+<EPIA_ProtectiveExoskeleton.label>exosquelette de protection</EPIA_ProtectiveExoskeleton.label>
+<EPIA_ProtectiveExoskeleton.description>Un exosquelette de protection installé.</EPIA_ProtectiveExoskeleton.description>
+
+
+
+
 </LanguageData>

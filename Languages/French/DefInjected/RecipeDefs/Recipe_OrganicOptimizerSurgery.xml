@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPOE_OrganicOptimizing.label>Optimiser la partie naturelle du corps</EPOE_OrganicOptimizing.label>
+<EPOE_OrganicOptimizing.description>Améliorez et faites ressortir le potentiel d'une partie naturelle du corps avec les nanorobots d'optimisation organique, le chirurgien surveillant attentivement l'application initiale et les progrès.</EPOE_OrganicOptimizing.description>
+<EPOE_OrganicOptimizing.jobString>Optimisation de la partie naturelle du corps.</EPOE_OrganicOptimizing.jobString>
+
+<EPIA_OrganicOptimizing_Organ.label>Optimiser l'organe naturel</EPIA_OrganicOptimizing_Organ.label>
+<EPIA_OrganicOptimizing_Organ.description>Améliorez et faites ressortir le potentiel d'un organe naturel avec les nanorobots d'optimisation organique, le chirurgien surveillant attentivement l'application initiale et les progrès.</EPIA_OrganicOptimizing_Organ.description>
+<EPIA_OrganicOptimizing_Organ.jobString>Optimisation d'une partie naturelle du corps.</EPIA_OrganicOptimizing_Organ.jobString>
+
+<EPOE_InstinctOptimizingEyes.label>Améliorer la réactivité de la pupille</EPOE_InstinctOptimizingEyes.label>
+<EPOE_InstinctOptimizingEyes.description>Améliorez la réaction instinctive des yeux avec des nanobots optimisant l'instinct, améliorant la précision des frappes et des visées. Le chirurgien surveille attentivement l'application initiale et les progrès.</EPOE_InstinctOptimizingEyes.description>
+<EPOE_InstinctOptimizingEyes.jobString>Optimisation de la partie naturelle du corps.</EPOE_InstinctOptimizingEyes.jobString>
+
+<EPOE_InstinctOptimizingHands.label>Améliorer le réflexe des mains</EPOE_InstinctOptimizingHands.label>
+<EPOE_InstinctOptimizingHands.description>Améliorez la réaction instinctive des mains avec des nanobots optimisant l'instinct, améliorant la vitesse de visée, frappant avec une arme de mêlée et le travail répétitif général. avec le chirurgien surveillant attentivement l'application initiale et les progrès.</EPOE_InstinctOptimizingHands.description>
+<EPOE_InstinctOptimizingHands.jobString>Optimisation de la partie naturelle du corps.</EPOE_InstinctOptimizingHands.jobString>
+
+<EPOE_InstinctOptimizingFoot.label>Améliorer l'instinct agile</EPOE_InstinctOptimizingFoot.label>
+<EPOE_InstinctOptimizingFoot.description>Améliorez la réaction instinctive des pieds avec des nanobots optimisant l'instinct, améliorant la capacité à esquiver les attaques de mêlée entrantes. Le chirurgien surveille attentivement l'application initiale et les progrès.</EPOE_InstinctOptimizingFoot.description>
+<EPOE_InstinctOptimizingFoot.jobString>Optimisation de la partie naturelle du corps.</EPOE_InstinctOptimizingFoot.jobString>
+
+</LanguageData>

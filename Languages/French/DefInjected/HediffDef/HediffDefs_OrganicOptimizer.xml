@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPOE_OrganicOptimized.label>optimisé</EPOE_OrganicOptimized.label>
+<EPOE_OrganicOptimized.description>Une partie naturelle du corps optimisée à l'aide de nanobots d'optimisation organique.</EPOE_OrganicOptimized.description>
+<EPOE_OrganicOptimized.stages.0.label>Frais</EPOE_OrganicOptimized.stages.0.label>
+<EPOE_OrganicOptimized.stages.1.label>Adaptation</EPOE_OrganicOptimized.stages.1.label>
+<EPOE_OrganicOptimized.stages.2.label>Optimisation</EPOE_OrganicOptimized.stages.2.label>
+
+<EPOE_InstinctOptimizedEyes.label>pupille réactive améliorée</EPOE_InstinctOptimizedEyes.label>
+<EPOE_InstinctOptimizedEyes.description>Les yeux naturels sont optimisés à l'aide de nanobots optimisant l'instinct.</EPOE_InstinctOptimizedEyes.description>
+<EPOE_InstinctOptimizedEyes.stages.0.label>Frais</EPOE_InstinctOptimizedEyes.stages.0.label>
+<EPOE_InstinctOptimizedEyes.stages.1.label>Adaptation</EPOE_InstinctOptimizedEyes.stages.1.label>
+<EPOE_InstinctOptimizedEyes.stages.2.label>Optimisation</EPOE_InstinctOptimizedEyes.stages.2.label>
+
+<EPOE_InstinctOptimizedHand.label>réflexe de la main amélioré</EPOE_InstinctOptimizedHand.label>
+<EPOE_InstinctOptimizedHand.description>Les mains naturelles sont optimisées à l'aide de nanobots optimisant l'instinct.</EPOE_InstinctOptimizedHand.description>
+<EPOE_InstinctOptimizedHand.stages.0.label>Frais</EPOE_InstinctOptimizedHand.stages.0.label>
+<EPOE_InstinctOptimizedHand.stages.1.label>Adaptation</EPOE_InstinctOptimizedHand.stages.1.label>
+<EPOE_InstinctOptimizedHand.stages.2.label>Optimisation</EPOE_InstinctOptimizedHand.stages.2.label>
+
+<EPOE_InstinctOptimizedFoot.label>instinct agile</EPOE_InstinctOptimizedFoot.label>
+<EPOE_InstinctOptimizedFoot.description>Le pied naturel est optimisé à l'aide de nanobots optimisant l'instinct.</EPOE_InstinctOptimizedFoot.description>
+<EPOE_InstinctOptimizedFoot.stages.0.label>Frais</EPOE_InstinctOptimizedFoot.stages.0.label>
+<EPOE_InstinctOptimizedFoot.stages.1.label>Adaptation</EPOE_InstinctOptimizedFoot.stages.1.label>
+<EPOE_InstinctOptimizedFoot.stages.2.label>Optimisation</EPOE_InstinctOptimizedFoot.stages.2.label>
+
+</LanguageData>

@@ -1,12 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-		
-   <SimpleProstheticHand.label>Prothèse de main simple</SimpleProstheticHand.label>
-   <SimpleProstheticFoot.label>Prothèse de pied simple</SimpleProstheticFoot.label>
-   <ArtificialNose.label>Nez artificiel</ArtificialNose.label>
-   <HydraulicJaw.label>Mâchoire hydraulique</HydraulicJaw.label>
-   <ArtificialPelvis.label>Bassin artificiel</ArtificialPelvis.label>
-   <SimpleProstheticArm.label>Prothèse de bras simple</SimpleProstheticArm.label>
-   <SimpleProstheticLeg.label>Prothèse de jambe simple</SimpleProstheticLeg.label>
-   <GoldenEye.label>Oeil en or</GoldenEye.label>
+
+<GoldenEye.label>oeil doré</GoldenEye.label>
+<GoldenEye.description>Un oeil doré installé.</GoldenEye.description>
+
+<LightReceptor.label>récepteur de lumière</LightReceptor.label>
+<LightReceptor.description>Un récepteur de lumière installé.</LightReceptor.description>
+
+<SimpleSpine.label>Colonne vertébrale rudimentaire</SimpleSpine.label>
+<SimpleSpine.description>Une colonne vertébrale rudimentaire installée.</SimpleSpine.description>
+
+<SimpleProstheticHand.label>main prothétique</SimpleProstheticHand.label>
+<SimpleProstheticHand.description>Une main prothétique installée.</SimpleProstheticHand.description>
+<SimpleProstheticHand.comps.0.tools.0.label>poing</SimpleProstheticHand.comps.0.tools.0.label>
+
+<SimpleProstheticFoot.label>pied prothétique</SimpleProstheticFoot.label>
+<SimpleProstheticFoot.description>Un pied prothétique installé.</SimpleProstheticFoot.description>
+
+<SimpleProstheticFinger.label>doigt prothétique</SimpleProstheticFinger.label>
+<SimpleProstheticFinger.labelNoun>un doigt prothétique</SimpleProstheticFinger.labelNoun>
+<SimpleProstheticFinger.description>Un doigt prothétique installé.</SimpleProstheticFinger.description>
+
+<SimpleProstheticToe.label>orteil prothétique</SimpleProstheticToe.label>
+<SimpleProstheticToe.labelNoun>un orteil prothétique</SimpleProstheticToe.labelNoun>
+<SimpleProstheticToe.description>Une prothèse d'orteil installée.</SimpleProstheticToe.description>
+
+<HydraulicJaw.label>mâchoire hydraulique</HydraulicJaw.label>
+<HydraulicJaw.description>Une mâchoire hydraulique installée.</HydraulicJaw.description>
+<HydraulicJaw.comps.0.tools.0.label>dents</HydraulicJaw.comps.0.tools.0.label>
+
+<ArtificialNose.label>nez artificiel</ArtificialNose.label>
+<ArtificialNose.description>Un nez artificiel installé.</ArtificialNose.description>
+
+<ReplacementRadius.label>radius artificiel</ReplacementRadius.label>
+<ReplacementRadius.description>Un radius artificiel installé.</ReplacementRadius.description>
+
+<EPOE_ScytherBlade.label>lame d'inciseur</EPOE_ScytherBlade.label>
+<EPOE_ScytherBlade.description>Une lame d'inciseur installée.</EPOE_ScytherBlade.description>
+
 </LanguageData>

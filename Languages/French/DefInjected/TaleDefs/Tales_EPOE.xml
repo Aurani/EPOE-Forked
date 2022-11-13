@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+<CoreTakeover.label>Reprise du coeur de l'IA</CoreTakeover.label>
+<CoreTakeover.rulePack.rulesStrings>
+	<li>tale_noun->[PAWN_nameDef] submergé par l'IA</li>
+	<li>image->[PAWN_nameFull] volant dans une rage folle [circumstance_group]</li>
+	<li>image->[PAWN_nameFull] devient follement, violemment fou [circumstance_group]</li>
+	<li>image->[PAWN_nameFull] trébuchant avec un regard psychotique sur le visage de [PAWN_possessive] [circumstance_group]</li>
+	<li>circumstance_phrase->en essayant de se déshabiller</li>
+	<li>circumstance_phrase->avec un regard désespéré sur le visage de [PAWN_possessive]</li>
+	<li>circumstance_phrase->alors que d'autres tremblent de peur</li>
+	<li>circumstance_phrase->alors qu'un ami s'enfuit</li>
+	<li>circumstance_phrase->à cause du cœur de l'IA</li>
+	<li>circumstance_phrase->tout en essayant de lutter contre elle</li>
+	<li>desc_sentence->[PAWN_pronoun] perd le contrôle de l'IA dans la tête de [PAWN_possessive].</li>
+	<li>desc_sentence->[PAWN_possessive] les dents sont mises à nu dans un grondement mortel.</li>
+	<li>desc_sentence->[PAWN_possessive] les yeux brillent d'un rouge vif.</li>
+	<li>desc_sentence->Des crachats sortent de la bouche de [PAWN_possessive] alors que [PAWN_possessive] hurle avec une rage et une douleur insensées.</li>
+	<li>desc_sentence->[PAWN_pronoun] a perdu une partie des vêtements de [PAWN_possessive].</li>
+	<li>desc_sentence->[PAWN_pronoun] grimace de misère.</li>
+	<li>desc_sentence->[PAWN_pronoun] a perdu le contrôle de son corps.</li>
+	<li>desc_sentence->[PAWN_pronoun] est représenté avec le visage hargneux d'un [Animal].</li>
+	<li>desc_sentence->[Animal] entoure symboliquement la tête de [PAWN_possessive].</li>
+	<li>desc_sentence->[PAWN_pronoun] a une lueur meurtrière dans l'œil de [PAWN_possessive].</li>
+	<li>desc_sentence->[PAWN_possessive] tout le corps semble trembler de haine.</li>
+	<li>desc_sentence->[PAWN_possessive] le visage est défini dans un regard de sérénité tordue.</li>
+	<li>desc_sentence->Une seule larme coule sur le visage de [PAWN_possessive].</li>
+</CoreTakeover.rulePack.rulesStrings>
+</LanguageData>

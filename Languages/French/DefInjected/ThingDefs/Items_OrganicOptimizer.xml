@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPOE_OrganicOptimizingNanobots.label>nanobots d'optimisation biologique</EPOE_OrganicOptimizingNanobots.label>
+<EPOE_OrganicOptimizingNanobots.description>Nanobots avancés qui aident à faire ressortir le plein potentiel du corps naturel. Il faut 3 jours pour que le processus se termine, nécessitant plus de repos et un apport alimentaire plus élevé. À la fin de ce processus exténuant, les nanobots se décomposent et se dissolvent, ne laissant aucune trace.\n\nLa personne moyenne l'acceptera, les puristes du corps seront ravis, tandis que les transhumanistes l'abhorrent complètement.\n\nL'efficacité partielle augmente lorsqu'elle est complètement développée après 3 jours : +15%</EPOE_OrganicOptimizingNanobots.description>
+
+<EPOE_InstinctOptimizingNanobots.label>l'instinct d'optimisation des nanobots</EPOE_InstinctOptimizingNanobots.label>
+<EPOE_InstinctOptimizingNanobots.description>Nanobots avancés qui aident le corps naturel à imprimer des séquences de réactions instinctives bénéfiques dans les tissus organiques. Il faut 4 jours pour que le processus complet se termine, nécessitant plus de repos et un apport alimentaire plus élevé. À la fin de ce processus exténuant, les nanobots se décomposent et se dissolvent, ne laissant aucune trace.
+Les transhumanistes détestent totalement ce changement. La pénalité d'humeur affichée dans les informations ne s'applique qu'aux transhumanistes.
+
+Améliorations lorsqu'elles sont complètement développées à partir des parties du corps suivantes après 4 jours :
+
+Yeux : +5 % d'efficacité partielle, +2,5 de précision de tir, -2,5 % de délai de visée, +1 chance de toucher en mêlée, +1 chance d'esquiver en mêlée.
+
+Mains : +5 % d'efficacité partielle, +5 % de vitesse de travail globale, +4 chances de toucher en mêlée, -7,5 % de délai de visée.
+
+Pieds : +5% d'efficacité partielle, +0,1 c/s de vitesse de déplacement, +5 chances d'esquive en mêlée.</EPOE_InstinctOptimizingNanobots.description>
+
+</LanguageData>

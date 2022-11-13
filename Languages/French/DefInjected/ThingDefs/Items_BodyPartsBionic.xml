@@ -1,39 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <PowerArm.label>Bras puissant</PowerArm.label>
-  <PowerArm.description>Un bras d'une force et d'une dexterité sans précédent, avec une griffe rétractable. C'est l'évolution ultime !</PowerArm.description>
+<BionicHand.label>main bionique</BionicHand.label>
+<BionicHand.description>Une main artificielle avancée. Les mini-servos silencieux donnent une grande force, tandis que le lien nerveux biogel donne un contrôle exquis. Un système de guérison en treillis de poussière lui permet de se remettre des dommages. C'est mieux qu'une main biologique à presque tous les égards.</BionicHand.description>
 
-  <BionicHand.label>Main bionique</BionicHand.label>
-  <BionicHand.description>Permet à l'utilisateur d'effectuer des tâches encore plus rapidement qu'avec des mains ordinaires.</BionicHand.description>
+<BionicFoot.label>pied bionique</BionicFoot.label>
+<BionicFoot.description>Un pied artificiel avancé. Avec son lien nerveux au biogel, ses puissants mini-servos et son système de cicatrisation à base de poussière de treillis, il est meilleur qu'un pied biologique à presque tous les égards.</BionicFoot.description>
 
-  <BionicFoot.label>Pied bionique</BionicFoot.label>
-  <BionicFoot.description>Cette prothèse permet de marcher rapidement sans trébucher tout le temps.</BionicFoot.description>
+<BionicFinger.label>doigt bionique</BionicFinger.label>
+<BionicFinger.description>Un doigt artificiel avancé. Des capteurs délicats et des émetteurs sans fil à grande vitesse traversant le boîtier en plastacier épais mais léger garantissent une précision et une adhérence optimales, dépassant de loin celles d'un doigt biologique.</BionicFinger.description>
 
-  <BionicEar.label>Oreille bionique</BionicEar.label>
-  <BionicEar.description>Un dispositif avancé qui élargit la fonction de base du tympan.</BionicEar.description>
+<BionicToe.label>orteil bionique</BionicToe.label>
+<BionicToe.description>Un orteil artificiel avancé. Des capteurs délicats et des émetteurs sans fil à grande vitesse traversant le boîtier en plastacier épais mais léger rendent ces orteils inégalés en matière de mouvement et de contrôle, dépassant de loin ceux des orteils biologiques.</BionicToe.description>
 
-  <BionicJaw.label>Mâchoire bionique</BionicJaw.label>
-  <BionicJaw.description>En plus d'une dentition robuste, elle est équipée d'un modulateur de voix.</BionicJaw.description>
+<BionicJaw.label>mâchoire bionique</BionicJaw.label>
+<BionicJaw.description>Une mâchoire artificielle avancée. Les mini-servos silencieux donnent une grande force de la mâchoire, tandis qu'un modulateur de voix donne un réglage fin exquis à la parole. Un système de guérison en treillis de poussière lui permet de se remettre des dommages. C'est mieux qu'une mâchoire biologique à presque tous les égards.</BionicJaw.description>
 
-  <SilentJaw.label>Mâchoire silencieuse</SilentJaw.label>
-  <SilentJaw.description>Cette version de mâchoire bionique ne possède pas de modulateur de voix. Utile pour les patients plaintifs.</SilentJaw.description>
+<SilentJaw.label>mâchoire silencieuse</SilentJaw.label>
+<SilentJaw.description>Une mâchoire artificielle avancée. Les mini-servos silencieux donnent une grande force de mâchoire, mais cette version est livrée sans modulateur de voix. Un système de guérison en treillis de poussière lui permet de se remettre des dommages. Utile pour les patients abrasifs.</SilentJaw.description>
 
-  <BionicSpine.label>Colonne vertébrale bionique</BionicSpine.label>
-  <BionicSpine.description>Ce dispositif léger mais impressionant peut remplacer une colonne vertébrale endommagée. .</BionicSpine.description>
-
-  <MedicalRib.label>Côte (médicale)</MedicalRib.label>
-  <MedicalRib.description>Une côte artificielle équipée de petits filtres sanguins et de distributeurs d'antibiotiques pour maintenir l'utilisateur en bonne santé.</MedicalRib.description>
-
-  <DruggedRib.label>Côte (drogue)</DruggedRib.label>
-  <DruggedRib.description>Une côte artificielle équipée de petits distributeurs d'alcool pour maintenir l'utilisateur de bonne humeur.</DruggedRib.description>
-
-  <AdrenalineRib.label>Côte (adrénaline)</AdrenalineRib.label>
-  <AdrenalineRib.description>Une côte artificielle équipée de petits distributeurs d'adrénaline pour maintenir l'utilisateur éveillé.</AdrenalineRib.description>
-  
-	<ScytherBlade.label>Excroissance de faucheur</ScytherBlade.label>
-	<ScytherBlade.description>Substitut de main comprenant une lame comme protubérance. Pas très confortable, mais très efficace comme arme de mêlée.</ScytherBlade.description>
-	
-	
+<PowerArm.label>bras de puissance</PowerArm.label>
+<PowerArm.description>Un remplacement de bras orienté combat consistant en une main mécanique avec une griffe crochue sur chaque doigt. Il coupe profondément et il est assez fort pour écraser un crâne comme une main écrase un œuf. Les griffes peuvent être rétractées, ce qui les rend aussi utiles qu'une main naturelle pour les tâches non liées au combat.</PowerArm.description>
 
 </LanguageData>
