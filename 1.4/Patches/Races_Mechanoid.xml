@@ -18,7 +18,6 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="Mech_Scyther"]/butcherProducts</xpath>
 		<value>
 			<EPOE_DamagedScytherBlade>1</EPOE_DamagedScytherBlade>

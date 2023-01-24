@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>Defs/RecipeDef/addsHediff[text()="AdvancedPowerClaw"]</xpath>
-			</li>
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/HediffDef[defName="AdvancedPowerClaw" and @Name="EPIA_Debugged_AdvancedPowerClaw"]</xpath>
-			</li>
-		</operations>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/RecipeDef/addsHediff[text()="AdvancedPowerClaw"]</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/HediffDef[defName="AdvancedPowerClaw" and @Name="EPIA_Debugged_AdvancedPowerClaw"]</xpath>
+		</match>
 	</Operation>
 
 </Patch>

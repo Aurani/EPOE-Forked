@@ -2,7 +2,6 @@
 <Patch>
 
 	<Operation Class="PatchOperationReplace">
-		<success>Always</success>
 		<xpath>Defs/ThingDef[@Name="BodyPartBionicBase"]/recipeMaker/recipeUsers</xpath>
 		<value>
 			<recipeUsers>
