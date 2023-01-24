@@ -7,12 +7,15 @@
 <vat_epoeforked_directonly>Direct crafting only</vat_epoeforked_directonly>
 <vat_epoeforked_RemoveWorkbench>Remove workbench</vat_epoeforked_RemoveWorkbench>
 <vat_epoeforked_RemoveWorkbenchTip>Moves all recipes back to vanilla workbenches, existing workbenches of this mod will remain usable but no longer buildable.</vat_epoeforked_RemoveWorkbenchTip>
+<vat_epoeforked_ComponentCrafting>Remove component crafting from EPOE-Forked workbenches?</vat_epoeforked_ComponentCrafting>
+<vat_epoeforked_ComponentCraftingTip>EPOE-Forked workbenches do have the ability to craft components and advanced components. Ticking this option removes it.</vat_epoeforked_ComponentCraftingTip>
+
 
 <vat_epoeforked_TextureSpritesTitle>Textures and sprites</vat_epoeforked_TextureSpritesTitle>
 <vat_epoeforked_VanillaItemTextures>Use vanilla item textures for artifical body parts?</vat_epoeforked_VanillaItemTextures>
 <vat_epoeforked_VanillaItemTexturesTip>Disables EPOE-Forked's textures and revert to vanilla. If you use texture packs for these, ignore this setting.</vat_epoeforked_VanillaItemTexturesTip>
-<vat_epoeforked_VanillaBionicEyesFace>Use vanilla textures for bionic eyes for the face?</vat_epoeforked_VanillaBionicEyesFace>
-<vat_epoeforked_VanillaBionicEyesFaceTip>The affected eyes are bionic (vanilla), archotech (vanilla), advanced bionic and tactical bionic eye.</vat_epoeforked_VanillaBionicEyesFaceTip>
+<vat_epoeforked_VanillaBionicEyesFace>Remove textures for bionic eyes on the face?</vat_epoeforked_VanillaBionicEyesFace>
+<vat_epoeforked_VanillaBionicEyesFaceTip>The affected eyes are bionic (vanilla), archotech (vanilla), advanced bionic and tactical bionic eye. If you use texture packs for these, keep this setting off.</vat_epoeforked_VanillaBionicEyesFaceTip>
 
 <vat_epoeforked_OtherOptions>Miscellaneous options</vat_epoeforked_OtherOptions><vat_epoeforked_OrgansCanRotOption>Natural organs can rot, therefore needing refrigeration</vat_epoeforked_OrgansCanRotOption>
 <vat_epoeforked_OrgansCanRotOptionTip>Enables natural organs to have a timer to rot and disappear if not refrigerated.</vat_epoeforked_OrgansCanRotOptionTip>
@@ -28,8 +31,12 @@
 <vat_epoeforked_experimental>Experimental features</vat_epoeforked_experimental>
 <vat_epoeforked_LegacyMode>Legacy mode</vat_epoeforked_LegacyMode>
 <vat_epoeforked_LegacyModeTip>Legacy version for the production and material cost. Newer updates may make some features feel increasingly inconsistent with legacy version.</vat_epoeforked_LegacyModeTip>
+<vat_epoeforked_AddOldProstheticWorkbench>Add old prosthetic workbench</vat_epoeforked_AddOldProstheticWorkbench>
+<vat_epoeforked_AddOldProstheticWorkbenchTip>Re-adds the old prosthetic workbench and should move all prosthetic tier items to be made there.</vat_epoeforked_AddOldProstheticWorkbenchTip>
 <vat_epoeforked_EPOEMigration>Original EPOE migration mode</vat_epoeforked_EPOEMigration>
 <vat_epoeforked_EPOEMigrationTip>Enables "Original EPOE workbench (debug)", ready to convert into this mod's equivalent workbenches. Disable this once migration is completed or is not needed. No need to restart game if only turning this off.</vat_epoeforked_EPOEMigrationTip>
+
+
 
 <vat_epoeforked_ResetSettings>Reset settings</vat_epoeforked_ResetSettings>
 <vat_epoeforked_ResetToApplyReminder>Restarting game is required to apply any changes.</vat_epoeforked_ResetToApplyReminder>
@@ -37,5 +44,11 @@
 <!-- Removed in 1.3, but still exist in 1.2 -->
 <vat_epoeforked_WoodenPartsNeedResearch>Remove "Basic Prosthetics" research requirements for wooden prosthesis</vat_epoeforked_WoodenPartsNeedResearch>
 <vat_epoeforked_WoodenPartsNeedResearchTip>Vanilla does not need any research for wooden prosthetic like peg legs.</vat_epoeforked_WoodenPartsNeedResearchTip>
+
+<!-- 1.3 version and older -->
+<!--
+<vat_epoeforked_VanillaBionicEyesFace>Use vanilla textures for bionic eyes for the face?</vat_epoeforked_VanillaBionicEyesFace>
+<vat_epoeforked_VanillaBionicEyesFaceTip>The affected eyes are bionic (vanilla), archotech (vanilla), advanced bionic and tactical bionic eye.</vat_epoeforked_VanillaBionicEyesFaceTip>
+-->
 
 </LanguageData>
