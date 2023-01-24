@@ -8,6 +8,22 @@
 	</HugsLib.UpdateFeatureDef>
 
 	<HugsLib.UpdateFeatureDef ParentName="EPIA_UpdateFeatureBase">
+		<defName>EPOE_Forked_4_3_5</defName>
+		<assemblyVersion>4.3.5</assemblyVersion>
+		<content>XML Extensions options have been updated for reintroduction of the Legacy mode as an experimental feature. This mode changes the material costs away from vanilla, to the old EPOE costs, only for those items that were featured there.
+
+We would kindly like to remind players of the fact that EPOE-Forked did not change or "rebalanced" the material costs of bionics, and for the most part it is actually left untouched in the base game. However, the original EPOE did, with changing the advanced component costs into components for bionics, and massively increasing steel and plasteel costs.
+Legacy mode is to resemble these changes as closely as possible.
+
+|Patch notes:
+* XML Extensions options update: Legacy mode as an experimental option has been re-added.
+* New XML Extensions options to add back the old prosthetic workbench, as an experimental option.
+* New XML Extensions options for when the mod DE Surgery is used. Experimental option to disable EPOE-Forked patch that removes overlapping surgeries.
+
+</content>
+	</HugsLib.UpdateFeatureDef>
+
+	<HugsLib.UpdateFeatureDef ParentName="EPIA_UpdateFeatureBase">
 		<defName>EPOE_Forked_4_3_4</defName>
 		<assemblyVersion>4.3.4</assemblyVersion>
 		<content>A bug fix update to a config error that appears when using Medical System Expansion 2 mod, as well as preventing it from appearing again if another mod does a similar patching.

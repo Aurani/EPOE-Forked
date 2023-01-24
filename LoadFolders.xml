@@ -3,21 +3,22 @@
 	<v1.2>
 		<li>/</li>
 		<li IfModNotActive="tarojun.epoeforked.legacymode">1.2</li>
-		<li IfModActive="Ludeon.Rimworld.Royalty">OtherMods/Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">OtherMods/Royalty</li>
 		<li IfModActive="Imranfish.XMLExtensions">OtherMods/XML_Extensions_1.2</li>
 	</v1.2>
 	<v1.3>
 		<li>/</li>
 		<li>1.3</li>
 		<li IfModActive="Rah.RBSE, Rah.RBSEHC">OtherMods/RBSE</li>
-		<li IfModActive="Ludeon.Rimworld.Royalty">OtherMods/Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">OtherMods/Royalty</li>
 		<li IfModActive="Imranfish.XMLExtensions">OtherMods/XML_Extensions_1.3</li>
 	</v1.3>
 	<v1.4>
 		<li>/</li>
 		<li>1.4</li>
 		<li IfModActive="Rah.RBSE, Rah.RBSEHC">OtherMods/RBSE</li>
-		<li IfModActive="Ludeon.Rimworld.Royalty">OtherMods/Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">OtherMods/Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Biotech">OtherMods/Biotech</li>
 		<li IfModActive="Imranfish.XMLExtensions">OtherMods/XML_Extensions</li>
 	</v1.4>
 </loadFolders>

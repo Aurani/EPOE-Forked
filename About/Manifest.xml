@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>EPOE-Forked</identifier>
-    <version>4.3.4</version>
+    <version>4.3.5</version>
     <incompatibleWith>
         <li>ExpandedProstheticsandOrganEngineering</li>
     </incompatibleWith>

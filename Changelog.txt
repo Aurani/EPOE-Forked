@@ -1,3 +1,8 @@
+4.3.5 (22.1.23)
+* XML Extensions options update: Legacy mode as an experimental option has been re-added.
+* New XML Extensions options to add back the old prosthetic workbench, as an experimental option.
+* New XML Extensions options for when the mod DE Surgery is used. Experimental option to disable EPOE-Forked patch that removes overlapping surgeries.
+
 4.3.4 (12.11.22)
 * Apply a fix to a config error when Medical System Expansion 2 is used, and prevent other instances that can cause this to occur.
 
