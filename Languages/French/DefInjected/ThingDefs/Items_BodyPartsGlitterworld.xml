@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<TacticalCorneaImplant.label>implant de cornée tactique</TacticalCorneaImplant.label>
+<TacticalCorneaImplant.description>Un implant amélioré qui fournit à l'utilisateur des informations supplémentaires sur les cibles potentielles et suggère un angle de tir parfait.</TacticalCorneaImplant.description>
+
+<ConstructorCore.label>IA auxiliaire : construction</ConstructorCore.label>
+<ConstructorCore.description>Sur Glitterworlds, l'éducation et la formation ne sont plus nécessaires, même pour les travaux complexes. Les IA installées dans le cerveau communiquent en permanence avec l'utilisateur et agissent comme un guide. Nécessite des recherches sur la chirurgie cérébrale avant l'installation.</ConstructorCore.description>
+
+<FarmerCore.label>IA auxiliaire : agricole</FarmerCore.label>
+<FarmerCore.description>Sur Glitterworlds, l'éducation et la formation ne sont plus nécessaires, même pour les métiers complexes. Les IA installées dans le cerveau communiquent en permanence avec l'utilisateur et agissent comme un guide. Nécessite des recherches sur la chirurgie cérébrale avant l'installation.</FarmerCore.description>
+
+<MinerCore.label>IA auxiliaire : minage</MinerCore.label>
+<MinerCore.description>Sur Glitterworlds, l'éducation et la formation ne sont plus nécessaires, pas même pour les travaux complexes. Les IA installées dans le cerveau communiquent en permanence avec l'utilisateur et agissent comme un guide. Nécessite des recherches sur la chirurgie cérébrale avant l'installation.</MinerCore.description>
+
+<DoctorCore.label>IA auxiliaire : médicale</DoctorCore.label>
+<DoctorCore.description>Sur Glitterworlds, l'éducation et la formation ne sont plus nécessaires, même pour les métiers complexes. Les IA installées dans le cerveau communiquent en permanence avec l'utilisateur et agissent comme un guide. Nécessite des recherches sur la chirurgie cérébrale avant l'installation.</DoctorCore.description>
+
+<DiplomatCore.label>IA auxiliaire : diplomatique</DiplomatCore.label>
+<DiplomatCore.description>Sur Glitterworlds, l'éducation et la formation ne sont plus nécessaires, même pour les métiers complexes. Les IA installées dans le cerveau communiquent en permanence avec l'utilisateur et agissent comme un guide. Les chances de tomber dans un combat social sont considérablement réduites. Nécessite des recherches sur la chirurgie cérébrale avant l'installation.</DiplomatCore.description>
+
+<EPIA_AuxiliaryAI_Sharpshooter.label>IA auxiliaire : tireur d'élite</EPIA_AuxiliaryAI_Sharpshooter.label>
+<EPIA_AuxiliaryAI_Sharpshooter.description>Un système d'assistant d'IA de combat spécialisé conçu pour augmenter considérablement la précision de l'utilisateur, favorisant les armes à longue distance. En raison de la nature sophistiquée du système qui concentre et rationalise la plupart des processus cérébraux, il ne peut pas être utilisé avec d'autres IA auxiliaires.</EPIA_AuxiliaryAI_Sharpshooter.description>
+
+<EPIA_AuxiliaryAI_Commando.label>IA auxiliaire : commando</EPIA_AuxiliaryAI_Commando.label>
+<EPIA_AuxiliaryAI_Commando.description>Un système d'assistant d'IA de combat spécialisé conçu pour aider l'utilisateur à faire face aux pressions du combat. En raison de la nature sophistiquée du système qui concentre et rationalise la plupart des processus cérébraux, il ne peut pas être utilisé avec d'autres IA auxiliaires.</EPIA_AuxiliaryAI_Commando.description>
+
+<EPIA_AuxiliaryAI_Brawler.label>IA auxiliaire : bagarreur</EPIA_AuxiliaryAI_Brawler.label>
+<EPIA_AuxiliaryAI_Brawler.description>Un système d'IA spécialisé conçu à des fins de combat, aidant l'utilisateur en filtrant les signaux électriques et chimiques non pertinents envoyés au cerveau dans des situations à haut risque, augmentant ainsi les capacités de combat globales. En raison de la nature sophistiquée du système qui concentre et rationalise la plupart des processus cérébraux, il ne peut pas être utilisé avec d'autres IA auxiliaires.</EPIA_AuxiliaryAI_Brawler.description>
+
+<EPIA_TacticalBionicEye.label>oeil bionique tactique</EPIA_TacticalBionicEye.label>
+<EPIA_TacticalBionicEye.description>Un oeil bionique orienté combat Glitterworld qui fournit à l'utilisateur des informations supplémentaires sur les cibles potentielles et suggère un angle de tir parfait.</EPIA_TacticalBionicEye.description>
+
+</LanguageData>

@@ -1,28 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-   <GlassEye.label>Oeil de verre</GlassEye.label>
-   <GlassEye.description>Remplace un oeil manquant. Plus beau qu'un couvre-oeil.</GlassEye.description>
 
-   <CrystalEye.label>Oeil en cristal</CrystalEye.label>
-   <CrystalEye.description>Remplace un oeil manquant. C'est tellement beau que ç'en est une honte que vous ne puissiez vous voir dans un mirroir.</CrystalEye.description>
+<GoldenEye.label>oeil doré</GoldenEye.label>
+<GoldenEye.description>Une prothèse oculaire en or. Une façon exorbitante de couvrir un œil manquant.</GoldenEye.description>
 
-   <ArtificialNose.label>Nez artificiel</ArtificialNose.label>
-   <ArtificialNose.description>Remplace un nez manquant. Recouvre le trou dans le visage.</ArtificialNose.description>
+<LightReceptor.label>récepteur de lumière</LightReceptor.label>
+<LightReceptor.description>Une prothèse oculaire. Les nerfs optiques reçoivent une stimulation des capteurs de lumière et des processeurs de signaux, créant une sensation de vision. Ce n'est pas aussi bon qu'un œil naturel, mais c'est bien mieux que d'être aveugle.</LightReceptor.description>
 
-   <HydraulicJaw.label>Mâchoire hydraulique</HydraulicJaw.label>
-   <HydraulicJaw.description>Remplace une mâchoire manquante. Soyez prudent, ces dents sont d'une efficacité extrême !</HydraulicJaw.description>
+<SimpleSpine.label>colonne vertébrale rudimentaire</SimpleSpine.label>
+<SimpleSpine.description>Une prothèse vertébrale. Très avancé pour son époque, peut être considéré comme un prototype bionique précoce avec la première application sophistiquée de l'interface neurale dans une prothèse. Pourtant, il est inférieur à une vraie colonne vertébrale</SimpleSpine.description>
 
-   <SimpleProstheticHand.label>Prothèse de main simple</SimpleProstheticHand.label>
-   <SimpleProstheticHand.description>Remplace une main manquante. Beaucoup plus confortable et moins effrayant que la main-crochet.</SimpleProstheticHand.description>
+<SimpleProstheticHand.label>main prothétique</SimpleProstheticHand.label>
+<SimpleProstheticHand.description>Une prothèse de main. Bien qu'il lui manque une interface neurale, sa disposition complexe d'articulations internes lui permet d'imiter le mouvement naturel de manière assez convaincante. Pourtant, c'est inférieur à une vraie main.</SimpleProstheticHand.description>
 
-   <SimpleProstheticFoot.label>Prothèse de pied simple</SimpleProstheticFoot.label>
-   <SimpleProstheticFoot.description>Remplace un pied manquant. Pas pire qu'un pied en bois.</SimpleProstheticFoot.description>
+<SimpleProstheticFoot.label>pied prothétique</SimpleProstheticFoot.label>
+<SimpleProstheticFoot.description>Une prothèse de pied. Bien qu'il lui manque une interface neurale, sa disposition complexe d'articulations internes lui permet d'imiter le mouvement naturel de manière assez convaincante. Pourtant, il est inférieur à un vrai pied.</SimpleProstheticFoot.description>
 
-   <ArtificialPelvis.label>Bassin artificiel</ArtificialPelvis.label>
-   <ArtificialPelvis.description>Remplace un bassin artificiel. Plutôt utile si ramper n'est pas votre moyen de déplacement préféré.</ArtificialPelvis.description>
+<SimpleProstheticFinger.label>doigt prothétique</SimpleProstheticFinger.label>
+<SimpleProstheticFinger.description>Remplacement archaïque et grossier pour les doigts perdus. Pas terriblement efficace et certainement pas confortable, mais fait le travail.</SimpleProstheticFinger.description>
 
-   <GoldenEye.label>Oeil en or</GoldenEye.label>
-   <GoldenEye.description>Remplace un oeil manquant. C'est tellement beau que ç'en est une honte que vous ne puissiez vous voir dans un mirroir.</GoldenEye.description>
+<SimpleProstheticToe.label>orteil prothétique</SimpleProstheticToe.label>
+<SimpleProstheticToe.description>Remplacement archaïque et grossier des orteils perdus. Inefficaces et inconfortables, ils génèrent beaucoup de bruit en marchant, mais ils font le travail.</SimpleProstheticToe.description>
+
+<HydraulicJaw.label>mâchoire hydraulique</HydraulicJaw.label>
+<HydraulicJaw.description>Une prothèse de mâchoire. Bien qu'il lui manque une interface neurale, sa disposition complexe d'articulations internes lui permet d'imiter le mouvement naturel de manière assez convaincante. La nourriture est écrasée et mâchée plus efficacement, mais les détails les plus fins de la parole font légèrement défaut.</HydraulicJaw.description>
+
+<ArtificialNose.label>nez artificiel</ArtificialNose.label>
+<ArtificialNose.description>Une prothèse nasale. Utilisé pour couvrir l'endroit où se trouvait le nez manquant sur le visage.</ArtificialNose.description>
+
+<ReplacementRadius.label>radius artificiel</ReplacementRadius.label>
+<ReplacementRadius.description>Un remplacement pour le radius, un os dans l'avant-bras.</ReplacementRadius.description>
+
+<EPIA_ScytherBlade.label>lame d'inciseur</EPIA_ScytherBlade.label>
+<EPIA_ScytherBlade.description>Implant de main armé utilisant une lame télescopique. Récupéré et restauré à partir d'un mécanoïde inciseur mort. Pas très confortable, mais assez efficace comme arme à courte portée.</EPIA_ScytherBlade.description>
 
 </LanguageData>

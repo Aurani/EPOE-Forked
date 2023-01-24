@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPIA_RepairScar.label>réparer la cicatrice</EPIA_RepairScar.label>
+<EPIA_RepairScar.description>Réparer et enlever une cicatrice.</EPIA_RepairScar.description>
+<EPIA_RepairScar.jobString>Enlever la cicatrice.</EPIA_RepairScar.jobString>
+<EPIA_RepairScar.successfullyRemovedHediffMessage>{0} a réparé avec succès la cicatrice de {1}.</EPIA_RepairScar.successfullyRemovedHediffMessage>
+
+<SurgeryRemoveFrailty.label>soigner la fragilité</SurgeryRemoveFrailty.label>
+<SurgeryRemoveFrailty.description>Installer une armature neuromusculaire pour réparer la fragilité.</SurgeryRemoveFrailty.description>
+<SurgeryRemoveFrailty.jobString>Guérir la fragilité.</SurgeryRemoveFrailty.jobString>
+<SurgeryRemoveFrailty.successfullyRemovedHediffMessage>{0} a guéri avec succès la fragilité de {1}.</SurgeryRemoveFrailty.successfullyRemovedHediffMessage>
+
+<SurgeryRemoveBadBack.label>guérir le mal de dos</SurgeryRemoveBadBack.label>
+<SurgeryRemoveBadBack.description>Installer une armature neuromusculaire pour réparer un mal de dos.</SurgeryRemoveBadBack.description>
+<SurgeryRemoveBadBack.jobString>Guérir le mal de dos.</SurgeryRemoveBadBack.jobString>
+<SurgeryRemoveBadBack.successfullyRemovedHediffMessage>{0} a guéri avec succès le mal de dos de {1}.</SurgeryRemoveBadBack.successfullyRemovedHediffMessage>
+
+<EPOE_SurgeryRemoveDementia.label>guérir la démence</EPOE_SurgeryRemoveDementia.label>
+<EPOE_SurgeryRemoveDementia.description>Installer un framework neuro-cure pour traiter la démence.</EPOE_SurgeryRemoveDementia.description>
+<EPOE_SurgeryRemoveDementia.jobString>Traitement de la démence.</EPOE_SurgeryRemoveDementia.jobString>
+<EPOE_SurgeryRemoveDementia.successfullyRemovedHediffMessage>{0} a traité avec succès la démence de {1}.</EPOE_SurgeryRemoveDementia.successfullyRemovedHediffMessage>
+
+<EPOE_SurgeryRemoveAlzheimers.label>guérir Alzheimer</EPOE_SurgeryRemoveAlzheimers.label>
+<EPOE_SurgeryRemoveAlzheimers.description>Installer un framework neuro-cure pour traiter Alzheimer.</EPOE_SurgeryRemoveAlzheimers.description>
+<EPOE_SurgeryRemoveAlzheimers.jobString>Traitement d'Alzheimer.</EPOE_SurgeryRemoveAlzheimers.jobString>
+<EPOE_SurgeryRemoveAlzheimers.successfullyRemovedHediffMessage>{0} a traité avec succès la maladie d'Alzheimer de {1}.</EPOE_SurgeryRemoveAlzheimers.successfullyRemovedHediffMessage>
+
+<EPIA_RepairBrainScar.label>réparer une cicatrice cérébrale</EPIA_RepairBrainScar.label>
+<EPIA_RepairBrainScar.description>Réparer et enlever une cicatrice dans le cerveau.</EPIA_RepairBrainScar.description>
+<EPIA_RepairBrainScar.jobString>Retirer une cicatrice cérébrale.</EPIA_RepairBrainScar.jobString>
+<EPIA_RepairBrainScar.successfullyRemovedHediffMessage>{0} a réparé avec succès la cicatrice cérébrale de {1}.</EPIA_RepairBrainScar.successfullyRemovedHediffMessage>
+
+<EPIA_SurgeryRemoveChemicalDamageModerate.label>réparer les dommages chimiques</EPIA_SurgeryRemoveChemicalDamageModerate.label>
+<EPIA_SurgeryRemoveChemicalDamageModerate.description>Installer une armature neuromusculaire pour réparer les dommages chimiques.</EPIA_SurgeryRemoveChemicalDamageModerate.description>
+<EPIA_SurgeryRemoveChemicalDamageModerate.jobString>Réparer les dommages chimiques.</EPIA_SurgeryRemoveChemicalDamageModerate.jobString>
+<EPIA_SurgeryRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>{0} a réparé avec succès les dommages chimiques de {1}.</EPIA_SurgeryRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>
+
+<EPIA_SurgeryRemoveChemicalDamageSevere.label>soigner les dommages chimiques</EPIA_SurgeryRemoveChemicalDamageSevere.label>
+<EPIA_SurgeryRemoveChemicalDamageSevere.description>Installer une armature neuromusculaire pour réparer les dommages chimiques.</EPIA_SurgeryRemoveChemicalDamageSevere.description>
+<EPIA_SurgeryRemoveChemicalDamageSevere.jobString>Réparer les dommages chimiques.</EPIA_SurgeryRemoveChemicalDamageSevere.jobString>
+<EPIA_SurgeryRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>{0} a réparé avec succès les dommages chimiques de {1}.</EPIA_SurgeryRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>
+
+<EPIA_SurgeryBrainRemoveChemicalDamageModerate.label>soigner les dommages chimiques</EPIA_SurgeryBrainRemoveChemicalDamageModerate.label>
+<EPIA_SurgeryBrainRemoveChemicalDamageModerate.description>Installer un framework neuro-cure pour réparer les dommages chimiques dans le cerveau.</EPIA_SurgeryBrainRemoveChemicalDamageModerate.description>
+<EPIA_SurgeryBrainRemoveChemicalDamageModerate.jobString>Soin des dommages chimiques.</EPIA_SurgeryBrainRemoveChemicalDamageModerate.jobString>
+<EPIA_SurgeryBrainRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>{0} a réparé avec succès les dommages chimiques de {1}.</EPIA_SurgeryBrainRemoveChemicalDamageModerate.successfullyRemovedHediffMessage>
+
+<EPIA_SurgeryBrainRemoveChemicalDamageSevere.label>soigner les dommages chimiques</EPIA_SurgeryBrainRemoveChemicalDamageSevere.label>
+<EPIA_SurgeryBrainRemoveChemicalDamageSevere.description>Installer un framework neuro-cure pour réparer les dommages chimiques dans le cerveau.</EPIA_SurgeryBrainRemoveChemicalDamageSevere.description>
+<EPIA_SurgeryBrainRemoveChemicalDamageSevere.jobString>Soin des dommages chimiques.</EPIA_SurgeryBrainRemoveChemicalDamageSevere.jobString>
+<EPIA_SurgeryBrainRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>{0} a réparé avec succès les dommages chimiques de {1}.</EPIA_SurgeryBrainRemoveChemicalDamageSevere.successfullyRemovedHediffMessage>
+
+<EPIA_RestoreBones.label>Installer de l'os synthétique</EPIA_RestoreBones.label>
+<EPIA_RestoreBones.description>Installer un os synthétique pour restaurer l'os manquant.</EPIA_RestoreBones.description>
+<EPIA_RestoreBones.jobString>Restauration d'une partie du corps.</EPIA_RestoreBones.jobString>
+
+
+        <!-- Les définitions ci-dessous ne concernent que la version 1.2 et les versions antérieures. Ignorez et ne l'ajoutez pas pour 1.3 et au-delà. -->
+
+<EPIA_RestoreTorsoBones.label>Restaurer les os associés au torse</EPIA_RestoreTorsoBones.label>
+<EPIA_RestoreTorsoBones.description>Restaure les structures osseuses associées au torse, telles que le bassin, le sternum et la clavicule.</EPIA_RestoreTorsoBones.description>
+<EPIA_RestoreTorsoBones.jobString>Restauration d'une partie du corps.</EPIA_RestoreTorsoBones.jobString>
+
+</LanguageData>

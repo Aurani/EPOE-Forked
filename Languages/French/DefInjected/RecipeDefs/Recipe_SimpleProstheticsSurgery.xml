@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallGoldenEye.label>installer un oeil doré</InstallGoldenEye.label>
+<InstallGoldenEye.description>Installe un oeil doré.</InstallGoldenEye.description>
+<InstallGoldenEye.jobString>Installation d'un oeil doré.</InstallGoldenEye.jobString>
+
+<InstallLightReceptor.label>installer un récepteur de lumière</InstallLightReceptor.label>
+<InstallLightReceptor.description>Installe un récepteur de lumière.</InstallLightReceptor.description>
+<InstallLightReceptor.jobString>Installation du récepteur de lumière.</InstallLightReceptor.jobString>
+
+<InstallSimpleSpine.label>installer une colonne vertébrale rudimentaire</InstallSimpleSpine.label>
+<InstallSimpleSpine.description>Installe une colonne vertébrale rudimentaire.</InstallSimpleSpine.description>
+<InstallSimpleSpine.jobString>Installation d'une colonne vertébrale rudimentaire.</InstallSimpleSpine.jobString>
+
+<InstallSimpleProstheticHand.label>installer une main prothétique</InstallSimpleProstheticHand.label>
+<InstallSimpleProstheticHand.description>Installe une main prothétique.</InstallSimpleProstheticHand.description>
+<InstallSimpleProstheticHand.jobString>Installation de la main prothétique.</InstallSimpleProstheticHand.jobString>
+
+<InstallSimpleProstheticFoot.label>installer un pied prothétique</InstallSimpleProstheticFoot.label>
+<InstallSimpleProstheticFoot.description>Installe un pied prothétique.</InstallSimpleProstheticFoot.description>
+<InstallSimpleProstheticFoot.jobString>Installation du pied prothétique.</InstallSimpleProstheticFoot.jobString>
+
+<InstallSimpleProstheticFinger.label>installer une prothèse de doigt</InstallSimpleProstheticFinger.label>
+<InstallSimpleProstheticFinger.description>Installe un doigt prothétique.</InstallSimpleProstheticFinger.description>
+<InstallSimpleProstheticFinger.jobString>Installation d'un doigt prothétique.</InstallSimpleProstheticFinger.jobString>
+
+<InstallSimpleProstheticToe.label>installer une prothèse d'orteil</InstallSimpleProstheticToe.label>
+<InstallSimpleProstheticToe.description>Installe une prothèse d'orteil.</InstallSimpleProstheticToe.description>
+<InstallSimpleProstheticToe.jobString>Installer une prothèse d'orteil.</InstallSimpleProstheticToe.jobString>
+
+<InstallHydraulicJaw.label>installer une mâchoire hydraulique</InstallHydraulicJaw.label>
+<InstallHydraulicJaw.description>Installe une mâchoire hydraulique.</InstallHydraulicJaw.description>
+<InstallHydraulicJaw.jobString>Installation de la mâchoire hydraulique.</InstallHydraulicJaw.jobString>
+
+<InstallArtificialNose.label>installer un nez artificiel</InstallArtificialNose.label>
+<InstallArtificialNose.description>Installe un nez artificiel.</InstallArtificialNose.description>
+<InstallArtificialNose.jobString>Installer un nez artificiel.</InstallArtificialNose.jobString>
+
+<InstallReplacementRadius.label>installer un radius artificiel</InstallReplacementRadius.label>
+<InstallReplacementRadius.description>Installe un radius artificiel.</InstallReplacementRadius.description>
+<InstallReplacementRadius.jobString>Installation d'un radius artificiel.</InstallReplacementRadius.jobString>
+
+<InstallScytherBlade.label>installer une lame d'inciseur</InstallScytherBlade.label>
+<InstallScytherBlade.description>Installe un implant d'inciseur.</InstallScytherBlade.description>
+<InstallScytherBlade.jobString>Installation d'une lame d'inciseur.</InstallScytherBlade.jobString>
+
+<EPIA_RemoveScytherBlade.label>retirer une lame d'inciseur</EPIA_RemoveScytherBlade.label>
+<EPIA_RemoveScytherBlade.description>Retirez un implant d'inciseur.</EPIA_RemoveScytherBlade.description>
+<EPIA_RemoveScytherBlade.jobString>Retrait de la lame d'inciseur.</EPIA_RemoveScytherBlade.jobString>
+
+</LanguageData>

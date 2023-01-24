@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<CreateMedicalRib.label>assembler une côte (antibiotique)</CreateMedicalRib.label>
+<CreateMedicalRib.description>Remplir une prothèse costale vierge pour compléter un implant costal (antibiotique).</CreateMedicalRib.description>
+<CreateMedicalRib.jobString>Assemblage de la côte (antibiotique).</CreateMedicalRib.jobString>
+
+<CreateDruggedRib.label>assembler une côte (alcool)</CreateDruggedRib.label>
+<CreateDruggedRib.description>Remplir une prothèse costale vierge pour compléter un implant costal (alcool).</CreateDruggedRib.description>
+<CreateDruggedRib.jobString>Assemblage de la côte (alcool).</CreateDruggedRib.jobString>
+
+<CreateAdrenalineRib.label>assembler une côte (adrénaline)</CreateAdrenalineRib.label>
+<CreateAdrenalineRib.description>Remplir une prothèse costale vierge pour compléter un implant costal (adrénaline).</CreateAdrenalineRib.description>
+<CreateAdrenalineRib.jobString>Assemblage de la côte (adrénaline)</CreateAdrenalineRib.jobString>
+
+<CreatePainkillerRib.label>assembler une côte (anti-douleur)</CreatePainkillerRib.label>
+<CreatePainkillerRib.description>Remplir une prothèse costale vierge pour compléter un implant costal (anti-douleur).</CreatePainkillerRib.description>
+<CreatePainkillerRib.jobString>Assemblage de la côte (anti-douleur)</CreatePainkillerRib.jobString>
+
+<EPIA_UpgradeHeatingRib.label>assembler une côte (chauffant)</EPIA_UpgradeHeatingRib.label>
+<EPIA_UpgradeHeatingRib.description>Remplir une prothèse costale vierge pour compléter un implant costal (chauffant).</EPIA_UpgradeHeatingRib.description>
+<EPIA_UpgradeHeatingRib.jobString>Assemblage de la côte (chauffant)</EPIA_UpgradeHeatingRib.jobString>
+
+<EPIA_UpgradeCoolingRib.label>assembler une côte (refroidissement)</EPIA_UpgradeCoolingRib.label>
+<EPIA_UpgradeCoolingRib.description>Remplir une prothèse costale vierge pour compléter un implant costal (refroidissement).</EPIA_UpgradeCoolingRib.description>
+<EPIA_UpgradeCoolingRib.jobString>Assemblage de la côte (refroidissement)</EPIA_UpgradeCoolingRib.jobString>
+
+<CreateCoagulatorRib.label>assembler une côte (coagulateur)</CreateCoagulatorRib.label>
+<CreateCoagulatorRib.description>Remplir une prothèse costale vierge pour compléter un implant costal (coagulateur).</CreateCoagulatorRib.description>
+<CreateCoagulatorRib.jobString>Assemblage de la côte (coagulateur)</CreateCoagulatorRib.jobString>
+
+<CreateRespirationRib.label>assembler une côte (respiratoire)</CreateRespirationRib.label>
+<CreateRespirationRib.description>Assemblez deux prothèses costales vierges pour compléter un implant costal (respiratoire).</CreateRespirationRib.description>
+<CreateRespirationRib.jobString>Assemblage de la côte (respiratoire)</CreateRespirationRib.jobString>
+
+<CreateWakeUpRib.label>assembler une côte (éveil)</CreateWakeUpRib.label>
+<CreateWakeUpRib.description>Remplir une prothèse costale vierge pour compléter un implant costal (éveil).</CreateWakeUpRib.description>
+<CreateWakeUpRib.jobString>Assemblage de la côte (éveil)</CreateWakeUpRib.jobString>
+</LanguageData>

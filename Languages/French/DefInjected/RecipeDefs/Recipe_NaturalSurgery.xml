@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallNaturalEye.label>installer un oeil</InstallNaturalEye.label>
+<InstallNaturalEye.description>Installe un oeil.</InstallNaturalEye.description>
+<InstallNaturalEye.jobString>Installation d'un œil.</InstallNaturalEye.jobString>
+
+<InstallNaturalNose.label>installer un nez</InstallNaturalNose.label>
+<InstallNaturalNose.description>Installe un nez.</InstallNaturalNose.description>
+<InstallNaturalNose.jobString>Installer un nez.</InstallNaturalNose.jobString>
+
+<InstallNaturalEar.label>installer une oreille</InstallNaturalEar.label>
+<InstallNaturalEar.description>Installe une oreille.</InstallNaturalEar.description>
+<InstallNaturalEar.jobString>Installation d'une oreille.</InstallNaturalEar.jobString>
+
+<InstallNaturalJaw.label>installer une mâchoire</InstallNaturalJaw.label>
+<InstallNaturalJaw.description>Installe une mâchoire.</InstallNaturalJaw.description>
+<InstallNaturalJaw.jobString>Installation d'une mâchoire.</InstallNaturalJaw.jobString>
+
+<InstallNaturalStomach.label>installer un estomac</InstallNaturalStomach.label>
+<InstallNaturalStomach.description>Installe un estomac.</InstallNaturalStomach.description>
+<InstallNaturalStomach.jobString>Installation d'un estomac.</InstallNaturalStomach.jobString>
+
+<InstallNaturalArm.label>installer un bras</InstallNaturalArm.label>
+<InstallNaturalArm.description>Installe un bras.</InstallNaturalArm.description>
+<InstallNaturalArm.jobString>Installation d'un bras.</InstallNaturalArm.jobString>
+
+<InstallNaturalLeg.label>installer une jambe</InstallNaturalLeg.label>
+<InstallNaturalLeg.description>Installe une jambe.</InstallNaturalLeg.description>
+<InstallNaturalLeg.jobString>Installation d'une jambe.</InstallNaturalLeg.jobString>
+
+</LanguageData>

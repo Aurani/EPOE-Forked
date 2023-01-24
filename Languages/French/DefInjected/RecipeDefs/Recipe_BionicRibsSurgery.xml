@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallMedicalRib.label>installer un implant costal (antibiotique)</InstallMedicalRib.label>
+<InstallMedicalRib.description>Installe un implant costal (antibiotique).</InstallMedicalRib.description>
+<InstallMedicalRib.jobString>Installation d'un implant costal (antibiotique).</InstallMedicalRib.jobString>
+
+<InstallDruggedRib.label>installer un implant costal (alcool)</InstallDruggedRib.label>
+<InstallDruggedRib.description>Installe un implant costal (alcool).</InstallDruggedRib.description>
+<InstallDruggedRib.jobString>Installation d'un implant costal (alcool).</InstallDruggedRib.jobString>
+
+<InstallAdrenalineRib.label>installer un implant costal (adrénaline)</InstallAdrenalineRib.label>
+<InstallAdrenalineRib.description>Installe un implant costal (adrénaline).</InstallAdrenalineRib.description>
+<InstallAdrenalineRib.jobString>Installation d'un implant costal (adrénaline).</InstallAdrenalineRib.jobString>
+
+<InstallPainkillerRib.label>installer un implant costal (anti-douleur)</InstallPainkillerRib.label>
+<InstallPainkillerRib.description>Installe un implant costal (anti-douleur).</InstallPainkillerRib.description>
+<InstallPainkillerRib.jobString>Installation d'un implant costal (anti-douleur).</InstallPainkillerRib.jobString>
+
+<InstallHeaterRib.label>installer un implant costal (chauffant)</InstallHeaterRib.label>
+<InstallHeaterRib.description>Installe un implant costal (chauffant).</InstallHeaterRib.description>
+<InstallHeaterRib.jobString>Installation d'un implant costal (chauffant).</InstallHeaterRib.jobString>
+
+<InstallCoolerRib.label>installer un implant costal (refroidissement)</InstallCoolerRib.label>
+<InstallCoolerRib.description>Installe un implant costal (refroidissement)</InstallCoolerRib.description>
+<InstallCoolerRib.jobString>Installation d'un implant costal (refroidissement).</InstallCoolerRib.jobString>
+
+<InstallCoagulatorRib.label>installer un implant costal (coagulateur)</InstallCoagulatorRib.label>
+<InstallCoagulatorRib.description>Installe un implant costal (coagulateur)</InstallCoagulatorRib.description>
+<InstallCoagulatorRib.jobString>Installation d'un implant costal (coagulateur).</InstallCoagulatorRib.jobString>
+
+<InstallRespirationRib.label>installer un implant costal (respiratoire)</InstallRespirationRib.label>
+<InstallRespirationRib.description>Installe un implant costal (respiratoire)</InstallRespirationRib.description>
+<InstallRespirationRib.jobString>Installation d'un implant costal (respiratoire).</InstallRespirationRib.jobString>
+
+<InstallWakeUpRib.label>installer un implant costal (éveil)</InstallWakeUpRib.label>
+<InstallWakeUpRib.description>Installe un implant costal (éveil)</InstallWakeUpRib.description>
+<InstallWakeUpRib.jobString>Installation d'un implant costal (éveil).</InstallWakeUpRib.jobString>
+
+<RemoveMedicalRib.label>retirer l'implant costal (antibiotique)</RemoveMedicalRib.label>
+<RemoveMedicalRib.description>Retirer un implant costal (antibiotique).</RemoveMedicalRib.description>
+<RemoveMedicalRib.jobString>Retrait de l'implant costal.</RemoveMedicalRib.jobString>
+
+<RemoveDruggedRib.label>retirer l'implant costal (alcool)</RemoveDruggedRib.label>
+<RemoveDruggedRib.description>Retirer un implant costal (alcool).</RemoveDruggedRib.description>
+<RemoveDruggedRib.jobString>Retrait de l'implant costal.</RemoveDruggedRib.jobString>
+
+<RemoveAdrenalineRib.label>retirer l'implant costal (adrénaline)</RemoveAdrenalineRib.label>
+<RemoveAdrenalineRib.description>Retirer un implant costal (adrénaline).</RemoveAdrenalineRib.description>
+<RemoveAdrenalineRib.jobString>Retrait de l'implant costal.</RemoveAdrenalineRib.jobString>
+
+<RemovePainkillerRib.label>retirer l'implant costal (anti-douleur)</RemovePainkillerRib.label>
+<RemovePainkillerRib.description>Retirer un implant costal (anti-douleur).</RemovePainkillerRib.description>
+<RemovePainkillerRib.jobString>Retrait de l'implant costal.</RemovePainkillerRib.jobString>
+
+<RemoveHeaterRib.label>retirer l'implant costal (chauffant)</RemoveHeaterRib.label>
+<RemoveHeaterRib.description>Retirer un implant costal (chauffant).</RemoveHeaterRib.description>
+<RemoveHeaterRib.jobString>Retrait de l'implant costal.</RemoveHeaterRib.jobString>
+
+<RemoveCoolerRib.label>retirer l'implant costal (refroidissement)</RemoveCoolerRib.label>
+<RemoveCoolerRib.description>Retirer un implant costal (refroidissement).</RemoveCoolerRib.description>
+<RemoveCoolerRib.jobString>Retrait de l'implant costal.</RemoveCoolerRib.jobString>
+
+<RemoveCoagulatorRib.label>retirer l'implant costal (coagulateur)</RemoveCoagulatorRib.label>
+<RemoveCoagulatorRib.description>Retirer un implant costal (coagulateur).</RemoveCoagulatorRib.description>
+<RemoveCoagulatorRib.jobString>Retrait de l'implant costal.</RemoveCoagulatorRib.jobString>
+
+<RemoveRespirationRib.label>retirer l'implant costal (respiratoire)</RemoveRespirationRib.label>
+<RemoveRespirationRib.description>Retirer un implant costal (respiratoire).</RemoveRespirationRib.description>
+<RemoveRespirationRib.jobString>Retrait de l'implant costal.</RemoveRespirationRib.jobString>
+
+<RemoveWakeUpRib.label>retirer l'implant costal (éveil)</RemoveWakeUpRib.label>
+<RemoveWakeUpRib.description>Retirer un implant costal (éveil).</RemoveWakeUpRib.description>
+<RemoveWakeUpRib.jobString>Retrait de l'implant costal.</RemoveWakeUpRib.jobString>
+</LanguageData>

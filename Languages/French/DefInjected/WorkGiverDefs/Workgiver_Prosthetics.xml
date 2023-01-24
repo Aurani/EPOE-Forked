@@ -1,22 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <DoBillsTableSurrogates.verb>créer</DoBillsTableSurrogates.verb>
-  <DoBillsTableSurrogates.gerund>en train de créer</DoBillsTableSurrogates.gerund>
+<DoBillsBionicWorkbench.label>Prothèse bionique artisanale</DoBillsBionicWorkbench.label>
+<DoBillsBionicWorkbench.verb>assembler</DoBillsBionicWorkbench.verb>
+<DoBillsBionicWorkbench.gerund>assemblage</DoBillsBionicWorkbench.gerund>
 
-  <DoBillsTableSynthetics.verb>créer</DoBillsTableSynthetics.verb>
-  <DoBillsTableSynthetics.gerund>en train de créer</DoBillsTableSynthetics.gerund>
+<DoBillsTableOrgans.label>Imprimer les organes</DoBillsTableOrgans.label>
+<DoBillsTableOrgans.verb>imprimer</DoBillsTableOrgans.verb>
+<DoBillsTableOrgans.gerund>impression</DoBillsTableOrgans.gerund>
 
-  <DoBillsUpgradingStation.verb>améliorer</DoBillsUpgradingStation.verb>
-  <DoBillsUpgradingStation.gerund>en train d'améliorer</DoBillsUpgradingStation.gerund>
-
-  <DoBillsSimpleProstheticWorkbench.verb>assembler</DoBillsSimpleProstheticWorkbench.verb>
-  <DoBillsSimpleProstheticWorkbench.gerund>en train d'assembler</DoBillsSimpleProstheticWorkbench.gerund>
-
-  <DoBillsBasicProstheticWorkbench.verb>assembler</DoBillsBasicProstheticWorkbench.verb>
-  <DoBillsBasicProstheticWorkbench.gerund>en train d'assembler</DoBillsBasicProstheticWorkbench.gerund>
-
-  <DoBillsBionicWorkbench.verb>assembler</DoBillsBionicWorkbench.verb>
-  <DoBillsBionicWorkbench.gerund>en train d'assembler</DoBillsBionicWorkbench.gerund>
+<DoBillsSimpleProstheticWorkbench.label>Prothèse simple artisanale</DoBillsSimpleProstheticWorkbench.label>
+<DoBillsSimpleProstheticWorkbench.verb>assembler</DoBillsSimpleProstheticWorkbench.verb>
+<DoBillsSimpleProstheticWorkbench.gerund>assemblage</DoBillsSimpleProstheticWorkbench.gerund>
 
 </LanguageData>

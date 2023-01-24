@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<vat_epoeforked_craftingmethod>Méthodes de production :</vat_epoeforked_craftingmethod>
+<vat_epoeforked_normalcraft>Méthode de fabrication normale</vat_epoeforked_normalcraft>
+<vat_epoeforked_allowdirect>Autoriser la fabrication directe</vat_epoeforked_allowdirect>
+<vat_epoeforked_directonly>Fabrication directe uniquement</vat_epoeforked_directonly>
+<vat_epoeforked_RemoveWorkbench>Supprimer l'atelier</vat_epoeforked_RemoveWorkbench>
+<vat_epoeforked_RemoveWorkbenchTip>Déplace toutes les recettes vers les ateliers vanille, les ateliers existants de ce mod resteront utilisables mais ne pourront plus être construits.</vat_epoeforked_RemoveWorkbenchTip>
+
+<vat_epoeforked_TextureSpritesTitle>Textures et sprites</vat_epoeforked_TextureSpritesTitle>
+<vat_epoeforked_VanillaItemTextures>Utiliser des textures d'objets vanilla pour les parties artificielles du corps?</vat_epoeforked_VanillaItemTextures>
+<vat_epoeforked_VanillaItemTexturesTip>Désactive les textures d'EPOE-Forked et revient aux textures vanilla. Si vous utilisez des packs de textures pour ceux-ci, ignorez ce paramètre.</vat_epoeforked_VanillaItemTexturesTip>
+<vat_epoeforked_VanillaBionicEyesFace>Utiliser des textures vanilla pour les yeux bioniques pour le visage?</vat_epoeforked_VanillaBionicEyesFace>
+<vat_epoeforked_VanillaBionicEyesFaceTip>Les yeux affectés sont bioniques (vanilla), archotech (vanilla), bioniques avancés et bioniques tactiques.</vat_epoeforked_VanillaBionicEyesFaceTip>
+
+<vat_epoeforked_OtherOptions>Options diverses</vat_epoeforked_OtherOptions><vat_epoeforked_OrgansCanRotOption>Les organes naturels peuvent pourrir et nécessitent donc une réfrigération</vat_epoeforked_OrgansCanRotOption>
+<vat_epoeforked_OrgansCanRotOptionTip>Permet aux organes naturels d'avoir une minuterie pour pourrir et disparaître s'ils ne sont pas réfrigérés.</vat_epoeforked_OrgansCanRotOptionTip>
+<vat_epoeforked_EMP_Toggle>Supprimer la faiblesse EMP des implants de combat ajoutés par ce mod</vat_epoeforked_EMP_Toggle>
+<vat_epoeforked_EMP_ToggleTip>Les pions avec une IA auxiliaire basée sur le combat, un exosquelette protecteur et un noyau de personnage IA sont affaiblis lorsqu'ils sont touchés par l'EMP, cette option supprime cette faiblesse.</vat_epoeforked_EMP_ToggleTip>
+<vat_epoeforked_OptimizerThoughts_Transhumanists>Les transhumanistes ne se soucient pas des optimiseurs organiques et instinctifs</vat_epoeforked_OptimizerThoughts_Transhumanists>
+<vat_epoeforked_OptimizerThoughts_TranshumanistsTip>La description mentionnera toujours qu'ils les détestent, mais cela peut être ignoré car les statistiques ne le refléteront plus.</vat_epoeforked_OptimizerThoughts_TranshumanistsTip>
+<vat_epoeforked_ForcedLimbRemoval>Activer la chirurgie pour retirer directement les membres</vat_epoeforked_ForcedLimbRemoval>
+<vat_epoeforked_ForcedLimbRemovalTip>Pour vos besoins en matière de crime de guerre.</vat_epoeforked_ForcedLimbRemovalTip>
+<vat_epoeforked_RemoveTongueBeautyTag>Désactiver le patch d'EPOE-Forked pour supprimer l'opinion de défiguration due à l'absence de langue</vat_epoeforked_RemoveTongueBeautyTag>
+<vat_epoeforked_RemoveTongueBeautyTagTip>Toutes les parties du corps ajoutées aux mâchoires, y compris les prothèses du jeu de base, enlèvent techniquement la langue, mais l'opinion de défiguration se produit toujours. C'est pourquoi EPOE-Forked supprime l'étiquette de beauté liée à la langue.</vat_epoeforked_RemoveTongueBeautyTagTip>
+
+<vat_epoeforked_experimental>Fonctionnalités expérimentales</vat_epoeforked_experimental>
+<vat_epoeforked_LegacyMode>Mode hérité</vat_epoeforked_LegacyMode>
+<vat_epoeforked_LegacyModeTip>Version héritée pour la production et le coût des matériaux. Les nouvelles mises à jour peuvent rendre certaines fonctionnalités de plus en plus incohérentes avec l'ancienne version.</vat_epoeforked_LegacyModeTip>
+<vat_epoeforked_EPOEMigration>Mode de migration EPOE d'origine</vat_epoeforked_EPOEMigration>
+<vat_epoeforked_EPOEMigrationTip>Active "l'atelier EPOE d'origine (débogage)", prêt à être converti dans les ateliers équivalents de ce mod. Désactivez-le une fois que la migration est terminée ou n'est plus nécessaire. Pas besoin de redémarrer le jeu si vous désactivez uniquement cette option.</vat_epoeforked_EPOEMigrationTip>
+
+<vat_epoeforked_ResetSettings>Réinitialiser les paramètres</vat_epoeforked_ResetSettings>
+<vat_epoeforked_ResetToApplyReminder>Le redémarrage du jeu est nécessaire pour appliquer les modifications.</vat_epoeforked_ResetToApplyReminder>
+
+        <!-- Supprimé en 1.3, mais existe toujours en 1.2 -->
+<vat_epoeforked_WoodenPartsNeedResearch>Supprimer les exigences de recherche "Prothèses basiques" pour les prothèses en bois</vat_epoeforked_WoodenPartsNeedResearch>
+<vat_epoeforked_WoodenPartsNeedResearchTip>Vanilla n'a pas besoin de recherche pour les prothèses en bois comme les pattes de cheville.</vat_epoeforked_WoodenPartsNeedResearchTip>
+
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<EPOE_DamagedScytherBlade.label>lame d'inciseur endommagée</EPOE_DamagedScytherBlade.label>
+<EPOE_DamagedScytherBlade.description>Une lame endommagée récupérée sur un mécanoïde inciseur mort. Pas très utile dans son état actuel. Peut être restauré sur un établi prothétique ou fondu pour du plastacier.</EPOE_DamagedScytherBlade.description>
+
+<EPOE_MAAI_Chip.label>Puce MA-AI</EPOE_MAAI_Chip.label>
+<EPOE_MAAI_Chip.description>Puce d'IA d'assistant médical. Utilisé comme composant spécialisé dans les implants avancés et délicats, avec un système d'IA capable de gérer tous les processus complexes de l'appareil sans alourdir l'utilisateur.</EPOE_MAAI_Chip.description>
+
+</LanguageData>

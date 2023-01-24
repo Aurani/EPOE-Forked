@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallTacticalCorneaImplant.label>installer un implant de cornée tactique</InstallTacticalCorneaImplant.label>
+<InstallTacticalCorneaImplant.description>Installe l'implant de cornée tactique.</InstallTacticalCorneaImplant.description>
+<InstallTacticalCorneaImplant.jobString>Installation d'un implant de cornée tactique.</InstallTacticalCorneaImplant.jobString>
+
+<InstallConstructorCore.label>installer l'IA auxiliaire : construction</InstallConstructorCore.label>
+<InstallConstructorCore.description>Installe l'IA auxiliaire : construction.</InstallConstructorCore.description>
+<InstallConstructorCore.jobString>Installation de l'IA auxiliaire : construction.</InstallConstructorCore.jobString>
+
+<InstallFarmerCore.label>installer l'IA auxiliaire : agricole</InstallFarmerCore.label>
+<InstallFarmerCore.description>Installe l'IA auxiliaire : agricole.</InstallFarmerCore.description>
+<InstallFarmerCore.jobString>Installation de l'IA auxiliaire : agricole.</InstallFarmerCore.jobString>
+
+<InstallMinerCore.label>installer l'IA auxiliaire : minage</InstallMinerCore.label>
+<InstallMinerCore.description>Installe l'IA auxiliaire : minage.</InstallMinerCore.description>
+<InstallMinerCore.jobString>Installation de l'IA auxiliaire : minage.</InstallMinerCore.jobString>
+
+<InstallDoctorCore.label>installer l'IA auxiliaire : médicale</InstallDoctorCore.label>
+<InstallDoctorCore.description>Installe l'IA auxiliaire : médicale.</InstallDoctorCore.description>
+<InstallDoctorCore.jobString>Installation de l'IA auxiliaire : médicale.</InstallDoctorCore.jobString>
+
+<InstallDiplomatCore.label>installer l'IA auxiliaire : diplomatique</InstallDiplomatCore.label>
+<InstallDiplomatCore.description>Installe l'IA auxiliaire : diplomatique.</InstallDiplomatCore.description>
+<InstallDiplomatCore.jobString>Installation de l'IA auxiliaire : diplomatique.</InstallDiplomatCore.jobString>
+
+<EPIA_InstallAuxiliaryAI_Sharpshooter.label>installer l'IA auxiliaire : tireur d'élite</EPIA_InstallAuxiliaryAI_Sharpshooter.label>
+<EPIA_InstallAuxiliaryAI_Sharpshooter.description>Installe l'IA auxiliaire : tireur d'élite.</EPIA_InstallAuxiliaryAI_Sharpshooter.description>
+<EPIA_InstallAuxiliaryAI_Sharpshooter.jobString>Installation de l'IA auxiliaire : tireur d'élite.</EPIA_InstallAuxiliaryAI_Sharpshooter.jobString>
+
+<EPIA_InstallAuxiliaryAI_Commando.label>installer l'IA auxiliaire : commando</EPIA_InstallAuxiliaryAI_Commando.label>
+<EPIA_InstallAuxiliaryAI_Commando.description>Installe l'IA auxiliaire : commando.</EPIA_InstallAuxiliaryAI_Commando.description>
+<EPIA_InstallAuxiliaryAI_Commando.jobString>Installation de l'IA auxiliaire : commando.</EPIA_InstallAuxiliaryAI_Commando.jobString>
+
+<EPIA_InstallAuxiliaryAI_Brawler.label>installer l'IA auxiliaire : bagarreur</EPIA_InstallAuxiliaryAI_Brawler.label>
+<EPIA_InstallAuxiliaryAI_Brawler.description>Installe l'IA auxiliaire : bagarreur.</EPIA_InstallAuxiliaryAI_Brawler.description>
+<EPIA_InstallAuxiliaryAI_Brawler.jobString>Installation de l'IA auxiliaire : bagarreur.</EPIA_InstallAuxiliaryAI_Brawler.jobString>
+
+<InstallAIPersonaCore.label>installer le noyau de personnalité de l'IA</InstallAIPersonaCore.label>
+<InstallAIPersonaCore.description>Installe le noyau de personnalité de l'IA.</InstallAIPersonaCore.description>
+<InstallAIPersonaCore.jobString>Installation du noyau de personnalité de l'IA.</InstallAIPersonaCore.jobString>
+
+<EPIA_InstallTacticalBionicEye.label>installer l'oeil bionique tactique</EPIA_InstallTacticalBionicEye.label>
+<EPIA_InstallTacticalBionicEye.description>Installe l'oeil bionique tactique.</EPIA_InstallTacticalBionicEye.description>
+<EPIA_InstallTacticalBionicEye.jobString>Installation de l'oeil bionique tactique.</EPIA_InstallTacticalBionicEye.jobString>
+
+<RemoveTacticalCorneaImplant.label>retirer l'implant de cornée tactique</RemoveTacticalCorneaImplant.label>
+<RemoveTacticalCorneaImplant.description>Retirer un implant de cornée tactique.</RemoveTacticalCorneaImplant.description>
+<RemoveTacticalCorneaImplant.jobString>Retrait de l'implant de cornée tactique.</RemoveTacticalCorneaImplant.jobString>
+
+<RemoveConstructorCore.label>supprimer l'IA auxiliaire : construction</RemoveConstructorCore.label>
+<RemoveConstructorCore.description>Supprimer l'IA auxiliaire : construction.</RemoveConstructorCore.description>
+<RemoveConstructorCore.jobString>Suppression de l'IA auxiliaire.</RemoveConstructorCore.jobString>
+
+<RemoveFarmerCore.label>supprimer l'IA auxiliaire : agricole</RemoveFarmerCore.label>
+<RemoveFarmerCore.description>Supprimer l'IA auxiliaire : agricole.</RemoveFarmerCore.description>
+<RemoveFarmerCore.jobString>Suppression de l'IA auxiliaire.</RemoveFarmerCore.jobString>
+
+<RemoveMinerCore.label>supprimer l'IA auxiliaire : minage</RemoveMinerCore.label>
+<RemoveMinerCore.description>Supprimer l'IA auxiliaire : minage.</RemoveMinerCore.description>
+<RemoveMinerCore.jobString>Suppression de l'IA auxiliaire.</RemoveMinerCore.jobString>
+
+<RemoveDoctorCore.label>supprimer l'IA auxiliaire : médicale</RemoveDoctorCore.label>
+<RemoveDoctorCore.description>Supprimer l'IA auxiliaire : médicale.</RemoveDoctorCore.description>
+<RemoveDoctorCore.jobString>Suppression de l'IA auxiliaire.</RemoveDoctorCore.jobString>
+
+<RemoveDiplomatCore.label>supprimer l'IA auxiliaire : diplomatique</RemoveDiplomatCore.label>
+<RemoveDiplomatCore.description>Supprimer l'IA auxiliaire : diplomatique.</RemoveDiplomatCore.description>
+<RemoveDiplomatCore.jobString>Suppression de l'IA auxiliaire.</RemoveDiplomatCore.jobString>
+
+<EPIA_RemoveAuxiliaryAI_Sharpshooter.label>supprimer l'IA auxiliaire : tireur d'élite</EPIA_RemoveAuxiliaryAI_Sharpshooter.label>
+<EPIA_RemoveAuxiliaryAI_Sharpshooter.description>Supprimer l'IA auxiliaire : tireur d'élite.</EPIA_RemoveAuxiliaryAI_Sharpshooter.description>
+<EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>Suppression de l'IA auxiliaire.</EPIA_RemoveAuxiliaryAI_Sharpshooter.jobString>
+
+<EPIA_RemoveAuxiliaryAI_Commando.label>supprimer l'IA auxiliaire : commando</EPIA_RemoveAuxiliaryAI_Commando.label>
+<EPIA_RemoveAuxiliaryAI_Commando.description>Supprimer l'IA auxiliaire : commando.</EPIA_RemoveAuxiliaryAI_Commando.description>
+<EPIA_RemoveAuxiliaryAI_Commando.jobString>Suppression de l'IA auxiliaire.</EPIA_RemoveAuxiliaryAI_Commando.jobString>
+
+<EPIA_RemoveAuxiliaryAI_Brawler.label>supprimer l'IA auxiliaire : bagarreur</EPIA_RemoveAuxiliaryAI_Brawler.label>
+<EPIA_RemoveAuxiliaryAI_Brawler.description>Supprimer l'IA auxiliaire : bagarreur.</EPIA_RemoveAuxiliaryAI_Brawler.description>
+<EPIA_RemoveAuxiliaryAI_Brawler.jobString>Suppression de l'IA auxiliaire.</EPIA_RemoveAuxiliaryAI_Brawler.jobString>
+
+</LanguageData>

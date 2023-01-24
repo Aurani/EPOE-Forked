@@ -1,10 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-		
-   <SteelArm.label>Bras en acier</SteelArm.label>
-   <EyePatch.label>Cache-oeil</EyePatch.label>
-   <HookHand.label>Main-crochet</HookHand.label>
-   <WoodenFoot.label>Pied en bois</WoodenFoot.label>
-	<denture.label>Dentier</denture.label>
-	<PegLeg.label>Jambe de bois</PegLeg.label>
+
+<HookHand.label>Main-crochet</HookHand.label>
+<HookHand.labelNoun>une main-crochet</HookHand.labelNoun>
+<HookHand.description>Une main crochet installée.</HookHand.description>
+<HookHand.comps.0.tools.0.label>main crochet</HookHand.comps.0.tools.0.label>
+
+<SteelArm.label>bras en acier</SteelArm.label>
+<SteelArm.labelNoun>un bras en acier</SteelArm.labelNoun>
+<SteelArm.description>Un bras en acier installé.</SteelArm.description>
+<SteelArm.comps.0.tools.0.label>poing</SteelArm.comps.0.tools.0.label>
+
+<EyePatch.label>cache-oeil</EyePatch.label>
+<EyePatch.labelNoun>un cache-oeil</EyePatch.labelNoun>
+<EyePatch.description>Un cache-oeil installé.</EyePatch.description>
+
+<EarBandage.label>bandage d'oreille</EarBandage.label>
+<EarBandage.labelNoun>un bandage auriculaire</EarBandage.labelNoun>
+<EarBandage.description>Un bandage auriculaire installé.</EarBandage.description>
+
 </LanguageData>

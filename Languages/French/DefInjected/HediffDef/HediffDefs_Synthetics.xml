@@ -1,11 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-		
-	<AIChip.label>Puce AI</AIChip.label>
-	<SyntheticLung.label>Poumon synthètique</SyntheticLung.label>
-	<SyntheticStomach.label>Estomac synthètique</SyntheticStomach.label>
-	<SyntheticLiver.label>Foie synthètique</SyntheticLiver.label>
-	<SyntheticKidney.label>Rein synthètique</SyntheticKidney.label>
-	<SyntheticHeart.label>Coeur synthètique</SyntheticHeart.label>
-	
+
+<BionicHeart.label>coeur synthétique</BionicHeart.label>
+<BionicHeart.labelNoun>un coeur synthétique</BionicHeart.labelNoun>
+<BionicHeart.description>Un coeur synthétique installé.</BionicHeart.description>
+
+<SyntheticLung.label>poumon synthétique</SyntheticLung.label>
+<SyntheticLung.labelNoun>un poumon synthétique</SyntheticLung.labelNoun>
+<SyntheticLung.description>Un poumon synthétique installé.</SyntheticLung.description>
+
+<BionicStomach.label>estomac synthétique</BionicStomach.label>
+<BionicStomach.labelNoun>un estomac synthétique</BionicStomach.labelNoun>
+<BionicStomach.description>Un estomac synthétique installé.</BionicStomach.description>
+
+<SyntheticLiver.label>foie synthétique</SyntheticLiver.label>
+<SyntheticLiver.labelNoun>un foie synthétique</SyntheticLiver.labelNoun>
+<SyntheticLiver.description>Un foie synthétique installé.</SyntheticLiver.description>
+
+<SyntheticKidney.label>rein synthétique</SyntheticKidney.label>
+<SyntheticKidney.labelNoun>un rein synthétique</SyntheticKidney.labelNoun>
+<SyntheticKidney.description>Un rein synthétique installé.</SyntheticKidney.description>
+
+<MuscleStimulatorArms.label>stimulateur musculaire</MuscleStimulatorArms.label>
+<MuscleStimulatorArms.description>Un stimulateur musculaire installé dans les bras.</MuscleStimulatorArms.description>
+
+<MuscleStimulatorLegs.label>stimulateur musculaire</MuscleStimulatorLegs.label>
+<MuscleStimulatorLegs.description>Un stimulateur musculaire installé dans les jambes.</MuscleStimulatorLegs.description>
+
+<AIChip.label>Puce IA</AIChip.label>
+<AIChip.labelNoun>une puce IA</AIChip.labelNoun>
+<AIChip.description>Une puce IA installée.</AIChip.description>
+
 </LanguageData>

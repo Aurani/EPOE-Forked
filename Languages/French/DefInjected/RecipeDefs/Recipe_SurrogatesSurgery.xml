@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<InstallSimpleProstheticHeart.label>installer un coeur de substitution</InstallSimpleProstheticHeart.label>
+<InstallSimpleProstheticHeart.description>Installe un coeur de substitution.</InstallSimpleProstheticHeart.description>
+<InstallSimpleProstheticHeart.jobString>Installation du coeur de substitution.</InstallSimpleProstheticHeart.jobString>
+
+<InstallSurrogateLung.label>installer un poumon de substitution</InstallSurrogateLung.label>
+<InstallSurrogateLung.description>Installe un poumon de substitution.</InstallSurrogateLung.description>
+<InstallSurrogateLung.jobString>Installation d'un poumon de substitution.</InstallSurrogateLung.jobString>
+
+<InstallSurrogateStomach.label>installer un estomac de substitution</InstallSurrogateStomach.label>
+<InstallSurrogateStomach.description>Installe un estomac de substitution.</InstallSurrogateStomach.description>
+<InstallSurrogateStomach.jobString>Installation de l'estomac de substitution.</InstallSurrogateStomach.jobString>
+
+<InstallSurrogateLiver.label>installer un foie de substitution</InstallSurrogateLiver.label>
+<InstallSurrogateLiver.description>Installe un foie de substitution.</InstallSurrogateLiver.description>
+<InstallSurrogateLiver.jobString>Installation du foie de substitution.</InstallSurrogateLiver.jobString>
+
+<InstallSurrogateKidney.label>installer un rein de substitution</InstallSurrogateKidney.label>
+<InstallSurrogateKidney.description>Installe un rein de substitution.</InstallSurrogateKidney.description>
+<InstallSurrogateKidney.jobString>Installation d'un rein de substitution.</InstallSurrogateKidney.jobString>
+
+<InstallBrainStimulator.label>installer un stimulateur cérébral</InstallBrainStimulator.label>
+<InstallBrainStimulator.description>Installe un stimulateur cérébral.</InstallBrainStimulator.description>
+<InstallBrainStimulator.jobString>Installation du stimulateur cérébral.</InstallBrainStimulator.jobString>
+
+<RemoveBrainStimulator.label>supprimer un stimulateur cérébral</RemoveBrainStimulator.label>
+<RemoveBrainStimulator.description>Supprime un stimulateur cérébral.</RemoveBrainStimulator.description>
+<RemoveBrainStimulator.jobString>Retire un stimulateur cérébral.</RemoveBrainStimulator.jobString>
+<RemoveBrainStimulator.successfullyRemovedHediffMessage>{0} a supprimé avec succès le stimulateur cérébral de {1}.</RemoveBrainStimulator.successfullyRemovedHediffMessage>
+
+</LanguageData>

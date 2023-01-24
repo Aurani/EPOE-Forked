@@ -1,22 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-   
-   <BrainStimulator.label>Stimulateur cérébral</BrainStimulator.label>
-   <BrainStimulator.description>Un petit dispositif qui fait de son mieux pour stimuler les zones du cerveau encore existantes. Recommandé seulement pour des lésions cérébrales graves.</BrainStimulator.description>
-   
-   <SurrogateLung.label>Poumon artificiel</SurrogateLung.label>
-   <SurrogateLung.description>Un poumon de remplacement rudimentaire. Fait un profond bruit de cliquetis.</SurrogateLung.description>
-   
-   <SurrogateStomach.label>Estomac artificiel</SurrogateStomach.label>
-   <SurrogateStomach.description>Un estomac de remplacement rudimentaire.</SurrogateStomach.description>
-   
-   <SurrogateLiver.label>Foie artificiel</SurrogateLiver.label>
-   <SurrogateLiver.description>Un filtre sanguin rudimentaire. A quelques problèmes pour maintenir le taux de sucre dans le sang de manière constante.</SurrogateLiver.description>
-   
-   <SurrogateKidney.label>Rein artificiel</SurrogateKidney.label>
-   <SurrogateKidney.description>Un rein de remplacement rudimentaire. Un de ses effets secondaires est de devenir pâle.</SurrogateKidney.description>
-   
-   <SurrogateHeart.label>Coeur artificiel</SurrogateHeart.label>
-   <SurrogateHeart.description>Une pompe plus ou moins puissante pour maintenir le flux sanguin.</SurrogateHeart.description>
-  
+
+<SurrogateLung.label>poumon de substitution</SurrogateLung.label>
+<SurrogateLung.description>Une prothèse pulmonaire. Il contient un moteur électrique qui dilate et contracte la prothèse pour les échanges gazeux, simulant la respiration. Les utilisateurs déclarent souvent se sentir fatigués, mais c'est mieux que l'alternative.</SurrogateLung.description>
+
+<SurrogateStomach.label>estomac de substitution</SurrogateStomach.label>
+<SurrogateStomach.description>Une prothèse d'estomac. Il contient des synthétiseurs chimiques qui peuvent digérer la plupart des aliments, leur force est limitée pour ne pas dissoudre la prothèse elle-même. C'est plutôt inefficace au travail, mais c'est mieux que l'alternative.</SurrogateStomach.description>
+
+<SurrogateLiver.label>foie de substitution</SurrogateLiver.label>
+<SurrogateLiver.description>Une prothèse hépatique. Il contient des synthétiseurs chimiques pour imiter le rôle du foie dans le métabolisme. Les utilisateurs déclarent souvent se sentir légèrement mal, mais c'est mieux que l'alternative.</SurrogateLiver.description>
+
+<SurrogateKidney.label>rein de substitution</SurrogateKidney.label>
+<SurrogateKidney.description>Une prothèse rénale. Il contient des filtres artificiels et élimine les déchets du sang. Les utilisateurs déclarent souvent se sentir légèrement mal, mais c'est mieux que l'alternative.</SurrogateKidney.description>
+
+<BrainStimulator.label>stimulateur cérébral</BrainStimulator.label>
+<BrainStimulator.description>Un petit appareil qui fait de son mieux pour stimuler les zones restantes du cerveau. Recommandé uniquement pour les lésions cérébrales graves. Nécessite des recherches sur la chirurgie cérébrale avant l'installation.</BrainStimulator.description>
+
 </LanguageData>

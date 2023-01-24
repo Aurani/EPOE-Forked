@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
-  <Leg.label>Jambe</Leg.label>
-  <Leg.description>Un long bâton charnu permettant de se déplacer.</Leg.description>
-  
-  <Arm.label>Bras</Arm.label>
-  <Arm.description>Un long bâton charnu permettant de transporter des choses.</Arm.description>
-  
-  <Stomach.label>Estomac</Stomach.label>
-  <Stomach.description>Digère la nourriture et la convertie en énergie et nutriments.</Stomach.description>
-  
-  <Eye.label>Oeil</Eye.label>
-  <Eye.description>Absorbe les lumières, ce qui permet à l'utilisateur de savoir ce qui est autour de lui.</Eye.description>
-  
-  <Nose.label>Nez</Nose.label>
-  <Nose.description>Un organe pratique permettant de distinguer les odeurs, s'appliquant en finalité à un visage.</Nose.description>
-  
-  <Ear.label>Oreille</Ear.label>
-  <Ear.description>Capte les vibrations dans l'air, permettant à l'utilisateur d'entendre les sons.</Ear.description>
-  
-  <Jaw.label>Mâchoire</Jaw.label>
-  <Jaw.description>Une bonne dentition pour mâcher du chewing-gum et discuter.</Jaw.description>
-  
+
+<Eye.label>globe oculaire</Eye.label>
+<Eye.description>Absorbe la lumière, ce qui permet à une personne de savoir ce qui l'entoure.</Eye.description>
+
+<Nose.label>nez</Nose.label>
+<Nose.description>Un organe assez utile pour distinguer les odeurs, applique la touche finale à un visage.</Nose.description>
+
+<Ear.label>oreille</Ear.label>
+<Ear.description>Capte les vibrations dans l'air, permettant aux gens d'entendre le son.</Ear.description>
+
+<Jaw.label>mâchoire</Jaw.label>
+<Jaw.description>Une belle dentition pour mâcher de la nourriture et parler.</Jaw.description>
+
+<Stomach.label>estomac</Stomach.label>
+<Stomach.description>Digère les aliments et les transforme en énergie et en nutriments.</Stomach.description>
+
+<Arm.label>bras</Arm.label>
+<Arm.description>Les bras sont comme les jambes, sauf que vous pouvez transporter des choses avec eux.</Arm.description>
+
+<Leg.label>jambe</Leg.label>
+<Leg.description>En gros, de longs bâtons charnus qui vous permettent de vous déplacer.</Leg.description>
+
 </LanguageData>

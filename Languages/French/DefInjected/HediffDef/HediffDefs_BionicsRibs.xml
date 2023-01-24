@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<MedicalRib.label>Côte (antibiotique)</MedicalRib.label>
+<MedicalRib.labelNoun>une côte (antibiotique)</MedicalRib.labelNoun>
+<MedicalRib.description>Un implant costal (antibiotique) installé.</MedicalRib.description>
+
+<DruggedRib.label>Côte (alcool)</DruggedRib.label>
+<DruggedRib.labelNoun>une côte (alcool)</DruggedRib.labelNoun>
+<DruggedRib.description>Un implant costal (alcool) installé.</DruggedRib.description>
+
+<AdrenalineRib.label>Côte (adrénaline)</AdrenalineRib.label>
+<AdrenalineRib.labelNoun>une côte (adrénaline)</AdrenalineRib.labelNoun>
+<AdrenalineRib.description>Un implant costal (adrénaline) installé.</AdrenalineRib.description>
+
+<PainkillerRib.label>Côte (anti-douleur)</PainkillerRib.label>
+<PainkillerRib.labelNoun>une côte (anti-douleur)</PainkillerRib.labelNoun>
+<PainkillerRib.description>Un implant costal (anti-douleur) installé.</PainkillerRib.description>
+
+<HeaterRib.label>Côte (chauffant)</HeaterRib.label>
+<HeaterRib.description>Un implant costal (chauffant) installé.</HeaterRib.description>
+
+<CoolerRib.label>Côte (refroidissement)</CoolerRib.label>
+<CoolerRib.description>Un implant costal (refroidissement) installé.</CoolerRib.description>
+
+<CoagulatorRib.label>Côte (coagulateur)</CoagulatorRib.label>
+<CoagulatorRib.description>Un implant costal (coagulateur) installé.</CoagulatorRib.description>
+
+<RespirationRib.label>Côte (respiratoire)</RespirationRib.label>
+<RespirationRib.description>Un implant costal (respiratoire) installé.</RespirationRib.description>
+
+<WakeUpRib.label>Côte (éveil)</WakeUpRib.label>
+<WakeUpRib.description>Un implant costal (éveil) installé.</WakeUpRib.description>
+
+</LanguageData>

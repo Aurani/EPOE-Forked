@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<!-- Debug recipes -->
+<!-- For the proper legacy translation version, check in Legacy\Languages\English\DefInjected\RecipeDefs\Recipe_Legacy -->
+
+
+<CreateBionicEye.label>Créer un oeil bionique</CreateBionicEye.label>
+<CreateBionicEye.description>Crée un oeil bionique.</CreateBionicEye.description>
+<CreateBionicEye.jobString>Création d'un oeil bionique.</CreateBionicEye.jobString>
+
+<CreateBionicLeg.label>Créer une jambe bionique</CreateBionicLeg.label>
+<CreateBionicLeg.description>Crée une jambe bionique.</CreateBionicLeg.description>
+<CreateBionicLeg.jobString>Création d'une jambe bionique.</CreateBionicLeg.jobString>
+
+<CreateBionicArm.label>Créer un bras bionique</CreateBionicArm.label>
+<CreateBionicArm.description>Crée un bras bionique.</CreateBionicArm.description>
+<CreateBionicArm.jobString>Création d'un bras bionique.</CreateBionicArm.jobString>
+
+<CreateBionicSpine.label>Créer une colonne vertébrale bionique</CreateBionicSpine.label>
+<CreateBionicSpine.description>Crée une colonne vertébrale bionique.</CreateBionicSpine.description>
+<CreateBionicSpine.jobString>Création d'une colonne vertébrale bionique.</CreateBionicSpine.jobString>
+
+<CreateBionicEar.label>Créer une oreille bionique</CreateBionicEar.label>
+<CreateBionicEar.description>Crée une oreille bionique.</CreateBionicEar.description>
+<CreateBionicEar.jobString>Création d'une oreille bionique.</CreateBionicEar.jobString>
+
+<CreateBionicHand.label>Créer une main bionique</CreateBionicHand.label>
+<CreateBionicHand.description>Crée une main bionique.</CreateBionicHand.description>
+<CreateBionicHand.jobString>Création d'une main bionique.</CreateBionicHand.jobString>
+
+<CreateBionicFoot.label>Créer un pied bionique</CreateBionicFoot.label>
+<CreateBionicFoot.description>Crée un pied bionique.</CreateBionicFoot.description>
+<CreateBionicFoot.jobString>Création d'un pied bionique.</CreateBionicFoot.jobString>
+
+<EPIA_UpgradeBionicFinger.label>Créer un doigt bionique</EPIA_UpgradeBionicFinger.label>
+<EPIA_UpgradeBionicFinger.description>Crée un doigt bionique.</EPIA_UpgradeBionicFinger.description>
+<EPIA_UpgradeBionicFinger.jobString>Création d'un doigt bionique.</EPIA_UpgradeBionicFinger.jobString>
+
+<EPIA_UpgradeBionicToe.label>Créer un orteil bionique</EPIA_UpgradeBionicToe.label>
+<EPIA_UpgradeBionicToe.description>Crée un orteil bionique.</EPIA_UpgradeBionicToe.description>
+<EPIA_UpgradeBionicToe.jobString>Création d'un orteil bionique.</EPIA_UpgradeBionicToe.jobString>
+
+<CreateBionicJaw.label>Créer une mâchoire bionique</CreateBionicJaw.label>
+<CreateBionicJaw.description>Crée une mâchoire bionique.</CreateBionicJaw.description>
+<CreateBionicJaw.jobString>Création d'une mâchoire bionique.</CreateBionicJaw.jobString>
+
+<CreateSilentJaw.label>Créer une mâchoire silencieuse</CreateSilentJaw.label>
+<CreateSilentJaw.description>Crée une mâchoire silencieuse.</CreateSilentJaw.description>
+<CreateSilentJaw.jobString>Création d'une mâchoire silencieuse.</CreateSilentJaw.jobString>
+
+<CreateSyntheticHeart.label>Créer un coeur synthétique</CreateSyntheticHeart.label>
+<CreateSyntheticHeart.description>Crée un coeur synthétique.</CreateSyntheticHeart.description>
+<CreateSyntheticHeart.jobString>Création d'un coeur synthétique.</CreateSyntheticHeart.jobString>
+
+<CreateSyntheticLung.label>Créer un poumon synthétique</CreateSyntheticLung.label>
+<CreateSyntheticLung.description>Crée un poumon synthétique.</CreateSyntheticLung.description>
+<CreateSyntheticLung.jobString>Création d'un poumon synthétique.</CreateSyntheticLung.jobString>
+
+<CreateSyntheticStomach.label>Créer un estomac synthétique</CreateSyntheticStomach.label>
+<CreateSyntheticStomach.description>Crée un estomac synthétique.</CreateSyntheticStomach.description>
+<CreateSyntheticStomach.jobString>Création d'un estomac synthétique.</CreateSyntheticStomach.jobString>
+
+<CreateSyntheticLiver.label>Créer un foie synthétique</CreateSyntheticLiver.label>
+<CreateSyntheticLiver.description>Crée un foie synthétique.</CreateSyntheticLiver.description>
+<CreateSyntheticLiver.jobString>Création d'un foie synthétique.</CreateSyntheticLiver.jobString>
+
+<CreateSyntheticKidney.label>Créer un rein synthétique</CreateSyntheticKidney.label>
+<CreateSyntheticKidney.description>Crée un rein synthétique.</CreateSyntheticKidney.description>
+<CreateSyntheticKidney.jobString>Création d'un rein synthétique.</CreateSyntheticKidney.jobString>
+
+</LanguageData>

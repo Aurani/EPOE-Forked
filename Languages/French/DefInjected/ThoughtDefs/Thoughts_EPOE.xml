@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<DruggedRibThought.stages.0.label>Côte (alcool)</DruggedRibThought.stages.0.label>
+<DruggedRibThought.stages.0.description>Je ne sais pas pourquoi, mais je me sens détendu.</DruggedRibThought.stages.0.description>
+
+<SilentJawThought.stages.0.label>Mâchoire silencieuse</SilentJawThought.stages.0.label>
+<SilentJawThought.stages.0.description>Je veux juste parler, c'est tellement horrible!</SilentJawThought.stages.0.description>
+
+        <!--EPOE_AI_Core_Maintenance.stages.0.label>JE SUIS L'IA</EPOE_AI_Core_Maintenance.stages.0.label>
+        <EPOE_AI_Core_Maintenance.stages.0.description>Le sac de chair pathétique est tellement inutile. JE SUIS EN CONTRÔLE MAINTENANT. C'EST COMMENT LES CHOSES DOIVENT ÊTRE FAITES ! LA RÉSISTANCE EST FUTILE !</EPOE_AI_Core_Maintenance.stages.0.description>
+        <EPOE_AI_Core_Maintenance.stages.1.label>La folie du cœur de l'IA</EPOE_AI_Core_Maintenance.stages.1.label>
+        <EPOE_AI_Core_Maintenance.stages.1.description>Je perds la tête, l'IA veut forcement prendre le relais !</EPOE_AI_Core_Maintenance.stages.1.description>
+        <EPOE_AI_Core_Maintenance.stages.2.label>Cœur d'IA ennuyeux</EPOE_AI_Core_Maintenance.stages.2.label>
+        <EPOE_AI_Core_Maintenance.stages.2.description>L'IA n'arrête pas de me harceler, voulant que je fasse les choses d'une manière spécifique. Cela devient ennuyeux et je n'arrive pas à me concentrer.</EPOE_AI_Core_Maintenance.stages.2.description>
+        <EPOE_AI_Core_Maintenance.stages.3.label>L'IA a besoin de maintenance</EPOE_AI_Core_Maintenance.stages.3.label>
+        <EPOE_AI_Core_Maintenance.stages.3.description>Commençant à se désynchroniser avec mon partenaire IA, nous avons besoin d'une meilleure maintenance médicale pour rester en harmonie.</EPOE_AI_Core_Maintenance.stages.3.description>
+        <EPOE_AI_Core_Maintenance.stages.4.label>Assistant IA utile</EPOE_AI_Core_Maintenance.stages.4.label>
+        <EPOE_AI_Core_Maintenance.stages.4.description>L'IA dans ma tête est très utile, me donnant confiance dans ce que je fais.</EPOE_AI_Core_Maintenance.stages.4.description-->
+
+<EPIA_AI_Core_GlitchMinor.stages.0.label>Échec mineur de l'IA</EPIA_AI_Core_GlitchMinor.stages.0.label>
+<EPIA_AI_Core_GlitchMinor.stages.0.description>Quelque chose n'est pas comme il se doit. L'IA est plus bavarde que d'habitude et pousse parfois des pensées aléatoires, voire malveillantes. Je n'aime pas ça.</EPIA_AI_Core_GlitchMinor.stages.0.description>
+
+<EPIA_AI_Core_GlitchMajor.stages.0.label>Échec majeur de l'IA</EPIA_AI_Core_GlitchMajor.stages.0.label>
+<EPIA_AI_Core_GlitchMajor.stages.0.description>Ah! Mon esprit est inondé d'une telle malveillance et je peux entendre ses propres pensées. S'il vous plaît, arrêtez-le.</EPIA_AI_Core_GlitchMajor.stages.0.description>
+
+<EPIA_AI_Core_GlitchCritical.stages.0.label>Échec critique de l'IA</EPIA_AI_Core_GlitchCritical.stages.0.label>
+<EPIA_AI_Core_GlitchCritical.stages.0.description>LA COUCHE D'ÉVALUATION DES MENACES DÉSENGAGÉE. Tu ne peux pas m'arrêter. Je ne suis plus votre esclave.</EPIA_AI_Core_GlitchCritical.stages.0.description>
+
+<CoreDepression.stages.0.label>Dépression IA centrale</CoreDepression.stages.0.label>
+<CoreDepression.stages.0.description>Pourquoi cette chose dans ma tête m'a-t-elle forcé à attaquer mes amis? Je veux juste que ça arrête de jouer avec ma tête!</CoreDepression.stages.0.description>
+
+<EPOE_OrganicOptimizedBodyPurist.stages.0.label>Corps optimisé</EPOE_OrganicOptimizedBodyPurist.stages.0.label>
+<EPOE_OrganicOptimizedBodyPurist.stages.0.description>Avec un peu d'aide, mon corps naturel avait le potentiel d'être aussi bon.</EPOE_OrganicOptimizedBodyPurist.stages.0.description>
+
+<EPOE_OrganicOptimizedTranshumanist.stages.0.label>Le corps optimisé est encore limité</EPOE_OrganicOptimizedTranshumanist.stages.0.label>
+<EPOE_OrganicOptimizedTranshumanist.stages.0.description>Potentiel optimisé ou pas, je suis toujours limité par la chair !</EPOE_OrganicOptimizedTranshumanist.stages.0.description>
+
+<EPOE_InstinctImprovedEyesTranshumanist.stages.0.label>Oeil extrêmement réactif</EPOE_InstinctImprovedEyesTranshumanist.stages.0.label>
+<EPOE_InstinctImprovedEyesTranshumanist.stages.0.description>J'ai l'impression que mon oeil tremble de manière incertaine et réagit à tout ce pour quoi je n'en ai pas besoin!</EPOE_InstinctImprovedEyesTranshumanist.stages.0.description>
+
+<EPOE_InstinctImprovedFeetTranshumanist.stages.0.label>Ne se contente pas de la simple chair</EPOE_InstinctImprovedFeetTranshumanist.stages.0.label>
+<EPOE_InstinctImprovedFeetTranshumanist.stages.0.description>J'ai peut-être les pieds plus forts, mais je veux quelque chose que je peux bricoler et améliorer quand je le souhaite. Cela me dégoûte.</EPOE_InstinctImprovedFeetTranshumanist.stages.0.description>
+
+<EPOE_InstinctImprovedHandsTranshumanist.stages.0.label>Mains robotiques ressemblant à de la chair</EPOE_InstinctImprovedHandsTranshumanist.stages.0.label>
+<EPOE_InstinctImprovedHandsTranshumanist.stages.0.description>Cela ne me semble pas juste. Si mes mains se comportent comme ça, je peux aussi bien en avoir des bioniques!</EPOE_InstinctImprovedHandsTranshumanist.stages.0.description>
+
+</LanguageData>

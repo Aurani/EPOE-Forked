@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<BasicProsthetics.label>Prothèses de base</BasicProsthetics.label>
+<BasicProsthetics.description>Comprendre la forme de base des différentes parties du corps et combiner ces connaissances avec le travail du bois de base, vous pouvez maintenant utiliser directement installer la prothèse de base.
+
+Les jambes en bois, les pieds en bois, les mains en bois, les prothèses dentaires, les cache-œil et les bandages auriculaires sont des chirurgies directes avec une seule bûche de bois ou textile.
+
+La main en crochet et le bras en acier sont fabriqués dans une forge.</BasicProsthetics.description>
+
+<AdvancedBionics.label>bionique avancée</AdvancedBionics.label>
+<AdvancedBionics.description>Améliorez les bioniques ordinaires pour les rendre encore meilleurs. Déverrouille de nouvelles recettes sur l'établi bionique.</AdvancedBionics.description>
+
+<RibReplacements.label>implants costaux</RibReplacements.label>
+<RibReplacements.description>En utilisant l'espace dans la cage thoracique, un nouveau concept d'implants avec des distributeurs pour libérer leur contenu à des doses contrôlées peut être placé ici.</RibReplacements.description>
+
+<SurrogateOrgans.label>organes de substitution</SurrogateOrgans.label>
+<SurrogateOrgans.description>Construire des organes prothétiques bon marché pour remplacer ceux perdus ou endommagés. Nécessite un médecin qualifié pour la transplantation.</SurrogateOrgans.description>
+
+<SyntheticOrgans.label>organes synthétiques</SyntheticOrgans.label>
+<SyntheticOrgans.description>Des recherches plus poussées en nanotechnologie vous permettent d'imprimer des organes artificiels incroyablement bien conçus.</SyntheticOrgans.description>
+
+<EPOE_SyntheticRepair.label>Réparation synthétique</EPOE_SyntheticRepair.label>
+<EPOE_SyntheticRepair.description>Des recherches plus poussées sur la nanotechnologie vous permettent d'imprimer des tissus et des nerfs artificiels incroyablement bien conçus pour aider à guérir les cicatrices, la fragilité et les maux de dos. Déverrouille les recettes de tissu synthétique et de cadre neuromusculaire sur la nano-imprimante synthétique.</EPOE_SyntheticRepair.description>
+
+<EPOE_NeurologicalTreatment.label>Traitement neurologique</EPOE_NeurologicalTreatment.label>
+<EPOE_NeurologicalTreatment.description>Des recherches approfondies sur la nanotechnologie vous permettent d'imprimer un kit de cadre incroyablement bien conçu composé de tissus cérébraux artificiels adaptables, de nerfs et de nanomachines pour aider à lutter contre la démence, la maladie d'Alzheimer, les dommages chimiques et les cicatrices dans le cerveau. Déverrouille la recette du cadre neuro-cure sur la nano-imprimante synthétique.\n\nLe cadre Neuro-cure ne guérit que la démence et la maladie d'Alzheimer, et ne l'empêche pas de réapparaître.</EPOE_NeurologicalTreatment.description>
+<EPOE_NeurologicalTreatment.discoveredLetterTitle>À propos : Cadre de neuro-cure</EPOE_NeurologicalTreatment.discoveredLetterTitle>
+<EPOE_NeurologicalTreatment.discoveredLetterText>Vous avez maintenant la technologie pour imprimer le cadre de neuro-cure - mais pour l'utiliser pour des opérations chirurgicales impliquant le cerveau, cela nécessitera la recherche sur la chirurgie cérébrale.</EPOE_NeurologicalTreatment.discoveredLetterText>
+
+<BrainSurgery.label>chirurgie du cerveau</BrainSurgery.label>
+<BrainSurgery.description>Vous permet d'effectuer une intervention chirurgicale sur le cerveau.</BrainSurgery.description>
+
+<EPOE_Glitterworld_Implants.label>Implants Glitterworld</EPOE_Glitterworld_Implants.label>
+<EPOE_Glitterworld_Implants.description>Permet de fabriquer des implants Glitterworld.</EPOE_Glitterworld_Implants.description>
+
+<EPOE_AIPersonaCoreImplant.label>Implant central d'IA persona</EPOE_AIPersonaCoreImplant.label>
+<EPOE_AIPersonaCoreImplant.description>Vous permet d'effectuer la chirurgie pour implanter un noyau de personnage d'IA dans le cerveau. Il fournit un puissant boost de conscience avec l'aide de l'IA, mais il nécessitera un entretien médical régulier pour éviter que l'IA ne devienne malveillante pour l'utilisateur.</EPOE_AIPersonaCoreImplant.description>
+
+<EPOE_OrganicOptimizer.label>Optimisation biologique</EPOE_OrganicOptimizer.label>
+<EPOE_OrganicOptimizer.description>Vous permet de développer des nanobots pour optimiser et faire ressortir le plein potentiel du corps naturel, spécialement conçu pour aider les puristes du corps.</EPOE_OrganicOptimizer.description>
+
+<EPOE_MAAIChip.label>Puce MA-AI</EPOE_MAAIChip.label>
+<EPOE_MAAIChip.description>Vous permet de fabriquer votre propre puce MA-AI (puce Assistant Médical-AI), sans avoir besoin de trouver un noyau de persona IA.</EPOE_MAAIChip.description>
+
+</LanguageData>
