@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[1.2] DE Surgeries</li>
+			<li>DE Surgeries</li>
+			<li>DE Surgeries Hard</li>
+		</mods>
+		<match Class="PatchOperationInsert">
+			<xpath>Defs/XmlExtensions.SettingsMenuDef[defName="EPOE_Forked_Menu"]/settings/li[@Class="XmlExtensions.Setting.Checkbox" and key="OriginalEPOE"]</xpath>
+			<order>Append</order>
+			<value>
+				<li Class="XmlExtensions.Setting.Checkbox">
+					<key>DE_SurgeryPatch</key>
+					<defaultValue>false</defaultValue>
+					<label>Disable patch that removes surgery overlaps with DE Surgery</label>
+					<tooltip>Warning: Disabling this will leave severe inconsistencies and overlaps that will bloat your surgery bill.</tooltip>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>vat.epoeforked</modId>
+		<key>DE_SurgeryPatch</key>
+		<defaultValue>false</defaultValue>
+		<caseFalse>
+			<Operation Class="PatchOperationFindMod">
+				<mods>
+					<li>[1.2] DE Surgeries</li>
+					<li>DE Surgeries</li>
+					<li>DE Surgeries Hard</li>
+				</mods>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="CureInjuryBurn" or
+						defName="CureInjuryChemicalBurn" or
+						defName="CureInjuryCrush" or
+						defName="CureInjuryCrack" or
+						defName="CureInjuryCut" or
+						defName="CureInjurySurgicalCut" or
+						defName="CureInjuryScratch" or
+						defName="CureInjuryBite" or
+						defName="CureInjuryStab" or
+						defName="CureInjuryGunshot" or
+						defName="CureInjuryShredded" or
+						defName="CureInjuryBruise" or
+						defName="CureInjuryFrostbite" or
+						defName="CureChronicFrail" or
+						defName="CureChronicBadBack" or
+						defName="RepairBonesClavicle" or
+						defName="RepairBonesPelvis" or
+						defName="RepairBonesSternum" or
+						defName="CureChronicDementia" or
+						defName="CureChronicAlzheimers"]</xpath>
+					<value>
+						<factionPrerequisiteTags>
+							<li>EPOE_Redundancy</li>
+						</factionPrerequisiteTags>
+						<recipeUsers Inherit="False" />
+					</value>
+				</match>
+			</Operation>
+		</caseFalse>
+	</Operation>
+
+</Patch>

@@ -43,7 +43,9 @@
 				<key>ComponentCrafting</key>
 				<defaultValue>false</defaultValue>
 				<label>Remove component crafting from EPOE-Forked workbenches?</label>
+				<tKey>vat_epoeforked_ComponentCrafting</tKey>
 				<tooltip>EPOE-Forked workbenches do have the ability to craft components and advanced components. Ticking this option removes it.</tooltip>
+				<tKeyTip>vat_epoeforked_ComponentCraftingTip</tKeyTip>
 			</li>
 			<li Class="XmlExtensions.Setting.GapLine" />
 			<li Class="XmlExtensions.Setting.Text">
@@ -116,14 +118,22 @@
 				<text>Experimental features</text>
 				<tKey>vat_epoeforked_experimental</tKey>
 			</li>
-			<!--li Class="XmlExtensions.Setting.Checkbox">
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>AddOldProstheticWorkbench</key>
+				<defaultValue>false</defaultValue>
+				<label>Add old prosthetic workbench</label>
+				<tKey>vat_epoeforked_AddOldProstheticWorkbench</tKey>
+				<tooltip>Re-adds the old prosthetic workbench and should move all prosthetic tier items to be made there.</tooltip>
+				<tKeyTip>vat_epoeforked_AddOldProstheticWorkbenchTip</tKeyTip>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>LegacyMode</key>
 				<defaultValue>false</defaultValue>
 				<label>Legacy mode</label>
 				<tKey>vat_epoeforked_LegacyMode</tKey>
 				<tooltip>Legacy version for the production and material cost. Newer updates may make some features feel increasingly inconsistent with legacy version.</tooltip>
 				<tKeyTip>vat_epoeforked_LegacyModeTip</tKeyTip>
-			</li-->
+			</li>
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>OriginalEPOE</key>
 				<defaultValue>true</defaultValue>

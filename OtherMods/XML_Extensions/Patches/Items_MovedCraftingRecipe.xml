@@ -3,6 +3,40 @@
 
 <Operation Class="XmlExtensions.OptionalPatch">
     <modId>vat.epoeforked</modId>
+    <key>AddOldProstheticWorkbench</key>
+    <defaultValue>false</defaultValue>
+	<caseTrue>
+		<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAttributeRemove">
+					<xpath>Defs/WorkGiverDef[defName="DoBillsSimpleProstheticWorkbench"]</xpath>
+					<attribute>Abstract</attribute>
+				</li>
+				<li Class="PatchOperationAttributeRemove">
+					<xpath>Defs/ThingDef[defName="TableSimpleProsthetic"]</xpath>
+					<attribute>Abstract</attribute>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[@Name="BodyPartProstheticMakeableBase"]/recipeMaker/recipeUsers</xpath>
+					<value>
+						<recipeUsers>
+							<li>TableSimpleProsthetic</li>
+						</recipeUsers>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="EPIA_ScrapProsthesis"]/recipeUsers</xpath>
+					<value>
+						<li>TableSimpleProsthetic</li>
+					</value>
+				</li>
+			</operations>
+		</Operation>
+    </caseTrue>
+</Operation>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>vat.epoeforked</modId>
     <key>RemoveWorkbench</key>
     <defaultValue>false</defaultValue>
 	<caseTrue>
@@ -19,40 +53,33 @@
 					<attribute>Inherit</attribute>
 				</li>
 				<li Class="PatchOperationAdd">
-					<success>Always</success>
 					<xpath>Defs/RecipeDef[@Name="RecipeBionicProsthesis"]/recipeUsers</xpath>
 					<value>
 						<li>FabricationBench</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<success>Always</success>
 					<xpath>Defs/RecipeDef[@Name="RecipeSurrogateOrgan"]/recipeUsers</xpath>
 					<value>
 						<li>TableMachining</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<success>Always</success>
 					<xpath>Defs/RecipeDef[@Name="RecipeSyntheticOrgan"]/recipeUsers</xpath>
 					<value>
 						<li>FabricationBench</li>
 					</value>
 				</li>
 				<li Class="PatchOperationRemove">
-					<success>Always</success>
 					<xpath>Defs/ThingDef[defName="TableBionics"]/designationCategory</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<success>Always</success>
 					<xpath>Defs/ThingDef[defName="TableOrgans"]/designationCategory</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<success>Always</success>
 					<xpath>Defs/ThingDef[defName="TableBionics"]/researchPrerequisites</xpath>
 				</li>
 				<li Class="PatchOperationRemove">
-					<success>Always</success>
 					<xpath>Defs/ThingDef[defName="TableOrgans"]/researchPrerequisites</xpath>
 				</li>
 			</operations>
