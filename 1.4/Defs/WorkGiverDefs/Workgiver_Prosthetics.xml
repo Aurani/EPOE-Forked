@@ -33,7 +33,7 @@
 		</requiredCapacities>
 	</WorkGiverDef>
 
-	<!--WorkGiverDef>
+	<WorkGiverDef Abstract="True">
 		<defName>DoBillsSimpleProstheticWorkbench</defName>
 		<label>Craft simple prosthesis</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
@@ -47,6 +47,6 @@
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
-	</WorkGiverDef-->
+	</WorkGiverDef>
 
 </Defs>

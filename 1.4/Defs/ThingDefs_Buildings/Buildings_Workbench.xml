@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<!--ThingDef ParentName="BenchBase">
+	<ThingDef ParentName="BenchBase" Abstract="True">
 		<defName>TableSimpleProsthetic</defName>
 		<label>prosthetic workbench</label>
 		<description>A workbench equipped for production of prosthesis.</description>
@@ -71,7 +71,7 @@
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
-	</ThingDef-->
+	</ThingDef>
 
 	<ThingDef ParentName="BenchBase">
 		<defName>TableBionics</defName>
